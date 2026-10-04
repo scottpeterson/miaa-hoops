@@ -582,7 +582,7 @@ def sport_section(sport):
 {this_week(sport)}
 
 <h2 id="{sport}-standings">Standings</h2>
-<p class="small">MIAA record first, then overall record. Before the first game the table is sorted by {"D3 Datacast's preseason efficiency rank" if sport == "mbb" else "The D3 Stat Lab's preseason rank"}. The NPI rank is last season's final rank until this season's games count. Official standings: {link("https://miaa.org/standings.aspx?path=" + ("mbball" if sport == "mbb" else "wbball"), "miaa.org")}.</p>
+<p class="small">MIAA record first, then overall record. Before the first game the table is sorted by {"D3 Datacast's preseason efficiency rank" if sport == "mbb" else "The D3 Stat Lab's preseason rank"}. The NPI rank is last season's final rank until this season's games count. Official standings: {link("https://miaa.org/standings.aspx?path=" + ("mbball" if sport == "mbb" else "wbball"), "miaa.org")}. Tournament dates and what is known about tiebreakers are <a href="#tournament">near the bottom of the page</a>.</p>
 {standings_table(sport)}
 
 <h2 id="{sport}-teams">The {count} teams</h2>
@@ -604,6 +604,68 @@ def sport_section(sport):
 <h2 id="{sport}-schedules">Schedules and results</h2>
 <p class="small">The All teams tab lists every game once; a conference game appears from the home team's side. Games before Friday, November 6 are exhibitions and do not count in the records. Opponent ranks come from the {esc(poll_label.split(",")[0])}.</p>
 {schedules(sport)}
+</section>'''
+
+
+# ---------------------------------------------------------------- tournament and tiebreakers
+
+def tournament_section():
+    """What is known about the 2027 MIAA Tournaments and the conference tiebreakers, with sources."""
+    det = link("https://miaa.org/sports/2024/5/29/Championship%20Determination.aspx", "Championship Determination page")
+    champs = link("https://miaa.org/sports/2025/8/5/miaa-championships-25-26.aspx", "2025-26 championships page")
+    tickets = link("https://www.miaa.org/landing/tickets", "MIAA tickets page")
+    tc_m = link("https://miaa.org/news/2024/2/18/2_18_2024_48.aspx", "2024 men's Tournament Central")
+    tc_w = link("https://miaa.org/news/2024/2/19/2_19_2024_128.aspx", "2024 women's Tournament Central")
+    olivet26 = link("https://www.olivetcomets.com/sports/mbkb/2025-26/26_MIAA_TOURNAMENT", "Olivet's 2026 men's tournament page")
+    hope23 = link("https://athletics.hope.edu/story.aspx?filename=miaa-womens-basketball-tournament-semifinal-preview&file_date=2/24/2023", "Hope release, February 24, 2023")
+    calvin24m = link("https://calvinknights.com/news/2024/2/18/calvin-mens-basketball-gains-no-2-seed-and-first-round-bye-for-miaa-tourney.aspx", "Calvin release, February 18, 2024")
+    calvin24w = link("https://calvinknights.com/news/2024/2/18/calvin-womens-basketball-gains-no-2-seed-and-first-round-bye-for-miaa-tournament.aspx", "Calvin release, February 18, 2024")
+    return f'''<section class="rules" id="tournament">
+<h2>2027 MIAA Tournaments</h2>
+<p class="small">Checked October 3, 2026. The MIAA has not published 2027 tournament dates, brackets, or hosts. What follows is last season's format and a projection from it.</p>
+<div class="rulegrid">
+<article class="rule">
+<h3>Format, from the 2025-26 tournaments</h3>
+<ul>
+<li>Six teams qualify. The top two seeds skip the first round. The higher seed hosts every game.</li>
+<li>Men: first round on Tuesday, semifinals on Friday, final on Saturday. Women: first round on Wednesday, semifinals on Friday, final on Saturday.</li>
+<li>The regular-season champion is the team with the best MIAA won-loss record. The tournament champion gets the conference's automatic bid to the NCAA Division III Championship.</li>
+</ul>
+<p class="small">Sources: the MIAA's {det} and {champs}, and {olivet26}.</p>
+</article>
+<article class="rule">
+<h3>Projected 2027 dates</h3>
+<p>The schedules on this page end on Saturday, February 20 and Sunday, February 21, 2027. If the MIAA keeps the 2026 pattern, the tournaments fall on these days. None of this is confirmed.</p>
+<ul>
+<li>Men: first round Tuesday, February 23; semifinals Friday, February 26; final Saturday, February 27, 2027.</li>
+<li>Women: first round Wednesday, February 24; semifinals Friday, February 26; final Saturday, February 27, 2027.</li>
+</ul>
+<p class="small">When the MIAA posts a Tournament Central page, it will look like the {tc_m} and {tc_w} pages, with a bracket PDF, a program, and host information. Tickets go through the {tickets}.</p>
+</article>
+</div>
+
+<h2 id="tiebreakers">Tiebreakers</h2>
+<p><b>We could not find published MIAA basketball tiebreaker rules.</b> The MIAA does not post a handbook, bylaws, or sport regulations on miaa.org, and this page would link to them if it did. The conference's {det} says only that the champion is the team with the best MIAA won-loss record and that the tournament champion gets the NCAA bid. Documents at miaa.net belong to the Mid-America Intercollegiate Athletics Association, a Division II league, and do not apply here.</p>
+<div class="rulegrid">
+<article class="rule">
+<h3>What school releases say the MIAA used</h3>
+<ul>
+<li>Men, 2024: Trine took the top seed over co-champion Calvin because Trine swept third-place Hope while Calvin split with Hope. That is head-to-head results against the next team down the standings. Source: {calvin24m}.</li>
+<li>Women, 2024: Calvin took the No. 2 seed over Trine "on a tiebreaker edge based on a superior second half record." Source: {calvin24w}.</li>
+<li>Women, 2023: Hope took the top seed over co-champion Trine "after winning a second-half league record tiebreaker." Source: {hope23}.</li>
+</ul>
+</article>
+<article class="rule">
+<h3>What fans on d3boards.com have posted</h3>
+<p class="small">These are forum posts, not conference documents. The posters disagree with each other on the order of the steps, and the MIAA has not confirmed any of it. Quoted with the poster's username and date; d3boards.com does not get a direct link here.</p>
+<ul>
+<li><b>HOPEful</b>, quoted by deiscanton, d3boards.com, January 28, 2022: the MIAA order is head to head, then results against the other teams in descending order of the standings, then record in road league games.</li>
+<li><b>deiscanton</b>, d3boards.com, January 28, 2022: in the MIAA the fourth step "apparently is best record/winning pct in the second half of the double round robin," and the fifth is a coin flip. The same post notes that the conference does not publish the list on its website.</li>
+<li><b>Flying Dutch Fan</b>, quoted in the same thread, d3boards.com, January 28, 2022: "The rules are clear - look at records the 2nd time through the double round robin."</li>
+<li><b>sac</b>, d3boards.com, February 18, 2023: after a head-to-head split, the next step "should be go down the standings," and the post says the previous year's three-way tie was broken by going through the standings from the bottom up instead.</li>
+</ul>
+</article>
+</div>
 </section>'''
 
 
@@ -673,6 +735,7 @@ table.poll tr.miaa td{font-weight:700}
 .player>div{min-width:0}.pname{font-weight:700;line-height:1.2}.psub{font-size:var(--fs-sm);color:var(--muted)}.pline{font-size:var(--fs-md);margin-top:2px}
 .gone{margin:var(--s3) 0 0}
 details.poll{margin-top:var(--s3)}details.poll summary{cursor:pointer;color:var(--link);font-weight:600}details.poll .tablewrap{margin-top:var(--s3)}details.poll p{margin-top:var(--s3)}
+.rules h2:first-child{margin-top:var(--s7)}.rulegrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:var(--s4)}.rule{background:var(--surface);border:1px solid var(--line);border-radius:var(--r3);padding:var(--s4)}.rule h3{margin:0 0 var(--s3)}.rule ul{margin:0 0 var(--s3);padding-left:1.2em}.rule li{margin-bottom:var(--s2)}.rule li:last-child{margin-bottom:0}.rule p:last-child{margin-bottom:0}
 .more{margin-top:var(--s7);padding:var(--s4);border:1px solid var(--line);border-radius:var(--r2);background:var(--surface)}.more h2{margin:0 0 var(--s2);border:0;padding:0;font-size:var(--fs-h3)}.more p{margin:0 0 var(--s2)}.more p:last-child{margin-bottom:0}
 footer{margin-top:var(--s6);font-size:var(--fs-sm);color:var(--muted);line-height:1.6}
 @media (max-width:640px){:root{--fs-h1:2.1rem;--fs-score:1.7rem;--fs-big:2rem}main{padding-top:var(--s4)}.search input{min-width:0;width:100%}.search{width:100%}}
@@ -941,6 +1004,7 @@ def main():
 
 {sport_section("mbb")}
 {sport_section("wbb")}
+{tournament_section()}
 
 <section class="more">
 <h2>Where the numbers come from</h2>
