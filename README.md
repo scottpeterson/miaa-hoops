@@ -46,3 +46,5 @@ At halftime the card names the team that has the possession arrow. No feed publi
 2. In the repository settings, turn on GitHub Pages from the `main` branch, `/docs` folder.
 3. Add the custom domain in Pages and put it in `docs/CNAME`; point the domain's DNS at GitHub Pages (DNS only, no proxy).
 4. Run the Update site workflow once by hand to confirm it can push.
+
+Live at [www.themissingmiaahoopsdashboard.com](https://www.themissingmiaahoopsdashboard.com/).
