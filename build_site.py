@@ -1000,6 +1000,7 @@ def main():
 <link rel="icon" href="assets/miaa.png"><link rel="apple-touch-icon" href="assets/miaa.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;600;700&display=swap" rel="stylesheet">
+<script data-goatcounter="https://themissingmiaahoopsdashboard.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 <style>{css}</style></head><body><main>
 <p class="disclaimer">This site is not affiliated with the Michigan Intercollegiate Athletic Association (MIAA).</p>
 <div class="top"><div><h1>{esc(SITE_NAME)}</h1>
