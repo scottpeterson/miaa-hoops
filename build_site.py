@@ -513,7 +513,7 @@ def players_section(sport):
         blocks.append(f'<div class="teamplayers" data-teams="{s["slug"]}" style="--team:var(--c-{s["slug"]})"><h3><img src="{esc(s["logo"])}" alt=""> {esc(s["name"])} {esc(mascot(s, sport))}{label} {link(s["sports"][sport]["stats_url"], "Full stats", "sitelink")}</h3><div class="players">{"".join(cards)}</div>{gone_html}</div>')
     note = ""
     if seasons and all(x and x != SEASON["season"] for x in seasons):
-        note = f'<p class="small">No {esc(SEASON["season"])} games have been played yet, so these are last season\'s numbers for the players who are back.</p>'
+        note = f'<p class="small">No {esc(SEASON["season"])} games count yet. These are last season\'s numbers for the players who are back.</p>'
     return note + "\n".join(blocks)
 
 
@@ -578,11 +578,11 @@ def sport_section(sport):
 {filter_bar(sport)}
 
 <h2 id="{sport}-week">Next game for each team</h2>
-<p class="small"><span class="tznote">Tipoff times are in your device's time zone.</span> Use the Eastern, Central, and Device buttons at the top to switch. Scores refresh every minute while a game is in progress, from each school's live stats feed. During a game a card shows the clock, the score, the bonus, and the last play. At halftime it shows which team has the possession arrow, worked out from the play-by-play, so it is labeled as an estimate. <span class="livestamp"></span></p>
+<p class="small"><span class="tznote">Tipoff times are in your device's time zone.</span> Use the Eastern, Central, and Device buttons at the top to switch. Scores refresh every minute while a game is in progress, from each school's live stats feed. During a game a card shows the clock, the score, the bonus, and the last play. At halftime it shows which team holds the possession arrow. The page infers the arrow from the play-by-play, so the card labels it an estimate. <span class="livestamp"></span></p>
 {this_week(sport)}
 
 <h2 id="{sport}-standings">Standings</h2>
-<p class="small">MIAA record first, then overall record. Before the first game the table is sorted by {"D3 Datacast's preseason efficiency rank" if sport == "mbb" else "The D3 Stat Lab's preseason rank"}. The NPI rank is last season's final rank until this season's games count. Official standings: {link("https://miaa.org/standings.aspx?path=" + ("mbball" if sport == "mbb" else "wbball"), "miaa.org")}. Tournament dates and what is known about tiebreakers are <a href="#tournament">near the bottom of the page</a>.</p>
+<p class="small">MIAA record first, then overall record. Before the first game, the table sorts by {"D3 Datacast's preseason efficiency rank" if sport == "mbb" else "The D3 Stat Lab's preseason rank"}. The NPI rank is last season's final rank until this season's games count. Official standings: {link("https://miaa.org/standings.aspx?path=" + ("mbball" if sport == "mbb" else "wbball"), "miaa.org")}. Tournament dates and the tiebreaker evidence are <a href="#tournament">near the bottom of the page</a>.</p>
 {standings_table(sport)}
 
 <h2 id="{sport}-teams">The {count} teams</h2>
@@ -602,7 +602,7 @@ def sport_section(sport):
 {players_section(sport)}
 
 <h2 id="{sport}-schedules">Schedules and results</h2>
-<p class="small">The All teams tab lists every game once; a conference game appears from the home team's side. Games before Friday, November 6 are exhibitions and do not count in the records. Opponent ranks come from the {esc(poll_label.split(",")[0])}.</p>
+<p class="small">The All teams tab lists every game once. A conference game appears from the home team's side. Games before Friday, November 6 are exhibitions and do not count in the records. Opponent ranks come from the {esc(poll_label.split(",")[0])}.</p>
 {schedules(sport)}
 </section>'''
 
@@ -624,49 +624,49 @@ def tournament_section():
     calvin24w = link("https://calvinknights.com/news/2024/2/18/calvin-womens-basketball-gains-no-2-seed-and-first-round-bye-for-miaa-tournament.aspx", "Calvin release, February 18, 2024")
     return f'''<section class="rules" id="tournament">
 <h2>2027 MIAA Tournaments</h2>
-<p class="small">Checked October 3, 2026. The MIAA has not published 2027 tournament dates, brackets, or hosts. This section gives last season's format and a projection from it.</p>
+<p class="small">Checked October 3, 2026. The MIAA lists no 2027 tournament dates, brackets, or hosts yet. This section gives last season's format and a projection from it.</p>
 <div class="rulegrid">
 <article class="rule">
 <h3>Format, from the 2025-26 tournaments</h3>
 <ul>
-<li>Six teams qualify. The top two seeds skip the first round. The higher seed hosts each first-round game. The No. 1 seed hosts the semifinals and the final, and keeps hosting the final after a semifinal loss. In 2026 Olivet, the men's top seed, lost its semifinal to Trine, and Hope beat Trine in the final at Olivet the next night.</li>
+<li>Six teams qualify. The top two seeds skip the first round. The higher seed hosts each first-round game. The No. 1 seed hosts the semifinals and the final, and keeps hosting the final after a semifinal loss. In 2026 Olivet, the men's No. 1 seed, lost its semifinal to Trine. Hope beat Trine in the final at Olivet the next night.</li>
 <li>Men: first round on Tuesday, semifinals on Friday, final on Saturday. Women: first round on Wednesday, semifinals on Friday, final on Saturday.</li>
 <li>The regular-season champion is the team with the best MIAA won-loss record. The tournament champion gets the conference's automatic bid to the NCAA Division III Championship.</li>
 </ul>
-<p class="small">Sources: the MIAA's {det}, {champs}, {tc_m}, and {tc_w}, plus {olivet26} and {hope26}.</p>
+<p class="small">Sources: the MIAA's {det}, {champs}, {tc_m}, and {tc_w}. Also {olivet26} and {hope26}.</p>
 </article>
 <article class="rule">
 <h3>Projected 2027 dates</h3>
-<p>The schedules on this page end on Saturday, February 20 and Sunday, February 21, 2027. If the MIAA keeps the 2026 pattern, the tournaments fall on these days. The MIAA has not confirmed any of them.</p>
+<p>The schedules on this page end on Saturday, February 20 and Sunday, February 21, 2027. If the MIAA keeps the 2026 pattern, the tournaments fall on these days. None of these dates is official.</p>
 <ul>
 <li>Men: first round Tuesday, February 23; semifinals Friday, February 26; final Saturday, February 27, 2027.</li>
 <li>Women: first round Wednesday, February 24; semifinals Friday, February 26; final Saturday, February 27, 2027.</li>
 </ul>
-<p class="small">The MIAA posts one hub page per tournament. The {tc_m} and {tc_w} list every game with the score, a box score, and each school's recap, and link to tickets, the program, standings, and statistics. Expect the 2027 pages to look the same, and expect them in the last week of the regular season. Tickets go through the {tickets}.</p>
+<p class="small">The MIAA posts one tournament page per sport. The {tc_m} and {tc_w} list every game with the score, a box score, and each school's recap. They also link to tickets, the program, standings, and statistics. Expect the 2027 pages to look the same, in the last week of the regular season. Tickets go through the {tickets}.</p>
 </article>
 </div>
 
 <h2 id="tiebreakers">Tiebreakers</h2>
-<p><b>The MIAA does not publish its basketball tiebreaker rules.</b> As of October 3, 2026, miaa.org has no handbook, no bylaws, no sport regulations, and no tiebreaker procedure for men's or women's basketball. The conference's {det} says only that the champion is the team with the best MIAA won-loss record and that the tournament champion gets the NCAA bid. It does not say how the MIAA orders teams with the same record.</p>
+<p><b>The MIAA does not publish its basketball tiebreaker rules.</b> As of October 3, 2026, miaa.org has no handbook, bylaws, sport regulations, or tiebreaker procedure for men's or women's basketball. The conference's {det} says that the champion is the team with the best MIAA won-loss record. It says that the tournament champion gets the NCAA bid. It does not say how the MIAA orders teams with the same record.</p>
 <p>These rules decide seeds, first-round byes, home games, and in a tie for first place the regular-season title. They affect every team, player, and fan in the conference, and the conference should post them where anyone can read them. Peer Division III leagues do. The CCIW, for example, posts its {cciw} on its public site. This page will link to the MIAA's document the day it appears. Until then, the best available evidence is the school releases and fan posts below.</p>
 <p class="small">Documents at miaa.net belong to the Mid-America Intercollegiate Athletics Association, a Division II league, and do not apply here.</p>
 <div class="rulegrid">
 <article class="rule">
 <h3>What school releases say the MIAA used</h3>
 <ul>
-<li>Men, 2024: Trine took the top seed over co-champion Calvin because Trine swept third-place Hope while Calvin split with Hope. That is head-to-head results against the next team down the standings. Source: {calvin24m}.</li>
+<li>Men, 2024: Trine took the No. 1 seed over co-champion Calvin. Trine swept third-place Hope and Calvin split with Hope. That is head-to-head results against the next team down the standings. Source: {calvin24m}.</li>
 <li>Women, 2024: Calvin took the No. 2 seed over Trine "on a tiebreaker edge based on a superior second half record." Source: {calvin24w}.</li>
-<li>Women, 2023: Hope took the top seed over co-champion Trine "after winning a second-half league record tiebreaker." Source: {hope23}.</li>
+<li>Women, 2023: Hope took the No. 1 seed over co-champion Trine "after winning a second-half league record tiebreaker." Source: {hope23}.</li>
 </ul>
 </article>
 <article class="rule">
-<h3>What fans on d3boards.com have posted</h3>
-<p class="small">These are forum posts. The posters disagree with each other on the order of the steps, and the MIAA has not confirmed any of them. Each quote names the poster and the date. This page does not link to d3boards.com threads.</p>
+<h3>What fans posted on d3boards.com</h3>
+<p class="small">These are forum posts. The posters disagree with each other on the order of the steps, and none of it is official. Each quote names the poster and the date. This page does not link to d3boards.com threads.</p>
 <ul>
-<li><b>HOPEful</b>, quoted by deiscanton, d3boards.com, January 28, 2022: the MIAA order is head to head, then results against the other teams in descending order of the standings, then record in road league games.</li>
-<li><b>deiscanton</b>, d3boards.com, January 28, 2022: in the MIAA the fourth step "apparently is best record/winning pct in the second half of the double round robin," and the fifth is a coin flip. The same post notes that the conference does not publish the list on its website.</li>
-<li><b>Flying Dutch Fan</b>, quoted in the same thread, d3boards.com, January 28, 2022: "The rules are clear - look at records the 2nd time through the double round robin."</li>
-<li><b>sac</b>, d3boards.com, February 18, 2023: after a head-to-head split, the next step "should be go down the standings," and the post says the previous year's three-way tie was broken by going through the standings from the bottom up instead.</li>
+<li><b>HOPEful</b>, quoted by deiscanton, d3boards.com, January 28, 2022. The MIAA order is head to head, then results against the other teams in descending order of the standings, then record in road league games.</li>
+<li><b>deiscanton</b>, d3boards.com, January 28, 2022. In the MIAA the fourth step "apparently is best record/winning pct in the second half of the double round robin," and the fifth is a coin flip. The same post says that the conference does not publish the list on its website.</li>
+<li><b>Flying Dutch Fan</b>, quoted in the same thread, d3boards.com, January 28, 2022. "The rules are clear - look at records the 2nd time through the double round robin."</li>
+<li><b>sac</b>, d3boards.com, February 18, 2023. After a head-to-head split, the next step "should be go down the standings." The post says the MIAA broke the previous year's three-way tie by going through the standings from the bottom up instead.</li>
 </ul>
 </article>
 </div>
@@ -1003,7 +1003,7 @@ def main():
 <style>{css}</style></head><body><main>
 <p class="disclaimer">This site is not affiliated with the Michigan Intercollegiate Athletic Association (MIAA).</p>
 <div class="top"><div><h1>{esc(SITE_NAME)}</h1>
-<p class="sub">Every MIAA basketball team, men's and women's, on one page for {esc(SEASON["season"])}: the next game and the live score, standings, the D3hoops.com poll, NPI rank, and the links to each school's schedule, roster, statistics, live stats, and stream. The numbers here are headlines. Each one links to the page that has the rest.</p>
+<p class="sub">Every MIAA basketball team, men's and women's, on one page for {esc(SEASON["season"])}. The next game and the live score, standings, the D3hoops.com poll, and NPI rank, with links to each school's schedule, roster, statistics, live stats, and stream. The numbers here are headlines. Each one links to the page that has the rest.</p>
 <span class="livepill"><i></i>Games in progress</span></div><div class="controls"><div class="ctl"><span class="seglabel" id="lbl-sport">Sport</span><div class="seg" role="group" aria-labelledby="lbl-sport"><button type="button" class="sp" data-sport="mbb">Men</button><button type="button" class="sp" data-sport="wbb">Women</button></div></div><div class="ctl"><span class="seglabel" id="lbl-times">Times</span><div class="seg" role="group" aria-labelledby="lbl-times"><button type="button" class="tz" data-tz="America/Detroit">Eastern</button><button type="button" class="tz" data-tz="America/Chicago">Central</button><button type="button" class="tz" data-tz="local">Device</button></div></div><div class="ctl"><span class="seglabel" id="lbl-theme">Theme</span><div class="seg" role="group" aria-labelledby="lbl-theme"><button type="button" class="th" data-theme="light">Light</button><button type="button" class="th" data-theme="dark">Dark</button></div></div></div></div>
 
 {sport_section("mbb")}
