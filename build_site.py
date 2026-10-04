@@ -619,6 +619,7 @@ def tournament_section():
     olivet26 = link("https://www.olivetcomets.com/sports/mbkb/2025-26/26_MIAA_TOURNAMENT", "Olivet's 2026 men's tournament page")
     hope23 = link("https://athletics.hope.edu/story.aspx?filename=miaa-womens-basketball-tournament-semifinal-preview&file_date=2/24/2023", "Hope release, February 24, 2023")
     calvin24m = link("https://calvinknights.com/news/2024/2/18/calvin-mens-basketball-gains-no-2-seed-and-first-round-bye-for-miaa-tourney.aspx", "Calvin release, February 18, 2024")
+    cciw = link("https://cciw.org/sports/2010/6/29/Gen._0629100226.aspx?id=616", "basketball tiebreaker procedures")
     calvin24w = link("https://calvinknights.com/news/2024/2/18/calvin-womens-basketball-gains-no-2-seed-and-first-round-bye-for-miaa-tournament.aspx", "Calvin release, February 18, 2024")
     return f'''<section class="rules" id="tournament">
 <h2>2027 MIAA Tournaments</h2>
@@ -645,7 +646,9 @@ def tournament_section():
 </div>
 
 <h2 id="tiebreakers">Tiebreakers</h2>
-<p><b>We could not find published MIAA basketball tiebreaker rules.</b> The MIAA does not post a handbook, bylaws, or sport regulations on miaa.org, and this page would link to them if it did. The conference's {det} says only that the champion is the team with the best MIAA won-loss record and that the tournament champion gets the NCAA bid. Documents at miaa.net belong to the Mid-America Intercollegiate Athletics Association, a Division II league, and do not apply here.</p>
+<p><b>The MIAA does not publish its basketball tiebreaker rules.</b> As of October 3, 2026, miaa.org has no handbook, no bylaws, no sport regulations, and no tiebreaker procedure for men's or women's basketball. The conference's {det} says only that the champion is the team with the best MIAA won-loss record and that the tournament champion gets the NCAA bid. It does not say how the MIAA orders teams with the same record.</p>
+<p>These rules decide seeds, first-round byes, home games, and in a tie for first place the regular-season title. Every team, player, and fan in the conference is affected by them, and the conference should post them in a place anyone can read. Peer Division III leagues do. The CCIW, for example, posts its {cciw} on its public site. This page will link to the MIAA's document the day it appears. Until then, the best available evidence is the school releases and fan posts below.</p>
+<p class="small">Documents at miaa.net belong to the Mid-America Intercollegiate Athletics Association, a Division II league, and do not apply here.</p>
 <div class="rulegrid">
 <article class="rule">
 <h3>What school releases say the MIAA used</h3>
