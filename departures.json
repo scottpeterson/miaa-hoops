@@ -1,0 +1,8 @@
+{
+ "_comment": "Players who are not back for the new season but still show on last season's statistics pages. Keyed by sport, then school slug. Each entry: name as the stats page spells it (First Last), and a short note.",
+ "mbb": {
+  "calvin": [{"name": "Jalen Overway", "note": "transferred to Green Bay"}],
+  "hope": [{"name": "Parker Hovey", "note": "transferred"}]
+ },
+ "wbb": {}
+}

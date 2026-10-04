@@ -1,0 +1,39 @@
+name: Update site
+
+on:
+  schedule:
+    - cron: "11 */6 * * *"              # four times a day, all year
+    - cron: "*/30 22-23 * 11,12,1,2 *"  # evenings in season, Eastern 5 PM to 7 PM
+    - cron: "*/30 0-5 * 11,12,1,2,3 *"  # evenings in season, Eastern 7 PM to 1 AM
+    - cron: "*/30 16-21 * 11,12,1,2 6"  # Saturday afternoons in season
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch data and build the page
+        run: |
+          python fetch_data.py || echo "fetch reported errors; building with what it got"
+          python build_site.py
+      - name: Commit and push when anything changed
+        run: |
+          git config user.name "miaa-hoops"
+          git config user.email "miaa-hoops@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add -A
+            git commit -m "Update $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi

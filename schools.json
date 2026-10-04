@@ -1,0 +1,283 @@
+[
+ {
+  "slug": "adrian",
+  "name": "Adrian",
+  "full_name": "Adrian College",
+  "mascot": "Bulldogs",
+  "city": "Adrian, MI",
+  "host": "adrianbulldogs.com",
+  "vendor": "sidearm",
+  "color": "#FFC425",
+  "text": "#000000",
+  "logo": "assets/adrian.webp",
+  "npi_name": "Adrian",
+  "statlab_name": "Adrian",
+  "d3hoops_name": "Adrian",
+  "massey_name": "Adrian",
+  "sports": {
+   "mbb": {
+    "schedule_url": "https://adrianbulldogs.com/sports/mens-basketball/schedule",
+    "roster_url": "https://adrianbulldogs.com/sports/mens-basketball/roster",
+    "stats_url": "https://adrianbulldogs.com/sports/mens-basketball/stats",
+    "schedule_txt": "https://adrianbulldogs.com/services/schedule_txt.ashx?schedule=1060",
+    "live_stats_url": "https://adrianbulldogs.com/sidearmstats/mbball/summary"
+   },
+   "wbb": {
+    "schedule_url": "https://adrianbulldogs.com/sports/womens-basketball/schedule",
+    "roster_url": "https://adrianbulldogs.com/sports/womens-basketball/roster",
+    "stats_url": "https://adrianbulldogs.com/sports/womens-basketball/stats",
+    "schedule_txt": "https://adrianbulldogs.com/services/schedule_txt.ashx?schedule=1059",
+    "live_stats_url": "https://adrianbulldogs.com/sidearmstats/wbball/summary"
+   }
+  }
+ },
+ {
+  "slug": "albion",
+  "name": "Albion",
+  "full_name": "Albion College",
+  "mascot": "Britons",
+  "city": "Albion, MI",
+  "host": "gobrits.com",
+  "vendor": "sidearm",
+  "color": "#4B306A",
+  "text": "#FFFFFF",
+  "logo": "assets/albion.svg",
+  "npi_name": "Albion",
+  "statlab_name": "Albion",
+  "d3hoops_name": "Albion",
+  "massey_name": "Albion",
+  "sports": {
+   "mbb": {
+    "schedule_url": "https://gobrits.com/sports/mens-basketball/schedule",
+    "roster_url": "https://gobrits.com/sports/mens-basketball/roster",
+    "stats_url": "https://gobrits.com/sports/mens-basketball/stats",
+    "schedule_txt": "https://gobrits.com/services/schedule_txt.ashx?schedule=396",
+    "live_stats_url": "https://gobrits.com/sidearmstats/mbball/summary"
+   },
+   "wbb": {
+    "schedule_url": "https://gobrits.com/sports/womens-basketball/schedule",
+    "roster_url": "https://gobrits.com/sports/womens-basketball/roster",
+    "stats_url": "https://gobrits.com/sports/womens-basketball/stats",
+    "schedule_txt": "https://gobrits.com/services/schedule_txt.ashx?schedule=398",
+    "live_stats_url": "https://gobrits.com/sidearmstats/wbball/summary"
+   }
+  }
+ },
+ {
+  "slug": "alma",
+  "name": "Alma",
+  "full_name": "Alma College",
+  "mascot": "Scots",
+  "city": "Alma, MI",
+  "host": "almascots.com",
+  "vendor": "sidearm",
+  "color": "#8A2432",
+  "text": "#FFFFFF",
+  "logo": "assets/alma.png",
+  "npi_name": "Alma",
+  "statlab_name": "Alma",
+  "d3hoops_name": "Alma",
+  "massey_name": "Alma",
+  "sports": {
+   "mbb": {
+    "schedule_url": "https://almascots.com/sports/mens-basketball/schedule",
+    "roster_url": "https://almascots.com/sports/mens-basketball/roster",
+    "stats_url": "https://almascots.com/sports/mens-basketball/stats",
+    "schedule_txt": "https://almascots.com/services/schedule_txt.ashx?schedule=777",
+    "live_stats_url": "https://almascots.com/sidearmstats/mbball/summary"
+   },
+   "wbb": {
+    "schedule_url": "https://almascots.com/sports/womens-basketball/schedule",
+    "roster_url": "https://almascots.com/sports/womens-basketball/roster",
+    "stats_url": "https://almascots.com/sports/womens-basketball/stats",
+    "schedule_txt": "https://almascots.com/services/schedule_txt.ashx?schedule=772",
+    "live_stats_url": "https://almascots.com/sidearmstats/wbball/summary"
+   }
+  }
+ },
+ {
+  "slug": "calvin",
+  "name": "Calvin",
+  "full_name": "Calvin University",
+  "mascot": "Knights",
+  "city": "Grand Rapids, MI",
+  "host": "calvinknights.com",
+  "vendor": "sidearm",
+  "color": "#8c2131",
+  "text": "#f4cc02",
+  "logo": "assets/calvin.svg",
+  "npi_name": "Calvin",
+  "statlab_name": "Calvin",
+  "d3hoops_name": "Calvin",
+  "massey_name": "Calvin",
+  "sports": {
+   "mbb": {
+    "schedule_url": "https://calvinknights.com/sports/mens-basketball/schedule",
+    "roster_url": "https://calvinknights.com/sports/mens-basketball/roster",
+    "stats_url": "https://calvinknights.com/sports/mens-basketball/stats",
+    "schedule_txt": "https://calvinknights.com/services/schedule_txt.ashx?schedule=411",
+    "live_stats_url": "https://calvinknights.com/sidearmstats/mbball/summary"
+   },
+   "wbb": {
+    "schedule_url": "https://calvinknights.com/sports/womens-basketball/schedule",
+    "roster_url": "https://calvinknights.com/sports/womens-basketball/roster",
+    "stats_url": "https://calvinknights.com/sports/womens-basketball/stats",
+    "schedule_txt": "https://calvinknights.com/services/schedule_txt.ashx?schedule=410",
+    "live_stats_url": "https://calvinknights.com/sidearmstats/wbball/summary"
+   }
+  }
+ },
+ {
+  "slug": "hope",
+  "name": "Hope",
+  "full_name": "Hope College",
+  "mascot": "Flying Dutchmen",
+  "mascot_wbb": "Flying Dutch",
+  "city": "Holland, MI",
+  "host": "athletics.hope.edu",
+  "vendor": "sidearm",
+  "color": "#c45114",
+  "text": "#04203d",
+  "logo": "assets/hope.png",
+  "npi_name": "Hope",
+  "statlab_name": "Hope",
+  "d3hoops_name": "Hope",
+  "massey_name": "Hope",
+  "sports": {
+   "mbb": {
+    "schedule_url": "https://athletics.hope.edu/sports/mens-basketball/schedule",
+    "roster_url": "https://athletics.hope.edu/sports/mens-basketball/roster",
+    "stats_url": "https://athletics.hope.edu/sports/mens-basketball/stats",
+    "schedule_txt": "https://athletics.hope.edu/services/schedule_txt.ashx?schedule=908",
+    "live_stats_url": "https://athletics.hope.edu/sidearmstats/mbball/summary"
+   },
+   "wbb": {
+    "schedule_url": "https://athletics.hope.edu/sports/womens-basketball/schedule",
+    "roster_url": "https://athletics.hope.edu/sports/womens-basketball/roster",
+    "stats_url": "https://athletics.hope.edu/sports/womens-basketball/stats",
+    "schedule_txt": "https://athletics.hope.edu/services/schedule_txt.ashx?schedule=909",
+    "live_stats_url": "https://athletics.hope.edu/sidearmstats/wbball/summary"
+   }
+  }
+ },
+ {
+  "slug": "kalamazoo",
+  "name": "Kalamazoo",
+  "full_name": "Kalamazoo College",
+  "mascot": "Hornets",
+  "city": "Kalamazoo, MI",
+  "host": "hornets.kzoo.edu",
+  "vendor": "sidearm",
+  "color": "#EA6820",
+  "text": "#ffffff",
+  "logo": "assets/kalamazoo.svg",
+  "npi_name": "Kalamazoo",
+  "statlab_name": "Kalamazoo",
+  "d3hoops_name": "Kalamazoo",
+  "massey_name": "Kalamazoo",
+  "sports": {
+   "mbb": {
+    "schedule_url": "https://hornets.kzoo.edu/sports/mens-basketball/schedule",
+    "roster_url": "https://hornets.kzoo.edu/sports/mens-basketball/roster",
+    "stats_url": "https://hornets.kzoo.edu/sports/mens-basketball/stats",
+    "schedule_txt": "https://hornets.kzoo.edu/services/schedule_txt.ashx?schedule=357",
+    "live_stats_url": "https://hornets.kzoo.edu/sidearmstats/mbball/summary"
+   },
+   "wbb": {
+    "schedule_url": "https://hornets.kzoo.edu/sports/womens-basketball/schedule",
+    "roster_url": "https://hornets.kzoo.edu/sports/womens-basketball/roster",
+    "stats_url": "https://hornets.kzoo.edu/sports/womens-basketball/stats",
+    "schedule_txt": "https://hornets.kzoo.edu/services/schedule_txt.ashx?schedule=344",
+    "live_stats_url": "https://hornets.kzoo.edu/sidearmstats/wbball/summary"
+   }
+  }
+ },
+ {
+  "slug": "olivet",
+  "name": "Olivet",
+  "full_name": "The University of Olivet",
+  "mascot": "Comets",
+  "city": "Olivet, MI",
+  "host": "www.olivetcomets.com",
+  "vendor": "presto",
+  "color": "#E72523",
+  "text": "#FFFFFF",
+  "logo": "assets/olivet.png",
+  "npi_name": "Olivet",
+  "statlab_name": "Olivet",
+  "d3hoops_name": "Olivet",
+  "massey_name": "Olivet",
+  "sports": {
+   "mbb": {
+    "schedule_url": "https://www.olivetcomets.com/sports/mbkb/2026-27/schedule",
+    "roster_url": "https://www.olivetcomets.com/sports/mbkb/2026-27/roster",
+    "stats_url": "https://www.olivetcomets.com/sports/mbkb/2026-27/teams/olivet",
+    "ical_url": "https://www.olivetcomets.com/sports/mbkb/2026-27/schedule?print=ical"
+   },
+   "wbb": {
+    "schedule_url": "https://www.olivetcomets.com/sports/wbkb/2026-27/schedule",
+    "roster_url": "https://www.olivetcomets.com/sports/wbkb/2026-27/roster",
+    "stats_url": "https://www.olivetcomets.com/sports/wbkb/2026-27/teams/olivet",
+    "ical_url": "https://www.olivetcomets.com/sports/wbkb/2026-27/schedule?print=ical"
+   }
+  },
+  "venue": "Olivet, Mich., Cutler Event Center"
+ },
+ {
+  "slug": "saintmarys",
+  "name": "Saint Mary's",
+  "full_name": "Saint Mary's College",
+  "mascot": "Belles",
+  "city": "Notre Dame, IN",
+  "host": "belles.saintmarys.edu",
+  "vendor": "sidearm",
+  "color": "#00205B",
+  "text": "#ffffff",
+  "logo": "assets/saintmarys.svg",
+  "npi_name": "Saint Mary's",
+  "statlab_name": "St. Mary's (IN)",
+  "d3hoops_name": "Saint Mary's (Ind.)",
+  "massey_name": "St Mary's IN",
+  "sports": {
+   "wbb": {
+    "schedule_url": "https://belles.saintmarys.edu/sports/womens-basketball/schedule",
+    "roster_url": "https://belles.saintmarys.edu/sports/womens-basketball/roster",
+    "stats_url": "https://belles.saintmarys.edu/sports/womens-basketball/stats",
+    "schedule_txt": "https://belles.saintmarys.edu/services/schedule_txt.ashx?schedule=108",
+    "live_stats_url": "https://belles.saintmarys.edu/sidearmstats/wbball/summary"
+   }
+  }
+ },
+ {
+  "slug": "trine",
+  "name": "Trine",
+  "full_name": "Trine University",
+  "mascot": "Thunder",
+  "city": "Angola, IN",
+  "host": "trinethunder.com",
+  "vendor": "sidearm",
+  "color": "#b5a66b",
+  "text": "#003767",
+  "logo": "assets/trine.svg",
+  "npi_name": "Trine",
+  "statlab_name": "Trine",
+  "d3hoops_name": "Trine",
+  "massey_name": "Trine",
+  "sports": {
+   "mbb": {
+    "schedule_url": "https://trinethunder.com/sports/mens-basketball/schedule",
+    "roster_url": "https://trinethunder.com/sports/mens-basketball/roster",
+    "stats_url": "https://trinethunder.com/sports/mens-basketball/stats",
+    "schedule_txt": "https://trinethunder.com/services/schedule_txt.ashx?schedule=422",
+    "live_stats_url": "https://trinethunder.com/sidearmstats/mbball/summary"
+   },
+   "wbb": {
+    "schedule_url": "https://trinethunder.com/sports/womens-basketball/schedule",
+    "roster_url": "https://trinethunder.com/sports/womens-basketball/roster",
+    "stats_url": "https://trinethunder.com/sports/womens-basketball/stats",
+    "schedule_txt": "https://trinethunder.com/services/schedule_txt.ashx?schedule=430",
+    "live_stats_url": "https://trinethunder.com/sidearmstats/wbball/summary"
+   }
+  }
+ }
+]
