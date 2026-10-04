@@ -27,7 +27,7 @@ python3 -m http.server 8000 --directory docs
 - A game between two members is a conference game when it falls in December, January, or February.
 - The roster link points at this season's roster when the school has posted one with players on it. Otherwise it points at last season's roster and the card says so.
 - Players to know lists the top two scorers and the leader in rebounds, assists, steals, and blocks from the latest statistics page. The list skips last season's seniors and graduates, anyone in `departures.json`, and, when the school has posted this season's roster, anyone missing from it. Players skipped for the last two reasons are named under the team.
-- Page order within a sport is the preseason rating: D3 Datacast efficiency rank for the men, The D3 Stat Lab preseason rank for the women. Standings sort by conference record, then overall record, then that rating.
+- Page order within a sport is the preseason rating: D3 Datacast efficiency rank for the men, The D3 Stat Lab preseason rank for the women. Standings sort by conference record, then overall record, then that rating. The MIAA does not publish its tiebreaker rules; the tournament section on the page says so and cites school releases and d3boards.com posts instead. The section's text is hand-written in `tournament_section()` in `build_site.py`. Recheck miaa.org for a 2027 Tournament Central page and a published tiebreaker procedure, and update that function when either appears.
 
 ## Live scores
 
