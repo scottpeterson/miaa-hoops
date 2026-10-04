@@ -578,7 +578,8 @@ def sport_section(sport):
 {filter_bar(sport)}
 
 <h2 id="{sport}-week">Next game for each team</h2>
-<p class="small"><span class="tznote">Tipoff times are in your device's time zone.</span> Use the Eastern, Central, and Device buttons at the top to switch. Scores refresh every minute while a game is in progress, from each school's live stats feed. During a game a card shows the clock, the score, the bonus, and the last play. At halftime it shows which team holds the possession arrow. The page infers the arrow from the play-by-play, so the card labels it an estimate. <span class="livestamp"></span></p>
+<p class="small"><span class="tznote">Tipoff times are in your device's time zone.</span> Use the Eastern, Central, and Device buttons at the top to switch.</p>
+<p class="small">Scores refresh every minute while a game is in progress, from each school's live stats feed. During a game a card shows the clock, the score, the bonus, and the last play. At halftime it shows which team holds the possession arrow. The page infers the arrow from the play-by-play, so the card labels it an estimate. <span class="livestamp"></span></p>
 {this_week(sport)}
 
 <h2 id="{sport}-standings">Standings</h2>
@@ -648,7 +649,9 @@ def tournament_section():
 
 <h2 id="tiebreakers">Tiebreakers</h2>
 <p><b>The MIAA does not publish its basketball tiebreaker rules.</b> As of October 3, 2026, miaa.org has no handbook, bylaws, sport regulations, or tiebreaker procedure for men's or women's basketball. The conference's {det} says that the champion is the team with the best MIAA won-loss record. It says that the tournament champion gets the NCAA bid. It does not say how the MIAA orders teams with the same record.</p>
-<p>These rules decide seeds, first-round byes, home games, and in a tie for first place the regular-season title. They affect every team, player, and fan in the conference, and the conference should post them where anyone can read them. Peer Division III leagues do. The CCIW, for example, posts its {cciw} on its public site. This page will link to the MIAA's document the day it appears. Until then, the best available evidence is the school releases and fan posts below.</p>
+<p>These rules decide seeds, first-round byes, home games, and in a tie for first place the regular-season title. They affect every team, player, and fan in the conference, and the conference should post them where anyone can read them.</p>
+<p>Peer Division III leagues do. The CCIW, for example, posts its {cciw} on its public site.</p>
+<p>This page will link to the MIAA's document the day it appears. Until then, the best available evidence is the school releases and fan posts below.</p>
 <p class="small">Documents at miaa.net belong to the Mid-America Intercollegiate Athletics Association, a Division II league, and do not apply here.</p>
 <article class="rule">
 <h3>What the evidence supports</h3>
@@ -767,6 +770,7 @@ details.poll{margin-top:var(--s3)}details.poll summary{cursor:pointer;color:var(
 .more{margin-top:var(--s7);padding:var(--s4);border:1px solid var(--line);border-radius:var(--r2);background:var(--surface)}.more h2{margin:0 0 var(--s2);border:0;padding:0;font-size:var(--fs-h3)}.more p{margin:0 0 var(--s2)}.more p:last-child{margin-bottom:0}
 footer{margin-top:var(--s6);font-size:var(--fs-sm);color:var(--muted);line-height:1.6}
 @media (max-width:640px){:root{--fs-h1:2.1rem;--fs-score:1.7rem;--fs-big:2rem}main{padding-top:var(--s4)}.search input{min-width:0;width:100%}.search{width:100%}}
+thead th[aria-sort]{cursor:pointer;user-select:none}thead th[aria-sort]::after{content:"";display:inline-block;width:.9em;color:var(--faint,var(--muted))}thead th[aria-sort="ascending"]::after{content:"\25B4"}thead th[aria-sort="descending"]::after{content:"\25BE"}
 """
 
 JS = r"""
@@ -1001,6 +1005,19 @@ function showTab(sec,name){
 document.querySelectorAll('.sport').forEach(sec=>{
   sec.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>showTab(sec,t.dataset.tab)));
   sec.querySelectorAll('.tablink').forEach(a=>a.addEventListener('click',()=>showTab(sec,a.dataset.tab)));
+});
+})();
+// Sortable tables: click a header to sort by that column; click again to reverse.
+(function(){
+function cellKey(td){if(!td)return '';const t=td.querySelector('time[datetime]');const raw=td.dataset.sort!==undefined?td.dataset.sort:t?t.getAttribute('datetime'):td.textContent.trim();const n=parseFloat(String(raw).replace(/[,%#$]/g,''));return isNaN(n)||!/^[-+#$]?[\d.,]+%?$/.test(String(raw).replace(/\s/g,''))?String(raw).toLowerCase():n;}
+document.querySelectorAll('table').forEach(t=>{
+  const head=t.tHead,body=t.tBodies[0];if(!head||!body||body.rows.length<2)return;
+  const ths=[...head.rows[head.rows.length-1].cells];
+  ths.forEach((th,i)=>{th.setAttribute('aria-sort','none');th.setAttribute('role','button');th.tabIndex=0;
+    const go=()=>{const dir=th.getAttribute('aria-sort')==='ascending'?'descending':'ascending';ths.forEach(h=>h.setAttribute('aria-sort','none'));th.setAttribute('aria-sort',dir);
+      const rows=[...body.rows];rows.sort((a,b)=>{const x=cellKey(a.cells[i]),y=cellKey(b.cells[i]);const r=typeof x==='number'&&typeof y==='number'?x-y:typeof x==='number'?-1:typeof y==='number'?1:String(x).localeCompare(String(y));return dir==='ascending'?r:-r;});
+      rows.forEach(r=>body.appendChild(r));};
+    th.addEventListener('click',go);th.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();go();}});});
 });
 })();
 """
