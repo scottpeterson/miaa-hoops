@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-03T21:19:41-05:00",
+ "fetched_at": "2026-10-03T21:27:35-05:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -806,7 +806,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-03T21:19:41-05:00"
+     "fetched": "2026-10-03T21:27:35-05:00"
     },
     "albion": {
      "games": [
@@ -1665,7 +1665,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-03T21:19:41-05:00"
+     "fetched": "2026-10-03T21:27:35-05:00"
     },
     "alma": {
      "games": [
@@ -2530,7 +2530,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-03T21:19:41-05:00"
+     "fetched": "2026-10-03T21:27:35-05:00"
     },
     "calvin": {
      "games": [
@@ -3332,7 +3332,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-03T21:19:41-05:00"
+     "fetched": "2026-10-03T21:27:35-05:00"
     },
     "hope": {
      "games": [
@@ -4153,7 +4153,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-03T21:19:41-05:00"
+     "fetched": "2026-10-03T21:27:35-05:00"
     },
     "kalamazoo": {
      "games": [
@@ -4956,7 +4956,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-03T21:19:41-05:00"
+     "fetched": "2026-10-03T21:27:35-05:00"
     },
     "olivet": {
      "games": [
@@ -5682,9 +5682,9 @@
       }
      ],
      "roster": {
-      "url": "https://www.olivetcomets.com/sports/mbkb/2025-26/roster",
-      "season": "2025-26",
-      "players": 15,
+      "url": "https://www.olivetcomets.com/sports/mbkb/2026-27/roster",
+      "season": null,
+      "players": 0,
       "current": false
      },
      "players": [
@@ -5772,7 +5772,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-03T21:19:41-05:00"
+     "fetched": "2026-10-03T21:27:35-05:00"
     },
     "trine": {
      "games": [
@@ -6596,7 +6596,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-03T21:19:41-05:00"
+     "fetched": "2026-10-03T21:27:35-05:00"
     }
    },
    "poll": {
@@ -7712,7 +7712,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-03T21:19:41-05:00"
+     "fetched": "2026-10-03T21:27:35-05:00"
     },
     "albion": {
      "games": [
@@ -8543,7 +8543,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-03T21:19:41-05:00"
+     "fetched": "2026-10-03T21:27:35-05:00"
     },
     "alma": {
      "games": [
@@ -9373,7 +9373,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-03T21:19:41-05:00"
+     "fetched": "2026-10-03T21:27:35-05:00"
     },
     "calvin": {
      "games": [
@@ -10147,7 +10147,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-03T21:19:41-05:00"
+     "fetched": "2026-10-03T21:27:35-05:00"
     },
     "hope": {
      "games": [
@@ -10973,7 +10973,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-03T21:19:41-05:00"
+     "fetched": "2026-10-03T21:27:35-05:00"
     },
     "kalamazoo": {
      "games": [
@@ -11765,7 +11765,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-03T21:19:41-05:00"
+     "fetched": "2026-10-03T21:27:35-05:00"
     },
     "olivet": {
      "games": [
@@ -12459,9 +12459,9 @@
       }
      ],
      "roster": {
-      "url": "https://www.olivetcomets.com/sports/wbkb/2025-26/roster",
-      "season": "2025-26",
-      "players": 23,
+      "url": "https://www.olivetcomets.com/sports/wbkb/2026-27/roster",
+      "season": null,
+      "players": 0,
       "current": false
      },
      "players": [
@@ -12540,7 +12540,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-03T21:19:41-05:00"
+     "fetched": "2026-10-03T21:27:35-05:00"
     },
     "saintmarys": {
      "games": [
@@ -13350,7 +13350,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-03T21:19:41-05:00"
+     "fetched": "2026-10-03T21:27:35-05:00"
     },
     "trine": {
      "games": [
@@ -14202,7 +14202,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-03T21:19:41-05:00"
+     "fetched": "2026-10-03T21:27:35-05:00"
     }
    },
    "poll": {
@@ -14563,6 +14563,18 @@
    }
   }
  },
- "errors": [],
- "stale": {}
+ "errors": [
+  "Olivet mbb schedule: HTTP Error 405: Not Allowed",
+  "Olivet mbb leaders: HTTP Error 405: Not Allowed",
+  "d3hoops mbb: HTTP Error 405: Not Allowed",
+  "Olivet wbb schedule: HTTP Error 405: Not Allowed",
+  "Olivet wbb leaders: HTTP Error 405: Not Allowed",
+  "d3hoops wbb: HTTP Error 405: Not Allowed"
+ ],
+ "stale": {
+  "olivet-mbb-schedule": "2026-10-03T21:19:41-05:00",
+  "mbb-poll": "2026-10-03T21:19:41-05:00",
+  "olivet-wbb-schedule": "2026-10-03T21:19:41-05:00",
+  "wbb-poll": "2026-10-03T21:19:41-05:00"
+ }
 }
