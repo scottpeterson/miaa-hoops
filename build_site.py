@@ -986,9 +986,6 @@ def main():
     built = datetime.now(EASTERN).strftime("%Y-%m-%d %-I:%M %p")
     fetched = datetime.fromisoformat(SEASON["fetched_at"]).astimezone(EASTERN).strftime("%Y-%m-%d %-I:%M %p")
     css = CSS.replace("__LIGHT__", color_vars(light_variant)).replace("__DARK__", color_vars(dark_variant))
-    stale = ""
-    if SEASON.get("stale"):
-        stale = " Some data carried over from an earlier fetch because a source did not answer."
     page = f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="color-scheme" content="light dark">
@@ -1019,7 +1016,7 @@ def main():
 <p>Schedules, results, rosters, statistics, and live stats: each school's athletics site.</p>
 <p>Official conference standings: {link("https://miaa.org/", "miaa.org")}.</p>
 </section>
-<footer>Built {esc(built)} Eastern. School data fetched {esc(fetched)} Eastern.{esc(stale)} This page is not affiliated with the MIAA, its member schools, D3hoops.com, D3 Datacast, or the NCAA. Logos belong to their schools.</footer>
+<footer>Built {esc(built)} Eastern. School data fetched {esc(fetched)} Eastern. This page is not affiliated with the MIAA, its member schools, D3hoops.com, D3 Datacast, or the NCAA. Logos belong to their schools.</footer>
 </main>
 <script>{JS}</script>
 </body></html>
