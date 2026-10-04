@@ -617,6 +617,7 @@ def tournament_section():
     tc_m = link("https://miaa.org/news/2024/2/18/2_18_2024_48.aspx", "2024 men's Tournament Central")
     tc_w = link("https://miaa.org/news/2024/2/19/2_19_2024_128.aspx", "2024 women's Tournament Central")
     olivet26 = link("https://www.olivetcomets.com/sports/mbkb/2025-26/26_MIAA_TOURNAMENT", "Olivet's 2026 men's tournament page")
+    hope26 = link("https://athletics.hope.edu/news/2026/3/1/mens-basketball-storms-back-to-win-miaa-tournament-championship.aspx", "Hope's 2026 title game story")
     hope23 = link("https://athletics.hope.edu/story.aspx?filename=miaa-womens-basketball-tournament-semifinal-preview&file_date=2/24/2023", "Hope release, February 24, 2023")
     calvin24m = link("https://calvinknights.com/news/2024/2/18/calvin-mens-basketball-gains-no-2-seed-and-first-round-bye-for-miaa-tourney.aspx", "Calvin release, February 18, 2024")
     cciw = link("https://cciw.org/sports/2010/6/29/Gen._0629100226.aspx?id=616", "basketball tiebreaker procedures")
@@ -628,11 +629,11 @@ def tournament_section():
 <article class="rule">
 <h3>Format, from the 2025-26 tournaments</h3>
 <ul>
-<li>Six teams qualify. The top two seeds skip the first round. The higher seed hosts every game.</li>
+<li>Six teams qualify. The top two seeds skip the first round. The higher seed hosts each first-round game. The No. 1 seed hosts the semifinals and the final, and keeps hosting the final after a semifinal loss. In 2026 Olivet, the men's top seed, lost its semifinal to Trine, and Hope beat Trine in the final at Olivet the next night.</li>
 <li>Men: first round on Tuesday, semifinals on Friday, final on Saturday. Women: first round on Wednesday, semifinals on Friday, final on Saturday.</li>
 <li>The regular-season champion is the team with the best MIAA won-loss record. The tournament champion gets the conference's automatic bid to the NCAA Division III Championship.</li>
 </ul>
-<p class="small">Sources: the MIAA's {det} and {champs}, and {olivet26}.</p>
+<p class="small">Sources: the MIAA's {det} and {champs}, {olivet26}, and {hope26}.</p>
 </article>
 <article class="rule">
 <h3>Projected 2027 dates</h3>
