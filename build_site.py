@@ -2,6 +2,7 @@
 """Render docs/index.html from schools.json and data/season.json."""
 import html
 import json
+import re
 from collections import Counter
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -282,6 +283,7 @@ def game_card(sport, school, g, twin, kind="pre", sample=None):
         status = esc(sample["status"])
         situation = f'<div class="last">Last play: {esc(sample["last"])}</div>' if sample.get("last") else ""
     feed = {} if sample else (g.get("live_feed") or {})
+    progress_attr = f' data-progress="{progress(sample["status"] if sample else g["status"], sport):.4f}"' if live or sample else ""
     feed_attrs = f' data-feed="{esc(feed["url"])}" data-feed-type="{esc(feed["type"])}"' if feed.get("url") else ""
     team_slugs = school["slug"] + (f' {twin[0]["slug"]}' if twin else "")
     twin_attr = f' data-twin="{esc(twin[1]["id"])}"' if twin else ""
@@ -302,7 +304,7 @@ def game_card(sport, school, g, twin, kind="pre", sample=None):
     if sample:
         note += f'<dt>Sample</dt><dd>The score, clock, and last play are a moment from {esc(school["name"])} vs. {esc(sample["game"])}. Live scores replace them when the season starts.</dd>'
         opener = '<span class="chip">Sample data</span>' + opener
-    return f'''<article class="game {status_class}" data-game="{esc(g["id"])}"{twin_attr} data-teams="{esc(team_slugs)}" data-date="{esc(g["date"])}" data-home="{1 if g["home"] else 0}"{feed_attrs} style="--team:var(--c-{school["slug"]})">
+    return f'''<article class="game {status_class}" data-game="{esc(g["id"])}"{twin_attr} data-teams="{esc(team_slugs)}" data-date="{esc(g["date"])}" data-home="{1 if g["home"] else 0}"{feed_attrs}{progress_attr} style="--team:var(--c-{school["slug"]})">
 <header><img src="{esc(school["logo"])}" alt=""><div><div class="who">{my_rk}{esc(school["name"])} <span class="muted">{esc(mascot(school, sport))}</span></div><div class="what">{"vs" if g["home"] or g.get("neutral") else "at"} {rk}{esc(opp["name"] if not opp.get("slug") else BY_SLUG[opp["slug"]]["name"] + " " + mascot(BY_SLUG[opp["slug"]], sport))}</div></div>{opp_img}</header>
 <div class="body">
 <div class="scoreline"><span class="score">{score}</span><span class="status">{status}</span></div>
@@ -316,9 +318,38 @@ def game_card(sport, school, g, twin, kind="pre", sample=None):
 </div></article>'''
 
 
+def progress(status, sport):
+    """Share of regulation played, from a status such as "10:31 2nd half", "Halftime", or "2:00 OT"."""
+    regulation, length = (2, 1200) if sport == "mbb" else (4, 600)
+    total = regulation * length
+    status = (status or "").strip()
+    if status == "Halftime":
+        return 0.5
+    m = re.match(r"(?:(\d+):(\d+) )?(?:End of )?(?:(\d)\w\w (?:half|quarter)|OT(\d*))$", status)
+    if not m:
+        return 0.0
+    clock = int(m.group(1)) * 60 + int(m.group(2)) if m.group(1) else 0
+    if m.group(4) is not None:
+        extra = int(m.group(4) or 1)
+        return (total + (extra - 1) * 300 + (300 - clock)) / total
+    return ((int(m.group(3)) - 1) * length + (length - clock)) / total
+
+
+def card_order(sport, sample, g):
+    """Finished games first (earliest first), then games in progress (furthest along first), then upcoming games by tipoff."""
+    if sample:
+        return (1, -progress(sample["status"], sport), g["date"])
+    if g["state"] == "post":
+        return (0, 0.0, g["date"])
+    if g["state"] == "in":
+        return (1, -progress(g["status"], sport), g["date"])
+    return (2, 0.0, g["date"])
+
+
 def this_week(sport):
     samples = SAMPLE.get(sport, {})
-    cards = [game_card(sport, s, g, twin, kind, samples.get(s["slug"])) for kind, s, g, twin in featured_games(sport)]
+    featured = sorted(featured_games(sport), key=lambda c: card_order(sport, samples.get(c[1]["slug"]), c[2]))
+    cards = [game_card(sport, s, g, twin, kind, samples.get(s["slug"])) for kind, s, g, twin in featured]
     if not cards:
         return '<p class="muted">No games scheduled.</p>'
     return '<div class="games">' + "\n".join(cards) + "</div>"
@@ -949,6 +980,29 @@ function prestoArrow(x,regulation){
   const plays=[];x.querySelectorAll('plays period').forEach(per=>{const n=+per.getAttribute('number')||0;per.querySelectorAll('play').forEach(p=>plays.push({team:p.getAttribute('vh'),period:n,type:p.getAttribute('action'),text:(p.getAttribute('action')||'')+' '+(p.getAttribute('type')||'')}));});
   return arrowFrom(plays,regulation);
 }
+// Share of regulation played: halves of 20 minutes for the men, quarters of 10 for the women, 5-minute overtimes.
+function progressOf(period,clockSec,regulation){
+  const len=regulation===2?1200:600,total=regulation*len;
+  if(period<=regulation)return((period-1)*len+(len-clockSec))/total;
+  return(total+(period-regulation-1)*300+(300-clockSec))/total;
+}
+function clockToSec(t){const m=/^(\d+):(\d+)/.exec(t||'');return m?(+m[1])*60+(+m[2]):0;}
+// Card order: finished games first (earliest finish first), then games in progress (furthest along first),
+// then upcoming games by tipoff. A finish time is known only for games that ended while the page was open,
+// so other finals use tipoff plus two hours.
+function cardKey(el){
+  const tip=new Date(el.dataset.date).getTime();
+  if(el.classList.contains('final'))return[0,el.dataset.finished?+el.dataset.finished:tip+7200000];
+  if(el.classList.contains('live'))return[1,-(+el.dataset.progress||0)];
+  return[2,tip];
+}
+function sortCards(){
+  document.querySelectorAll('.games').forEach(box=>{
+    const items=[...box.children].filter(c=>c.matches('.game'));
+    items.sort((a,b)=>{const x=cardKey(a),y=cardKey(b);return x[0]-y[0]||x[1]-y[1]||new Date(a.dataset.date)-new Date(b.dataset.date);});
+    items.forEach(c=>box.appendChild(c));
+  });
+}
 async function feedState(el){
   const url=el.dataset.feed,type=el.dataset.feedType;if(!url)return null;
   const r=await fetch(url,{cache:'no-store'});if(!r.ok)return null;
@@ -962,7 +1016,7 @@ async function feedState(el){
     const last=(g.LastPlays||[])[0];
     let arrow=null;
     if(isHalftime(period,clockSec,'',regulation)){const a=await sidearmArrow(url,regulation);arrow=a==='H'?H.name:a==='V'?V.name:null;}
-    return {complete:!!g.IsComplete,home:+g.HomeTeam.Score||0,away:+g.VisitingTeam.Score||0,status:statusText(period,clockSec,'',regulation),
+    return {complete:!!g.IsComplete,home:+g.HomeTeam.Score||0,away:+g.VisitingTeam.Score||0,status:statusText(period,clockSec,'',regulation),progress:progressOf(period,clockSec,regulation),
       arrow,bonus:bonusText(g.Context,H,V),last:last?fixNames(last.Narrative):''};
   }
   if(type==='presto'){
@@ -977,7 +1031,7 @@ async function feedState(el){
     if(isHalftime(period,-1,clockText,regulation)){const a=prestoArrow(x,regulation);arrow=a==='H'?H.name:a==='V'?V.name:null;}
     const plays=[...x.querySelectorAll('plays period:last-of-type play')];const lp=plays[plays.length-1];
     const last=lp?[lp.getAttribute('team'),fixNames(lp.getAttribute('checkname')||''),lp.getAttribute('action'),lp.getAttribute('type')].filter(Boolean).join(' ').toLowerCase().replace(/^\w/,c=>c.toUpperCase()):'';
-    return {complete:st.getAttribute('complete')==='Y',home:H.score,away:V.score,status:statusText(period,-1,clockText,regulation),arrow,bonus:'',last};
+    return {complete:st.getAttribute('complete')==='Y',home:H.score,away:V.score,status:statusText(period,-1,clockText,regulation),progress:progressOf(period,clockToSec(clockText),regulation),arrow,bonus:'',last};
   }
   return null;
 }
@@ -987,10 +1041,12 @@ async function applyFeed(el){
   if(f.complete){
     const home=el.dataset.home==='1';const mine=home?f.home:f.away,other=home?f.away:f.home;
     setScore(el,f.home,f.away,'Final · '+(mine>other?'W':mine<other?'L':'T'));
+    if(!el.classList.contains('final'))el.dataset.finished=Date.now();
     el.classList.add('final');el.classList.remove('live','pre');showSituation(el,null);
     return false;
   }
   setScore(el,f.home,f.away,f.status);
+  el.dataset.progress=f.progress;
   el.classList.add('live');el.classList.remove('pre');
   showSituation(el,f);
   return true;
@@ -1001,10 +1057,12 @@ async function refresh(){
   if(!pending.length){document.body.classList.remove('has-live');return;}
   let anyLive=false;
   await Promise.all(pending.map(async c=>{if(await applyFeed(c))anyLive=true;}));
+  sortCards();
   document.body.classList.toggle('has-live',anyLive);
   const stamp='Live scores checked '+new Intl.DateTimeFormat('en-US',{hour:'numeric',minute:'2-digit',timeZoneName:'short',timeZone:zone()}).format(new Date());
   document.querySelectorAll('.livestamp').forEach(s=>s.textContent=stamp);
 }
+sortCards();
 refresh();
 setInterval(()=>{if(windowOpen())refresh();},60000);
 
