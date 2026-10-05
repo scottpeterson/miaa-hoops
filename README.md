@@ -46,6 +46,13 @@ At halftime the card names the team that holds the possession arrow. No feed pub
 
 The card labels the result as an estimate.
 
+## Sample in-game cards (temporary)
+
+Until the season starts, each next-game card shows a sample in-game moment so you can see the live layout. `tools/make_sample_live.py` takes each team's most recent 2025-26 box score and stops its play-by-play at a random play, seeded by sport and school. It writes the score, the clock, the team's own last play, and the source game to `data/sample_live.json`. Each card labels the moment as sample data and names the source game.
+
+- Rerun: `python3 tools/make_sample_live.py && python3 build_site.py`. To draw different moments, change the seed string in `main()`.
+- Remove: delete `data/sample_live.json`, run `python3 build_site.py`, then commit and push. The cards go back to the countdown, and real live feeds work as before. Remove it before the first game, Friday, November 6, 2026, because sample cards ignore the live feeds.
+
 ## Deploying
 
 1. Create the public repository and push `main`.

@@ -11,6 +11,9 @@ BASE = Path(__file__).resolve().parent
 SCHOOLS = json.loads((BASE / "schools.json").read_text())
 SEASON = json.loads((BASE / "data" / "season.json").read_text())
 OUT = BASE / "docs" / "index.html"
+# Optional sample in-game moments for the next-game cards (tools/make_sample_live.py). Delete the file to remove them.
+SAMPLE_FILE = BASE / "data" / "sample_live.json"
+SAMPLE = json.loads(SAMPLE_FILE.read_text()) if SAMPLE_FILE.exists() else {}
 EASTERN = ZoneInfo("America/Detroit")
 BY_SLUG = {s["slug"]: s for s in SCHOOLS}
 NOW = datetime.now(timezone.utc)
@@ -259,7 +262,7 @@ def featured_games(sport):
     return cards
 
 
-def game_card(sport, school, g, twin, kind="pre"):
+def game_card(sport, school, g, twin, kind="pre", sample=None):
     opp = g["opponent"]
     opp_logo = opp_logo_src(g)
     opp_img = f'<img src="{esc(opp_logo)}" alt="">' if opp_logo else '<span class="nologo"></span>'
@@ -272,7 +275,13 @@ def game_card(sport, school, g, twin, kind="pre"):
     score = f'{g["pf"] if g["pf"] is not None else 0}<span class="dash">-</span>{g["pa"] if g["pa"] is not None else 0}' if (live or final) else ""
     status = esc(g["status"]) if live else (f'Final · {g["result"]}' if final else "")
     countdown = f'<span class="count" data-tip="{esc(parse(g["date"]).isoformat())}"></span>' if g["state"] == "pre" and not g.get("time_tbd") else ""
-    feed = g.get("live_feed") or {}
+    situation = ""
+    if sample:
+        status_class = "live"
+        score = f'{sample["pf"]}<span class="dash">-</span>{sample["pa"]}'
+        status = esc(sample["status"])
+        situation = f'<div class="last">Last play: {esc(sample["last"])}</div>' if sample.get("last") else ""
+    feed = {} if sample else (g.get("live_feed") or {})
     feed_attrs = f' data-feed="{esc(feed["url"])}" data-feed-type="{esc(feed["type"])}"' if feed.get("url") else ""
     team_slugs = school["slug"] + (f' {twin[0]["slug"]}' if twin else "")
     twin_attr = f' data-twin="{esc(twin[1]["id"])}"' if twin else ""
@@ -290,11 +299,14 @@ def game_card(sport, school, g, twin, kind="pre"):
         if g["state"] == "post":
             opener += '<span class="chip">Not counted in the record</span>' 
     note = f'<dt>Note</dt><dd>{esc(g["note"])}</dd>' if g.get("note") else ""
+    if sample:
+        note += f'<dt>Sample</dt><dd>The score, clock, and last play are a moment from {esc(school["name"])} vs. {esc(sample["game"])}. Live scores replace them when the season starts.</dd>'
+        opener = '<span class="chip">Sample data</span>' + opener
     return f'''<article class="game {status_class}" data-game="{esc(g["id"])}"{twin_attr} data-teams="{esc(team_slugs)}" data-date="{esc(g["date"])}" data-home="{1 if g["home"] else 0}"{feed_attrs} style="--team:var(--c-{school["slug"]})">
 <header><img src="{esc(school["logo"])}" alt=""><div><div class="who">{my_rk}{esc(school["name"])} <span class="muted">{esc(mascot(school, sport))}</span></div><div class="what">{"vs" if g["home"] or g.get("neutral") else "at"} {rk}{esc(opp["name"] if not opp.get("slug") else BY_SLUG[opp["slug"]]["name"] + " " + mascot(BY_SLUG[opp["slug"]], sport))}</div></div>{opp_img}</header>
 <div class="body">
 <div class="scoreline"><span class="score">{score}</span><span class="status">{status}</span></div>
-<div class="situation"></div>
+<div class="situation{" on" if situation else ""}">{situation}</div>
 <dl>
 <dt>Tipoff</dt><dd>{time_tag(g)} {countdown}</dd>
 <dt>Where</dt><dd>{esc(where)}{" · " + esc(g["location"]) if g.get("location") else ""}</dd>
@@ -305,7 +317,8 @@ def game_card(sport, school, g, twin, kind="pre"):
 
 
 def this_week(sport):
-    cards = [game_card(sport, s, g, twin, kind) for kind, s, g, twin in featured_games(sport)]
+    samples = SAMPLE.get(sport, {})
+    cards = [game_card(sport, s, g, twin, kind, samples.get(s["slug"])) for kind, s, g, twin in featured_games(sport)]
     if not cards:
         return '<p class="muted">No games scheduled.</p>'
     return '<div class="games">' + "\n".join(cards) + "</div>"

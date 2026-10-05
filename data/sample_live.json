@@ -1,0 +1,143 @@
+{
+ "season": "2025-26",
+ "mbb": {
+  "adrian": {
+   "pf": 59,
+   "pa": 100,
+   "status": "2:52 2nd half",
+   "last": "Adrian: defensive rebound",
+   "source": "https://adrianbulldogs.com/sports/mens-basketball/stats/2025-26/calvin-university/boxscore/23768",
+   "game": "Calvin University, February 24, 2026"
+  },
+  "albion": {
+   "pf": 45,
+   "pa": 44,
+   "status": "0:01 1st half",
+   "last": "Kameron Mayes: steal",
+   "source": "https://gobrits.com/sports/mens-basketball/stats/2025-26/-4-trine/boxscore/7225",
+   "game": "Trine, February 24, 2026"
+  },
+  "alma": {
+   "pf": 80,
+   "pa": 53,
+   "status": "6:19 2nd half",
+   "last": "Josh Elliott: made a 3-pointer",
+   "source": "https://almascots.com/sports/mens-basketball/stats/2025-26/kalamazoo-college/boxscore/11840",
+   "game": "Kalamazoo College, February 21, 2026"
+  },
+  "calvin": {
+   "pf": 38,
+   "pa": 43,
+   "status": "15:39 2nd half",
+   "last": "Parker Swartz: assist",
+   "source": "https://calvinknights.com/sports/mens-basketball/stats/2025-26/hope-college/boxscore/9113",
+   "game": "Hope College, February 27, 2026"
+  },
+  "hope": {
+   "pf": 45,
+   "pa": 53,
+   "status": "10:31 2nd half",
+   "last": "Orion Yant: foul",
+   "source": "https://athletics.hope.edu/sports/mens-basketball/stats/2025-26/university-of-wisconsin-la-crosse/boxscore/18478",
+   "game": "University of Wisconsin-La Crosse, March 6, 2026"
+  },
+  "kalamazoo": {
+   "pf": 7,
+   "pa": 11,
+   "status": "15:16 1st half",
+   "last": "Jackson Keefer: missed a 3-pointer",
+   "source": "https://hornets.kzoo.edu/sports/mens-basketball/stats/2025-26/alma/boxscore/6612",
+   "game": "Alma, February 21, 2026"
+  },
+  "olivet": {
+   "pf": 18,
+   "pa": 23,
+   "status": "8:31 1st half",
+   "last": "Nathan Richardson: foul",
+   "source": "https://www.olivetcomets.com/sports/mbkb/2025-26/boxscores/20260227_en18.xml?view=plays",
+   "game": "Trine (Ind.), February 27, 2026"
+  },
+  "trine": {
+   "pf": 22,
+   "pa": 12,
+   "status": "7:29 1st half",
+   "last": "Cade Brenner: made a 3-pointer",
+   "source": "https://trinethunder.com/sports/mens-basketball/stats/2025-26/2-hope/boxscore/7907",
+   "game": "Hope, February 28, 2026"
+  }
+ },
+ "wbb": {
+  "adrian": {
+   "pf": 31,
+   "pa": 38,
+   "status": "3:15 3rd quarter",
+   "last": "Morgan Babb: made a layup",
+   "source": "https://adrianbulldogs.com/sports/womens-basketball/stats/2025-26/albion-college/boxscore/23288",
+   "game": "Albion College, February 21, 2026"
+  },
+  "albion": {
+   "pf": 27,
+   "pa": 32,
+   "status": "10:00 3rd quarter",
+   "last": "Khaleeya Cook: made a layup",
+   "source": "https://gobrits.com/sports/womens-basketball/stats/2025-26/-2-hope/boxscore/7333",
+   "game": "Hope, February 27, 2026"
+  },
+  "alma": {
+   "pf": 33,
+   "pa": 32,
+   "status": "5:57 3rd quarter",
+   "last": "Mady Weber: steal",
+   "source": "https://almascots.com/sports/womens-basketball/stats/2025-26/calvin-university/boxscore/14278",
+   "game": "Calvin University, February 25, 2026"
+  },
+  "calvin": {
+   "pf": 14,
+   "pa": 22,
+   "status": "5:39 2nd quarter",
+   "last": "Ryann Rohrer: missed a jump shot",
+   "source": "https://calvinknights.com/sports/womens-basketball/stats/2025-26/trine-university/boxscore/9114",
+   "game": "Trine University, February 27, 2026"
+  },
+  "hope": {
+   "pf": 43,
+   "pa": 39,
+   "status": "9:28 4th quarter",
+   "last": "Terin Maynard: assist",
+   "source": "https://athletics.hope.edu/sports/womens-basketball/stats/2025-26/university-of-chicago/boxscore/18484",
+   "game": "University of Chicago, March 13, 2026"
+  },
+  "kalamazoo": {
+   "pf": 41,
+   "pa": 57,
+   "status": "8:18 4th quarter",
+   "last": "Ruby Hogan: foul",
+   "source": "https://hornets.kzoo.edu/sports/womens-basketball/stats/2025-26/albion/boxscore/6686",
+   "game": "Albion, February 25, 2026"
+  },
+  "olivet": {
+   "pf": 21,
+   "pa": 22,
+   "status": "3:18 2nd quarter",
+   "last": "Kaylee Bush: defensive rebound",
+   "source": "https://www.olivetcomets.com/sports/wbkb/2025-26/boxscores/20260221_8hd7.xml?view=plays",
+   "game": "Saint Mary's (Ind.), February 21, 2026"
+  },
+  "saintmarys": {
+   "pf": 38,
+   "pa": 37,
+   "status": "3:52 3rd quarter",
+   "last": "Hannah Outlaw: foul",
+   "source": "https://belles.saintmarys.edu/sports/womens-basketball/stats/2025-26/olivet/boxscore/2106",
+   "game": "Olivet, February 21, 2026"
+  },
+  "trine": {
+   "pf": 41,
+   "pa": 50,
+   "status": "7:58 4th quarter",
+   "last": "Olivia Marks: missed a 3-pointer",
+   "source": "https://trinethunder.com/sports/womens-basketball/stats/2025-26/denison/boxscore/8432",
+   "game": "Denison, March 7, 2026"
+  }
+ }
+}
