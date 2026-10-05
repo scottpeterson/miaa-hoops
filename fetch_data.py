@@ -685,8 +685,9 @@ def datacast_npi(sport):
             c = row["_cells"]
             teams.setdefault(s["slug"], {})
             teams[s["slug"]].update({"eff_rank": int(c[0]), "adj_em": c[4], "eff_updated": eff_updated})
+    # The efficiency table lists this season's Division III teams; build_site.py uses it to mark NPI games.
     return {"source": "D3 Datacast", "url": cfg["npi_url"], "eff_url": cfg["eff_url"], "updated": updated, "eff_updated": eff_updated,
-            "count": len(data), "teams": teams}
+            "count": len(data), "teams": teams, "d3_teams": sorted(r["Team"].strip() for r in eff)}
 
 
 def statlab_npi():

@@ -15,6 +15,7 @@ OUT = BASE / "docs" / "index.html"
 # Optional sample in-game moments for the next-game cards (tools/make_sample_live.py). Delete the file to remove them.
 SAMPLE_FILE = BASE / "data" / "sample_live.json"
 SAMPLE = json.loads(SAMPLE_FILE.read_text()) if SAMPLE_FILE.exists() else {}
+NPI_RULES = json.loads((BASE / "content" / "npi_rules.json").read_text())
 EASTERN = ZoneInfo("America/Detroit")
 BY_SLUG = {s["slug"]: s for s in SCHOOLS}
 NOW = datetime.now(timezone.utc)
@@ -294,6 +295,13 @@ def game_card(sport, school, g, twin, kind="pre", sample=None):
     links = game_links(g)
     links_row = f'<dt>Links</dt><dd>{" · ".join(links)}</dd>' if links else ""
     conf = '<span class="chip conf">MIAA game</span>' if g["conference"] else ""
+    npi_st = npi_status(sport, g)
+    if npi_st:
+        code, why = npi_st
+        label = {"yes": "NPI game", "no": "Not an NPI game", "tbd": "NPI game if the opponent is Division III"}[code]
+        if code == "no" and why:
+            label += f": {why[:1].lower() + why[1:]}"
+        conf += f'<span class="chip npi {code}">{esc(label)}</span>'
     regular = [x for x in teams(sport)[school["slug"]]["games"] if not x.get("exhibition")]
     opener = '<span class="chip">Season opener</span>' if kind == "far" and regular and g is regular[0] else ""
     if g.get("exhibition"):
@@ -561,6 +569,82 @@ def players_section(sport):
     return note + "\n".join(blocks)
 
 
+def _plain(name):
+    """Comparable form of a team name: no parentheses, school words, or punctuation; Wisconsin campuses as UW."""
+    n = re.sub(r"\([^)]*\)", " ", name.lower())
+    n = re.sub(r"\b(university of wisconsin|wisconsin|wis\.)-", "uw-", n)
+    n = re.sub(r"^the |\b(university|college) of |\b(university|college)\b", " ", n)
+    return re.sub(r"[^a-z0-9]+", " ", n).strip()
+
+
+def _d3_index():
+    index = {}
+    for name in SEASON["sports"]["mbb"]["npi"].get("d3_teams", []):
+        index.setdefault(_plain(name), []).append(name)
+    return index
+
+
+D3_INDEX = _d3_index()
+UNMATCHED = set()
+
+
+def _one_opponent(name):
+    """Return (counts, reason) for one opponent name, or None when the name matches nothing."""
+    if name in NPI_RULES["not_division_iii"]:
+        return False, NPI_RULES["not_division_iii"][name]
+    name = NPI_RULES["aliases"].get(name, name)
+    exact = name in SEASON["sports"]["mbb"]["npi"].get("d3_teams", [])
+    hits = [name] if exact else D3_INDEX.get(_plain(name), [])
+    if len(hits) != 1:
+        return None
+    member = NPI_RULES["membership"].get(hits[0])
+    if member:
+        return member["counts"], member["status"]
+    return True, ""
+
+
+def npi_status(sport, g):
+    """Return ("yes" | "no" | "tbd", label) for a men's game, or None for the women."""
+    if sport != "mbb":
+        return None
+    if g.get("exhibition"):
+        return "no", "Exhibition"
+    if g["opponent"].get("slug"):
+        return "yes", ""
+    name = re.sub(r"\s*\(exhibition\)", "", g["opponent"]["name"], flags=re.I)
+    parts = re.split(r"\s+(?:or|vs\.?)\s+", name)
+    results = [_one_opponent(n) for n in parts]
+    if len(parts) > 1:
+        if all(r and r[0] for r in results):
+            return "yes", ""
+        if all(r and not r[0] for r in results):
+            return "no", "Not Division III"
+        return "tbd", "Depends on opponent"
+    if results[0] is None:
+        UNMATCHED.add(name)
+        return "tbd", "Not checked"
+    counts, reason = results[0]
+    return ("yes", reason) if counts else ("no", reason[:1].upper() + reason[1:])
+
+
+def npi_note(sport):
+    if sport != "mbb":
+        return ""
+    return (f'<p class="small">The NPI game column shows whether a game counts toward the NCAA Power Index (NPI). '
+            f'A game counts when the opponent is a Division III member. Games against third-year provisional and third-year reclassifying members count. '
+            f'Games against first- and second-year members, schools reclassifying out of Division III, and exploratory schools do not. Exhibitions never count. '
+            f'The {link(NPI_RULES["reference"], "D3 Stat Lab reference")} lists each school\'s stage.</p>\n')
+
+
+def npi_cell(sport, g):
+    st = npi_status(sport, g)
+    if not st:
+        return ""
+    code, why = st
+    text = {"yes": "Yes", "no": "No", "tbd": "TBD"}[code]
+    return f'<td class="npi {code}">{text}{f"<span class=\"why\">{esc(why)}</span>" if why else ""}</td>'
+
+
 def links_cell(game):
     return " · ".join(game_links(game))
 
@@ -571,8 +655,9 @@ def schedule_table(sport, school, team):
         res = result_text(g)
         cls = "w" if g["result"] == "W" else "l" if g["result"] == "L" else "live" if g["state"] == "in" else ""
         when = time_tag(g) if g["state"] != "post" else date_only(g)
-        rows.append(f'<tr class="{cls}" data-game="{esc(g["id"])}" data-home="{1 if g["home"] else 0}"><td class="lead">{when}</td><td class="opp">{opponent_label(g, sport)}</td><td>{esc(site_text(g))}</td><td class="loc">{esc(g.get("location") or "")}</td><td class="lk">{links_cell(g)}</td><td class="res">{res}</td></tr>')
-    return f'<div class="tablewrap"><table class="sched"><thead><tr><th>Date</th><th>Opponent</th><th>Site</th><th>Location</th><th>Links</th><th>Result</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div>'
+        rows.append(f'<tr class="{cls}" data-game="{esc(g["id"])}" data-home="{1 if g["home"] else 0}"><td class="lead">{when}</td><td class="opp">{opponent_label(g, sport)}</td><td>{esc(site_text(g))}</td><td class="loc">{esc(g.get("location") or "")}</td><td class="lk">{links_cell(g)}</td>{npi_cell(sport, g)}<td class="res">{res}</td></tr>')
+    npi_head = "<th>NPI game</th>" if sport == "mbb" else ""
+    return f'<div class="tablewrap"><table class="sched"><thead><tr><th>Date</th><th>Opponent</th><th>Site</th><th>Location</th><th>Links</th>{npi_head}<th>Result</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div>'
 
 
 def schedules(sport):
@@ -600,8 +685,9 @@ def schedules(sport):
         cls = "w" if g["result"] == "W" else "l" if g["result"] == "L" else "live" if g["state"] == "in" else ""
         when = time_tag(g) if g["state"] != "post" else date_only(g)
         slugs = s["slug"] + (f' {twin[0]["slug"]}' if twin else "")
-        rows.append(f'<tr class="{cls}" data-game="{esc(g["id"])}" data-home="{1 if g["home"] else 0}" data-teams="{esc(slugs)}"><td class="lead">{when}</td><td class="opp"><img src="{esc(s["logo"])}" alt=""> {esc(s["name"])}</td><td class="opp">{opponent_label(g, sport)}</td><td class="loc">{esc(g.get("location") or "")}</td><td class="lk">{links_cell(g)}</td><td class="res">{res}</td></tr>')
-    all_pane = f'<div class="pane" id="sched-{sport}-all" data-pane="all"><div class="tablewrap"><table class="sched"><thead><tr><th>Date</th><th>Team</th><th>Opponent</th><th>Location</th><th>Links</th><th>Result</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div></div>'
+        rows.append(f'<tr class="{cls}" data-game="{esc(g["id"])}" data-home="{1 if g["home"] else 0}" data-teams="{esc(slugs)}"><td class="lead">{when}</td><td class="opp"><img src="{esc(s["logo"])}" alt=""> {esc(s["name"])}</td><td class="opp">{opponent_label(g, sport)}</td><td class="loc">{esc(g.get("location") or "")}</td><td class="lk">{links_cell(g)}</td>{npi_cell(sport, g)}<td class="res">{res}</td></tr>')
+    npi_head = "<th>NPI game</th>" if sport == "mbb" else ""
+    all_pane = f'<div class="pane" id="sched-{sport}-all" data-pane="all"><div class="tablewrap"><table class="sched"><thead><tr><th>Date</th><th>Team</th><th>Opponent</th><th>Location</th><th>Links</th>{npi_head}<th>Result</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div></div>'
     return f'<div class="tabs">{"".join(tabs)}</div>{all_pane}{"".join(panes)}'
 
 
@@ -648,7 +734,7 @@ def sport_section(sport):
 
 <h2 id="{sport}-schedules">Schedules and results</h2>
 <p class="small">The All teams tab lists every game once. A conference game appears from the home team's side. Games before Friday, November 6 are exhibitions and do not count in the records. Opponent ranks come from the {esc(poll_label.split(",")[0])}.</p>
-{schedules(sport)}
+{npi_note(sport)}{schedules(sport)}
 </section>'''
 
 
@@ -800,6 +886,8 @@ dl{display:grid;grid-template-columns:max-content 1fr;gap:var(--s1) var(--s3);ma
 table{border-collapse:collapse;width:100%;font-size:.93rem}th,td{padding:var(--s2) var(--s3);border-bottom:1px solid var(--line);text-align:center;white-space:nowrap}th{background:var(--surface2);font-weight:600;font-size:var(--fs-sm);text-transform:uppercase;letter-spacing:.03em;color:var(--muted)}
 tbody tr:last-child td{border-bottom:0}td.lead,td:first-child,th:first-child{text-align:left}td img,dd img,.badge img{height:20px;width:20px;object-fit:contain;vertical-align:-4px;margin-right:var(--s1)}
 tr.w td.res{color:var(--pos);font-weight:600}tr.l td.res{color:var(--neg);font-weight:600}tr.live td.res{color:var(--live);font-weight:600}td.loc{white-space:normal;min-width:160px;color:var(--muted);font-size:var(--fs-sm)}td.next{white-space:normal;min-width:220px}td.lk{font-size:var(--fs-sm)}
+td.npi{font-weight:600}td.npi.yes{color:var(--pos)}td.npi.no{color:var(--neg)}td.npi.tbd{color:var(--muted)}td.npi .why{display:block;font-weight:400;font-size:var(--fs-xs);color:var(--muted);white-space:normal;min-width:110px}
+.chip.npi.yes{color:var(--pos)}.chip.npi.no{color:var(--neg)}
 table.poll tr.miaa td{font-weight:700}
 .tabs{display:flex;flex-wrap:wrap;gap:var(--s2);margin-bottom:var(--s3)}.tab{height:var(--pill);border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:0 var(--s4);font-size:var(--fs-base)}.tab.active{background:var(--team,var(--ink));color:var(--on-team);border-color:transparent;font-weight:700}
 .teamplayers{margin-bottom:var(--s5)}.teamplayers h3{margin-top:0}.players{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:var(--s3)}
@@ -1135,6 +1223,8 @@ def main():
 """
     OUT.parent.mkdir(exist_ok=True)
     OUT.write_text(page)
+    for name in sorted(UNMATCHED):
+        print(f"NPI: no Division III match for opponent {name!r}; add it to content/npi_rules.json")
     print(f"wrote {OUT} ({len(page)} bytes)")
 
 

@@ -1,0 +1,45 @@
+{
+ "about": "Which men's opponents count for NPI. A game counts when the opponent is a Division III member on the D3 Datacast 2026-27 team list, minus the provisional and reclassifying stages that do not count. Exhibitions never count.",
+ "reference": "https://thed3statlab.com/reference.html",
+ "membership": {
+  "Carlow": {
+   "status": "3rd-year provisional member",
+   "counts": true
+  },
+  "Penn State-Brandywine": {
+   "status": "3rd-year provisional member",
+   "counts": true
+  },
+  "Regent": {
+   "status": "2nd-year provisional member",
+   "counts": false
+  },
+  "JWU Charlotte": {
+   "status": "2nd-year provisional member",
+   "counts": false
+  }
+ },
+ "not_division_iii": {
+  "St. Francis (PA)": "1st-year reclassifying member, from Division I",
+  "Azusa Pacific": "1st-year reclassifying member, from Division II",
+  "Maine-Augusta": "exploratory member",
+  "Central Michigan": "not Division III",
+  "Ferris State University": "not Division III",
+  "Purdue Fort Wayne": "not Division III",
+  "Saginaw Valley": "not Division III",
+  "Western Michigan": "not Division III"
+ },
+ "aliases": {
+  "Saint John's": "St. Johns",
+  "Saint John's (Minn.)": "St. Johns",
+  "Concordia (WI)": "Concordia (Wis.)",
+  "North Central College": "North Central (Ill.)",
+  "St. Thomas (TX)": "St. Thomas (Texas)",
+  "University of St. Thomas (TX)": "St. Thomas (Texas)",
+  "University of Pittsburgh at Greensburg": "Pitt-Greensburg",
+  "Case Western": "Case Western Reserve",
+  "Regents": "Regent",
+  "Eau Claire": "UW-Eau Claire",
+  "Oshkosh": "UW-Oshkosh"
+ }
+}
