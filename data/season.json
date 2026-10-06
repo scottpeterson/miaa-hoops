@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-05T09:26:05-05:00",
+ "fetched_at": "2026-10-05T18:59:26-05:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -806,7 +806,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-05T09:26:05-05:00"
+     "fetched": "2026-10-05T18:59:26-05:00"
     },
     "albion": {
      "games": [
@@ -1665,7 +1665,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-05T09:26:05-05:00"
+     "fetched": "2026-10-05T18:59:26-05:00"
     },
     "alma": {
      "games": [
@@ -2530,7 +2530,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-05T09:26:05-05:00"
+     "fetched": "2026-10-05T18:59:26-05:00"
     },
     "calvin": {
      "games": [
@@ -2837,8 +2837,8 @@
       {
        "id": "calvin-mbb-9270",
        "exhibition": false,
-       "date": "2027-01-06T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-01-07T00:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -2864,8 +2864,8 @@
       {
        "id": "calvin-mbb-9271",
        "exhibition": false,
-       "date": "2027-01-09T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-01-09T20:00:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
@@ -2894,8 +2894,8 @@
       {
        "id": "calvin-mbb-9272",
        "exhibition": false,
-       "date": "2027-01-13T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-01-14T00:00:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
@@ -2951,8 +2951,8 @@
       {
        "id": "calvin-mbb-9274",
        "exhibition": false,
-       "date": "2027-01-20T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-01-21T00:00:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
@@ -2981,8 +2981,8 @@
       {
        "id": "calvin-mbb-9275",
        "exhibition": false,
-       "date": "2027-01-23T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-01-23T20:00:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
@@ -3038,8 +3038,8 @@
       {
        "id": "calvin-mbb-9277",
        "exhibition": false,
-       "date": "2027-01-30T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-01-30T20:00:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
@@ -3068,8 +3068,8 @@
       {
        "id": "calvin-mbb-9278",
        "exhibition": false,
-       "date": "2027-02-03T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-02-04T00:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -3122,8 +3122,8 @@
       {
        "id": "calvin-mbb-9280",
        "exhibition": false,
-       "date": "2027-02-10T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-02-11T00:00:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
@@ -3152,8 +3152,8 @@
       {
        "id": "calvin-mbb-9281",
        "exhibition": false,
-       "date": "2027-02-13T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-02-13T20:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -3179,8 +3179,8 @@
       {
        "id": "calvin-mbb-9282",
        "exhibition": false,
-       "date": "2027-02-17T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-02-18T00:00:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
@@ -3332,7 +3332,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-05T09:26:05-05:00"
+     "fetched": "2026-10-05T18:59:26-05:00"
     },
     "hope": {
      "games": [
@@ -3987,6 +3987,7 @@
        "pa": null,
        "status": "",
        "links": {
+        "video": "https://miaasportsnetwork.com/tuocomets/",
         "live_stats": "https://prestolivestats.com/ya5s58navki9037d/u4muwm7x13ynd19u"
        },
        "live_feed": {
@@ -4153,7 +4154,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-05T09:26:05-05:00"
+     "fetched": "2026-10-05T18:59:26-05:00"
     },
     "kalamazoo": {
      "games": [
@@ -4956,7 +4957,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-05T09:26:05-05:00"
+     "fetched": "2026-10-05T18:59:26-05:00"
     },
     "olivet": {
      "games": [
@@ -5583,7 +5584,7 @@
         "slug": "calvin"
        },
        "conference": true,
-       "location": "",
+       "location": "Grand Rapids, Mich., Van Noord Arena",
        "note": "",
        "state": "pre",
        "result": null,
@@ -5772,7 +5773,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-05T09:26:05-05:00"
+     "fetched": "2026-10-05T18:59:26-05:00"
     },
     "trine": {
      "games": [
@@ -6596,7 +6597,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-05T09:26:05-05:00"
+     "fetched": "2026-10-05T18:59:26-05:00"
     }
    },
    "poll": {
@@ -8118,7 +8119,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-05T09:26:05-05:00"
+     "fetched": "2026-10-05T18:59:26-05:00"
     },
     "albion": {
      "games": [
@@ -8949,7 +8950,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-05T09:26:05-05:00"
+     "fetched": "2026-10-05T18:59:26-05:00"
     },
     "alma": {
      "games": [
@@ -9691,7 +9692,7 @@
      "roster": {
       "url": "https://almascots.com/sports/womens-basketball/roster",
       "season": "2026-27",
-      "players": 18,
+      "players": 21,
       "current": true
      },
      "players": [
@@ -9779,7 +9780,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-05T09:26:05-05:00"
+     "fetched": "2026-10-05T18:59:26-05:00"
     },
     "calvin": {
      "games": [
@@ -10553,7 +10554,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-05T09:26:05-05:00"
+     "fetched": "2026-10-05T18:59:26-05:00"
     },
     "hope": {
      "games": [
@@ -11379,7 +11380,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-05T09:26:05-05:00"
+     "fetched": "2026-10-05T18:59:26-05:00"
     },
     "kalamazoo": {
      "games": [
@@ -12171,7 +12172,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-05T09:26:05-05:00"
+     "fetched": "2026-10-05T18:59:26-05:00"
     },
     "olivet": {
      "games": [
@@ -12946,7 +12947,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-05T09:26:05-05:00"
+     "fetched": "2026-10-05T18:59:26-05:00"
     },
     "saintmarys": {
      "games": [
@@ -12955,16 +12956,16 @@
        "exhibition": true,
        "date": "2026-10-24T18:00:00Z",
        "time_tbd": false,
-       "home": true,
+       "home": false,
        "neutral": false,
        "opponent": {
-        "name": "Holy Cross",
-        "short": "Holy Cross",
+        "name": "Holy Cross College (Ind.)",
+        "short": "Holy Cross College",
         "logo": "https://belles.saintmarys.edu/images/logos/HCathleticLogo.png?width=80&height=80&mode=max",
         "slug": null
        },
        "conference": false,
-       "location": "Angela Athletic & Wellness Complex",
+       "location": "Notre Dame, IN",
        "note": "",
        "state": "pre",
        "result": null,
@@ -13668,7 +13669,7 @@
      "roster": {
       "url": "https://belles.saintmarys.edu/sports/womens-basketball/roster",
       "season": "2026-27",
-      "players": 10,
+      "players": 16,
       "current": true
      },
      "players": [
@@ -13756,7 +13757,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-05T09:26:05-05:00"
+     "fetched": "2026-10-05T18:59:26-05:00"
     },
     "trine": {
      "games": [
@@ -14608,7 +14609,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-05T09:26:05-05:00"
+     "fetched": "2026-10-05T18:59:26-05:00"
     }
    },
    "poll": {
@@ -14978,9 +14979,9 @@
   "d3hoops wbb: HTTP Error 405: Not Allowed"
  ],
  "stale": {
-  "olivet-mbb-schedule": "2026-10-05T00:26:27-05:00",
-  "mbb-poll": "2026-10-05T00:26:27-05:00",
-  "olivet-wbb-schedule": "2026-10-05T00:26:27-05:00",
-  "wbb-poll": "2026-10-05T00:26:27-05:00"
+  "olivet-mbb-schedule": "2026-10-05T09:26:05-05:00",
+  "mbb-poll": "2026-10-05T09:26:05-05:00",
+  "olivet-wbb-schedule": "2026-10-05T09:26:05-05:00",
+  "wbb-poll": "2026-10-05T09:26:05-05:00"
  }
 }
