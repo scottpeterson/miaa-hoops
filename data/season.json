@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-07T08:12:11-05:00",
+ "fetched_at": "2026-10-07T18:01:01-05:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -806,15 +806,15 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-07T08:12:11-05:00"
+     "fetched": "2026-10-07T18:01:01-05:00"
     },
     "albion": {
      "games": [
       {
        "id": "albion-mbb-7991",
        "exhibition": false,
-       "date": "2026-11-07T17:00:00Z",
-       "time_tbd": true,
+       "date": "2026-11-08T00:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -824,7 +824,7 @@
         "slug": null
        },
        "conference": false,
-       "location": "Fort Wayne, IN",
+       "location": "Fort Wayne, IN, Memorial Coliseum",
        "note": "",
        "state": "pre",
        "result": null,
@@ -837,8 +837,8 @@
       {
        "id": "albion-mbb-7885",
        "exhibition": false,
-       "date": "2026-11-10T17:00:00Z",
-       "time_tbd": true,
+       "date": "2026-11-11T00:30:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -848,7 +848,7 @@
         "slug": null
        },
        "conference": false,
-       "location": "North Manchester, IN",
+       "location": "North Manchester, IN, Stauffer-Wolfe Arena",
        "note": "",
        "state": "pre",
        "result": null,
@@ -868,11 +868,11 @@
        "opponent": {
         "name": "St. Francis (PA)",
         "short": "St. Francis (PA)",
-        "logo": null,
+        "logo": "https://gobrits.com/images/2026/10/7/sfu.png?width=80&height=80&mode=max",
         "slug": null
        },
        "conference": false,
-       "location": "Tiffin, OH",
+       "location": "Tiffin, OH, Seiberling Gymnasium",
        "note": "",
        "state": "pre",
        "result": null,
@@ -898,7 +898,7 @@
         "slug": null
        },
        "conference": false,
-       "location": "Tiffin, OH",
+       "location": "Tiffin, OH, Seiberling Gymnasium",
        "note": "",
        "state": "pre",
        "result": null,
@@ -909,35 +909,6 @@
         "video": "https://www.miaasportsnetwork.com/acbrits/"
        },
        "live_feed": null
-      },
-      {
-       "id": "albion-mbb-7888",
-       "exhibition": false,
-       "date": "2026-11-20T22:00:00Z",
-       "time_tbd": false,
-       "home": true,
-       "neutral": false,
-       "opponent": {
-        "name": "John Carroll vs. Wilmington",
-        "short": "John Carroll vs. Wilmington",
-        "logo": null,
-        "slug": null
-       },
-       "conference": false,
-       "location": "Albion, MI, Kresge Gymnasium",
-       "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
-       "status": "",
-       "links": {
-        "video": "https://www.miaasportsnetwork.com/acbrits/"
-       },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/albi/mbball/game.json"
-       }
       },
       {
        "id": "albion-mbb-7889",
@@ -969,35 +940,6 @@
        }
       },
       {
-       "id": "albion-mbb-7890",
-       "exhibition": false,
-       "date": "2026-11-21T18:00:00Z",
-       "time_tbd": false,
-       "home": true,
-       "neutral": false,
-       "opponent": {
-        "name": "Loser of Game 1 vs. Loser of Game 2",
-        "short": "Loser of Game 1 vs. Loser of Game 2",
-        "logo": null,
-        "slug": null
-       },
-       "conference": false,
-       "location": "Albion, MI, Kresge Gymnasium",
-       "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
-       "status": "",
-       "links": {
-        "video": "https://www.miaasportsnetwork.com/acbrits/"
-       },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/albi/mbball/game.json"
-       }
-      },
-      {
        "id": "albion-mbb-7891",
        "exhibition": false,
        "date": "2026-11-21T20:00:00Z",
@@ -1005,9 +947,9 @@
        "home": true,
        "neutral": false,
        "opponent": {
-        "name": "Winner of Game 1 vs. Winner of Game 2",
-        "short": "Winner of Game 1 vs. Winner of Game 2",
-        "logo": null,
+        "name": "John Carroll or Wilmington",
+        "short": "John Carroll or Wilmington",
+        "logo": "https://gobrits.com/images/logos/Albion_Britons.png?width=80&height=80&mode=max",
         "slug": null
        },
        "conference": false,
@@ -1029,8 +971,8 @@
       {
        "id": "albion-mbb-7892",
        "exhibition": false,
-       "date": "2026-12-02T17:00:00Z",
-       "time_tbd": true,
+       "date": "2026-12-03T00:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -1040,7 +982,7 @@
         "slug": null
        },
        "conference": false,
-       "location": "Ada, OH",
+       "location": "Ada, OH, The Ohio Northern University Sports Center",
        "note": "",
        "state": "pre",
        "result": null,
@@ -1111,8 +1053,8 @@
       {
        "id": "albion-mbb-7895",
        "exhibition": false,
-       "date": "2026-12-20T17:00:00Z",
-       "time_tbd": true,
+       "date": "2026-12-20T23:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": true,
        "opponent": {
@@ -1122,7 +1064,7 @@
         "slug": null
        },
        "conference": false,
-       "location": "Altoona, PA",
+       "location": "Altoona, PA, Adler Arena",
        "note": "",
        "state": "pre",
        "result": null,
@@ -1137,18 +1079,18 @@
       {
        "id": "albion-mbb-7896",
        "exhibition": false,
-       "date": "2026-12-21T17:00:00Z",
-       "time_tbd": true,
+       "date": "2026-12-21T20:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": true,
        "opponent": {
         "name": "Penn State Altoona or Regents",
         "short": "Penn State Altoona or Regents",
-        "logo": null,
+        "logo": "https://gobrits.com/images/logos/Albion_Britons.png?width=80&height=80&mode=max",
         "slug": null
        },
        "conference": false,
-       "location": "Altoona, PA",
+       "location": "Altoona, PA, Adler Arena",
        "note": "",
        "state": "pre",
        "result": null,
@@ -1163,8 +1105,8 @@
       {
        "id": "albion-mbb-7897",
        "exhibition": false,
-       "date": "2027-01-06T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-01-07T00:00:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
@@ -1192,8 +1134,8 @@
       {
        "id": "albion-mbb-7898",
        "exhibition": false,
-       "date": "2027-01-09T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-01-09T20:00:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
@@ -1221,8 +1163,8 @@
       {
        "id": "albion-mbb-7899",
        "exhibition": false,
-       "date": "2027-01-13T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-01-14T00:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -1232,7 +1174,7 @@
         "slug": "trine"
        },
        "conference": true,
-       "location": "Angola, IN",
+       "location": "Angola, IN, MTI Center",
        "note": "",
        "state": "pre",
        "result": null,
@@ -1248,8 +1190,8 @@
       {
        "id": "albion-mbb-7900",
        "exhibition": false,
-       "date": "2027-01-16T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-01-16T20:00:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
@@ -1277,8 +1219,8 @@
       {
        "id": "albion-mbb-7901",
        "exhibition": false,
-       "date": "2027-01-20T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-01-21T00:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -1288,7 +1230,7 @@
         "slug": "alma"
        },
        "conference": true,
-       "location": "Alma, MI",
+       "location": "Alma, MI, Art Smith Arena",
        "note": "",
        "state": "pre",
        "result": null,
@@ -1304,8 +1246,8 @@
       {
        "id": "albion-mbb-7902",
        "exhibition": false,
-       "date": "2027-01-23T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-01-23T20:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -1315,7 +1257,7 @@
         "slug": "adrian"
        },
        "conference": true,
-       "location": "Adrian, MI",
+       "location": "Adrian, MI, Merillat Sport and Fitness Center",
        "note": "",
        "state": "pre",
        "result": null,
@@ -1331,8 +1273,8 @@
       {
        "id": "albion-mbb-7903",
        "exhibition": false,
-       "date": "2027-01-27T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-01-28T00:00:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
@@ -1360,8 +1302,8 @@
       {
        "id": "albion-mbb-7904",
        "exhibition": false,
-       "date": "2027-01-30T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-01-30T20:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -1371,7 +1313,7 @@
         "slug": "calvin"
        },
        "conference": true,
-       "location": "Grand Rapids, MI",
+       "location": "Grand Rapids, MI, Van Noord Arena",
        "note": "",
        "state": "pre",
        "result": null,
@@ -1387,8 +1329,8 @@
       {
        "id": "albion-mbb-7905",
        "exhibition": false,
-       "date": "2027-02-03T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-02-04T00:00:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
@@ -1416,8 +1358,8 @@
       {
        "id": "albion-mbb-7906",
        "exhibition": false,
-       "date": "2027-02-06T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-02-06T20:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -1427,7 +1369,7 @@
         "slug": "olivet"
        },
        "conference": true,
-       "location": "Olivet, MI",
+       "location": "Olivet, MI, Cutler Event Center",
        "note": "",
        "state": "pre",
        "result": null,
@@ -1443,8 +1385,8 @@
       {
        "id": "albion-mbb-7907",
        "exhibition": false,
-       "date": "2027-02-10T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-02-11T00:00:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
@@ -1472,8 +1414,8 @@
       {
        "id": "albion-mbb-7908",
        "exhibition": false,
-       "date": "2027-02-13T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-02-13T20:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -1483,7 +1425,7 @@
         "slug": "kalamazoo"
        },
        "conference": true,
-       "location": "Kalamazoo, MI",
+       "location": "Kalamazoo, MI, Anderson Athletic Center",
        "note": "",
        "state": "pre",
        "result": null,
@@ -1501,8 +1443,8 @@
       {
        "id": "albion-mbb-7909",
        "exhibition": false,
-       "date": "2027-02-17T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-02-17T20:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -1512,7 +1454,7 @@
         "slug": "hope"
        },
        "conference": true,
-       "location": "Holland, MI",
+       "location": "Holland, MI, Devos Fieldhouse",
        "note": "",
        "state": "pre",
        "result": null,
@@ -1528,8 +1470,8 @@
       {
        "id": "albion-mbb-7910",
        "exhibition": false,
-       "date": "2027-02-20T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-02-20T20:00:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
@@ -1665,7 +1607,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-07T08:12:11-05:00"
+     "fetched": "2026-10-07T18:01:01-05:00"
     },
     "alma": {
      "games": [
@@ -2530,7 +2472,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-07T08:12:11-05:00"
+     "fetched": "2026-10-07T18:01:01-05:00"
     },
     "calvin": {
      "games": [
@@ -3332,7 +3274,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-07T08:12:11-05:00"
+     "fetched": "2026-10-07T18:01:01-05:00"
     },
     "hope": {
      "games": [
@@ -4154,7 +4096,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-07T08:12:11-05:00"
+     "fetched": "2026-10-07T18:01:01-05:00"
     },
     "kalamazoo": {
      "games": [
@@ -4957,7 +4899,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-07T08:12:11-05:00"
+     "fetched": "2026-10-07T18:01:01-05:00"
     },
     "olivet": {
      "games": [
@@ -5299,7 +5241,7 @@
         "slug": "albion"
        },
        "conference": true,
-       "location": "",
+       "location": "Albion, MI, Kresge Gymnasium",
        "note": "",
        "state": "pre",
        "result": null,
@@ -5773,7 +5715,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-07T08:12:11-05:00"
+     "fetched": "2026-10-07T18:01:01-05:00"
     },
     "trine": {
      "games": [
@@ -6597,7 +6539,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-07T08:12:11-05:00"
+     "fetched": "2026-10-07T18:01:01-05:00"
     }
    },
    "poll": {
@@ -8119,7 +8061,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-07T08:12:11-05:00"
+     "fetched": "2026-10-07T18:01:01-05:00"
     },
     "albion": {
      "games": [
@@ -8950,7 +8892,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-07T08:12:11-05:00"
+     "fetched": "2026-10-07T18:01:01-05:00"
     },
     "alma": {
      "games": [
@@ -9780,7 +9722,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-07T08:12:11-05:00"
+     "fetched": "2026-10-07T18:01:01-05:00"
     },
     "calvin": {
      "games": [
@@ -10554,7 +10496,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-07T08:12:11-05:00"
+     "fetched": "2026-10-07T18:01:01-05:00"
     },
     "hope": {
      "games": [
@@ -11380,7 +11322,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-07T08:12:11-05:00"
+     "fetched": "2026-10-07T18:01:01-05:00"
     },
     "kalamazoo": {
      "games": [
@@ -12172,7 +12114,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-07T08:12:11-05:00"
+     "fetched": "2026-10-07T18:01:01-05:00"
     },
     "olivet": {
      "games": [
@@ -12947,7 +12889,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-07T08:12:11-05:00"
+     "fetched": "2026-10-07T18:01:01-05:00"
     },
     "saintmarys": {
      "games": [
@@ -13757,7 +13699,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-07T08:12:11-05:00"
+     "fetched": "2026-10-07T18:01:01-05:00"
     },
     "trine": {
      "games": [
@@ -14609,7 +14551,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-07T08:12:11-05:00"
+     "fetched": "2026-10-07T18:01:01-05:00"
     }
    },
    "poll": {
@@ -14979,9 +14921,9 @@
   "d3hoops wbb: HTTP Error 405: Not Allowed"
  ],
  "stale": {
-  "olivet-mbb-schedule": "2026-10-07T00:46:55-05:00",
-  "mbb-poll": "2026-10-07T00:46:55-05:00",
-  "olivet-wbb-schedule": "2026-10-07T00:46:55-05:00",
-  "wbb-poll": "2026-10-07T00:46:55-05:00"
+  "olivet-mbb-schedule": "2026-10-07T08:12:11-05:00",
+  "mbb-poll": "2026-10-07T08:12:11-05:00",
+  "olivet-wbb-schedule": "2026-10-07T08:12:11-05:00",
+  "wbb-poll": "2026-10-07T08:12:11-05:00"
  }
 }
