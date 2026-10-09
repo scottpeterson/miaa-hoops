@@ -17,6 +17,10 @@
   "JWU Charlotte": {
    "status": "2nd-year provisional member",
    "counts": false
+  },
+  "Alverno": {
+   "status": "Division III member, back in 2026-27 after not playing in 2025-26",
+   "counts": true
   }
  },
  "not_division_iii": {
@@ -40,6 +44,10 @@
   "Case Western": "Case Western Reserve",
   "Regents": "Regent",
   "Eau Claire": "UW-Eau Claire",
-  "Oshkosh": "UW-Oshkosh"
+  "Oshkosh": "UW-Oshkosh",
+  "Concordia University (Wis.)": "Concordia (Wis.)",
+  "North Central": "North Central (Ill.)",
+  "Westminster (Pennsylvania)": "Westminster (Pa.)",
+  "Wheaton (Illinois)": "Wheaton (Ill.)"
  }
 }

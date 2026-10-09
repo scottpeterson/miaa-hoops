@@ -712,7 +712,10 @@ def statlab_npi():
             teams.setdefault(s["slug"], {})
             teams[s["slug"]].update({"tourney_pct": sim.get("Tourn%"), "aq_pct": sim.get("AQ%"), "median_record": f'{sim.get("MedW")}-{sim.get("MedL")}'})
     return {"source": "The D3 Stat Lab", "url": f"{STATLAB}/npi.html", "preseason_url": f"{STATLAB}/preseason_rankings.html",
-            "sims_url": f"{STATLAB}/season_simulations.html", "count": len(npi), "teams": teams}
+            "sims_url": f"{STATLAB}/season_simulations.html", "count": len(npi), "teams": teams,
+            # Every women's team in the NPI table; build_site.py uses it to mark NPI games for schools
+            # that have no men's team on the D3 Datacast list.
+            "d3_teams": sorted(r["Team"].strip() for r in npi if r.get("Team"))}
 
 
 # ---------------------------------------------------------------- main

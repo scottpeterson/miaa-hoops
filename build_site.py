@@ -577,14 +577,18 @@ def _plain(name):
     return re.sub(r"[^a-z0-9]+", " ", n).strip()
 
 
-def _d3_index():
+def _d3_index(sport):
     index = {}
-    for name in SEASON["sports"]["mbb"]["npi"].get("d3_teams", []):
+    for name in SEASON["sports"].get(sport, {}).get("npi", {}).get("d3_teams", []):
         index.setdefault(_plain(name), []).append(name)
     return index
 
 
-D3_INDEX = _d3_index()
+# Division III membership belongs to the school, not the team, so both sports check the men's list
+# (D3 Datacast, this season's members) first. The women's NPI table (The D3 Stat Lab) covers the
+# schools that have no men's team, such as women's colleges.
+D3_LISTS = [(SEASON["sports"]["mbb"]["npi"].get("d3_teams", []), _d3_index("mbb")),
+            (SEASON["sports"].get("wbb", {}).get("npi", {}).get("d3_teams", []), _d3_index("wbb"))]
 UNMATCHED = set()
 
 
@@ -593,8 +597,13 @@ def _one_opponent(name):
     if name in NPI_RULES["not_division_iii"]:
         return False, NPI_RULES["not_division_iii"][name]
     name = NPI_RULES["aliases"].get(name, name)
-    exact = name in SEASON["sports"]["mbb"]["npi"].get("d3_teams", [])
-    hits = [name] if exact else D3_INDEX.get(_plain(name), [])
+    if name in NPI_RULES["membership"]:
+        return NPI_RULES["membership"][name]["counts"], NPI_RULES["membership"][name]["status"]
+    hits = []
+    for names, index in D3_LISTS:
+        hits = [name] if name in names else index.get(_plain(name), [])
+        if len(hits) == 1:
+            break
     if len(hits) != 1:
         return None
     member = NPI_RULES["membership"].get(hits[0])
@@ -604,9 +613,7 @@ def _one_opponent(name):
 
 
 def npi_status(sport, g):
-    """Return ("yes" | "no" | "tbd", label) for a men's game, or None for the women."""
-    if sport != "mbb":
-        return None
+    """Return ("yes" | "no" | "tbd", label) for one game."""
     if g.get("exhibition"):
         return "no", "Exhibition"
     if g["opponent"].get("slug"):
@@ -628,8 +635,6 @@ def npi_status(sport, g):
 
 
 def npi_note(sport):
-    if sport != "mbb":
-        return ""
     return (f'<p class="small">The NPI game column shows whether a game counts toward the NCAA Power Index (NPI). '
             f'A game counts when the opponent is a Division III member. Games against third-year provisional and third-year reclassifying members count. '
             f'Games against first- and second-year members, schools reclassifying out of Division III, and exploratory schools do not. Exhibitions never count. '
@@ -656,7 +661,7 @@ def schedule_table(sport, school, team):
         cls = "w" if g["result"] == "W" else "l" if g["result"] == "L" else "live" if g["state"] == "in" else ""
         when = time_tag(g) if g["state"] != "post" else date_only(g)
         rows.append(f'<tr class="{cls}" data-game="{esc(g["id"])}" data-home="{1 if g["home"] else 0}"><td class="lead">{when}</td><td class="opp">{opponent_label(g, sport)}</td><td>{esc(site_text(g))}</td><td class="loc">{esc(g.get("location") or "")}</td><td class="lk">{links_cell(g)}</td>{npi_cell(sport, g)}<td class="res">{res}</td></tr>')
-    npi_head = "<th>NPI game</th>" if sport == "mbb" else ""
+    npi_head = "<th>NPI game</th>"
     return f'<div class="tablewrap"><table class="sched"><thead><tr><th>Date</th><th>Opponent</th><th>Site</th><th>Location</th><th>Links</th>{npi_head}<th>Result</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div>'
 
 
@@ -686,7 +691,7 @@ def schedules(sport):
         when = time_tag(g) if g["state"] != "post" else date_only(g)
         slugs = s["slug"] + (f' {twin[0]["slug"]}' if twin else "")
         rows.append(f'<tr class="{cls}" data-game="{esc(g["id"])}" data-home="{1 if g["home"] else 0}" data-teams="{esc(slugs)}"><td class="lead">{when}</td><td class="opp"><img src="{esc(s["logo"])}" alt=""> {esc(s["name"])}</td><td class="opp">{opponent_label(g, sport)}</td><td class="loc">{esc(g.get("location") or "")}</td><td class="lk">{links_cell(g)}</td>{npi_cell(sport, g)}<td class="res">{res}</td></tr>')
-    npi_head = "<th>NPI game</th>" if sport == "mbb" else ""
+    npi_head = "<th>NPI game</th>"
     all_pane = f'<div class="pane" id="sched-{sport}-all" data-pane="all"><div class="tablewrap"><table class="sched"><thead><tr><th>Date</th><th>Team</th><th>Opponent</th><th>Location</th><th>Links</th>{npi_head}<th>Result</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div></div>'
     return f'<div class="tabs">{"".join(tabs)}</div>{all_pane}{"".join(panes)}'
 
