@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-14T06:43:03-05:00",
+ "fetched_at": "2026-10-14T12:03:12-05:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -806,7 +806,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-14T06:43:03-05:00"
+     "fetched": "2026-10-14T12:03:12-05:00"
     },
     "albion": {
      "games": [
@@ -1607,7 +1607,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-14T06:43:03-05:00"
+     "fetched": "2026-10-14T12:03:12-05:00"
     },
     "alma": {
      "games": [
@@ -2472,7 +2472,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-14T06:43:03-05:00"
+     "fetched": "2026-10-14T12:03:12-05:00"
     },
     "calvin": {
      "games": [
@@ -3280,7 +3280,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-14T06:43:03-05:00"
+     "fetched": "2026-10-14T12:03:12-05:00"
     },
     "hope": {
      "games": [
@@ -4102,7 +4102,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-14T06:43:03-05:00"
+     "fetched": "2026-10-14T12:03:12-05:00"
     },
     "kalamazoo": {
      "games": [
@@ -4844,10 +4844,10 @@
       }
      ],
      "roster": {
-      "url": "https://hornets.kzoo.edu/sports/mens-basketball/roster/2025-26",
-      "season": "2025-26",
-      "players": 15,
-      "current": false
+      "url": "https://hornets.kzoo.edu/sports/mens-basketball/roster",
+      "season": "2026-27",
+      "players": 16,
+      "current": true
      },
      "players": [
       {
@@ -4934,7 +4934,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-14T06:43:03-05:00"
+     "fetched": "2026-10-14T12:03:12-05:00"
     },
     "olivet": {
      "games": [
@@ -5747,7 +5747,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-14T06:43:03-05:00"
+     "fetched": "2026-10-14T12:03:12-05:00"
     },
     "trine": {
      "games": [
@@ -6571,7 +6571,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-14T06:43:03-05:00"
+     "fetched": "2026-10-14T12:03:12-05:00"
     }
    },
    "poll": {
@@ -8093,7 +8093,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-14T06:43:03-05:00"
+     "fetched": "2026-10-14T12:03:12-05:00"
     },
     "albion": {
      "games": [
@@ -8834,10 +8834,10 @@
       }
      ],
      "roster": {
-      "url": "https://gobrits.com/sports/womens-basketball/roster/2025-26",
-      "season": "2025-26",
-      "players": 13,
-      "current": false
+      "url": "https://gobrits.com/sports/womens-basketball/roster",
+      "season": "2026-27",
+      "players": 17,
+      "current": true
      },
      "players": [
       {
@@ -8924,7 +8924,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-14T06:43:03-05:00"
+     "fetched": "2026-10-14T12:03:12-05:00"
     },
     "alma": {
      "games": [
@@ -9754,7 +9754,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-14T06:43:03-05:00"
+     "fetched": "2026-10-14T12:03:12-05:00"
     },
     "calvin": {
      "games": [
@@ -10438,10 +10438,10 @@
       }
      ],
      "roster": {
-      "url": "https://calvinknights.com/sports/womens-basketball/roster/2025-26",
-      "season": "2025-26",
-      "players": 18,
-      "current": false
+      "url": "https://calvinknights.com/sports/womens-basketball/roster",
+      "season": "2026-27",
+      "players": 19,
+      "current": true
      },
      "players": [
       {
@@ -10517,7 +10517,14 @@
        "headshot": "https://calvinknights.com/images/2025/10/28/Sall__Lydia.png?width=200&quality=90"
       }
      ],
-     "departed": [],
+     "departed": [
+      {
+       "name": "Ashley Raredon",
+       "reason": "not on the 2026-27 roster",
+       "line": "3.7 rebounds per game",
+       "year": "Junior"
+      }
+     ],
      "stats_season": "2025-26",
      "played": 0,
      "wins": 0,
@@ -10528,7 +10535,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-14T06:43:03-05:00"
+     "fetched": "2026-10-14T12:03:12-05:00"
     },
     "hope": {
      "games": [
@@ -11264,10 +11271,10 @@
       }
      ],
      "roster": {
-      "url": "https://athletics.hope.edu/sports/womens-basketball/roster/2025-26",
-      "season": "2025-26",
+      "url": "https://athletics.hope.edu/sports/womens-basketball/roster",
+      "season": "2026-27",
       "players": 16,
-      "current": false
+      "current": true
      },
      "players": [
       {
@@ -11354,7 +11361,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-14T06:43:03-05:00"
+     "fetched": "2026-10-14T12:03:12-05:00"
     },
     "kalamazoo": {
      "games": [
@@ -12158,7 +12165,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-14T06:43:03-05:00"
+     "fetched": "2026-10-14T12:03:12-05:00"
     },
     "olivet": {
      "games": [
@@ -12933,7 +12940,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-14T06:43:03-05:00"
+     "fetched": "2026-10-14T12:03:12-05:00"
     },
     "saintmarys": {
      "games": [
@@ -13743,7 +13750,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-14T06:43:03-05:00"
+     "fetched": "2026-10-14T12:03:12-05:00"
     },
     "trine": {
      "games": [
@@ -14505,10 +14512,10 @@
       }
      ],
      "roster": {
-      "url": "https://trinethunder.com/sports/womens-basketball/roster/2025-26",
-      "season": "2025-26",
-      "players": 23,
-      "current": false
+      "url": "https://trinethunder.com/sports/womens-basketball/roster",
+      "season": "2026-27",
+      "players": 21,
+      "current": true
      },
      "players": [
       {
@@ -14595,7 +14602,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-14T06:43:03-05:00"
+     "fetched": "2026-10-14T12:03:12-05:00"
     }
    },
    "poll": {
@@ -15380,9 +15387,9 @@
   "d3hoops wbb: poll table not found"
  ],
  "stale": {
-  "olivet-mbb-schedule": "2026-10-13T23:44:06-05:00",
-  "mbb-poll": "2026-10-13T23:44:06-05:00",
-  "olivet-wbb-schedule": "2026-10-13T23:44:06-05:00",
-  "wbb-poll": "2026-10-13T23:44:06-05:00"
+  "olivet-mbb-schedule": "2026-10-14T06:43:03-05:00",
+  "mbb-poll": "2026-10-14T06:43:03-05:00",
+  "olivet-wbb-schedule": "2026-10-14T06:43:03-05:00",
+  "wbb-poll": "2026-10-14T06:43:03-05:00"
  }
 }
