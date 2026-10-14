@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-14T12:03:12-05:00",
+ "fetched_at": "2026-10-14T16:35:54-05:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -806,7 +806,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-14T12:03:12-05:00"
+     "fetched": "2026-10-14T16:35:54-05:00"
     },
     "albion": {
      "games": [
@@ -1607,7 +1607,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-14T12:03:12-05:00"
+     "fetched": "2026-10-14T16:35:54-05:00"
     },
     "alma": {
      "games": [
@@ -2472,7 +2472,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-14T12:03:12-05:00"
+     "fetched": "2026-10-14T16:35:54-05:00"
     },
     "calvin": {
      "games": [
@@ -3280,7 +3280,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-14T12:03:12-05:00"
+     "fetched": "2026-10-14T16:35:54-05:00"
     },
     "hope": {
      "games": [
@@ -4102,7 +4102,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-14T12:03:12-05:00"
+     "fetched": "2026-10-14T16:35:54-05:00"
     },
     "kalamazoo": {
      "games": [
@@ -4934,7 +4934,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-14T12:03:12-05:00"
+     "fetched": "2026-10-14T16:35:54-05:00"
     },
     "olivet": {
      "games": [
@@ -5747,7 +5747,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-14T12:03:12-05:00"
+     "fetched": "2026-10-14T16:35:54-05:00"
     },
     "trine": {
      "games": [
@@ -5821,9 +5821,13 @@
        "pa": null,
        "status": "",
        "links": {
-        "video": "https://www.miaasportsnetwork.com/tuthunder/"
+        "video": "https://www.miaasportsnetwork.com/tuthunder/",
+        "live_stats": "https://trinethunder.com/sidearmstats/mbball/"
        },
-       "live_feed": null
+       "live_feed": {
+        "type": "sidearm",
+        "url": "https://sidearmstats.com/trine/mbball/game.json"
+       }
       },
       {
        "id": "trine-mbb-8530",
@@ -5847,7 +5851,8 @@
        "pa": null,
        "status": "",
        "links": {
-        "video": "https://www.miaasportsnetwork.com/tuthunder/"
+        "video": "https://www.miaasportsnetwork.com/tuthunder/",
+        "live_stats": "https://trinethunder.com/sidearmstats/mbball/"
        },
        "live_feed": {
         "type": "sidearm",
@@ -5876,9 +5881,13 @@
        "pa": null,
        "status": "",
        "links": {
-        "video": "https://www.miaasportsnetwork.com/tuthunder/"
+        "video": "https://www.miaasportsnetwork.com/tuthunder/",
+        "live_stats": "https://trinethunder.com/sidearmstats/mbball/"
        },
-       "live_feed": null
+       "live_feed": {
+        "type": "sidearm",
+        "url": "https://sidearmstats.com/trine/mbball/game.json"
+       }
       },
       {
        "id": "trine-mbb-8531",
@@ -5902,7 +5911,8 @@
        "pa": null,
        "status": "",
        "links": {
-        "video": "https://www.miaasportsnetwork.com/tuthunder/"
+        "video": "https://www.miaasportsnetwork.com/tuthunder/",
+        "live_stats": "https://trinethunder.com/sidearmstats/mbball/"
        },
        "live_feed": {
         "type": "sidearm",
@@ -5931,7 +5941,8 @@
        "pa": null,
        "status": "",
        "links": {
-        "video": "https://www.miaasportsnetwork.com/tuthunder/"
+        "video": "https://www.miaasportsnetwork.com/tuthunder/",
+        "live_stats": "https://trinethunder.com/sidearmstats/mbball/"
        },
        "live_feed": {
         "type": "sidearm",
@@ -5984,7 +5995,8 @@
        "pa": null,
        "status": "",
        "links": {
-        "video": "https://www.miaasportsnetwork.com/tuthunder/"
+        "video": "https://www.miaasportsnetwork.com/tuthunder/",
+        "live_stats": "https://trinethunder.com/sidearmstats/mbball/"
        },
        "live_feed": {
         "type": "sidearm",
@@ -6109,7 +6121,8 @@
        "pa": null,
        "status": "",
        "links": {
-        "video": "https://www.miaasportsnetwork.com/tuthunder/"
+        "video": "https://www.miaasportsnetwork.com/tuthunder/",
+        "live_stats": "https://trinethunder.com/sidearmstats/mbball/"
        },
        "live_feed": {
         "type": "sidearm",
@@ -6165,7 +6178,8 @@
        "pa": null,
        "status": "",
        "links": {
-        "video": "https://www.miaasportsnetwork.com/tuthunder/"
+        "video": "https://www.miaasportsnetwork.com/tuthunder/",
+        "live_stats": "https://trinethunder.com/sidearmstats/mbball/"
        },
        "live_feed": {
         "type": "sidearm",
@@ -6248,7 +6262,8 @@
        "pa": null,
        "status": "",
        "links": {
-        "video": "https://www.miaasportsnetwork.com/tuthunder/"
+        "video": "https://www.miaasportsnetwork.com/tuthunder/",
+        "live_stats": "https://trinethunder.com/sidearmstats/mbball/"
        },
        "live_feed": {
         "type": "sidearm",
@@ -6304,7 +6319,8 @@
        "pa": null,
        "status": "",
        "links": {
-        "video": "https://www.miaasportsnetwork.com/tuthunder/"
+        "video": "https://www.miaasportsnetwork.com/tuthunder/",
+        "live_stats": "https://trinethunder.com/sidearmstats/mbball/"
        },
        "live_feed": {
         "type": "sidearm",
@@ -6360,7 +6376,8 @@
        "pa": null,
        "status": "",
        "links": {
-        "video": "https://www.miaasportsnetwork.com/tuthunder/"
+        "video": "https://www.miaasportsnetwork.com/tuthunder/",
+        "live_stats": "https://trinethunder.com/sidearmstats/mbball/"
        },
        "live_feed": {
         "type": "sidearm",
@@ -6416,7 +6433,8 @@
        "pa": null,
        "status": "",
        "links": {
-        "video": "https://www.miaasportsnetwork.com/tuthunder/"
+        "video": "https://www.miaasportsnetwork.com/tuthunder/",
+        "live_stats": "https://trinethunder.com/sidearmstats/mbball/"
        },
        "live_feed": {
         "type": "sidearm",
@@ -6445,7 +6463,8 @@
        "pa": null,
        "status": "",
        "links": {
-        "video": "https://www.miaasportsnetwork.com/tuthunder/"
+        "video": "https://www.miaasportsnetwork.com/tuthunder/",
+        "live_stats": "https://trinethunder.com/sidearmstats/mbball/"
        },
        "live_feed": {
         "type": "sidearm",
@@ -6571,7 +6590,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-14T12:03:12-05:00"
+     "fetched": "2026-10-14T16:35:54-05:00"
     }
    },
    "poll": {
@@ -8093,7 +8112,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-14T12:03:12-05:00"
+     "fetched": "2026-10-14T16:35:54-05:00"
     },
     "albion": {
      "games": [
@@ -8924,7 +8943,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-14T12:03:12-05:00"
+     "fetched": "2026-10-14T16:35:54-05:00"
     },
     "alma": {
      "games": [
@@ -9754,7 +9773,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-14T12:03:12-05:00"
+     "fetched": "2026-10-14T16:35:54-05:00"
     },
     "calvin": {
      "games": [
@@ -10535,7 +10554,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-14T12:03:12-05:00"
+     "fetched": "2026-10-14T16:35:54-05:00"
     },
     "hope": {
      "games": [
@@ -11361,7 +11380,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-14T12:03:12-05:00"
+     "fetched": "2026-10-14T16:35:54-05:00"
     },
     "kalamazoo": {
      "games": [
@@ -12165,7 +12184,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-14T12:03:12-05:00"
+     "fetched": "2026-10-14T16:35:54-05:00"
     },
     "olivet": {
      "games": [
@@ -12940,7 +12959,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-14T12:03:12-05:00"
+     "fetched": "2026-10-14T16:35:54-05:00"
     },
     "saintmarys": {
      "games": [
@@ -13750,7 +13769,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-14T12:03:12-05:00"
+     "fetched": "2026-10-14T16:35:54-05:00"
     },
     "trine": {
      "games": [
@@ -14602,7 +14621,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-14T12:03:12-05:00"
+     "fetched": "2026-10-14T16:35:54-05:00"
     }
    },
    "poll": {
@@ -15387,9 +15406,9 @@
   "d3hoops wbb: poll table not found"
  ],
  "stale": {
-  "olivet-mbb-schedule": "2026-10-14T06:43:03-05:00",
-  "mbb-poll": "2026-10-14T06:43:03-05:00",
-  "olivet-wbb-schedule": "2026-10-14T06:43:03-05:00",
-  "wbb-poll": "2026-10-14T06:43:03-05:00"
+  "olivet-mbb-schedule": "2026-10-14T12:03:12-05:00",
+  "mbb-poll": "2026-10-14T12:03:12-05:00",
+  "olivet-wbb-schedule": "2026-10-14T12:03:12-05:00",
+  "wbb-poll": "2026-10-14T12:03:12-05:00"
  }
 }
