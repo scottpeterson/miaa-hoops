@@ -596,9 +596,16 @@ def leaders(school, cfg, roster, sport):
             if taken.get(p["label"], 0) < p["want"]:
                 taken[p["label"]] = taken.get(p["label"], 0) + 1
                 players.append({k: v for k, v in p.items() if k != "want"})
-        elif reason != "class" and rank_in_pool < 5 and p["name"] not in gone:
-            gone[p["name"]] = {"name": p["name"], "reason": reason, "line": f'{p["avg"]} {p["label"].lower()} per game', "year": p.get("year")}
-    return season, players, list(gone.values())
+        elif reason != "class":
+            # Each departed player is listed by scoring; a player with no scoring row keeps their highest per-game average.
+            try:
+                avg = float(p["avg"])
+            except (TypeError, ValueError):
+                avg = 0.0
+            order = (p["label"] != "Points", -avg)
+            if p["name"] not in gone or order < gone[p["name"]]["order"]:
+                gone[p["name"]] = {"name": p["name"], "reason": reason, "line": f'{p["avg"]} {p["label"].lower()} per game', "year": p.get("year"), "order": order}
+    return season, players, [{k: v for k, v in g.items() if k != "order"} for g in sorted(gone.values(), key=lambda g: g["order"])]
 
 
 # ---------------------------------------------------------------- D3hoops.com poll

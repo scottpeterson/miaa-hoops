@@ -497,9 +497,9 @@ def numbers_section(sport):
             if not d:
                 continue
             rows.append(f'<tr data-teams="{s["slug"]}" data-keep="1"><td class="lead"><img src="{esc(s["logo"])}" alt=""> {esc(s["name"])}</td><td>#{d["rank"]}</td><td>{esc(d["npi"])}</td><td>{esc(d["record"])}</td><td>{esc(d["bid"])}</td><td>{esc(d["at_large_rank"])}</td><td>{"#" + str(d["eff_rank"]) if d.get("eff_rank") else "–"}</td><td>{esc(d.get("adj_em", "–"))}</td></tr>')
-        intro = (f'<p class="small">From {link("https://d3datacast.com/", "D3 Datacast")}: the {link(n["url"], "men\'s NPI table")} (updated {esc(n.get("updated", ""))}) and the '
-                 f'{link(n["eff_url"], "efficiency ratings")} (updated {esc(n.get("eff_updated", ""))}). The NPI stays on last season\'s final numbers until this season\'s games count. '
-                 f'The {link("https://d3datacast.com/conference-ratings/miaa/", "MIAA conference page")} has the full picture.</p>')
+        intro = (f'<p class="small">From {link("https://d3datacast.com/", "D3 Datacast")}: the {link(n["url"], "men\'s NPI table")} (updated {esc(when_updated(n.get("updated", "")))}) and the '
+                 f'{link(n["eff_url"], "efficiency ratings")} (updated {esc(when_updated(n.get("eff_updated", "")))}). The NPI stays on last season\'s final numbers until this season\'s games count. '
+                 f'The {link("https://d3datacast.com/conference-ratings/miaa/", "MIAA conference page")} has every MIAA team\'s ratings.</p>')
     else:
         head = "<tr><th>Team</th><th>NPI rank</th><th>NPI</th><th>Record in the NPI table</th><th>Bid</th><th>Preseason rank</th><th>Returning production</th><th>Tournament odds</th><th>Auto bid odds</th><th>Median record</th></tr>"
         for s in sorted(members(sport), key=lambda s: int(t.get(s["slug"], {}).get("rank") or 9999)):
@@ -538,6 +538,16 @@ def poll_section(sport):
             f'{"<p class=small>Others receiving votes: " + others + "</p>" if others else ""}</details>')
 
 
+def when_updated(raw):
+    """'3/11/26 8:25 AM' -> 'March 11, 2026, 8:25 AM'. Other text passes through."""
+    m = re.fullmatch(r"(\d{1,2})/(\d{1,2})/(\d{2,4})\s*(.*)", (raw or "").strip())
+    if not m:
+        return raw
+    year = int(m.group(3)) + (2000 if len(m.group(3)) == 2 else 0)
+    day = datetime(year, int(m.group(1)), int(m.group(2)))
+    return f"{day:%B} {day.day}, {year}" + (f", {m.group(4)}" if m.group(4) else "")
+
+
 def players_section(sport):
     blocks = []
     seasons = set()
@@ -560,8 +570,9 @@ def players_section(sport):
         gone = team.get("departed") or []
         gone_html = ""
         if gone:
-            items = "; ".join(f'{esc(g["name"])} ({esc(g["line"])}, {esc(g["reason"])})' for g in gone)
-            gone_html = f'<p class="small gone">Not back for {esc(SEASON["season"])}: {items}.</p>'
+            not_listed = f'not on the {SEASON["season"]} roster'
+            items = "".join(f'<li>{esc(g["name"])}: {esc(g["line"])}{"" if g["reason"] == not_listed else ", " + esc(g["reason"])}</li>' for g in gone)
+            gone_html = f'<div class="small gone"><p>Not back for {esc(SEASON["season"])}:</p><ul>{items}</ul></div>'
         blocks.append(f'<div class="teamplayers" data-teams="{s["slug"]}" style="--team:var(--c-{s["slug"]})"><h3><img src="{esc(s["logo"])}" alt=""> {esc(s["name"])} {esc(mascot(s, sport))}{label} {link(s["sports"][sport]["stats_url"], "Full stats", "sitelink")}</h3><div class="players">{"".join(cards)}</div>{gone_html}</div>')
     note = ""
     if seasons and all(x and x != SEASON["season"] for x in seasons):
@@ -722,7 +733,7 @@ def sport_section(sport):
 {standings_table(sport)}
 
 <h2 id="{sport}-teams">The {count} teams</h2>
-<p class="small">One card per team with the links you need: schedule, roster, statistics, live stats, the school's stream, and tickets where the school lists them. The NPI badge opens the {link(npi_url, npi_source + " " + label + " NPI table")}. The {esc(poll_label)} badge opens the poll. Use Focus to show one team everywhere on the page.</p>
+<p class="small">One card per team with the links you need: schedule, roster, statistics, live stats, the school's stream, and tickets where the school lists them. The NPI badge opens {link(npi_url, npi_source + "'s " + label + " NPI table")}. The {esc(poll_label)} badge opens the poll. Use Focus to show one team everywhere on the page.</p>
 <div class="teams">
 {"".join(team_card(sport, s) for s in ordered(sport))}
 </div>
@@ -775,22 +786,22 @@ def tournament_section():
 <h3>Projected 2027 dates</h3>
 <p>The schedules on this page end on Saturday, February 20 and Sunday, February 21, 2027. If the MIAA keeps the 2026 pattern, the tournaments fall on these days. None of these dates is official.</p>
 <ul>
-<li>Men: first round Tuesday, February 23; semifinals Friday, February 26; final Saturday, February 27, 2027.</li>
-<li>Women: first round Wednesday, February 24; semifinals Friday, February 26; final Saturday, February 27, 2027.</li>
+<li>Men: first round on Tuesday, February 23. Semifinals on Friday, February 26. Final on Saturday, February 27, 2027.</li>
+<li>Women: first round on Wednesday, February 24. Semifinals on Friday, February 26. Final on Saturday, February 27, 2027.</li>
 </ul>
-<p class="small">The MIAA posts one tournament page per sport. The {tc_m} and {tc_w} list every game with the score, a box score, and each school's recap. They also link to tickets, the program, standings, and statistics. Expect the 2027 pages to look the same, in the last week of the regular season. Tickets go through the {tickets}.</p>
+<p class="small">The MIAA posts one tournament page per sport. The {tc_m} and {tc_w} list every game with the score, a box score, and each school's recap. They also link to tickets, the program, standings, and statistics. The 2027 pages will probably appear in the last week of the regular season, in the same form. Tickets go through the {tickets}.</p>
 </article>
 </div>
 
 <h2 id="tiebreakers">Tiebreakers</h2>
 <p><b>The MIAA does not publish its basketball tiebreaker rules.</b> As of October 3, 2026, miaa.org has no handbook, bylaws, sport regulations, or tiebreaker procedure for men's or women's basketball. The conference's {det} says that the champion is the team with the best MIAA won-loss record. It says that the tournament champion gets the NCAA bid. It does not say how the MIAA orders teams with the same record.</p>
 <p>These rules decide seeds, first-round byes, home games, and in a tie for first place the regular-season title. They affect every team, player, and fan in the conference, and the conference should post them where anyone can read them.</p>
-<p>Peer Division III leagues do. The CCIW, for example, posts its {cciw} on its public site.</p>
+<p>Peer Division III leagues do. The College Conference of Illinois and Wisconsin (CCIW), for example, posts its {cciw} on its public site.</p>
 <p>This page will link to the MIAA's document the day it appears. Until then, the best available evidence is the school releases and fan posts below.</p>
 <p class="small">Documents at miaa.net belong to the Mid-America Intercollegiate Athletics Association, a Division II league, and do not apply here.</p>
 <article class="rule">
 <h3>What the evidence supports</h3>
-<p>This is an inference from the three ties below and the fan posts, not a published rule. Each step says how much evidence backs it.</p>
+<p>This order is an inference from the three ties below and the fan posts. The MIAA does not publish it. Each step says how much evidence backs it.</p>
 <ol>
 <li><b>Head-to-head record among the tied teams.</b> Every source lists this first. In all three verified ties the teams split, so it decided nothing.</li>
 <li><b>Record against the other teams, one at a time, from the top of the standings down.</b> Confirmed by the 2024 men's race. Trine and Calvin split, Trine went 2-0 against third-place Hope, and Calvin went 1-1. Trine got the No. 1 seed even though Calvin had the better second-half record, 6-1 to 5-2. So this step comes before the second-half step.</li>
@@ -798,7 +809,7 @@ def tournament_section():
 <li><b>Record in the second half of the double round robin.</b> Confirmed by the 2023 and 2024 women's races, and both school releases name it. In both cases the teams split head to head, had identical records against every other team, and had identical road records. That fits a step that sits after the first three.</li>
 <li><b>Coin flip.</b> One fan post. No case.</li>
 </ol>
-<p class="small">Open questions: how the MIAA handles a three-team tie, which one fan post says it once resolved from the bottom of the standings up, and whether the second-half step counts the last half of the schedule or the second meeting with each opponent. The two readings matched in every case here.</p>
+<p class="small">Two points remain open. One is how the MIAA breaks a three-team tie. One fan post says the conference once worked up from the bottom of the standings. The other is whether the second-half step counts the last half of the schedule or the second meeting with each opponent. The two readings matched in every case here.</p>
 <details class="poll"><summary>The three verified ties</summary>
 <div class="tablewrap"><table>
 <thead><tr><th>Tie</th><th>Head to head</th><th>Vs. the next team down</th><th>Road</th><th>Second half</th><th>Result</th></tr></thead>
@@ -807,7 +818,7 @@ def tournament_section():
 <tr><td class="lead">Women 2023-24, Calvin and Trine, 12-4</td><td>1-1</td><td>Both 0-2 vs. Hope, both 1-1 vs. Albion, both 2-0 vs. everyone else</td><td>6-2 each</td><td>Calvin 6-2, Trine 5-3</td><td>Calvin No. 2 seed</td></tr>
 <tr><td class="lead">Men 2023-24, Trine and Calvin, 12-2</td><td>1-1</td><td>Trine 2-0 vs. Hope, Calvin 1-1 vs. Hope</td><td>6-1 each</td><td>Trine 5-2, Calvin 6-1</td><td>Trine No. 1 seed</td></tr>
 </tbody></table></div>
-<p class="small">Records computed from the schools' schedule pages for those seasons. Second half means each team's last eight (women) or seven (men) conference games, which were the second meetings with each opponent in each case.</p>
+<p class="small">The records come from the schools' schedule pages for those seasons. Second half means each team's last eight (women) or seven (men) conference games, which were the second meetings with each opponent in each case.</p>
 </details>
 </article>
 <div class="rulegrid">
@@ -824,7 +835,7 @@ def tournament_section():
 <p class="small">These are forum posts. The posters disagree with each other on the order of the steps, and none of it is official. Each quote names the poster and the date. This page does not link to d3boards.com threads.</p>
 <ul>
 <li><b>HOPEful</b>, quoted by deiscanton, d3boards.com, January 28, 2022. The MIAA order is head to head, then results against the other teams in descending order of the standings, then record in road league games.</li>
-<li><b>deiscanton</b>, d3boards.com, January 28, 2022. In the MIAA the fourth step "apparently is best record/winning pct in the second half of the double round robin," and the fifth is a coin flip. The same post says that the conference does not publish the list on its website.</li>
+<li><b>deiscanton</b>, d3boards.com, January 28, 2022. The post says the fourth MIAA step "apparently is best record/winning pct in the second half of the double round robin." The fifth is a coin flip. The same post says that the conference does not publish the list on its website.</li>
 <li><b>Flying Dutch Fan</b>, quoted in the same thread, d3boards.com, January 28, 2022. "The rules are clear - look at records the 2nd time through the double round robin."</li>
 <li><b>sac</b>, d3boards.com, February 18, 2023. After a head-to-head split, the next step "should be go down the standings." The post says the MIAA broke the previous year's three-way tie by going through the standings from the bottom up instead.</li>
 </ul>
@@ -900,6 +911,8 @@ table.poll tr.miaa td{font-weight:700}
 .face{width:48px;height:48px;border-radius:50%;object-fit:cover;background:var(--surface2);flex:none}.initials{display:inline-flex;align-items:center;justify-content:center;font-weight:700;font-size:var(--fs-base)}
 .player>div{min-width:0}.pname{font-weight:700;line-height:1.2}.psub{font-size:var(--fs-sm);color:var(--muted)}.pline{font-size:var(--fs-md);margin-top:2px}
 .gone{margin:var(--s3) 0 0}
+.gone p{margin:0}
+.gone ul{margin:var(--s1) 0 0;padding-left:1.25em}
 details.poll{margin-top:var(--s3)}details.poll summary{cursor:pointer;color:var(--link);font-weight:600}details.poll .tablewrap{margin-top:var(--s3)}details.poll p{margin-top:var(--s3)}
 .rules h2:first-child{margin-top:var(--s7)}.rulegrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:var(--s4)}.rule{background:var(--surface);border:1px solid var(--line);border-radius:var(--r3);padding:var(--s4)}.rule h3{margin:0 0 var(--s3)}.rule ul,.rule ol{margin:0 0 var(--s3);padding-left:1.2em}
 .rule ol li{margin-bottom:var(--s2)}
@@ -1198,6 +1211,7 @@ def main():
 <meta name="theme-color" content="#f4f3ef" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#15181d" media="(prefers-color-scheme: dark)">
 <title>{esc(SITE_NAME)}</title>
+<meta name="ste-allow" content="ET,PM,AM,MI,IN,TBA,D3,NCAA,II,III,SUNY,WPI">
 <meta name="description" content="MIAA Division III basketball, men's and women's, on one page: schedules, live scores, records, standings, D3hoops.com poll, NPI rank, rosters, stats, and where to watch.">
 <link rel="icon" href="assets/miaa.png"><link rel="apple-touch-icon" href="assets/miaa.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1206,7 +1220,7 @@ def main():
 <style>{css}</style></head><body><main>
 <p class="disclaimer">This site is not affiliated with the Michigan Intercollegiate Athletic Association (MIAA).</p>
 <div class="top"><div><h1>{esc(SITE_NAME)}</h1>
-<p class="sub">Every MIAA basketball team, men's and women's, on one page for {esc(SEASON["season"])}. The next game and the live score, standings, the D3hoops.com poll, and NPI rank, with links to each school's schedule, roster, statistics, live stats, and stream. The numbers here are headlines. Each one links to the page that has the rest.</p>
+<p class="sub">Every MIAA basketball team, men's and women's, on one page for {esc(SEASON["season"])}. Each team shows the next game, the live score, standings, the D3hoops.com poll, and the NCAA Power Index (NPI) rank. Links go to each school's schedule, roster, statistics, live stats, and stream. Each number links to the page with the full data.</p>
 <span class="livepill"><i></i>Games in progress</span></div><div class="controls"><div class="ctl"><span class="seglabel" id="lbl-sport">Sport</span><div class="seg" role="group" aria-labelledby="lbl-sport"><button type="button" class="sp" data-sport="mbb">Men</button><button type="button" class="sp" data-sport="wbb">Women</button></div></div><div class="ctl"><span class="seglabel" id="lbl-times">Times</span><div class="seg" role="group" aria-labelledby="lbl-times"><button type="button" class="tz" data-tz="America/Detroit">Eastern</button><button type="button" class="tz" data-tz="America/Chicago">Central</button><button type="button" class="tz" data-tz="local">Device</button></div></div><div class="ctl"><span class="seglabel" id="lbl-theme">Theme</span><div class="seg" role="group" aria-labelledby="lbl-theme"><button type="button" class="th" data-theme="light">Light</button><button type="button" class="th" data-theme="dark">Dark</button></div></div></div></div>
 
 {sport_section("mbb")}
