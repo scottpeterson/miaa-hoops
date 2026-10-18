@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-18T05:55:09-05:00",
+ "fetched_at": "2026-10-18T08:46:52-05:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -806,7 +806,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-18T05:55:09-05:00"
+     "fetched": "2026-10-18T08:46:52-05:00"
     },
     "albion": {
      "games": [
@@ -1587,13 +1587,25 @@
       {
        "name": "Truman King",
        "reason": "not on the 2026-27 roster",
-       "line": "2.8 rebounds per game",
+       "line": "5.0 points per game",
        "year": "Junior"
+      },
+      {
+       "name": "Tyler Davis",
+       "reason": "not on the 2026-27 roster",
+       "line": "2.1 points per game",
+       "year": "Freshman"
+      },
+      {
+       "name": "Kendall Bentley",
+       "reason": "not on the 2026-27 roster",
+       "line": "2.0 points per game",
+       "year": null
       },
       {
        "name": "Ethan Woolery",
        "reason": "not on the 2026-27 roster",
-       "line": "0.5 blocks per game",
+       "line": "1.1 points per game",
        "year": null
       }
      ],
@@ -1607,7 +1619,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-18T05:55:09-05:00"
+     "fetched": "2026-10-18T08:46:52-05:00"
     },
     "alma": {
      "games": [
@@ -2461,7 +2473,44 @@
        "headshot": "https://almascots.com/images/2025/11/5/IMG_9922.JPG?width=200&quality=90"
       }
      ],
-     "departed": [],
+     "departed": [
+      {
+       "name": "Lance Atkinson",
+       "reason": "not on the 2026-27 roster",
+       "line": "1.4 points per game",
+       "year": "Junior"
+      },
+      {
+       "name": "James Dymek",
+       "reason": "not on the 2026-27 roster",
+       "line": "1.3 points per game",
+       "year": "Sophomore"
+      },
+      {
+       "name": "Brighton Gavin",
+       "reason": "not on the 2026-27 roster",
+       "line": "0.9 points per game",
+       "year": "Sophomore"
+      },
+      {
+       "name": "Rashad Smith",
+       "reason": "not on the 2026-27 roster",
+       "line": "0.6 points per game",
+       "year": "Junior"
+      },
+      {
+       "name": "Grant Mossburg",
+       "reason": "not on the 2026-27 roster",
+       "line": "0.5 points per game",
+       "year": "Junior"
+      },
+      {
+       "name": "Waylon Sales",
+       "reason": "not on the 2026-27 roster",
+       "line": "0.7 rebounds per game",
+       "year": "Freshman"
+      }
+     ],
      "stats_season": "2025-26",
      "played": 0,
      "wins": 0,
@@ -2472,7 +2521,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-18T05:55:09-05:00"
+     "fetched": "2026-10-18T08:46:52-05:00"
     },
     "calvin": {
      "games": [
@@ -3266,8 +3315,38 @@
       {
        "name": "Brady Ewing",
        "reason": "not on the 2026-27 roster",
-       "line": "0.4 blocks per game",
+       "line": "4.7 points per game",
        "year": "Junior"
+      },
+      {
+       "name": "Tuna Teksen",
+       "reason": "not on the 2026-27 roster",
+       "line": "1.5 points per game",
+       "year": "Freshman"
+      },
+      {
+       "name": "Bryce O'Mara",
+       "reason": "not on the 2026-27 roster",
+       "line": "1.3 points per game",
+       "year": "Sophomore"
+      },
+      {
+       "name": "Michael DeKuiper",
+       "reason": "not on the 2026-27 roster",
+       "line": "0.6 points per game",
+       "year": "Freshman"
+      },
+      {
+       "name": "Andy Spoelman",
+       "reason": "not on the 2026-27 roster",
+       "line": "0.5 points per game",
+       "year": "Sophomore"
+      },
+      {
+       "name": "Luke Riebel",
+       "reason": "not on the 2026-27 roster",
+       "line": "0.4 points per game",
+       "year": "Sophomore"
       }
      ],
      "stats_season": "2025-26",
@@ -3280,7 +3359,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-18T05:55:09-05:00"
+     "fetched": "2026-10-18T08:46:52-05:00"
     },
     "hope": {
      "games": [
@@ -4094,7 +4173,19 @@
       {
        "name": "Simon Neuhaus",
        "reason": "not on the 2026-27 roster",
-       "line": "0.2 blocks per game",
+       "line": "3.0 points per game",
+       "year": "Junior"
+      },
+      {
+       "name": "Brett Bultsma",
+       "reason": "not on the 2026-27 roster",
+       "line": "1.4 points per game",
+       "year": "Junior"
+      },
+      {
+       "name": "Neil Ihme",
+       "reason": "not on the 2026-27 roster",
+       "line": "0.7 points per game",
        "year": "Junior"
       }
      ],
@@ -4108,7 +4199,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-18T05:55:09-05:00"
+     "fetched": "2026-10-18T08:46:52-05:00"
     },
     "kalamazoo": {
      "games": [
@@ -4929,7 +5020,20 @@
        "headshot": "https://hornets.kzoo.edu/images/2025/10/22/300x400_Keefer__Jackson_CMoss20251013-4B3A5829181728_Gpk0W.png?width=200&quality=90"
       }
      ],
-     "departed": [],
+     "departed": [
+      {
+       "name": "Caleb Coates",
+       "reason": "not on the 2026-27 roster",
+       "line": "1.8 points per game",
+       "year": "Freshman"
+      },
+      {
+       "name": "John Kaul",
+       "reason": "not on the 2026-27 roster",
+       "line": "1.1 points per game",
+       "year": "Freshman"
+      }
+     ],
      "stats_season": "2025-26",
      "played": 0,
      "wins": 0,
@@ -4940,7 +5044,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-18T05:55:09-05:00"
+     "fetched": "2026-10-18T08:46:52-05:00"
     },
     "olivet": {
      "games": [
@@ -5753,7 +5857,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-18T05:55:09-05:00"
+     "fetched": "2026-10-18T08:46:52-05:00"
     },
     "trine": {
      "games": [
@@ -6585,7 +6689,38 @@
        "headshot": "https://trinethunder.com/images/2025/10/15/Lewis__Elias.jpg?width=200&quality=90"
       }
      ],
-     "departed": [],
+     "departed": [
+      {
+       "name": "Eddie Millington",
+       "reason": "not on the 2026-27 roster",
+       "line": "1.4 points per game",
+       "year": "Junior"
+      },
+      {
+       "name": "Isaiah Hamlet",
+       "reason": "not on the 2026-27 roster",
+       "line": "0.4 points per game",
+       "year": null
+      },
+      {
+       "name": "Michael Roberson",
+       "reason": "not on the 2026-27 roster",
+       "line": "0.3 points per game",
+       "year": "Freshman"
+      },
+      {
+       "name": "Braeden Totton",
+       "reason": "not on the 2026-27 roster",
+       "line": "0.3 points per game",
+       "year": "Freshman"
+      },
+      {
+       "name": "Ty Maul",
+       "reason": "not on the 2026-27 roster",
+       "line": "0.4 rebounds per game",
+       "year": "Freshman"
+      }
+     ],
      "stats_season": "2025-26",
      "played": 0,
      "wins": 0,
@@ -6596,7 +6731,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-18T05:55:09-05:00"
+     "fetched": "2026-10-18T08:46:52-05:00"
     }
    },
    "poll": {
@@ -8104,8 +8239,26 @@
       {
        "name": "Anna Ignatoski",
        "reason": "not on the 2026-27 roster",
-       "line": "6.4 points per game",
+       "line": "12.0 points per game",
        "year": "Freshman"
+      },
+      {
+       "name": "Emma McElroy",
+       "reason": "not on the 2026-27 roster",
+       "line": "1.0 points per game",
+       "year": "Sophomore"
+      },
+      {
+       "name": "Makenna Johnson",
+       "reason": "not on the 2026-27 roster",
+       "line": "1.0 points per game",
+       "year": "Sophomore"
+      },
+      {
+       "name": "Lauren Bartkiewicz",
+       "reason": "not on the 2026-27 roster",
+       "line": "0.8 points per game",
+       "year": "Junior"
       }
      ],
      "stats_season": "2025-26",
@@ -8118,7 +8271,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-18T05:55:09-05:00"
+     "fetched": "2026-10-18T08:46:52-05:00"
     },
     "albion": {
      "games": [
@@ -8938,7 +9091,38 @@
        "headshot": "https://gobrits.com/images/2025/11/5/Honnen_Anna_Basketball_2027_9By9t.jpg?width=200&quality=90"
       }
      ],
-     "departed": [],
+     "departed": [
+      {
+       "name": "Alexis Trine",
+       "reason": "not on the 2026-27 roster",
+       "line": "3.4 points per game",
+       "year": "Freshman"
+      },
+      {
+       "name": "Deziray Skirka",
+       "reason": "not on the 2026-27 roster",
+       "line": "1.8 points per game",
+       "year": "Freshman"
+      },
+      {
+       "name": "Zhia Martin",
+       "reason": "not on the 2026-27 roster",
+       "line": "0.7 points per game",
+       "year": null
+      },
+      {
+       "name": "Ashlee Hawes",
+       "reason": "not on the 2026-27 roster",
+       "line": "0.2 points per game",
+       "year": "Sophomore"
+      },
+      {
+       "name": "Brooklyn Zeleny",
+       "reason": "not on the 2026-27 roster",
+       "line": "0.2 rebounds per game",
+       "year": "Freshman"
+      }
+     ],
      "stats_season": "2025-26",
      "played": 0,
      "wins": 0,
@@ -8949,7 +9133,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-18T05:55:09-05:00"
+     "fetched": "2026-10-18T08:46:52-05:00"
     },
     "alma": {
      "games": [
@@ -9768,7 +9952,14 @@
        "headshot": "https://almascots.com/images/2025/12/16/IMG_1003.JPG?width=200&quality=90"
       }
      ],
-     "departed": [],
+     "departed": [
+      {
+       "name": "Aubri Torok",
+       "reason": "not on the 2026-27 roster",
+       "line": "0.1 points per game",
+       "year": "Freshman"
+      }
+     ],
      "stats_season": "2025-26",
      "played": 0,
      "wins": 0,
@@ -9779,7 +9970,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-18T05:55:09-05:00"
+     "fetched": "2026-10-18T08:46:52-05:00"
     },
     "calvin": {
      "games": [
@@ -10546,8 +10737,14 @@
       {
        "name": "Ashley Raredon",
        "reason": "not on the 2026-27 roster",
-       "line": "3.7 rebounds per game",
+       "line": "2.2 points per game",
        "year": "Junior"
+      },
+      {
+       "name": "Makara Obande",
+       "reason": "not on the 2026-27 roster",
+       "line": "1.9 points per game",
+       "year": "Freshman"
       }
      ],
      "stats_season": "2025-26",
@@ -10560,7 +10757,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-18T05:55:09-05:00"
+     "fetched": "2026-10-18T08:46:52-05:00"
     },
     "hope": {
      "games": [
@@ -11375,7 +11572,20 @@
        "headshot": "https://athletics.hope.edu/images/2025/11/7/Petroelje_Maddie_B6WOP.JPG?width=200&quality=90"
       }
      ],
-     "departed": [],
+     "departed": [
+      {
+       "name": "Morgan Miller",
+       "reason": "not on the 2026-27 roster",
+       "line": "1.4 points per game",
+       "year": "Junior"
+      },
+      {
+       "name": "Sarah Laprairie",
+       "reason": "not on the 2026-27 roster",
+       "line": "1.0 points per game",
+       "year": null
+      }
+     ],
      "stats_season": "2025-26",
      "played": 0,
      "wins": 0,
@@ -11386,7 +11596,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-18T05:55:09-05:00"
+     "fetched": "2026-10-18T08:46:52-05:00"
     },
     "kalamazoo": {
      "games": [
@@ -12179,7 +12389,32 @@
        "headshot": "https://hornets.kzoo.edu/images/2025/10/17/300x400_Hogan__Ruby_CMoss20251007-4B3A0769194632_607eO.png?width=200&quality=90"
       }
      ],
-     "departed": [],
+     "departed": [
+      {
+       "name": "Alyse Baughman",
+       "reason": "not on the 2026-27 roster",
+       "line": "3.8 points per game",
+       "year": "Sophomore"
+      },
+      {
+       "name": "Makayla Allen",
+       "reason": "not on the 2026-27 roster",
+       "line": "1.5 points per game",
+       "year": "Freshman"
+      },
+      {
+       "name": "Lauren Vos",
+       "reason": "not on the 2026-27 roster",
+       "line": "1.2 points per game",
+       "year": "Junior"
+      },
+      {
+       "name": "Adeline Gill",
+       "reason": "not on the 2026-27 roster",
+       "line": "0.5 points per game",
+       "year": "Freshman"
+      }
+     ],
      "stats_season": "2025-26",
      "played": 0,
      "wins": 0,
@@ -12190,7 +12425,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-18T05:55:09-05:00"
+     "fetched": "2026-10-18T08:46:52-05:00"
     },
     "olivet": {
      "games": [
@@ -12965,7 +13200,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-18T05:55:09-05:00"
+     "fetched": "2026-10-18T08:46:52-05:00"
     },
     "saintmarys": {
      "games": [
@@ -13764,7 +13999,20 @@
        "headshot": "https://belles.saintmarys.edu/images/2025/10/24/Passinault_Kate.png?width=200&quality=90"
       }
      ],
-     "departed": [],
+     "departed": [
+      {
+       "name": "Gabby Webb",
+       "reason": "not on the 2026-27 roster",
+       "line": "0.9 points per game",
+       "year": "Freshman"
+      },
+      {
+       "name": "Cara Kucharski",
+       "reason": "not on the 2026-27 roster",
+       "line": "0.3 rebounds per game",
+       "year": "Freshman"
+      }
+     ],
      "stats_season": "2025-26",
      "played": 0,
      "wins": 0,
@@ -13775,7 +14023,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-18T05:55:09-05:00"
+     "fetched": "2026-10-18T08:46:52-05:00"
     },
     "trine": {
      "games": [
@@ -14616,7 +14864,20 @@
        "headshot": "https://trinethunder.com/images/2025/11/11/Gesell__Sophie.jpg?width=200&quality=90"
       }
      ],
-     "departed": [],
+     "departed": [
+      {
+       "name": "Ellianna Foley",
+       "reason": "not on the 2026-27 roster",
+       "line": "1.2 points per game",
+       "year": "Freshman"
+      },
+      {
+       "name": "Lily Johnson",
+       "reason": "not on the 2026-27 roster",
+       "line": "0.9 points per game",
+       "year": "Sophomore"
+      }
+     ],
      "stats_season": "2025-26",
      "played": 0,
      "wins": 0,
@@ -14627,7 +14888,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-18T05:55:09-05:00"
+     "fetched": "2026-10-18T08:46:52-05:00"
     }
    },
    "poll": {
@@ -15412,9 +15673,9 @@
   "d3hoops wbb: poll table not found"
  ],
  "stale": {
-  "olivet-mbb-schedule": "2026-10-17T23:20:07-05:00",
-  "mbb-poll": "2026-10-17T23:20:07-05:00",
-  "olivet-wbb-schedule": "2026-10-17T23:20:07-05:00",
-  "wbb-poll": "2026-10-17T23:20:07-05:00"
+  "olivet-mbb-schedule": "2026-10-18T05:55:09-05:00",
+  "mbb-poll": "2026-10-18T05:55:09-05:00",
+  "olivet-wbb-schedule": "2026-10-18T05:55:09-05:00",
+  "wbb-poll": "2026-10-18T05:55:09-05:00"
  }
 }
