@@ -1,11 +1,14 @@
 # Data sources (reconnaissance notes, 2026-10-03)
 
-## d3datacast.com (men's NPI link target; also has women's)
+## d3datacast.com (men's NPI link target, with women's tables too)
 
-WordPress.com site; every data page embeds one published Google Sheet. No bot challenge.
-CSV per tab, CORS `*` on the final response, so the browser or the fetcher can read it:
+A WordPress.com site. Every data page embeds one published Google Sheet. No bot challenge.
+Each tab is a CSV. The final response sets cross-origin resource sharing (CORS) to `*`, so the
+browser or the fetcher can read it:
 
     https://docs.google.com/spreadsheets/d/e/2PACX-1vR1ycFpv6ciu3cCFcVptinzHtlVFaM4hmZpV0KZSmMCMlb9h39m3n4bByXz3i_SKuE0Me7tXmmhZHYT/pub?gid=<GID>&single=true&output=csv
+
+MBB is men's basketball and WBB is women's basketball.
 
 | Tab | gid | Page | Updated stamp seen |
 |---|---|---|---|
@@ -21,14 +24,14 @@ CSV per tab, CORS `*` on the final response, so the browser or the fetcher can r
 | WBB Score Predictions | 1291482172 | https://d3datacast.com/efficiency-ratings/wbb-score-predictions/ | |
 
 CSV shape: banner rows, an "Updated:" row, two header rows, data from about row 8. Find the
-header row by text, not by index; there are blank spacer columns. NPI header:
-`Rank,Team,Conference,GP,W,L,W,L,ONPI,NPI,Bid,Rank,Seed`; sample
+header row by text, not by index, because there are blank spacer columns. NPI header:
+`Rank,Team,Conference,GP,W,L,W,L,ONPI,NPI,Bid,Rank,Seed`. Sample row:
 `78,Hope,MIAA,27,18,9,16.1,9.3,54.585,57.693,AQ,-,49`. Team names: Adrian, Albion, Alma,
-Calvin, Hope, Kalamazoo, Olivet, Trine. No per-team pages; deep link is the MIAA page or the
+Calvin, Hope, Kalamazoo, Olivet, Trine. No per-team pages. The deep link is the MIAA page or the
 national table. Check the "Updated:" cell: NPI stays on last season until new data lands.
 
-Dashboard use (men): NPI rank + value, bid status; preseason efficiency rank (AdjEM) as a
-second headline; next-game win % from score predictions once the season starts.
+Dashboard use (men): NPI rank and value, and bid status. Preseason efficiency rank (AdjEM) as
+a second headline. Next-game win % from score predictions once the season starts.
 
 ## Domain shortlist (RDAP 2026-10-03, all .com free unless noted)
 

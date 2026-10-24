@@ -541,8 +541,8 @@ def leaders(school, cfg, roster, sport):
     """Top players from the latest statistics page, minus the ones who are not back this season.
 
     Dropped: last season's seniors and graduates, players listed in departures.json, and, when the
-    school has posted this season's roster, anyone who is not on it. Players dropped for the last two
-    reasons come back in the second list so the page can say who is gone."""
+    school has posted this season's roster, anyone who is not on it. The second list holds the players dropped for
+    the last two reasons, so the page can say who is gone."""
     people = sidearm_roster_people if school["vendor"] == "sidearm" else presto_roster_people
     season, pool = presto_leaders(cfg) if school["vendor"] == "presto" else sidearm_leaders(cfg)
     if not pool and school["vendor"] == "presto" and SEASON in cfg["stats_url"]:

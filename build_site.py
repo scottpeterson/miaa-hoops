@@ -105,7 +105,7 @@ def poll(sport):
 
 
 def rating_rank(sport, slug):
-    """The preseason ordering number: efficiency rank for men (D3 Datacast), preseason rank for women (Stat Lab)."""
+    """The preseason ordering number: efficiency rank for men (D3 Datacast), preseason rank for women (The D3 Stat Lab)."""
     t = npi(sport).get("teams", {}).get(slug, {})
     key = "eff_rank" if sport == "mbb" else "preseason_rank"
     v = t.get(key) or t.get("rank")
@@ -497,8 +497,8 @@ def numbers_section(sport):
             if not d:
                 continue
             rows.append(f'<tr data-teams="{s["slug"]}" data-keep="1"><td class="lead"><img src="{esc(s["logo"])}" alt=""> {esc(s["name"])}</td><td>#{d["rank"]}</td><td>{esc(d["npi"])}</td><td>{esc(d["record"])}</td><td>{esc(d["bid"])}</td><td>{esc(d["at_large_rank"])}</td><td>{"#" + str(d["eff_rank"]) if d.get("eff_rank") else "–"}</td><td>{esc(d.get("adj_em", "–"))}</td></tr>')
-        intro = (f'<p class="small">From {link("https://d3datacast.com/", "D3 Datacast")}: the {link(n["url"], "men\'s NPI table")} (updated {esc(when_updated(n.get("updated", "")))}) and the '
-                 f'{link(n["eff_url"], "efficiency ratings")} (updated {esc(when_updated(n.get("eff_updated", "")))}). The NPI stays on last season\'s final numbers until this season\'s games count. '
+        intro = (f'<p class="small">From {link("https://d3datacast.com/", "D3 Datacast")}: the {link(n["url"], "men\'s NPI table")}, updated {esc(when_updated(n.get("updated", "")))}. The '
+                 f'{link(n["eff_url"], "efficiency ratings")}, updated {esc(when_updated(n.get("eff_updated", "")))}. The NPI stays on last season\'s final numbers until this season\'s games count. '
                  f'The {link("https://d3datacast.com/conference-ratings/miaa/", "MIAA conference page")} has every MIAA team\'s ratings.</p>')
     else:
         head = "<tr><th>Team</th><th>NPI rank</th><th>NPI</th><th>Record in the NPI table</th><th>Bid</th><th>Preseason rank</th><th>Returning production</th><th>Tournament odds</th><th>Auto bid odds</th><th>Median record</th></tr>"
@@ -733,7 +733,7 @@ def sport_section(sport):
 {standings_table(sport)}
 
 <h2 id="{sport}-teams">The {count} teams</h2>
-<p class="small">One card per team with the links you need: schedule, roster, statistics, live stats, the school's stream, and tickets where the school lists them. The NPI badge opens {link(npi_url, npi_source + "'s " + label + " NPI table")}. The {esc(poll_label)} badge opens the poll. Use Focus to show one team everywhere on the page.</p>
+<p class="small">One card per team with the links you need. The links are schedule, roster, statistics, live stats, the school's stream, and tickets where the school lists them. The NPI badge opens {link(npi_url, npi_source + "'s " + label + " NPI table")}. The {esc(poll_label)} badge opens the poll. Use Focus to show one team everywhere on the page.</p>
 <div class="teams">
 {"".join(team_card(sport, s) for s in ordered(sport))}
 </div>
@@ -745,7 +745,7 @@ def sport_section(sport):
 {numbers_section(sport)}
 
 <h2 id="{sport}-players">Players to know</h2>
-<p class="small">Top two in points per game and the leader in rebounds, assists, steals, and blocks for each team, from the school's official statistics page. The list skips last season's seniors and graduates. It also skips players who transferred or who are missing from a posted {esc(SEASON["season"])} roster, and names them under the team.</p>
+<p class="small">For each team: the top two in points per game and the leader in rebounds, assists, steals, and blocks. The numbers come from the school's official statistics page. The list skips last season's seniors and graduates. It also skips players who transferred or who are missing from a posted {esc(SEASON["season"])} roster, and lists them under the team.</p>
 {players_section(sport)}
 
 <h2 id="{sport}-schedules">Schedules and results</h2>
@@ -809,7 +809,7 @@ def tournament_section():
 <li><b>Record in the second half of the double round robin.</b> Confirmed by the 2023 and 2024 women's races, and both school releases name it. In both cases the teams split head to head, had identical records against every other team, and had identical road records. That fits a step that sits after the first three.</li>
 <li><b>Coin flip.</b> One fan post. No case.</li>
 </ol>
-<p class="small">Two points remain open. One is how the MIAA breaks a three-team tie. One fan post says the conference once worked up from the bottom of the standings. The other is whether the second-half step counts the last half of the schedule or the second meeting with each opponent. The two readings matched in every case here.</p>
+<p class="small">Two points stay open. One is how the MIAA breaks a three-team tie. One fan post says the conference once worked up from the bottom of the standings. The other is whether the second-half step counts the last half of the schedule or the second meeting with each opponent. The two readings matched in every case here.</p>
 <details class="poll"><summary>The three verified ties</summary>
 <div class="tablewrap"><table>
 <thead><tr><th>Tie</th><th>Head to head</th><th>Vs. the next team down</th><th>Road</th><th>Second half</th><th>Result</th></tr></thead>
@@ -832,7 +832,7 @@ def tournament_section():
 </article>
 <article class="rule">
 <h3>What fans posted on d3boards.com</h3>
-<p class="small">These are forum posts. The posters disagree with each other on the order of the steps, and none of it is official. Each quote names the poster and the date. This page does not link to d3boards.com threads.</p>
+<p class="small">These are forum posts. The posters disagree with each other on the order of the steps, and none of it is official. Each quote shows the poster and the date. This page does not link to d3boards.com threads.</p>
 <ul>
 <li><b>HOPEful</b>, quoted by deiscanton, d3boards.com, January 28, 2022. The MIAA order is head to head, then results against the other teams in descending order of the standings, then record in road league games.</li>
 <li><b>deiscanton</b>, d3boards.com, January 28, 2022. The post says the fourth MIAA step "apparently is best record/winning pct in the second half of the double round robin." The fifth is a coin flip. The same post says that the conference does not publish the list on its website.</li>
@@ -1059,8 +1059,8 @@ function bonusText(ctx,H,V){
   const out=[];String(ctx||'').split(';').forEach(tok=>{const m=/^\s*(.+?)\s+BONUS(2?)\s*$/i.exec(tok);if(m)out.push(m[1]+(m[2]?' in the double bonus':' in the bonus'));});
   return out.join(', ');
 }
-// Possession arrow. No feed publishes it, so it is worked out: the team that did not get the opening possession
-// holds the arrow first, each held ball flips it, and in a quarters game each quarter start after the first uses it.
+// Possession arrow. No feed publishes it, so the page infers it: the team that did not get the opening possession
+// has the arrow first, each held ball flips it, and in a quarters game each quarter start after the first uses it.
 const arrows=new Map();
 function arrowFrom(plays,regulation){
   // plays: oldest first, each {team, period, text}; team is 'H' or 'V'.
