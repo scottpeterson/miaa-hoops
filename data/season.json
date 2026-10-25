@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-24T15:40:46-05:00",
+ "fetched_at": "2026-10-24T23:30:26-05:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -855,7 +855,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-24T15:40:46-05:00"
+     "fetched": "2026-10-24T23:30:26-05:00"
     },
     "albion": {
      "games": [
@@ -1668,7 +1668,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-24T15:40:46-05:00"
+     "fetched": "2026-10-24T23:30:26-05:00"
     },
     "alma": {
      "games": [
@@ -2570,7 +2570,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-24T15:40:46-05:00"
+     "fetched": "2026-10-24T23:30:26-05:00"
     },
     "calvin": {
      "games": [
@@ -3408,7 +3408,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-24T15:40:46-05:00"
+     "fetched": "2026-10-24T23:30:26-05:00"
     },
     "hope": {
      "games": [
@@ -4248,7 +4248,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-24T15:40:46-05:00"
+     "fetched": "2026-10-24T23:30:26-05:00"
     },
     "kalamazoo": {
      "games": [
@@ -5093,7 +5093,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-24T15:40:46-05:00"
+     "fetched": "2026-10-24T23:30:26-05:00"
     },
     "olivet": {
      "games": [
@@ -5906,7 +5906,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-24T15:40:46-05:00"
+     "fetched": "2026-10-24T23:30:26-05:00"
     },
     "trine": {
      "games": [
@@ -6780,7 +6780,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-24T15:40:46-05:00"
+     "fetched": "2026-10-24T23:30:26-05:00"
     }
    },
    "poll": {
@@ -8320,7 +8320,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-24T15:40:46-05:00"
+     "fetched": "2026-10-24T23:30:26-05:00"
     },
     "albion": {
      "games": [
@@ -9182,7 +9182,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-24T15:40:46-05:00"
+     "fetched": "2026-10-24T23:30:26-05:00"
     },
     "alma": {
      "games": [
@@ -10019,7 +10019,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-24T15:40:46-05:00"
+     "fetched": "2026-10-24T23:30:26-05:00"
     },
     "calvin": {
      "games": [
@@ -10806,7 +10806,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-24T15:40:46-05:00"
+     "fetched": "2026-10-24T23:30:26-05:00"
     },
     "hope": {
      "games": [
@@ -11645,7 +11645,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-24T15:40:46-05:00"
+     "fetched": "2026-10-24T23:30:26-05:00"
     },
     "kalamazoo": {
      "games": [
@@ -12474,7 +12474,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-24T15:40:46-05:00"
+     "fetched": "2026-10-24T23:30:26-05:00"
     },
     "olivet": {
      "games": [
@@ -13249,7 +13249,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-24T15:40:46-05:00"
+     "fetched": "2026-10-24T23:30:26-05:00"
     },
     "saintmarys": {
      "games": [
@@ -14072,7 +14072,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-24T15:40:46-05:00"
+     "fetched": "2026-10-24T23:30:26-05:00"
     },
     "trine": {
      "games": [
@@ -14937,7 +14937,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-24T15:40:46-05:00"
+     "fetched": "2026-10-24T23:30:26-05:00"
     }
    },
    "poll": {
@@ -15314,7 +15314,7 @@
      "Augsburg",
      "Augustana",
      "Aurora",
-     "Austin College",
+     "Austin",
      "Averett",
      "Babson",
      "Baldwin Wallace",
@@ -15327,8 +15327,8 @@
      "Benedictine",
      "Berea",
      "Berry",
-     "Bethany (WV)",
-     "Bethany Luth",
+     "Bethany",
+     "Bethany Lutheran",
      "Bethel",
      "Blackburn",
      "Bluffton",
@@ -15337,11 +15337,11 @@
      "Brevard",
      "Bridgewater (Va)",
      "Bridgewater St.",
-     "Brockport St.",
-     "Brooklyn College",
+     "Brooklyn",
      "Bryn Mawr",
      "Buena Vista",
      "Buffalo St.",
+     "CCNY",
      "Cairn",
      "Cal Lutheran",
      "Caltech",
@@ -15352,18 +15352,16 @@
      "Carroll",
      "Carthage",
      "Case Western",
-     "Castleton",
      "Catholic",
      "Cedar Crest",
      "Centenary (LA)",
      "Centenary (NJ)",
-     "Central (IA)",
+     "Central",
      "Centre",
      "Chapman",
      "Chatham",
      "Chicago",
      "Christopher Newport",
-     "City College (NY)",
      "Claremont-Mudd-Scripps",
      "Clark",
      "Clarkson",
@@ -15372,21 +15370,20 @@
      "Colby",
      "Colby-Sawyer",
      "Colorado College",
+     "Concordia (IL)",
+     "Concordia (MN)",
      "Concordia (TX)",
      "Concordia (WI)",
-     "Concordia Moorhead",
-     "Concordia-Chicago",
      "Connecticut College",
      "Cornell",
-     "Cortland",
      "Covenant",
      "Crown",
      "Curry",
-     "Dallas Univ",
+     "Dallas",
      "DePauw",
      "DeSales",
      "Dean",
-     "Delaware Val",
+     "Delaware Valley",
      "Denison",
      "Dickinson",
      "Dominican",
@@ -15394,9 +15391,9 @@
      "Dubuque",
      "Earlham",
      "East Texas Baptist",
-     "Eastern Connecticut",
+     "Eastern",
+     "Eastern Connecticut St.",
      "Eastern Mennonite",
-     "Eastern Univ",
      "Edgewood",
      "Elizabethtown",
      "Elmhurst",
@@ -15407,14 +15404,14 @@
      "Emory",
      "Endicott",
      "Eureka",
-     "FDU Florham",
-     "Farmingdale",
+     "FDU-Florham",
+     "Farmingdale St.",
      "Fitchburg St.",
      "Framingham St.",
      "Franciscan",
      "Franklin",
      "Franklin & Marshall",
-     "Fredonia",
+     "Fredonia St.",
      "Gallaudet",
      "Geneva",
      "George Fox",
@@ -15427,7 +15424,7 @@
      "Grove City",
      "Guilford",
      "Gustavus Adolphus",
-     "Gwynedd-Mercy",
+     "Gwynedd Mercy",
      "Hamilton",
      "Hamline",
      "Hanover",
@@ -15447,7 +15444,7 @@
      "Hunter",
      "Huntingdon",
      "Husson",
-     "Illinois Col",
+     "Illinois College",
      "Illinois Tech",
      "Illinois Wesleyan",
      "Immaculata",
@@ -15455,7 +15452,7 @@
      "John Carroll",
      "John Jay",
      "Johns Hopkins",
-     "Johnson & Wales (RI)",
+     "Johnson & Wales Providence",
      "Juniata",
      "Kalamazoo",
      "Kean",
@@ -15470,11 +15467,11 @@
      "LaGrange",
      "Lake Forest",
      "Lakeland",
-     "Lancaster Bib",
+     "Lancaster Bible",
      "Lasell",
      "Lawrence",
      "LeTourneau",
-     "Lebanon Val",
+     "Lebanon Valley",
      "Lehman",
      "Lesley",
      "Lewis & Clark",
@@ -15484,17 +15481,17 @@
      "Lycoming",
      "Lynchburg",
      "Lyon",
-     "MA Col Lib Arts",
+     "MCLA",
      "MIT",
      "MSOE",
      "MUW",
      "Macalester",
-     "Maine-Farmington",
-     "Maine-Maritime",
-     "Maine-Presque Isle",
+     "Maine Farmington",
+     "Maine Maritime",
+     "Maine Presque Isle",
      "Manchester",
      "Manhattanville",
-     "Maranatha Bap",
+     "Maranatha Baptist",
      "Marian",
      "Marietta",
      "Martin Luther",
@@ -15504,8 +15501,6 @@
      "Marymount",
      "Maryville",
      "Marywood",
-     "Mass-Boston",
-     "Mass-Dartmouth",
      "McDaniel",
      "McMurry",
      "Medgar Evers",
@@ -15516,13 +15511,12 @@
      "Middlebury",
      "Millikin",
      "Millsaps",
-     "Minn-Morris",
+     "Minnesota Morris",
      "Misericordia",
      "Mitchell",
      "Monmouth",
      "Montclair St.",
      "Moravian",
-     "Morrisville St.",
      "Mt. Aloysius",
      "Mt. Holyoke",
      "Mt. St. Joseph",
@@ -15532,14 +15526,12 @@
      "Muhlenberg",
      "Muskingum",
      "NC Wesleyan",
-     "NVU-Johnson",
-     "NVU-Lyndon",
+     "NJ City",
      "NYU",
      "Nazareth",
      "Nebraska Wesleyan",
      "Neumann",
      "New England College",
-     "New Jersey City",
      "Nichols",
      "North Central (IL)",
      "North Central (MN)",
@@ -15552,19 +15544,18 @@
      "Oglethorpe",
      "Ohio Northern",
      "Ohio Wesleyan",
-     "Old Westbury",
      "Olivet",
      "Oswego St.",
      "Otterbein",
-     "PSU-Altoona",
-     "PSU-Berks",
-     "PSU-Harrisburg",
-     "Pac Lutheran",
+     "Ozarks",
      "Pacific",
-     "Peace",
+     "Pacific Lutheran",
      "Penn College",
-     "Penn State-Abington",
-     "Penn State-Behrend",
+     "Penn St. Abington",
+     "Penn St. Altoona",
+     "Penn St. Behrend",
+     "Penn St. Berks",
+     "Penn St. Harrisburg",
      "Pfeiffer",
      "Piedmont",
      "Pitt-Bradford",
@@ -15572,11 +15563,13 @@
      "Plattsburgh St.",
      "Plymouth St.",
      "Pomona-Pitzer",
-     "Pratt Inst",
+     "Pratt",
      "Principia",
      "Puget Sound",
+     "Purchase",
+     "RIT",
      "Ramapo",
-     "Randolph Col",
+     "Randolph",
      "Randolph-Macon",
      "Redlands",
      "Regis",
@@ -15587,22 +15580,24 @@
      "Rivier",
      "Roanoke",
      "Rochester",
-     "Rochester Tech",
      "Rockford",
      "Roger Williams",
      "Rose-Hulman",
      "Rowan",
      "Rutgers-Camden",
      "Rutgers-Newark",
+     "SUNY Brockport",
      "SUNY Canton",
      "SUNY Cobleskill",
+     "SUNY Cortland",
      "SUNY Delhi",
      "SUNY Geneseo",
+     "SUNY Morrisville",
      "SUNY New Paltz",
+     "SUNY Old Westbury",
      "SUNY Oneonta",
+     "SUNY Poly",
      "SUNY Potsdam",
-     "SUNY Purchase",
-     "SUNYIT",
      "Sage",
      "Salem (NC)",
      "Salem St.",
@@ -15613,7 +15608,7 @@
      "Scranton",
      "Sewanee",
      "Shenandoah",
-     "Simpson (IA)",
+     "Simpson",
      "Skidmore",
      "Smith",
      "Southern Maine",
@@ -15626,9 +15621,9 @@
      "St. Elizabeth",
      "St. John Fisher",
      "St. Joseph (CT)",
-     "St. Joseph's (LI)",
      "St. Joseph's (ME)",
-     "St. Joseph's (NY)",
+     "St. Joseph's Brooklyn",
+     "St. Joseph's Long Island",
      "St. Lawrence",
      "St. Mary's (IN)",
      "St. Mary's (MD)",
@@ -15647,7 +15642,7 @@
      "TCNJ",
      "Texas Lutheran",
      "Thiel",
-     "Thomas (ME)",
+     "Thomas",
      "Transylvania",
      "Trine",
      "Trinity (CT)",
@@ -15655,6 +15650,8 @@
      "Trinity (TX)",
      "Tufts",
      "UC Santa Cruz",
+     "UMass Boston",
+     "UMass Dartmouth",
      "UW-Eau Claire",
      "UW-La Crosse",
      "UW-Oshkosh",
@@ -15664,11 +15661,13 @@
      "UW-Stout",
      "UW-Superior",
      "UW-Whitewater",
-     "Union (NY)",
-     "Univ Ozarks",
+     "Union",
      "University of New England",
      "Ursinus",
      "Utica",
+     "VTSU Castleton",
+     "VTSU Johnson",
+     "VTSU Lyndon",
      "Valley Forge",
      "Vassar",
      "WPI",
@@ -15681,10 +15680,10 @@
      "Waynesburg",
      "Webster",
      "Wellesley",
-     "Wentworth Tech",
+     "Wentworth",
      "Wesleyan (CT)",
      "Wesleyan (GA)",
-     "Western Connecticut",
+     "Western Connecticut St.",
      "Western New England",
      "Westfield St.",
      "Westminster (MO)",
@@ -15698,6 +15697,7 @@
      "Wilkes",
      "Willamette",
      "William Paterson",
+     "William Peace",
      "William Smith",
      "Williams",
      "Wilmington",
@@ -15722,9 +15722,9 @@
   "d3hoops wbb: poll table not found"
  ],
  "stale": {
-  "olivet-mbb-schedule": "2026-10-24T10:50:30-05:00",
-  "mbb-poll": "2026-10-24T10:50:30-05:00",
-  "olivet-wbb-schedule": "2026-10-24T10:50:30-05:00",
-  "wbb-poll": "2026-10-24T10:50:30-05:00"
+  "olivet-mbb-schedule": "2026-10-24T15:40:46-05:00",
+  "mbb-poll": "2026-10-24T15:40:46-05:00",
+  "olivet-wbb-schedule": "2026-10-24T15:40:46-05:00",
+  "wbb-poll": "2026-10-24T15:40:46-05:00"
  }
 }
