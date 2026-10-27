@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-27T07:01:28-05:00",
+ "fetched_at": "2026-10-27T12:54:57-05:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -855,7 +855,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-27T07:01:28-05:00"
+     "fetched": "2026-10-27T12:54:57-05:00"
     },
     "albion": {
      "games": [
@@ -1668,7 +1668,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-27T07:01:28-05:00"
+     "fetched": "2026-10-27T12:54:57-05:00"
     },
     "alma": {
      "games": [
@@ -1694,6 +1694,7 @@
        "pa": null,
        "status": "",
        "links": {
+        "video": "https://www.espn.com/search/_/o/watch/q/Central%20Michigan",
         "live_stats": "https://cmuchippewas.com/sidearmstats/mbball/summary",
         "tickets": "https://cmich.evenue.net/list/MB"
        },
@@ -1723,8 +1724,14 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
-       "live_feed": null
+       "links": {
+        "video": "https://flosports.link/4zB0elt",
+        "live_stats": "https://www.bergathletics.com/sidearmstats/mbball/summary"
+       },
+       "live_feed": {
+        "type": "sidearm",
+        "url": "https://sidearmstats.com/heidelbergu/mbball/game.json"
+       }
       },
       {
        "id": "alma-mbb-14636",
@@ -1943,8 +1950,8 @@
        "home": false,
        "neutral": false,
        "opponent": {
-        "name": "Wisconsin-Whitewater",
-        "short": "Wisconsin-Whitewater",
+        "name": "(RV) Wisconsin-Whitewater",
+        "short": "(RV) Wisconsin-Whitewater",
         "logo": "https://almascots.com/images/logos/wisconsinww.png?width=80&height=80&mode=max",
         "slug": null
        },
@@ -1986,8 +1993,14 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
-       "live_feed": null
+       "links": {
+        "video": "https://www.flocollege.com/signup?msclkid=aac209155c471546335563f581d29847&utm_campaign=flocollegebranded&utm_content=signup&utm_medium=ppc&utm_source=bing&utm_term=1139095818671026.c.flocollege+streaming",
+        "live_stats": "https://wilmingtonquakers.com/sidearmstats/mbball/summary"
+       },
+       "live_feed": {
+        "type": "sidearm",
+        "url": "https://sidearmstats.com/wilmington/mbball/game.json"
+       }
       },
       {
        "id": "alma-mbb-14645",
@@ -2059,8 +2072,8 @@
        "home": true,
        "neutral": false,
        "opponent": {
-        "name": "Trine",
-        "short": "Trine",
+        "name": "(RV) Trine",
+        "short": "(RV) Trine",
         "logo": "https://almascots.com/images/logos/Trine.png?width=80&height=80&mode=max",
         "slug": "trine"
        },
@@ -2090,8 +2103,8 @@
        "home": false,
        "neutral": false,
        "opponent": {
-        "name": "Olivet",
-        "short": "Olivet",
+        "name": "(RV) Olivet",
+        "short": "(RV) Olivet",
         "logo": "https://almascots.com/images/logos/university_of_olivet_200x200.png?width=80&height=80&mode=max",
         "slug": "olivet"
        },
@@ -2239,8 +2252,8 @@
        "home": false,
        "neutral": false,
        "opponent": {
-        "name": "Trine",
-        "short": "Trine",
+        "name": "(RV) Trine",
+        "short": "(RV) Trine",
         "logo": "https://almascots.com/images/logos/Trine.png?width=80&height=80&mode=max",
         "slug": "trine"
        },
@@ -2253,7 +2266,8 @@
        "pa": null,
        "status": "",
        "links": {
-        "video": "https://www.miaasportsnetwork.com/tuthunder/"
+        "video": "https://www.miaasportsnetwork.com/tuthunder/",
+        "live_stats": "https://trinethunder.com/sidearmstats/mbball/"
        },
        "live_feed": {
         "type": "sidearm",
@@ -2268,8 +2282,8 @@
        "home": true,
        "neutral": false,
        "opponent": {
-        "name": "Olivet",
-        "short": "Olivet",
+        "name": "(RV) Olivet",
+        "short": "(RV) Olivet",
         "logo": "https://almascots.com/images/logos/university_of_olivet_200x200.png?width=80&height=80&mode=max",
         "slug": "olivet"
        },
@@ -2434,7 +2448,9 @@
        "pa": null,
        "status": "",
        "links": {
-        "video": "https://www.youtube.com/khornets"
+        "video": "https://www.youtube.com/khornets",
+        "live_stats": "https://hornets.kzoo.edu/sidearmstats/mbball/",
+        "tickets": "https://kzoo.universitytickets.com/"
        },
        "live_feed": {
         "type": "sidearm",
@@ -2570,7 +2586,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-27T07:01:28-05:00"
+     "fetched": "2026-10-27T12:54:57-05:00"
     },
     "calvin": {
      "games": [
@@ -3408,7 +3424,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-27T07:01:28-05:00"
+     "fetched": "2026-10-27T12:54:57-05:00"
     },
     "hope": {
      "games": [
@@ -4248,7 +4264,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-27T07:01:28-05:00"
+     "fetched": "2026-10-27T12:54:57-05:00"
     },
     "kalamazoo": {
      "games": [
@@ -5093,7 +5109,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-27T07:01:28-05:00"
+     "fetched": "2026-10-27T12:54:57-05:00"
     },
     "olivet": {
      "games": [
@@ -5906,7 +5922,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-27T07:01:28-05:00"
+     "fetched": "2026-10-27T12:54:57-05:00"
     },
     "trine": {
      "games": [
@@ -6780,7 +6796,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-27T07:01:28-05:00"
+     "fetched": "2026-10-27T12:54:57-05:00"
     }
    },
    "poll": {
@@ -8320,7 +8336,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-27T07:01:28-05:00"
+     "fetched": "2026-10-27T12:54:57-05:00"
     },
     "albion": {
      "games": [
@@ -9182,7 +9198,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-27T07:01:28-05:00"
+     "fetched": "2026-10-27T12:54:57-05:00"
     },
     "alma": {
      "games": [
@@ -9207,7 +9223,9 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://go.flocollege.com/partner/oac?utm_medium=partner&utm_source=multiple&utm_content=landingpage&utm_term=otterbein-university&contract_id=0063m00000n3zlaaam"
+       },
        "live_feed": null
       },
       {
@@ -9231,8 +9249,14 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
-       "live_feed": null
+       "links": {
+        "video": "https://depauwtigers.com/sports/2022/8/5/depauw-video-player-2.aspx",
+        "live_stats": "https://depauwtigers.com/sidearmstats/wbball/summary"
+       },
+       "live_feed": {
+        "type": "sidearm",
+        "url": "https://sidearmstats.com/depauw/wbball/game.json"
+       }
       },
       {
        "id": "alma-wbb-14509",
@@ -9467,7 +9491,8 @@
        "pa": null,
        "status": "",
        "links": {
-        "video": "https://tigersportsnetwork.com/"
+        "video": "https://tigersportsnetwork.com/",
+        "live_stats": "https://www.wittenbergtigers.com/sports/wbkb/2026-27/boxscores/20261218_oasc.xml"
        },
        "live_feed": null
       },
@@ -9671,7 +9696,8 @@
        "status": "",
        "links": {
         "video": "https://www.youtube.com/khornets",
-        "live_stats": "https://hornets.kzoo.edu/sidearmstats/wbball/"
+        "live_stats": "https://hornets.kzoo.edu/sidearmstats/wbball/",
+        "tickets": "https://kzoo.universitytickets.com/"
        },
        "live_feed": {
         "type": "sidearm",
@@ -10019,7 +10045,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-27T07:01:28-05:00"
+     "fetched": "2026-10-27T12:54:57-05:00"
     },
     "calvin": {
      "games": [
@@ -10806,7 +10832,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-27T07:01:28-05:00"
+     "fetched": "2026-10-27T12:54:57-05:00"
     },
     "hope": {
      "games": [
@@ -11645,7 +11671,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-27T07:01:28-05:00"
+     "fetched": "2026-10-27T12:54:57-05:00"
     },
     "kalamazoo": {
      "games": [
@@ -12474,7 +12500,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-27T07:01:28-05:00"
+     "fetched": "2026-10-27T12:54:57-05:00"
     },
     "olivet": {
      "games": [
@@ -13249,7 +13275,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-27T07:01:28-05:00"
+     "fetched": "2026-10-27T12:54:57-05:00"
     },
     "saintmarys": {
      "games": [
@@ -14072,7 +14098,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-27T07:01:28-05:00"
+     "fetched": "2026-10-27T12:54:57-05:00"
     },
     "trine": {
      "games": [
@@ -14937,7 +14963,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-27T07:01:28-05:00"
+     "fetched": "2026-10-27T12:54:57-05:00"
     }
    },
    "poll": {
@@ -15722,9 +15748,9 @@
   "d3hoops wbb: poll table not found"
  ],
  "stale": {
-  "olivet-mbb-schedule": "2026-10-26T23:52:52-05:00",
-  "mbb-poll": "2026-10-26T23:52:52-05:00",
-  "olivet-wbb-schedule": "2026-10-26T23:52:52-05:00",
-  "wbb-poll": "2026-10-26T23:52:52-05:00"
+  "olivet-mbb-schedule": "2026-10-27T07:01:28-05:00",
+  "mbb-poll": "2026-10-27T07:01:28-05:00",
+  "olivet-wbb-schedule": "2026-10-27T07:01:28-05:00",
+  "wbb-poll": "2026-10-27T07:01:28-05:00"
  }
 }
