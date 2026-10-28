@@ -672,12 +672,18 @@ def _datacast_rows(gid):
     return updated, data
 
 
-def datacast_npi(sport):
+def datacast_npi(sport, prev):
     cfg = D3DATACAST[sport]
     updated, data = _datacast_rows(cfg["npi_gid"])
-    teams = {}
+    teams, count = {}, len(data)
+    if not any(r["Team"].strip() for r in data):
+        # Between seasons D3 Datacast blanks the NPI sheet (ranks with no team names, a 12/30/99 date).
+        # Keep last season's NPI fields until the new table fills; efficiency still refreshes below.
+        npi_keys = ("rank", "record", "npi", "bid", "at_large_rank", "seed")
+        teams = {slug: {k: t[k] for k in npi_keys if k in t} for slug, t in prev.get("teams", {}).items() if "rank" in t}
+        updated, count, data = prev.get("updated"), prev.get("count", 0), []
     for s in SCHOOLS:
-        if sport not in s["sports"]:
+        if sport not in s["sports"] or s["slug"] in teams:
             continue
         row = next((r for r in data if r["Team"].strip() == s["npi_name"]), None)
         if row:
@@ -694,7 +700,7 @@ def datacast_npi(sport):
             teams[s["slug"]].update({"eff_rank": int(c[0]), "adj_em": c[4], "eff_updated": eff_updated})
     # The efficiency table lists this season's Division III teams; build_site.py uses it to mark NPI games.
     return {"source": "D3 Datacast", "url": cfg["npi_url"], "eff_url": cfg["eff_url"], "updated": updated, "eff_updated": eff_updated,
-            "count": len(data), "teams": teams, "d3_teams": sorted(r["Team"].strip() for r in eff)}
+            "count": count, "teams": teams, "d3_teams": sorted(r["Team"].strip() for r in eff)}
 
 
 def statlab_npi():
@@ -784,7 +790,7 @@ def main():
             if block["poll"]:
                 out["stale"][f"{sport}-poll"] = previous.get("fetched_at")
         try:
-            block["npi"] = datacast_npi(sport) if sport == "mbb" else statlab_npi()
+            block["npi"] = datacast_npi(sport, prev_sport.get("npi", {})) if sport == "mbb" else statlab_npi()
         except (urllib.error.URLError, TimeoutError, ValueError, KeyError, StopIteration) as exc:
             out["errors"].append(f"npi {sport}: {exc}")
             block["npi"] = prev_sport.get("npi", {})

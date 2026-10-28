@@ -389,7 +389,8 @@ def npi_badges(sport, slug):
         return ""
     out = []
     if sport == "mbb":
-        out.append(link(n.get("url", "https://d3datacast.com/npi/mbb/"), f'<b>#{t["rank"]}</b> NPI <span class="src">D3 Datacast</span>', "badge"))
+        if t.get("rank"):
+            out.append(link(n.get("url", "https://d3datacast.com/npi/mbb/"), f'<b>#{t["rank"]}</b> NPI <span class="src">D3 Datacast</span>', "badge"))
         if t.get("eff_rank"):
             out.append(link(n.get("eff_url", "https://d3datacast.com/efficiency-ratings/"), f'<b>#{t["eff_rank"]}</b> Efficiency <span class="src">{esc(t.get("adj_em", ""))} AdjEM</span>', "badge"))
     else:
@@ -474,7 +475,7 @@ def standings_table(sport):
         r = poll(sport).get("ranks", {}).get(s["slug"])
         rv = poll(sport).get("receiving_votes", {}).get(s.get("d3hoops_name") or s["name"])
         poll_cell = f'#{r["rank"]}' if r else (f"RV ({rv})" if rv else "NR")
-        npi_cell = f'#{n[s["slug"]]["rank"]}' if s["slug"] in n else "–"
+        npi_cell = f'#{n[s["slug"]]["rank"]}' if n.get(s["slug"], {}).get("rank") else "–"
         rating = n.get(s["slug"], {}).get("eff_rank" if sport == "mbb" else "preseason_rank")
         upcoming = [g for g in t["games"] if g["state"] != "post"]
         nxt = f'{opponent_label(upcoming[0], sport)}, {time_tag(upcoming[0])}' if upcoming else "Season over"
@@ -496,7 +497,7 @@ def numbers_section(sport):
             d = t.get(s["slug"])
             if not d:
                 continue
-            rows.append(f'<tr data-teams="{s["slug"]}" data-keep="1"><td class="lead"><img src="{esc(s["logo"])}" alt=""> {esc(s["name"])}</td><td>#{d["rank"]}</td><td>{esc(d["npi"])}</td><td>{esc(d["record"])}</td><td>{esc(d["bid"])}</td><td>{esc(d["at_large_rank"])}</td><td>{"#" + str(d["eff_rank"]) if d.get("eff_rank") else "–"}</td><td>{esc(d.get("adj_em", "–"))}</td></tr>')
+            rows.append(f'<tr data-teams="{s["slug"]}" data-keep="1"><td class="lead"><img src="{esc(s["logo"])}" alt=""> {esc(s["name"])}</td><td>{"#" + str(d["rank"]) if d.get("rank") else "–"}</td><td>{esc(d.get("npi", "–"))}</td><td>{esc(d.get("record", "–"))}</td><td>{esc(d.get("bid", "–"))}</td><td>{esc(d.get("at_large_rank", "–"))}</td><td>{"#" + str(d["eff_rank"]) if d.get("eff_rank") else "–"}</td><td>{esc(d.get("adj_em", "–"))}</td></tr>')
         intro = (f'<p class="small">From {link("https://d3datacast.com/", "D3 Datacast")}: the {link(n["url"], "men\'s NPI table")}, updated {esc(when_updated(n.get("updated", "")))}. The '
                  f'{link(n["eff_url"], "efficiency ratings")}, updated {esc(when_updated(n.get("eff_updated", "")))}. The NPI stays on last season\'s final numbers until this season\'s games count. '
                  f'The {link("https://d3datacast.com/conference-ratings/miaa/", "MIAA conference page")} has every MIAA team\'s ratings.</p>')
