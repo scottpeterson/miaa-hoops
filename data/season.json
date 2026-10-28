@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-28T07:58:31-05:00",
+ "fetched_at": "2026-10-28T17:29:51-05:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -855,7 +855,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-28T07:58:31-05:00"
+     "fetched": "2026-10-28T17:29:51-05:00"
     },
     "albion": {
      "games": [
@@ -1549,7 +1549,7 @@
      "roster": {
       "url": "https://gobrits.com/sports/mens-basketball/roster",
       "season": "2026-27",
-      "players": 24,
+      "players": 23,
       "current": true
      },
      "players": [
@@ -1668,7 +1668,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-28T07:58:31-05:00"
+     "fetched": "2026-10-28T17:29:51-05:00"
     },
     "alma": {
      "games": [
@@ -2586,7 +2586,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-28T07:58:31-05:00"
+     "fetched": "2026-10-28T17:29:51-05:00"
     },
     "calvin": {
      "games": [
@@ -3424,7 +3424,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-28T07:58:31-05:00"
+     "fetched": "2026-10-28T17:29:51-05:00"
     },
     "hope": {
      "games": [
@@ -4300,7 +4300,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-28T07:58:31-05:00"
+     "fetched": "2026-10-28T17:29:51-05:00"
     },
     "kalamazoo": {
      "games": [
@@ -4325,7 +4325,9 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "tickets": "https://wmubroncos.evenue.net/event/B26/B01"
+       },
        "live_feed": null
       },
       {
@@ -5145,7 +5147,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-28T07:58:31-05:00"
+     "fetched": "2026-10-28T17:29:51-05:00"
     },
     "olivet": {
      "games": [
@@ -5958,7 +5960,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-28T07:58:31-05:00"
+     "fetched": "2026-10-28T17:29:51-05:00"
     },
     "trine": {
      "games": [
@@ -6832,7 +6834,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-28T07:58:31-05:00"
+     "fetched": "2026-10-28T17:29:51-05:00"
     }
    },
    "poll": {
@@ -8374,7 +8376,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-28T07:58:31-05:00"
+     "fetched": "2026-10-28T17:29:51-05:00"
     },
     "albion": {
      "games": [
@@ -9236,7 +9238,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-28T07:58:31-05:00"
+     "fetched": "2026-10-28T17:29:51-05:00"
     },
     "alma": {
      "games": [
@@ -10083,7 +10085,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-28T07:58:31-05:00"
+     "fetched": "2026-10-28T17:29:51-05:00"
     },
     "calvin": {
      "games": [
@@ -10870,7 +10872,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-28T07:58:31-05:00"
+     "fetched": "2026-10-28T17:29:51-05:00"
     },
     "hope": {
      "games": [
@@ -11727,7 +11729,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-28T07:58:31-05:00"
+     "fetched": "2026-10-28T17:29:51-05:00"
     },
     "kalamazoo": {
      "games": [
@@ -12556,7 +12558,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-28T07:58:31-05:00"
+     "fetched": "2026-10-28T17:29:51-05:00"
     },
     "olivet": {
      "games": [
@@ -13331,7 +13333,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-28T07:58:31-05:00"
+     "fetched": "2026-10-28T17:29:51-05:00"
     },
     "saintmarys": {
      "games": [
@@ -14154,7 +14156,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-28T07:58:31-05:00"
+     "fetched": "2026-10-28T17:29:51-05:00"
     },
     "trine": {
      "games": [
@@ -15019,7 +15021,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-28T07:58:31-05:00"
+     "fetched": "2026-10-28T17:29:51-05:00"
     }
    },
    "poll": {
@@ -15288,8 +15290,8 @@
       "record": "15-8 qualifying",
       "preseason_rank": 156,
       "returning": "63.30%",
-      "tourney_pct": "0.1%",
-      "aq_pct": "0.0%",
+      "tourney_pct": "0.2%",
+      "aq_pct": "0.1%",
       "median_record": "13-13"
      },
      "alma": {
@@ -15300,7 +15302,7 @@
       "record": "11-12 qualifying",
       "preseason_rank": 139,
       "returning": "78.38%",
-      "tourney_pct": "0.1%",
+      "tourney_pct": "0.2%",
       "aq_pct": "0.1%",
       "median_record": "12-12"
      },
@@ -15312,7 +15314,7 @@
       "record": "15-11 qualifying",
       "preseason_rank": 37,
       "returning": "68.14%",
-      "tourney_pct": "10.6%",
+      "tourney_pct": "10.0%",
       "aq_pct": "1.7%",
       "median_record": "16-9"
      },
@@ -15324,8 +15326,8 @@
       "record": "15-3 qualifying",
       "preseason_rank": 5,
       "returning": "79.93%",
-      "tourney_pct": "99.1%",
-      "aq_pct": "53.1%",
+      "tourney_pct": "98.9%",
+      "aq_pct": "53.2%",
       "median_record": "24-2"
      },
      "kalamazoo": {
@@ -15372,8 +15374,8 @@
       "record": "15-5 qualifying",
       "preseason_rank": 8,
       "returning": "84.47%",
-      "tourney_pct": "97.6%",
-      "aq_pct": "45.1%",
+      "tourney_pct": "97.9%",
+      "aq_pct": "44.8%",
       "median_record": "22-3"
      }
     },
@@ -15804,9 +15806,9 @@
   "d3hoops wbb: poll table not found"
  ],
  "stale": {
-  "olivet-mbb-schedule": "2026-10-27T17:07:01-05:00",
-  "mbb-poll": "2026-10-27T17:07:01-05:00",
-  "olivet-wbb-schedule": "2026-10-27T17:07:01-05:00",
-  "wbb-poll": "2026-10-27T17:07:01-05:00"
+  "olivet-mbb-schedule": "2026-10-28T07:58:31-05:00",
+  "mbb-poll": "2026-10-28T07:58:31-05:00",
+  "olivet-wbb-schedule": "2026-10-28T07:58:31-05:00",
+  "wbb-poll": "2026-10-28T07:58:31-05:00"
  }
 }
