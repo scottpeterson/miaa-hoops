@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-27T17:07:01-05:00",
+ "fetched_at": "2026-10-28T07:58:31-05:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -855,7 +855,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-27T17:07:01-05:00"
+     "fetched": "2026-10-28T07:58:31-05:00"
     },
     "albion": {
      "games": [
@@ -1668,7 +1668,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-27T17:07:01-05:00"
+     "fetched": "2026-10-28T07:58:31-05:00"
     },
     "alma": {
      "games": [
@@ -2586,7 +2586,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-27T17:07:01-05:00"
+     "fetched": "2026-10-28T07:58:31-05:00"
     },
     "calvin": {
      "games": [
@@ -3424,7 +3424,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-27T17:07:01-05:00"
+     "fetched": "2026-10-28T07:58:31-05:00"
     },
     "hope": {
      "games": [
@@ -3451,7 +3451,8 @@
        "status": "",
        "links": {
         "video": "https://youtube.com/hopeathletics",
-        "live_stats": "https://athletics.hope.edu/sidearmstats/mbball/summary"
+        "live_stats": "https://athletics.hope.edu/sidearmstats/mbball/summary",
+        "tickets": "https://hope.edu/offices/events-conferences/tickets/index.html"
        },
        "live_feed": {
         "type": "sidearm",
@@ -3481,7 +3482,8 @@
        "status": "",
        "links": {
         "video": "https://youtube.com/hopeathletics",
-        "live_stats": "https://athletics.hope.edu/sidearmstats/mbball/summary"
+        "live_stats": "https://athletics.hope.edu/sidearmstats/mbball/summary",
+        "tickets": "https://hope.edu/offices/events-conferences/tickets/index.html"
        },
        "live_feed": {
         "type": "sidearm",
@@ -3511,7 +3513,8 @@
        "status": "",
        "links": {
         "video": "https://youtube.com/hopeathletics",
-        "live_stats": "https://athletics.hope.edu/sidearmstats/mbball/summary"
+        "live_stats": "https://athletics.hope.edu/sidearmstats/mbball/summary",
+        "tickets": "https://hope.edu/offices/events-conferences/tickets/index.html"
        },
        "live_feed": {
         "type": "sidearm",
@@ -3598,8 +3601,14 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
-       "live_feed": null
+       "links": {
+        "video": "https://www.wiacnetwork.com/uwplatteville/",
+        "live_stats": "https://letsgopioneers.com/sidearmstats/mbball/summary"
+       },
+       "live_feed": {
+        "type": "sidearm",
+        "url": "https://sidearmstats.com/uwplatte/mbball/game.json"
+       }
       },
       {
        "id": "hope-mbb-18645",
@@ -3622,8 +3631,14 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
-       "live_feed": null
+       "links": {
+        "live_stats": "https://whitmanblues.com/sidearmstats/mbball/summary",
+        "tickets": "https://whitmanblues.com/sports/2024/7/3/box-office-and-ticketing.aspx"
+       },
+       "live_feed": {
+        "type": "sidearm",
+        "url": "https://sidearmstats.com/whitman/mbball/game.json"
+       }
       },
       {
        "id": "hope-mbb-18646",
@@ -3675,8 +3690,14 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
-       "live_feed": null
+       "links": {
+        "video": "https://www.indianasrn.org/Games_RHIT.php",
+        "live_stats": "https://athletics.rose-hulman.edu/sidearmstats/mbball/summary"
+       },
+       "live_feed": {
+        "type": "sidearm",
+        "url": "https://sidearmstats.com/rosehulmanit/mbball/game.json"
+       }
       },
       {
        "id": "hope-mbb-18648",
@@ -3701,7 +3722,8 @@
        "status": "",
        "links": {
         "video": "https://youtube.com/hopeathletics",
-        "live_stats": "https://athletics.hope.edu/sidearmstats/mbball/summary"
+        "live_stats": "https://athletics.hope.edu/sidearmstats/mbball/summary",
+        "tickets": "https://hope.edu/offices/events-conferences/tickets/index.html"
        },
        "live_feed": {
         "type": "sidearm",
@@ -3731,7 +3753,8 @@
        "status": "",
        "links": {
         "video": "https://youtube.com/hopeathletics",
-        "live_stats": "https://athletics.hope.edu/sidearmstats/mbball/summary"
+        "live_stats": "https://athletics.hope.edu/sidearmstats/mbball/summary",
+        "tickets": "https://hope.edu/offices/events-conferences/tickets/index.html"
        },
        "live_feed": {
         "type": "sidearm",
@@ -3760,7 +3783,7 @@
        "pa": null,
        "status": "",
        "links": {
-        "live_stats": "https://www.miaasportsnetwork.com/tuthunder/"
+        "video": "https://www.miaasportsnetwork.com/tuthunder/"
        },
        "live_feed": {
         "type": "sidearm",
@@ -3790,7 +3813,8 @@
        "status": "",
        "links": {
         "video": "https://youtube.com/hopeathletics",
-        "live_stats": "https://athletics.hope.edu/sidearmstats/mbball/summary"
+        "live_stats": "https://athletics.hope.edu/sidearmstats/mbball/summary",
+        "tickets": "https://hope.edu/offices/events-conferences/tickets/index.html"
        },
        "live_feed": {
         "type": "sidearm",
@@ -3847,7 +3871,8 @@
        "status": "",
        "links": {
         "video": "https://youtube.com/hopeathletics",
-        "live_stats": "https://athletics.hope.edu/sidearmstats/mbball/summary"
+        "live_stats": "https://athletics.hope.edu/sidearmstats/mbball/summary",
+        "tickets": "https://hope.edu/offices/events-conferences/tickets/index.html"
        },
        "live_feed": {
         "type": "sidearm",
@@ -3877,7 +3902,8 @@
        "status": "",
        "links": {
         "video": "https://youtube.com/hopeathletics",
-        "live_stats": "https://athletics.hope.edu/sidearmstats/mbball/summary"
+        "live_stats": "https://athletics.hope.edu/sidearmstats/mbball/summary",
+        "tickets": "https://hope.edu/offices/events-conferences/tickets/index.html"
        },
        "live_feed": {
         "type": "sidearm",
@@ -3905,7 +3931,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.youtube.com/@CalvinKnights",
+        "live_stats": "https://calvinknights.com/sidearmstats/mbball/summary"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/calvinu/mbball/game.json"
@@ -3932,7 +3961,9 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.miaasportsnetwork.com/acbrits/"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/albi/mbball/game.json"
@@ -3961,7 +3992,8 @@
        "status": "",
        "links": {
         "video": "https://youtube.com/hopeathletics",
-        "live_stats": "https://athletics.hope.edu/sidearmstats/mbball/summary"
+        "live_stats": "https://athletics.hope.edu/sidearmstats/mbball/summary",
+        "tickets": "https://hope.edu/offices/events-conferences/tickets/index.html"
        },
        "live_feed": {
         "type": "sidearm",
@@ -3990,7 +4022,9 @@
        "pa": null,
        "status": "",
        "links": {
-        "video": "https://www.youtube.com/khornets?themeRefresh=1"
+        "video": "https://www.youtube.com/khornets?themeRefresh=1",
+        "live_stats": "https://hornets.kzoo.edu/sidearmstats/mbball/summary",
+        "tickets": "https://kzoo.universitytickets.com/"
        },
        "live_feed": {
         "type": "sidearm",
@@ -4050,7 +4084,8 @@
        "status": "",
        "links": {
         "video": "https://youtube.com/hopeathletics",
-        "live_stats": "https://athletics.hope.edu/sidearmstats/mbball/summary"
+        "live_stats": "https://athletics.hope.edu/sidearmstats/mbball/summary",
+        "tickets": "https://hope.edu/offices/events-conferences/tickets/index.html"
        },
        "live_feed": {
         "type": "sidearm",
@@ -4110,7 +4145,8 @@
        "status": "",
        "links": {
         "video": "https://youtube.com/hopeathletics",
-        "live_stats": "https://athletics.hope.edu/sidearmstats/mbball/summary"
+        "live_stats": "https://athletics.hope.edu/sidearmstats/mbball/summary",
+        "tickets": "https://hope.edu/offices/events-conferences/tickets/index.html"
        },
        "live_feed": {
         "type": "sidearm",
@@ -4264,7 +4300,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-27T17:07:01-05:00"
+     "fetched": "2026-10-28T07:58:31-05:00"
     },
     "kalamazoo": {
      "games": [
@@ -5109,7 +5145,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-27T17:07:01-05:00"
+     "fetched": "2026-10-28T07:58:31-05:00"
     },
     "olivet": {
      "games": [
@@ -5922,7 +5958,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-27T17:07:01-05:00"
+     "fetched": "2026-10-28T07:58:31-05:00"
     },
     "trine": {
      "games": [
@@ -6796,7 +6832,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-27T17:07:01-05:00"
+     "fetched": "2026-10-28T07:58:31-05:00"
     }
    },
    "poll": {
@@ -7028,7 +7064,7 @@
     "url": "https://d3datacast.com/npi/mbb/",
     "eff_url": "https://d3datacast.com/efficiency-ratings/",
     "updated": "3/11/26 8:25 AM",
-    "eff_updated": "10/2/26 8:32 AM",
+    "eff_updated": "10/27/2026 10:28 PM",
     "count": 404,
     "teams": {
      "adrian": {
@@ -7038,9 +7074,9 @@
       "bid": "At-Lg",
       "at_large_rank": "290",
       "seed": "-",
-      "eff_rank": 345,
-      "adj_em": "-10.3",
-      "eff_updated": "10/2/26 8:32 AM"
+      "eff_rank": 347,
+      "adj_em": "-10.2",
+      "eff_updated": "10/27/2026 10:28 PM"
      },
      "albion": {
       "rank": 194,
@@ -7049,9 +7085,9 @@
       "bid": "At-Lg",
       "at_large_rank": "154",
       "seed": "-",
-      "eff_rank": 220,
-      "adj_em": "-1.1",
-      "eff_updated": "10/2/26 8:32 AM"
+      "eff_rank": 222,
+      "adj_em": "-1.0",
+      "eff_updated": "10/27/2026 10:28 PM"
      },
      "alma": {
       "rank": 341,
@@ -7060,9 +7096,9 @@
       "bid": "At-Lg",
       "at_large_rank": "298",
       "seed": "-",
-      "eff_rank": 374,
+      "eff_rank": 376,
       "adj_em": "-14.6",
-      "eff_updated": "10/2/26 8:32 AM"
+      "eff_updated": "10/27/2026 10:28 PM"
      },
      "calvin": {
       "rank": 91,
@@ -7071,9 +7107,9 @@
       "bid": "At-Lg",
       "at_large_rank": "62",
       "seed": "-",
-      "eff_rank": 27,
-      "adj_em": "+14.6",
-      "eff_updated": "10/2/26 8:32 AM"
+      "eff_rank": 26,
+      "adj_em": "+14.7",
+      "eff_updated": "10/27/2026 10:28 PM"
      },
      "hope": {
       "rank": 78,
@@ -7082,9 +7118,9 @@
       "bid": "AQ",
       "at_large_rank": "-",
       "seed": "49",
-      "eff_rank": 87,
+      "eff_rank": 86,
       "adj_em": "+8.1",
-      "eff_updated": "10/2/26 8:32 AM"
+      "eff_updated": "10/27/2026 10:28 PM"
      },
      "kalamazoo": {
       "rank": 381,
@@ -7093,9 +7129,9 @@
       "bid": "At-Lg",
       "at_large_rank": "338",
       "seed": "-",
-      "eff_rank": 372,
+      "eff_rank": 374,
       "adj_em": "-14.4",
-      "eff_updated": "10/2/26 8:32 AM"
+      "eff_updated": "10/27/2026 10:28 PM"
      },
      "olivet": {
       "rank": 127,
@@ -7104,9 +7140,9 @@
       "bid": "At-Lg",
       "at_large_rank": "92",
       "seed": "-",
-      "eff_rank": 160,
-      "adj_em": "+3.0",
-      "eff_updated": "10/2/26 8:32 AM"
+      "eff_rank": 159,
+      "adj_em": "+3.1",
+      "eff_updated": "10/27/2026 10:28 PM"
      },
      "trine": {
       "rank": 82,
@@ -7115,9 +7151,9 @@
       "bid": "At-Lg",
       "at_large_rank": "53",
       "seed": "-",
-      "eff_rank": 47,
+      "eff_rank": 46,
       "adj_em": "+12.2",
-      "eff_updated": "10/2/26 8:32 AM"
+      "eff_updated": "10/27/2026 10:28 PM"
      }
     },
     "d3_teams": [
@@ -7139,6 +7175,7 @@
      "Aurora",
      "Austin",
      "Averett",
+     "Azusa Pacific",
      "Babson",
      "Baldwin Wallace",
      "Bard",
@@ -7442,6 +7479,7 @@
      "Spalding",
      "Springfield",
      "St. Elizabeth",
+     "St. Francis",
      "St. John Fisher",
      "St. Johns",
      "St. Joseph (Conn.)",
@@ -8336,7 +8374,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-27T17:07:01-05:00"
+     "fetched": "2026-10-28T07:58:31-05:00"
     },
     "albion": {
      "games": [
@@ -9198,7 +9236,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-27T17:07:01-05:00"
+     "fetched": "2026-10-28T07:58:31-05:00"
     },
     "alma": {
      "games": [
@@ -10045,7 +10083,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-27T17:07:01-05:00"
+     "fetched": "2026-10-28T07:58:31-05:00"
     },
     "calvin": {
      "games": [
@@ -10832,7 +10870,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-27T17:07:01-05:00"
+     "fetched": "2026-10-28T07:58:31-05:00"
     },
     "hope": {
      "games": [
@@ -10859,7 +10897,8 @@
        "status": "",
        "links": {
         "video": "https://youtube.com/hopeathletics",
-        "live_stats": "https://athletics.hope.edu/sidearmstats/wbball/summary"
+        "live_stats": "https://athletics.hope.edu/sidearmstats/wbball/summary",
+        "tickets": "https://hope.edu/offices/events-conferences/tickets/index.html"
        },
        "live_feed": {
         "type": "sidearm",
@@ -10889,7 +10928,8 @@
        "status": "",
        "links": {
         "video": "https://youtube.com/hopeathletics",
-        "live_stats": "https://athletics.hope.edu/sidearmstats/wbball/summary"
+        "live_stats": "https://athletics.hope.edu/sidearmstats/wbball/summary",
+        "tickets": "https://hope.edu/offices/events-conferences/tickets/index.html"
        },
        "live_feed": {
         "type": "sidearm",
@@ -10919,7 +10959,8 @@
        "status": "",
        "links": {
         "video": "https://youtube.com/hopeathletics",
-        "live_stats": "https://athletics.hope.edu/sidearmstats/wbball/summary"
+        "live_stats": "https://athletics.hope.edu/sidearmstats/wbball/summary",
+        "tickets": "https://hope.edu/offices/events-conferences/tickets/index.html"
        },
        "live_feed": {
         "type": "sidearm",
@@ -10949,7 +10990,8 @@
        "status": "",
        "links": {
         "video": "https://youtube.com/hopeathletics",
-        "live_stats": "https://athletics.hope.edu/sidearmstats/wbball/summary"
+        "live_stats": "https://athletics.hope.edu/sidearmstats/wbball/summary",
+        "tickets": "https://hope.edu/offices/events-conferences/tickets/index.html"
        },
        "live_feed": {
         "type": "sidearm",
@@ -11031,8 +11073,14 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
-       "live_feed": null
+       "links": {
+        "video": "https://cciwnetwork.com/carthage/",
+        "live_stats": "https://athletics.carthage.edu/sidearmstats/wbball/summary"
+       },
+       "live_feed": {
+        "type": "sidearm",
+        "url": "https://sidearmstats.com/carthage/wbball/game.json"
+       }
       },
       {
        "id": "hope-wbb-18672",
@@ -11057,7 +11105,8 @@
        "status": "",
        "links": {
         "video": "https://youtube.com/hopeathletics",
-        "live_stats": "https://athletics.hope.edu/sidearmstats/wbball/summary"
+        "live_stats": "https://athletics.hope.edu/sidearmstats/wbball/summary",
+        "tickets": "https://hope.edu/offices/events-conferences/tickets/index.html"
        },
        "live_feed": {
         "type": "sidearm",
@@ -11087,7 +11136,8 @@
        "status": "",
        "links": {
         "video": "https://youtube.com/hopeathletics",
-        "live_stats": "https://athletics.hope.edu/sidearmstats/wbball/summary"
+        "live_stats": "https://athletics.hope.edu/sidearmstats/wbball/summary",
+        "tickets": "https://hope.edu/offices/events-conferences/tickets/index.html"
        },
        "live_feed": {
         "type": "sidearm",
@@ -11236,7 +11286,8 @@
        "status": "",
        "links": {
         "video": "https://youtube.com/hopeathletics",
-        "live_stats": "https://athletics.hope.edu/sidearmstats/wbball/summary"
+        "live_stats": "https://athletics.hope.edu/sidearmstats/wbball/summary",
+        "tickets": "https://hope.edu/offices/events-conferences/tickets/index.html"
        },
        "live_feed": {
         "type": "sidearm",
@@ -11296,7 +11347,8 @@
        "status": "",
        "links": {
         "video": "https://youtube.com/hopeathletics",
-        "live_stats": "https://athletics.hope.edu/sidearmstats/wbball/summary"
+        "live_stats": "https://athletics.hope.edu/sidearmstats/wbball/summary",
+        "tickets": "https://hope.edu/offices/events-conferences/tickets/index.html"
        },
        "live_feed": {
         "type": "sidearm",
@@ -11383,7 +11435,8 @@
        "status": "",
        "links": {
         "video": "https://youtube.com/hopeathletics",
-        "live_stats": "https://athletics.hope.edu/sidearmstats/wbball/summary"
+        "live_stats": "https://athletics.hope.edu/sidearmstats/wbball/summary",
+        "tickets": "https://hope.edu/offices/events-conferences/tickets/index.html"
        },
        "live_feed": {
         "type": "sidearm",
@@ -11413,7 +11466,8 @@
        "status": "",
        "links": {
         "video": "https://youtube.com/hopeathletics",
-        "live_stats": "https://athletics.hope.edu/sidearmstats/wbball/summary"
+        "live_stats": "https://athletics.hope.edu/sidearmstats/wbball/summary",
+        "tickets": "https://hope.edu/offices/events-conferences/tickets/index.html"
        },
        "live_feed": {
         "type": "sidearm",
@@ -11470,7 +11524,8 @@
        "status": "",
        "links": {
         "video": "https://youtube.com/hopeathletics",
-        "live_stats": "https://athletics.hope.edu/sidearmstats/wbball/summary"
+        "live_stats": "https://athletics.hope.edu/sidearmstats/wbball/summary",
+        "tickets": "https://hope.edu/offices/events-conferences/tickets/index.html"
        },
        "live_feed": {
         "type": "sidearm",
@@ -11500,7 +11555,8 @@
        "status": "",
        "links": {
         "video": "https://youtube.com/hopeathletics",
-        "live_stats": "https://athletics.hope.edu/sidearmstats/wbball/summary"
+        "live_stats": "https://athletics.hope.edu/sidearmstats/wbball/summary",
+        "tickets": "https://hope.edu/offices/events-conferences/tickets/index.html"
        },
        "live_feed": {
         "type": "sidearm",
@@ -11671,7 +11727,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-27T17:07:01-05:00"
+     "fetched": "2026-10-28T07:58:31-05:00"
     },
     "kalamazoo": {
      "games": [
@@ -12500,7 +12556,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-27T17:07:01-05:00"
+     "fetched": "2026-10-28T07:58:31-05:00"
     },
     "olivet": {
      "games": [
@@ -13275,7 +13331,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-27T17:07:01-05:00"
+     "fetched": "2026-10-28T07:58:31-05:00"
     },
     "saintmarys": {
      "games": [
@@ -14098,7 +14154,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-27T17:07:01-05:00"
+     "fetched": "2026-10-28T07:58:31-05:00"
     },
     "trine": {
      "games": [
@@ -14963,7 +15019,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-27T17:07:01-05:00"
+     "fetched": "2026-10-28T07:58:31-05:00"
     }
    },
    "poll": {
@@ -15748,9 +15804,9 @@
   "d3hoops wbb: poll table not found"
  ],
  "stale": {
-  "olivet-mbb-schedule": "2026-10-27T12:54:57-05:00",
-  "mbb-poll": "2026-10-27T12:54:57-05:00",
-  "olivet-wbb-schedule": "2026-10-27T12:54:57-05:00",
-  "wbb-poll": "2026-10-27T12:54:57-05:00"
+  "olivet-mbb-schedule": "2026-10-27T17:07:01-05:00",
+  "mbb-poll": "2026-10-27T17:07:01-05:00",
+  "olivet-wbb-schedule": "2026-10-27T17:07:01-05:00",
+  "wbb-poll": "2026-10-27T17:07:01-05:00"
  }
 }
