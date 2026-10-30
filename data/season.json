@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-30T07:42:31-05:00",
+ "fetched_at": "2026-10-30T17:13:41-05:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -855,7 +855,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-30T07:42:31-05:00"
+     "fetched": "2026-10-30T17:13:41-05:00"
     },
     "albion": {
      "games": [
@@ -1668,7 +1668,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-30T07:42:31-05:00"
+     "fetched": "2026-10-30T17:13:41-05:00"
     },
     "alma": {
      "games": [
@@ -2586,7 +2586,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-30T07:42:31-05:00"
+     "fetched": "2026-10-30T17:13:41-05:00"
     },
     "calvin": {
      "games": [
@@ -3424,7 +3424,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-30T07:42:31-05:00"
+     "fetched": "2026-10-30T17:13:41-05:00"
     },
     "hope": {
      "games": [
@@ -4300,7 +4300,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-30T07:42:31-05:00"
+     "fetched": "2026-10-30T17:13:41-05:00"
     },
     "kalamazoo": {
      "games": [
@@ -5147,7 +5147,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-30T07:42:31-05:00"
+     "fetched": "2026-10-30T17:13:41-05:00"
     },
     "olivet": {
      "games": [
@@ -5960,7 +5960,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-30T07:42:31-05:00"
+     "fetched": "2026-10-30T17:13:41-05:00"
     },
     "trine": {
      "games": [
@@ -6110,8 +6110,8 @@
        "home": true,
        "neutral": false,
        "opponent": {
-        "name": "Wisconsin-Oshkosh",
-        "short": "Wisconsin-Oshkosh",
+        "name": "RV Wisconsin-Oshkosh",
+        "short": "RV Wisconsin-Oshkosh",
         "logo": "https://trinethunder.com/images/logos/UW_OshKosh_2023.png?width=80&height=80&mode=max",
         "slug": null
        },
@@ -6194,8 +6194,8 @@
        "home": true,
        "neutral": false,
        "opponent": {
-        "name": "Wisconsin-Stevens Point",
-        "short": "Wisconsin-Stevens Point",
+        "name": "#8 Wisconsin-Stevens Point",
+        "short": "#8 Wisconsin-Stevens Point",
         "logo": "https://trinethunder.com/images/logos/UW_Stevens_Point.png?width=80&height=80&mode=max",
         "slug": null
        },
@@ -6272,8 +6272,8 @@
        "home": false,
        "neutral": true,
        "opponent": {
-        "name": "Redlands",
-        "short": "Redlands",
+        "name": "RV Redlands",
+        "short": "RV Redlands",
         "logo": "https://trinethunder.com/images/logos/Redlands2023Logo.png?width=80&height=80&mode=max",
         "slug": null
        },
@@ -6296,8 +6296,8 @@
        "home": false,
        "neutral": true,
        "opponent": {
-        "name": "Emory or Elmhurst",
-        "short": "Emory or Elmhurst",
+        "name": "#4 Emory or #13 Elmhurst",
+        "short": "#4 Emory or #13 Elmhurst",
         "logo": "https://trinethunder.com/images/2026/8/25/nabc_div3Tournament-LasVegas_logo_fc.png?width=80&height=80&mode=max",
         "slug": null
        },
@@ -6461,8 +6461,8 @@
        "home": true,
        "neutral": false,
        "opponent": {
-        "name": "Olivet",
-        "short": "Olivet",
+        "name": "RV Olivet",
+        "short": "RV Olivet",
         "logo": "https://trinethunder.com/images/logos/university_of_olivet_200x200.png?width=80&height=80&mode=max",
         "slug": "olivet"
        },
@@ -6692,8 +6692,8 @@
        "home": false,
        "neutral": false,
        "opponent": {
-        "name": "Olivet",
-        "short": "Olivet",
+        "name": "RV Olivet",
+        "short": "RV Olivet",
         "logo": "https://trinethunder.com/images/logos/university_of_olivet_200x200.png?width=80&height=80&mode=max",
         "slug": "olivet"
        },
@@ -6834,7 +6834,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-30T07:42:31-05:00"
+     "fetched": "2026-10-30T17:13:41-05:00"
     }
    },
    "poll": {
@@ -8376,7 +8376,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-30T07:42:31-05:00"
+     "fetched": "2026-10-30T17:13:41-05:00"
     },
     "albion": {
      "games": [
@@ -9238,7 +9238,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-30T07:42:31-05:00"
+     "fetched": "2026-10-30T17:13:41-05:00"
     },
     "alma": {
      "games": [
@@ -9250,8 +9250,8 @@
        "home": false,
        "neutral": false,
        "opponent": {
-        "name": "Otterbein",
-        "short": "Otterbein",
+        "name": "#15 Otterbein",
+        "short": "#15 Otterbein",
         "logo": "https://almascots.com/images/logos/p11.png?width=80&height=80&mode=max",
         "slug": null
        },
@@ -9276,8 +9276,8 @@
        "home": false,
        "neutral": false,
        "opponent": {
-        "name": "DePauw",
-        "short": "DePauw",
+        "name": "(RV) DePauw",
+        "short": "(RV) DePauw",
         "logo": "https://almascots.com/images/logos/DePauw.png?width=80&height=80&mode=max",
         "slug": null
        },
@@ -9486,8 +9486,8 @@
        "home": true,
        "neutral": false,
        "opponent": {
-        "name": "Hope",
-        "short": "Hope",
+        "name": "#4 Hope",
+        "short": "#4 Hope",
         "logo": "https://almascots.com/images/logos/Hope.png?width=80&height=80&mode=max",
         "slug": "hope"
        },
@@ -9601,8 +9601,8 @@
        "home": false,
        "neutral": false,
        "opponent": {
-        "name": "Calvin",
-        "short": "Calvin",
+        "name": "(RV) Calvin",
+        "short": "(RV) Calvin",
         "logo": "https://almascots.com/images/logos/Calvin-College.png?width=80&height=80&mode=max",
         "slug": "calvin"
        },
@@ -9631,8 +9631,8 @@
        "home": false,
        "neutral": false,
        "opponent": {
-        "name": "Trine",
-        "short": "Trine",
+        "name": "#9 Trine",
+        "short": "#9 Trine",
         "logo": "https://almascots.com/images/logos/Trine.png?width=80&height=80&mode=max",
         "slug": "trine"
        },
@@ -9783,8 +9783,8 @@
        "home": true,
        "neutral": false,
        "opponent": {
-        "name": "Trine",
-        "short": "Trine",
+        "name": "#9 Trine",
+        "short": "#9 Trine",
         "logo": "https://almascots.com/images/logos/Trine.png?width=80&height=80&mode=max",
         "slug": "trine"
        },
@@ -9844,8 +9844,8 @@
        "home": false,
        "neutral": false,
        "opponent": {
-        "name": "Hope",
-        "short": "Hope",
+        "name": "#4 Hope",
+        "short": "#4 Hope",
         "logo": "https://almascots.com/images/logos/Hope.png?width=80&height=80&mode=max",
         "slug": "hope"
        },
@@ -9932,8 +9932,8 @@
        "home": true,
        "neutral": false,
        "opponent": {
-        "name": "Calvin",
-        "short": "Calvin",
+        "name": "(RV) Calvin",
+        "short": "(RV) Calvin",
         "logo": "https://almascots.com/images/logos/Calvin-College.png?width=80&height=80&mode=max",
         "slug": "calvin"
        },
@@ -10085,7 +10085,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-30T07:42:31-05:00"
+     "fetched": "2026-10-30T17:13:41-05:00"
     },
     "calvin": {
      "games": [
@@ -10872,7 +10872,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-30T07:42:31-05:00"
+     "fetched": "2026-10-30T17:13:41-05:00"
     },
     "hope": {
      "games": [
@@ -11726,7 +11726,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-30T07:42:31-05:00"
+     "fetched": "2026-10-30T17:13:41-05:00"
     },
     "kalamazoo": {
      "games": [
@@ -12555,7 +12555,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-30T07:42:31-05:00"
+     "fetched": "2026-10-30T17:13:41-05:00"
     },
     "olivet": {
      "games": [
@@ -13330,7 +13330,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-30T07:42:31-05:00"
+     "fetched": "2026-10-30T17:13:41-05:00"
     },
     "saintmarys": {
      "games": [
@@ -14153,7 +14153,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-30T07:42:31-05:00"
+     "fetched": "2026-10-30T17:13:41-05:00"
     },
     "trine": {
      "games": [
@@ -14165,8 +14165,8 @@
        "home": false,
        "neutral": false,
        "opponent": {
-        "name": "Baldwin Wallace",
-        "short": "Baldwin Wallace",
+        "name": "#14/21 Baldwin Wallace",
+        "short": "#14/21 Baldwin Wallace",
         "logo": "https://trinethunder.com/images/logos/Baldwin_Wallace_Stinger.png?width=80&height=80&mode=max",
         "slug": null
        },
@@ -14202,10 +14202,7 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {
-        "video": "https://www.miaasportsnetwork.com/tuthunder/",
-        "live_stats": "https://trinethunder.com/sidearmstats/wbball/"
-       },
+       "links": {},
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/trine/wbball/game.json"
@@ -14219,8 +14216,8 @@
        "home": false,
        "neutral": false,
        "opponent": {
-        "name": "Wisconsin Lutheran",
-        "short": "Wisconsin Lutheran",
+        "name": "RV/RV Wisconsin Lutheran",
+        "short": "RV/RV Wisconsin Lutheran",
         "logo": "https://trinethunder.com/images/logos/Wisconsin_Lutheran_Updated_Logo.png?width=80&height=80&mode=max",
         "slug": null
        },
@@ -14249,8 +14246,8 @@
        "home": false,
        "neutral": true,
        "opponent": {
-        "name": "WashU",
-        "short": "WashU",
+        "name": "#10/7 WashU",
+        "short": "#10/7 WashU",
         "logo": "https://trinethunder.com/images/logos/site_washu.png?width=80&height=80&mode=max",
         "slug": null
        },
@@ -14273,8 +14270,8 @@
        "home": false,
        "neutral": true,
        "opponent": {
-        "name": "DePauw or Illinois Wesleyan",
-        "short": "DePauw or Illinois Wesleyan",
+        "name": "(RV) DePauw or (#20/RV) Illinois Wesleyan",
+        "short": "(RV) DePauw or (#20/RV) Illinois Wesleyan",
         "logo": null,
         "slug": null
        },
@@ -14384,8 +14381,8 @@
        "home": true,
        "neutral": false,
        "opponent": {
-        "name": "Ohio Wesleyan",
-        "short": "Ohio Wesleyan",
+        "name": "#17/24 Ohio Wesleyan",
+        "short": "#17/24 Ohio Wesleyan",
         "logo": "https://trinethunder.com/images/logos/Ohio_Wesleyan.png?width=80&height=80&mode=max",
         "slug": null
        },
@@ -14474,8 +14471,8 @@
        "home": false,
        "neutral": false,
        "opponent": {
-        "name": "Hardin-Simmons",
-        "short": "Hardin-Simmons",
+        "name": "#18/19 Hardin-Simmons",
+        "short": "#18/19 Hardin-Simmons",
         "logo": "https://trinethunder.com/images/logos/HSU.png?width=80&height=80&mode=max",
         "slug": null
        },
@@ -14549,8 +14546,8 @@
        "home": false,
        "neutral": false,
        "opponent": {
-        "name": "Hope",
-        "short": "Hope",
+        "name": "#8/4 Hope",
+        "short": "#8/4 Hope",
         "logo": "https://trinethunder.com/images/logos/HOPE_Anchor_Orange_200x200.png?width=80&height=80&mode=max",
         "slug": "hope"
        },
@@ -14663,8 +14660,8 @@
        "home": true,
        "neutral": false,
        "opponent": {
-        "name": "Calvin",
-        "short": "Calvin",
+        "name": "RV/RV Calvin",
+        "short": "RV/RV Calvin",
         "logo": "https://trinethunder.com/images/logos/Calvin-College.png?width=80&height=80&mode=max",
         "slug": "calvin"
        },
@@ -14864,8 +14861,8 @@
        "home": false,
        "neutral": false,
        "opponent": {
-        "name": "Calvin",
-        "short": "Calvin",
+        "name": "RV/RV Calvin",
+        "short": "RV/RV Calvin",
         "logo": "https://trinethunder.com/images/logos/Calvin-College.png?width=80&height=80&mode=max",
         "slug": "calvin"
        },
@@ -14891,8 +14888,8 @@
        "home": true,
        "neutral": false,
        "opponent": {
-        "name": "Hope",
-        "short": "Hope",
+        "name": "#8/4 Hope",
+        "short": "#8/4 Hope",
         "logo": "https://trinethunder.com/images/logos/HOPE_Anchor_Orange_200x200.png?width=80&height=80&mode=max",
         "slug": "hope"
        },
@@ -15018,7 +15015,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-10-30T07:42:31-05:00"
+     "fetched": "2026-10-30T17:13:41-05:00"
     }
    },
    "poll": {
@@ -15803,9 +15800,9 @@
   "d3hoops wbb: poll table not found"
  ],
  "stale": {
-  "olivet-mbb-schedule": "2026-10-30T00:35:37-05:00",
-  "mbb-poll": "2026-10-30T00:35:37-05:00",
-  "olivet-wbb-schedule": "2026-10-30T00:35:37-05:00",
-  "wbb-poll": "2026-10-30T00:35:37-05:00"
+  "olivet-mbb-schedule": "2026-10-30T07:42:31-05:00",
+  "mbb-poll": "2026-10-30T07:42:31-05:00",
+  "olivet-wbb-schedule": "2026-10-30T07:42:31-05:00",
+  "wbb-poll": "2026-10-30T07:42:31-05:00"
  }
 }
