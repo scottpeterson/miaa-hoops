@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-03T08:02:04-06:00",
+ "fetched_at": "2026-11-03T17:13:27-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -855,7 +855,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-03T08:02:04-06:00"
+     "fetched": "2026-11-03T17:13:27-06:00"
     },
     "albion": {
      "games": [
@@ -880,8 +880,15 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
-       "live_feed": null
+       "links": {
+        "video": "https://www.espn.com/watch/player/_/id/0a5c191c-c255-41ad-ae56-7fc9d02219c5",
+        "live_stats": "https://gomastodons.com/sidearmstats/mbball/summary",
+        "tickets": "https://gomastodons.com/sports/mens-basketball/schedule?tiptoeoffer=ev4-purduefortmgaw1y71"
+       },
+       "live_feed": {
+        "type": "sidearm",
+        "url": "https://sidearmstats.com/ipfw/mbball/game.json"
+       }
       },
       {
        "id": "albion-mbb-7885",
@@ -1668,7 +1675,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-03T08:02:04-06:00"
+     "fetched": "2026-11-03T17:13:27-06:00"
     },
     "alma": {
      "games": [
@@ -2586,7 +2593,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-03T08:02:04-06:00"
+     "fetched": "2026-11-03T17:13:27-06:00"
     },
     "calvin": {
      "games": [
@@ -3436,7 +3443,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-03T08:02:04-06:00"
+     "fetched": "2026-11-03T17:13:27-06:00"
     },
     "hope": {
      "games": [
@@ -4312,7 +4319,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-03T08:02:04-06:00"
+     "fetched": "2026-11-03T17:13:27-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -4339,7 +4346,7 @@
        "status": "",
        "links": {
         "live_stats": "https://stats.statbroadcast.com/broadcast/?id=684591",
-        "tickets": "https://wmubroncos.evenue.net/event/B26/B01"
+        "tickets": "https://wmubroncos.evenue.net/promotions/COMMUNITYNIGHTMBB?utm_id=97758_v0_s00_e0_tv1_a1demo0dxng5zj&fbclid=IwY2xjawVXGBlleHRuA2FlbQIxMABwZG9mAWJyaWQRMVFMS0Jld3VFSlpQRFJaM1pzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEfHHQO3DgkfH1KFKvnFzp2FdEPrS2kF-AEET9k_cCfe4RgC2IcTvOiafjJHPg_aem_wuiEOjV_TmsQ6ofCoE2zyA"
        },
        "live_feed": null
       },
@@ -5165,7 +5172,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-03T08:02:04-06:00"
+     "fetched": "2026-11-03T17:13:27-06:00"
     },
     "olivet": {
      "games": [
@@ -5978,7 +5985,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-03T08:02:04-06:00"
+     "fetched": "2026-11-03T17:13:27-06:00"
     },
     "trine": {
      "games": [
@@ -6862,7 +6869,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-03T08:02:04-06:00"
+     "fetched": "2026-11-03T17:13:27-06:00"
     }
    },
    "poll": {
@@ -7645,7 +7652,11 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.youtube.com/@AdrianCollegeTV",
+        "live_stats": "https://adrianbulldogs.com/sidearmstats/wbball/summary",
+        "tickets": "https://adrianbulldogs.com/sports/2022/8/8/ticketing?&openTarget=system"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/adri/wbball/game.json"
@@ -7672,7 +7683,11 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.youtube.com/@AdrianCollegeTV",
+        "live_stats": "https://adrianbulldogs.com/sidearmstats/wbball/summary",
+        "tickets": "https://adrianbulldogs.com/sports/2022/8/8/ticketing?&openTarget=system"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/adri/wbball/game.json"
@@ -7699,7 +7714,11 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.youtube.com/@AdrianCollegeTV",
+        "live_stats": "https://adrianbulldogs.com/sidearmstats/wbball/summary",
+        "tickets": "https://adrianbulldogs.com/sports/2022/8/8/ticketing?&openTarget=system"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/adri/wbball/game.json"
@@ -7726,8 +7745,15 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
-       "live_feed": null
+       "links": {
+        "video": "https://www.flocollege.com/signup?redirect=%2Flive%2F284304&utm_campaign=867314adrianvscapital&utm_medium=partner&utm_source=multiple&utm_content=signup&contract_id=0063m00000n3zlaaam&coverage_id=16249877&sp=conf-partner-k7p2",
+        "live_stats": "https://athletics.capital.edu/sidearmstats/wbball/summary",
+        "tickets": "https://athletics.capital.edu/sports/2021/8/12/capital-online-ticketing"
+       },
+       "live_feed": {
+        "type": "sidearm",
+        "url": "https://sidearmstats.com/capitalu/wbball/game.json"
+       }
       },
       {
        "id": "adrian-wbb-24113",
@@ -7750,7 +7776,11 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.youtube.com/@AdrianCollegeTV",
+        "live_stats": "https://adrianbulldogs.com/sidearmstats/wbball/summary",
+        "tickets": "https://adrianbulldogs.com/sports/2022/8/8/ticketing?&openTarget=system"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/adri/wbball/game.json"
@@ -7777,7 +7807,9 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://go.flocollege.com/partner/oac?utm_medium=partner&utm_source=multiple&utm_content=landingpage&utm_term=otterbein-university&contract_id=0063m00000n3zlaaam"
+       },
        "live_feed": null
       },
       {
@@ -7801,7 +7833,11 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.youtube.com/@AdrianCollegeTV",
+        "live_stats": "https://adrianbulldogs.com/sidearmstats/wbball/summary",
+        "tickets": "https://adrianbulldogs.com/sports/2022/8/8/ticketing?&openTarget=system"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/adri/wbball/game.json"
@@ -7828,7 +7864,11 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.youtube.com/@AdrianCollegeTV",
+        "live_stats": "https://adrianbulldogs.com/sidearmstats/wbball/summary",
+        "tickets": "https://adrianbulldogs.com/sports/2022/8/8/ticketing?&openTarget=system"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/adri/wbball/game.json"
@@ -7882,7 +7922,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://tigersportsnetwork.com/",
+        "live_stats": "https://wittenbergtigers.com/sports/wbkb/2026-27/boxscores/20261214_lt0j.xml"
+       },
        "live_feed": null
       },
       {
@@ -7906,8 +7949,14 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
-       "live_feed": null
+       "links": {
+        "video": "https://pacdigitalnetwork.com/hiram/",
+        "live_stats": "https://hiramterriers.com/sidearmstats/wbball/summary"
+       },
+       "live_feed": {
+        "type": "sidearm",
+        "url": "https://sidearmstats.com/hiram/wbball/game.json"
+       }
       },
       {
        "id": "adrian-wbb-24119",
@@ -7930,7 +7979,11 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.youtube.com/@AdrianCollegeTV",
+        "live_stats": "https://adrianbulldogs.com/sidearmstats/wbball/summary",
+        "tickets": "https://adrianbulldogs.com/sports/2022/8/8/ticketing?&openTarget=system"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/adri/wbball/game.json"
@@ -7957,7 +8010,9 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.miaasportsnetwork.com/acbrits/"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/albi/wbball/game.json"
@@ -7984,7 +8039,11 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.youtube.com/@AdrianCollegeTV",
+        "live_stats": "https://adrianbulldogs.com/sidearmstats/wbball/summary",
+        "tickets": "https://adrianbulldogs.com/sports/2022/8/8/ticketing?&openTarget=system"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/adri/wbball/game.json"
@@ -8011,7 +8070,11 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.youtube.com/@AdrianCollegeTV",
+        "live_stats": "https://adrianbulldogs.com/sidearmstats/wbball/summary",
+        "tickets": "https://adrianbulldogs.com/sports/2022/8/8/ticketing?&openTarget=system"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/adri/wbball/game.json"
@@ -8038,7 +8101,11 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.youtube.com/hopeathletics",
+        "live_stats": "https://athletics.hope.edu/sidearmstats/wbball/summary",
+        "tickets": "https://hope.edu/offices/events-conferences/tickets/index.html?_gl=1*fk3sst*_gcl_au*MTY0NDc3MDU4LjE3ODg0NTIxODY.*_ga*NzM1MzM0NzcxLjE3ODgyOTUyNzU.*_ga_RF3LGY13Y9*czE3OTM3MTk2ODYkbzckZzEkdDE3OTM3MTk3NTYkajYwJGwwJGgw"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/hopecollege/wbball/game.json"
@@ -8065,7 +8132,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.miaasportsnetwork.com/tuthunder/",
+        "live_stats": "https://trinethunder.com/sidearmstats/wbball/summary"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/trine/wbball/game.json"
@@ -8092,7 +8162,11 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.youtube.com/@AdrianCollegeTV",
+        "live_stats": "https://adrianbulldogs.com/sidearmstats/wbball/summary",
+        "tickets": "https://adrianbulldogs.com/sports/2022/8/8/ticketing?&openTarget=system"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/adri/wbball/game.json"
@@ -8119,7 +8193,11 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.miaasportsnetwork.com/acscots/",
+        "live_stats": "https://almascots.com/sidearmstats/wbball/summary",
+        "tickets": "https://almascots.com/sports/2023/5/9/information-tickets.aspx"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/alma/wbball/game.json"
@@ -8146,7 +8224,11 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.youtube.com/@AdrianCollegeTV",
+        "live_stats": "https://adrianbulldogs.com/sidearmstats/wbball/summary",
+        "tickets": "https://adrianbulldogs.com/sports/2022/8/8/ticketing?&openTarget=system"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/adri/wbball/game.json"
@@ -8173,7 +8255,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.youtube.com/@CalvinKnights",
+        "live_stats": "https://calvinknights.com/sidearmstats/wbball/summary"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/calvinu/wbball/game.json"
@@ -8200,7 +8285,11 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.youtube.com/@AdrianCollegeTV",
+        "live_stats": "https://adrianbulldogs.com/sidearmstats/wbball/summary",
+        "tickets": "https://adrianbulldogs.com/sports/2022/8/8/ticketing?&openTarget=system"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/adri/wbball/game.json"
@@ -8227,7 +8316,11 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.youtube.com/khornets",
+        "live_stats": "https://hornets.kzoo.edu/sidearmstats/wbball/summary",
+        "tickets": "https://kzoo.universitytickets.com/"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/kalamazoo/wbball/game.json"
@@ -8254,7 +8347,11 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://miaasportsnetwork.com/tuocomets/",
+        "live_stats": "https://prestolivestats.com/9qop6oeabjj3n7bn/a3oq4vt7mfq6yeni",
+        "tickets": "https://www.olivetcomets.com/tickets/index"
+       },
        "live_feed": {
         "type": "presto",
         "url": "https://data.prestolivestats.com/xml/9qop6oeabjj3n7bn/events/a3oq4vt7mfq6yeni.xml"
@@ -8281,7 +8378,11 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.youtube.com/@AdrianCollegeTV",
+        "live_stats": "https://adrianbulldogs.com/sidearmstats/wbball/summary",
+        "tickets": "https://adrianbulldogs.com/sports/2022/8/8/ticketing?&openTarget=system"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/adri/wbball/game.json"
@@ -8404,7 +8505,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-03T08:02:04-06:00"
+     "fetched": "2026-11-03T17:13:27-06:00"
     },
     "albion": {
      "games": [
@@ -8429,8 +8530,14 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
-       "live_feed": null
+       "links": {
+        "video": "https://gobrits.com/sports/womens-basketball/flocollege.com/signup?redirect=/live/284306&utm_campaign=867343albionvsheidelb&utm_medium=partner&utm_source=multiple&utm_content=signup&contract_id=0063m00000n3zlaaam&coverage_id=16249863&sp=conf-partner-k7p2",
+        "live_stats": "https://www.bergathletics.com/sidearmstats/wbball/summary"
+       },
+       "live_feed": {
+        "type": "sidearm",
+        "url": "https://sidearmstats.com/heidelbergu/wbball/game.json"
+       }
       },
       {
        "id": "albion-wbb-7943",
@@ -9266,7 +9373,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-03T08:02:04-06:00"
+     "fetched": "2026-11-03T17:13:27-06:00"
     },
     "alma": {
      "games": [
@@ -10113,7 +10220,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-03T08:02:04-06:00"
+     "fetched": "2026-11-03T17:13:27-06:00"
     },
     "calvin": {
      "games": [
@@ -10912,7 +11019,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-03T08:02:04-06:00"
+     "fetched": "2026-11-03T17:13:27-06:00"
     },
     "hope": {
      "games": [
@@ -11766,7 +11873,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-03T08:02:04-06:00"
+     "fetched": "2026-11-03T17:13:27-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12595,7 +12702,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-03T08:02:04-06:00"
+     "fetched": "2026-11-03T17:13:27-06:00"
     },
     "olivet": {
      "games": [
@@ -13370,7 +13477,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-03T08:02:04-06:00"
+     "fetched": "2026-11-03T17:13:27-06:00"
     },
     "saintmarys": {
      "games": [
@@ -13449,7 +13556,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.miaasportsnetwork.com/smcbelles/",
+        "live_stats": "https://belles.saintmarys.edu/sidearmstats/wbball/summary"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/smcind/wbball/game.json"
@@ -13476,7 +13586,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.miaasportsnetwork.com/smcbelles/",
+        "live_stats": "https://belles.saintmarys.edu/sidearmstats/wbball/summary"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/smcind/wbball/game.json"
@@ -13527,7 +13640,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.miaasportsnetwork.com/smcbelles/",
+        "live_stats": "https://belles.saintmarys.edu/sidearmstats/wbball/summary"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/smcind/wbball/game.json"
@@ -13554,7 +13670,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.miaasportsnetwork.com/smcbelles/",
+        "live_stats": "https://belles.saintmarys.edu/sidearmstats/wbball/summary"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/smcind/wbball/game.json"
@@ -13635,7 +13754,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.miaasportsnetwork.com/smcbelles/",
+        "live_stats": "https://belles.saintmarys.edu/sidearmstats/wbball/summary"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/smcind/wbball/game.json"
@@ -13734,7 +13856,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.miaasportsnetwork.com/smcbelles/",
+        "live_stats": "https://belles.saintmarys.edu/sidearmstats/wbball/summary"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/smcind/wbball/game.json"
@@ -13788,7 +13913,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.miaasportsnetwork.com/smcbelles/",
+        "live_stats": "https://belles.saintmarys.edu/sidearmstats/wbball/summary"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/smcind/wbball/game.json"
@@ -13842,7 +13970,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.miaasportsnetwork.com/smcbelles/",
+        "live_stats": "https://belles.saintmarys.edu/sidearmstats/wbball/summary"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/smcind/wbball/game.json"
@@ -13923,7 +14054,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.miaasportsnetwork.com/smcbelles/",
+        "live_stats": "https://belles.saintmarys.edu/sidearmstats/wbball/summary"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/smcind/wbball/game.json"
@@ -13950,7 +14084,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.miaasportsnetwork.com/smcbelles/",
+        "live_stats": "https://belles.saintmarys.edu/sidearmstats/wbball/summary"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/smcind/wbball/game.json"
@@ -14028,7 +14165,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.miaasportsnetwork.com/smcbelles/",
+        "live_stats": "https://belles.saintmarys.edu/sidearmstats/wbball/summary"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/smcind/wbball/game.json"
@@ -14082,7 +14222,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.miaasportsnetwork.com/smcbelles/",
+        "live_stats": "https://belles.saintmarys.edu/sidearmstats/wbball/summary"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/smcind/wbball/game.json"
@@ -14193,7 +14336,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-03T08:02:04-06:00"
+     "fetched": "2026-11-03T17:13:27-06:00"
     },
     "trine": {
      "games": [
@@ -15055,7 +15198,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-03T08:02:04-06:00"
+     "fetched": "2026-11-03T17:13:27-06:00"
     }
    },
    "poll": {
@@ -15840,9 +15983,9 @@
   "d3hoops wbb: poll table not found"
  ],
  "stale": {
-  "olivet-mbb-schedule": "2026-11-03T00:06:17-06:00",
-  "mbb-poll": "2026-11-03T00:06:17-06:00",
-  "olivet-wbb-schedule": "2026-11-03T00:06:17-06:00",
-  "wbb-poll": "2026-11-03T00:06:17-06:00"
+  "olivet-mbb-schedule": "2026-11-03T08:02:04-06:00",
+  "mbb-poll": "2026-11-03T08:02:04-06:00",
+  "olivet-wbb-schedule": "2026-11-03T08:02:04-06:00",
+  "wbb-poll": "2026-11-03T08:02:04-06:00"
  }
 }
