@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-02T09:37:06-06:00",
+ "fetched_at": "2026-11-02T18:53:52-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -855,7 +855,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-02T09:37:06-06:00"
+     "fetched": "2026-11-02T18:53:52-06:00"
     },
     "albion": {
      "games": [
@@ -1668,7 +1668,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-02T09:37:06-06:00"
+     "fetched": "2026-11-02T18:53:52-06:00"
     },
     "alma": {
      "games": [
@@ -2586,7 +2586,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-02T09:37:06-06:00"
+     "fetched": "2026-11-02T18:53:52-06:00"
     },
     "calvin": {
      "games": [
@@ -3436,7 +3436,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-02T09:37:06-06:00"
+     "fetched": "2026-11-02T18:53:52-06:00"
     },
     "hope": {
      "games": [
@@ -4312,7 +4312,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-02T09:37:06-06:00"
+     "fetched": "2026-11-02T18:53:52-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5165,7 +5165,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-02T09:37:06-06:00"
+     "fetched": "2026-11-02T18:53:52-06:00"
     },
     "olivet": {
      "games": [
@@ -5978,7 +5978,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-02T09:37:06-06:00"
+     "fetched": "2026-11-02T18:53:52-06:00"
     },
     "trine": {
      "games": [
@@ -6003,8 +6003,13 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
-       "live_feed": null
+       "links": {
+        "live_stats": "https://athletics.case.edu/sidearmstats/mbball"
+       },
+       "live_feed": {
+        "type": "sidearm",
+        "url": "https://sidearmstats.com/casewestern/mbball/game.json"
+       }
       },
       {
        "id": "trine-mbb-8529",
@@ -6014,8 +6019,8 @@
        "home": false,
        "neutral": true,
        "opponent": {
-        "name": "Case Western or Kenyon",
-        "short": "Case Western or Kenyon",
+        "name": "Case Western Reserve or Kenyon",
+        "short": "Case Western Reserve or Kenyon",
         "logo": null,
         "slug": null
        },
@@ -6027,8 +6032,13 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
-       "live_feed": null
+       "links": {
+        "live_stats": "https://athletics.case.edu/sidearmstats/mbball/summary"
+       },
+       "live_feed": {
+        "type": "sidearm",
+        "url": "https://sidearmstats.com/casewestern/mbball/game.json"
+       }
       },
       {
        "id": "trine-mbb-8534",
@@ -6852,7 +6862,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-02T09:37:06-06:00"
+     "fetched": "2026-11-02T18:53:52-06:00"
     }
    },
    "poll": {
@@ -8394,7 +8404,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-02T09:37:06-06:00"
+     "fetched": "2026-11-02T18:53:52-06:00"
     },
     "albion": {
      "games": [
@@ -9256,7 +9266,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-02T09:37:06-06:00"
+     "fetched": "2026-11-02T18:53:52-06:00"
     },
     "alma": {
      "games": [
@@ -10103,7 +10113,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-02T09:37:06-06:00"
+     "fetched": "2026-11-02T18:53:52-06:00"
     },
     "calvin": {
      "games": [
@@ -10902,7 +10912,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-02T09:37:06-06:00"
+     "fetched": "2026-11-02T18:53:52-06:00"
     },
     "hope": {
      "games": [
@@ -11756,7 +11766,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-02T09:37:06-06:00"
+     "fetched": "2026-11-02T18:53:52-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12585,7 +12595,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-02T09:37:06-06:00"
+     "fetched": "2026-11-02T18:53:52-06:00"
     },
     "olivet": {
      "games": [
@@ -13360,7 +13370,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-02T09:37:06-06:00"
+     "fetched": "2026-11-02T18:53:52-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14183,7 +14193,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-02T09:37:06-06:00"
+     "fetched": "2026-11-02T18:53:52-06:00"
     },
     "trine": {
      "games": [
@@ -15045,7 +15055,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-02T09:37:06-06:00"
+     "fetched": "2026-11-02T18:53:52-06:00"
     }
    },
    "poll": {
@@ -15830,9 +15840,9 @@
   "d3hoops wbb: poll table not found"
  ],
  "stale": {
-  "olivet-mbb-schedule": "2026-11-02T07:46:54-06:00",
-  "mbb-poll": "2026-11-02T07:46:54-06:00",
-  "olivet-wbb-schedule": "2026-11-02T07:46:54-06:00",
-  "wbb-poll": "2026-11-02T07:46:54-06:00"
+  "olivet-mbb-schedule": "2026-11-02T09:37:06-06:00",
+  "mbb-poll": "2026-11-02T09:37:06-06:00",
+  "olivet-wbb-schedule": "2026-11-02T09:37:06-06:00",
+  "wbb-poll": "2026-11-02T09:37:06-06:00"
  }
 }
