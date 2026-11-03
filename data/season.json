@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-03T00:06:17-06:00",
+ "fetched_at": "2026-11-03T08:02:04-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -855,7 +855,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-03T00:06:17-06:00"
+     "fetched": "2026-11-03T08:02:04-06:00"
     },
     "albion": {
      "games": [
@@ -1668,7 +1668,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-03T00:06:17-06:00"
+     "fetched": "2026-11-03T08:02:04-06:00"
     },
     "alma": {
      "games": [
@@ -2586,7 +2586,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-03T00:06:17-06:00"
+     "fetched": "2026-11-03T08:02:04-06:00"
     },
     "calvin": {
      "games": [
@@ -3436,7 +3436,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-03T00:06:17-06:00"
+     "fetched": "2026-11-03T08:02:04-06:00"
     },
     "hope": {
      "games": [
@@ -4312,7 +4312,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-03T00:06:17-06:00"
+     "fetched": "2026-11-03T08:02:04-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5165,7 +5165,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-03T00:06:17-06:00"
+     "fetched": "2026-11-03T08:02:04-06:00"
     },
     "olivet": {
      "games": [
@@ -5978,7 +5978,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-03T00:06:17-06:00"
+     "fetched": "2026-11-03T08:02:04-06:00"
     },
     "trine": {
      "games": [
@@ -6862,7 +6862,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-03T00:06:17-06:00"
+     "fetched": "2026-11-03T08:02:04-06:00"
     }
    },
    "poll": {
@@ -7094,7 +7094,7 @@
     "url": "https://d3datacast.com/npi/mbb/",
     "eff_url": "https://d3datacast.com/efficiency-ratings/",
     "updated": "3/11/26 8:25 AM",
-    "eff_updated": "11/1/2026 7:37 PM",
+    "eff_updated": "11/3/2026 6:51 AM",
     "count": 404,
     "teams": {
      "adrian": {
@@ -7106,7 +7106,7 @@
       "seed": "-",
       "eff_rank": 347,
       "adj_em": "-10.3",
-      "eff_updated": "11/1/2026 7:37 PM"
+      "eff_updated": "11/3/2026 6:51 AM"
      },
      "albion": {
       "rank": 194,
@@ -7117,7 +7117,7 @@
       "seed": "-",
       "eff_rank": 222,
       "adj_em": "-1.1",
-      "eff_updated": "11/1/2026 7:37 PM"
+      "eff_updated": "11/3/2026 6:51 AM"
      },
      "alma": {
       "rank": 341,
@@ -7128,7 +7128,7 @@
       "seed": "-",
       "eff_rank": 376,
       "adj_em": "-14.6",
-      "eff_updated": "11/1/2026 7:37 PM"
+      "eff_updated": "11/3/2026 6:51 AM"
      },
      "calvin": {
       "rank": 91,
@@ -7139,7 +7139,7 @@
       "seed": "-",
       "eff_rank": 26,
       "adj_em": "+14.6",
-      "eff_updated": "11/1/2026 7:37 PM"
+      "eff_updated": "11/3/2026 6:51 AM"
      },
      "hope": {
       "rank": 78,
@@ -7150,7 +7150,7 @@
       "seed": "49",
       "eff_rank": 86,
       "adj_em": "+8.1",
-      "eff_updated": "11/1/2026 7:37 PM"
+      "eff_updated": "11/3/2026 6:51 AM"
      },
      "kalamazoo": {
       "rank": 381,
@@ -7161,7 +7161,7 @@
       "seed": "-",
       "eff_rank": 374,
       "adj_em": "-14.4",
-      "eff_updated": "11/1/2026 7:37 PM"
+      "eff_updated": "11/3/2026 6:51 AM"
      },
      "olivet": {
       "rank": 127,
@@ -7172,7 +7172,7 @@
       "seed": "-",
       "eff_rank": 159,
       "adj_em": "+3.0",
-      "eff_updated": "11/1/2026 7:37 PM"
+      "eff_updated": "11/3/2026 6:51 AM"
      },
      "trine": {
       "rank": 82,
@@ -7183,7 +7183,7 @@
       "seed": "-",
       "eff_rank": 46,
       "adj_em": "+12.2",
-      "eff_updated": "11/1/2026 7:37 PM"
+      "eff_updated": "11/3/2026 6:51 AM"
      }
     },
     "d3_teams": [
@@ -8404,7 +8404,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-03T00:06:17-06:00"
+     "fetched": "2026-11-03T08:02:04-06:00"
     },
     "albion": {
      "games": [
@@ -9266,7 +9266,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-03T00:06:17-06:00"
+     "fetched": "2026-11-03T08:02:04-06:00"
     },
     "alma": {
      "games": [
@@ -10113,7 +10113,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-03T00:06:17-06:00"
+     "fetched": "2026-11-03T08:02:04-06:00"
     },
     "calvin": {
      "games": [
@@ -10912,7 +10912,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-03T00:06:17-06:00"
+     "fetched": "2026-11-03T08:02:04-06:00"
     },
     "hope": {
      "games": [
@@ -11766,7 +11766,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-03T00:06:17-06:00"
+     "fetched": "2026-11-03T08:02:04-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12595,7 +12595,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-03T00:06:17-06:00"
+     "fetched": "2026-11-03T08:02:04-06:00"
     },
     "olivet": {
      "games": [
@@ -13370,7 +13370,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-03T00:06:17-06:00"
+     "fetched": "2026-11-03T08:02:04-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14193,7 +14193,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-03T00:06:17-06:00"
+     "fetched": "2026-11-03T08:02:04-06:00"
     },
     "trine": {
      "games": [
@@ -15055,7 +15055,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-03T00:06:17-06:00"
+     "fetched": "2026-11-03T08:02:04-06:00"
     }
    },
    "poll": {
@@ -15840,9 +15840,9 @@
   "d3hoops wbb: poll table not found"
  ],
  "stale": {
-  "olivet-mbb-schedule": "2026-11-02T21:14:38-06:00",
-  "mbb-poll": "2026-11-02T21:14:38-06:00",
-  "olivet-wbb-schedule": "2026-11-02T21:14:38-06:00",
-  "wbb-poll": "2026-11-02T21:14:38-06:00"
+  "olivet-mbb-schedule": "2026-11-03T00:06:17-06:00",
+  "mbb-poll": "2026-11-03T00:06:17-06:00",
+  "olivet-wbb-schedule": "2026-11-03T00:06:17-06:00",
+  "wbb-poll": "2026-11-03T00:06:17-06:00"
  }
 }
