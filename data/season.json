@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-05T00:31:58-06:00",
+ "fetched_at": "2026-11-05T13:52:51-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -954,7 +954,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-05T00:31:58-06:00"
+     "fetched": "2026-11-05T13:52:51-06:00"
     },
     "albion": {
      "games": [
@@ -1774,7 +1774,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-05T00:31:58-06:00"
+     "fetched": "2026-11-05T13:52:51-06:00"
     },
     "alma": {
      "games": [
@@ -2692,7 +2692,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-05T00:31:58-06:00"
+     "fetched": "2026-11-05T13:52:51-06:00"
     },
     "calvin": {
      "games": [
@@ -3542,7 +3542,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-05T00:31:58-06:00"
+     "fetched": "2026-11-05T13:52:51-06:00"
     },
     "hope": {
      "games": [
@@ -4418,7 +4418,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-05T00:31:58-06:00"
+     "fetched": "2026-11-05T13:52:51-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5271,7 +5271,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-05T00:31:58-06:00"
+     "fetched": "2026-11-05T13:52:51-06:00"
     },
     "olivet": {
      "games": [
@@ -6084,7 +6084,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-05T00:31:58-06:00"
+     "fetched": "2026-11-05T13:52:51-06:00"
     },
     "trine": {
      "games": [
@@ -6968,7 +6968,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-05T00:31:58-06:00"
+     "fetched": "2026-11-05T13:52:51-06:00"
     }
    },
    "poll": {
@@ -8604,7 +8604,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-05T00:31:58-06:00"
+     "fetched": "2026-11-05T13:52:51-06:00"
     },
     "albion": {
      "games": [
@@ -8622,7 +8622,7 @@
         "slug": null
        },
        "conference": false,
-       "location": "Tiffin, OH",
+       "location": "Tiffin, OH, Seiberling Gymnasium",
        "note": "",
        "state": "pre",
        "result": null,
@@ -8637,32 +8637,6 @@
         "type": "sidearm",
         "url": "https://sidearmstats.com/heidelbergu/wbball/game.json"
        }
-      },
-      {
-       "id": "albion-wbb-7943",
-       "exhibition": false,
-       "date": "2026-11-13T17:00:00Z",
-       "time_tbd": true,
-       "home": false,
-       "neutral": true,
-       "opponent": {
-        "name": "John Carroll vs. Franklin",
-        "short": "John Carroll vs. Franklin",
-        "logo": null,
-        "slug": null
-       },
-       "conference": false,
-       "location": "Albion, MI, Kresge Gymnasium",
-       "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
-       "status": "",
-       "links": {
-        "video": "https://www.miaasportsnetwork.com/acbrits/"
-       },
-       "live_feed": null
       },
       {
        "id": "albion-wbb-7944",
@@ -8696,42 +8670,13 @@
       {
        "id": "albion-wbb-7945",
        "exhibition": false,
-       "date": "2026-11-14T18:00:00Z",
-       "time_tbd": false,
-       "home": true,
-       "neutral": false,
-       "opponent": {
-        "name": "Consolation Game",
-        "short": "Consolation Game",
-        "logo": null,
-        "slug": null
-       },
-       "conference": false,
-       "location": "Albion, MI, Kresge Gymnasium",
-       "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
-       "status": "",
-       "links": {
-        "video": "https://www.miaasportsnetwork.com/acbrits/"
-       },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/albi/wbball/game.json"
-       }
-      },
-      {
-       "id": "albion-wbb-7946",
-       "exhibition": false,
        "date": "2026-11-14T20:00:00Z",
        "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
-        "name": "Championship Game",
-        "short": "Championship Game",
+        "name": "vs John Carroll or Franklin",
+        "short": "vs John Carroll or Franklin",
         "logo": null,
         "slug": null
        },
@@ -8765,7 +8710,7 @@
         "slug": null
        },
        "conference": false,
-       "location": "Cincinnati, OH",
+       "location": "Cincinnati, OH, Harrington Center",
        "note": "",
        "state": "pre",
        "result": null,
@@ -8791,7 +8736,7 @@
         "slug": null
        },
        "conference": false,
-       "location": "Cincinnati, OH",
+       "location": "Cincinnati, OH, Harrington Center",
        "note": "",
        "state": "pre",
        "result": null,
@@ -8815,7 +8760,7 @@
         "slug": "kalamazoo"
        },
        "conference": true,
-       "location": "Kalamazoo, MI",
+       "location": "Kalamazoo, MI, Anderson Athletic Center",
        "note": "",
        "state": "pre",
        "result": null,
@@ -8842,7 +8787,7 @@
         "slug": "olivet"
        },
        "conference": true,
-       "location": "Olivet, MI",
+       "location": "Olivet, MI, Cutler Event Center",
        "note": "",
        "state": "pre",
        "result": null,
@@ -8898,7 +8843,7 @@
         "slug": null
        },
        "conference": false,
-       "location": "Greencastle, IN",
+       "location": "Greencastle, IN, Neal Fieldhouse",
        "note": "",
        "state": "pre",
        "result": null,
@@ -8922,7 +8867,7 @@
         "slug": null
        },
        "conference": false,
-       "location": "Naples, FL",
+       "location": "Naples, FL, Community School of Naples",
        "note": "",
        "state": "pre",
        "result": null,
@@ -8948,7 +8893,7 @@
         "slug": null
        },
        "conference": false,
-       "location": "Naples, FL",
+       "location": "Naples, FL, Community School of Naples",
        "note": "",
        "state": "pre",
        "result": null,
@@ -8974,7 +8919,7 @@
         "slug": null
        },
        "conference": false,
-       "location": "Columbus, OH",
+       "location": "Columbus, OH, The Capital Cente Performance Arena",
        "note": "",
        "state": "pre",
        "result": null,
@@ -9027,7 +8972,7 @@
         "slug": "saintmarys"
        },
        "conference": true,
-       "location": "Notre Dame, IN",
+       "location": "Notre Dame, IN, Angela Athletic & Wellness Complex",
        "note": "",
        "state": "pre",
        "result": null,
@@ -9083,7 +9028,7 @@
         "slug": "calvin"
        },
        "conference": true,
-       "location": "Grand Rapids, MI",
+       "location": "Grand Rapids, MI, Van Noord Arena",
        "note": "",
        "state": "pre",
        "result": null,
@@ -9168,7 +9113,7 @@
         "slug": "hope"
        },
        "conference": true,
-       "location": "Holland, MI",
+       "location": "Holland, MI, Devos Fieldhouse",
        "note": "",
        "state": "pre",
        "result": null,
@@ -9195,7 +9140,7 @@
         "slug": "trine"
        },
        "conference": true,
-       "location": "Angola, IN",
+       "location": "Angola, IN, MTI Center",
        "note": "",
        "state": "pre",
        "result": null,
@@ -9251,7 +9196,7 @@
         "slug": "alma"
        },
        "conference": true,
-       "location": "Alma, MI",
+       "location": "Alma, MI, Art Smith Arena",
        "note": "",
        "state": "pre",
        "result": null,
@@ -9472,7 +9417,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-05T00:31:58-06:00"
+     "fetched": "2026-11-05T13:52:51-06:00"
     },
     "alma": {
      "games": [
@@ -10324,7 +10269,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-05T00:31:58-06:00"
+     "fetched": "2026-11-05T13:52:51-06:00"
     },
     "calvin": {
      "games": [
@@ -11123,7 +11068,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-05T00:31:58-06:00"
+     "fetched": "2026-11-05T13:52:51-06:00"
     },
     "hope": {
      "games": [
@@ -11977,7 +11922,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-05T00:31:58-06:00"
+     "fetched": "2026-11-05T13:52:51-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12806,7 +12751,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-05T00:31:58-06:00"
+     "fetched": "2026-11-05T13:52:51-06:00"
     },
     "olivet": {
      "games": [
@@ -13581,7 +13526,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-05T00:31:58-06:00"
+     "fetched": "2026-11-05T13:52:51-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14440,7 +14385,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-05T00:31:58-06:00"
+     "fetched": "2026-11-05T13:52:51-06:00"
     },
     "trine": {
      "games": [
@@ -15302,7 +15247,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-05T00:31:58-06:00"
+     "fetched": "2026-11-05T13:52:51-06:00"
     }
    },
    "poll": {
@@ -16087,9 +16032,9 @@
   "d3hoops wbb: poll table not found"
  ],
  "stale": {
-  "olivet-mbb-schedule": "2026-11-05T00:02:34-06:00",
-  "mbb-poll": "2026-11-05T00:02:34-06:00",
-  "olivet-wbb-schedule": "2026-11-05T00:02:34-06:00",
-  "wbb-poll": "2026-11-05T00:02:34-06:00"
+  "olivet-mbb-schedule": "2026-11-05T00:31:58-06:00",
+  "mbb-poll": "2026-11-05T00:31:58-06:00",
+  "olivet-wbb-schedule": "2026-11-05T00:31:58-06:00",
+  "wbb-poll": "2026-11-05T00:31:58-06:00"
  }
 }
