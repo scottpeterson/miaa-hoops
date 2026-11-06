@@ -236,6 +236,10 @@ def featured_games(sport):
             continue
         for g in team["games"]:
             dt = parse(g["date"])
+            # A game still marked "pre" more than 4 hours (the live window) after tipoff was played without a
+            # posted result, usually an exhibition, so it is no longer anyone's next game.
+            if g["state"] == "pre" and dt < NOW - timedelta(hours=4):
+                continue
             if g["state"] == "in":
                 kind = "in"
             elif g["state"] == "pre" and dt <= NOW + timedelta(days=8):
