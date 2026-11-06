@@ -123,9 +123,15 @@ def short_name(name):
     return n or name
 
 
+def strip_poll_marks(name):
+    """Drop the poll marks some schools print before an opponent: "#14/21 Baldwin Wallace", "RV/RV Calvin", "(RV) DePauw or (#20/RV) Illinois Wesleyan"."""
+    return re.sub(r"(^|\bor )\(?(?:#\d+|RV)(?:/(?:#?\d+|RV))*\)?\s+", r"\1", name or "").strip()
+
+
 def game_record(school, sport, index, month_day, time_parts, home, neutral, opponent, opp_logo, location, links, result_text, note=""):
     if month_day is None:
         return None
+    opponent = strip_poll_marks(opponent)
     month, day = month_day
     if time_parts:
         hour, minute, zone = time_parts

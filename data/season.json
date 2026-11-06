@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-06T00:27:51-06:00",
+ "fetched_at": "2026-11-06T09:17:32-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -954,7 +954,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T00:27:51-06:00"
+     "fetched": "2026-11-06T09:17:32-06:00"
     },
     "albion": {
      "games": [
@@ -1774,7 +1774,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T00:27:51-06:00"
+     "fetched": "2026-11-06T09:17:32-06:00"
     },
     "alma": {
      "games": [
@@ -2056,8 +2056,8 @@
        "home": false,
        "neutral": false,
        "opponent": {
-        "name": "(RV) Wisconsin-Whitewater",
-        "short": "(RV) Wisconsin-Whitewater",
+        "name": "Wisconsin-Whitewater",
+        "short": "Wisconsin-Whitewater",
         "logo": "https://almascots.com/images/logos/wisconsinww.png?width=80&height=80&mode=max",
         "slug": null
        },
@@ -2178,8 +2178,8 @@
        "home": true,
        "neutral": false,
        "opponent": {
-        "name": "(RV) Trine",
-        "short": "(RV) Trine",
+        "name": "Trine",
+        "short": "Trine",
         "logo": "https://almascots.com/images/logos/Trine.png?width=80&height=80&mode=max",
         "slug": "trine"
        },
@@ -2209,8 +2209,8 @@
        "home": false,
        "neutral": false,
        "opponent": {
-        "name": "(RV) Olivet",
-        "short": "(RV) Olivet",
+        "name": "Olivet",
+        "short": "Olivet",
         "logo": "https://almascots.com/images/logos/university_of_olivet_200x200.png?width=80&height=80&mode=max",
         "slug": "olivet"
        },
@@ -2358,8 +2358,8 @@
        "home": false,
        "neutral": false,
        "opponent": {
-        "name": "(RV) Trine",
-        "short": "(RV) Trine",
+        "name": "Trine",
+        "short": "Trine",
         "logo": "https://almascots.com/images/logos/Trine.png?width=80&height=80&mode=max",
         "slug": "trine"
        },
@@ -2388,8 +2388,8 @@
        "home": true,
        "neutral": false,
        "opponent": {
-        "name": "(RV) Olivet",
-        "short": "(RV) Olivet",
+        "name": "Olivet",
+        "short": "Olivet",
         "logo": "https://almascots.com/images/logos/university_of_olivet_200x200.png?width=80&height=80&mode=max",
         "slug": "olivet"
        },
@@ -2692,7 +2692,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T00:27:51-06:00"
+     "fetched": "2026-11-06T09:17:32-06:00"
     },
     "calvin": {
      "games": [
@@ -3542,7 +3542,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T00:27:51-06:00"
+     "fetched": "2026-11-06T09:17:32-06:00"
     },
     "hope": {
      "games": [
@@ -4418,7 +4418,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T00:27:51-06:00"
+     "fetched": "2026-11-06T09:17:32-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5268,40 +5268,10 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T00:27:51-06:00"
+     "fetched": "2026-11-06T09:17:32-06:00"
     },
     "olivet": {
      "games": [
-      {
-       "id": "olivet-mbb-5wrruy5j86se5zlx",
-       "exhibition": false,
-       "date": "2026-11-07T00:30:00Z",
-       "time_tbd": false,
-       "home": true,
-       "neutral": false,
-       "opponent": {
-        "name": "Franklin (Ind.)",
-        "short": "Franklin (Ind.)",
-        "logo": "https://cdn.prestosports.com/action/cdn/logos/id/r80k2vq4rxuzswng.png",
-        "slug": null
-       },
-       "conference": false,
-       "location": "Olivet, Mich., Cutler Event Center",
-       "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
-       "status": "",
-       "links": {
-        "live_stats": "https://prestolivestats.com/ya5s58navki9037d/5wrruy5j86se5zlx",
-        "video": "https://www.olivetcomets.com/links/v1ickm"
-       },
-       "live_feed": {
-        "type": "presto",
-        "url": "https://data.prestolivestats.com/xml/ya5s58navki9037d/events/5wrruy5j86se5zlx.xml"
-       }
-      },
       {
        "id": "olivet-mbb-46g07n8uvckq6lpw",
        "exhibition": false,
@@ -5325,7 +5295,8 @@
        "status": "",
        "links": {
         "live_stats": "https://prestolivestats.com/ya5s58navki9037d/46g07n8uvckq6lpw",
-        "video": "https://www.olivetcomets.com/links/v1ickm"
+        "video": "https://www.olivetcomets.com/links/v1ickm",
+        "tickets": "https://www.olivetcomets.com/tickets"
        },
        "live_feed": {
         "type": "presto",
@@ -5335,8 +5306,8 @@
       {
        "id": "olivet-mbb-8m1gjtpgdjjury2k",
        "exhibition": false,
-       "date": "2026-11-15T17:00:00Z",
-       "time_tbd": true,
+       "date": "2026-11-15T19:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -5353,7 +5324,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "live_stats": "https://www.olivetcomets.com/links/vrkw5b",
+        "video": "https://www.olivetcomets.com/links/08g70a"
+       },
        "live_feed": null
       },
       {
@@ -5403,7 +5377,8 @@
        "status": "",
        "links": {
         "live_stats": "https://prestolivestats.com/ya5s58navki9037d/dmn52nay9ytt5avl",
-        "video": "https://www.olivetcomets.com/links/v1ickm"
+        "video": "https://www.olivetcomets.com/links/v1ickm",
+        "tickets": "https://www.olivetcomets.com/tickets"
        },
        "live_feed": {
         "type": "presto",
@@ -5418,8 +5393,8 @@
        "home": true,
        "neutral": false,
        "opponent": {
-        "name": "Howard Payne",
-        "short": "Howard Payne",
+        "name": "Howard Payne (Texas)",
+        "short": "Howard Payne (Texas)",
         "logo": "https://cdn.prestosports.com/action/cdn/logos/id/92hq3jec5ief65l6.png",
         "slug": null
        },
@@ -5433,7 +5408,8 @@
        "status": "",
        "links": {
         "live_stats": "https://prestolivestats.com/ya5s58navki9037d/buxneofxoe7f7moe",
-        "video": "https://www.olivetcomets.com/links/v1ickm"
+        "video": "https://www.olivetcomets.com/links/v1ickm",
+        "tickets": "https://www.olivetcomets.com/tickets"
        },
        "live_feed": {
         "type": "presto",
@@ -5461,7 +5437,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "live_stats": "https://www.olivetcomets.com/links/ef8rzt",
+        "video": "https://www.olivetcomets.com/links/nacn0q"
+       },
        "live_feed": null
       },
       {
@@ -5485,7 +5464,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "live_stats": "https://www.olivetcomets.com/links/bdqvuj",
+        "video": "https://www.olivetcomets.com/links/87rj8y"
+       },
        "live_feed": null
       },
       {
@@ -5511,7 +5493,8 @@
        "status": "",
        "links": {
         "live_stats": "https://prestolivestats.com/ya5s58navki9037d/6712gh8zysysm7ao",
-        "video": "https://www.olivetcomets.com/links/v1ickm"
+        "video": "https://www.olivetcomets.com/links/v1ickm",
+        "tickets": "https://www.olivetcomets.com/tickets"
        },
        "live_feed": {
         "type": "presto",
@@ -5526,8 +5509,8 @@
        "home": true,
        "neutral": true,
        "opponent": {
-        "name": "Buffalo State",
-        "short": "Buffalo State",
+        "name": "Buffalo State (N.Y.)",
+        "short": "Buffalo State (N.Y.)",
         "logo": "https://cdn.prestosports.com/action/cdn/logos/id/d4rrgw6hmapmwxsp.png",
         "slug": null
        },
@@ -5539,8 +5522,13 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
-       "live_feed": null
+       "links": {
+        "live_stats": "https://prestolivestats.com/ya5s58navki9037d/kkdywqpo772chsqp"
+       },
+       "live_feed": {
+        "type": "presto",
+        "url": "https://data.prestolivestats.com/xml/ya5s58navki9037d/events/kkdywqpo772chsqp.xml"
+       }
       },
       {
        "id": "olivet-mbb-x67mvty2dalhdo4l",
@@ -5587,7 +5575,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "live_stats": "https://www.olivetcomets.com/links/3myewu",
+        "video": "https://www.olivetcomets.com/links/aprizp"
+       },
        "live_feed": {
         "type": "presto",
         "url": "https://data.prestolivestats.com/xml/ya5s58navki9037d/events/9j6sbi53qsr4ioaq.xml"
@@ -5614,7 +5605,9 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.olivetcomets.com/links/6s0hgy"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/albi/mbball/game.json"
@@ -5641,7 +5634,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "live_stats": "https://www.olivetcomets.com/links/3myewu",
+        "video": "https://www.olivetcomets.com/links/aprizp"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/hopecollege/mbball/game.json"
@@ -5670,7 +5666,8 @@
        "status": "",
        "links": {
         "live_stats": "https://prestolivestats.com/ya5s58navki9037d/ix6n5ejkmq1b68xg",
-        "video": "https://www.olivetcomets.com/links/v1ickm"
+        "video": "https://www.olivetcomets.com/links/v1ickm",
+        "tickets": "https://www.olivetcomets.com/tickets"
        },
        "live_feed": {
         "type": "presto",
@@ -5698,7 +5695,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "live_stats": "https://www.olivetcomets.com/links/p2fc7d",
+        "video": "https://www.olivetcomets.com/links/fpfcc6"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/kalamazoo/mbball/game.json"
@@ -5727,7 +5727,8 @@
        "status": "",
        "links": {
         "live_stats": "https://prestolivestats.com/ya5s58navki9037d/qnb38wadfy98fyt0",
-        "video": "https://www.olivetcomets.com/links/v1ickm"
+        "video": "https://www.olivetcomets.com/links/v1ickm",
+        "tickets": "https://www.olivetcomets.com/tickets"
        },
        "live_feed": {
         "type": "presto",
@@ -5784,7 +5785,8 @@
        "status": "",
        "links": {
         "live_stats": "https://prestolivestats.com/ya5s58navki9037d/39r0rujysf5ln7lk",
-        "video": "https://www.olivetcomets.com/links/v1ickm"
+        "video": "https://www.olivetcomets.com/links/v1ickm",
+        "tickets": "https://www.olivetcomets.com/tickets"
        },
        "live_feed": {
         "type": "presto",
@@ -5814,7 +5816,8 @@
        "status": "",
        "links": {
         "live_stats": "https://prestolivestats.com/ya5s58navki9037d/0cemwsglygvmoiiy",
-        "video": "https://www.olivetcomets.com/links/v1ickm"
+        "video": "https://www.olivetcomets.com/links/v1ickm",
+        "tickets": "https://www.olivetcomets.com/tickets"
        },
        "live_feed": {
         "type": "presto",
@@ -5871,7 +5874,8 @@
        "status": "",
        "links": {
         "live_stats": "https://prestolivestats.com/ya5s58navki9037d/rprvun7mjkl3zmls",
-        "video": "https://www.olivetcomets.com/links/v1ickm"
+        "video": "https://www.olivetcomets.com/links/v1ickm",
+        "tickets": "https://www.olivetcomets.com/tickets"
        },
        "live_feed": {
         "type": "presto",
@@ -5928,7 +5932,8 @@
        "status": "",
        "links": {
         "live_stats": "https://prestolivestats.com/ya5s58navki9037d/u4muwm7x13ynd19u",
-        "video": "https://www.olivetcomets.com/links/v1ickm"
+        "video": "https://www.olivetcomets.com/links/v1ickm",
+        "tickets": "https://www.olivetcomets.com/tickets"
        },
        "live_feed": {
         "type": "presto",
@@ -5956,7 +5961,9 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.olivetcomets.com/links/ybq8j1"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/adri/mbball/game.json"
@@ -5992,9 +5999,9 @@
      ],
      "roster": {
       "url": "https://www.olivetcomets.com/sports/mbkb/2026-27/roster",
-      "season": null,
-      "players": 0,
-      "current": false
+      "season": "2026-27",
+      "players": 17,
+      "current": true
      },
      "players": [
       {
@@ -6070,7 +6077,20 @@
        "headshot": "https://www.olivetcomets.com/sports/mbkb/2025-26/photos/0001/hs_Conner_Schipper.jpg?max_height=576&max_width=576&crop=1"
       }
      ],
-     "departed": [],
+     "departed": [
+      {
+       "name": "Evan Honnen",
+       "reason": "not on the 2026-27 roster",
+       "line": "7.2 points per game",
+       "year": null
+      },
+      {
+       "name": "Trey Kolakovich",
+       "reason": "not on the 2026-27 roster",
+       "line": "1.4 points per game",
+       "year": "Junior"
+      }
+     ],
      "stats_season": "2025-26",
      "played": 0,
      "wins": 0,
@@ -6081,7 +6101,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T00:27:51-06:00"
+     "fetched": "2026-11-06T09:17:32-06:00"
     },
     "trine": {
      "games": [
@@ -6241,8 +6261,8 @@
        "home": true,
        "neutral": false,
        "opponent": {
-        "name": "RV Wisconsin-Oshkosh",
-        "short": "RV Wisconsin-Oshkosh",
+        "name": "Wisconsin-Oshkosh",
+        "short": "Wisconsin-Oshkosh",
         "logo": "https://trinethunder.com/images/logos/UW_OshKosh_2023.png?width=80&height=80&mode=max",
         "slug": null
        },
@@ -6325,8 +6345,8 @@
        "home": true,
        "neutral": false,
        "opponent": {
-        "name": "#8 Wisconsin-Stevens Point",
-        "short": "#8 Wisconsin-Stevens Point",
+        "name": "Wisconsin-Stevens Point",
+        "short": "Wisconsin-Stevens Point",
         "logo": "https://trinethunder.com/images/logos/UW_Stevens_Point.png?width=80&height=80&mode=max",
         "slug": null
        },
@@ -6403,8 +6423,8 @@
        "home": false,
        "neutral": true,
        "opponent": {
-        "name": "RV Redlands",
-        "short": "RV Redlands",
+        "name": "Redlands",
+        "short": "Redlands",
         "logo": "https://trinethunder.com/images/logos/Redlands2023Logo.png?width=80&height=80&mode=max",
         "slug": null
        },
@@ -6427,8 +6447,8 @@
        "home": false,
        "neutral": true,
        "opponent": {
-        "name": "#4 Emory or #13 Elmhurst",
-        "short": "#4 Emory or #13 Elmhurst",
+        "name": "Emory or Elmhurst",
+        "short": "Emory or Elmhurst",
         "logo": "https://trinethunder.com/images/2026/8/25/nabc_div3Tournament-LasVegas_logo_fc.png?width=80&height=80&mode=max",
         "slug": null
        },
@@ -6592,8 +6612,8 @@
        "home": true,
        "neutral": false,
        "opponent": {
-        "name": "RV Olivet",
-        "short": "RV Olivet",
+        "name": "Olivet",
+        "short": "Olivet",
         "logo": "https://trinethunder.com/images/logos/university_of_olivet_200x200.png?width=80&height=80&mode=max",
         "slug": "olivet"
        },
@@ -6823,8 +6843,8 @@
        "home": false,
        "neutral": false,
        "opponent": {
-        "name": "RV Olivet",
-        "short": "RV Olivet",
+        "name": "Olivet",
+        "short": "Olivet",
         "logo": "https://trinethunder.com/images/logos/university_of_olivet_200x200.png?width=80&height=80&mode=max",
         "slug": "olivet"
        },
@@ -6965,7 +6985,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T00:27:51-06:00"
+     "fetched": "2026-11-06T09:17:32-06:00"
     }
    },
    "poll": {
@@ -7196,97 +7216,49 @@
     "source": "D3 Datacast",
     "url": "https://d3datacast.com/npi/mbb/",
     "eff_url": "https://d3datacast.com/efficiency-ratings/",
-    "updated": "3/11/26 8:25 AM",
-    "eff_updated": "11/5/2026 9:21 PM",
-    "count": 404,
+    "updated": "11/6/26 6:23 AM",
+    "eff_updated": "11/6/2026 6:23 AM",
+    "count": 2,
     "teams": {
      "adrian": {
-      "rank": 333,
-      "record": "6-19",
-      "npi": "44.547",
-      "bid": "At-Lg",
-      "at_large_rank": "290",
-      "seed": "-",
       "eff_rank": 347,
       "adj_em": "-10.3",
-      "eff_updated": "11/5/2026 9:21 PM"
+      "eff_updated": "11/6/2026 6:23 AM"
      },
      "albion": {
-      "rank": 194,
-      "record": "14-12",
-      "npi": "51.727",
-      "bid": "At-Lg",
-      "at_large_rank": "154",
-      "seed": "-",
       "eff_rank": 222,
       "adj_em": "-1.1",
-      "eff_updated": "11/5/2026 9:21 PM"
+      "eff_updated": "11/6/2026 6:23 AM"
      },
      "alma": {
-      "rank": 341,
-      "record": "5-20",
-      "npi": "44.131",
-      "bid": "At-Lg",
-      "at_large_rank": "298",
-      "seed": "-",
       "eff_rank": 376,
       "adj_em": "-14.6",
-      "eff_updated": "11/5/2026 9:21 PM"
+      "eff_updated": "11/6/2026 6:23 AM"
      },
      "calvin": {
-      "rank": 91,
-      "record": "18-8",
-      "npi": "56.962",
-      "bid": "At-Lg",
-      "at_large_rank": "62",
-      "seed": "-",
       "eff_rank": 27,
       "adj_em": "+14.6",
-      "eff_updated": "11/5/2026 9:21 PM"
+      "eff_updated": "11/6/2026 6:23 AM"
      },
      "hope": {
-      "rank": 78,
-      "record": "18-9",
-      "npi": "57.693",
-      "bid": "AQ",
-      "at_large_rank": "-",
-      "seed": "49",
-      "eff_rank": 87,
+      "eff_rank": 86,
       "adj_em": "+8.1",
-      "eff_updated": "11/5/2026 9:21 PM"
+      "eff_updated": "11/6/2026 6:23 AM"
      },
      "kalamazoo": {
-      "rank": 381,
-      "record": "3-22",
-      "npi": "40.839",
-      "bid": "At-Lg",
-      "at_large_rank": "338",
-      "seed": "-",
       "eff_rank": 374,
       "adj_em": "-14.4",
-      "eff_updated": "11/5/2026 9:21 PM"
+      "eff_updated": "11/6/2026 6:23 AM"
      },
      "olivet": {
-      "rank": 127,
-      "record": "15-11",
-      "npi": "55.500",
-      "bid": "At-Lg",
-      "at_large_rank": "92",
-      "seed": "-",
       "eff_rank": 160,
       "adj_em": "+3.0",
-      "eff_updated": "11/5/2026 9:21 PM"
+      "eff_updated": "11/6/2026 6:23 AM"
      },
      "trine": {
-      "rank": 82,
-      "record": "20-8",
-      "npi": "57.468",
-      "bid": "At-Lg",
-      "at_large_rank": "53",
-      "seed": "-",
       "eff_rank": 47,
       "adj_em": "+12.2",
-      "eff_updated": "11/5/2026 9:21 PM"
+      "eff_updated": "11/6/2026 6:23 AM"
      }
     },
     "d3_teams": [
@@ -7735,8 +7707,8 @@
        "home": true,
        "neutral": false,
        "opponent": {
-        "name": "#10 University of Chicago",
-        "short": "#10",
+        "name": "University of Chicago",
+        "short": "Chicago",
         "logo": "https://adrianbulldogs.com/images/logos/Uni-Chicago.png?width=80&height=80&mode=max",
         "slug": null
        },
@@ -8601,7 +8573,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T00:27:51-06:00"
+     "fetched": "2026-11-06T09:17:32-06:00"
     },
     "albion": {
      "games": [
@@ -9414,7 +9386,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T00:27:51-06:00"
+     "fetched": "2026-11-06T09:17:32-06:00"
     },
     "alma": {
      "games": [
@@ -9426,8 +9398,8 @@
        "home": false,
        "neutral": false,
        "opponent": {
-        "name": "#15 Otterbein",
-        "short": "#15 Otterbein",
+        "name": "Otterbein",
+        "short": "Otterbein",
         "logo": "https://almascots.com/images/logos/p11.png?width=80&height=80&mode=max",
         "slug": null
        },
@@ -9457,8 +9429,8 @@
        "home": false,
        "neutral": false,
        "opponent": {
-        "name": "(RV) DePauw",
-        "short": "(RV) DePauw",
+        "name": "DePauw",
+        "short": "DePauw",
         "logo": "https://almascots.com/images/logos/DePauw.png?width=80&height=80&mode=max",
         "slug": null
        },
@@ -9667,8 +9639,8 @@
        "home": true,
        "neutral": false,
        "opponent": {
-        "name": "#4 Hope",
-        "short": "#4 Hope",
+        "name": "Hope",
+        "short": "Hope",
         "logo": "https://almascots.com/images/logos/Hope.png?width=80&height=80&mode=max",
         "slug": "hope"
        },
@@ -9782,8 +9754,8 @@
        "home": false,
        "neutral": false,
        "opponent": {
-        "name": "(RV) Calvin",
-        "short": "(RV) Calvin",
+        "name": "Calvin",
+        "short": "Calvin",
         "logo": "https://almascots.com/images/logos/Calvin-College.png?width=80&height=80&mode=max",
         "slug": "calvin"
        },
@@ -9812,8 +9784,8 @@
        "home": false,
        "neutral": false,
        "opponent": {
-        "name": "#9 Trine",
-        "short": "#9 Trine",
+        "name": "Trine",
+        "short": "Trine",
         "logo": "https://almascots.com/images/logos/Trine.png?width=80&height=80&mode=max",
         "slug": "trine"
        },
@@ -9964,8 +9936,8 @@
        "home": true,
        "neutral": false,
        "opponent": {
-        "name": "#9 Trine",
-        "short": "#9 Trine",
+        "name": "Trine",
+        "short": "Trine",
         "logo": "https://almascots.com/images/logos/Trine.png?width=80&height=80&mode=max",
         "slug": "trine"
        },
@@ -10025,8 +9997,8 @@
        "home": false,
        "neutral": false,
        "opponent": {
-        "name": "#4 Hope",
-        "short": "#4 Hope",
+        "name": "Hope",
+        "short": "Hope",
         "logo": "https://almascots.com/images/logos/Hope.png?width=80&height=80&mode=max",
         "slug": "hope"
        },
@@ -10113,8 +10085,8 @@
        "home": true,
        "neutral": false,
        "opponent": {
-        "name": "(RV) Calvin",
-        "short": "(RV) Calvin",
+        "name": "Calvin",
+        "short": "Calvin",
         "logo": "https://almascots.com/images/logos/Calvin-College.png?width=80&height=80&mode=max",
         "slug": "calvin"
        },
@@ -10266,7 +10238,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T00:27:51-06:00"
+     "fetched": "2026-11-06T09:17:32-06:00"
     },
     "calvin": {
      "games": [
@@ -11065,7 +11037,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T00:27:51-06:00"
+     "fetched": "2026-11-06T09:17:32-06:00"
     },
     "hope": {
      "games": [
@@ -11919,7 +11891,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T00:27:51-06:00"
+     "fetched": "2026-11-06T09:17:32-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12748,40 +12720,10 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T00:27:51-06:00"
+     "fetched": "2026-11-06T09:17:32-06:00"
     },
     "olivet": {
      "games": [
-      {
-       "id": "olivet-wbb-qkvmc8wkq7e2xa5n",
-       "exhibition": false,
-       "date": "2026-11-06T22:30:00Z",
-       "time_tbd": false,
-       "home": true,
-       "neutral": false,
-       "opponent": {
-        "name": "Bluffton (Ohio)",
-        "short": "Bluffton (Ohio)",
-        "logo": "https://cdn.prestosports.com/action/cdn/logos/id/y3t3lh9gmcf8laq8.png",
-        "slug": null
-       },
-       "conference": false,
-       "location": "Olivet, Mich., Cutler Event Center",
-       "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
-       "status": "",
-       "links": {
-        "live_stats": "https://prestolivestats.com/9qop6oeabjj3n7bn/qkvmc8wkq7e2xa5n",
-        "video": "https://www.olivetcomets.com/links/v1ickm"
-       },
-       "live_feed": {
-        "type": "presto",
-        "url": "https://data.prestolivestats.com/xml/9qop6oeabjj3n7bn/events/qkvmc8wkq7e2xa5n.xml"
-       }
-      },
       {
        "id": "olivet-wbb-jvbttpg4onabk52l",
        "exhibition": false,
@@ -12833,8 +12775,8 @@
       {
        "id": "olivet-wbb-b22h4evx0pgekvfo",
        "exhibition": false,
-       "date": "2026-11-21T17:00:00Z",
-       "time_tbd": true,
+       "date": "2026-11-21T19:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -12851,14 +12793,17 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "live_stats": "https://www.olivetcomets.com/links/8y3nxc",
+        "video": "https://www.olivetcomets.com/links/ujdz1x"
+       },
        "live_feed": null
       },
       {
        "id": "olivet-wbb-i0g5uurhhjuxou9c",
        "exhibition": false,
-       "date": "2026-11-28T17:00:00Z",
-       "time_tbd": true,
+       "date": "2026-11-28T23:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -12875,14 +12820,17 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "live_stats": "https://www.olivetcomets.com/links/8jzwtj",
+        "video": "https://www.olivetcomets.com/links/xq44ax"
+       },
        "live_feed": null
       },
       {
        "id": "olivet-wbb-dvfb1i2s6cjuec94",
        "exhibition": false,
-       "date": "2026-11-29T17:00:00Z",
-       "time_tbd": true,
+       "date": "2026-11-29T19:00:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": true,
        "opponent": {
@@ -12943,7 +12891,7 @@
         "slug": "albion"
        },
        "conference": true,
-       "location": "Olivet, MI",
+       "location": "Olivet, MI, Cutler Event Center",
        "note": "",
        "state": "pre",
        "result": null,
@@ -12952,7 +12900,8 @@
        "status": "",
        "links": {
         "live_stats": "https://prestolivestats.com/9qop6oeabjj3n7bn/2abo7qzmutz7dk8r",
-        "video": "https://www.olivetcomets.com/links/v1ickm"
+        "video": "https://www.olivetcomets.com/links/v1ickm",
+        "tickets": "https://www.olivetcomets.com/tickets"
        },
        "live_feed": {
         "type": "presto",
@@ -12980,7 +12929,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "live_stats": "https://www.olivetcomets.com/links/j7zu6c",
+        "video": "https://www.olivetcomets.com/links/iamyk9"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/trine/wbball/game.json"
@@ -13009,7 +12961,8 @@
        "status": "",
        "links": {
         "live_stats": "https://prestolivestats.com/9qop6oeabjj3n7bn/c044v882higey4fb",
-        "video": "https://www.olivetcomets.com/links/v1ickm"
+        "video": "https://www.olivetcomets.com/links/v1ickm",
+        "tickets": "https://www.olivetcomets.com/tickets"
        },
        "live_feed": {
         "type": "presto",
@@ -13118,7 +13071,8 @@
        "status": "",
        "links": {
         "live_stats": "https://prestolivestats.com/9qop6oeabjj3n7bn/zpe27xexpewrim27",
-        "video": "https://www.olivetcomets.com/links/v1ickm"
+        "video": "https://www.olivetcomets.com/links/v1ickm",
+        "tickets": "https://www.olivetcomets.com/tickets"
        },
        "live_feed": {
         "type": "presto",
@@ -13148,7 +13102,8 @@
        "status": "",
        "links": {
         "live_stats": "https://prestolivestats.com/9qop6oeabjj3n7bn/eoz1lj6xzlw0f4mv",
-        "video": "https://www.olivetcomets.com/links/v1ickm"
+        "video": "https://www.olivetcomets.com/links/v1ickm",
+        "tickets": "https://www.olivetcomets.com/tickets"
        },
        "live_feed": {
         "type": "presto",
@@ -13178,7 +13133,8 @@
        "status": "",
        "links": {
         "live_stats": "https://prestolivestats.com/9qop6oeabjj3n7bn/d1anj7lquihf1pz8",
-        "video": "https://www.olivetcomets.com/links/v1ickm"
+        "video": "https://www.olivetcomets.com/links/v1ickm",
+        "tickets": "https://www.olivetcomets.com/tickets"
        },
        "live_feed": {
         "type": "presto",
@@ -13208,7 +13164,8 @@
        "status": "",
        "links": {
         "live_stats": "https://prestolivestats.com/9qop6oeabjj3n7bn/6skhfkmnczyd8w9y",
-        "video": "https://www.olivetcomets.com/links/v1ickm"
+        "video": "https://www.olivetcomets.com/links/v1ickm",
+        "tickets": "https://www.olivetcomets.com/tickets"
        },
        "live_feed": {
         "type": "presto",
@@ -13263,7 +13220,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "live_stats": "https://www.olivetcomets.com/links/m0wc3d",
+        "video": "https://www.olivetcomets.com/links/fpfcc6"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/kalamazoo/wbball/game.json"
@@ -13302,8 +13262,8 @@
       {
        "id": "olivet-wbb-a129tevapj9h770s",
        "exhibition": false,
-       "date": "2027-02-06T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-02-06T20:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -13349,7 +13309,8 @@
        "status": "",
        "links": {
         "live_stats": "https://prestolivestats.com/9qop6oeabjj3n7bn/8e88q83sfwrd8nji",
-        "video": "https://www.olivetcomets.com/links/v1ickm"
+        "video": "https://www.olivetcomets.com/links/v1ickm",
+        "tickets": "https://www.olivetcomets.com/tickets"
        },
        "live_feed": {
         "type": "presto",
@@ -13377,7 +13338,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "live_stats": "https://www.olivetcomets.com/links/8zy9vz",
+        "video": "https://www.olivetcomets.com/links/yk14gx"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/hopecollege/wbball/game.json"
@@ -13406,7 +13370,8 @@
        "status": "",
        "links": {
         "live_stats": "https://prestolivestats.com/9qop6oeabjj3n7bn/a3oq4vt7mfq6yeni",
-        "video": "https://www.olivetcomets.com/links/v1ickm"
+        "video": "https://www.olivetcomets.com/links/v1ickm",
+        "tickets": "https://www.olivetcomets.com/tickets"
        },
        "live_feed": {
         "type": "presto",
@@ -13443,52 +13408,58 @@
      ],
      "roster": {
       "url": "https://www.olivetcomets.com/sports/wbkb/2026-27/roster",
-      "season": null,
-      "players": 0,
-      "current": false
+      "season": "2026-27",
+      "players": 20,
+      "current": true
      },
      "players": [
       {
        "label": "Points",
-       "name": "Ava Lord",
-       "jersey": "0",
-       "gp": "25",
-       "total": "247",
-       "avg": "9.9",
-       "line": "9.9 per game, 247 total",
+       "name": "Kaylee Bush",
+       "jersey": "55",
+       "gp": "23",
+       "total": "179",
+       "avg": "7.8",
+       "line": "7.8 per game, 179 total",
        "position": "G",
-       "year": "Freshman",
-       "headshot": "https://www.olivetcomets.com/sports/wbkb/2025-26/photos/0001/hs_Ava_Lord.jpg?max_height=576&max_width=576&crop=1"
+       "year": "Junior",
+       "headshot": "https://www.olivetcomets.com/sports/wbkb/2025-26/photos/0001/hs_Kaylee_Bush.jpg?max_height=576&max_width=576&crop=1"
       },
       {
        "label": "Points",
-       "name": "Christina Malackanich",
-       "jersey": "24",
-       "gp": "7",
-       "total": "55",
-       "avg": "7.9",
-       "line": "7.9 per game, 55 total"
+       "name": "Madelyn Burdis",
+       "jersey": "11",
+       "gp": "23",
+       "total": "161",
+       "avg": "7.0",
+       "line": "7.0 per game, 161 total",
+       "position": "G",
+       "year": "Freshman",
+       "headshot": "https://www.olivetcomets.com/sports/wbkb/2025-26/photos/0001/hs_Madelyn_Burdis.jpg?max_height=576&max_width=576&crop=1"
       },
       {
        "label": "Rebounds",
-       "name": "Christina Malackanich",
-       "jersey": "24",
-       "gp": "7",
-       "total": "45",
-       "avg": "6.4",
-       "line": "6.4 per game, 45 total"
+       "name": "Madelyn Burdis",
+       "jersey": "11",
+       "gp": "23",
+       "total": "118",
+       "avg": "5.1",
+       "line": "5.1 per game, 118 total",
+       "position": "G",
+       "year": "Freshman",
+       "headshot": "https://www.olivetcomets.com/sports/wbkb/2025-26/photos/0001/hs_Madelyn_Burdis.jpg?max_height=576&max_width=576&crop=1"
       },
       {
        "label": "Assists",
-       "name": "Ava Lord",
-       "jersey": "0",
-       "gp": "25",
-       "total": "63",
-       "avg": "2.5",
-       "line": "2.5 per game, 63 total",
+       "name": "Reese Gohsman",
+       "jersey": "21",
+       "gp": "22",
+       "total": "44",
+       "avg": "2.0",
+       "line": "2.0 per game, 44 total",
        "position": "G",
        "year": "Freshman",
-       "headshot": "https://www.olivetcomets.com/sports/wbkb/2025-26/photos/0001/hs_Ava_Lord.jpg?max_height=576&max_width=576&crop=1"
+       "headshot": "https://www.olivetcomets.com/sports/wbkb/2025-26/photos/0001/hs_Reese_Gohsman.jpg?max_height=576&max_width=576&crop=1"
       },
       {
        "label": "Steals",
@@ -13504,15 +13475,55 @@
       },
       {
        "label": "Blocks",
-       "name": "Christina Malackanich",
-       "jersey": "24",
-       "gp": "7",
+       "name": "Alex Mitchell",
+       "jersey": "15",
+       "gp": "24",
        "total": "8",
-       "avg": "1.1",
-       "line": "1.1 per game, 8 total"
+       "avg": "0.3",
+       "line": "0.3 per game, 8 total",
+       "position": "C",
+       "year": "Freshman",
+       "headshot": "https://www.olivetcomets.com/sports/wbkb/2025-26/photos/0001/hs_Alexandria_Mitchell.jpg?max_height=576&max_width=576&crop=1"
       }
      ],
-     "departed": [],
+     "departed": [
+      {
+       "name": "Ava Lord",
+       "reason": "not on the 2026-27 roster",
+       "line": "9.9 points per game",
+       "year": "Freshman"
+      },
+      {
+       "name": "Christina Malackanich",
+       "reason": "not on the 2026-27 roster",
+       "line": "7.9 points per game",
+       "year": null
+      },
+      {
+       "name": "Peyton Tennant",
+       "reason": "not on the 2026-27 roster",
+       "line": "2.9 points per game",
+       "year": "Freshman"
+      },
+      {
+       "name": "Drue Allen",
+       "reason": "not on the 2026-27 roster",
+       "line": "2.3 points per game",
+       "year": "Junior"
+      },
+      {
+       "name": "Helena Eley",
+       "reason": "not on the 2026-27 roster",
+       "line": "2.0 points per game",
+       "year": "Junior"
+      },
+      {
+       "name": "Ella Aagesen",
+       "reason": "not on the 2026-27 roster",
+       "line": "0.0 points per game",
+       "year": "Freshman"
+      }
+     ],
      "stats_season": "2025-26",
      "played": 0,
      "wins": 0,
@@ -13523,7 +13534,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T00:27:51-06:00"
+     "fetched": "2026-11-06T09:17:32-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14382,7 +14393,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T00:27:51-06:00"
+     "fetched": "2026-11-06T09:17:32-06:00"
     },
     "trine": {
      "games": [
@@ -14394,8 +14405,8 @@
        "home": false,
        "neutral": false,
        "opponent": {
-        "name": "#14/21 Baldwin Wallace",
-        "short": "#14/21 Baldwin Wallace",
+        "name": "Baldwin Wallace",
+        "short": "Baldwin Wallace",
         "logo": "https://trinethunder.com/images/logos/Baldwin_Wallace_Stinger.png?width=80&height=80&mode=max",
         "slug": null
        },
@@ -14445,8 +14456,8 @@
        "home": false,
        "neutral": false,
        "opponent": {
-        "name": "RV/RV Wisconsin Lutheran",
-        "short": "RV/RV Wisconsin Lutheran",
+        "name": "Wisconsin Lutheran",
+        "short": "Wisconsin Lutheran",
         "logo": "https://trinethunder.com/images/logos/Wisconsin_Lutheran_Updated_Logo.png?width=80&height=80&mode=max",
         "slug": null
        },
@@ -14475,8 +14486,8 @@
        "home": false,
        "neutral": true,
        "opponent": {
-        "name": "#10/7 WashU",
-        "short": "#10/7 WashU",
+        "name": "WashU",
+        "short": "WashU",
         "logo": "https://trinethunder.com/images/logos/site_washu.png?width=80&height=80&mode=max",
         "slug": null
        },
@@ -14499,8 +14510,8 @@
        "home": false,
        "neutral": true,
        "opponent": {
-        "name": "(RV) DePauw or (#20/RV) Illinois Wesleyan",
-        "short": "(RV) DePauw or (#20/RV) Illinois Wesleyan",
+        "name": "DePauw or Illinois Wesleyan",
+        "short": "DePauw or Illinois Wesleyan",
         "logo": null,
         "slug": null
        },
@@ -14610,8 +14621,8 @@
        "home": true,
        "neutral": false,
        "opponent": {
-        "name": "#17/24 Ohio Wesleyan",
-        "short": "#17/24 Ohio Wesleyan",
+        "name": "Ohio Wesleyan",
+        "short": "Ohio Wesleyan",
         "logo": "https://trinethunder.com/images/logos/Ohio_Wesleyan.png?width=80&height=80&mode=max",
         "slug": null
        },
@@ -14700,8 +14711,8 @@
        "home": false,
        "neutral": false,
        "opponent": {
-        "name": "#18/19 Hardin-Simmons",
-        "short": "#18/19 Hardin-Simmons",
+        "name": "Hardin-Simmons",
+        "short": "Hardin-Simmons",
         "logo": "https://trinethunder.com/images/logos/HSU.png?width=80&height=80&mode=max",
         "slug": null
        },
@@ -14775,8 +14786,8 @@
        "home": false,
        "neutral": false,
        "opponent": {
-        "name": "#8/4 Hope",
-        "short": "#8/4 Hope",
+        "name": "Hope",
+        "short": "Hope",
         "logo": "https://trinethunder.com/images/logos/HOPE_Anchor_Orange_200x200.png?width=80&height=80&mode=max",
         "slug": "hope"
        },
@@ -14889,8 +14900,8 @@
        "home": true,
        "neutral": false,
        "opponent": {
-        "name": "RV/RV Calvin",
-        "short": "RV/RV Calvin",
+        "name": "Calvin",
+        "short": "Calvin",
         "logo": "https://trinethunder.com/images/logos/Calvin-College.png?width=80&height=80&mode=max",
         "slug": "calvin"
        },
@@ -15090,8 +15101,8 @@
        "home": false,
        "neutral": false,
        "opponent": {
-        "name": "RV/RV Calvin",
-        "short": "RV/RV Calvin",
+        "name": "Calvin",
+        "short": "Calvin",
         "logo": "https://trinethunder.com/images/logos/Calvin-College.png?width=80&height=80&mode=max",
         "slug": "calvin"
        },
@@ -15117,8 +15128,8 @@
        "home": true,
        "neutral": false,
        "opponent": {
-        "name": "#8/4 Hope",
-        "short": "#8/4 Hope",
+        "name": "Hope",
+        "short": "Hope",
         "logo": "https://trinethunder.com/images/logos/HOPE_Anchor_Orange_200x200.png?width=80&height=80&mode=max",
         "slug": "hope"
        },
@@ -15244,7 +15255,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T00:27:51-06:00"
+     "fetched": "2026-11-06T09:17:32-06:00"
     }
    },
    "poll": {
@@ -16021,17 +16032,11 @@
   }
  },
  "errors": [
-  "Olivet mbb schedule: HTTP Error 405: Not Allowed",
-  "Olivet mbb leaders: HTTP Error 405: Not Allowed",
   "d3hoops mbb: poll table not found",
-  "Olivet wbb schedule: HTTP Error 405: Not Allowed",
-  "Olivet wbb leaders: HTTP Error 405: Not Allowed",
   "d3hoops wbb: poll table not found"
  ],
  "stale": {
-  "olivet-mbb-schedule": "2026-11-05T23:58:24-06:00",
-  "mbb-poll": "2026-11-05T23:58:24-06:00",
-  "olivet-wbb-schedule": "2026-11-05T23:58:24-06:00",
-  "wbb-poll": "2026-11-05T23:58:24-06:00"
+  "mbb-poll": "2026-11-06T09:14:30-06:00",
+  "wbb-poll": "2026-11-06T09:14:30-06:00"
  }
 }
