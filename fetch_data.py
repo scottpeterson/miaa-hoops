@@ -616,23 +616,40 @@ def leaders(school, cfg, roster, sport):
 
 # ---------------------------------------------------------------- D3hoops.com poll
 
-def d3hoops_poll(sport):
+def d3hoops_poll(sport, read_at):
     gender = "men" if sport == "mbb" else "women"
     req = urllib.request.Request(f"https://www.d3hoops.com/top25/{gender}/", headers=UA)
     with urllib.request.urlopen(req, timeout=40) as resp:
         final_url = resp.geturl()
         page = resp.read().decode("utf-8", "replace")
-    m = re.search(r"/top25/\w+/(20\d\d-\d\d)/([a-z0-9]+)", final_url)
-    season = m.group(1) if m else None
-    week = m.group(2) if m else None
     heading = re.search(r"<h\d[^>]*>([^<]*Top 25[^<]*)</h\d>", page)
     table = next((t for t in re.findall(r"<table.*?</table>", page, re.S) if "Pts." in t), None)
     if not table:
         raise ValueError("poll table not found")
+    cell_rows = [[text(c) for c in re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", tr, re.S)] for tr in re.findall(r"<tr[^>]*>(.*?)</tr>", table, re.S)]
+    rv_m = re.search(r"Others receiving votes:\s*(.*?)(?:</p>|</div>|<br|\n\n)", page, re.S | re.I)
+    label = text(heading.group(1)) if heading else f"D3hoops.com {gender}'s Top 25"
+    return poll_block(sport, label, final_url, cell_rows, text(rv_m.group(1)) if rv_m else "", read_at)
+
+
+def manual_poll(sport):
+    """The poll read by hand in a browser (content/d3hoops_poll.json), for when d3hoops.com blocks scripted requests."""
+    path = BASE / "content" / "d3hoops_poll.json"
+    entry = json.loads(path.read_text()).get(sport) if path.exists() else None
+    if not entry:
+        return None
+    return poll_block(sport, entry["label"], entry["url"], entry["rows"], entry["receiving_votes"], entry["read_at"])
+
+
+def poll_block(sport, label, url, cell_rows, receiving_text, read_at):
+    """Build the poll from table rows ([rank, "School (first-place votes)", record, points, previous]) and the receiving-votes text."""
+    m = re.search(r"/top25/\w+/(20\d\d-\d\d)/([a-z0-9]+)", url)
+    season = m.group(1) if m else None
+    week = m.group(2) if m else None
     ranks = {}
     rows = []
-    for tr in re.findall(r"<tr[^>]*>(.*?)</tr>", table, re.S):
-        cells = [text(c) for c in re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", tr, re.S)]
+    for cells in cell_rows:
+        cells = [str(c) for c in cells]
         if len(cells) < 4 or not cells[0].isdigit():
             continue
         fpv = re.search(r"\((\d+)\)\s*$", cells[1])
@@ -640,13 +657,11 @@ def d3hoops_poll(sport):
         row = {"rank": int(cells[0]), "team": team, "record": cells[2], "points": cells[3], "first_place": int(fpv.group(1)) if fpv else 0,
                "prev": cells[4] if len(cells) > 4 else None}
         rows.append(row)
-    rv_m = re.search(r"Others receiving votes:\s*(.*?)(?:</p>|</div>|<br|\n\n)", page, re.S | re.I)
     receiving = {}
-    if rv_m:
-        for part in text(rv_m.group(1)).split(";"):
-            pm = re.match(r"\s*(.+?)\s+(\d+)\s*\.?\s*$", part)
-            if pm:
-                receiving[pm.group(1).strip()] = int(pm.group(2))
+    for part in receiving_text.split(";"):
+        pm = re.match(r"\s*(.+?)\s+(\d+)\s*\.?\s*$", part)
+        if pm:
+            receiving[pm.group(1).strip()] = int(pm.group(2))
     for s in SCHOOLS:
         if sport not in s["sports"]:
             continue
@@ -658,8 +673,7 @@ def d3hoops_poll(sport):
         if rv is not None:
             ranks.setdefault(s["slug"], {})
             ranks[s["slug"]]["receiving_votes"] = rv
-    label = text(heading.group(1)) if heading else f"D3hoops.com {gender}'s Top 25"
-    return {"label": label, "season": season, "week": week, "url": final_url, "top25": rows, "ranks": ranks, "receiving_votes": receiving}
+    return {"label": label, "season": season, "week": week, "url": url, "top25": rows, "ranks": ranks, "receiving_votes": receiving, "read_at": read_at}
 
 
 # ---------------------------------------------------------------- NPI and ratings
@@ -789,12 +803,18 @@ def main():
             block["teams"][slug] = team
         cross_fill(block["teams"], sport)
         try:
-            block["poll"] = d3hoops_poll(sport)
+            block["poll"] = d3hoops_poll(sport, out["fetched_at"])
         except (urllib.error.URLError, TimeoutError, ValueError) as exc:
             out["errors"].append(f"d3hoops {sport}: {exc}")
-            block["poll"] = prev_sport.get("poll", {})
-            if block["poll"]:
-                out["stale"][f"{sport}-poll"] = previous.get("fetched_at")
+            # Keep whichever poll was read later: the last scripted read or the hand-read file.
+            carried = prev_sport.get("poll", {})
+            manual = manual_poll(sport)
+            if manual and manual["read_at"] > carried.get("read_at", ""):
+                block["poll"] = manual
+            else:
+                block["poll"] = carried
+                if carried:
+                    out["stale"][f"{sport}-poll"] = previous.get("fetched_at")
         try:
             block["npi"] = datacast_npi(sport, prev_sport.get("npi", {})) if sport == "mbb" else statlab_npi()
         except (urllib.error.URLError, TimeoutError, ValueError, KeyError, StopIteration) as exc:

@@ -281,9 +281,9 @@ def game_card(sport, school, g, twin, kind="pre"):
     team_slugs = school["slug"] + (f' {twin[0]["slug"]}' if twin else "")
     twin_attr = f' data-twin="{esc(twin[1]["id"])}"' if twin else ""
     rank = poll(sport).get("ranks", {}).get(opp.get("slug") or "")
-    rk = f'<span class="rk">#{rank["rank"]}</span> ' if rank else ""
+    rk = f'<span class="rk">#{rank["rank"]}</span> ' if rank and "rank" in rank else ""
     my_rank = poll(sport).get("ranks", {}).get(school["slug"])
-    my_rk = f'<span class="rk">#{my_rank["rank"]}</span> ' if my_rank else ""
+    my_rk = f'<span class="rk">#{my_rank["rank"]}</span> ' if my_rank and "rank" in my_rank else ""
     links = game_links(g)
     links_row = f'<dt>Links</dt><dd>{" · ".join(links)}</dd>' if links else ""
     conf = '<span class="chip conf">MIAA game</span>' if g["conference"] else ""
