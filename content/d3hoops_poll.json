@@ -1,9 +1,9 @@
 {
- "note": "Hand-read D3hoops.com polls for when the site blocks scripted requests. After each new poll, open d3hoops.com/top25/men/ and /top25/women/ in a browser, copy the table rows and the receiving-votes text here, and set read_at to the time you read it (ISO, Central time). fetch_data.py uses an entry only when its read_at is later than the last poll it read itself.",
+ "note": "Hand-read D3hoops.com polls for when the site blocks scripted requests. After each new poll, open d3hoops.com/top25/men/ and /top25/women/ in a browser, copy the table rows and the receiving-votes text here, and set read_at to the time you read it (ISO, Central time). fetch_data.py uses an entry when its read_at is no earlier than the last poll it read itself.",
  "mbb": {
   "label": "D3hoops.com men's Top 25, 2026-27 preseason",
   "url": "https://www.d3hoops.com/top25/men/2026-27/preseason",
-  "read_at": "2026-11-06T10:25:00-06:00",
+  "read_at": "2026-11-06T09:25:00-06:00",
   "rows": [
    [1, "Mary Washington (21)", "30-3", "607"],
    [2, "Christopher Newport (2)", "25-6", "569"],
@@ -36,7 +36,7 @@
  "wbb": {
   "label": "D3hoops.com women's Top 25, 2026-27 preseason",
   "url": "https://www.d3hoops.com/top25/women/2026-27/preseason",
-  "read_at": "2026-11-06T10:25:00-06:00",
+  "read_at": "2026-11-06T09:25:00-06:00",
   "rows": [
    [1, "Denison (24)", "30-2", "624"],
    [2, "New York University (1)", "29-1", "592"],

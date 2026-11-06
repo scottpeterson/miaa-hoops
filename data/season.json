@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-06T09:24:05-06:00",
+ "fetched_at": "2026-11-06T09:33:31-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -954,7 +954,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T09:24:05-06:00"
+     "fetched": "2026-11-06T09:33:31-06:00"
     },
     "albion": {
      "games": [
@@ -1774,7 +1774,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T09:24:05-06:00"
+     "fetched": "2026-11-06T09:33:31-06:00"
     },
     "alma": {
      "games": [
@@ -2692,7 +2692,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T09:24:05-06:00"
+     "fetched": "2026-11-06T09:33:31-06:00"
     },
     "calvin": {
      "games": [
@@ -3542,7 +3542,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T09:24:05-06:00"
+     "fetched": "2026-11-06T09:33:31-06:00"
     },
     "hope": {
      "games": [
@@ -4418,7 +4418,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T09:24:05-06:00"
+     "fetched": "2026-11-06T09:33:31-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5268,7 +5268,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T09:24:05-06:00"
+     "fetched": "2026-11-06T09:33:31-06:00"
     },
     "olivet": {
      "games": [
@@ -6101,7 +6101,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T09:24:05-06:00"
+     "fetched": "2026-11-06T09:33:31-06:00"
     },
     "trine": {
      "games": [
@@ -6985,7 +6985,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T09:24:05-06:00"
+     "fetched": "2026-11-06T09:33:31-06:00"
     }
    },
    "poll": {
@@ -7195,14 +7195,7 @@
       "prev": null
      }
     ],
-    "ranks": {
-     "olivet": {
-      "receiving_votes": 53
-     },
-     "trine": {
-      "receiving_votes": 4
-     }
-    },
+    "ranks": {},
     "receiving_votes": {
      "Maine-Farmington": 73,
      "Montclair State": 57,
@@ -7236,7 +7229,7 @@
      "Wheaton (Ill.)": 3,
      "Wheaton (Mass.)": 2
     },
-    "read_at": "2026-11-06T10:25:00-06:00"
+    "read_at": "2026-11-06T09:25:00-06:00"
    },
    "npi": {
     "source": "D3 Datacast",
@@ -8599,7 +8592,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T09:24:05-06:00"
+     "fetched": "2026-11-06T09:33:31-06:00"
     },
     "albion": {
      "games": [
@@ -9412,7 +9405,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T09:24:05-06:00"
+     "fetched": "2026-11-06T09:33:31-06:00"
     },
     "alma": {
      "games": [
@@ -10264,7 +10257,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T09:24:05-06:00"
+     "fetched": "2026-11-06T09:33:31-06:00"
     },
     "calvin": {
      "games": [
@@ -11063,7 +11056,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T09:24:05-06:00"
+     "fetched": "2026-11-06T09:33:31-06:00"
     },
     "hope": {
      "games": [
@@ -11917,7 +11910,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T09:24:05-06:00"
+     "fetched": "2026-11-06T09:33:31-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12746,7 +12739,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T09:24:05-06:00"
+     "fetched": "2026-11-06T09:33:31-06:00"
     },
     "olivet": {
      "games": [
@@ -13560,7 +13553,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T09:24:05-06:00"
+     "fetched": "2026-11-06T09:33:31-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14419,7 +14412,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T09:24:05-06:00"
+     "fetched": "2026-11-06T09:33:31-06:00"
     },
     "trine": {
      "games": [
@@ -15281,7 +15274,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T09:24:05-06:00"
+     "fetched": "2026-11-06T09:33:31-06:00"
     }
    },
    "poll": {
@@ -15492,9 +15485,6 @@
      }
     ],
     "ranks": {
-     "calvin": {
-      "receiving_votes": 29
-     },
      "hope": {
       "rank": 4,
       "team": "Hope",
@@ -15537,7 +15527,7 @@
      "Millsaps": 1,
      "Randolph-Macon": 1
     },
-    "read_at": "2026-11-06T10:25:00-06:00"
+    "read_at": "2026-11-06T09:25:00-06:00"
    },
    "npi": {
     "source": "The D3 Stat Lab",

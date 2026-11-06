@@ -669,10 +669,6 @@ def poll_block(sport, label, url, cell_rows, receiving_text, read_at):
         hit = next((r for r in rows if r["team"] == key or r["team"].lower().startswith(s["name"].lower())), None)
         if hit:
             ranks[s["slug"]] = hit
-        rv = next((v for k, v in receiving.items() if k == key or k.lower().startswith(s["name"].lower())), None)
-        if rv is not None:
-            ranks.setdefault(s["slug"], {})
-            ranks[s["slug"]]["receiving_votes"] = rv
     return {"label": label, "season": season, "week": week, "url": url, "top25": rows, "ranks": ranks, "receiving_votes": receiving, "read_at": read_at}
 
 
@@ -809,7 +805,7 @@ def main():
             # Keep whichever poll was read later: the last scripted read or the hand-read file.
             carried = prev_sport.get("poll", {})
             manual = manual_poll(sport)
-            if manual and manual["read_at"] > carried.get("read_at", ""):
+            if manual and manual["read_at"] >= carried.get("read_at", ""):
                 block["poll"] = manual
             else:
                 block["poll"] = carried
