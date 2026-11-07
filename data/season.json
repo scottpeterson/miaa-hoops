@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-06T19:30:10-06:00",
+ "fetched_at": "2026-11-06T23:30:00-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -49,19 +49,16 @@
        "conference": false,
        "location": "Aurora, Ill.",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "L",
+       "pf": 82,
+       "pa": 90,
        "status": "",
        "links": {
-        "video": "https://boxcast.tv/channel/paptdt2hgnwkpz4s3bvn",
-        "live_stats": "https://athletics.aurora.edu/sidearmstats/mbball/summary"
+        "boxscore": "https://adrianbulldogs.com/sports/mens-basketball/stats/2026-27/aurora-university/boxscore/24136",
+        "recap": "https://adrianbulldogs.com/news/2026/11/6/mens-basketball-falls-to-aurora.aspx"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/aurora/mbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "adrian-mbb-24137",
@@ -945,16 +942,16 @@
       }
      ],
      "stats_season": "2025-26",
-     "played": 0,
+     "played": 1,
      "wins": 0,
-     "losses": 0,
+     "losses": 1,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 0,
-     "pa": 0,
-     "record": "0-0",
+     "pf": 82,
+     "pa": 90,
+     "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T19:30:10-06:00"
+     "fetched": "2026-11-06T23:30:00-06:00"
     },
     "albion": {
      "games": [
@@ -1774,7 +1771,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T19:30:10-06:00"
+     "fetched": "2026-11-06T23:30:00-06:00"
     },
     "alma": {
      "games": [
@@ -1794,20 +1791,16 @@
        "conference": false,
        "location": "Mount Pleasant, Michigan, McGuirk Arena",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "L",
+       "pf": 50,
+       "pa": 93,
        "status": "",
        "links": {
-        "video": "https://www.espn.com/search/_/o/watch/q/Central%20Michigan",
-        "live_stats": "https://cmuchippewas.com/sidearmstats/mbball/summary",
-        "tickets": "https://cmich.evenue.net/list/MB"
+        "boxscore": "https://almascots.com/sports/mens-basketball/stats/2026-27/central-michigan-exhibition-/boxscore/14634",
+        "recap": "https://almascots.com/news/2026/11/6/mens-basketball-mens-basketball-competes-in-exhibition-at-central-michigan.aspx"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/centralmich/mbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "alma-mbb-14635",
@@ -1832,7 +1825,8 @@
        "status": "",
        "links": {
         "video": "https://flosports.link/4zB0elt",
-        "live_stats": "https://www.bergathletics.com/sidearmstats/mbball/summary"
+        "live_stats": "https://www.bergathletics.com/sidearmstats/mbball/summary",
+        "tickets": "https://bergathletics.com/sports/2021/11/2/heidelberg-athletics-tickets.aspx"
        },
        "live_feed": {
         "type": "sidearm",
@@ -2692,7 +2686,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T19:30:10-06:00"
+     "fetched": "2026-11-06T23:30:00-06:00"
     },
     "calvin": {
      "games": [
@@ -2712,19 +2706,16 @@
        "conference": false,
        "location": "Eau Claire, Wis.",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "L",
+       "pf": 63,
+       "pa": 88,
        "status": "",
        "links": {
-        "video": "https://wiacnetwork.com/uweauclaire/",
-        "live_stats": "https://blugolds.com/sidearmstats/mbball/summary"
+        "boxscore": "https://calvinknights.com/sports/mens-basketball/stats/2026-27/university-of-wisconsin-eau-claire/boxscore/9259",
+        "recap": "https://calvinknights.com/news/2026/11/6/mens-basketball-calvin-mens-basketball-opens-season-with-defeat-at-uw-eau-claire.aspx"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/uweauclaire/mbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "calvin-mbb-9260",
@@ -3417,132 +3408,89 @@
      "players": [
       {
        "label": "Points",
-       "name": "Parker Swartz",
-       "jersey": "2",
-       "gp": "27",
-       "total": "242",
-       "avg": "9.0",
-       "line": "9.0 per game, 242 total",
-       "position": "F",
+       "name": "Jordan Scott",
+       "jersey": "12",
+       "gp": "1",
+       "total": "18",
+       "avg": "18.0",
+       "line": "18.0 per game, 18 total",
+       "position": "G",
        "year": "Junior",
-       "headshot": "https://calvinknights.com/images/2025/10/29/Swartz__Parker.jpg?width=200&quality=90"
+       "headshot": "https://calvinknights.com/images/2026/10/27/Scott__Jordan.jpg?width=200&quality=90"
       },
       {
        "label": "Points",
-       "name": "Jordan Scott",
-       "jersey": "12",
-       "gp": "20",
-       "total": "174",
-       "avg": "8.7",
-       "line": "8.7 per game, 174 total",
+       "name": "Malachi Hooser II",
+       "jersey": "1",
+       "gp": "1",
+       "total": "12",
+       "avg": "12.0",
+       "line": "12.0 per game, 12 total",
        "position": "G",
-       "year": "Sophomore",
-       "headshot": "https://calvinknights.com/images/2025/10/29/Scott__Jordan.jpg?width=200&quality=90"
+       "year": "Junior",
+       "headshot": "https://calvinknights.com/images/2026/10/27/Hooser__Malachi.jpg?width=200&quality=90"
       },
       {
        "label": "Rebounds",
-       "name": "Parker Swartz",
-       "jersey": "2",
-       "gp": "27",
-       "total": "112",
-       "avg": "4.1",
-       "line": "4.1 per game, 112 total",
-       "position": "F",
+       "name": "Jordan Scott",
+       "jersey": "12",
+       "gp": "1",
+       "total": "4",
+       "avg": "4.0",
+       "line": "4.0 per game, 4 total",
+       "position": "G",
        "year": "Junior",
-       "headshot": "https://calvinknights.com/images/2025/10/29/Swartz__Parker.jpg?width=200&quality=90"
+       "headshot": "https://calvinknights.com/images/2026/10/27/Scott__Jordan.jpg?width=200&quality=90"
       },
       {
        "label": "Assists",
-       "name": "Parker Swartz",
-       "jersey": "2",
-       "gp": "27",
-       "total": "43",
-       "avg": "1.6",
-       "line": "1.6 per game, 43 total",
-       "position": "F",
+       "name": "Malachi Hooser II",
+       "jersey": "1",
+       "gp": "1",
+       "total": "3",
+       "avg": "3.0",
+       "line": "3.0 per game, 3 total",
+       "position": "G",
        "year": "Junior",
-       "headshot": "https://calvinknights.com/images/2025/10/29/Swartz__Parker.jpg?width=200&quality=90"
+       "headshot": "https://calvinknights.com/images/2026/10/27/Hooser__Malachi.jpg?width=200&quality=90"
       },
       {
        "label": "Steals",
-       "name": "Justin McIllwain",
-       "jersey": "0",
-       "gp": "27",
-       "total": "20",
-       "avg": "0.7",
-       "line": "0.7 per game, 20 total",
-       "position": "F",
-       "year": "Sophomore",
-       "headshot": "https://calvinknights.com/images/2025/10/29/McIllwain__Justin.jpg?width=200&quality=90"
+       "name": "Malachi Hooser II",
+       "jersey": "1",
+       "gp": "1",
+       "total": "2",
+       "avg": "2.0",
+       "line": "2.0 per game, 2 total",
+       "position": "G",
+       "year": "Junior",
+       "headshot": "https://calvinknights.com/images/2026/10/27/Hooser__Malachi.jpg?width=200&quality=90"
       },
       {
        "label": "Blocks",
-       "name": "Parker Swartz",
-       "jersey": "2",
-       "gp": "27",
-       "total": "21",
-       "avg": "0.8",
-       "line": "0.8 per game, 21 total",
+       "name": "Ben Heagle",
+       "jersey": "22",
+       "gp": "1",
+       "total": "1",
+       "avg": "1.0",
+       "line": "1.0 per game, 1 total",
        "position": "F",
        "year": "Junior",
-       "headshot": "https://calvinknights.com/images/2025/10/29/Swartz__Parker.jpg?width=200&quality=90"
+       "headshot": "https://calvinknights.com/images/2026/10/27/Heagle__Ben.jpg?width=200&quality=90"
       }
      ],
-     "departed": [
-      {
-       "name": "Jalen Overway",
-       "reason": "transferred to Green Bay",
-       "line": "23.1 points per game",
-       "year": "Redshirt Junior"
-      },
-      {
-       "name": "Brady Ewing",
-       "reason": "not on the 2026-27 roster",
-       "line": "4.7 points per game",
-       "year": "Junior"
-      },
-      {
-       "name": "Tuna Teksen",
-       "reason": "not on the 2026-27 roster",
-       "line": "1.5 points per game",
-       "year": "Freshman"
-      },
-      {
-       "name": "Bryce O'Mara",
-       "reason": "not on the 2026-27 roster",
-       "line": "1.3 points per game",
-       "year": "Sophomore"
-      },
-      {
-       "name": "Michael DeKuiper",
-       "reason": "not on the 2026-27 roster",
-       "line": "0.6 points per game",
-       "year": "Freshman"
-      },
-      {
-       "name": "Andy Spoelman",
-       "reason": "not on the 2026-27 roster",
-       "line": "0.5 points per game",
-       "year": "Sophomore"
-      },
-      {
-       "name": "Luke Riebel",
-       "reason": "not on the 2026-27 roster",
-       "line": "0.4 points per game",
-       "year": "Sophomore"
-      }
-     ],
-     "stats_season": "2025-26",
-     "played": 0,
+     "departed": [],
+     "stats_season": "2026-27",
+     "played": 1,
      "wins": 0,
-     "losses": 0,
+     "losses": 1,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 0,
-     "pa": 0,
-     "record": "0-0",
+     "pf": 63,
+     "pa": 88,
+     "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T19:30:10-06:00"
+     "fetched": "2026-11-06T23:30:00-06:00"
     },
     "hope": {
      "games": [
@@ -3568,9 +3516,7 @@
        "pa": null,
        "status": "",
        "links": {
-        "video": "https://youtube.com/hopeathletics",
-        "live_stats": "https://athletics.hope.edu/sidearmstats/mbball/summary",
-        "tickets": "http://hopecollege.vbotickets.com/event/mens_basketball_vs_anderson/202643"
+        "boxscore": "https://athletics.hope.edu/sports/mens-basketball/stats/2026-27/anderson-university-in-/boxscore/18639"
        },
        "live_feed": {
         "type": "sidearm",
@@ -4312,103 +4258,78 @@
       {
        "label": "Points",
        "name": "Brendan Cargill",
-       "jersey": "31",
-       "gp": "28",
-       "total": "359",
-       "avg": "12.8",
-       "line": "12.8 per game, 359 total",
+       "jersey": "2",
+       "gp": "1",
+       "total": "20",
+       "avg": "20.0",
+       "line": "20.0 per game, 20 total",
        "position": "Guard",
-       "year": "Freshman",
-       "headshot": "https://athletics.hope.edu/images/2025/11/7/Cargill_Brendan_dbcm8.JPG?width=200&quality=90"
+       "year": "Sophomore",
+       "headshot": "https://athletics.hope.edu/images/2026/11/3/Cargill_Brendan.jpg?width=200&quality=90"
       },
       {
        "label": "Points",
        "name": "Orion Yant",
-       "jersey": "33",
-       "gp": "27",
-       "total": "265",
-       "avg": "9.8",
-       "line": "9.8 per game, 265 total",
+       "jersey": "13",
+       "gp": "1",
+       "total": "14",
+       "avg": "14.0",
+       "line": "14.0 per game, 14 total",
        "position": "Forward",
-       "year": "Sophomore",
-       "headshot": "https://athletics.hope.edu/images/2025/11/7/Yant_sknr9.JPG?width=200&quality=90"
+       "year": "Junior",
+       "headshot": "https://athletics.hope.edu/images/2026/11/3/Yant_Orion.jpg?width=200&quality=90"
       },
       {
        "label": "Rebounds",
-       "name": "Orion Yant",
-       "jersey": "33",
-       "gp": "27",
-       "total": "136",
-       "avg": "5.0",
-       "line": "5.0 per game, 136 total",
+       "name": "Kyle Blauch",
+       "jersey": "44",
+       "gp": "1",
+       "total": "13",
+       "avg": "13.0",
+       "line": "13.0 per game, 13 total",
        "position": "Forward",
-       "year": "Sophomore",
-       "headshot": "https://athletics.hope.edu/images/2025/11/7/Yant_sknr9.JPG?width=200&quality=90"
+       "year": "Junior",
+       "headshot": "https://athletics.hope.edu/images/2026/11/3/Blauch_Kyle.jpg?width=200&quality=90"
       },
       {
        "label": "Assists",
-       "name": "Avery Sanchez",
-       "jersey": "1",
-       "gp": "28",
-       "total": "41",
-       "avg": "1.5",
-       "line": "1.5 per game, 41 total",
+       "name": "Brendan Cargill",
+       "jersey": "2",
+       "gp": "1",
+       "total": "2",
+       "avg": "2.0",
+       "line": "2.0 per game, 2 total",
        "position": "Guard",
-       "year": "Freshman",
-       "headshot": "https://athletics.hope.edu/images/2025/11/7/Sanchez_283vW.JPG?width=200&quality=90"
+       "year": "Sophomore",
+       "headshot": "https://athletics.hope.edu/images/2026/11/3/Cargill_Brendan.jpg?width=200&quality=90"
       },
       {
        "label": "Steals",
-       "name": "Brendan Cargill",
-       "jersey": "31",
-       "gp": "28",
-       "total": "36",
-       "avg": "1.3",
-       "line": "1.3 per game, 36 total",
+       "name": "Jared Ryg",
+       "jersey": "12",
+       "gp": "1",
+       "total": "2",
+       "avg": "2.0",
+       "line": "2.0 per game, 2 total",
        "position": "Guard",
-       "year": "Freshman",
-       "headshot": "https://athletics.hope.edu/images/2025/11/7/Cargill_Brendan_dbcm8.JPG?width=200&quality=90"
+       "year": "Junior",
+       "headshot": "https://athletics.hope.edu/images/2026/11/3/Ryg_Jared.jpg?width=200&quality=90"
       },
       {
        "label": "Blocks",
-       "name": "Orion Yant",
-       "jersey": "33",
-       "gp": "27",
-       "total": "29",
-       "avg": "1.1",
-       "line": "1.1 per game, 29 total",
-       "position": "Forward",
-       "year": "Sophomore",
-       "headshot": "https://athletics.hope.edu/images/2025/11/7/Yant_sknr9.JPG?width=200&quality=90"
+       "name": "Ben Mehendale",
+       "jersey": "25",
+       "gp": "1",
+       "total": "2",
+       "avg": "2.0",
+       "line": "2.0 per game, 2 total",
+       "position": "Forward/Center",
+       "year": "Freshman",
+       "headshot": "https://athletics.hope.edu/images/2026/11/3/Mehendale_Ben.jpg?width=200&quality=90"
       }
      ],
-     "departed": [
-      {
-       "name": "Parker Hovey",
-       "reason": "transferred",
-       "line": "16.1 points per game",
-       "year": "Junior"
-      },
-      {
-       "name": "Simon Neuhaus",
-       "reason": "not on the 2026-27 roster",
-       "line": "3.0 points per game",
-       "year": "Junior"
-      },
-      {
-       "name": "Brett Bultsma",
-       "reason": "not on the 2026-27 roster",
-       "line": "1.4 points per game",
-       "year": "Junior"
-      },
-      {
-       "name": "Neil Ihme",
-       "reason": "not on the 2026-27 roster",
-       "line": "0.7 points per game",
-       "year": "Junior"
-      }
-     ],
-     "stats_season": "2025-26",
+     "departed": [],
+     "stats_season": "2026-27",
      "played": 0,
      "wins": 0,
      "losses": 0,
@@ -4418,7 +4339,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T19:30:10-06:00"
+     "fetched": "2026-11-06T23:30:00-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5268,7 +5189,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T19:30:10-06:00"
+     "fetched": "2026-11-06T23:30:00-06:00"
     },
     "olivet": {
      "games": [
@@ -6104,7 +6025,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T19:30:10-06:00"
+     "fetched": "2026-11-06T23:30:00-06:00"
     },
     "trine": {
      "games": [
@@ -6124,30 +6045,28 @@
        "conference": false,
        "location": "Cleveland, OH",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "L",
+       "pf": 70,
+       "pa": 73,
        "status": "",
        "links": {
-        "live_stats": "https://athletics.case.edu/sidearmstats/mbball"
+        "boxscore": "https://trinethunder.com/sports/mens-basketball/stats/2026-27/oswego-state/boxscore/8528",
+        "recap": "https://trinethunder.com/news/2026/11/6/mens-basketball-bounced-in-opener.aspx"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/case/mbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "trine-mbb-8529",
        "exhibition": false,
-       "date": "2026-11-07T19:00:00Z",
+       "date": "2026-11-07T17:00:00Z",
        "time_tbd": false,
        "home": false,
        "neutral": true,
        "opponent": {
-        "name": "Case Western Reserve or Kenyon",
-        "short": "Case Western Reserve or Kenyon",
-        "logo": null,
+        "name": "Kenyon",
+        "short": "Kenyon",
+        "logo": "https://trinethunder.com/images/logos/Kenyon_Owl_Purple_Gray_200x200.png?width=80&height=80&mode=max",
         "slug": null
        },
        "conference": false,
@@ -6877,118 +6796,81 @@
        "label": "Points",
        "name": "Cade Brenner",
        "jersey": "3",
-       "gp": "28",
-       "total": "286",
-       "avg": "10.2",
-       "line": "10.2 per game, 286 total",
+       "gp": "1",
+       "total": "18",
+       "avg": "18.0",
+       "line": "18.0 per game, 18 total",
        "position": "G",
-       "year": "Sophomore",
-       "headshot": "https://trinethunder.com/images/2025/10/15/Brenner__Cade.jpg?width=200&quality=90"
-      },
-      {
-       "label": "Points",
-       "name": "Elias Lewis",
-       "jersey": "4",
-       "gp": "28",
-       "total": "226",
-       "avg": "8.1",
-       "line": "8.1 per game, 226 total",
-       "position": "F",
-       "year": "Freshman",
-       "headshot": "https://trinethunder.com/images/2025/10/15/Lewis__Elias.jpg?width=200&quality=90"
-      },
-      {
-       "label": "Rebounds",
-       "name": "Cade Brenner",
-       "jersey": "3",
-       "gp": "28",
-       "total": "153",
-       "avg": "5.5",
-       "line": "5.5 per game, 153 total",
-       "position": "G",
-       "year": "Sophomore",
-       "headshot": "https://trinethunder.com/images/2025/10/15/Brenner__Cade.jpg?width=200&quality=90"
-      },
-      {
-       "label": "Assists",
-       "name": "Cade Brenner",
-       "jersey": "3",
-       "gp": "28",
-       "total": "46",
-       "avg": "1.6",
-       "line": "1.6 per game, 46 total",
-       "position": "G",
-       "year": "Sophomore",
-       "headshot": "https://trinethunder.com/images/2025/10/15/Brenner__Cade.jpg?width=200&quality=90"
-      },
-      {
-       "label": "Steals",
-       "name": "Cade Brenner",
-       "jersey": "3",
-       "gp": "28",
-       "total": "36",
-       "avg": "1.3",
-       "line": "1.3 per game, 36 total",
-       "position": "G",
-       "year": "Sophomore",
-       "headshot": "https://trinethunder.com/images/2025/10/15/Brenner__Cade.jpg?width=200&quality=90"
-      },
-      {
-       "label": "Blocks",
-       "name": "Elias Lewis",
-       "jersey": "4",
-       "gp": "28",
-       "total": "15",
-       "avg": "0.5",
-       "line": "0.5 per game, 15 total",
-       "position": "F",
-       "year": "Freshman",
-       "headshot": "https://trinethunder.com/images/2025/10/15/Lewis__Elias.jpg?width=200&quality=90"
-      }
-     ],
-     "departed": [
-      {
-       "name": "Eddie Millington",
-       "reason": "not on the 2026-27 roster",
-       "line": "1.4 points per game",
        "year": "Junior"
       },
       {
-       "name": "Isaiah Hamlet",
-       "reason": "not on the 2026-27 roster",
-       "line": "0.4 points per game",
-       "year": null
+       "label": "Points",
+       "name": "Elisha Jones",
+       "jersey": "2",
+       "gp": "1",
+       "total": "10",
+       "avg": "10.0",
+       "line": "10.0 per game, 10 total",
+       "position": "PG",
+       "year": "Junior"
       },
       {
-       "name": "Michael Roberson",
-       "reason": "not on the 2026-27 roster",
-       "line": "0.3 points per game",
+       "label": "Rebounds",
+       "name": "Drake Ahrens",
+       "jersey": "14",
+       "gp": "1",
+       "total": "6",
+       "avg": "6.0",
+       "line": "6.0 per game, 6 total",
+       "position": "G",
        "year": "Freshman"
       },
       {
-       "name": "Braeden Totton",
-       "reason": "not on the 2026-27 roster",
-       "line": "0.3 points per game",
+       "label": "Assists",
+       "name": "Drake Ahrens",
+       "jersey": "14",
+       "gp": "1",
+       "total": "5",
+       "avg": "5.0",
+       "line": "5.0 per game, 5 total",
+       "position": "G",
        "year": "Freshman"
       },
       {
-       "name": "Ty Maul",
-       "reason": "not on the 2026-27 roster",
-       "line": "0.4 rebounds per game",
-       "year": "Freshman"
+       "label": "Steals",
+       "name": "Jess Roller",
+       "jersey": "24",
+       "gp": "1",
+       "total": "2",
+       "avg": "2.0",
+       "line": "2.0 per game, 2 total",
+       "position": "G",
+       "year": "Junior"
+      },
+      {
+       "label": "Blocks",
+       "name": "Cade Brenner",
+       "jersey": "3",
+       "gp": "1",
+       "total": "1",
+       "avg": "1.0",
+       "line": "1.0 per game, 1 total",
+       "position": "G",
+       "year": "Junior"
       }
      ],
-     "stats_season": "2025-26",
-     "played": 0,
+     "departed": [],
+     "stats_season": "2026-27",
+     "played": 1,
      "wins": 0,
-     "losses": 0,
+     "losses": 1,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 0,
-     "pa": 0,
-     "record": "0-0",
+     "pf": 70,
+     "pa": 73,
+     "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T19:30:10-06:00"
+     "fetched": "2026-11-06T23:30:00-06:00"
     }
    },
    "poll": {
@@ -8601,7 +8483,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T19:30:10-06:00"
+     "fetched": "2026-11-06T23:30:00-06:00"
     },
     "albion": {
      "games": [
@@ -9413,7 +9295,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T19:30:10-06:00"
+     "fetched": "2026-11-06T23:30:00-06:00"
     },
     "alma": {
      "games": [
@@ -9433,20 +9315,16 @@
        "conference": false,
        "location": "Westerville, Ohio, Rike Center",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "L",
+       "pf": 43,
+       "pa": 80,
        "status": "",
        "links": {
-        "video": "https://www.flocollege.com/live/284540",
-        "live_stats": "https://otterbeincardinals.com/sidearmstats/wbball/",
-        "tickets": "https://otterbeincardinals.com/sports/2021/3/23/online-ticketing.aspx"
+        "boxscore": "https://almascots.com/sports/womens-basketball/stats/2026-27/otterbein/boxscore/14507",
+        "recap": "https://almascots.com/news/2026/11/6/womens-basketball-second-half-surge-lifts-15-otterbein-past-scots.aspx"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/otterbein/wbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "alma-wbb-14508",
@@ -10176,96 +10054,89 @@
      "players": [
       {
        "label": "Points",
-       "name": "Cadence Kaminske",
-       "jersey": "11",
-       "gp": "26",
-       "total": "351",
-       "avg": "13.5",
-       "line": "13.5 per game, 351 total",
-       "position": "G",
-       "year": "Junior",
-       "headshot": "https://almascots.com/images/2025/12/17/IMG_1009.JPG?width=200&quality=90"
+       "name": "Makayla Porter",
+       "jersey": "21",
+       "gp": "1",
+       "total": "8",
+       "avg": "8.0",
+       "line": "8.0 per game, 8 total",
+       "position": "Forward",
+       "year": "Redshirt Sophomore",
+       "headshot": "https://almascots.com/images/2026/10/30/Porter_Makayla2026.jpg?width=200&quality=90"
       },
       {
        "label": "Points",
-       "name": "Kate Starkey",
-       "jersey": "0",
-       "gp": "26",
-       "total": "338",
-       "avg": "13.0",
-       "line": "13.0 per game, 338 total",
-       "position": "G",
-       "year": "Freshman",
-       "headshot": "https://almascots.com/images/2025/12/16/IMG_0984.JPG?width=200&quality=90"
+       "name": "Delaney Seaman",
+       "jersey": "20",
+       "gp": "1",
+       "total": "7",
+       "avg": "7.0",
+       "line": "7.0 per game, 7 total",
+       "position": "Guard",
+       "year": "Junior",
+       "headshot": "https://almascots.com/images/2026/10/30/Seaman_Delaney2026.jpg?width=200&quality=90"
       },
       {
        "label": "Rebounds",
-       "name": "Molly Deurloo",
-       "jersey": "12",
-       "gp": "26",
-       "total": "151",
-       "avg": "5.8",
-       "line": "5.8 per game, 151 total",
-       "position": "G",
+       "name": "Delaney Seaman",
+       "jersey": "20",
+       "gp": "1",
+       "total": "3",
+       "avg": "3.0",
+       "line": "3.0 per game, 3 total",
+       "position": "Guard",
        "year": "Junior",
-       "headshot": "https://almascots.com/images/2025/12/16/IMG_1000.JPG?width=200&quality=90"
+       "headshot": "https://almascots.com/images/2026/10/30/Seaman_Delaney2026.jpg?width=200&quality=90"
       },
       {
        "label": "Assists",
-       "name": "Kate Starkey",
-       "jersey": "0",
-       "gp": "26",
-       "total": "73",
-       "avg": "2.8",
-       "line": "2.8 per game, 73 total",
-       "position": "G",
-       "year": "Freshman",
-       "headshot": "https://almascots.com/images/2025/12/16/IMG_0984.JPG?width=200&quality=90"
+       "name": "Delaney Seaman",
+       "jersey": "20",
+       "gp": "1",
+       "total": "2",
+       "avg": "2.0",
+       "line": "2.0 per game, 2 total",
+       "position": "Guard",
+       "year": "Junior",
+       "headshot": "https://almascots.com/images/2026/10/30/Seaman_Delaney2026.jpg?width=200&quality=90"
       },
       {
        "label": "Steals",
-       "name": "Reese Wisniewski",
-       "jersey": "2",
-       "gp": "26",
-       "total": "25",
+       "name": "Makayla Porter",
+       "jersey": "21",
+       "gp": "1",
+       "total": "1",
        "avg": "1.0",
-       "line": "1.0 per game, 25 total",
-       "position": "G",
-       "year": "Sophomore",
-       "headshot": "https://almascots.com/images/2025/12/16/IMG_0996.JPG?width=200&quality=90"
+       "line": "1.0 per game, 1 total",
+       "position": "Forward",
+       "year": "Redshirt Sophomore",
+       "headshot": "https://almascots.com/images/2026/10/30/Porter_Makayla2026.jpg?width=200&quality=90"
       },
       {
        "label": "Blocks",
-       "name": "Mady Weber",
-       "jersey": "22",
-       "gp": "25",
-       "total": "6",
-       "avg": "0.2",
-       "line": "0.2 per game, 6 total",
-       "position": "F",
+       "name": "Reese Wisniewski",
+       "jersey": "2",
+       "gp": "1",
+       "total": "1",
+       "avg": "1.0",
+       "line": "1.0 per game, 1 total",
+       "position": "Guard",
        "year": "Junior",
-       "headshot": "https://almascots.com/images/2025/12/16/IMG_1003.JPG?width=200&quality=90"
+       "headshot": "https://almascots.com/images/2026/10/30/Wisniewski_Reese2026.jpg?width=200&quality=90"
       }
      ],
-     "departed": [
-      {
-       "name": "Aubri Torok",
-       "reason": "not on the 2026-27 roster",
-       "line": "0.1 points per game",
-       "year": "Freshman"
-      }
-     ],
-     "stats_season": "2025-26",
-     "played": 0,
+     "departed": [],
+     "stats_season": "2026-27",
+     "played": 1,
      "wins": 0,
-     "losses": 0,
+     "losses": 1,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 0,
-     "pa": 0,
-     "record": "0-0",
+     "pf": 43,
+     "pa": 80,
+     "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T19:30:10-06:00"
+     "fetched": "2026-11-06T23:30:00-06:00"
     },
     "calvin": {
      "games": [
@@ -10291,7 +10162,8 @@
        "pa": 61,
        "status": "",
        "links": {
-        "boxscore": "https://calvinknights.com/sports/womens-basketball/stats/2026-27/university-of-mount-union/boxscore/9234"
+        "boxscore": "https://calvinknights.com/sports/womens-basketball/stats/2026-27/university-of-mount-union/boxscore/9234",
+        "recap": "https://calvinknights.com/news/2026/11/6/calvin-womens-basketball-drops-season-opener-to-mount-union.aspx"
        },
        "live_feed": null
       },
@@ -11047,7 +10919,7 @@
      "pa": 61,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T19:30:10-06:00"
+     "fetched": "2026-11-06T23:30:00-06:00"
     },
     "hope": {
      "games": [
@@ -11073,9 +10945,8 @@
        "pa": null,
        "status": "",
        "links": {
-        "video": "https://youtube.com/hopeathletics",
-        "live_stats": "https://athletics.hope.edu/sidearmstats/wbball/summary",
-        "tickets": "http://hopecollege.vbotickets.com/event/womens_basketball_michele_schoon_classic_friday/202649"
+        "recap": "https://athletics.hope.edu/news/2026/11/6/womens-basketball-continues-winning-ways-in-season-openers.aspx",
+        "boxscore": "https://athletics.hope.edu/sports/womens-basketball/stats/2026-27/university-of-wisconsin-platteville/boxscore/18665"
        },
        "live_feed": {
         "type": "sidearm",
@@ -11090,9 +10961,9 @@
        "home": true,
        "neutral": false,
        "opponent": {
-        "name": "Illinois Wesleyan or Ohio Wesleyan",
-        "short": "Illinois Wesleyan or Ohio Wesleyan",
-        "logo": "https://athletics.hope.edu/images/logos/NCAALogoUpdated.png?width=80&height=80&mode=max",
+        "name": "Illinois Wesleyan University",
+        "short": "Illinois Wesleyan",
+        "logo": "https://athletics.hope.edu/images/logos/IWU_HEAD_FC (1).png?width=80&height=80&mode=max",
         "slug": null
        },
        "conference": false,
@@ -11806,92 +11677,79 @@
      "players": [
       {
        "label": "Points",
-       "name": "Anna Richards",
-       "jersey": "10",
-       "gp": "30",
-       "total": "368",
-       "avg": "12.3",
-       "line": "12.3 per game, 368 total",
+       "name": "Josie DeSmit",
+       "jersey": "11",
+       "gp": "1",
+       "total": "15",
+       "avg": "15.0",
+       "line": "15.0 per game, 15 total",
        "position": "Guard",
        "year": "Sophomore",
-       "headshot": "https://athletics.hope.edu/images/2025/11/7/Richards_Anna_HhD7V.JPG?width=200&quality=90"
+       "headshot": "https://athletics.hope.edu/images/2026/11/3/DeSmit_Josie.jpg?width=200&quality=90"
       },
       {
        "label": "Points",
-       "name": "Maddie Petroelje",
-       "jersey": "34",
-       "gp": "30",
-       "total": "361",
-       "avg": "12.0",
-       "line": "12.0 per game, 361 total",
-       "position": "Guard/Forward",
-       "year": "Sophomore",
-       "headshot": "https://athletics.hope.edu/images/2025/11/7/Petroelje_Maddie_B6WOP.JPG?width=200&quality=90"
+       "name": "Leah Richards",
+       "jersey": "20",
+       "gp": "1",
+       "total": "15",
+       "avg": "15.0",
+       "line": "15.0 per game, 15 total",
+       "position": "Forward/Center",
+       "year": "Junior",
+       "headshot": "https://athletics.hope.edu/images/2026/11/3/Richards_Leah.jpg?width=200&quality=90"
       },
       {
        "label": "Rebounds",
        "name": "Leah Richards",
        "jersey": "20",
-       "gp": "30",
-       "total": "216",
-       "avg": "7.2",
-       "line": "7.2 per game, 216 total",
+       "gp": "1",
+       "total": "8",
+       "avg": "8.0",
+       "line": "8.0 per game, 8 total",
        "position": "Forward/Center",
-       "year": "Sophomore",
-       "headshot": "https://athletics.hope.edu/images/2025/11/7/Richards_Leah_NLJ8H.JPG?width=200&quality=90"
+       "year": "Junior",
+       "headshot": "https://athletics.hope.edu/images/2026/11/3/Richards_Leah.jpg?width=200&quality=90"
       },
       {
        "label": "Assists",
-       "name": "Terin Maynard",
-       "jersey": "22",
-       "gp": "30",
-       "total": "71",
-       "avg": "2.4",
-       "line": "2.4 per game, 71 total",
-       "position": "Guard",
+       "name": "Maddie Petroelje",
+       "jersey": "34",
+       "gp": "1",
+       "total": "2",
+       "avg": "2.0",
+       "line": "2.0 per game, 2 total",
+       "position": "Guard/Forward",
        "year": "Junior",
-       "headshot": "https://athletics.hope.edu/images/2025/11/7/Maynard_jiwGt.JPG?width=200&quality=90"
+       "headshot": "https://athletics.hope.edu/images/2026/11/3/Petroelje_Maddie.jpg?width=200&quality=90"
       },
       {
        "label": "Steals",
-       "name": "Leah Richards",
-       "jersey": "20",
-       "gp": "30",
-       "total": "51",
-       "avg": "1.7",
-       "line": "1.7 per game, 51 total",
-       "position": "Forward/Center",
+       "name": "Josie DeSmit",
+       "jersey": "11",
+       "gp": "1",
+       "total": "3",
+       "avg": "3.0",
+       "line": "3.0 per game, 3 total",
+       "position": "Guard",
        "year": "Sophomore",
-       "headshot": "https://athletics.hope.edu/images/2025/11/7/Richards_Leah_NLJ8H.JPG?width=200&quality=90"
+       "headshot": "https://athletics.hope.edu/images/2026/11/3/DeSmit_Josie.jpg?width=200&quality=90"
       },
       {
        "label": "Blocks",
        "name": "Maddie Petroelje",
        "jersey": "34",
-       "gp": "30",
-       "total": "21",
-       "avg": "0.7",
-       "line": "0.7 per game, 21 total",
+       "gp": "1",
+       "total": "1",
+       "avg": "1.0",
+       "line": "1.0 per game, 1 total",
        "position": "Guard/Forward",
-       "year": "Sophomore",
-       "headshot": "https://athletics.hope.edu/images/2025/11/7/Petroelje_Maddie_B6WOP.JPG?width=200&quality=90"
+       "year": "Junior",
+       "headshot": "https://athletics.hope.edu/images/2026/11/3/Petroelje_Maddie.jpg?width=200&quality=90"
       }
      ],
-     "departed": [
-      {
-       "name": "Morgan Miller",
-       "reason": "not on the 2026-27 roster",
-       "line": "1.4 points per game",
-       "year": "Junior"
-      },
-      {
-       "name": "Sarah Laprairie",
-       "reason": "not on the 2026-27 roster",
-       "line": "1.0 points per game",
-       "year": null
-      }
-     ],
-     "stats_season": "2025-26",
+     "departed": [],
+     "stats_season": "2026-27",
      "played": 0,
      "wins": 0,
      "losses": 0,
@@ -11901,7 +11759,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T19:30:10-06:00"
+     "fetched": "2026-11-06T23:30:00-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12736,7 +12594,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T19:30:10-06:00"
+     "fetched": "2026-11-06T23:30:00-06:00"
     },
     "olivet": {
      "games": [
@@ -13550,7 +13408,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T19:30:10-06:00"
+     "fetched": "2026-11-06T23:30:00-06:00"
     },
     "saintmarys": {
      "games": [
@@ -13624,19 +13482,16 @@
        "conference": false,
        "location": "Angela Athletic & Wellness Complex",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "W",
+       "pf": 85,
+       "pa": 76,
        "status": "",
        "links": {
-        "video": "https://www.miaasportsnetwork.com/smcbelles/",
-        "live_stats": "https://belles.saintmarys.edu/sidearmstats/wbball/summary"
+        "boxscore": "https://belles.saintmarys.edu/sports/womens-basketball/stats/2026-27/north-central/boxscore/2442",
+        "recap": "https://belles.saintmarys.edu/news/2026/11/6/basketball-belles-take-down-cardinals-in-thrilling-season-opener.aspx"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/smcind/wbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "saintmarys-wbb-2443",
@@ -14314,102 +14169,89 @@
      "players": [
       {
        "label": "Points",
-       "name": "Kate Restovich",
-       "jersey": "2",
-       "gp": "25",
-       "total": "275",
-       "avg": "11.0",
-       "line": "11.0 per game, 275 total",
-       "position": "G",
+       "name": "Ella Andree",
+       "jersey": "21",
+       "gp": "1",
+       "total": "17",
+       "avg": "17.0",
+       "line": "17.0 per game, 17 total",
+       "position": "Guard",
        "year": "Junior",
-       "headshot": "https://belles.saintmarys.edu/images/2025/10/24/Restovich_Kate.png?width=200&quality=90"
+       "headshot": "https://belles.saintmarys.edu/images/2026/10/26/Andree_1866.png?width=200&quality=90"
       },
       {
        "label": "Points",
        "name": "Ella Notaro",
        "jersey": "11",
-       "gp": "23",
-       "total": "224",
-       "avg": "9.7",
-       "line": "9.7 per game, 224 total",
+       "gp": "1",
+       "total": "11",
+       "avg": "11.0",
+       "line": "11.0 per game, 11 total",
        "position": "G",
-       "year": "Sophomore",
-       "headshot": "https://belles.saintmarys.edu/images/2025/10/24/Notaro_Ella.png?width=200&quality=90"
+       "year": "Junior",
+       "headshot": "https://belles.saintmarys.edu/images/2026/10/26/Notaro_1895.png?width=200&quality=90"
       },
       {
        "label": "Rebounds",
-       "name": "Liv Fry",
-       "jersey": "4",
-       "gp": "25",
-       "total": "118",
-       "avg": "4.7",
-       "line": "4.7 per game, 118 total",
-       "position": "Guard",
+       "name": "MacKenzi Duthie",
+       "jersey": "32",
+       "gp": "1",
+       "total": "7",
+       "avg": "7.0",
+       "line": "7.0 per game, 7 total",
+       "position": "Forward",
        "year": "Freshman",
-       "headshot": "https://belles.saintmarys.edu/images/2025/10/24/Fry_Liv.png?width=200&quality=90"
+       "headshot": "https://belles.saintmarys.edu/images/2026/10/26/Duthie_2000.png?width=200&quality=90"
       },
       {
        "label": "Assists",
        "name": "Liv Fry",
        "jersey": "4",
-       "gp": "25",
-       "total": "86",
-       "avg": "3.4",
-       "line": "3.4 per game, 86 total",
+       "gp": "1",
+       "total": "6",
+       "avg": "6.0",
+       "line": "6.0 per game, 6 total",
        "position": "Guard",
-       "year": "Freshman",
-       "headshot": "https://belles.saintmarys.edu/images/2025/10/24/Fry_Liv.png?width=200&quality=90"
+       "year": "Sophomore",
+       "headshot": "https://belles.saintmarys.edu/images/2026/10/26/Fry_1904.png?width=200&quality=90"
       },
       {
        "label": "Steals",
-       "name": "Ella Notaro",
-       "jersey": "11",
-       "gp": "23",
-       "total": "39",
-       "avg": "1.7",
-       "line": "1.7 per game, 39 total",
-       "position": "G",
-       "year": "Sophomore",
-       "headshot": "https://belles.saintmarys.edu/images/2025/10/24/Notaro_Ella.png?width=200&quality=90"
+       "name": "MacKenzi Duthie",
+       "jersey": "32",
+       "gp": "1",
+       "total": "3",
+       "avg": "3.0",
+       "line": "3.0 per game, 3 total",
+       "position": "Forward",
+       "year": "Freshman",
+       "headshot": "https://belles.saintmarys.edu/images/2026/10/26/Duthie_2000.png?width=200&quality=90"
       },
       {
        "label": "Blocks",
        "name": "Kate Passinault",
        "jersey": "5",
-       "gp": "24",
-       "total": "18",
-       "avg": "0.8",
-       "line": "0.8 per game, 18 total",
+       "gp": "1",
+       "total": "1",
+       "avg": "1.0",
+       "line": "1.0 per game, 1 total",
        "position": "G",
-       "year": "Sophomore",
-       "headshot": "https://belles.saintmarys.edu/images/2025/10/24/Passinault_Kate.png?width=200&quality=90"
+       "year": "Junior",
+       "headshot": "https://belles.saintmarys.edu/images/2026/10/26/Passinault_1886.png?width=200&quality=90"
       }
      ],
-     "departed": [
-      {
-       "name": "Gabby Webb",
-       "reason": "not on the 2026-27 roster",
-       "line": "0.9 points per game",
-       "year": "Freshman"
-      },
-      {
-       "name": "Cara Kucharski",
-       "reason": "not on the 2026-27 roster",
-       "line": "0.3 rebounds per game",
-       "year": "Freshman"
-      }
-     ],
-     "stats_season": "2025-26",
-     "played": 0,
-     "wins": 0,
+     "departed": [],
+     "stats_season": "2026-27",
+     "played": 1,
+     "wins": 1,
      "losses": 0,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 0,
-     "pa": 0,
-     "record": "0-0",
+     "pf": 85,
+     "pa": 76,
+     "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T19:30:10-06:00"
+     "fetched": "2026-11-06T23:30:00-06:00"
     },
     "trine": {
      "games": [
@@ -15271,7 +15113,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T19:30:10-06:00"
+     "fetched": "2026-11-06T23:30:00-06:00"
     }
    },
    "poll": {
@@ -16069,7 +15911,7 @@
   "d3hoops wbb: poll table not found"
  ],
  "stale": {
-  "olivet-mbb-schedule": "2026-11-06T18:03:24-06:00",
-  "olivet-wbb-schedule": "2026-11-06T18:03:24-06:00"
+  "olivet-mbb-schedule": "2026-11-06T19:30:10-06:00",
+  "olivet-wbb-schedule": "2026-11-06T19:30:10-06:00"
  }
 }
