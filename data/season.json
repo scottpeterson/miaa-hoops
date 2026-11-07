@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-06T18:03:24-06:00",
+ "fetched_at": "2026-11-06T19:30:10-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -954,7 +954,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T18:03:24-06:00"
+     "fetched": "2026-11-06T19:30:10-06:00"
     },
     "albion": {
      "games": [
@@ -1774,7 +1774,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T18:03:24-06:00"
+     "fetched": "2026-11-06T19:30:10-06:00"
     },
     "alma": {
      "games": [
@@ -2692,7 +2692,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T18:03:24-06:00"
+     "fetched": "2026-11-06T19:30:10-06:00"
     },
     "calvin": {
      "games": [
@@ -3542,7 +3542,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T18:03:24-06:00"
+     "fetched": "2026-11-06T19:30:10-06:00"
     },
     "hope": {
      "games": [
@@ -4418,7 +4418,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T18:03:24-06:00"
+     "fetched": "2026-11-06T19:30:10-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5268,7 +5268,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T18:03:24-06:00"
+     "fetched": "2026-11-06T19:30:10-06:00"
     },
     "olivet": {
      "games": [
@@ -6104,7 +6104,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T18:03:24-06:00"
+     "fetched": "2026-11-06T19:30:10-06:00"
     },
     "trine": {
      "games": [
@@ -6988,7 +6988,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T18:03:24-06:00"
+     "fetched": "2026-11-06T19:30:10-06:00"
     }
    },
    "poll": {
@@ -7238,49 +7238,55 @@
     "source": "D3 Datacast",
     "url": "https://d3datacast.com/npi/mbb/",
     "eff_url": "https://d3datacast.com/efficiency-ratings/",
-    "updated": "11/6/26 11:57 AM",
-    "eff_updated": "11/6/2026 11:58 AM",
-    "count": 2,
+    "updated": "11/6/26 7:03 PM",
+    "eff_updated": "11/6/2026 7:03 PM",
+    "count": 20,
     "teams": {
+     "trine": {
+      "rank": 6,
+      "record": "1-0",
+      "npi": "57.143",
+      "bid": "At-Lg",
+      "at_large_rank": "6",
+      "seed": "6",
+      "eff_rank": 47,
+      "adj_em": "+12.2",
+      "eff_updated": "11/6/2026 7:03 PM"
+     },
      "adrian": {
-      "eff_rank": 347,
+      "eff_rank": 346,
       "adj_em": "-10.3",
-      "eff_updated": "11/6/2026 11:58 AM"
+      "eff_updated": "11/6/2026 7:03 PM"
      },
      "albion": {
       "eff_rank": 222,
       "adj_em": "-1.1",
-      "eff_updated": "11/6/2026 11:58 AM"
+      "eff_updated": "11/6/2026 7:03 PM"
      },
      "alma": {
       "eff_rank": 376,
       "adj_em": "-14.6",
-      "eff_updated": "11/6/2026 11:58 AM"
+      "eff_updated": "11/6/2026 7:03 PM"
      },
      "calvin": {
       "eff_rank": 27,
       "adj_em": "+14.6",
-      "eff_updated": "11/6/2026 11:58 AM"
+      "eff_updated": "11/6/2026 7:03 PM"
      },
      "hope": {
       "eff_rank": 86,
       "adj_em": "+8.1",
-      "eff_updated": "11/6/2026 11:58 AM"
+      "eff_updated": "11/6/2026 7:03 PM"
      },
      "kalamazoo": {
       "eff_rank": 374,
       "adj_em": "-14.4",
-      "eff_updated": "11/6/2026 11:58 AM"
+      "eff_updated": "11/6/2026 7:03 PM"
      },
      "olivet": {
-      "eff_rank": 160,
+      "eff_rank": 159,
       "adj_em": "+3.0",
-      "eff_updated": "11/6/2026 11:58 AM"
-     },
-     "trine": {
-      "eff_rank": 47,
-      "adj_em": "+12.2",
-      "eff_updated": "11/6/2026 11:58 AM"
+      "eff_updated": "11/6/2026 7:03 PM"
      }
     },
     "d3_teams": [
@@ -8595,7 +8601,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T18:03:24-06:00"
+     "fetched": "2026-11-06T19:30:10-06:00"
     },
     "albion": {
      "games": [
@@ -9407,7 +9413,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T18:03:24-06:00"
+     "fetched": "2026-11-06T19:30:10-06:00"
     },
     "alma": {
      "games": [
@@ -10259,7 +10265,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T18:03:24-06:00"
+     "fetched": "2026-11-06T19:30:10-06:00"
     },
     "calvin": {
      "games": [
@@ -10279,19 +10285,15 @@
        "conference": false,
        "location": "University Heights, Ohio",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "L",
+       "pf": 55,
+       "pa": 61,
        "status": "",
        "links": {
-        "video": "https://jcusports.com/sports/2025/8/27/live.aspx",
-        "live_stats": "https://jcusports.com/sidearmstats/wbball/summary"
+        "boxscore": "https://calvinknights.com/sports/womens-basketball/stats/2026-27/university-of-mount-union/boxscore/9234"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/jcu/wbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "calvin-wbb-9235",
@@ -10963,102 +10965,89 @@
      "players": [
       {
        "label": "Points",
-       "name": "RyAnn Rohrer",
-       "jersey": "34",
-       "gp": "27",
-       "total": "330",
-       "avg": "12.2",
-       "line": "12.2 per game, 330 total",
-       "position": "Forward",
-       "year": "Junior",
-       "headshot": "https://calvinknights.com/images/2025/10/28/Rohrer__RyAnn.png?width=200&quality=90"
+       "name": "Lily Nitz",
+       "jersey": "10",
+       "gp": "1",
+       "total": "11",
+       "avg": "11.0",
+       "line": "11.0 per game, 11 total",
+       "position": "W",
+       "year": "Sophomore",
+       "headshot": "https://calvinknights.com/images/2026/10/27/Nitz__Lily.png?width=200&quality=90"
       },
       {
        "label": "Points",
-       "name": "Katelyn LaRue",
-       "jersey": "23",
-       "gp": "27",
-       "total": "250",
-       "avg": "9.3",
-       "line": "9.3 per game, 250 total",
+       "name": "Izzy Wotlinski",
+       "jersey": "22",
+       "gp": "1",
+       "total": "10",
+       "avg": "10.0",
+       "line": "10.0 per game, 10 total",
        "position": "G",
-       "year": "Junior",
-       "headshot": "https://calvinknights.com/images/2025/10/28/LaRue__Katelyn.png?width=200&quality=90"
+       "year": "Freshman",
+       "headshot": "https://calvinknights.com/images/2026/10/27/Wotlinski__Izzy.png?width=200&quality=90"
       },
       {
        "label": "Rebounds",
-       "name": "RyAnn Rohrer",
-       "jersey": "34",
-       "gp": "27",
-       "total": "213",
-       "avg": "7.9",
-       "line": "7.9 per game, 213 total",
-       "position": "Forward",
-       "year": "Junior",
-       "headshot": "https://calvinknights.com/images/2025/10/28/Rohrer__RyAnn.png?width=200&quality=90"
+       "name": "Lily Nitz",
+       "jersey": "10",
+       "gp": "1",
+       "total": "6",
+       "avg": "6.0",
+       "line": "6.0 per game, 6 total",
+       "position": "W",
+       "year": "Sophomore",
+       "headshot": "https://calvinknights.com/images/2026/10/27/Nitz__Lily.png?width=200&quality=90"
       },
       {
        "label": "Assists",
-       "name": "Chloe Wiegers",
-       "jersey": "12",
-       "gp": "26",
-       "total": "80",
-       "avg": "3.1",
-       "line": "3.1 per game, 80 total",
+       "name": "Izzy Wotlinski",
+       "jersey": "22",
+       "gp": "1",
+       "total": "2",
+       "avg": "2.0",
+       "line": "2.0 per game, 2 total",
        "position": "G",
-       "year": "Junior",
-       "headshot": "https://calvinknights.com/images/2025/10/28/Wiegers__Chloe.png?width=200&quality=90"
+       "year": "Freshman",
+       "headshot": "https://calvinknights.com/images/2026/10/27/Wotlinski__Izzy.png?width=200&quality=90"
       },
       {
        "label": "Steals",
-       "name": "RyAnn Rohrer",
-       "jersey": "34",
-       "gp": "27",
-       "total": "53",
-       "avg": "2.0",
-       "line": "2.0 per game, 53 total",
-       "position": "Forward",
-       "year": "Junior",
-       "headshot": "https://calvinknights.com/images/2025/10/28/Rohrer__RyAnn.png?width=200&quality=90"
+       "name": "Leigh Wyman",
+       "jersey": "3",
+       "gp": "1",
+       "total": "4",
+       "avg": "4.0",
+       "line": "4.0 per game, 4 total",
+       "position": "G",
+       "year": "Freshman",
+       "headshot": "https://calvinknights.com/images/2026/10/27/Wyman__Leigh.png?width=200&quality=90"
       },
       {
        "label": "Blocks",
-       "name": "Lydia Sall",
-       "jersey": "25",
-       "gp": "24",
-       "total": "47",
-       "avg": "2.0",
-       "line": "2.0 per game, 47 total",
-       "position": "F",
-       "year": "Junior",
-       "headshot": "https://calvinknights.com/images/2025/10/28/Sall__Lydia.png?width=200&quality=90"
+       "name": "Lily Nitz",
+       "jersey": "10",
+       "gp": "1",
+       "total": "1",
+       "avg": "1.0",
+       "line": "1.0 per game, 1 total",
+       "position": "W",
+       "year": "Sophomore",
+       "headshot": "https://calvinknights.com/images/2026/10/27/Nitz__Lily.png?width=200&quality=90"
       }
      ],
-     "departed": [
-      {
-       "name": "Ashley Raredon",
-       "reason": "not on the 2026-27 roster",
-       "line": "2.2 points per game",
-       "year": "Junior"
-      },
-      {
-       "name": "Makara Obande",
-       "reason": "not on the 2026-27 roster",
-       "line": "1.9 points per game",
-       "year": "Freshman"
-      }
-     ],
-     "stats_season": "2025-26",
-     "played": 0,
+     "departed": [],
+     "stats_season": "2026-27",
+     "played": 1,
      "wins": 0,
-     "losses": 0,
+     "losses": 1,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 0,
-     "pa": 0,
-     "record": "0-0",
+     "pf": 55,
+     "pa": 61,
+     "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T18:03:24-06:00"
+     "fetched": "2026-11-06T19:30:10-06:00"
     },
     "hope": {
      "games": [
@@ -11912,7 +11901,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T18:03:24-06:00"
+     "fetched": "2026-11-06T19:30:10-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12747,7 +12736,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T18:03:24-06:00"
+     "fetched": "2026-11-06T19:30:10-06:00"
     },
     "olivet": {
      "games": [
@@ -13561,7 +13550,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T18:03:24-06:00"
+     "fetched": "2026-11-06T19:30:10-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14420,7 +14409,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T18:03:24-06:00"
+     "fetched": "2026-11-06T19:30:10-06:00"
     },
     "trine": {
      "games": [
@@ -15282,7 +15271,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T18:03:24-06:00"
+     "fetched": "2026-11-06T19:30:10-06:00"
     }
    },
    "poll": {
@@ -16072,10 +16061,15 @@
   }
  },
  "errors": [
-  "Olivet mbb leaders: HTTP Error 503: Service Unavailable",
+  "Olivet mbb schedule: HTTP Error 405: Not Allowed",
+  "Olivet mbb leaders: HTTP Error 405: Not Allowed",
   "d3hoops mbb: poll table not found",
-  "Olivet wbb leaders: HTTP Error 503: Service Unavailable",
+  "Olivet wbb schedule: HTTP Error 405: Not Allowed",
+  "Olivet wbb leaders: HTTP Error 405: Not Allowed",
   "d3hoops wbb: poll table not found"
  ],
- "stale": {}
+ "stale": {
+  "olivet-mbb-schedule": "2026-11-06T18:03:24-06:00",
+  "olivet-wbb-schedule": "2026-11-06T18:03:24-06:00"
+ }
 }
