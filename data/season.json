@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-06T23:49:30-06:00",
+ "fetched_at": "2026-11-07T05:53:54-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -822,126 +822,65 @@
        "label": "Points",
        "name": "Carson Lutz",
        "jersey": "12",
-       "gp": "24",
-       "total": "256",
-       "avg": "10.7",
-       "line": "10.7 per game, 256 total",
+       "gp": "1",
+       "total": "14",
+       "avg": "14.0",
+       "line": "14.0 per game, 14 total",
        "position": "G",
-       "year": "Freshman",
-       "headshot": "https://adrianbulldogs.com/images/2025/10/24/Carson_Lutz.png?width=200&quality=90"
+       "year": "Sophomore",
+       "headshot": "https://adrianbulldogs.com/images/2026/10/20/Carson_Lutz.jpg?width=200&quality=90"
       },
       {
        "label": "Points",
-       "name": "Luke Rager",
-       "jersey": "1",
-       "gp": "24",
-       "total": "219",
-       "avg": "9.1",
-       "line": "9.1 per game, 219 total",
-       "position": "G",
+       "name": "Isaiah Foster",
+       "jersey": "4",
+       "gp": "1",
+       "total": "10",
+       "avg": "10.0",
+       "line": "10.0 per game, 10 total",
+       "position": "W",
        "year": "Junior",
-       "headshot": "https://adrianbulldogs.com/images/2025/10/24/Luke_Rager.png?width=200&quality=90"
+       "headshot": "https://adrianbulldogs.com/images/2026/10/20/Isaiah_Foster.jpg?width=200&quality=90"
       },
       {
        "label": "Rebounds",
-       "name": "Jeremiah Dallas",
-       "jersey": "5",
-       "gp": "25",
-       "total": "87",
-       "avg": "3.5",
-       "line": "3.5 per game, 87 total",
-       "position": "G",
+       "name": "Noah Adams",
+       "jersey": "14",
+       "gp": "1",
+       "total": "4",
+       "avg": "4.0",
+       "line": "4.0 per game, 4 total",
+       "position": "W",
        "year": "Junior",
-       "headshot": "https://adrianbulldogs.com/images/2025/10/24/Jerimiah_Dallas.png?width=200&quality=90"
+       "headshot": "https://adrianbulldogs.com/images/2026/10/20/Noah_Adams.jpg?width=200&quality=90"
       },
       {
        "label": "Assists",
-       "name": "Luke Rager",
-       "jersey": "1",
-       "gp": "24",
-       "total": "88",
-       "avg": "3.7",
-       "line": "3.7 per game, 88 total",
-       "position": "G",
+       "name": "Isaiah Foster",
+       "jersey": "4",
+       "gp": "1",
+       "total": "4",
+       "avg": "4.0",
+       "line": "4.0 per game, 4 total",
+       "position": "W",
        "year": "Junior",
-       "headshot": "https://adrianbulldogs.com/images/2025/10/24/Luke_Rager.png?width=200&quality=90"
+       "headshot": "https://adrianbulldogs.com/images/2026/10/20/Isaiah_Foster.jpg?width=200&quality=90"
       },
       {
        "label": "Steals",
-       "name": "Jeremiah Dallas",
-       "jersey": "5",
-       "gp": "25",
-       "total": "38",
-       "avg": "1.5",
-       "line": "1.5 per game, 38 total",
-       "position": "G",
-       "year": "Junior",
-       "headshot": "https://adrianbulldogs.com/images/2025/10/24/Jerimiah_Dallas.png?width=200&quality=90"
-      },
-      {
-       "label": "Blocks",
        "name": "Carson Lutz",
        "jersey": "12",
-       "gp": "24",
+       "gp": "1",
        "total": "2",
-       "avg": "0.1",
-       "line": "0.1 per game, 2 total",
+       "avg": "2.0",
+       "line": "2.0 per game, 2 total",
        "position": "G",
-       "year": "Freshman",
-       "headshot": "https://adrianbulldogs.com/images/2025/10/24/Carson_Lutz.png?width=200&quality=90"
+       "year": "Sophomore",
+       "headshot": "https://adrianbulldogs.com/images/2026/10/20/Carson_Lutz.jpg?width=200&quality=90"
       }
      ],
-     "departed": [
-      {
-       "name": "Darrius Welch",
-       "reason": "not on the 2026-27 roster",
-       "line": "15.2 points per game",
-       "year": "Junior"
-      },
-      {
-       "name": "Brendon Schlink",
-       "reason": "not on the 2026-27 roster",
-       "line": "8.5 points per game",
-       "year": "Junior"
-      },
-      {
-       "name": "Dylan Gira",
-       "reason": "not on the 2026-27 roster",
-       "line": "3.8 points per game",
-       "year": "Junior"
-      },
-      {
-       "name": "Austin Burns",
-       "reason": "not on the 2026-27 roster",
-       "line": "3.5 points per game",
-       "year": "Freshman"
-      },
-      {
-       "name": "Noah Vanlaningham",
-       "reason": "not on the 2026-27 roster",
-       "line": "3.3 points per game",
-       "year": "Sophomore"
-      },
-      {
-       "name": "Jacob Rehor",
-       "reason": "not on the 2026-27 roster",
-       "line": "2.3 points per game",
-       "year": "Junior"
-      },
-      {
-       "name": "Kechan Johnson",
-       "reason": "not on the 2026-27 roster",
-       "line": "1.8 points per game",
-       "year": "Junior"
-      },
-      {
-       "name": "Lewis Covile",
-       "reason": "not on the 2026-27 roster",
-       "line": "1.0 rebounds per game",
-       "year": "Junior"
-      }
-     ],
-     "stats_season": "2025-26",
+     "departed": [],
+     "stats_season": "2026-27",
      "played": 1,
      "wins": 0,
      "losses": 1,
@@ -951,7 +890,7 @@
      "pa": 90,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T23:49:30-06:00"
+     "fetched": "2026-11-07T05:53:54-06:00"
     },
     "albion": {
      "games": [
@@ -1771,7 +1710,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T23:49:30-06:00"
+     "fetched": "2026-11-07T05:53:54-06:00"
     },
     "alma": {
      "games": [
@@ -2686,7 +2625,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T23:49:30-06:00"
+     "fetched": "2026-11-07T05:53:54-06:00"
     },
     "calvin": {
      "games": [
@@ -3490,7 +3429,7 @@
      "pa": 88,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T23:49:30-06:00"
+     "fetched": "2026-11-07T05:53:54-06:00"
     },
     "hope": {
      "games": [
@@ -4340,7 +4279,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T23:49:30-06:00"
+     "fetched": "2026-11-07T05:53:54-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5190,7 +5129,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T23:49:30-06:00"
+     "fetched": "2026-11-07T05:53:54-06:00"
     },
     "olivet": {
      "games": [
@@ -6026,7 +5965,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T23:49:30-06:00"
+     "fetched": "2026-11-07T05:53:54-06:00"
     },
     "trine": {
      "games": [
@@ -6871,7 +6810,7 @@
      "pa": 73,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T23:49:30-06:00"
+     "fetched": "2026-11-07T05:53:54-06:00"
     }
    },
    "poll": {
@@ -7121,55 +7060,79 @@
     "source": "D3 Datacast",
     "url": "https://d3datacast.com/npi/mbb/",
     "eff_url": "https://d3datacast.com/efficiency-ratings/",
-    "updated": "11/6/26 7:03 PM",
-    "eff_updated": "11/6/2026 7:03 PM",
-    "count": 20,
+    "updated": "11/7/26 6:47 AM",
+    "eff_updated": "11/7/2026 6:48 AM",
+    "count": 165,
     "teams": {
-     "trine": {
-      "rank": 6,
+     "adrian": {
+      "rank": 116,
+      "record": "0-1",
+      "npi": "42.857",
+      "bid": "At-Lg",
+      "at_large_rank": "116",
+      "seed": "-",
+      "eff_rank": 333,
+      "adj_em": "-9.1",
+      "eff_updated": "11/7/2026 6:48 AM"
+     },
+     "calvin": {
+      "rank": 123,
+      "record": "0-1",
+      "npi": "42.857",
+      "bid": "At-Lg",
+      "at_large_rank": "123",
+      "seed": "-",
+      "eff_rank": 62,
+      "adj_em": "+10.4",
+      "eff_updated": "11/7/2026 6:48 AM"
+     },
+     "hope": {
+      "rank": 40,
       "record": "1-0",
       "npi": "57.143",
       "bid": "At-Lg",
-      "at_large_rank": "6",
-      "seed": "6",
-      "eff_rank": 47,
-      "adj_em": "+12.2",
-      "eff_updated": "11/6/2026 7:03 PM"
-     },
-     "adrian": {
-      "eff_rank": 346,
-      "adj_em": "-10.3",
-      "eff_updated": "11/6/2026 7:03 PM"
-     },
-     "albion": {
-      "eff_rank": 222,
-      "adj_em": "-1.1",
-      "eff_updated": "11/6/2026 7:03 PM"
-     },
-     "alma": {
-      "eff_rank": 376,
-      "adj_em": "-14.6",
-      "eff_updated": "11/6/2026 7:03 PM"
-     },
-     "calvin": {
-      "eff_rank": 27,
-      "adj_em": "+14.6",
-      "eff_updated": "11/6/2026 7:03 PM"
-     },
-     "hope": {
-      "eff_rank": 86,
-      "adj_em": "+8.1",
-      "eff_updated": "11/6/2026 7:03 PM"
-     },
-     "kalamazoo": {
-      "eff_rank": 374,
-      "adj_em": "-14.4",
-      "eff_updated": "11/6/2026 7:03 PM"
+      "at_large_rank": "40",
+      "seed": "-",
+      "eff_rank": 54,
+      "adj_em": "+11.1",
+      "eff_updated": "11/7/2026 6:48 AM"
      },
      "olivet": {
-      "eff_rank": 159,
-      "adj_em": "+3.0",
-      "eff_updated": "11/6/2026 7:03 PM"
+      "rank": 57,
+      "record": "1-0",
+      "npi": "57.143",
+      "bid": "At-Lg",
+      "at_large_rank": "57",
+      "seed": "-",
+      "eff_rank": 123,
+      "adj_em": "+5.1",
+      "eff_updated": "11/7/2026 6:48 AM"
+     },
+     "trine": {
+      "rank": 115,
+      "record": "0-1",
+      "npi": "42.857",
+      "bid": "At-Lg",
+      "at_large_rank": "115",
+      "seed": "-",
+      "eff_rank": 46,
+      "adj_em": "+12.2",
+      "eff_updated": "11/7/2026 6:48 AM"
+     },
+     "albion": {
+      "eff_rank": 223,
+      "adj_em": "-1.1",
+      "eff_updated": "11/7/2026 6:48 AM"
+     },
+     "alma": {
+      "eff_rank": 379,
+      "adj_em": "-14.6",
+      "eff_updated": "11/7/2026 6:48 AM"
+     },
+     "kalamazoo": {
+      "eff_rank": 377,
+      "adj_em": "-14.4",
+      "eff_updated": "11/7/2026 6:48 AM"
      }
     },
     "d3_teams": [
@@ -8484,7 +8447,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T23:49:30-06:00"
+     "fetched": "2026-11-07T05:53:54-06:00"
     },
     "albion": {
      "games": [
@@ -9296,7 +9259,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T23:49:30-06:00"
+     "fetched": "2026-11-07T05:53:54-06:00"
     },
     "alma": {
      "games": [
@@ -10137,7 +10100,7 @@
      "pa": 80,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T23:49:30-06:00"
+     "fetched": "2026-11-07T05:53:54-06:00"
     },
     "calvin": {
      "games": [
@@ -10920,7 +10883,7 @@
      "pa": 61,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T23:49:30-06:00"
+     "fetched": "2026-11-07T05:53:54-06:00"
     },
     "hope": {
      "games": [
@@ -11760,7 +11723,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T23:49:30-06:00"
+     "fetched": "2026-11-07T05:53:54-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12595,7 +12558,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T23:49:30-06:00"
+     "fetched": "2026-11-07T05:53:54-06:00"
     },
     "olivet": {
      "games": [
@@ -13409,7 +13372,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T23:49:30-06:00"
+     "fetched": "2026-11-07T05:53:54-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14252,7 +14215,7 @@
      "pa": 76,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T23:49:30-06:00"
+     "fetched": "2026-11-07T05:53:54-06:00"
     },
     "trine": {
      "games": [
@@ -15114,7 +15077,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T23:49:30-06:00"
+     "fetched": "2026-11-07T05:53:54-06:00"
     }
    },
    "poll": {
@@ -15912,7 +15875,7 @@
   "d3hoops wbb: poll table not found"
  ],
  "stale": {
-  "olivet-mbb-schedule": "2026-11-06T23:30:00-06:00",
-  "olivet-wbb-schedule": "2026-11-06T23:30:00-06:00"
+  "olivet-mbb-schedule": "2026-11-06T23:49:30-06:00",
+  "olivet-wbb-schedule": "2026-11-06T23:49:30-06:00"
  }
 }
