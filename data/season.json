@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-07T15:43:37-06:00",
+ "fetched_at": "2026-11-07T17:22:02-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -887,7 +887,7 @@
      "pa": 167,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T15:43:37-06:00"
+     "fetched": "2026-11-07T17:22:02-06:00"
     },
     "albion": {
      "games": [
@@ -1707,7 +1707,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T15:43:37-06:00"
+     "fetched": "2026-11-07T17:22:02-06:00"
     },
     "alma": {
      "games": [
@@ -2622,7 +2622,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T15:43:37-06:00"
+     "fetched": "2026-11-07T17:22:02-06:00"
     },
     "calvin": {
      "games": [
@@ -3426,7 +3426,7 @@
      "pa": 88,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T15:43:37-06:00"
+     "fetched": "2026-11-07T17:22:02-06:00"
     },
     "hope": {
      "games": [
@@ -4273,7 +4273,7 @@
      "pa": 63,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T15:43:37-06:00"
+     "fetched": "2026-11-07T17:22:02-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5123,7 +5123,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T15:43:37-06:00"
+     "fetched": "2026-11-07T17:22:02-06:00"
     },
     "olivet": {
      "games": [
@@ -5943,7 +5943,7 @@
      "pa": 70,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T15:43:37-06:00"
+     "fetched": "2026-11-07T17:22:02-06:00"
     },
     "trine": {
      "games": [
@@ -6785,7 +6785,7 @@
      "pa": 132,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T15:43:37-06:00"
+     "fetched": "2026-11-07T17:22:02-06:00"
     }
    },
    "poll": {
@@ -8422,7 +8422,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T15:43:37-06:00"
+     "fetched": "2026-11-07T17:22:02-06:00"
     },
     "albion": {
      "games": [
@@ -9234,7 +9234,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T15:43:37-06:00"
+     "fetched": "2026-11-07T17:22:02-06:00"
     },
     "alma": {
      "games": [
@@ -10075,7 +10075,7 @@
      "pa": 80,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T15:43:37-06:00"
+     "fetched": "2026-11-07T17:22:02-06:00"
     },
     "calvin": {
      "games": [
@@ -10128,7 +10128,8 @@
        "pa": 52,
        "status": "",
        "links": {
-        "boxscore": "https://calvinknights.com/sports/womens-basketball/stats/2026-27/john-carroll-university/boxscore/9235"
+        "boxscore": "https://calvinknights.com/sports/womens-basketball/stats/2026-27/john-carroll-university/boxscore/9235",
+        "recap": "https://calvinknights.com/news/2026/11/7/calvin-womens-basketball-picks-up-first-win-of-the-season-against-john-carroll.aspx"
        },
        "live_feed": null
       },
@@ -10854,7 +10855,7 @@
      "pa": 113,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T15:43:37-06:00"
+     "fetched": "2026-11-07T17:22:02-06:00"
     },
     "hope": {
      "games": [
@@ -10901,20 +10902,15 @@
        "conference": false,
        "location": "Holland, MI, DeVos Fieldhouse DeVette-VanWieren Court",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "W",
+       "pf": 73,
+       "pa": 65,
        "status": "",
        "links": {
-        "video": "https://youtube.com/hopeathletics",
-        "live_stats": "https://athletics.hope.edu/sidearmstats/wbball/summary",
-        "tickets": "http://hopecollege.vbotickets.com/event/womens_basketball_michele_schoon_classic_saturday/202652"
+        "boxscore": "https://athletics.hope.edu/sports/womens-basketball/stats/2026-27/illinois-wesleyan-university/boxscore/18666"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/hopecollege/wbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "hope-wbb-18667",
@@ -11611,10 +11607,10 @@
        "label": "Points",
        "name": "Josie DeSmit",
        "jersey": "11",
-       "gp": "1",
-       "total": "15",
-       "avg": "15.0",
-       "line": "15.0 per game, 15 total",
+       "gp": "2",
+       "total": "33",
+       "avg": "16.5",
+       "line": "16.5 per game, 33 total",
        "position": "Guard",
        "year": "Sophomore",
        "headshot": "https://athletics.hope.edu/images/2026/11/3/DeSmit_Josie.jpg?width=200&quality=90"
@@ -11623,10 +11619,10 @@
        "label": "Points",
        "name": "Leah Richards",
        "jersey": "20",
-       "gp": "1",
-       "total": "15",
-       "avg": "15.0",
-       "line": "15.0 per game, 15 total",
+       "gp": "2",
+       "total": "33",
+       "avg": "16.5",
+       "line": "16.5 per game, 33 total",
        "position": "Forward/Center",
        "year": "Junior",
        "headshot": "https://athletics.hope.edu/images/2026/11/3/Richards_Leah.jpg?width=200&quality=90"
@@ -11635,63 +11631,63 @@
        "label": "Rebounds",
        "name": "Leah Richards",
        "jersey": "20",
-       "gp": "1",
-       "total": "8",
-       "avg": "8.0",
-       "line": "8.0 per game, 8 total",
+       "gp": "2",
+       "total": "19",
+       "avg": "9.5",
+       "line": "9.5 per game, 19 total",
        "position": "Forward/Center",
        "year": "Junior",
        "headshot": "https://athletics.hope.edu/images/2026/11/3/Richards_Leah.jpg?width=200&quality=90"
       },
       {
        "label": "Assists",
-       "name": "Maddie Petroelje",
-       "jersey": "34",
-       "gp": "1",
-       "total": "2",
-       "avg": "2.0",
-       "line": "2.0 per game, 2 total",
-       "position": "Guard/Forward",
+       "name": "Anna Richards",
+       "jersey": "10",
+       "gp": "2",
+       "total": "7",
+       "avg": "3.5",
+       "line": "3.5 per game, 7 total",
+       "position": "Guard",
        "year": "Junior",
-       "headshot": "https://athletics.hope.edu/images/2026/11/3/Petroelje_Maddie.jpg?width=200&quality=90"
+       "headshot": "https://athletics.hope.edu/images/2026/11/3/Richards_Anna.jpg?width=200&quality=90"
       },
       {
        "label": "Steals",
-       "name": "Josie DeSmit",
-       "jersey": "11",
-       "gp": "1",
-       "total": "3",
-       "avg": "3.0",
-       "line": "3.0 per game, 3 total",
+       "name": "Anna Richards",
+       "jersey": "10",
+       "gp": "2",
+       "total": "5",
+       "avg": "2.5",
+       "line": "2.5 per game, 5 total",
        "position": "Guard",
-       "year": "Sophomore",
-       "headshot": "https://athletics.hope.edu/images/2026/11/3/DeSmit_Josie.jpg?width=200&quality=90"
+       "year": "Junior",
+       "headshot": "https://athletics.hope.edu/images/2026/11/3/Richards_Anna.jpg?width=200&quality=90"
       },
       {
        "label": "Blocks",
-       "name": "Maddie Petroelje",
-       "jersey": "34",
-       "gp": "1",
+       "name": "Josie DeSmit",
+       "jersey": "11",
+       "gp": "2",
        "total": "1",
-       "avg": "1.0",
-       "line": "1.0 per game, 1 total",
-       "position": "Guard/Forward",
-       "year": "Junior",
-       "headshot": "https://athletics.hope.edu/images/2026/11/3/Petroelje_Maddie.jpg?width=200&quality=90"
+       "avg": "0.5",
+       "line": "0.5 per game, 1 total",
+       "position": "Guard",
+       "year": "Sophomore",
+       "headshot": "https://athletics.hope.edu/images/2026/11/3/DeSmit_Josie.jpg?width=200&quality=90"
       }
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 1,
-     "wins": 1,
+     "played": 2,
+     "wins": 2,
      "losses": 0,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 72,
-     "pa": 65,
-     "record": "1-0",
+     "pf": 145,
+     "pa": 130,
+     "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T15:43:37-06:00"
+     "fetched": "2026-11-07T17:22:02-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12526,7 +12522,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T15:43:37-06:00"
+     "fetched": "2026-11-07T17:22:02-06:00"
     },
     "olivet": {
      "games": [
@@ -13331,7 +13327,7 @@
      "pa": 51,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T15:43:37-06:00"
+     "fetched": "2026-11-07T17:22:02-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14174,7 +14170,7 @@
      "pa": 76,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T15:43:37-06:00"
+     "fetched": "2026-11-07T17:22:02-06:00"
     },
     "trine": {
      "games": [
@@ -15036,7 +15032,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T15:43:37-06:00"
+     "fetched": "2026-11-07T17:22:02-06:00"
     }
    },
    "poll": {
@@ -15832,7 +15828,7 @@
   "d3hoops wbb: poll table not found"
  ],
  "stale": {
-  "olivet-mbb-schedule": "2026-11-07T14:07:42-06:00",
-  "olivet-wbb-schedule": "2026-11-07T14:07:42-06:00"
+  "olivet-mbb-schedule": "2026-11-07T15:43:37-06:00",
+  "olivet-wbb-schedule": "2026-11-07T15:43:37-06:00"
  }
 }
