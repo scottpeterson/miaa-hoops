@@ -37,12 +37,14 @@ SPORTS = {"mbb": "Men's Basketball", "wbb": "Women's Basketball"}
 SIDEARM_SPORT = {"mbb": "mbball", "wbb": "wbball"}
 EASTERN = ZoneInfo("America/Detroit")
 CENTRAL = ZoneInfo("America/Chicago")
-ZONES = {"ET": EASTERN, "EST": EASTERN, "EDT": EASTERN, "CT": CENTRAL, "CST": CENTRAL, "CDT": CENTRAL,
-         "MT": ZoneInfo("America/Denver"), "MST": ZoneInfo("America/Denver"), "MDT": ZoneInfo("America/Denver"),
-         "PT": ZoneInfo("America/Los_Angeles"), "PST": ZoneInfo("America/Los_Angeles"), "PDT": ZoneInfo("America/Los_Angeles")}
+ZONES = {"ET": EASTERN, "EST": EASTERN, "EDT": EASTERN, "EASTERN": EASTERN,
+         "CT": CENTRAL, "CST": CENTRAL, "CDT": CENTRAL, "CENTRAL": CENTRAL,
+         "MT": ZoneInfo("America/Denver"), "MST": ZoneInfo("America/Denver"), "MDT": ZoneInfo("America/Denver"), "MOUNTAIN": ZoneInfo("America/Denver"),
+         "PT": ZoneInfo("America/Los_Angeles"), "PST": ZoneInfo("America/Los_Angeles"), "PDT": ZoneInfo("America/Los_Angeles"), "PACIFIC": ZoneInfo("America/Los_Angeles")}
 UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128 Safari/537.36 (MIAA dashboard)",
       "Accept": "text/html,application/json,text/csv;q=0.9,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.9"}
 TAG = re.compile(r"<[^>]+>")
+WARNINGS = []  # parser fallbacks worth a look; written to season.json["errors"] so the page footer shows them
 D3DATACAST_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vR1ycFpv6ciu3cCFcVptinzHtlVFaM4hmZpV0KZSmMCMlb9h39m3n4bByXz3i_SKuE0Me7tXmmhZHYT/pub?gid={gid}&single=true&output=csv"
 D3DATACAST = {
     "mbb": {"npi_gid": "1357390615", "eff_gid": "201951160", "npi_url": "https://d3datacast.com/npi/mbb/", "eff_url": "https://d3datacast.com/efficiency-ratings/"},
@@ -94,13 +96,48 @@ def parse_month_day(label):
 
 
 def parse_time(label):
-    """'7 PM (CT)', '7:30 PM EST', '12 PM', 'TBA' -> (hour, minute, zone) or None when the time is TBA."""
-    m = re.search(r"(\d{1,2})(?::(\d{2}))?\s*([AP])\.?M\.?(?:\s*\(?([A-Z]{2,3})\)?)?", label or "", re.I)
+    """'7 PM (CT)', '7:30 PM EST', '6:00 PM Central', '12 PM', 'TBA' -> (hour, minute, zone) or None when the time is TBA."""
+    m = re.search(r"(\d{1,2})(?::(\d{2}))?\s*([AP])\.?M\.?(?:\s*\(?([A-Za-z]{2,8})\)?)?", label or "", re.I)
     if not m:
         return None
     hour = int(m.group(1)) % 12 + (12 if m.group(3).upper() == "P" else 0)
     zone = ZONES.get((m.group(4) or "ET").upper(), EASTERN)
     return hour, int(m.group(2) or 0), zone
+
+
+def text_schedule_times(cfg):
+    """Tipoff times from the school's plain-text schedule feed (schedule_txt.ashx), keyed by (month, day, opponent lowercased).
+
+    The feed is a fixed-width table: 'Nov 7 (Sat)    5:00 PM    Home   Franklin College    Holland, MI ...'. It is the
+    fallback when the schedule page's markup hides a time. Returns {} when the school has no feed or the feed fails."""
+    url = cfg.get("schedule_txt")
+    if not url:
+        return {}
+    try:
+        body = get(url)
+    except (urllib.error.URLError, TimeoutError, ValueError):
+        return {}
+    times = {}
+    for line in body.splitlines():
+        m = re.match(r"\s*([A-Za-z]{3})\.?\s+(\d{1,2})\s+\([A-Za-z]{3}\)\s{2,}(.+?)\s{2,}(Home|Away|Neutral)\s{2,}(.+?)(?:\s{2,}|$)", line)
+        if not m or m.group(1).lower() not in MONTHS:
+            continue
+        month_day = (MONTHS[m.group(1).lower()], int(m.group(2)))
+        parts = parse_time(m.group(3))
+        if parts:
+            times[month_day + (strip_poll_marks(m.group(5)).lower(),)] = parts
+    return times
+
+
+def time_from_text_feed(times, month_day, opponent):
+    """The text feed's time for a game: by date and opponent, else by date when the feed lists one game that day."""
+    if not times or month_day is None:
+        return None
+    exact = times.get(month_day + ((opponent or "").lower(),))
+    if exact:
+        return exact
+    same_day = [v for k, v in times.items() if k[:2] == month_day]
+    return same_day[0] if len(same_day) == 1 else None
 
 
 def member_slug(opponent_name):
@@ -199,23 +236,37 @@ def sidearm_schedule(school, sport, cfg):
     base = cfg["schedule_url"]
     blocks = game_blocks(page, r'<li[^>]*class="sidearm-schedule-game[\s"]')
     games = []
+    text_times = None
+    from_text_feed = 0
     for i, b in enumerate(blocks):
         cls = re.search(r'class="([^"]*)"', b).group(1)
         home = "sidearm-schedule-home-game" in cls
         neutral = "sidearm-schedule-neutral-game" in cls
         gid = re.search(r'data-game-id="(\d+)"', b)
+        # The date cell holds the date and the time in spans, but the markup varies by school: Hope wraps a stray
+        # </span> and a "/" separator between them. Read the time from the whole cell, not from a span position.
         date_m = re.search(r'sidearm-schedule-game-opponent-date[^>]*>(.*?)</div>', b, re.S)
-        spans = re.findall(r"<span[^>]*>(.*?)</span>", date_m.group(1), re.S) if date_m else []
-        spans = [text(s) for s in spans]
-        month_day = parse_month_day(spans[0] if spans else "")
-        time_parts = parse_time(spans[1] if len(spans) > 1 else "")
+        date_text = text(date_m.group(1)) if date_m else ""
+        month_day = parse_month_day(date_text)
+        time_m = re.search(r'sidearm-schedule-game-time[^>]*>(.*?)</span>', b, re.S)
+        time_parts = parse_time(text(time_m.group(1))) if time_m else None
+        if time_parts is None:
+            time_parts = parse_time(re.sub(r"^.*?\(\w{3}\)", "", date_text))
         opp_m = re.search(r'sidearm-schedule-game-opponent-name[^>]*>(.*?)</div>', b, re.S)
         opponent = text(opp_m.group(1)) if opp_m else ""
+        if time_parts is None:
+            if text_times is None:
+                text_times = text_schedule_times(cfg)
+            time_parts = time_from_text_feed(text_times, month_day, strip_poll_marks(opponent))
+            if time_parts:
+                from_text_feed += 1
         logo_m = re.search(r'sidearm-schedule-game-opponent-logo.*?<img[^>]*(?:data-src|src)="([^"]+)"', b, re.S)
         opp_logo = absolute(logo_m.group(1), base) if logo_m else None
         loc_m = re.search(r'sidearm-schedule-game-location[^>]*>(.*?)</div>', b, re.S)
         location = ", ".join(text(s) for s in re.findall(r"<span[^>]*>(.*?)</span>", loc_m.group(1), re.S) if text(s)) if loc_m else ""
-        result_m = re.search(r'sidearm-schedule-game-result[^>]*>(.*?)</div>', b, re.S)
+        # Anchor on the class boundary: Hope's date cell carries a "sidearm-schedule-game-result-final" span that
+        # would otherwise match first and hide the score.
+        result_m = re.search(r'sidearm-schedule-game-result[\s"][^>]*>(.*?)</div>', b, re.S)
         result_text = text(result_m.group(1)) if result_m else ""
         links = {}
         for href, label in re.findall(r'<a[^>]*href="([^"]+)"[^>]*>(.*?)</a>', b, re.S):
@@ -231,6 +282,8 @@ def sidearm_schedule(school, sport, cfg):
             games.append(g)
     if not games:
         raise ValueError("no games parsed")
+    if from_text_feed:
+        WARNINGS.append(f"{school['name']} {sport} schedule: {from_text_feed} of {len(games)} tipoff times came from the text feed, not the page")
     return sorted(games, key=lambda g: g["date"])
 
 
@@ -722,6 +775,14 @@ def datacast_npi(sport, prev):
             "count": count, "teams": teams, "d3_teams": sorted(r["Team"].strip() for r in eff)}
 
 
+def as_int(value, default=0):
+    """An int from a JSON cell that may hold a number, a numeric string, or a placeholder such as '#N/A'. Returns default otherwise."""
+    try:
+        return int(float(value))
+    except (TypeError, ValueError):
+        return default
+
+
 def statlab_npi():
     npi = get(f"{STATLAB}/data/npi.json", as_json=True)
     pre = get(f"{STATLAB}/data/preseasonRankings.json", as_json=True)
@@ -733,8 +794,8 @@ def statlab_npi():
         key = s["statlab_name"]
         row = next((r for r in npi if r.get("Team") == key), None)
         if row:
-            teams[s["slug"]] = {"rank": row.get("NPI Rank"), "npi": row.get("NPI Value"), "rank_change": row.get("Rank Diff"), "bid": row.get("Bid Type"),
-                                "record": f'{row.get("Qual Wins")}-{(row.get("Qual Games") or 0) - (row.get("Qual Wins") or 0)} qualifying'}
+            teams[s["slug"]] = {"rank": as_int(row.get("NPI Rank"), None), "npi": row.get("NPI Value"), "rank_change": as_int(row.get("Rank Diff"), None), "bid": row.get("Bid Type"),
+                                "record": f'{as_int(row.get("Qual Wins"))}-{as_int(row.get("Qual Games")) - as_int(row.get("Qual Wins"))} qualifying'}
         p = next((r for r in pre if r.get("Team") == key), None)
         if p:
             teams.setdefault(s["slug"], {})
@@ -775,6 +836,8 @@ def main():
                 games = presto_schedule(school, sport, cfg) if school["vendor"] == "presto" else sidearm_schedule(school, sport, cfg)
                 attach_feeds(games, prev_team.get("games"))
                 team["games"] = games
+                if games and all(g["time_tbd"] for g in games):
+                    out["errors"].append(f"{school['name']} {sport} schedule: every tipoff time parsed as TBA; check the page markup")
             except (urllib.error.URLError, TimeoutError, ValueError, AttributeError) as exc:
                 out["errors"].append(f"{school['name']} {sport} schedule: {exc}")
                 team["games"] = prev_team.get("games", [])
@@ -816,8 +879,8 @@ def main():
                     out["stale"][f"{sport}-poll"] = previous.get("fetched_at")
         try:
             block["npi"] = datacast_npi(sport, prev_sport.get("npi", {})) if sport == "mbb" else statlab_npi()
-        except (urllib.error.URLError, TimeoutError, ValueError, KeyError, StopIteration) as exc:
-            out["errors"].append(f"npi {sport}: {exc}")
+        except (urllib.error.URLError, TimeoutError, ValueError, KeyError, StopIteration, TypeError, IndexError, AttributeError) as exc:
+            out["errors"].append(f"npi {sport}: {type(exc).__name__}: {exc}")
             block["npi"] = prev_sport.get("npi", {})
             if block["npi"]:
                 out["stale"][f"{sport}-npi"] = previous.get("fetched_at")
@@ -826,6 +889,7 @@ def main():
     for sport, block in out["sports"].items():
         summary = ", ".join(f'{k} {len(v["games"])}g {v["record"]} ({len(v["players"])} leaders)' for k, v in block["teams"].items())
         print(f"[{now():%Y-%m-%d %H:%M}] {sport}: {summary}")
+    out["errors"].extend(WARNINGS)
     if out["errors"]:
         print("errors:", *out["errors"], sep="\n  ", file=sys.stderr)
         return 1

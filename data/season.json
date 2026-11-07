@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-07T06:51:55-06:00",
+ "fetched_at": "2026-11-07T14:07:42-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -76,19 +76,15 @@
        "conference": false,
        "location": "Aurora, Ill.",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "L",
+       "pf": 58,
+       "pa": 77,
        "status": "",
        "links": {
-        "video": "https://boxcast.tv/channel/paptdt2hgnwkpz4s3bvn",
-        "live_stats": "https://athletics.aurora.edu/sidearmstats/mbball/summary"
+        "boxscore": "https://adrianbulldogs.com/sports/mens-basketball/stats/2026-27/university-of-dubuque/boxscore/24137"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/aurora/mbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "adrian-mbb-24165",
@@ -822,34 +818,34 @@
        "label": "Points",
        "name": "Carson Lutz",
        "jersey": "12",
-       "gp": "1",
-       "total": "14",
-       "avg": "14.0",
-       "line": "14.0 per game, 14 total",
+       "gp": "2",
+       "total": "21",
+       "avg": "10.5",
+       "line": "10.5 per game, 21 total",
        "position": "G",
        "year": "Sophomore",
        "headshot": "https://adrianbulldogs.com/images/2026/10/20/Carson_Lutz.jpg?width=200&quality=90"
       },
       {
        "label": "Points",
-       "name": "Isaiah Foster",
-       "jersey": "4",
-       "gp": "1",
-       "total": "10",
-       "avg": "10.0",
-       "line": "10.0 per game, 10 total",
+       "name": "Noah Adams",
+       "jersey": "14",
+       "gp": "2",
+       "total": "13",
+       "avg": "6.5",
+       "line": "6.5 per game, 13 total",
        "position": "W",
        "year": "Junior",
-       "headshot": "https://adrianbulldogs.com/images/2026/10/20/Isaiah_Foster.jpg?width=200&quality=90"
+       "headshot": "https://adrianbulldogs.com/images/2026/10/20/Noah_Adams.jpg?width=200&quality=90"
       },
       {
        "label": "Rebounds",
        "name": "Noah Adams",
        "jersey": "14",
-       "gp": "1",
-       "total": "4",
-       "avg": "4.0",
-       "line": "4.0 per game, 4 total",
+       "gp": "2",
+       "total": "7",
+       "avg": "3.5",
+       "line": "3.5 per game, 7 total",
        "position": "W",
        "year": "Junior",
        "headshot": "https://adrianbulldogs.com/images/2026/10/20/Noah_Adams.jpg?width=200&quality=90"
@@ -858,10 +854,10 @@
        "label": "Assists",
        "name": "Isaiah Foster",
        "jersey": "4",
-       "gp": "1",
-       "total": "4",
-       "avg": "4.0",
-       "line": "4.0 per game, 4 total",
+       "gp": "2",
+       "total": "5",
+       "avg": "2.5",
+       "line": "2.5 per game, 5 total",
        "position": "W",
        "year": "Junior",
        "headshot": "https://adrianbulldogs.com/images/2026/10/20/Isaiah_Foster.jpg?width=200&quality=90"
@@ -870,10 +866,10 @@
        "label": "Steals",
        "name": "Carson Lutz",
        "jersey": "12",
-       "gp": "1",
+       "gp": "2",
        "total": "2",
-       "avg": "2.0",
-       "line": "2.0 per game, 2 total",
+       "avg": "1.0",
+       "line": "1.0 per game, 2 total",
        "position": "G",
        "year": "Sophomore",
        "headshot": "https://adrianbulldogs.com/images/2026/10/20/Carson_Lutz.jpg?width=200&quality=90"
@@ -881,16 +877,16 @@
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 1,
+     "played": 2,
      "wins": 0,
-     "losses": 1,
+     "losses": 2,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 82,
-     "pa": 90,
-     "record": "0-1",
+     "pf": 140,
+     "pa": 167,
+     "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T06:51:55-06:00"
+     "fetched": "2026-11-07T14:07:42-06:00"
     },
     "albion": {
      "games": [
@@ -1710,7 +1706,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T06:51:55-06:00"
+     "fetched": "2026-11-07T14:07:42-06:00"
     },
     "alma": {
      "games": [
@@ -2625,7 +2621,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T06:51:55-06:00"
+     "fetched": "2026-11-07T14:07:42-06:00"
     },
     "calvin": {
      "games": [
@@ -3429,15 +3425,15 @@
      "pa": 88,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T06:51:55-06:00"
+     "fetched": "2026-11-07T14:07:42-06:00"
     },
     "hope": {
      "games": [
       {
        "id": "hope-mbb-18639",
        "exhibition": false,
-       "date": "2026-11-06T17:00:00Z",
-       "time_tbd": true,
+       "date": "2026-11-07T00:30:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
@@ -3449,25 +3445,22 @@
        "conference": false,
        "location": "Holland, MI, DeVos Fieldhouse DeVette-VanWieren Court",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "W",
+       "pf": 90,
+       "pa": 63,
        "status": "",
        "links": {
         "recap": "https://athletics.hope.edu/news/2026/11/7/mens-basketball-cleans-up-on-the-glass-powers-past-anderson-in-opener.aspx",
         "boxscore": "https://athletics.hope.edu/sports/mens-basketball/stats/2026-27/anderson-university-in-/boxscore/18639"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/hopecollege/mbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "hope-mbb-18640",
        "exhibition": false,
-       "date": "2026-11-07T17:00:00Z",
-       "time_tbd": true,
+       "date": "2026-11-07T22:00:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
@@ -3497,8 +3490,8 @@
       {
        "id": "hope-mbb-18641",
        "exhibition": false,
-       "date": "2026-11-14T17:00:00Z",
-       "time_tbd": true,
+       "date": "2026-11-14T22:00:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
@@ -3528,8 +3521,8 @@
       {
        "id": "hope-mbb-18664",
        "exhibition": false,
-       "date": "2026-11-17T17:00:00Z",
-       "time_tbd": true,
+       "date": "2026-11-18T00:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -3557,8 +3550,8 @@
       {
        "id": "hope-mbb-18643",
        "exhibition": false,
-       "date": "2026-11-24T17:00:00Z",
-       "time_tbd": true,
+       "date": "2026-11-25T00:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -3587,8 +3580,8 @@
       {
        "id": "hope-mbb-18644",
        "exhibition": false,
-       "date": "2026-12-05T17:00:00Z",
-       "time_tbd": true,
+       "date": "2026-12-05T23:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -3617,8 +3610,8 @@
       {
        "id": "hope-mbb-18645",
        "exhibition": false,
-       "date": "2026-12-11T17:00:00Z",
-       "time_tbd": true,
+       "date": "2026-12-11T23:30:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -3647,8 +3640,8 @@
       {
        "id": "hope-mbb-18646",
        "exhibition": false,
-       "date": "2026-12-12T17:00:00Z",
-       "time_tbd": true,
+       "date": "2026-12-13T02:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -3676,8 +3669,8 @@
       {
        "id": "hope-mbb-18647",
        "exhibition": false,
-       "date": "2026-12-19T17:00:00Z",
-       "time_tbd": true,
+       "date": "2026-12-19T19:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -3706,8 +3699,8 @@
       {
        "id": "hope-mbb-18648",
        "exhibition": false,
-       "date": "2026-12-29T17:00:00Z",
-       "time_tbd": true,
+       "date": "2026-12-30T00:00:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
@@ -3737,8 +3730,8 @@
       {
        "id": "hope-mbb-18649",
        "exhibition": false,
-       "date": "2026-12-30T17:00:00Z",
-       "time_tbd": true,
+       "date": "2026-12-31T00:00:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
@@ -3768,8 +3761,8 @@
       {
        "id": "hope-mbb-18650",
        "exhibition": false,
-       "date": "2027-01-06T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-01-07T00:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -3797,8 +3790,8 @@
       {
        "id": "hope-mbb-18651",
        "exhibition": false,
-       "date": "2027-01-09T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-01-09T20:00:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
@@ -3828,8 +3821,8 @@
       {
        "id": "hope-mbb-18652",
        "exhibition": false,
-       "date": "2027-01-13T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-01-14T00:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -3855,8 +3848,8 @@
       {
        "id": "hope-mbb-18653",
        "exhibition": false,
-       "date": "2027-01-16T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-01-16T20:00:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
@@ -3886,8 +3879,8 @@
       {
        "id": "hope-mbb-18654",
        "exhibition": false,
-       "date": "2027-01-20T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-01-21T00:00:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
@@ -3917,8 +3910,8 @@
       {
        "id": "hope-mbb-18655",
        "exhibition": false,
-       "date": "2027-01-23T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-01-24T00:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -3947,8 +3940,8 @@
       {
        "id": "hope-mbb-18656",
        "exhibition": false,
-       "date": "2027-01-27T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-01-28T00:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -3976,8 +3969,8 @@
       {
        "id": "hope-mbb-18657",
        "exhibition": false,
-       "date": "2027-01-30T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-01-30T20:00:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
@@ -4007,8 +4000,8 @@
       {
        "id": "hope-mbb-18658",
        "exhibition": false,
-       "date": "2027-02-03T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-02-04T00:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -4038,8 +4031,8 @@
       {
        "id": "hope-mbb-18659",
        "exhibition": false,
-       "date": "2027-02-06T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-02-06T20:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -4068,8 +4061,8 @@
       {
        "id": "hope-mbb-18660",
        "exhibition": false,
-       "date": "2027-02-10T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-02-11T00:00:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
@@ -4099,8 +4092,8 @@
       {
        "id": "hope-mbb-18663",
        "exhibition": false,
-       "date": "2027-02-13T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-02-13T20:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -4129,8 +4122,8 @@
       {
        "id": "hope-mbb-18661",
        "exhibition": false,
-       "date": "2027-02-17T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-02-18T00:00:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
@@ -4160,8 +4153,8 @@
       {
        "id": "hope-mbb-18662",
        "exhibition": false,
-       "date": "2027-02-20T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-02-21T00:00:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
@@ -4270,16 +4263,16 @@
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 0,
-     "wins": 0,
+     "played": 1,
+     "wins": 1,
      "losses": 0,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 0,
-     "pa": 0,
-     "record": "0-0",
+     "pf": 90,
+     "pa": 63,
+     "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T06:51:55-06:00"
+     "fetched": "2026-11-07T14:07:42-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5129,40 +5122,37 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T06:51:55-06:00"
+     "fetched": "2026-11-07T14:07:42-06:00"
     },
     "olivet": {
      "games": [
       {
-       "id": "olivet-mbb-46g07n8uvckq6lpw",
+       "id": "olivet-mbb-5wrruy5j86se5zlx",
        "exhibition": false,
-       "date": "2026-11-07T19:00:00Z",
-       "time_tbd": false,
+       "date": "2026-11-06T17:00:00Z",
+       "time_tbd": true,
        "home": true,
        "neutral": false,
        "opponent": {
-        "name": "Anderson (Ind.)",
-        "short": "Anderson (Ind.)",
-        "logo": "https://cdn.prestosports.com/action/cdn/logos/id/ljjenmd2z1edoco8.png",
+        "name": "Franklin (Ind.)",
+        "short": "Franklin (Ind.)",
+        "logo": "https://cdn.prestosports.com/action/cdn/logos/id/r80k2vq4rxuzswng.png",
         "slug": null
        },
        "conference": false,
        "location": "Olivet, Mich., Cutler Event Center",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "W",
+       "pf": 85,
+       "pa": 70,
        "status": "",
        "links": {
-        "live_stats": "https://prestolivestats.com/ya5s58navki9037d/46g07n8uvckq6lpw",
-        "video": "https://www.olivetcomets.com/links/v1ickm",
-        "tickets": "https://www.olivetcomets.com/tickets"
+        "live_stats": "https://prestolivestats.com/ya5s58navki9037d/5wrruy5j86se5zlx",
+        "boxscore": "https://www.olivetcomets.com/sports/mbkb/2026-27/boxscores/20261106_5wrr.xml",
+        "recap": "https://www.olivetcomets.com/sports/mbkb/2026-27/releases/20261106yhdyx1"
        },
-       "live_feed": {
-        "type": "presto",
-        "url": "https://data.prestolivestats.com/xml/ya5s58navki9037d/events/46g07n8uvckq6lpw.xml"
-       }
+       "live_feed": null
       },
       {
        "id": "olivet-mbb-8m1gjtpgdjjury2k",
@@ -5863,109 +5853,96 @@
      ],
      "roster": {
       "url": "https://www.olivetcomets.com/sports/mbkb/2026-27/roster",
-      "season": null,
-      "players": 0,
-      "current": false
+      "season": "2026-27",
+      "players": 17,
+      "current": true
      },
      "players": [
       {
        "label": "Points",
-       "name": "Nathan Richardson",
-       "jersey": "23",
-       "gp": "26",
-       "total": "380",
-       "avg": "14.6",
-       "line": "14.6 per game, 380 total",
+       "name": "Sam Howard",
+       "jersey": "3",
+       "gp": "1",
+       "total": "16",
+       "avg": "16.0",
+       "line": "16.0 per game, 16 total",
        "position": "G",
        "year": "Junior",
-       "headshot": "https://www.olivetcomets.com/sports/mbkb/2025-26/photos/0001/hs_Nathan_Richardson.jpg?max_height=576&max_width=576&crop=1"
+       "headshot": "https://www.olivetcomets.com/sports/mbkb/2026-27/photos/0001/hs_Sam_Howard.jpg?max_height=576&max_width=576&crop=1"
       },
       {
        "label": "Points",
-       "name": "Conner Schipper",
-       "jersey": "50",
-       "gp": "23",
-       "total": "255",
-       "avg": "11.1",
-       "line": "11.1 per game, 255 total",
-       "position": "C",
+       "name": "Porter Kretschman",
+       "jersey": "12",
+       "gp": "1",
+       "total": "13",
+       "avg": "13.0",
+       "line": "13.0 per game, 13 total",
+       "position": "F",
        "year": "Junior",
-       "headshot": "https://www.olivetcomets.com/sports/mbkb/2025-26/photos/0001/hs_Conner_Schipper.jpg?max_height=576&max_width=576&crop=1"
+       "headshot": "https://www.olivetcomets.com/sports/mbkb/2026-27/photos/0001/hs_Porter_Kretschman.jpg?max_height=576&max_width=576&crop=1"
       },
       {
        "label": "Rebounds",
        "name": "Porter Kretschman",
        "jersey": "12",
-       "gp": "26",
-       "total": "238",
-       "avg": "9.2",
-       "line": "9.2 per game, 238 total",
+       "gp": "1",
+       "total": "10",
+       "avg": "10.0",
+       "line": "10.0 per game, 10 total",
        "position": "F",
-       "year": "Sophomore",
-       "headshot": "https://www.olivetcomets.com/sports/mbkb/2025-26/photos/0001/hs_Porter_Kretschman.jpg?max_height=576&max_width=576&crop=1"
+       "year": "Junior",
+       "headshot": "https://www.olivetcomets.com/sports/mbkb/2026-27/photos/0001/hs_Porter_Kretschman.jpg?max_height=576&max_width=576&crop=1"
       },
       {
        "label": "Assists",
-       "name": "Nathan Richardson",
-       "jersey": "23",
-       "gp": "26",
-       "total": "92",
-       "avg": "3.5",
-       "line": "3.5 per game, 92 total",
-       "position": "G",
+       "name": "Mike Okello",
+       "jersey": "13",
+       "gp": "1",
+       "total": "5",
+       "avg": "5.0",
+       "line": "5.0 per game, 5 total",
+       "position": "C",
        "year": "Junior",
-       "headshot": "https://www.olivetcomets.com/sports/mbkb/2025-26/photos/0001/hs_Nathan_Richardson.jpg?max_height=576&max_width=576&crop=1"
+       "headshot": "https://www.olivetcomets.com/sports/mbkb/2026-27/photos/0001/hs_Mike_Okello.jpg?max_height=576&max_width=576&crop=1"
       },
       {
        "label": "Steals",
-       "name": "Nathan Richardson",
-       "jersey": "23",
-       "gp": "26",
-       "total": "52",
-       "avg": "2.0",
-       "line": "2.0 per game, 52 total",
+       "name": "Sam Howard",
+       "jersey": "3",
+       "gp": "1",
+       "total": "1",
+       "avg": "1.0",
+       "line": "1.0 per game, 1 total",
        "position": "G",
        "year": "Junior",
-       "headshot": "https://www.olivetcomets.com/sports/mbkb/2025-26/photos/0001/hs_Nathan_Richardson.jpg?max_height=576&max_width=576&crop=1"
+       "headshot": "https://www.olivetcomets.com/sports/mbkb/2026-27/photos/0001/hs_Sam_Howard.jpg?max_height=576&max_width=576&crop=1"
       },
       {
        "label": "Blocks",
-       "name": "Conner Schipper",
-       "jersey": "50",
-       "gp": "23",
-       "total": "55",
-       "avg": "2.4",
-       "line": "2.4 per game, 55 total",
-       "position": "C",
+       "name": "Sam Howard",
+       "jersey": "3",
+       "gp": "1",
+       "total": "2",
+       "avg": "2.0",
+       "line": "2.0 per game, 2 total",
+       "position": "G",
        "year": "Junior",
-       "headshot": "https://www.olivetcomets.com/sports/mbkb/2025-26/photos/0001/hs_Conner_Schipper.jpg?max_height=576&max_width=576&crop=1"
+       "headshot": "https://www.olivetcomets.com/sports/mbkb/2026-27/photos/0001/hs_Sam_Howard.jpg?max_height=576&max_width=576&crop=1"
       }
      ],
-     "departed": [
-      {
-       "name": "Evan Honnen",
-       "reason": "not on the 2026-27 roster",
-       "line": "7.2 points per game",
-       "year": null
-      },
-      {
-       "name": "Trey Kolakovich",
-       "reason": "not on the 2026-27 roster",
-       "line": "1.4 points per game",
-       "year": "Junior"
-      }
-     ],
-     "stats_season": "2025-26",
-     "played": 0,
-     "wins": 0,
+     "departed": [],
+     "stats_season": "2026-27",
+     "played": 1,
+     "wins": 1,
      "losses": 0,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 0,
-     "pa": 0,
-     "record": "0-0",
+     "pf": 85,
+     "pa": 70,
+     "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T06:51:55-06:00"
+     "fetched": "2026-11-07T14:07:42-06:00"
     },
     "trine": {
      "games": [
@@ -6810,7 +6787,7 @@
      "pa": 73,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T06:51:55-06:00"
+     "fetched": "2026-11-07T14:07:42-06:00"
     }
    },
    "poll": {
@@ -8447,7 +8424,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T06:51:55-06:00"
+     "fetched": "2026-11-07T14:07:42-06:00"
     },
     "albion": {
      "games": [
@@ -9259,7 +9236,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T06:51:55-06:00"
+     "fetched": "2026-11-07T14:07:42-06:00"
     },
     "alma": {
      "games": [
@@ -10100,7 +10077,7 @@
      "pa": 80,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T06:51:55-06:00"
+     "fetched": "2026-11-07T14:07:42-06:00"
     },
     "calvin": {
      "games": [
@@ -10147,19 +10124,15 @@
        "conference": false,
        "location": "University Heights, OH",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "W",
+       "pf": 61,
+       "pa": 52,
        "status": "",
        "links": {
-        "video": "https://jcusports.com/sports/2025/8/27/live.aspx",
-        "live_stats": "https://jcusports.com/sidearmstats/wbball/summary"
+        "boxscore": "https://calvinknights.com/sports/womens-basketball/stats/2026-27/john-carroll-university/boxscore/9235"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/jcu/wbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "calvin-wbb-9236",
@@ -10803,10 +10776,10 @@
        "label": "Points",
        "name": "Lily Nitz",
        "jersey": "10",
-       "gp": "1",
-       "total": "11",
-       "avg": "11.0",
-       "line": "11.0 per game, 11 total",
+       "gp": "2",
+       "total": "15",
+       "avg": "7.5",
+       "line": "7.5 per game, 15 total",
        "position": "W",
        "year": "Sophomore",
        "headshot": "https://calvinknights.com/images/2026/10/27/Nitz__Lily.png?width=200&quality=90"
@@ -10815,10 +10788,10 @@
        "label": "Points",
        "name": "Izzy Wotlinski",
        "jersey": "22",
-       "gp": "1",
-       "total": "10",
-       "avg": "10.0",
-       "line": "10.0 per game, 10 total",
+       "gp": "2",
+       "total": "14",
+       "avg": "7.0",
+       "line": "7.0 per game, 14 total",
        "position": "G",
        "year": "Freshman",
        "headshot": "https://calvinknights.com/images/2026/10/27/Wotlinski__Izzy.png?width=200&quality=90"
@@ -10827,34 +10800,34 @@
        "label": "Rebounds",
        "name": "Lily Nitz",
        "jersey": "10",
-       "gp": "1",
-       "total": "6",
-       "avg": "6.0",
-       "line": "6.0 per game, 6 total",
+       "gp": "2",
+       "total": "13",
+       "avg": "6.5",
+       "line": "6.5 per game, 13 total",
        "position": "W",
        "year": "Sophomore",
        "headshot": "https://calvinknights.com/images/2026/10/27/Nitz__Lily.png?width=200&quality=90"
       },
       {
        "label": "Assists",
-       "name": "Izzy Wotlinski",
-       "jersey": "22",
+       "name": "Jordan Mateer",
+       "jersey": "13",
        "gp": "1",
        "total": "2",
        "avg": "2.0",
        "line": "2.0 per game, 2 total",
        "position": "G",
        "year": "Freshman",
-       "headshot": "https://calvinknights.com/images/2026/10/27/Wotlinski__Izzy.png?width=200&quality=90"
+       "headshot": "https://calvinknights.com/images/2026/10/27/Mateer__Jordan.png?width=200&quality=90"
       },
       {
        "label": "Steals",
        "name": "Leigh Wyman",
        "jersey": "3",
-       "gp": "1",
-       "total": "4",
-       "avg": "4.0",
-       "line": "4.0 per game, 4 total",
+       "gp": "2",
+       "total": "9",
+       "avg": "4.5",
+       "line": "4.5 per game, 9 total",
        "position": "G",
        "year": "Freshman",
        "headshot": "https://calvinknights.com/images/2026/10/27/Wyman__Leigh.png?width=200&quality=90"
@@ -10863,10 +10836,10 @@
        "label": "Blocks",
        "name": "Lily Nitz",
        "jersey": "10",
-       "gp": "1",
+       "gp": "2",
        "total": "1",
-       "avg": "1.0",
-       "line": "1.0 per game, 1 total",
+       "avg": "0.5",
+       "line": "0.5 per game, 1 total",
        "position": "W",
        "year": "Sophomore",
        "headshot": "https://calvinknights.com/images/2026/10/27/Nitz__Lily.png?width=200&quality=90"
@@ -10874,24 +10847,24 @@
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 1,
-     "wins": 0,
+     "played": 2,
+     "wins": 1,
      "losses": 1,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 55,
-     "pa": 61,
-     "record": "0-1",
+     "pf": 116,
+     "pa": 113,
+     "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T06:51:55-06:00"
+     "fetched": "2026-11-07T14:07:42-06:00"
     },
     "hope": {
      "games": [
       {
        "id": "hope-wbb-18665",
        "exhibition": false,
-       "date": "2026-11-06T17:00:00Z",
-       "time_tbd": true,
+       "date": "2026-11-06T22:30:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
@@ -10903,25 +10876,22 @@
        "conference": false,
        "location": "Holland, MI, DeVos Fieldhouse DeVette-VanWieren Court",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "W",
+       "pf": 72,
+       "pa": 65,
        "status": "",
        "links": {
         "recap": "https://athletics.hope.edu/news/2026/11/6/womens-basketball-continues-winning-ways-in-season-openers.aspx",
         "boxscore": "https://athletics.hope.edu/sports/womens-basketball/stats/2026-27/university-of-wisconsin-platteville/boxscore/18665"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/hopecollege/wbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "hope-wbb-18666",
        "exhibition": false,
-       "date": "2026-11-07T17:00:00Z",
-       "time_tbd": true,
+       "date": "2026-11-07T20:00:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
@@ -10951,8 +10921,8 @@
       {
        "id": "hope-wbb-18667",
        "exhibition": false,
-       "date": "2026-11-13T17:00:00Z",
-       "time_tbd": true,
+       "date": "2026-11-14T00:00:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
@@ -10982,8 +10952,8 @@
       {
        "id": "hope-wbb-18668",
        "exhibition": false,
-       "date": "2026-11-14T17:00:00Z",
-       "time_tbd": true,
+       "date": "2026-11-14T20:00:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
@@ -11013,8 +10983,8 @@
       {
        "id": "hope-wbb-18669",
        "exhibition": false,
-       "date": "2026-11-20T17:00:00Z",
-       "time_tbd": true,
+       "date": "2026-11-21T00:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -11064,8 +11034,8 @@
       {
        "id": "hope-wbb-18671",
        "exhibition": false,
-       "date": "2026-11-24T17:00:00Z",
-       "time_tbd": true,
+       "date": "2026-11-24T23:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -11094,8 +11064,8 @@
       {
        "id": "hope-wbb-18672",
        "exhibition": false,
-       "date": "2026-12-05T17:00:00Z",
-       "time_tbd": true,
+       "date": "2026-12-05T20:00:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
@@ -11125,8 +11095,8 @@
       {
        "id": "hope-wbb-18673",
        "exhibition": false,
-       "date": "2026-12-09T17:00:00Z",
-       "time_tbd": true,
+       "date": "2026-12-10T00:00:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
@@ -11156,8 +11126,8 @@
       {
        "id": "hope-wbb-18674",
        "exhibition": false,
-       "date": "2026-12-12T17:00:00Z",
-       "time_tbd": true,
+       "date": "2026-12-12T18:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -11187,8 +11157,8 @@
       {
        "id": "hope-wbb-18675",
        "exhibition": false,
-       "date": "2026-12-29T17:00:00Z",
-       "time_tbd": true,
+       "date": "2026-12-29T20:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": true,
        "opponent": {
@@ -11216,8 +11186,8 @@
       {
        "id": "hope-wbb-18676",
        "exhibition": false,
-       "date": "2026-12-30T17:00:00Z",
-       "time_tbd": true,
+       "date": "2026-12-30T20:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -11245,8 +11215,8 @@
       {
        "id": "hope-wbb-18677",
        "exhibition": false,
-       "date": "2027-01-02T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-01-02T20:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -11275,8 +11245,8 @@
       {
        "id": "hope-wbb-18678",
        "exhibition": false,
-       "date": "2027-01-06T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-01-07T00:00:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
@@ -11306,8 +11276,8 @@
       {
        "id": "hope-wbb-18679",
        "exhibition": false,
-       "date": "2027-01-09T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-01-09T18:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -11336,8 +11306,8 @@
       {
        "id": "hope-wbb-18680",
        "exhibition": false,
-       "date": "2027-01-13T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-01-14T00:00:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
@@ -11367,8 +11337,8 @@
       {
        "id": "hope-wbb-18681",
        "exhibition": false,
-       "date": "2027-01-16T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-01-16T18:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -11394,8 +11364,8 @@
       {
        "id": "hope-wbb-18682",
        "exhibition": false,
-       "date": "2027-01-20T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-01-21T00:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -11424,8 +11394,8 @@
       {
        "id": "hope-wbb-18683",
        "exhibition": false,
-       "date": "2027-01-23T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-01-23T20:00:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
@@ -11455,8 +11425,8 @@
       {
        "id": "hope-wbb-18684",
        "exhibition": false,
-       "date": "2027-01-27T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-01-28T00:00:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
@@ -11486,8 +11456,8 @@
       {
        "id": "hope-wbb-18685",
        "exhibition": false,
-       "date": "2027-01-30T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-01-30T20:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -11513,8 +11483,8 @@
       {
        "id": "hope-wbb-18686",
        "exhibition": false,
-       "date": "2027-02-06T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-02-06T20:00:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
@@ -11544,8 +11514,8 @@
       {
        "id": "hope-wbb-18687",
        "exhibition": false,
-       "date": "2027-02-13T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-02-13T20:00:00Z",
+       "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
@@ -11575,8 +11545,8 @@
       {
        "id": "hope-wbb-18688",
        "exhibition": false,
-       "date": "2027-02-17T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-02-18T00:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -11604,8 +11574,8 @@
       {
        "id": "hope-wbb-18689",
        "exhibition": false,
-       "date": "2027-02-20T17:00:00Z",
-       "time_tbd": true,
+       "date": "2027-02-21T00:00:00Z",
+       "time_tbd": false,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -11714,16 +11684,16 @@
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 0,
-     "wins": 0,
+     "played": 1,
+     "wins": 1,
      "losses": 0,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 0,
-     "pa": 0,
-     "record": "0-0",
+     "pf": 72,
+     "pa": 65,
+     "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T06:51:55-06:00"
+     "fetched": "2026-11-07T14:07:42-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12558,10 +12528,38 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T06:51:55-06:00"
+     "fetched": "2026-11-07T14:07:42-06:00"
     },
     "olivet": {
      "games": [
+      {
+       "id": "olivet-wbb-qkvmc8wkq7e2xa5n",
+       "exhibition": false,
+       "date": "2026-11-06T17:00:00Z",
+       "time_tbd": true,
+       "home": true,
+       "neutral": false,
+       "opponent": {
+        "name": "Bluffton (Ohio)",
+        "short": "Bluffton (Ohio)",
+        "logo": "https://cdn.prestosports.com/action/cdn/logos/id/y3t3lh9gmcf8laq8.png",
+        "slug": null
+       },
+       "conference": false,
+       "location": "Olivet, Mich., Cutler Event Center",
+       "note": "",
+       "state": "post",
+       "result": "L",
+       "pf": 64,
+       "pa": 51,
+       "status": "",
+       "links": {
+        "live_stats": "https://prestolivestats.com/9qop6oeabjj3n7bn/qkvmc8wkq7e2xa5n",
+        "boxscore": "https://www.olivetcomets.com/sports/wbkb/2026-27/boxscores/20261106_qkvm.xml",
+        "recap": "https://www.olivetcomets.com/sports/wbkb/2026-27/releases/20261106xxonr1"
+       },
+       "live_feed": null
+      },
       {
        "id": "olivet-wbb-jvbttpg4onabk52l",
        "exhibition": false,
@@ -13246,133 +13244,96 @@
      ],
      "roster": {
       "url": "https://www.olivetcomets.com/sports/wbkb/2026-27/roster",
-      "season": null,
-      "players": 0,
-      "current": false
+      "season": "2026-27",
+      "players": 20,
+      "current": true
      },
      "players": [
       {
        "label": "Points",
-       "name": "Kaylee Bush",
-       "jersey": "55",
-       "gp": "23",
-       "total": "179",
-       "avg": "7.8",
-       "line": "7.8 per game, 179 total",
+       "name": "Madelyn Burdis",
+       "jersey": "11",
+       "gp": "1",
+       "total": "15",
+       "avg": "15.0",
+       "line": "15.0 per game, 15 total",
        "position": "G",
-       "year": "Junior",
-       "headshot": "https://www.olivetcomets.com/sports/wbkb/2025-26/photos/0001/hs_Kaylee_Bush.jpg?max_height=576&max_width=576&crop=1"
+       "year": "Sophomore",
+       "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Madelyn_Burdis.jpg?max_height=576&max_width=576&crop=1"
       },
       {
        "label": "Points",
-       "name": "Madelyn Burdis",
-       "jersey": "11",
-       "gp": "23",
-       "total": "161",
-       "avg": "7.0",
-       "line": "7.0 per game, 161 total",
-       "position": "G",
+       "name": "Addilyn Moore",
+       "jersey": "15",
+       "gp": "1",
+       "total": "15",
+       "avg": "15.0",
+       "line": "15.0 per game, 15 total",
+       "position": "C/F",
        "year": "Freshman",
-       "headshot": "https://www.olivetcomets.com/sports/wbkb/2025-26/photos/0001/hs_Madelyn_Burdis.jpg?max_height=576&max_width=576&crop=1"
+       "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Addilyn_Moore.jpg?max_height=576&max_width=576&crop=1"
       },
       {
        "label": "Rebounds",
        "name": "Madelyn Burdis",
        "jersey": "11",
-       "gp": "23",
-       "total": "118",
-       "avg": "5.1",
-       "line": "5.1 per game, 118 total",
+       "gp": "1",
+       "total": "5",
+       "avg": "5.0",
+       "line": "5.0 per game, 5 total",
        "position": "G",
-       "year": "Freshman",
-       "headshot": "https://www.olivetcomets.com/sports/wbkb/2025-26/photos/0001/hs_Madelyn_Burdis.jpg?max_height=576&max_width=576&crop=1"
+       "year": "Sophomore",
+       "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Madelyn_Burdis.jpg?max_height=576&max_width=576&crop=1"
       },
       {
        "label": "Assists",
-       "name": "Reese Gohsman",
-       "jersey": "21",
-       "gp": "22",
-       "total": "44",
-       "avg": "2.0",
-       "line": "2.0 per game, 44 total",
+       "name": "Alexis Woodbeck",
+       "jersey": "22",
+       "gp": "1",
+       "total": "4",
+       "avg": "4.0",
+       "line": "4.0 per game, 4 total",
        "position": "G",
-       "year": "Freshman",
-       "headshot": "https://www.olivetcomets.com/sports/wbkb/2025-26/photos/0001/hs_Reese_Gohsman.jpg?max_height=576&max_width=576&crop=1"
+       "year": "Sophomore",
+       "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Alexis_Woodbeck.jpg?max_height=576&max_width=576&crop=1"
       },
       {
        "label": "Steals",
        "name": "Madelyn Burdis",
        "jersey": "11",
-       "gp": "23",
-       "total": "41",
-       "avg": "1.8",
-       "line": "1.8 per game, 41 total",
+       "gp": "1",
+       "total": "2",
+       "avg": "2.0",
+       "line": "2.0 per game, 2 total",
        "position": "G",
-       "year": "Freshman",
-       "headshot": "https://www.olivetcomets.com/sports/wbkb/2025-26/photos/0001/hs_Madelyn_Burdis.jpg?max_height=576&max_width=576&crop=1"
+       "year": "Sophomore",
+       "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Madelyn_Burdis.jpg?max_height=576&max_width=576&crop=1"
       },
       {
        "label": "Blocks",
-       "name": "Alex Mitchell",
-       "jersey": "15",
-       "gp": "24",
-       "total": "8",
-       "avg": "0.3",
-       "line": "0.3 per game, 8 total",
-       "position": "C",
+       "name": "Hannah Hill",
+       "jersey": "10",
+       "gp": "1",
+       "total": "1",
+       "avg": "1.0",
+       "line": "1.0 per game, 1 total",
+       "position": "G",
        "year": "Freshman",
-       "headshot": "https://www.olivetcomets.com/sports/wbkb/2025-26/photos/0001/hs_Alexandria_Mitchell.jpg?max_height=576&max_width=576&crop=1"
+       "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Hannah_Hill.jpg?max_height=576&max_width=576&crop=1"
       }
      ],
-     "departed": [
-      {
-       "name": "Ava Lord",
-       "reason": "not on the 2026-27 roster",
-       "line": "9.9 points per game",
-       "year": "Freshman"
-      },
-      {
-       "name": "Christina Malackanich",
-       "reason": "not on the 2026-27 roster",
-       "line": "7.9 points per game",
-       "year": null
-      },
-      {
-       "name": "Peyton Tennant",
-       "reason": "not on the 2026-27 roster",
-       "line": "2.9 points per game",
-       "year": "Freshman"
-      },
-      {
-       "name": "Drue Allen",
-       "reason": "not on the 2026-27 roster",
-       "line": "2.3 points per game",
-       "year": "Junior"
-      },
-      {
-       "name": "Helena Eley",
-       "reason": "not on the 2026-27 roster",
-       "line": "2.0 points per game",
-       "year": "Junior"
-      },
-      {
-       "name": "Ella Aagesen",
-       "reason": "not on the 2026-27 roster",
-       "line": "0.0 points per game",
-       "year": "Freshman"
-      }
-     ],
-     "stats_season": "2025-26",
-     "played": 0,
+     "departed": [],
+     "stats_season": "2026-27",
+     "played": 1,
      "wins": 0,
-     "losses": 0,
+     "losses": 1,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 0,
-     "pa": 0,
-     "record": "0-0",
+     "pf": 64,
+     "pa": 51,
+     "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T06:51:55-06:00"
+     "fetched": "2026-11-07T14:07:42-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14215,7 +14176,7 @@
      "pa": 76,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T06:51:55-06:00"
+     "fetched": "2026-11-07T14:07:42-06:00"
     },
     "trine": {
      "games": [
@@ -15077,7 +15038,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T06:51:55-06:00"
+     "fetched": "2026-11-07T14:07:42-06:00"
     }
    },
    "poll": {
@@ -15337,14 +15298,14 @@
     "url": "https://thed3statlab.com/npi.html",
     "preseason_url": "https://thed3statlab.com/preseason_rankings.html",
     "sims_url": "https://thed3statlab.com/season_simulations.html",
-    "count": 413,
+    "count": 411,
     "teams": {
      "adrian": {
-      "rank": 238,
-      "npi": 48.926,
-      "rank_change": 0,
-      "bid": "AL-22",
-      "record": "8-14 qualifying",
+      "rank": null,
+      "npi": "",
+      "rank_change": null,
+      "bid": "AL-155",
+      "record": "0-0 qualifying",
       "preseason_rank": 237,
       "returning": "41.33%",
       "tourney_pct": "0.0%",
@@ -15352,59 +15313,59 @@
       "median_record": "6-19"
      },
      "albion": {
-      "rank": 78,
-      "npi": 56.129,
-      "rank_change": 0,
-      "bid": "AL-22",
-      "record": "15-8 qualifying",
+      "rank": null,
+      "npi": "",
+      "rank_change": null,
+      "bid": "AL-130",
+      "record": "0-0 qualifying",
       "preseason_rank": 155,
       "returning": "63.30%",
-      "tourney_pct": "0.1%",
-      "aq_pct": "0.1%",
-      "median_record": "13-13"
-     },
-     "alma": {
-      "rank": 187,
-      "npi": 50.785,
-      "rank_change": 0,
-      "bid": "AL-22",
-      "record": "11-12 qualifying",
-      "preseason_rank": 139,
-      "returning": "78.38%",
       "tourney_pct": "0.2%",
       "aq_pct": "0.1%",
       "median_record": "13-12"
      },
+     "alma": {
+      "rank": 79,
+      "npi": 44.444,
+      "rank_change": null,
+      "bid": "AL-155",
+      "record": "0-1 qualifying",
+      "preseason_rank": 139,
+      "returning": "78.38%",
+      "tourney_pct": "0.1%",
+      "aq_pct": "0.1%",
+      "median_record": "12-13"
+     },
      "calvin": {
-      "rank": 69,
-      "npi": 56.714,
-      "rank_change": 0,
-      "bid": "AL-22",
-      "record": "15-11 qualifying",
+      "rank": 79,
+      "npi": 44.444,
+      "rank_change": null,
+      "bid": "AL-75",
+      "record": "0-1 qualifying",
       "preseason_rank": 37,
       "returning": "67.56%",
-      "tourney_pct": "10.5%",
-      "aq_pct": "1.6%",
-      "median_record": "16-9"
+      "tourney_pct": "3.5%",
+      "aq_pct": "1.5%",
+      "median_record": "15-10"
      },
      "hope": {
-      "rank": 7,
-      "npi": 65.142,
-      "rank_change": 0,
-      "bid": "AQ",
-      "record": "15-3 qualifying",
+      "rank": 1,
+      "npi": 55.556,
+      "rank_change": null,
+      "bid": "AL-03",
+      "record": "1-0 qualifying",
       "preseason_rank": 5,
       "returning": "79.93%",
-      "tourney_pct": "99.2%",
-      "aq_pct": "53.7%",
-      "median_record": "24-2"
+      "tourney_pct": "95.4%",
+      "aq_pct": "38.5%",
+      "median_record": "21-2"
      },
      "kalamazoo": {
-      "rank": 292,
-      "npi": 46.792,
-      "rank_change": "(1)",
-      "bid": "AL-22",
-      "record": "7-15 qualifying",
+      "rank": null,
+      "npi": "",
+      "rank_change": null,
+      "bid": "AL-155",
+      "record": "0-0 qualifying",
       "preseason_rank": 257,
       "returning": "68.11%",
       "tourney_pct": "0.0%",
@@ -15412,11 +15373,11 @@
       "median_record": "9-16"
      },
      "olivet": {
-      "rank": 356,
-      "npi": 42.577,
-      "rank_change": 0,
-      "bid": "AL-22",
-      "record": "3-11 qualifying",
+      "rank": 79,
+      "npi": 44.444,
+      "rank_change": null,
+      "bid": "AL-155",
+      "record": "0-1 qualifying",
       "preseason_rank": 333,
       "returning": "48.20%",
       "tourney_pct": "0.0%",
@@ -15424,28 +15385,28 @@
       "median_record": "2-23"
      },
      "saintmarys": {
-      "rank": 285,
-      "npi": 47.138,
-      "rank_change": 0,
-      "bid": "AL-22",
-      "record": "8-13 qualifying",
+      "rank": 1,
+      "npi": 55.556,
+      "rank_change": null,
+      "bid": "AL-155",
+      "record": "1-0 qualifying",
       "preseason_rank": 274,
       "returning": "78.08%",
       "tourney_pct": "0.0%",
       "aq_pct": "0.0%",
-      "median_record": "10-15"
+      "median_record": "11-14"
      },
      "trine": {
-      "rank": 25,
-      "npi": 61.104,
-      "rank_change": 0,
-      "bid": "AL-01",
-      "record": "15-5 qualifying",
+      "rank": null,
+      "npi": "",
+      "rank_change": null,
+      "bid": "AQ",
+      "record": "0-0 qualifying",
       "preseason_rank": 8,
       "returning": "84.47%",
-      "tourney_pct": "98.0%",
-      "aq_pct": "44.4%",
-      "median_record": "22-3"
+      "tourney_pct": "98.6%",
+      "aq_pct": "59.8%",
+      "median_record": "22-2"
      }
     },
     "d3_teams": [
@@ -15461,7 +15422,6 @@
      "Alvernia",
      "Amherst",
      "Anderson",
-     "Anna Maria",
      "Arcadia",
      "Asbury",
      "Augsburg",
@@ -15799,7 +15759,6 @@
      "Transylvania",
      "Trine",
      "Trinity (CT)",
-     "Trinity (DC)",
      "Trinity (TX)",
      "Tufts",
      "UC Santa Cruz",
@@ -15867,15 +15826,8 @@
   }
  },
  "errors": [
-  "Olivet mbb schedule: HTTP Error 405: Not Allowed",
-  "Olivet mbb leaders: HTTP Error 405: Not Allowed",
   "d3hoops mbb: poll table not found",
-  "Olivet wbb schedule: HTTP Error 405: Not Allowed",
-  "Olivet wbb leaders: HTTP Error 405: Not Allowed",
   "d3hoops wbb: poll table not found"
  ],
- "stale": {
-  "olivet-mbb-schedule": "2026-11-07T05:53:54-06:00",
-  "olivet-wbb-schedule": "2026-11-07T05:53:54-06:00"
- }
+ "stale": {}
 }

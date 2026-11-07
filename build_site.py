@@ -101,15 +101,19 @@ def poll(sport):
     return SEASON["sports"].get(sport, {}).get("poll", {})
 
 
+def safe_int(v, default=9999):
+    """An int from a data cell that may be None, a numeric string, or a placeholder such as '#N/A'."""
+    try:
+        return int(v)
+    except (TypeError, ValueError):
+        return default
+
+
 def rating_rank(sport, slug):
     """The preseason ordering number: efficiency rank for men (D3 Datacast), preseason rank for women (The D3 Stat Lab)."""
     t = npi(sport).get("teams", {}).get(slug, {})
     key = "eff_rank" if sport == "mbb" else "preseason_rank"
-    v = t.get(key) or t.get("rank")
-    try:
-        return int(v)
-    except (TypeError, ValueError):
-        return 9999
+    return safe_int(t.get(key) or t.get("rank"))
 
 
 def ordered(sport):
@@ -497,7 +501,7 @@ def numbers_section(sport):
     rows = []
     if sport == "mbb":
         head = "<tr><th>Team</th><th>NPI rank</th><th>NPI</th><th>Record in the NPI table</th><th>Bid</th><th>At-large rank</th><th>Efficiency rank</th><th>Adj. efficiency margin</th></tr>"
-        for s in sorted(members(sport), key=lambda s: int(t.get(s["slug"], {}).get("rank") or 9999)):
+        for s in sorted(members(sport), key=lambda s: safe_int(t.get(s["slug"], {}).get("rank"))):
             d = t.get(s["slug"])
             if not d:
                 continue
@@ -507,7 +511,7 @@ def numbers_section(sport):
                  f'The {link("https://d3datacast.com/conference-ratings/miaa/", "MIAA conference page")} has every MIAA team\'s ratings.</p>')
     else:
         head = "<tr><th>Team</th><th>NPI rank</th><th>NPI</th><th>Record in the NPI table</th><th>Bid</th><th>Preseason rank</th><th>Returning production</th><th>Tournament odds</th><th>Auto bid odds</th><th>Median record</th></tr>"
-        for s in sorted(members(sport), key=lambda s: int(t.get(s["slug"], {}).get("rank") or 9999)):
+        for s in sorted(members(sport), key=lambda s: safe_int(t.get(s["slug"], {}).get("rank"))):
             d = t.get(s["slug"])
             if not d:
                 continue
