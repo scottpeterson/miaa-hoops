@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-06T13:16:29-06:00",
+ "fetched_at": "2026-11-06T18:03:24-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -172,7 +172,7 @@
        },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/adri/mbball/game.json"
+        "url": "https://sidearmstats.com/adrian/mbball/game.json"
        }
       },
       {
@@ -203,7 +203,7 @@
        },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/adri/mbball/game.json"
+        "url": "https://sidearmstats.com/adrian/mbball/game.json"
        }
       },
       {
@@ -234,7 +234,7 @@
        },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/adri/mbball/game.json"
+        "url": "https://sidearmstats.com/adrian/mbball/game.json"
        }
       },
       {
@@ -265,7 +265,7 @@
        },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/adri/mbball/game.json"
+        "url": "https://sidearmstats.com/adrian/mbball/game.json"
        }
       },
       {
@@ -296,7 +296,7 @@
        },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/adri/mbball/game.json"
+        "url": "https://sidearmstats.com/adrian/mbball/game.json"
        }
       },
       {
@@ -326,7 +326,7 @@
        },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/asburyuniversityky/mbball/game.json"
+        "url": "https://sidearmstats.com/asbury/mbball/game.json"
        }
       },
       {
@@ -474,7 +474,7 @@
        },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/adri/mbball/game.json"
+        "url": "https://sidearmstats.com/adrian/mbball/game.json"
        }
       },
       {
@@ -505,7 +505,7 @@
        },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/adri/mbball/game.json"
+        "url": "https://sidearmstats.com/adrian/mbball/game.json"
        }
       },
       {
@@ -566,7 +566,7 @@
        },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/adri/mbball/game.json"
+        "url": "https://sidearmstats.com/adrian/mbball/game.json"
        }
       },
       {
@@ -597,7 +597,7 @@
        },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/adri/mbball/game.json"
+        "url": "https://sidearmstats.com/adrian/mbball/game.json"
        }
       },
       {
@@ -658,7 +658,7 @@
        },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/adri/mbball/game.json"
+        "url": "https://sidearmstats.com/adrian/mbball/game.json"
        }
       },
       {
@@ -719,7 +719,7 @@
        },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/adri/mbball/game.json"
+        "url": "https://sidearmstats.com/adrian/mbball/game.json"
        }
       },
       {
@@ -780,7 +780,7 @@
        },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/adri/mbball/game.json"
+        "url": "https://sidearmstats.com/adrian/mbball/game.json"
        }
       },
       {
@@ -810,7 +810,7 @@
        },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/albi/mbball/game.json"
+        "url": "https://sidearmstats.com/albion/mbball/game.json"
        }
       }
      ],
@@ -954,7 +954,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T13:16:29-06:00"
+     "fetched": "2026-11-06T18:03:24-06:00"
     },
     "albion": {
      "games": [
@@ -986,7 +986,7 @@
        },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/ipfw/mbball/game.json"
+        "url": "https://sidearmstats.com/fortwayne/mbball/game.json"
        }
       },
       {
@@ -1774,7 +1774,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T13:16:29-06:00"
+     "fetched": "2026-11-06T18:03:24-06:00"
     },
     "alma": {
      "games": [
@@ -2692,7 +2692,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T13:16:29-06:00"
+     "fetched": "2026-11-06T18:03:24-06:00"
     },
     "calvin": {
      "games": [
@@ -3542,7 +3542,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T13:16:29-06:00"
+     "fetched": "2026-11-06T18:03:24-06:00"
     },
     "hope": {
      "games": [
@@ -3665,7 +3665,7 @@
        },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/northcentralcollege/mbball/game.json"
+        "url": "https://sidearmstats.com/ncc/mbball/game.json"
        }
       },
       {
@@ -3725,7 +3725,7 @@
        },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/uwplatte/mbball/game.json"
+        "url": "https://sidearmstats.com/uwplatteville/mbball/game.json"
        }
       },
       {
@@ -4418,7 +4418,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T13:16:29-06:00"
+     "fetched": "2026-11-06T18:03:24-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5268,7 +5268,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T13:16:29-06:00"
+     "fetched": "2026-11-06T18:03:24-06:00"
     },
     "olivet": {
      "games": [
@@ -5903,7 +5903,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "live_stats": "https://www.olivetcomets.com/links/4yedix",
+        "video": "https://www.olivetcomets.com/links/xbzgdm"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/calvinu/mbball/game.json"
@@ -6101,7 +6104,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T13:16:29-06:00"
+     "fetched": "2026-11-06T18:03:24-06:00"
     },
     "trine": {
      "games": [
@@ -6131,7 +6134,7 @@
        },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/casewestern/mbball/game.json"
+        "url": "https://sidearmstats.com/case/mbball/game.json"
        }
       },
       {
@@ -6160,7 +6163,7 @@
        },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/casewestern/mbball/game.json"
+        "url": "https://sidearmstats.com/case/mbball/game.json"
        }
       },
       {
@@ -6985,7 +6988,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T13:16:29-06:00"
+     "fetched": "2026-11-06T18:03:24-06:00"
     }
    },
    "poll": {
@@ -7746,7 +7749,7 @@
        },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/adri/wbball/game.json"
+        "url": "https://sidearmstats.com/adrian/wbball/game.json"
        }
       },
       {
@@ -7777,7 +7780,7 @@
        },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/adri/wbball/game.json"
+        "url": "https://sidearmstats.com/adrian/wbball/game.json"
        }
       },
       {
@@ -7808,7 +7811,7 @@
        },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/adri/wbball/game.json"
+        "url": "https://sidearmstats.com/adrian/wbball/game.json"
        }
       },
       {
@@ -7870,7 +7873,7 @@
        },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/adri/wbball/game.json"
+        "url": "https://sidearmstats.com/adrian/wbball/game.json"
        }
       },
       {
@@ -7927,7 +7930,7 @@
        },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/adri/wbball/game.json"
+        "url": "https://sidearmstats.com/adrian/wbball/game.json"
        }
       },
       {
@@ -7958,7 +7961,7 @@
        },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/adri/wbball/game.json"
+        "url": "https://sidearmstats.com/adrian/wbball/game.json"
        }
       },
       {
@@ -8073,7 +8076,7 @@
        },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/adri/wbball/game.json"
+        "url": "https://sidearmstats.com/adrian/wbball/game.json"
        }
       },
       {
@@ -8133,7 +8136,7 @@
        },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/adri/wbball/game.json"
+        "url": "https://sidearmstats.com/adrian/wbball/game.json"
        }
       },
       {
@@ -8164,7 +8167,7 @@
        },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/adri/wbball/game.json"
+        "url": "https://sidearmstats.com/adrian/wbball/game.json"
        }
       },
       {
@@ -8256,7 +8259,7 @@
        },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/adri/wbball/game.json"
+        "url": "https://sidearmstats.com/adrian/wbball/game.json"
        }
       },
       {
@@ -8318,7 +8321,7 @@
        },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/adri/wbball/game.json"
+        "url": "https://sidearmstats.com/adrian/wbball/game.json"
        }
       },
       {
@@ -8379,7 +8382,7 @@
        },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/adri/wbball/game.json"
+        "url": "https://sidearmstats.com/adrian/wbball/game.json"
        }
       },
       {
@@ -8472,7 +8475,7 @@
        },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/adri/wbball/game.json"
+        "url": "https://sidearmstats.com/adrian/wbball/game.json"
        }
       }
      ],
@@ -8592,7 +8595,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T13:16:29-06:00"
+     "fetched": "2026-11-06T18:03:24-06:00"
     },
     "albion": {
      "games": [
@@ -8618,7 +8621,6 @@
        "pa": null,
        "status": "",
        "links": {
-        "video": "https://gobrits.com/sports/womens-basketball/flocollege.com/signup?redirect=/live/284306&utm_campaign=867343albionvsheidelb&utm_medium=partner&utm_source=multiple&utm_content=signup&contract_id=0063m00000n3zlaaam&coverage_id=16249863&sp=conf-partner-k7p2",
         "live_stats": "https://www.bergathletics.com/sidearmstats/wbball/summary"
        },
        "live_feed": {
@@ -9405,7 +9407,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T13:16:29-06:00"
+     "fetched": "2026-11-06T18:03:24-06:00"
     },
     "alma": {
      "games": [
@@ -10257,7 +10259,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T13:16:29-06:00"
+     "fetched": "2026-11-06T18:03:24-06:00"
     },
     "calvin": {
      "games": [
@@ -11056,7 +11058,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T13:16:29-06:00"
+     "fetched": "2026-11-06T18:03:24-06:00"
     },
     "hope": {
      "games": [
@@ -11910,7 +11912,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T13:16:29-06:00"
+     "fetched": "2026-11-06T18:03:24-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -11935,8 +11937,14 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
-       "live_feed": null
+       "links": {
+        "video": "https://oberlinsportsnetwork.com/",
+        "live_stats": "https://goyeo.com/sidearmstats/wbball/summary"
+       },
+       "live_feed": {
+        "type": "sidearm",
+        "url": "https://sidearmstats.com/oberlin/wbball/game.json"
+       }
       },
       {
        "id": "kalamazoo-wbb-6941",
@@ -12739,7 +12747,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T13:16:29-06:00"
+     "fetched": "2026-11-06T18:03:24-06:00"
     },
     "olivet": {
      "games": [
@@ -13553,7 +13561,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T13:16:29-06:00"
+     "fetched": "2026-11-06T18:03:24-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14412,7 +14420,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T13:16:29-06:00"
+     "fetched": "2026-11-06T18:03:24-06:00"
     },
     "trine": {
      "games": [
@@ -15274,7 +15282,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T13:16:29-06:00"
+     "fetched": "2026-11-06T18:03:24-06:00"
     }
    },
    "poll": {
@@ -16064,15 +16072,10 @@
   }
  },
  "errors": [
-  "Olivet mbb schedule: HTTP Error 405: Not Allowed",
-  "Olivet mbb leaders: HTTP Error 405: Not Allowed",
+  "Olivet mbb leaders: HTTP Error 503: Service Unavailable",
   "d3hoops mbb: poll table not found",
-  "Olivet wbb schedule: HTTP Error 405: Not Allowed",
-  "Olivet wbb leaders: HTTP Error 405: Not Allowed",
+  "Olivet wbb leaders: HTTP Error 503: Service Unavailable",
   "d3hoops wbb: poll table not found"
  ],
- "stale": {
-  "olivet-mbb-schedule": "2026-11-06T09:33:31-06:00",
-  "olivet-wbb-schedule": "2026-11-06T09:33:31-06:00"
- }
+ "stale": {}
 }

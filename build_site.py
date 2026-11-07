@@ -4,7 +4,7 @@ import html
 import json
 import re
 from collections import Counter
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, time as clock_time, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -114,6 +114,15 @@ def rating_rank(sport, slug):
 
 def ordered(sport):
     return sorted(members(sport), key=lambda s: (rating_rank(sport, s["slug"]), s["name"]))
+
+
+def live_window_end(game):
+    """When the page stops reading a game's live feed (see inWindow in the page script)."""
+    dt = parse(game["date"])
+    if game.get("time_tbd"):
+        day = dt.astimezone(EASTERN).date()
+        return datetime.combine(day + timedelta(days=1), clock_time(3), EASTERN)
+    return dt + timedelta(hours=8)
 
 
 def tip_text(game):
@@ -236,9 +245,10 @@ def featured_games(sport):
             continue
         for g in team["games"]:
             dt = parse(g["date"])
-            # A game still marked "pre" more than 4 hours (the live window) after tipoff was played without a
-            # posted result, usually an exhibition, so it is no longer anyone's next game.
-            if g["state"] == "pre" and dt < NOW - timedelta(hours=4):
+            # A game still marked "pre" after the page's live window has closed was played without a posted
+            # result, usually an exhibition, so it is no longer anyone's next game. The window matches inWindow()
+            # in the page script: 8 hours after tipoff, or through 3 a.m. Eastern after a TBA game's date.
+            if g["state"] == "pre" and NOW > live_window_end(g):
                 continue
             if g["state"] == "in":
                 kind = "in"
@@ -305,7 +315,7 @@ def game_card(sport, school, g, twin, kind="pre"):
         if g["state"] == "post":
             opener += '<span class="chip">Not counted in the record</span>' 
     note = f'<dt>Note</dt><dd>{esc(g["note"])}</dd>' if g.get("note") else ""
-    return f'''<article class="game {status_class}" data-game="{esc(g["id"])}"{twin_attr} data-teams="{esc(team_slugs)}" data-date="{esc(g["date"])}" data-home="{1 if g["home"] else 0}"{feed_attrs}{progress_attr} style="--team:var(--c-{school["slug"]})">
+    return f'''<article class="game {status_class}" data-game="{esc(g["id"])}"{twin_attr} data-teams="{esc(team_slugs)}" data-date="{esc(g["date"])}"{' data-tbd="1"' if g.get("time_tbd") else ""} data-home="{1 if g["home"] else 0}" data-us="{esc(school["name"] + " " + school.get("full_name", ""))}" data-them="{esc(opp["name"] + " " + (opp.get("short") or ""))}"{feed_attrs}{progress_attr} style="--team:var(--c-{school["slug"]})">
 <header><img src="{esc(school["logo"])}" alt=""><div><div class="who">{my_rk}{esc(school["name"])} <span class="muted">{esc(mascot(school, sport))}</span></div><div class="what">{"vs" if g["home"] or g.get("neutral") else "at"} {rk}{esc(opp["name"] if not opp.get("slug") else BY_SLUG[opp["slug"]]["name"] + " " + mascot(BY_SLUG[opp["slug"]], sport))}</div></div>{opp_img}</header>
 <div class="body">
 <div class="scoreline"><span class="score">{score}</span><span class="status">{status}</span></div>
@@ -1006,7 +1016,14 @@ tick();setInterval(tick,60000);
 const cards=[...document.querySelectorAll('.game[data-game]')];
 function etParts(iso){const p=new Intl.DateTimeFormat('en-US',{timeZone:'America/Detroit',year:'numeric',month:'numeric',day:'numeric'}).formatToParts(new Date(iso));const g=k=>p.find(x=>x.type===k).value;return {y:g('year'),m:g('month'),d:g('day')};}
 function mdy(iso){const t=etParts(iso);return t.m+'/'+t.d+'/'+t.y;}
-function inWindow(c,now){const t=new Date(c.dataset.date).getTime();return c.classList.contains('live')||(t-now<30*60000&&now-t<4*3600000);}
+// A game with a feed is read until the feed calls it final. A timed game: from 30 minutes before tipoff to 8 hours
+// after, which covers delays and the late game of a doubleheader. A TBA game carries a placeholder time, so it is
+// read all of its scheduled day in Eastern time, through 3 a.m. the next morning.
+function inWindow(c,now){
+  if(c.classList.contains('live'))return true;
+  if(c.dataset.tbd)return mdy(new Date(now-3*3600000).toISOString())===mdy(c.dataset.date);
+  const t=new Date(c.dataset.date).getTime();return t-now<30*60000&&now-t<8*3600000;
+}
 function windowOpen(){const now=Date.now();return cards.some(c=>inWindow(c,now));}
 function escHtml(t){return String(t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
 function ordinal(n){return ['','1st','2nd','3rd','4th'][n]||'';}
@@ -1100,6 +1117,20 @@ function sortCards(){
     items.forEach(c=>box.appendChild(c));
   });
 }
+// Team-name match between a card and a feed side. A neutral-site host's feed shows whatever game the crew is
+// working, often the host's own, so a feed counts only when one side names our team.
+const GENERIC=new Set(['university','college','of','the','at','and','state','st','u','univ']);
+function nameTokens(s){return new Set(String(s||'').toLowerCase().replace(/[^a-z0-9 ]+/g,' ').split(' ').filter(w=>w.length>1&&!GENERIC.has(w)));}
+function overlap(a,b){const A=nameTokens(a);let n=0;nameTokens(b).forEach(w=>{if(A.has(w))n++;});return n;}
+// Returns the feed oriented to the card: 'home' is the card's home side (our team when data-home is 1), or null
+// when neither side of the feed is our team.
+function orient(el,f,hName,vName){
+  const usH=overlap(el.dataset.us,hName),usV=overlap(el.dataset.us,vName);
+  if(!usH&&!usV)return null;
+  const weAreFeedHome=usH>usV||(usH===usV&&overlap(el.dataset.them,vName)>overlap(el.dataset.them,hName));
+  if(weAreFeedHome!==(el.dataset.home==='1'))[f.home,f.away]=[f.away,f.home];
+  return f;
+}
 async function feedState(el){
   const url=el.dataset.feed,type=el.dataset.feedType;if(!url)return null;
   const r=await fetch(url,{cache:'no-store'});if(!r.ok)return null;
@@ -1113,8 +1144,8 @@ async function feedState(el){
     const last=(g.LastPlays||[])[0];
     let arrow=null;
     if(isHalftime(period,clockSec,'',regulation)){const a=await sidearmArrow(url,regulation);arrow=a==='H'?H.name:a==='V'?V.name:null;}
-    return {complete:!!g.IsComplete,home:+g.HomeTeam.Score||0,away:+g.VisitingTeam.Score||0,status:statusText(period,clockSec,'',regulation),progress:progressOf(period,clockSec,regulation),
-      arrow,bonus:bonusText(g.Context,H,V),last:last?fixNames(last.Narrative):''};
+    return orient(el,{complete:!!g.IsComplete,home:+g.HomeTeam.Score||0,away:+g.VisitingTeam.Score||0,status:statusText(period,clockSec,'',regulation),progress:progressOf(period,clockSec,regulation),
+      arrow,bonus:bonusText(g.Context,H,V),last:last?fixNames(last.Narrative):''},H.name,V.name);
   }
   if(type==='presto'){
     const x=new DOMParser().parseFromString(await r.text(),'application/xml');
@@ -1128,7 +1159,7 @@ async function feedState(el){
     if(isHalftime(period,-1,clockText,regulation)){const a=prestoArrow(x,regulation);arrow=a==='H'?H.name:a==='V'?V.name:null;}
     const plays=[...x.querySelectorAll('plays period:last-of-type play')];const lp=plays[plays.length-1];
     const last=lp?[lp.getAttribute('team'),fixNames(lp.getAttribute('checkname')||''),lp.getAttribute('action'),lp.getAttribute('type')].filter(Boolean).join(' ').toLowerCase().replace(/^\w/,c=>c.toUpperCase()):'';
-    return {complete:st.getAttribute('complete')==='Y',home:H.score,away:V.score,status:statusText(period,-1,clockText,regulation),progress:progressOf(period,clockToSec(clockText),regulation),arrow,bonus:'',last};
+    return orient(el,{complete:st.getAttribute('complete')==='Y',home:H.score,away:V.score,status:statusText(period,-1,clockText,regulation),progress:progressOf(period,clockToSec(clockText),regulation),arrow,bonus:'',last},H.name,V.name);
   }
   return null;
 }

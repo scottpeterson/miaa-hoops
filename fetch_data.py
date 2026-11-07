@@ -299,7 +299,10 @@ def live_feed(url):
             feed = {"type": "presto", "url": f"https://data.prestolivestats.com/xml/{p.group(1)}/events/{p.group(2)}.xml"}
         elif s:
             page = get(url)
-            client = re.search(r'client_shortname\s*=\s*"([^"]+)"', page)
+            # The stat crew publishes under the folder name, which can differ from the client name
+            # (Case Western: client "casewestern", folder "case").
+            client = (re.search(r'livestats_foldername\s*=\s*"([^"]+)"', page)
+                      or re.search(r'client_shortname\s*=\s*"([^"]+)"', page))
             if client:
                 feed = {"type": "sidearm", "url": f"https://sidearmstats.com/{client.group(1)}/{s.group(2)}/game.json"}
     except (urllib.error.URLError, TimeoutError, ValueError):
