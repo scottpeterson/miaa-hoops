@@ -236,9 +236,8 @@ def perspective(school, g, twin):
 # ---------------------------------------------------------------- sections
 
 def featured_games(sport):
-    """One game per team: in progress, a game today (Eastern date), a final from the last 36 hours, the next game
-    within 8 days, or the next game at all. Today's game outranks yesterday's final so a team that plays on
-    consecutive days, as in a tip-off tournament, shows the game it plays today."""
+    """One game per team: in progress, an upcoming game today (Eastern date), a final from today, the next game
+    within 8 days, or the next game at all. A final from an earlier day never appears; the team's next game does."""
     best = {}
     rank = {"in": 0, "today": 1, "post": 2, "pre": 3, "far": 4}
     today = NOW.astimezone(EASTERN).date()
@@ -259,7 +258,7 @@ def featured_games(sport):
                 kind = "today"
             elif g["state"] == "pre" and dt <= NOW + timedelta(days=8):
                 kind = "pre"
-            elif g["state"] == "post" and dt >= NOW - timedelta(hours=36):
+            elif g["state"] == "post" and dt.astimezone(EASTERN).date() == today:
                 kind = "post"
             elif g["state"] == "pre" and not g.get("exhibition"):
                 kind = "far"
@@ -352,11 +351,11 @@ def progress(status, sport):
 
 
 def card_order(sport, g):
-    """Finished games first (earliest first), then games in progress (furthest along first), then upcoming games by tipoff."""
-    if g["state"] == "post":
-        return (0, 0.0, g["date"])
+    """Games in progress first (furthest along first), then today's finals (earliest first), then upcoming games by tipoff."""
     if g["state"] == "in":
-        return (1, -progress(g["status"], sport), g["date"])
+        return (0, -progress(g["status"], sport), g["date"])
+    if g["state"] == "post":
+        return (1, 0.0, g["date"])
     return (2, 0.0, g["date"])
 
 
@@ -1106,13 +1105,13 @@ function progressOf(period,clockSec,regulation){
   return(total+(period-regulation-1)*300+(300-clockSec))/total;
 }
 function clockToSec(t){const m=/^(\d+):(\d+)/.exec(t||'');return m?(+m[1])*60+(+m[2]):0;}
-// Card order: finished games first (earliest finish first), then games in progress (furthest along first),
+// Card order: games in progress first (furthest along first), then finished games (earliest finish first),
 // then upcoming games by tipoff. A finish time is known only for games that ended while the page was open,
 // so other finals use tipoff plus two hours.
 function cardKey(el){
   const tip=new Date(el.dataset.date).getTime();
-  if(el.classList.contains('final'))return[0,el.dataset.finished?+el.dataset.finished:tip+7200000];
-  if(el.classList.contains('live'))return[1,-(+el.dataset.progress||0)];
+  if(el.classList.contains('live'))return[0,-(+el.dataset.progress||0)];
+  if(el.classList.contains('final'))return[1,el.dataset.finished?+el.dataset.finished:tip+7200000];
   return[2,tip];
 }
 function sortCards(){
