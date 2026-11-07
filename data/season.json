@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-07T14:07:42-06:00",
+ "fetched_at": "2026-11-07T15:43:37-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -82,7 +82,8 @@
        "pa": 77,
        "status": "",
        "links": {
-        "boxscore": "https://adrianbulldogs.com/sports/mens-basketball/stats/2026-27/university-of-dubuque/boxscore/24137"
+        "boxscore": "https://adrianbulldogs.com/sports/mens-basketball/stats/2026-27/university-of-dubuque/boxscore/24137",
+        "recap": "https://adrianbulldogs.com/news/2026/11/7/wright-records-double-double-as-mens-basketball-falls-to-dubuque.aspx"
        },
        "live_feed": null
       },
@@ -886,7 +887,7 @@
      "pa": 167,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T14:07:42-06:00"
+     "fetched": "2026-11-07T15:43:37-06:00"
     },
     "albion": {
      "games": [
@@ -1706,7 +1707,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T14:07:42-06:00"
+     "fetched": "2026-11-07T15:43:37-06:00"
     },
     "alma": {
      "games": [
@@ -2621,7 +2622,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T14:07:42-06:00"
+     "fetched": "2026-11-07T15:43:37-06:00"
     },
     "calvin": {
      "games": [
@@ -3425,7 +3426,7 @@
      "pa": 88,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T14:07:42-06:00"
+     "fetched": "2026-11-07T15:43:37-06:00"
     },
     "hope": {
      "games": [
@@ -4272,7 +4273,7 @@
      "pa": 63,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T14:07:42-06:00"
+     "fetched": "2026-11-07T15:43:37-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5122,7 +5123,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T14:07:42-06:00"
+     "fetched": "2026-11-07T15:43:37-06:00"
     },
     "olivet": {
      "games": [
@@ -5853,9 +5854,9 @@
      ],
      "roster": {
       "url": "https://www.olivetcomets.com/sports/mbkb/2026-27/roster",
-      "season": "2026-27",
-      "players": 17,
-      "current": true
+      "season": null,
+      "players": 0,
+      "current": false
      },
      "players": [
       {
@@ -5942,7 +5943,7 @@
      "pa": 70,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T14:07:42-06:00"
+     "fetched": "2026-11-07T15:43:37-06:00"
     },
     "trine": {
      "games": [
@@ -5989,18 +5990,15 @@
        "conference": false,
        "location": "Cleveland, OH",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "W",
+       "pf": 85,
+       "pa": 59,
        "status": "",
        "links": {
-        "live_stats": "https://athletics.case.edu/sidearmstats/mbball/summary"
+        "boxscore": "https://trinethunder.com/sports/mens-basketball/stats/2026-27/kenyon/boxscore/8529"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/case/mbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "trine-mbb-8534",
@@ -6713,81 +6711,81 @@
        "label": "Points",
        "name": "Cade Brenner",
        "jersey": "3",
-       "gp": "1",
-       "total": "18",
-       "avg": "18.0",
-       "line": "18.0 per game, 18 total",
+       "gp": "2",
+       "total": "31",
+       "avg": "15.5",
+       "line": "15.5 per game, 31 total",
        "position": "G",
        "year": "Junior"
       },
       {
        "label": "Points",
-       "name": "Elisha Jones",
-       "jersey": "2",
-       "gp": "1",
-       "total": "10",
-       "avg": "10.0",
-       "line": "10.0 per game, 10 total",
-       "position": "PG",
+       "name": "Jess Roller",
+       "jersey": "24",
+       "gp": "2",
+       "total": "22",
+       "avg": "11.0",
+       "line": "11.0 per game, 22 total",
+       "position": "G",
        "year": "Junior"
       },
       {
        "label": "Rebounds",
-       "name": "Drake Ahrens",
-       "jersey": "14",
-       "gp": "1",
-       "total": "6",
-       "avg": "6.0",
-       "line": "6.0 per game, 6 total",
+       "name": "Jess Roller",
+       "jersey": "24",
+       "gp": "2",
+       "total": "10",
+       "avg": "5.0",
+       "line": "5.0 per game, 10 total",
        "position": "G",
-       "year": "Freshman"
+       "year": "Junior"
       },
       {
        "label": "Assists",
        "name": "Drake Ahrens",
        "jersey": "14",
-       "gp": "1",
+       "gp": "2",
        "total": "5",
-       "avg": "5.0",
-       "line": "5.0 per game, 5 total",
+       "avg": "2.5",
+       "line": "2.5 per game, 5 total",
        "position": "G",
        "year": "Freshman"
       },
       {
        "label": "Steals",
-       "name": "Jess Roller",
-       "jersey": "24",
-       "gp": "1",
-       "total": "2",
+       "name": "Drake Ahrens",
+       "jersey": "14",
+       "gp": "2",
+       "total": "4",
        "avg": "2.0",
-       "line": "2.0 per game, 2 total",
+       "line": "2.0 per game, 4 total",
        "position": "G",
-       "year": "Junior"
+       "year": "Freshman"
       },
       {
        "label": "Blocks",
-       "name": "Cade Brenner",
-       "jersey": "3",
-       "gp": "1",
+       "name": "Drake Ahrens",
+       "jersey": "14",
+       "gp": "2",
        "total": "1",
-       "avg": "1.0",
-       "line": "1.0 per game, 1 total",
+       "avg": "0.5",
+       "line": "0.5 per game, 1 total",
        "position": "G",
-       "year": "Junior"
+       "year": "Freshman"
       }
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 1,
-     "wins": 0,
+     "played": 2,
+     "wins": 1,
      "losses": 1,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 70,
-     "pa": 73,
-     "record": "0-1",
+     "pf": 155,
+     "pa": 132,
+     "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T14:07:42-06:00"
+     "fetched": "2026-11-07T15:43:37-06:00"
     }
    },
    "poll": {
@@ -8424,7 +8422,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T14:07:42-06:00"
+     "fetched": "2026-11-07T15:43:37-06:00"
     },
     "albion": {
      "games": [
@@ -9236,7 +9234,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T14:07:42-06:00"
+     "fetched": "2026-11-07T15:43:37-06:00"
     },
     "alma": {
      "games": [
@@ -10077,7 +10075,7 @@
      "pa": 80,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T14:07:42-06:00"
+     "fetched": "2026-11-07T15:43:37-06:00"
     },
     "calvin": {
      "games": [
@@ -10856,7 +10854,7 @@
      "pa": 113,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T14:07:42-06:00"
+     "fetched": "2026-11-07T15:43:37-06:00"
     },
     "hope": {
      "games": [
@@ -11693,7 +11691,7 @@
      "pa": 65,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T14:07:42-06:00"
+     "fetched": "2026-11-07T15:43:37-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12528,7 +12526,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T14:07:42-06:00"
+     "fetched": "2026-11-07T15:43:37-06:00"
     },
     "olivet": {
      "games": [
@@ -13244,9 +13242,9 @@
      ],
      "roster": {
       "url": "https://www.olivetcomets.com/sports/wbkb/2026-27/roster",
-      "season": "2026-27",
-      "players": 20,
-      "current": true
+      "season": null,
+      "players": 0,
+      "current": false
      },
      "players": [
       {
@@ -13333,7 +13331,7 @@
      "pa": 51,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T14:07:42-06:00"
+     "fetched": "2026-11-07T15:43:37-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14176,7 +14174,7 @@
      "pa": 76,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T14:07:42-06:00"
+     "fetched": "2026-11-07T15:43:37-06:00"
     },
     "trine": {
      "games": [
@@ -15038,7 +15036,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T14:07:42-06:00"
+     "fetched": "2026-11-07T15:43:37-06:00"
     }
    },
    "poll": {
@@ -15826,8 +15824,15 @@
   }
  },
  "errors": [
+  "Olivet mbb schedule: HTTP Error 405: Not Allowed",
+  "Olivet mbb leaders: HTTP Error 405: Not Allowed",
   "d3hoops mbb: poll table not found",
+  "Olivet wbb schedule: HTTP Error 405: Not Allowed",
+  "Olivet wbb leaders: HTTP Error 405: Not Allowed",
   "d3hoops wbb: poll table not found"
  ],
- "stale": {}
+ "stale": {
+  "olivet-mbb-schedule": "2026-11-07T14:07:42-06:00",
+  "olivet-wbb-schedule": "2026-11-07T14:07:42-06:00"
+ }
 }
