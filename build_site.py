@@ -236,9 +236,12 @@ def perspective(school, g, twin):
 # ---------------------------------------------------------------- sections
 
 def featured_games(sport):
-    """One game per team: in progress, a final from the last 36 hours, the next game within 8 days, or the next game at all."""
+    """One game per team: in progress, a game today (Eastern date), a final from the last 36 hours, the next game
+    within 8 days, or the next game at all. Today's game outranks yesterday's final so a team that plays on
+    consecutive days, as in a tip-off tournament, shows the game it plays today."""
     best = {}
-    rank = {"in": 0, "post": 1, "pre": 2, "far": 3}
+    rank = {"in": 0, "today": 1, "post": 2, "pre": 3, "far": 4}
+    today = NOW.astimezone(EASTERN).date()
     for school in ordered(sport):
         team = teams(sport).get(school["slug"])
         if not team:
@@ -252,6 +255,8 @@ def featured_games(sport):
                 continue
             if g["state"] == "in":
                 kind = "in"
+            elif g["state"] == "pre" and dt.astimezone(EASTERN).date() == today:
+                kind = "today"
             elif g["state"] == "pre" and dt <= NOW + timedelta(days=8):
                 kind = "pre"
             elif g["state"] == "post" and dt >= NOW - timedelta(hours=36):
