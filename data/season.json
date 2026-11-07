@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-06T23:30:00-06:00",
+ "fetched_at": "2026-11-06T23:49:30-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -951,7 +951,7 @@
      "pa": 90,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T23:30:00-06:00"
+     "fetched": "2026-11-06T23:49:30-06:00"
     },
     "albion": {
      "games": [
@@ -1771,7 +1771,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T23:30:00-06:00"
+     "fetched": "2026-11-06T23:49:30-06:00"
     },
     "alma": {
      "games": [
@@ -2686,7 +2686,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T23:30:00-06:00"
+     "fetched": "2026-11-06T23:49:30-06:00"
     },
     "calvin": {
      "games": [
@@ -3490,7 +3490,7 @@
      "pa": 88,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T23:30:00-06:00"
+     "fetched": "2026-11-06T23:49:30-06:00"
     },
     "hope": {
      "games": [
@@ -3516,6 +3516,7 @@
        "pa": null,
        "status": "",
        "links": {
+        "recap": "https://athletics.hope.edu/news/2026/11/7/mens-basketball-cleans-up-on-the-glass-powers-past-anderson-in-opener.aspx",
         "boxscore": "https://athletics.hope.edu/sports/mens-basketball/stats/2026-27/anderson-university-in-/boxscore/18639"
        },
        "live_feed": {
@@ -4339,7 +4340,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T23:30:00-06:00"
+     "fetched": "2026-11-06T23:49:30-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5189,7 +5190,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T23:30:00-06:00"
+     "fetched": "2026-11-06T23:49:30-06:00"
     },
     "olivet": {
      "games": [
@@ -6025,7 +6026,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T23:30:00-06:00"
+     "fetched": "2026-11-06T23:49:30-06:00"
     },
     "trine": {
      "games": [
@@ -6870,7 +6871,7 @@
      "pa": 73,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T23:30:00-06:00"
+     "fetched": "2026-11-06T23:49:30-06:00"
     }
    },
    "poll": {
@@ -8483,7 +8484,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T23:30:00-06:00"
+     "fetched": "2026-11-06T23:49:30-06:00"
     },
     "albion": {
      "games": [
@@ -9295,7 +9296,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T23:30:00-06:00"
+     "fetched": "2026-11-06T23:49:30-06:00"
     },
     "alma": {
      "games": [
@@ -10136,7 +10137,7 @@
      "pa": 80,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T23:30:00-06:00"
+     "fetched": "2026-11-06T23:49:30-06:00"
     },
     "calvin": {
      "games": [
@@ -10919,7 +10920,7 @@
      "pa": 61,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T23:30:00-06:00"
+     "fetched": "2026-11-06T23:49:30-06:00"
     },
     "hope": {
      "games": [
@@ -11759,7 +11760,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T23:30:00-06:00"
+     "fetched": "2026-11-06T23:49:30-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12594,7 +12595,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T23:30:00-06:00"
+     "fetched": "2026-11-06T23:49:30-06:00"
     },
     "olivet": {
      "games": [
@@ -13408,7 +13409,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T23:30:00-06:00"
+     "fetched": "2026-11-06T23:49:30-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14251,7 +14252,7 @@
      "pa": 76,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T23:30:00-06:00"
+     "fetched": "2026-11-06T23:49:30-06:00"
     },
     "trine": {
      "games": [
@@ -15113,7 +15114,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-06T23:30:00-06:00"
+     "fetched": "2026-11-06T23:49:30-06:00"
     }
    },
    "poll": {
@@ -15911,7 +15912,7 @@
   "d3hoops wbb: poll table not found"
  ],
  "stale": {
-  "olivet-mbb-schedule": "2026-11-06T19:30:10-06:00",
-  "olivet-wbb-schedule": "2026-11-06T19:30:10-06:00"
+  "olivet-mbb-schedule": "2026-11-06T23:30:00-06:00",
+  "olivet-wbb-schedule": "2026-11-06T23:30:00-06:00"
  }
 }
