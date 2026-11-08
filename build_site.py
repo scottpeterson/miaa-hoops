@@ -809,7 +809,7 @@ def tournament_section():
 <p>This page will link to the MIAA's document the day it appears. Until then, the best available evidence is the school releases and fan posts below.</p>
 <p class="small">Documents at miaa.net belong to the Mid-America Intercollegiate Athletics Association, a Division II league, and do not apply here.</p>
 <article class="rule">
-<h3>What the evidence supports</h3>
+<h3>Evidence for each tiebreaker</h3>
 <p>This order is an inference from the three ties below and the fan posts. The MIAA does not publish it. Each step says how much evidence backs it.</p>
 <ol>
 <li><b>Head-to-head record among the tied teams.</b> Every source lists this first. In all three verified ties the teams split, so it decided nothing.</li>
@@ -818,7 +818,7 @@ def tournament_section():
 <li><b>Record in the second half of the double round robin.</b> Confirmed by the 2023 and 2024 women's races, and both school releases name it. In both cases the teams split head to head, had identical records against every other team, and had identical road records. That fits a step that sits after the first three.</li>
 <li><b>Coin flip.</b> One fan post. No case.</li>
 </ol>
-<p class="small">Two points stay open. One is how the MIAA breaks a three-team tie. One fan post says the conference once worked up from the bottom of the standings. The other is whether the second-half step counts the last half of the schedule or the second meeting with each opponent. The two readings matched in every case here.</p>
+<p class="small">The evidence does not show how the MIAA breaks a three-team tie. One fan post says the conference once worked up from the bottom of the standings. The evidence also does not show whether the second-half step counts the last half of the schedule or the second meeting with each opponent. The two readings matched in every case here.</p>
 <details class="poll"><summary>The three verified ties</summary>
 <div class="tablewrap"><table>
 <thead><tr><th>Tie</th><th>Head to head</th><th>Vs. the next team down</th><th>Road</th><th>Second half</th><th>Result</th></tr></thead>
@@ -832,7 +832,7 @@ def tournament_section():
 </article>
 <div class="rulegrid">
 <article class="rule">
-<h3>What school releases say the MIAA used</h3>
+<h3>Tiebreakers in school releases</h3>
 <ul>
 <li>Men, 2024: Trine took the No. 1 seed over co-champion Calvin. Trine swept third-place Hope and Calvin split with Hope. That is head-to-head results against the next team down the standings. Source: {calvin24m}.</li>
 <li>Women, 2024: Calvin took the No. 2 seed over Trine "on a tiebreaker edge based on a superior second half record." Source: {calvin24w}.</li>
