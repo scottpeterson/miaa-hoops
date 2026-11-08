@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-07T17:22:02-06:00",
+ "fetched_at": "2026-11-07T18:59:50-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -887,7 +887,7 @@
      "pa": 167,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T17:22:02-06:00"
+     "fetched": "2026-11-07T18:59:50-06:00"
     },
     "albion": {
      "games": [
@@ -1707,7 +1707,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T17:22:02-06:00"
+     "fetched": "2026-11-07T18:59:50-06:00"
     },
     "alma": {
      "games": [
@@ -2622,7 +2622,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T17:22:02-06:00"
+     "fetched": "2026-11-07T18:59:50-06:00"
     },
     "calvin": {
      "games": [
@@ -3426,7 +3426,7 @@
      "pa": 88,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T17:22:02-06:00"
+     "fetched": "2026-11-07T18:59:50-06:00"
     },
     "hope": {
      "games": [
@@ -3473,20 +3473,15 @@
        "conference": false,
        "location": "Holland, MI, DeVos Fieldhouse DeVette-VanWieren Court",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "W",
+       "pf": 79,
+       "pa": 59,
        "status": "",
        "links": {
-        "video": "https://youtube.com/hopeathletics",
-        "live_stats": "https://athletics.hope.edu/sidearmstats/mbball/summary",
-        "tickets": "http://hopecollege.vbotickets.com/event/mens_basketball_vs_franklin/202644"
+        "boxscore": "https://athletics.hope.edu/sports/mens-basketball/stats/2026-27/franklin-college/boxscore/18640"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/hopecollege/mbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "hope-mbb-18641",
@@ -4193,10 +4188,10 @@
        "label": "Points",
        "name": "Brendan Cargill",
        "jersey": "2",
-       "gp": "1",
-       "total": "20",
+       "gp": "2",
+       "total": "40",
        "avg": "20.0",
-       "line": "20.0 per game, 20 total",
+       "line": "20.0 per game, 40 total",
        "position": "Guard",
        "year": "Sophomore",
        "headshot": "https://athletics.hope.edu/images/2026/11/3/Cargill_Brendan.jpg?width=200&quality=90"
@@ -4205,10 +4200,10 @@
        "label": "Points",
        "name": "Orion Yant",
        "jersey": "13",
-       "gp": "1",
-       "total": "14",
-       "avg": "14.0",
-       "line": "14.0 per game, 14 total",
+       "gp": "2",
+       "total": "27",
+       "avg": "13.5",
+       "line": "13.5 per game, 27 total",
        "position": "Forward",
        "year": "Junior",
        "headshot": "https://athletics.hope.edu/images/2026/11/3/Yant_Orion.jpg?width=200&quality=90"
@@ -4217,34 +4212,34 @@
        "label": "Rebounds",
        "name": "Kyle Blauch",
        "jersey": "44",
-       "gp": "1",
-       "total": "13",
-       "avg": "13.0",
-       "line": "13.0 per game, 13 total",
+       "gp": "2",
+       "total": "19",
+       "avg": "9.5",
+       "line": "9.5 per game, 19 total",
        "position": "Forward",
        "year": "Junior",
        "headshot": "https://athletics.hope.edu/images/2026/11/3/Blauch_Kyle.jpg?width=200&quality=90"
       },
       {
        "label": "Assists",
-       "name": "Brendan Cargill",
-       "jersey": "2",
-       "gp": "1",
-       "total": "2",
+       "name": "Brady Miller",
+       "jersey": "0",
+       "gp": "2",
+       "total": "4",
        "avg": "2.0",
-       "line": "2.0 per game, 2 total",
+       "line": "2.0 per game, 4 total",
        "position": "Guard",
-       "year": "Sophomore",
-       "headshot": "https://athletics.hope.edu/images/2026/11/3/Cargill_Brendan.jpg?width=200&quality=90"
+       "year": "Junior",
+       "headshot": "https://athletics.hope.edu/images/2026/11/3/Miller_Brady.jpg?width=200&quality=90"
       },
       {
        "label": "Steals",
        "name": "Jared Ryg",
        "jersey": "12",
-       "gp": "1",
-       "total": "2",
+       "gp": "2",
+       "total": "4",
        "avg": "2.0",
-       "line": "2.0 per game, 2 total",
+       "line": "2.0 per game, 4 total",
        "position": "Guard",
        "year": "Junior",
        "headshot": "https://athletics.hope.edu/images/2026/11/3/Ryg_Jared.jpg?width=200&quality=90"
@@ -4253,10 +4248,10 @@
        "label": "Blocks",
        "name": "Ben Mehendale",
        "jersey": "25",
-       "gp": "1",
-       "total": "2",
-       "avg": "2.0",
-       "line": "2.0 per game, 2 total",
+       "gp": "2",
+       "total": "3",
+       "avg": "1.5",
+       "line": "1.5 per game, 3 total",
        "position": "Forward/Center",
        "year": "Freshman",
        "headshot": "https://athletics.hope.edu/images/2026/11/3/Mehendale_Ben.jpg?width=200&quality=90"
@@ -4264,16 +4259,16 @@
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 1,
-     "wins": 1,
+     "played": 2,
+     "wins": 2,
      "losses": 0,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 90,
-     "pa": 63,
-     "record": "1-0",
+     "pf": 169,
+     "pa": 122,
+     "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T17:22:02-06:00"
+     "fetched": "2026-11-07T18:59:50-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -4317,18 +4312,16 @@
        "conference": false,
        "location": "Columbus, OH",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "L",
+       "pf": 74,
+       "pa": 78,
        "status": "",
        "links": {
-        "live_stats": "https://athletics.capital.edu/sidearmstats/mbball/summary"
+        "boxscore": "https://hornets.kzoo.edu/sports/mens-basketball/stats/2026-27/capital/boxscore/7114",
+        "recap": "https://hornets.kzoo.edu/news/2026/11/7/mens-basketball-drops-season-opener-at-capital.aspx"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/capitalu/mbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "kalamazoo-mbb-7115",
@@ -5114,16 +5107,16 @@
       }
      ],
      "stats_season": "2025-26",
-     "played": 0,
+     "played": 1,
      "wins": 0,
-     "losses": 0,
+     "losses": 1,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 0,
-     "pa": 0,
-     "record": "0-0",
+     "pf": 74,
+     "pa": 78,
+     "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T17:22:02-06:00"
+     "fetched": "2026-11-07T18:59:50-06:00"
     },
     "olivet": {
      "games": [
@@ -5943,7 +5936,7 @@
      "pa": 70,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T17:22:02-06:00"
+     "fetched": "2026-11-07T18:59:50-06:00"
     },
     "trine": {
      "games": [
@@ -6785,7 +6778,7 @@
      "pa": 132,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T17:22:02-06:00"
+     "fetched": "2026-11-07T18:59:50-06:00"
     }
    },
    "poll": {
@@ -8422,7 +8415,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T17:22:02-06:00"
+     "fetched": "2026-11-07T18:59:50-06:00"
     },
     "albion": {
      "games": [
@@ -9234,7 +9227,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T17:22:02-06:00"
+     "fetched": "2026-11-07T18:59:50-06:00"
     },
     "alma": {
      "games": [
@@ -10075,7 +10068,7 @@
      "pa": 80,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T17:22:02-06:00"
+     "fetched": "2026-11-07T18:59:50-06:00"
     },
     "calvin": {
      "games": [
@@ -10855,7 +10848,7 @@
      "pa": 113,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T17:22:02-06:00"
+     "fetched": "2026-11-07T18:59:50-06:00"
     },
     "hope": {
      "games": [
@@ -11687,7 +11680,7 @@
      "pa": 130,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T17:22:02-06:00"
+     "fetched": "2026-11-07T18:59:50-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12522,7 +12515,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T17:22:02-06:00"
+     "fetched": "2026-11-07T18:59:50-06:00"
     },
     "olivet": {
      "games": [
@@ -13327,7 +13320,7 @@
      "pa": 51,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T17:22:02-06:00"
+     "fetched": "2026-11-07T18:59:50-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14170,7 +14163,7 @@
      "pa": 76,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T17:22:02-06:00"
+     "fetched": "2026-11-07T18:59:50-06:00"
     },
     "trine": {
      "games": [
@@ -15032,7 +15025,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T17:22:02-06:00"
+     "fetched": "2026-11-07T18:59:50-06:00"
     }
    },
    "poll": {
@@ -15307,11 +15300,11 @@
       "median_record": "6-19"
      },
      "albion": {
-      "rank": null,
-      "npi": "",
+      "rank": 9,
+      "npi": 55.556,
       "rank_change": null,
       "bid": "AL-130",
-      "record": "0-0 qualifying",
+      "record": "1-0 qualifying",
       "preseason_rank": 155,
       "returning": "63.30%",
       "tourney_pct": "0.2%",
@@ -15319,7 +15312,7 @@
       "median_record": "13-12"
      },
      "alma": {
-      "rank": 79,
+      "rank": 127,
       "npi": 44.444,
       "rank_change": null,
       "bid": "AL-155",
@@ -15331,11 +15324,11 @@
       "median_record": "12-13"
      },
      "calvin": {
-      "rank": 79,
-      "npi": 44.444,
+      "rank": 107,
+      "npi": 50,
       "rank_change": null,
       "bid": "AL-75",
-      "record": "0-1 qualifying",
+      "record": "1-1 qualifying",
       "preseason_rank": 37,
       "returning": "67.56%",
       "tourney_pct": "3.5%",
@@ -15343,11 +15336,11 @@
       "median_record": "15-10"
      },
      "hope": {
-      "rank": 1,
-      "npi": 55.556,
+      "rank": 96,
+      "npi": 53.333,
       "rank_change": null,
       "bid": "AL-03",
-      "record": "1-0 qualifying",
+      "record": "2-0 qualifying",
       "preseason_rank": 5,
       "returning": "79.93%",
       "tourney_pct": "95.4%",
@@ -15367,7 +15360,7 @@
       "median_record": "9-16"
      },
      "olivet": {
-      "rank": 79,
+      "rank": 127,
       "npi": 44.444,
       "rank_change": null,
       "bid": "AL-155",
@@ -15379,7 +15372,7 @@
       "median_record": "2-23"
      },
      "saintmarys": {
-      "rank": 1,
+      "rank": 9,
       "npi": 55.556,
       "rank_change": null,
       "bid": "AL-155",
@@ -15414,6 +15407,7 @@
      "Allegheny",
      "Alma",
      "Alvernia",
+     "Alverno",
      "Amherst",
      "Anderson",
      "Arcadia",
@@ -15455,6 +15449,7 @@
      "Calvin",
      "Capital",
      "Carleton",
+     "Carlow",
      "Carnegie Mellon",
      "Carroll",
      "Carthage",
@@ -15633,7 +15628,6 @@
      "Muhlenberg",
      "Muskingum",
      "NC Wesleyan",
-     "NJ City",
      "NYU",
      "Nazareth",
      "Nebraska Wesleyan",
@@ -15662,6 +15656,7 @@
      "Penn St. Altoona",
      "Penn St. Behrend",
      "Penn St. Berks",
+     "Penn St. Brandywine",
      "Penn St. Harrisburg",
      "Pfeiffer",
      "Piedmont",
@@ -15774,7 +15769,6 @@
      "VTSU Castleton",
      "VTSU Johnson",
      "VTSU Lyndon",
-     "Valley Forge",
      "Vassar",
      "WPI",
      "Warren Wilson",
@@ -15788,7 +15782,6 @@
      "Wellesley",
      "Wentworth",
      "Wesleyan (CT)",
-     "Wesleyan (GA)",
      "Western Connecticut St.",
      "Western New England",
      "Westfield St.",
@@ -15828,7 +15821,7 @@
   "d3hoops wbb: poll table not found"
  ],
  "stale": {
-  "olivet-mbb-schedule": "2026-11-07T15:43:37-06:00",
-  "olivet-wbb-schedule": "2026-11-07T15:43:37-06:00"
+  "olivet-mbb-schedule": "2026-11-07T17:22:02-06:00",
+  "olivet-wbb-schedule": "2026-11-07T17:22:02-06:00"
  }
 }
