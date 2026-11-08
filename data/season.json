@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-08T07:14:00-06:00",
+ "fetched_at": "2026-11-08T15:57:37-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -887,7 +887,7 @@
      "pa": 167,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-08T07:14:00-06:00"
+     "fetched": "2026-11-08T15:57:37-06:00"
     },
     "albion": {
      "games": [
@@ -1671,7 +1671,7 @@
      "pa": 103,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-08T07:14:00-06:00"
+     "fetched": "2026-11-08T15:57:37-06:00"
     },
     "alma": {
      "games": [
@@ -2586,7 +2586,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-08T07:14:00-06:00"
+     "fetched": "2026-11-08T15:57:37-06:00"
     },
     "calvin": {
      "games": [
@@ -3387,7 +3387,7 @@
      "pa": 150,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-08T07:14:00-06:00"
+     "fetched": "2026-11-08T15:57:37-06:00"
     },
     "hope": {
      "games": [
@@ -4230,7 +4230,7 @@
      "pa": 122,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-08T07:14:00-06:00"
+     "fetched": "2026-11-08T15:57:37-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5065,7 +5065,7 @@
      "pa": 78,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-08T07:14:00-06:00"
+     "fetched": "2026-11-08T15:57:37-06:00"
     },
     "olivet": {
      "games": [
@@ -5885,7 +5885,7 @@
      "pa": 70,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-08T07:14:00-06:00"
+     "fetched": "2026-11-08T15:57:37-06:00"
     },
     "trine": {
      "games": [
@@ -6728,7 +6728,7 @@
      "pa": 132,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-08T07:14:00-06:00"
+     "fetched": "2026-11-08T15:57:37-06:00"
     }
    },
    "poll": {
@@ -6978,8 +6978,8 @@
     "source": "D3 Datacast",
     "url": "https://d3datacast.com/npi/mbb/",
     "eff_url": "https://d3datacast.com/efficiency-ratings/",
-    "updated": "11/8/26 7:40 AM",
-    "eff_updated": "11/8/2026 7:41 AM",
+    "updated": "11/8/26 8:33 AM",
+    "eff_updated": "11/8/2026 8:33 AM",
     "count": 279,
     "teams": {
      "adrian": {
@@ -6991,7 +6991,7 @@
       "seed": "-",
       "eff_rank": 345,
       "adj_em": "-10.6",
-      "eff_updated": "11/8/2026 7:41 AM"
+      "eff_updated": "11/8/2026 8:33 AM"
      },
      "calvin": {
       "rank": 123,
@@ -7002,7 +7002,7 @@
       "seed": "-",
       "eff_rank": 78,
       "adj_em": "+8.7",
-      "eff_updated": "11/8/2026 7:41 AM"
+      "eff_updated": "11/8/2026 8:33 AM"
      },
      "hope": {
       "rank": 50,
@@ -7013,7 +7013,7 @@
       "seed": "-",
       "eff_rank": 39,
       "adj_em": "+13.3",
-      "eff_updated": "11/8/2026 7:41 AM"
+      "eff_updated": "11/8/2026 8:33 AM"
      },
      "kalamazoo": {
       "rank": 220,
@@ -7024,7 +7024,7 @@
       "seed": "-",
       "eff_rank": 363,
       "adj_em": "-12.8",
-      "eff_updated": "11/8/2026 7:41 AM"
+      "eff_updated": "11/8/2026 8:33 AM"
      },
      "olivet": {
       "rank": 59,
@@ -7035,7 +7035,7 @@
       "seed": "-",
       "eff_rank": 100,
       "adj_em": "+6.8",
-      "eff_updated": "11/8/2026 7:41 AM"
+      "eff_updated": "11/8/2026 8:33 AM"
      },
      "trine": {
       "rank": 140,
@@ -7046,17 +7046,17 @@
       "seed": "-",
       "eff_rank": 47,
       "adj_em": "+12.8",
-      "eff_updated": "11/8/2026 7:41 AM"
+      "eff_updated": "11/8/2026 8:33 AM"
      },
      "albion": {
       "eff_rank": 225,
       "adj_em": "-1.1",
-      "eff_updated": "11/8/2026 7:41 AM"
+      "eff_updated": "11/8/2026 8:33 AM"
      },
      "alma": {
       "eff_rank": 378,
       "adj_em": "-14.6",
-      "eff_updated": "11/8/2026 7:41 AM"
+      "eff_updated": "11/8/2026 8:33 AM"
      }
     },
     "d3_teams": [
@@ -7513,20 +7513,16 @@
        "conference": false,
        "location": "Adrian, Mich., Merillat Sport and Fitness Center",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "L",
+       "pf": 56,
+       "pa": 82,
        "status": "",
        "links": {
-        "video": "https://www.youtube.com/@AdrianCollegeTV",
-        "live_stats": "https://adrianbulldogs.com/sidearmstats/wbball/summary",
-        "tickets": "https://adrianbulldogs.com/sports/2022/8/8/ticketing?&openTarget=system"
+        "boxscore": "https://adrianbulldogs.com/sports/womens-basketball/stats/2026-27/university-of-chicago/boxscore/24109",
+        "recap": "https://adrianbulldogs.com/news/2026/11/8/womens-basketball-womens-basketball-shows-fight-against-no-10-uchicago-in-season-opener.aspx"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/adrian/wbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "adrian-wbb-24110",
@@ -8266,112 +8262,75 @@
        "label": "Points",
        "name": "Hannah Lisch",
        "jersey": "1",
-       "gp": "25",
-       "total": "270",
-       "avg": "10.8",
-       "line": "10.8 per game, 270 total",
+       "gp": "1",
+       "total": "11",
+       "avg": "11.0",
+       "line": "11.0 per game, 11 total",
        "position": "G",
-       "year": "Sophomore",
-       "headshot": "https://adrianbulldogs.com/images/2025/10/27/Hannah_Lisch.png?width=200&quality=90"
+       "year": "Junior",
+       "headshot": "https://adrianbulldogs.com/images/2026/10/7/Cropped_Hannah_Lisch.png?width=200&quality=90"
       },
       {
        "label": "Points",
-       "name": "Ava Schultz",
-       "jersey": "0",
-       "gp": "24",
-       "total": "143",
-       "avg": "6.0",
-       "line": "6.0 per game, 143 total",
+       "name": "Caitlin Griffin",
+       "jersey": "14",
+       "gp": "1",
+       "total": "9",
+       "avg": "9.0",
+       "line": "9.0 per game, 9 total",
        "position": "F",
-       "year": "Junior",
-       "headshot": "https://adrianbulldogs.com/images/2025/10/27/Ava_Schultz.png?width=200&quality=90"
+       "year": "Sophomore",
+       "headshot": "https://adrianbulldogs.com/images/2026/10/7/Cropped_Caitlin_Griffin.png?width=200&quality=90"
       },
       {
        "label": "Rebounds",
-       "name": "Ava Schultz",
-       "jersey": "0",
-       "gp": "24",
-       "total": "119",
-       "avg": "5.0",
-       "line": "5.0 per game, 119 total",
-       "position": "F",
+       "name": "Hannah Lisch",
+       "jersey": "1",
+       "gp": "1",
+       "total": "4",
+       "avg": "4.0",
+       "line": "4.0 per game, 4 total",
+       "position": "G",
        "year": "Junior",
-       "headshot": "https://adrianbulldogs.com/images/2025/10/27/Ava_Schultz.png?width=200&quality=90"
+       "headshot": "https://adrianbulldogs.com/images/2026/10/7/Cropped_Hannah_Lisch.png?width=200&quality=90"
       },
       {
        "label": "Assists",
-       "name": "Hannah Lisch",
-       "jersey": "1",
-       "gp": "25",
-       "total": "51",
-       "avg": "2.0",
-       "line": "2.0 per game, 51 total",
+       "name": "Ashlyn Moorehead",
+       "jersey": "23",
+       "gp": "1",
+       "total": "3",
+       "avg": "3.0",
+       "line": "3.0 per game, 3 total",
        "position": "G",
        "year": "Sophomore",
-       "headshot": "https://adrianbulldogs.com/images/2025/10/27/Hannah_Lisch.png?width=200&quality=90"
+       "headshot": "https://adrianbulldogs.com/images/2026/10/7/Cropped_Ashlyn_Moorehead.png?width=200&quality=90"
       },
       {
        "label": "Steals",
-       "name": "Hannah Lisch",
-       "jersey": "1",
-       "gp": "25",
-       "total": "40",
-       "avg": "1.6",
-       "line": "1.6 per game, 40 total",
-       "position": "G",
-       "year": "Sophomore",
-       "headshot": "https://adrianbulldogs.com/images/2025/10/27/Hannah_Lisch.png?width=200&quality=90"
-      },
-      {
-       "label": "Blocks",
        "name": "Caitlin Griffin",
-       "jersey": "34",
-       "gp": "11",
-       "total": "4",
-       "avg": "0.4",
-       "line": "0.4 per game, 4 total",
+       "jersey": "14",
+       "gp": "1",
+       "total": "2",
+       "avg": "2.0",
+       "line": "2.0 per game, 2 total",
        "position": "F",
-       "year": "Freshman",
-       "headshot": "https://adrianbulldogs.com/images/2025/10/27/Caitlin_Griffin.png?width=200&quality=90"
+       "year": "Sophomore",
+       "headshot": "https://adrianbulldogs.com/images/2026/10/7/Cropped_Caitlin_Griffin.png?width=200&quality=90"
       }
      ],
-     "departed": [
-      {
-       "name": "Anna Ignatoski",
-       "reason": "not on the 2026-27 roster",
-       "line": "12.0 points per game",
-       "year": "Freshman"
-      },
-      {
-       "name": "Emma McElroy",
-       "reason": "not on the 2026-27 roster",
-       "line": "1.0 points per game",
-       "year": "Sophomore"
-      },
-      {
-       "name": "Makenna Johnson",
-       "reason": "not on the 2026-27 roster",
-       "line": "1.0 points per game",
-       "year": "Sophomore"
-      },
-      {
-       "name": "Lauren Bartkiewicz",
-       "reason": "not on the 2026-27 roster",
-       "line": "0.8 points per game",
-       "year": "Junior"
-      }
-     ],
-     "stats_season": "2025-26",
-     "played": 0,
+     "departed": [],
+     "stats_season": "2026-27",
+     "played": 1,
      "wins": 0,
-     "losses": 0,
+     "losses": 1,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 0,
-     "pa": 0,
-     "record": "0-0",
+     "pf": 56,
+     "pa": 82,
+     "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-08T07:14:00-06:00"
+     "fetched": "2026-11-08T15:57:37-06:00"
     },
     "albion": {
      "games": [
@@ -9137,7 +9096,7 @@
      "pa": 48,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-08T07:14:00-06:00"
+     "fetched": "2026-11-08T15:57:37-06:00"
     },
     "alma": {
      "games": [
@@ -9184,19 +9143,16 @@
        "conference": false,
        "location": "Greencastle, Indiana, Neal Fieldhouse",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "L",
+       "pf": 63,
+       "pa": 73,
        "status": "",
        "links": {
-        "video": "https://depauwtigers.com/sports/2022/8/5/depauw-video-player-2.aspx",
-        "live_stats": "https://depauwtigers.com/sidearmstats/wbball/summary"
+        "boxscore": "https://almascots.com/sports/womens-basketball/stats/2026-27/depauw/boxscore/14508",
+        "recap": "https://almascots.com/news/2026/11/8/womens-basketball-starkey-scores-game-high-21-at-rv-depauw.aspx"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/depauw/wbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "alma-wbb-14509",
@@ -9896,60 +9852,60 @@
      "players": [
       {
        "label": "Points",
-       "name": "Makayla Porter",
-       "jersey": "21",
-       "gp": "1",
-       "total": "8",
-       "avg": "8.0",
-       "line": "8.0 per game, 8 total",
-       "position": "Forward",
-       "year": "Redshirt Sophomore",
-       "headshot": "https://almascots.com/images/2026/10/30/Porter_Makayla2026.jpg?width=200&quality=90"
+       "name": "Kate Starkey",
+       "jersey": "0",
+       "gp": "2",
+       "total": "28",
+       "avg": "14.0",
+       "line": "14.0 per game, 28 total",
+       "position": "Guard",
+       "year": "Sophomore",
+       "headshot": "https://almascots.com/images/2026/10/30/Starkey_Kate2026.jpg?width=200&quality=90"
       },
       {
        "label": "Points",
        "name": "Delaney Seaman",
        "jersey": "20",
-       "gp": "1",
-       "total": "7",
-       "avg": "7.0",
-       "line": "7.0 per game, 7 total",
+       "gp": "2",
+       "total": "16",
+       "avg": "8.0",
+       "line": "8.0 per game, 16 total",
        "position": "Guard",
        "year": "Junior",
        "headshot": "https://almascots.com/images/2026/10/30/Seaman_Delaney2026.jpg?width=200&quality=90"
       },
       {
        "label": "Rebounds",
-       "name": "Delaney Seaman",
-       "jersey": "20",
-       "gp": "1",
-       "total": "3",
+       "name": "Kendra Cooley",
+       "jersey": "15",
+       "gp": "2",
+       "total": "6",
        "avg": "3.0",
-       "line": "3.0 per game, 3 total",
+       "line": "3.0 per game, 6 total",
        "position": "Guard",
-       "year": "Junior",
-       "headshot": "https://almascots.com/images/2026/10/30/Seaman_Delaney2026.jpg?width=200&quality=90"
+       "year": "Sophomore",
+       "headshot": "https://almascots.com/images/2026/10/30/Cooley_Kendra2026.jpg?width=200&quality=90"
       },
       {
        "label": "Assists",
-       "name": "Delaney Seaman",
-       "jersey": "20",
-       "gp": "1",
-       "total": "2",
-       "avg": "2.0",
-       "line": "2.0 per game, 2 total",
+       "name": "Kate Starkey",
+       "jersey": "0",
+       "gp": "2",
+       "total": "5",
+       "avg": "2.5",
+       "line": "2.5 per game, 5 total",
        "position": "Guard",
-       "year": "Junior",
-       "headshot": "https://almascots.com/images/2026/10/30/Seaman_Delaney2026.jpg?width=200&quality=90"
+       "year": "Sophomore",
+       "headshot": "https://almascots.com/images/2026/10/30/Starkey_Kate2026.jpg?width=200&quality=90"
       },
       {
        "label": "Steals",
        "name": "Makayla Porter",
        "jersey": "21",
-       "gp": "1",
-       "total": "1",
+       "gp": "2",
+       "total": "2",
        "avg": "1.0",
-       "line": "1.0 per game, 1 total",
+       "line": "1.0 per game, 2 total",
        "position": "Forward",
        "year": "Redshirt Sophomore",
        "headshot": "https://almascots.com/images/2026/10/30/Porter_Makayla2026.jpg?width=200&quality=90"
@@ -9958,10 +9914,10 @@
        "label": "Blocks",
        "name": "Reese Wisniewski",
        "jersey": "2",
-       "gp": "1",
+       "gp": "2",
        "total": "1",
-       "avg": "1.0",
-       "line": "1.0 per game, 1 total",
+       "avg": "0.5",
+       "line": "0.5 per game, 1 total",
        "position": "Guard",
        "year": "Junior",
        "headshot": "https://almascots.com/images/2026/10/30/Wisniewski_Reese2026.jpg?width=200&quality=90"
@@ -9969,16 +9925,16 @@
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 1,
+     "played": 2,
      "wins": 0,
-     "losses": 1,
+     "losses": 2,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 43,
-     "pa": 80,
-     "record": "0-1",
+     "pf": 106,
+     "pa": 153,
+     "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-08T07:14:00-06:00"
+     "fetched": "2026-11-08T15:57:37-06:00"
     },
     "calvin": {
      "games": [
@@ -10758,7 +10714,7 @@
      "pa": 113,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-08T07:14:00-06:00"
+     "fetched": "2026-11-08T15:57:37-06:00"
     },
     "hope": {
      "games": [
@@ -11591,7 +11547,7 @@
      "pa": 130,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-08T07:14:00-06:00"
+     "fetched": "2026-11-08T15:57:37-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12426,7 +12382,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-08T07:14:00-06:00"
+     "fetched": "2026-11-08T15:57:37-06:00"
     },
     "olivet": {
      "games": [
@@ -13231,7 +13187,7 @@
      "pa": 51,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-08T07:14:00-06:00"
+     "fetched": "2026-11-08T15:57:37-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14074,7 +14030,7 @@
      "pa": 76,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-08T07:14:00-06:00"
+     "fetched": "2026-11-08T15:57:37-06:00"
     },
     "trine": {
      "games": [
@@ -14936,7 +14892,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-08T07:14:00-06:00"
+     "fetched": "2026-11-08T15:57:37-06:00"
     }
    },
    "poll": {
@@ -15732,7 +15688,7 @@
   "d3hoops wbb: poll table not found"
  ],
  "stale": {
-  "olivet-mbb-schedule": "2026-11-07T23:51:28-06:00",
-  "olivet-wbb-schedule": "2026-11-07T23:51:28-06:00"
+  "olivet-mbb-schedule": "2026-11-08T07:14:00-06:00",
+  "olivet-wbb-schedule": "2026-11-08T07:14:00-06:00"
  }
 }
