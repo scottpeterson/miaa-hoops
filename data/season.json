@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-07T18:59:50-06:00",
+ "fetched_at": "2026-11-07T23:30:30-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -887,7 +887,7 @@
      "pa": 167,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T18:59:50-06:00"
+     "fetched": "2026-11-07T23:30:30-06:00"
     },
     "albion": {
      "games": [
@@ -907,20 +907,15 @@
        "conference": false,
        "location": "Fort Wayne, IN, Memorial Coliseum",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "L",
+       "pf": 65,
+       "pa": 103,
        "status": "",
        "links": {
-        "video": "https://www.espn.com/watch/player/_/id/0a5c191c-c255-41ad-ae56-7fc9d02219c5",
-        "live_stats": "https://gomastodons.com/sidearmstats/mbball/summary",
-        "tickets": "https://gomastodons.com/sports/mens-basketball/schedule?tiptoeoffer=ev4-purduefortmgaw1y71"
+        "boxscore": "https://gobrits.com/sports/mens-basketball/stats/2026-27/purdue-fort-wayne/boxscore/7991"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/fortwayne/mbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "albion-mbb-7885",
@@ -1594,120 +1589,89 @@
      "players": [
       {
        "label": "Points",
-       "name": "Kurtis Rhodes",
-       "jersey": "15",
-       "gp": "24",
-       "total": "245",
-       "avg": "10.2",
-       "line": "10.2 per game, 245 total",
-       "position": "F",
+       "name": "Mason Brodi",
+       "jersey": "0",
+       "gp": "1",
+       "total": "17",
+       "avg": "17.0",
+       "line": "17.0 per game, 17 total",
+       "position": "G",
        "year": "Junior",
-       "headshot": "https://gobrits.com/images/2025/11/5/Rhodes_Kurtis_Rho_Basketball_2027_C6UEe.jpg?width=200&quality=90"
+       "headshot": "https://gobrits.com/images/2026/9/15/Brodi_Mason.jpg?width=200&quality=90"
       },
       {
        "label": "Points",
-       "name": "Dwayne Ray Jr.",
-       "jersey": "11",
-       "gp": "24",
-       "total": "200",
-       "avg": "8.3",
-       "line": "8.3 per game, 200 total",
-       "position": "G",
+       "name": "Miles Pritchett",
+       "jersey": "32",
+       "gp": "1",
+       "total": "8",
+       "avg": "8.0",
+       "line": "8.0 per game, 8 total",
+       "position": "C",
        "year": "Junior",
-       "headshot": "https://gobrits.com/images/2025/11/5/Ray_Dwayne_Basketball_2027_2jczp.jpg?width=200&quality=90"
+       "headshot": "https://gobrits.com/images/2026/9/15/Pritchett_Miles.jpg?width=200&quality=90"
       },
       {
        "label": "Rebounds",
-       "name": "Kurtis Rhodes",
-       "jersey": "15",
-       "gp": "24",
-       "total": "95",
-       "avg": "4.0",
-       "line": "4.0 per game, 95 total",
+       "name": "Bowen Moore",
+       "jersey": "12",
+       "gp": "1",
+       "total": "5",
+       "avg": "5.0",
+       "line": "5.0 per game, 5 total",
        "position": "F",
-       "year": "Junior",
-       "headshot": "https://gobrits.com/images/2025/11/5/Rhodes_Kurtis_Rho_Basketball_2027_C6UEe.jpg?width=200&quality=90"
+       "year": "Sophomore",
+       "headshot": "https://gobrits.com/images/2026/9/15/Moore_Bowen.jpg?width=200&quality=90"
       },
       {
        "label": "Assists",
-       "name": "Dwayne Ray Jr.",
-       "jersey": "11",
-       "gp": "24",
-       "total": "39",
-       "avg": "1.6",
-       "line": "1.6 per game, 39 total",
+       "name": "Mason Brodi",
+       "jersey": "0",
+       "gp": "1",
+       "total": "2",
+       "avg": "2.0",
+       "line": "2.0 per game, 2 total",
        "position": "G",
        "year": "Junior",
-       "headshot": "https://gobrits.com/images/2025/11/5/Ray_Dwayne_Basketball_2027_2jczp.jpg?width=200&quality=90"
+       "headshot": "https://gobrits.com/images/2026/9/15/Brodi_Mason.jpg?width=200&quality=90"
       },
       {
        "label": "Steals",
        "name": "Mason Brodi",
        "jersey": "0",
-       "gp": "26",
-       "total": "23",
-       "avg": "0.9",
-       "line": "0.9 per game, 23 total",
+       "gp": "1",
+       "total": "3",
+       "avg": "3.0",
+       "line": "3.0 per game, 3 total",
        "position": "G",
-       "year": "Sophomore",
-       "headshot": "https://gobrits.com/images/2025/11/5/Brodi_Mason_Basketball_2028_LaeD0.jpg?width=200&quality=90"
+       "year": "Junior",
+       "headshot": "https://gobrits.com/images/2026/9/15/Brodi_Mason.jpg?width=200&quality=90"
       },
       {
        "label": "Blocks",
-       "name": "Kurtis Rhodes",
-       "jersey": "15",
-       "gp": "24",
-       "total": "18",
-       "avg": "0.8",
-       "line": "0.8 per game, 18 total",
+       "name": "Bowen Moore",
+       "jersey": "12",
+       "gp": "1",
+       "total": "1",
+       "avg": "1.0",
+       "line": "1.0 per game, 1 total",
        "position": "F",
-       "year": "Junior",
-       "headshot": "https://gobrits.com/images/2025/11/5/Rhodes_Kurtis_Rho_Basketball_2027_C6UEe.jpg?width=200&quality=90"
+       "year": "Sophomore",
+       "headshot": "https://gobrits.com/images/2026/9/15/Moore_Bowen.jpg?width=200&quality=90"
       }
      ],
-     "departed": [
-      {
-       "name": "Malachi Hooser II",
-       "reason": "not on the 2026-27 roster",
-       "line": "8.3 points per game",
-       "year": "Sophomore"
-      },
-      {
-       "name": "Truman King",
-       "reason": "not on the 2026-27 roster",
-       "line": "5.0 points per game",
-       "year": "Junior"
-      },
-      {
-       "name": "Tyler Davis",
-       "reason": "not on the 2026-27 roster",
-       "line": "2.1 points per game",
-       "year": "Freshman"
-      },
-      {
-       "name": "Kendall Bentley",
-       "reason": "not on the 2026-27 roster",
-       "line": "2.0 points per game",
-       "year": null
-      },
-      {
-       "name": "Ethan Woolery",
-       "reason": "not on the 2026-27 roster",
-       "line": "1.1 points per game",
-       "year": null
-      }
-     ],
-     "stats_season": "2025-26",
-     "played": 0,
+     "departed": [],
+     "stats_season": "2026-27",
+     "played": 1,
      "wins": 0,
-     "losses": 0,
+     "losses": 1,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 0,
-     "pa": 0,
-     "record": "0-0",
+     "pf": 65,
+     "pa": 103,
+     "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T18:59:50-06:00"
+     "fetched": "2026-11-07T23:30:30-06:00"
     },
     "alma": {
      "games": [
@@ -2622,7 +2586,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T18:59:50-06:00"
+     "fetched": "2026-11-07T23:30:30-06:00"
     },
     "calvin": {
      "games": [
@@ -2669,19 +2633,16 @@
        "conference": false,
        "location": "Menomonie, Wis.",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "W",
+       "pf": 64,
+       "pa": 62,
        "status": "",
        "links": {
-        "video": "https://wiacnetwork.com/stout/",
-        "live_stats": "https://stoutbluedevils.com/sidearmstats/mbball/summary"
+        "boxscore": "https://calvinknights.com/sports/mens-basketball/stats/2026-27/university-of-wisconsin-stout/boxscore/9260",
+        "recap": "https://calvinknights.com/news/2026/11/7/mens-basketball-calvin-mens-basketball-earns-first-win-of-the-season-at-uw-stout.aspx"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/uwstout/mbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "calvin-mbb-9261",
@@ -3346,10 +3307,10 @@
        "label": "Points",
        "name": "Jordan Scott",
        "jersey": "12",
-       "gp": "1",
-       "total": "18",
-       "avg": "18.0",
-       "line": "18.0 per game, 18 total",
+       "gp": "2",
+       "total": "32",
+       "avg": "16.0",
+       "line": "16.0 per game, 32 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://calvinknights.com/images/2026/10/27/Scott__Jordan.jpg?width=200&quality=90"
@@ -3358,75 +3319,75 @@
        "label": "Points",
        "name": "Malachi Hooser II",
        "jersey": "1",
-       "gp": "1",
-       "total": "12",
-       "avg": "12.0",
-       "line": "12.0 per game, 12 total",
+       "gp": "2",
+       "total": "18",
+       "avg": "9.0",
+       "line": "9.0 per game, 18 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://calvinknights.com/images/2026/10/27/Hooser__Malachi.jpg?width=200&quality=90"
       },
       {
        "label": "Rebounds",
-       "name": "Jordan Scott",
-       "jersey": "12",
-       "gp": "1",
-       "total": "4",
-       "avg": "4.0",
-       "line": "4.0 per game, 4 total",
-       "position": "G",
-       "year": "Junior",
-       "headshot": "https://calvinknights.com/images/2026/10/27/Scott__Jordan.jpg?width=200&quality=90"
+       "name": "Matt Elderkin",
+       "jersey": "6",
+       "gp": "2",
+       "total": "10",
+       "avg": "5.0",
+       "line": "5.0 per game, 10 total",
+       "position": "F",
+       "year": "Sophomore",
+       "headshot": "https://calvinknights.com/images/2026/10/27/Elderkin__Matt.jpg?width=200&quality=90"
       },
       {
        "label": "Assists",
        "name": "Malachi Hooser II",
        "jersey": "1",
-       "gp": "1",
-       "total": "3",
-       "avg": "3.0",
-       "line": "3.0 per game, 3 total",
+       "gp": "2",
+       "total": "4",
+       "avg": "2.0",
+       "line": "2.0 per game, 4 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://calvinknights.com/images/2026/10/27/Hooser__Malachi.jpg?width=200&quality=90"
       },
       {
        "label": "Steals",
-       "name": "Malachi Hooser II",
-       "jersey": "1",
-       "gp": "1",
-       "total": "2",
-       "avg": "2.0",
-       "line": "2.0 per game, 2 total",
+       "name": "Jordan Scott",
+       "jersey": "12",
+       "gp": "2",
+       "total": "3",
+       "avg": "1.5",
+       "line": "1.5 per game, 3 total",
        "position": "G",
        "year": "Junior",
-       "headshot": "https://calvinknights.com/images/2026/10/27/Hooser__Malachi.jpg?width=200&quality=90"
+       "headshot": "https://calvinknights.com/images/2026/10/27/Scott__Jordan.jpg?width=200&quality=90"
       },
       {
        "label": "Blocks",
-       "name": "Ben Heagle",
-       "jersey": "22",
-       "gp": "1",
+       "name": "Matt Elderkin",
+       "jersey": "6",
+       "gp": "2",
        "total": "1",
-       "avg": "1.0",
-       "line": "1.0 per game, 1 total",
+       "avg": "0.5",
+       "line": "0.5 per game, 1 total",
        "position": "F",
-       "year": "Junior",
-       "headshot": "https://calvinknights.com/images/2026/10/27/Heagle__Ben.jpg?width=200&quality=90"
+       "year": "Sophomore",
+       "headshot": "https://calvinknights.com/images/2026/10/27/Elderkin__Matt.jpg?width=200&quality=90"
       }
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 1,
-     "wins": 0,
+     "played": 2,
+     "wins": 1,
      "losses": 1,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 63,
-     "pa": 88,
-     "record": "0-1",
+     "pf": 127,
+     "pa": 150,
+     "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T18:59:50-06:00"
+     "fetched": "2026-11-07T23:30:30-06:00"
     },
     "hope": {
      "games": [
@@ -3479,6 +3440,7 @@
        "pa": 59,
        "status": "",
        "links": {
+        "recap": "https://athletics.hope.edu/news/2026/11/7/paint-by-numbers-mens-basketballs-interior-mastery-powers-win-over-franklin.aspx",
         "boxscore": "https://athletics.hope.edu/sports/mens-basketball/stats/2026-27/franklin-college/boxscore/18640"
        },
        "live_feed": null
@@ -4268,7 +4230,7 @@
      "pa": 122,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T18:59:50-06:00"
+     "fetched": "2026-11-07T23:30:30-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5021,92 +4983,79 @@
      "players": [
       {
        "label": "Points",
-       "name": "Patrick Perez",
-       "jersey": "23",
-       "gp": "25",
-       "total": "229",
-       "avg": "9.2",
-       "line": "9.2 per game, 229 total",
+       "name": "Jordan Harrison",
+       "jersey": "1",
+       "gp": "1",
+       "total": "23",
+       "avg": "23.0",
+       "line": "23.0 per game, 23 total",
        "position": "G",
-       "year": "Junior",
-       "headshot": "https://hornets.kzoo.edu/images/2025/10/22/300x400_Perez__Patrick_CMoss20251013-4B3A5855182228_bNJS5.png?width=200&quality=90"
+       "year": "Freshman",
+       "headshot": "https://hornets.kzoo.edu/images/2026/10/19/Harrison__Jordan_CMoss261012-4B3A7429.png?width=200&quality=90"
       },
       {
        "label": "Points",
-       "name": "Connor Kouki",
-       "jersey": "33",
-       "gp": "25",
-       "total": "170",
-       "avg": "6.8",
-       "line": "6.8 per game, 170 total",
-       "position": "F",
-       "year": "Junior",
-       "headshot": "https://hornets.kzoo.edu/images/2025/10/22/300x400_Kouki__Connor_CMoss20251013-4B3A5831181748_xnp3x.png?width=200&quality=90"
+       "name": "Marvin Moore",
+       "jersey": "0",
+       "gp": "1",
+       "total": "12",
+       "avg": "12.0",
+       "line": "12.0 per game, 12 total",
+       "position": "G",
+       "year": "Freshman",
+       "headshot": "https://hornets.kzoo.edu/images/2026/10/19/Moore__Marvin_CMoss261012-4B3A7415.png?width=200&quality=90"
       },
       {
        "label": "Rebounds",
-       "name": "Patrick Perez",
-       "jersey": "23",
-       "gp": "25",
-       "total": "103",
-       "avg": "4.1",
-       "line": "4.1 per game, 103 total",
+       "name": "Nelson Sompa",
+       "jersey": "3",
+       "gp": "1",
+       "total": "4",
+       "avg": "4.0",
+       "line": "4.0 per game, 4 total",
        "position": "G",
        "year": "Junior",
-       "headshot": "https://hornets.kzoo.edu/images/2025/10/22/300x400_Perez__Patrick_CMoss20251013-4B3A5855182228_bNJS5.png?width=200&quality=90"
+       "headshot": "https://hornets.kzoo.edu/images/2026/10/19/Sompa__Nelson_CMoss261012-4B3A7426.png?width=200&quality=90"
       },
       {
        "label": "Assists",
-       "name": "Nelson Sompa",
-       "jersey": "12",
-       "gp": "25",
-       "total": "85",
-       "avg": "3.4",
-       "line": "3.4 per game, 85 total",
+       "name": "Jordan Harrison",
+       "jersey": "1",
+       "gp": "1",
+       "total": "6",
+       "avg": "6.0",
+       "line": "6.0 per game, 6 total",
        "position": "G",
-       "year": "Sophomore",
-       "headshot": "https://hornets.kzoo.edu/images/2025/10/22/300x400_Sompa__Nelson_CMoss20251013-4B3A5841181919_m44yg.png?width=200&quality=90"
+       "year": "Freshman",
+       "headshot": "https://hornets.kzoo.edu/images/2026/10/19/Harrison__Jordan_CMoss261012-4B3A7429.png?width=200&quality=90"
       },
       {
        "label": "Steals",
        "name": "Nelson Sompa",
-       "jersey": "12",
-       "gp": "25",
-       "total": "26",
-       "avg": "1.0",
-       "line": "1.0 per game, 26 total",
+       "jersey": "3",
+       "gp": "1",
+       "total": "3",
+       "avg": "3.0",
+       "line": "3.0 per game, 3 total",
        "position": "G",
-       "year": "Sophomore",
-       "headshot": "https://hornets.kzoo.edu/images/2025/10/22/300x400_Sompa__Nelson_CMoss20251013-4B3A5841181919_m44yg.png?width=200&quality=90"
+       "year": "Junior",
+       "headshot": "https://hornets.kzoo.edu/images/2026/10/19/Sompa__Nelson_CMoss261012-4B3A7426.png?width=200&quality=90"
       },
       {
        "label": "Blocks",
-       "name": "Jackson Keefer",
-       "jersey": "20",
-       "gp": "25",
-       "total": "5",
-       "avg": "0.2",
-       "line": "0.2 per game, 5 total",
+       "name": "Marvin Moore",
+       "jersey": "0",
+       "gp": "1",
+       "total": "1",
+       "avg": "1.0",
+       "line": "1.0 per game, 1 total",
        "position": "G",
-       "year": "Sophomore",
-       "headshot": "https://hornets.kzoo.edu/images/2025/10/22/300x400_Keefer__Jackson_CMoss20251013-4B3A5829181728_Gpk0W.png?width=200&quality=90"
+       "year": "Freshman",
+       "headshot": "https://hornets.kzoo.edu/images/2026/10/19/Moore__Marvin_CMoss261012-4B3A7415.png?width=200&quality=90"
       }
      ],
-     "departed": [
-      {
-       "name": "Caleb Coates",
-       "reason": "not on the 2026-27 roster",
-       "line": "1.8 points per game",
-       "year": "Freshman"
-      },
-      {
-       "name": "John Kaul",
-       "reason": "not on the 2026-27 roster",
-       "line": "1.1 points per game",
-       "year": "Freshman"
-      }
-     ],
-     "stats_season": "2025-26",
+     "departed": [],
+     "stats_season": "2026-27",
      "played": 1,
      "wins": 0,
      "losses": 1,
@@ -5116,7 +5065,7 @@
      "pa": 78,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T18:59:50-06:00"
+     "fetched": "2026-11-07T23:30:30-06:00"
     },
     "olivet": {
      "games": [
@@ -5936,7 +5885,7 @@
      "pa": 70,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T18:59:50-06:00"
+     "fetched": "2026-11-07T23:30:30-06:00"
     },
     "trine": {
      "games": [
@@ -5989,7 +5938,8 @@
        "pa": 59,
        "status": "",
        "links": {
-        "boxscore": "https://trinethunder.com/sports/mens-basketball/stats/2026-27/kenyon/boxscore/8529"
+        "boxscore": "https://trinethunder.com/sports/mens-basketball/stats/2026-27/kenyon/boxscore/8529",
+        "recap": "https://trinethunder.com/news/2026/11/7/mens-basketball-stumps-owls.aspx"
        },
        "live_feed": null
       },
@@ -6778,7 +6728,7 @@
      "pa": 132,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T18:59:50-06:00"
+     "fetched": "2026-11-07T23:30:30-06:00"
     }
    },
    "poll": {
@@ -8415,7 +8365,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T18:59:50-06:00"
+     "fetched": "2026-11-07T23:30:30-06:00"
     },
     "albion": {
      "games": [
@@ -8435,18 +8385,15 @@
        "conference": false,
        "location": "Tiffin, OH, Seiberling Gymnasium",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "W",
+       "pf": 54,
+       "pa": 48,
        "status": "",
        "links": {
-        "live_stats": "https://www.bergathletics.com/sidearmstats/wbball/summary"
+        "boxscore": "https://gobrits.com/sports/womens-basketball/stats/2026-27/heidelberg/boxscore/7942"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/heidelbergu/wbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "albion-wbb-7944",
@@ -9114,120 +9061,77 @@
      "players": [
       {
        "label": "Points",
-       "name": "Meghan Trewhella",
-       "jersey": "5",
-       "gp": "27",
-       "total": "541",
-       "avg": "20.0",
-       "line": "20.0 per game, 541 total",
+       "name": "Ameera Jenkins",
+       "jersey": "4",
+       "gp": "1",
+       "total": "10",
+       "avg": "10.0",
+       "line": "10.0 per game, 10 total",
        "position": "G",
-       "year": "Junior",
-       "headshot": "https://gobrits.com/images/2025/11/5/Trewhella_Meghan_Basketball_2027_FMbit.jpg?width=200&quality=90"
+       "year": "Freshman",
+       "headshot": "https://gobrits.com/images/2026/9/15/Jenkins_Ameera.jpg?width=200&quality=90"
       },
       {
        "label": "Points",
-       "name": "Khaleeya Cook",
-       "jersey": "3",
-       "gp": "26",
-       "total": "237",
-       "avg": "9.1",
-       "line": "9.1 per game, 237 total",
+       "name": "DJ Pannell",
+       "jersey": "23",
+       "gp": "1",
+       "total": "6",
+       "avg": "6.0",
+       "line": "6.0 per game, 6 total",
        "position": "G",
-       "year": "Sophomore",
-       "headshot": "https://gobrits.com/images/2025/11/5/Cook_Khaleeya_Basketball_2028_eBqML.jpg?width=200&quality=90"
+       "year": "Junior",
+       "headshot": "https://gobrits.com/images/2026/9/15/Pannell_DJ.jpg?width=200&quality=90"
       },
       {
        "label": "Rebounds",
-       "name": "Meghan Trewhella",
-       "jersey": "5",
-       "gp": "27",
-       "total": "145",
-       "avg": "5.4",
-       "line": "5.4 per game, 145 total",
+       "name": "Khaleeya Cook",
+       "jersey": "3",
+       "gp": "1",
+       "total": "10",
+       "avg": "10.0",
+       "line": "10.0 per game, 10 total",
        "position": "G",
        "year": "Junior",
-       "headshot": "https://gobrits.com/images/2025/11/5/Trewhella_Meghan_Basketball_2027_FMbit.jpg?width=200&quality=90"
+       "headshot": "https://gobrits.com/images/2026/9/15/Cook_Khaleeya.jpg?width=200&quality=90"
       },
       {
        "label": "Assists",
        "name": "Khaleeya Cook",
        "jersey": "3",
-       "gp": "26",
-       "total": "56",
-       "avg": "2.2",
-       "line": "2.2 per game, 56 total",
+       "gp": "1",
+       "total": "5",
+       "avg": "5.0",
+       "line": "5.0 per game, 5 total",
        "position": "G",
-       "year": "Sophomore",
-       "headshot": "https://gobrits.com/images/2025/11/5/Cook_Khaleeya_Basketball_2028_eBqML.jpg?width=200&quality=90"
+       "year": "Junior",
+       "headshot": "https://gobrits.com/images/2026/9/15/Cook_Khaleeya.jpg?width=200&quality=90"
       },
       {
        "label": "Steals",
        "name": "Khaleeya Cook",
        "jersey": "3",
-       "gp": "26",
-       "total": "43",
-       "avg": "1.7",
-       "line": "1.7 per game, 43 total",
+       "gp": "1",
+       "total": "2",
+       "avg": "2.0",
+       "line": "2.0 per game, 2 total",
        "position": "G",
-       "year": "Sophomore",
-       "headshot": "https://gobrits.com/images/2025/11/5/Cook_Khaleeya_Basketball_2028_eBqML.jpg?width=200&quality=90"
-      },
-      {
-       "label": "Blocks",
-       "name": "Anna Honnen",
-       "jersey": "25",
-       "gp": "27",
-       "total": "21",
-       "avg": "0.8",
-       "line": "0.8 per game, 21 total",
-       "position": "C",
        "year": "Junior",
-       "headshot": "https://gobrits.com/images/2025/11/5/Honnen_Anna_Basketball_2027_9By9t.jpg?width=200&quality=90"
+       "headshot": "https://gobrits.com/images/2026/9/15/Cook_Khaleeya.jpg?width=200&quality=90"
       }
      ],
-     "departed": [
-      {
-       "name": "Alexis Trine",
-       "reason": "not on the 2026-27 roster",
-       "line": "3.4 points per game",
-       "year": "Freshman"
-      },
-      {
-       "name": "Deziray Skirka",
-       "reason": "not on the 2026-27 roster",
-       "line": "1.8 points per game",
-       "year": "Freshman"
-      },
-      {
-       "name": "Zhia Martin",
-       "reason": "not on the 2026-27 roster",
-       "line": "0.7 points per game",
-       "year": null
-      },
-      {
-       "name": "Ashlee Hawes",
-       "reason": "not on the 2026-27 roster",
-       "line": "0.2 points per game",
-       "year": "Sophomore"
-      },
-      {
-       "name": "Brooklyn Zeleny",
-       "reason": "not on the 2026-27 roster",
-       "line": "0.2 rebounds per game",
-       "year": "Freshman"
-      }
-     ],
-     "stats_season": "2025-26",
-     "played": 0,
-     "wins": 0,
+     "departed": [],
+     "stats_season": "2026-27",
+     "played": 1,
+     "wins": 1,
      "losses": 0,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 0,
-     "pa": 0,
-     "record": "0-0",
+     "pf": 54,
+     "pa": 48,
+     "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T18:59:50-06:00"
+     "fetched": "2026-11-07T23:30:30-06:00"
     },
     "alma": {
      "games": [
@@ -10068,7 +9972,7 @@
      "pa": 80,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T18:59:50-06:00"
+     "fetched": "2026-11-07T23:30:30-06:00"
     },
     "calvin": {
      "games": [
@@ -10848,7 +10752,7 @@
      "pa": 113,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T18:59:50-06:00"
+     "fetched": "2026-11-07T23:30:30-06:00"
     },
     "hope": {
      "games": [
@@ -10901,6 +10805,7 @@
        "pa": 65,
        "status": "",
        "links": {
+        "recap": "https://athletics.hope.edu/news/2026/11/7/womens-basketball-holds-off-illinois-wesleyan-for-schoon-tournament-title.aspx",
         "boxscore": "https://athletics.hope.edu/sports/womens-basketball/stats/2026-27/illinois-wesleyan-university/boxscore/18666"
        },
        "live_feed": null
@@ -11680,7 +11585,7 @@
      "pa": 130,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T18:59:50-06:00"
+     "fetched": "2026-11-07T23:30:30-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12515,7 +12420,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T18:59:50-06:00"
+     "fetched": "2026-11-07T23:30:30-06:00"
     },
     "olivet": {
      "games": [
@@ -13320,7 +13225,7 @@
      "pa": 51,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T18:59:50-06:00"
+     "fetched": "2026-11-07T23:30:30-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14163,7 +14068,7 @@
      "pa": 76,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T18:59:50-06:00"
+     "fetched": "2026-11-07T23:30:30-06:00"
     },
     "trine": {
      "games": [
@@ -15025,7 +14930,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-07T18:59:50-06:00"
+     "fetched": "2026-11-07T23:30:30-06:00"
     }
    },
    "poll": {
@@ -15821,7 +15726,7 @@
   "d3hoops wbb: poll table not found"
  ],
  "stale": {
-  "olivet-mbb-schedule": "2026-11-07T17:22:02-06:00",
-  "olivet-wbb-schedule": "2026-11-07T17:22:02-06:00"
+  "olivet-mbb-schedule": "2026-11-07T18:59:50-06:00",
+  "olivet-wbb-schedule": "2026-11-07T18:59:50-06:00"
  }
 }
