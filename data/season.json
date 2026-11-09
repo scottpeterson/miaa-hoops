@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-09T00:06:27-06:00",
+ "fetched_at": "2026-11-09T10:02:19-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -887,7 +887,7 @@
      "pa": 167,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T00:06:27-06:00"
+     "fetched": "2026-11-09T10:02:19-06:00"
     },
     "albion": {
      "games": [
@@ -1671,7 +1671,7 @@
      "pa": 103,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T00:06:27-06:00"
+     "fetched": "2026-11-09T10:02:19-06:00"
     },
     "alma": {
      "games": [
@@ -2586,7 +2586,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T00:06:27-06:00"
+     "fetched": "2026-11-09T10:02:19-06:00"
     },
     "calvin": {
      "games": [
@@ -3387,7 +3387,7 @@
      "pa": 150,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T00:06:27-06:00"
+     "fetched": "2026-11-09T10:02:19-06:00"
     },
     "hope": {
      "games": [
@@ -4230,7 +4230,7 @@
      "pa": 122,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T00:06:27-06:00"
+     "fetched": "2026-11-09T10:02:19-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5065,7 +5065,7 @@
      "pa": 78,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T00:06:27-06:00"
+     "fetched": "2026-11-09T10:02:19-06:00"
     },
     "olivet": {
      "games": [
@@ -5885,7 +5885,7 @@
      "pa": 70,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T00:06:27-06:00"
+     "fetched": "2026-11-09T10:02:19-06:00"
     },
     "trine": {
      "games": [
@@ -6728,7 +6728,7 @@
      "pa": 132,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T00:06:27-06:00"
+     "fetched": "2026-11-09T10:02:19-06:00"
     }
    },
    "poll": {
@@ -6978,85 +6978,85 @@
     "source": "D3 Datacast",
     "url": "https://d3datacast.com/npi/mbb/",
     "eff_url": "https://d3datacast.com/efficiency-ratings/",
-    "updated": "11/8/26 8:41 PM",
-    "eff_updated": "11/8/2026 8:41 PM",
+    "updated": "11/9/26 6:45 AM",
+    "eff_updated": "11/9/2026 6:45 AM",
     "count": 291,
     "teams": {
      "adrian": {
-      "rank": 273,
+      "rank": 278,
       "record": "0-2",
       "npi": "36.589",
       "bid": "At-Lg",
-      "at_large_rank": "273",
+      "at_large_rank": "278",
       "seed": "-",
-      "eff_rank": 344,
+      "eff_rank": 345,
       "adj_em": "-10.6",
-      "eff_updated": "11/8/2026 8:41 PM"
+      "eff_updated": "11/9/2026 6:45 AM"
      },
      "calvin": {
-      "rank": 124,
+      "rank": 125,
       "record": "1-1",
       "npi": "51.429",
       "bid": "At-Lg",
-      "at_large_rank": "124",
+      "at_large_rank": "125",
       "seed": "-",
       "eff_rank": 77,
       "adj_em": "+8.7",
-      "eff_updated": "11/8/2026 8:41 PM"
+      "eff_updated": "11/9/2026 6:45 AM"
      },
      "hope": {
-      "rank": 103,
+      "rank": 104,
       "record": "2-0",
       "npi": "57.143",
       "bid": "At-Lg",
-      "at_large_rank": "103",
+      "at_large_rank": "104",
       "seed": "-",
       "eff_rank": 39,
       "adj_em": "+13.3",
-      "eff_updated": "11/8/2026 8:41 PM"
+      "eff_updated": "11/9/2026 6:45 AM"
      },
      "kalamazoo": {
-      "rank": 214,
+      "rank": 181,
       "record": "0-1",
       "npi": "42.857",
       "bid": "At-Lg",
-      "at_large_rank": "214",
+      "at_large_rank": "181",
       "seed": "-",
-      "eff_rank": 364,
+      "eff_rank": 363,
       "adj_em": "-12.8",
-      "eff_updated": "11/8/2026 8:41 PM"
+      "eff_updated": "11/9/2026 6:45 AM"
      },
      "olivet": {
-      "rank": 79,
+      "rank": 80,
       "record": "2-0",
       "npi": "57.143",
       "bid": "At-Lg",
-      "at_large_rank": "79",
+      "at_large_rank": "80",
       "seed": "-",
       "eff_rank": 100,
       "adj_em": "+6.8",
-      "eff_updated": "11/8/2026 8:41 PM"
+      "eff_updated": "11/9/2026 6:45 AM"
      },
      "trine": {
-      "rank": 141,
+      "rank": 146,
       "record": "1-1",
       "npi": "49.395",
       "bid": "At-Lg",
-      "at_large_rank": "141",
+      "at_large_rank": "146",
       "seed": "-",
       "eff_rank": 46,
       "adj_em": "+12.8",
-      "eff_updated": "11/8/2026 8:41 PM"
+      "eff_updated": "11/9/2026 6:45 AM"
      },
      "albion": {
       "eff_rank": 225,
       "adj_em": "-1.1",
-      "eff_updated": "11/8/2026 8:41 PM"
+      "eff_updated": "11/9/2026 6:45 AM"
      },
      "alma": {
       "eff_rank": 378,
       "adj_em": "-14.6",
-      "eff_updated": "11/8/2026 8:41 PM"
+      "eff_updated": "11/9/2026 6:45 AM"
      }
     },
     "d3_teams": [
@@ -8330,7 +8330,7 @@
      "pa": 82,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T00:06:27-06:00"
+     "fetched": "2026-11-09T10:02:19-06:00"
     },
     "albion": {
      "games": [
@@ -9096,7 +9096,7 @@
      "pa": 48,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T00:06:27-06:00"
+     "fetched": "2026-11-09T10:02:19-06:00"
     },
     "alma": {
      "games": [
@@ -9934,7 +9934,7 @@
      "pa": 153,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T00:06:27-06:00"
+     "fetched": "2026-11-09T10:02:19-06:00"
     },
     "calvin": {
      "games": [
@@ -10714,7 +10714,7 @@
      "pa": 113,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T00:06:27-06:00"
+     "fetched": "2026-11-09T10:02:19-06:00"
     },
     "hope": {
      "games": [
@@ -11547,7 +11547,7 @@
      "pa": 130,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T00:06:27-06:00"
+     "fetched": "2026-11-09T10:02:19-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12382,7 +12382,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T00:06:27-06:00"
+     "fetched": "2026-11-09T10:02:19-06:00"
     },
     "olivet": {
      "games": [
@@ -13187,7 +13187,7 @@
      "pa": 51,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T00:06:27-06:00"
+     "fetched": "2026-11-09T10:02:19-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14030,7 +14030,7 @@
      "pa": 76,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T00:06:27-06:00"
+     "fetched": "2026-11-09T10:02:19-06:00"
     },
     "trine": {
      "games": [
@@ -14892,7 +14892,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T00:06:27-06:00"
+     "fetched": "2026-11-09T10:02:19-06:00"
     }
    },
    "poll": {
@@ -15688,7 +15688,7 @@
   "d3hoops wbb: poll table not found"
  ],
  "stale": {
-  "olivet-mbb-schedule": "2026-11-08T23:41:28-06:00",
-  "olivet-wbb-schedule": "2026-11-08T23:41:28-06:00"
+  "olivet-mbb-schedule": "2026-11-09T00:06:27-06:00",
+  "olivet-wbb-schedule": "2026-11-09T00:06:27-06:00"
  }
 }
