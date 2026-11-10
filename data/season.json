@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-10T08:45:29-06:00",
+ "fetched_at": "2026-11-10T17:11:26-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -890,7 +890,7 @@
      "pa": 167,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-10T08:45:29-06:00"
+     "fetched": "2026-11-10T17:11:26-06:00"
     },
     "albion": {
      "games": [
@@ -942,8 +942,14 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
-       "live_feed": null
+       "links": {
+        "video": "https://www.youtube.com/watch?v=_n_T9Q_IMoU",
+        "live_stats": "https://muspartans.com/sidearmstats/mbball/summary"
+       },
+       "live_feed": {
+        "type": "sidearm",
+        "url": "https://sidearmstats.com/manchesteru/mbball/game.json"
+       }
       },
       {
        "id": "albion-mbb-7886",
@@ -966,9 +972,7 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {
-        "video": "https://www.miaasportsnetwork.com/acbrits/"
-       },
+       "links": {},
        "live_feed": null
       },
       {
@@ -992,9 +996,7 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {
-        "video": "https://www.miaasportsnetwork.com/acbrits/"
-       },
+       "links": {},
        "live_feed": null
       },
       {
@@ -1675,7 +1677,7 @@
      "pa": 103,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-10T08:45:29-06:00"
+     "fetched": "2026-11-10T17:11:26-06:00"
     },
     "alma": {
      "games": [
@@ -2550,7 +2552,7 @@
      "pa": 72,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-10T08:45:29-06:00"
+     "fetched": "2026-11-10T17:11:26-06:00"
     },
     "calvin": {
      "games": [
@@ -3351,7 +3353,7 @@
      "pa": 150,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-10T08:45:29-06:00"
+     "fetched": "2026-11-10T17:11:26-06:00"
     },
     "hope": {
      "games": [
@@ -4194,7 +4196,7 @@
      "pa": 122,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-10T08:45:29-06:00"
+     "fetched": "2026-11-10T17:11:26-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5029,7 +5031,7 @@
      "pa": 78,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-10T08:45:29-06:00"
+     "fetched": "2026-11-10T17:11:26-06:00"
     },
     "olivet": {
      "games": [
@@ -5849,7 +5851,7 @@
      "pa": 70,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-10T08:45:29-06:00"
+     "fetched": "2026-11-10T17:11:26-06:00"
     },
     "trine": {
      "games": [
@@ -6692,7 +6694,7 @@
      "pa": 132,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-10T08:45:29-06:00"
+     "fetched": "2026-11-10T17:11:26-06:00"
     }
    },
    "poll": {
@@ -8300,7 +8302,7 @@
      "pa": 82,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-10T08:45:29-06:00"
+     "fetched": "2026-11-10T17:11:26-06:00"
     },
     "albion": {
      "games": [
@@ -8353,11 +8355,12 @@
        "pa": null,
        "status": "",
        "links": {
-        "video": "https://www.miaasportsnetwork.com/acbrits/"
+        "video": "https://www.miaasportsnetwork.com/acbrits/",
+        "live_stats": "https://gobrits.com/sidearmstats/wbball/summary"
        },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/albi/wbball/game.json"
+        "url": "https://sidearmstats.com/albion/wbball/game.json"
        }
       },
       {
@@ -8382,11 +8385,12 @@
        "pa": null,
        "status": "",
        "links": {
-        "video": "https://www.miaasportsnetwork.com/acbrits/"
+        "video": "https://www.miaasportsnetwork.com/acbrits/",
+        "live_stats": "https://gobrits.com/sidearmstats/wbball/summary"
        },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/albi/wbball/game.json"
+        "url": "https://sidearmstats.com/albion/wbball/game.json"
        }
       },
       {
@@ -9067,7 +9071,7 @@
      "pa": 48,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-10T08:45:29-06:00"
+     "fetched": "2026-11-10T17:11:26-06:00"
     },
     "alma": {
      "games": [
@@ -9905,7 +9909,7 @@
      "pa": 153,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-10T08:45:29-06:00"
+     "fetched": "2026-11-10T17:11:26-06:00"
     },
     "calvin": {
      "games": [
@@ -10685,7 +10689,7 @@
      "pa": 113,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-10T08:45:29-06:00"
+     "fetched": "2026-11-10T17:11:26-06:00"
     },
     "hope": {
      "games": [
@@ -11518,7 +11522,7 @@
      "pa": 130,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-10T08:45:29-06:00"
+     "fetched": "2026-11-10T17:11:26-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12353,7 +12357,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-10T08:45:29-06:00"
+     "fetched": "2026-11-10T17:11:26-06:00"
     },
     "olivet": {
      "games": [
@@ -13158,7 +13162,7 @@
      "pa": 51,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-10T08:45:29-06:00"
+     "fetched": "2026-11-10T17:11:26-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14001,7 +14005,7 @@
      "pa": 76,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-10T08:45:29-06:00"
+     "fetched": "2026-11-10T17:11:26-06:00"
     },
     "trine": {
      "games": [
@@ -14871,7 +14875,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-10T08:45:29-06:00"
+     "fetched": "2026-11-10T17:11:26-06:00"
     }
    },
    "poll": {
@@ -15667,7 +15671,7 @@
   "d3hoops wbb: poll table not found"
  ],
  "stale": {
-  "olivet-mbb-schedule": "2026-11-10T00:50:04-06:00",
-  "olivet-wbb-schedule": "2026-11-10T00:50:04-06:00"
+  "olivet-mbb-schedule": "2026-11-10T08:45:29-06:00",
+  "olivet-wbb-schedule": "2026-11-10T08:45:29-06:00"
  }
 }
