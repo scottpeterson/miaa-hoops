@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-09T19:26:47-06:00",
+ "fetched_at": "2026-11-09T21:56:21-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -890,7 +890,7 @@
      "pa": 167,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T19:26:47-06:00"
+     "fetched": "2026-11-09T21:56:21-06:00"
     },
     "albion": {
      "games": [
@@ -1675,7 +1675,7 @@
      "pa": 103,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T19:26:47-06:00"
+     "fetched": "2026-11-09T21:56:21-06:00"
     },
     "alma": {
      "games": [
@@ -1722,20 +1722,16 @@
        "conference": false,
        "location": "Tiffin, Ohio, Seiberling Gymnasium",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "L",
+       "pf": 71,
+       "pa": 72,
        "status": "",
        "links": {
-        "video": "https://flosports.link/4zB0elt",
-        "live_stats": "https://www.bergathletics.com/sidearmstats/mbball/summary",
-        "tickets": "https://bergathletics.com/sports/2021/11/2/heidelberg-athletics-tickets.aspx"
+        "boxscore": "https://almascots.com/sports/mens-basketball/stats/2026-27/heidelberg/boxscore/14635",
+        "recap": "https://almascots.com/news/2026/11/9/mens-basketball-dugeners-historic-debut-spoiled-by-berg.aspx"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/heidelbergu/mbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "alma-mbb-14636",
@@ -2472,126 +2468,89 @@
      "players": [
       {
        "label": "Points",
-       "name": "Korbin Heitzman",
-       "jersey": "11",
-       "gp": "25",
-       "total": "427",
-       "avg": "17.1",
-       "line": "17.1 per game, 427 total",
-       "position": "F",
-       "year": "Junior",
-       "headshot": "https://almascots.com/images/2025/11/5/IMG_9922.JPG?width=200&quality=90"
+       "name": "Adam Dugener",
+       "jersey": "0",
+       "gp": "1",
+       "total": "41",
+       "avg": "41.0",
+       "line": "41.0 per game, 41 total",
+       "position": "Guard",
+       "year": "Freshman",
+       "headshot": "https://almascots.com/images/2026/10/27/Dugenar_Adam.jpg?width=200&quality=90"
       },
       {
        "label": "Points",
        "name": "Elijah Sykes",
        "jersey": "1",
-       "gp": "23",
-       "total": "252",
-       "avg": "11.0",
-       "line": "11.0 per game, 252 total",
-       "position": "G",
-       "year": "Freshman",
-       "headshot": "https://almascots.com/images/2025/11/5/IMG_9944.JPG?width=200&quality=90"
+       "gp": "1",
+       "total": "9",
+       "avg": "9.0",
+       "line": "9.0 per game, 9 total",
+       "position": "Guard",
+       "year": "Sophomore",
+       "headshot": "https://almascots.com/images/2026/10/27/Skyes_Elijah.jpg?width=200&quality=90"
       },
       {
        "label": "Rebounds",
-       "name": "Korbin Heitzman",
-       "jersey": "11",
-       "gp": "25",
-       "total": "218",
-       "avg": "8.7",
-       "line": "8.7 per game, 218 total",
-       "position": "F",
-       "year": "Junior",
-       "headshot": "https://almascots.com/images/2025/11/5/IMG_9922.JPG?width=200&quality=90"
+       "name": "Adam Dugener",
+       "jersey": "0",
+       "gp": "1",
+       "total": "5",
+       "avg": "5.0",
+       "line": "5.0 per game, 5 total",
+       "position": "Guard",
+       "year": "Freshman",
+       "headshot": "https://almascots.com/images/2026/10/27/Dugenar_Adam.jpg?width=200&quality=90"
       },
       {
        "label": "Assists",
        "name": "Joss Bradley",
        "jersey": "10",
-       "gp": "25",
-       "total": "63",
-       "avg": "2.5",
-       "line": "2.5 per game, 63 total",
-       "position": "G",
-       "year": "Sophomore",
-       "headshot": "https://almascots.com/images/2025/11/5/IMG_9958.JPG?width=200&quality=90"
+       "gp": "1",
+       "total": "3",
+       "avg": "3.0",
+       "line": "3.0 per game, 3 total",
+       "position": "Guard",
+       "year": "Junior",
+       "headshot": "https://almascots.com/images/2026/10/27/Bradley_Joss.jpg?width=200&quality=90"
       },
       {
        "label": "Steals",
        "name": "Joss Bradley",
        "jersey": "10",
-       "gp": "25",
-       "total": "26",
+       "gp": "1",
+       "total": "1",
        "avg": "1.0",
-       "line": "1.0 per game, 26 total",
-       "position": "G",
-       "year": "Sophomore",
-       "headshot": "https://almascots.com/images/2025/11/5/IMG_9958.JPG?width=200&quality=90"
+       "line": "1.0 per game, 1 total",
+       "position": "Guard",
+       "year": "Junior",
+       "headshot": "https://almascots.com/images/2026/10/27/Bradley_Joss.jpg?width=200&quality=90"
       },
       {
        "label": "Blocks",
-       "name": "Korbin Heitzman",
-       "jersey": "11",
-       "gp": "25",
-       "total": "18",
-       "avg": "0.7",
-       "line": "0.7 per game, 18 total",
-       "position": "F",
+       "name": "Preston Malpass",
+       "jersey": "15",
+       "gp": "1",
+       "total": "3",
+       "avg": "3.0",
+       "line": "3.0 per game, 3 total",
+       "position": "Forward",
        "year": "Junior",
-       "headshot": "https://almascots.com/images/2025/11/5/IMG_9922.JPG?width=200&quality=90"
+       "headshot": "https://almascots.com/images/2026/10/27/Malpass_Preston.jpg?width=200&quality=90"
       }
      ],
-     "departed": [
-      {
-       "name": "Lance Atkinson",
-       "reason": "not on the 2026-27 roster",
-       "line": "1.4 points per game",
-       "year": "Junior"
-      },
-      {
-       "name": "James Dymek",
-       "reason": "not on the 2026-27 roster",
-       "line": "1.3 points per game",
-       "year": "Sophomore"
-      },
-      {
-       "name": "Brighton Gavin",
-       "reason": "not on the 2026-27 roster",
-       "line": "0.9 points per game",
-       "year": "Sophomore"
-      },
-      {
-       "name": "Rashad Smith",
-       "reason": "not on the 2026-27 roster",
-       "line": "0.6 points per game",
-       "year": "Junior"
-      },
-      {
-       "name": "Grant Mossburg",
-       "reason": "not on the 2026-27 roster",
-       "line": "0.5 points per game",
-       "year": "Junior"
-      },
-      {
-       "name": "Waylon Sales",
-       "reason": "not on the 2026-27 roster",
-       "line": "0.7 rebounds per game",
-       "year": "Freshman"
-      }
-     ],
-     "stats_season": "2025-26",
-     "played": 0,
+     "departed": [],
+     "stats_season": "2026-27",
+     "played": 1,
      "wins": 0,
-     "losses": 0,
+     "losses": 1,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 0,
-     "pa": 0,
-     "record": "0-0",
+     "pf": 71,
+     "pa": 72,
+     "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T19:26:47-06:00"
+     "fetched": "2026-11-09T21:56:21-06:00"
     },
     "calvin": {
      "games": [
@@ -3392,7 +3351,7 @@
      "pa": 150,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T19:26:47-06:00"
+     "fetched": "2026-11-09T21:56:21-06:00"
     },
     "hope": {
      "games": [
@@ -4235,7 +4194,7 @@
      "pa": 122,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T19:26:47-06:00"
+     "fetched": "2026-11-09T21:56:21-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5070,7 +5029,7 @@
      "pa": 78,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T19:26:47-06:00"
+     "fetched": "2026-11-09T21:56:21-06:00"
     },
     "olivet": {
      "games": [
@@ -5890,7 +5849,7 @@
      "pa": 70,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T19:26:47-06:00"
+     "fetched": "2026-11-09T21:56:21-06:00"
     },
     "trine": {
      "games": [
@@ -6733,7 +6692,7 @@
      "pa": 132,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T19:26:47-06:00"
+     "fetched": "2026-11-09T21:56:21-06:00"
     }
    },
    "poll": {
@@ -8335,7 +8294,7 @@
      "pa": 82,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T19:26:47-06:00"
+     "fetched": "2026-11-09T21:56:21-06:00"
     },
     "albion": {
      "games": [
@@ -9102,7 +9061,7 @@
      "pa": 48,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T19:26:47-06:00"
+     "fetched": "2026-11-09T21:56:21-06:00"
     },
     "alma": {
      "games": [
@@ -9940,7 +9899,7 @@
      "pa": 153,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T19:26:47-06:00"
+     "fetched": "2026-11-09T21:56:21-06:00"
     },
     "calvin": {
      "games": [
@@ -10720,7 +10679,7 @@
      "pa": 113,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T19:26:47-06:00"
+     "fetched": "2026-11-09T21:56:21-06:00"
     },
     "hope": {
      "games": [
@@ -11553,7 +11512,7 @@
      "pa": 130,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T19:26:47-06:00"
+     "fetched": "2026-11-09T21:56:21-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12388,7 +12347,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T19:26:47-06:00"
+     "fetched": "2026-11-09T21:56:21-06:00"
     },
     "olivet": {
      "games": [
@@ -13193,7 +13152,7 @@
      "pa": 51,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T19:26:47-06:00"
+     "fetched": "2026-11-09T21:56:21-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14036,7 +13995,7 @@
      "pa": 76,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T19:26:47-06:00"
+     "fetched": "2026-11-09T21:56:21-06:00"
     },
     "trine": {
      "games": [
@@ -14906,7 +14865,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T19:26:47-06:00"
+     "fetched": "2026-11-09T21:56:21-06:00"
     }
    },
    "poll": {
@@ -15702,7 +15661,7 @@
   "d3hoops wbb: poll table not found"
  ],
  "stale": {
-  "olivet-mbb-schedule": "2026-11-09T10:02:19-06:00",
-  "olivet-wbb-schedule": "2026-11-09T10:02:19-06:00"
+  "olivet-mbb-schedule": "2026-11-09T19:26:47-06:00",
+  "olivet-wbb-schedule": "2026-11-09T19:26:47-06:00"
  }
 }
