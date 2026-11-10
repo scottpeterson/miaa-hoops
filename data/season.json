@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-09T10:02:19-06:00",
+ "fetched_at": "2026-11-09T19:26:47-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -108,7 +108,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://go.flocollege.com/teams/gliac-ferris-state?sp=conf-partner-k7p2&utm_medium=partner&utm_source=multiple&utm_content=school-landing-page&utm_term=ferris-state",
+        "live_stats": "https://www.ferrisstatebulldogs.com/sports/mbkb/2026-27/boxscores/20261110_ri43.xml"
+       },
        "live_feed": null
       },
       {
@@ -811,7 +814,7 @@
      "roster": {
       "url": "https://adrianbulldogs.com/sports/mens-basketball/roster",
       "season": "2026-27",
-      "players": 20,
+      "players": 21,
       "current": true
      },
      "players": [
@@ -887,7 +890,7 @@
      "pa": 167,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T10:02:19-06:00"
+     "fetched": "2026-11-09T19:26:47-06:00"
     },
     "albion": {
      "games": [
@@ -913,7 +916,8 @@
        "pa": 103,
        "status": "",
        "links": {
-        "boxscore": "https://gobrits.com/sports/mens-basketball/stats/2026-27/purdue-fort-wayne/boxscore/7991"
+        "boxscore": "https://gobrits.com/sports/mens-basketball/stats/2026-27/purdue-fort-wayne/boxscore/7991",
+        "recap": "https://gobrits.com/news/2026/11/9/mens-basketball-brits-fall-to-pfw-in-season-opener.aspx"
        },
        "live_feed": null
       },
@@ -1671,7 +1675,7 @@
      "pa": 103,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T10:02:19-06:00"
+     "fetched": "2026-11-09T19:26:47-06:00"
     },
     "alma": {
      "games": [
@@ -1755,6 +1759,7 @@
        "pa": null,
        "status": "",
        "links": {
+        "video": "https://dustars.com/showcase?Live=729",
         "live_stats": "https://dustars.com/sidearmstats/mbball/summary"
        },
        "live_feed": {
@@ -1765,7 +1770,7 @@
       {
        "id": "alma-mbb-14637",
        "exhibition": false,
-       "date": "2026-11-14T21:00:00Z",
+       "date": "2026-11-14T23:00:00Z",
        "time_tbd": false,
        "home": false,
        "neutral": false,
@@ -2586,7 +2591,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T10:02:19-06:00"
+     "fetched": "2026-11-09T19:26:47-06:00"
     },
     "calvin": {
      "games": [
@@ -3387,7 +3392,7 @@
      "pa": 150,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T10:02:19-06:00"
+     "fetched": "2026-11-09T19:26:47-06:00"
     },
     "hope": {
      "games": [
@@ -4230,7 +4235,7 @@
      "pa": 122,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T10:02:19-06:00"
+     "fetched": "2026-11-09T19:26:47-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5065,7 +5070,7 @@
      "pa": 78,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T10:02:19-06:00"
+     "fetched": "2026-11-09T19:26:47-06:00"
     },
     "olivet": {
      "games": [
@@ -5885,7 +5890,7 @@
      "pa": 70,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T10:02:19-06:00"
+     "fetched": "2026-11-09T19:26:47-06:00"
     },
     "trine": {
      "games": [
@@ -6728,7 +6733,7 @@
      "pa": 132,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T10:02:19-06:00"
+     "fetched": "2026-11-09T19:26:47-06:00"
     }
    },
    "poll": {
@@ -8330,7 +8335,7 @@
      "pa": 82,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T10:02:19-06:00"
+     "fetched": "2026-11-09T19:26:47-06:00"
     },
     "albion": {
      "games": [
@@ -8356,7 +8361,8 @@
        "pa": 48,
        "status": "",
        "links": {
-        "boxscore": "https://gobrits.com/sports/womens-basketball/stats/2026-27/heidelberg/boxscore/7942"
+        "boxscore": "https://gobrits.com/sports/womens-basketball/stats/2026-27/heidelberg/boxscore/7942",
+        "recap": "https://gobrits.com/news/2026/11/9/womens-basketball-brits-open-the-season-with-a-54-48-victory.aspx"
        },
        "live_feed": null
       },
@@ -9096,7 +9102,7 @@
      "pa": 48,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T10:02:19-06:00"
+     "fetched": "2026-11-09T19:26:47-06:00"
     },
     "alma": {
      "games": [
@@ -9934,7 +9940,7 @@
      "pa": 153,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T10:02:19-06:00"
+     "fetched": "2026-11-09T19:26:47-06:00"
     },
     "calvin": {
      "games": [
@@ -10714,7 +10720,7 @@
      "pa": 113,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T10:02:19-06:00"
+     "fetched": "2026-11-09T19:26:47-06:00"
     },
     "hope": {
      "games": [
@@ -11547,7 +11553,7 @@
      "pa": 130,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T10:02:19-06:00"
+     "fetched": "2026-11-09T19:26:47-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12382,7 +12388,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T10:02:19-06:00"
+     "fetched": "2026-11-09T19:26:47-06:00"
     },
     "olivet": {
      "games": [
@@ -13187,7 +13193,7 @@
      "pa": 51,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T10:02:19-06:00"
+     "fetched": "2026-11-09T19:26:47-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14030,7 +14036,7 @@
      "pa": 76,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T10:02:19-06:00"
+     "fetched": "2026-11-09T19:26:47-06:00"
     },
     "trine": {
      "games": [
@@ -14055,13 +14061,19 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
-       "live_feed": null
+       "links": {
+        "live_stats": "https://bwyellowjackets.com/sidearmstats/wbball/summary",
+        "tickets": "https://bwyellowjackets.com/sports/2024/8/15/ticketing.aspx"
+       },
+       "live_feed": {
+        "type": "sidearm",
+        "url": "https://sidearmstats.com/baldwinwallace/wbball/game.json"
+       }
       },
       {
        "id": "trine-wbb-8671",
        "exhibition": false,
-       "date": "2026-11-14T20:30:00Z",
+       "date": "2026-11-14T20:00:00Z",
        "time_tbd": false,
        "home": false,
        "neutral": false,
@@ -14079,7 +14091,9 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "live_stats": "https://onusports.com/sports/wbkb/2026-27/boxscores/20261114_mr90.xml"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/trine/wbball/game.json"
@@ -14892,7 +14906,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-09T10:02:19-06:00"
+     "fetched": "2026-11-09T19:26:47-06:00"
     }
    },
    "poll": {
@@ -15688,7 +15702,7 @@
   "d3hoops wbb: poll table not found"
  ],
  "stale": {
-  "olivet-mbb-schedule": "2026-11-09T00:06:27-06:00",
-  "olivet-wbb-schedule": "2026-11-09T00:06:27-06:00"
+  "olivet-mbb-schedule": "2026-11-09T10:02:19-06:00",
+  "olivet-wbb-schedule": "2026-11-09T10:02:19-06:00"
  }
 }
