@@ -656,9 +656,11 @@ def npi_status(sport, g):
 
 def npi_note(sport):
     return (f'<p class="small">The NPI game column shows whether a game counts toward the NCAA Power Index (NPI). '
-            f'A game counts when the opponent is a Division III member. Games against third-year provisional and third-year reclassifying members count. '
-            f'Games against first- and second-year members, schools reclassifying out of Division III, and exploratory schools do not. Exhibitions never count. '
-            f'The {link(NPI_RULES["reference"], "D3 Stat Lab reference")} lists each school\'s stage.</p>\n')
+            f'A game counts when the opponent is a Division III member. '
+            f'The {link(NPI_RULES["reference"], "D3 Stat Lab reference")} lists each school\'s stage.</p>\n'
+            f'<p class="small">Games against third-year provisional and third-year reclassifying members count. '
+            f'Games against first- and second-year members, schools reclassifying out of Division III, and exploratory schools do not. '
+            f'Exhibitions never count.</p>\n')
 
 
 def npi_cell(sport, g):
@@ -785,7 +787,8 @@ def tournament_section():
 <article class="rule">
 <h3>Format, from the 2025-26 tournaments</h3>
 <ul>
-<li>Six teams qualify. The top two seeds skip the first round. The higher seed hosts each first-round game. The No. 1 seed hosts the semifinals and the final, and keeps hosting the final after a semifinal loss. In 2026 Olivet, the men's No. 1 seed, lost its semifinal to Trine. Hope beat Trine in the final at Olivet the next night.</li>
+<li>Six teams qualify. The top two seeds skip the first round. The higher seed hosts each first-round game.</li>
+<li>The No. 1 seed hosts the semifinals and the final, and keeps hosting the final after a semifinal loss. In 2026 Olivet, the men's No. 1 seed, lost its semifinal to Trine. Hope beat Trine in the final at Olivet the next night.</li>
 <li>Men: first round on Tuesday, semifinals on Friday, final on Saturday. Women: first round on Wednesday, semifinals on Friday, final on Saturday.</li>
 <li>The regular-season champion is the team with the best MIAA won-loss record. The tournament champion gets the conference's automatic bid to the NCAA Division III Championship.</li>
 </ul>
@@ -815,8 +818,8 @@ def tournament_section():
 <li><b>Head-to-head record among the tied teams.</b> Every source lists this first. In all three verified ties the teams split, so it decided nothing.</li>
 <li><b>Record against the other teams, one at a time, from the top of the standings down.</b> Confirmed by the 2024 men's race. Trine and Calvin split, Trine went 2-0 against third-place Hope, and Calvin went 1-1. Trine got the No. 1 seed even though Calvin had the better second-half record, 6-1 to 5-2. So this step comes before the second-half step.</li>
 <li><b>Road record in conference games.</b> Fan-posted only. In all three verified ties the road records were equal, so no case confirms this step or its place in the order.</li>
-<li><b>Record in the second half of the double round robin.</b> Confirmed by the 2023 and 2024 women's races, and both school releases name it. In both cases the teams split head to head, had identical records against every other team, and had identical road records. That fits a step that sits after the first three.</li>
-<li><b>Coin flip.</b> One fan post. No case.</li>
+<li><b>Record in the second half of the double round robin.</b> Confirmed by the 2023 and 2024 women's races. Both school releases name it. In both cases the teams split head to head, had identical records against every other team, and had identical road records. That fits a step that sits after the first three.</li>
+<li><b>Coin flip.</b> One fan post names it. No case confirms it.</li>
 </ol>
 <p class="small">The evidence does not show how the MIAA breaks a three-team tie. One fan post says the conference once worked up from the bottom of the standings. The evidence also does not show whether the second-half step counts the last half of the schedule or the second meeting with each opponent. The two readings matched in every case here.</p>
 <details class="poll"><summary>The three verified ties</summary>
@@ -840,8 +843,8 @@ def tournament_section():
 </ul>
 </article>
 <article class="rule">
-<h3>What fans posted on d3boards.com</h3>
-<p class="small">These are forum posts. The posters disagree with each other on the order of the steps, and none of it is official. Each quote shows the poster and the date. This page does not link to d3boards.com threads.</p>
+<h3>Fan posts on d3boards.com</h3>
+<p class="small">These are forum posts. The posters disagree with each other on the order of the steps. None of it is official. Each quote shows the poster and the date. The quotes do not link to the d3boards.com threads.</p>
 <ul>
 <li><b>HOPEful</b>, quoted by deiscanton, d3boards.com, January 28, 2022. The MIAA order is head to head, then results against the other teams in descending order of the standings, then record in road league games.</li>
 <li><b>deiscanton</b>, d3boards.com, January 28, 2022. The post says the fourth MIAA step "apparently is best record/winning pct in the second half of the double round robin." The fifth is a coin flip. The same post says that the conference does not publish the list on its website.</li>
@@ -1246,7 +1249,7 @@ def main():
 <meta name="theme-color" content="#f4f3ef" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#15181d" media="(prefers-color-scheme: dark)">
 <title>{esc(SITE_NAME)}</title>
-<meta name="ste-allow" content="ET,PM,AM,MI,IN,TBA,D3,NCAA,II,III,SUNY,WPI">
+<meta name="ste-allow" content="ET,PM,AM,MI,IN,OH,FL,TBA,D3,NCAA,II,III,SUNY,WPI,RPI,TCNJ,second half">
 <meta name="description" content="MIAA Division III basketball, men's and women's, on one page: schedules, live scores, records, standings, D3hoops.com poll, NPI rank, rosters, stats, and where to watch.">
 <link rel="icon" href="assets/miaa.png"><link rel="apple-touch-icon" href="assets/miaa.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1264,7 +1267,7 @@ def main():
 {tournament_section()}
 
 <section class="more">
-<h2>Where the numbers come from</h2>
+<h2>Number sources</h2>
 <p>Men's NPI, efficiency ratings, and projections: {link("https://d3datacast.com/", "D3 Datacast")}.</p>
 <p>Women's NPI, preseason rankings, and season simulations: {link("https://thed3statlab.com/", "The D3 Stat Lab")}, run by the person behind this page.</p>
 <p>Polls: {link("https://www.d3hoops.com/top25/", "D3hoops.com")}.</p>
