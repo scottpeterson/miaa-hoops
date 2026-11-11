@@ -406,7 +406,7 @@ def npi_badges(sport, slug):
         if t.get("preseason_rank"):
             out.append(link(n.get("preseason_url", "https://thed3statlab.com/preseason_rankings.html"), f'<b>#{t["preseason_rank"]}</b> Preseason <span class="src">The D3 Stat Lab</span>', "badge"))
         if t.get("tourney_pct"):
-            out.append(link(n.get("sims_url", "https://thed3statlab.com/season_simulations.html"), f'<b>{esc(t["tourney_pct"].replace(".00%", "%"))}</b> tournament odds <span class="src">The D3 Stat Lab</span>', "badge"))
+            out.append(link(n.get("sims_url", "https://thed3statlab.com/season_simulations.html"), f'<b>{esc(t["tourney_pct"].replace(".00%", "%"))}</b> tournament chance <span class="src">The D3 Stat Lab</span>', "badge"))
     return "".join(out)
 
 
@@ -510,14 +510,14 @@ def numbers_section(sport):
                  f'{link(n["eff_url"], "efficiency ratings")}, updated {esc(when_updated(n.get("eff_updated", "")))}. The NPI stays on last season\'s final numbers until this season\'s games count. '
                  f'The {link("https://d3datacast.com/conference-ratings/miaa/", "MIAA conference page")} has every MIAA team\'s ratings.</p>')
     else:
-        head = "<tr><th>Team</th><th>NPI rank</th><th>NPI</th><th>Record in the NPI table</th><th>Bid</th><th>Preseason rank</th><th>Returning production</th><th>Tournament odds</th><th>Auto bid odds</th><th>Median record</th></tr>"
+        head = "<tr><th>Team</th><th>NPI rank</th><th>NPI</th><th>Record in the NPI table</th><th>Bid</th><th>Preseason rank</th><th>Returning Scoring</th><th>Tournament %</th><th>Auto Bid %</th><th>Median record</th></tr>"
         for s in sorted(members(sport), key=lambda s: safe_int(t.get(s["slug"], {}).get("rank"))):
             d = t.get(s["slug"])
             if not d:
                 continue
             rows.append(f'<tr data-teams="{s["slug"]}" data-keep="1"><td class="lead"><img src="{esc(s["logo"])}" alt=""> {esc(s["name"])}</td><td>#{d["rank"]}</td><td>{esc(d["npi"])}</td><td>{esc(d["record"])}</td><td>{esc(d["bid"])}</td><td>{"#" + str(d["preseason_rank"]) if d.get("preseason_rank") else "–"}</td><td>{esc(d.get("returning", "–"))}</td><td>{esc(d.get("tourney_pct", "–"))}</td><td>{esc(d.get("aq_pct", "–"))}</td><td>{esc(d.get("median_record", "–"))}</td></tr>')
         intro = (f'<p class="small">From {link("https://thed3statlab.com/", "The D3 Stat Lab")}: the {link(n["url"], "women\'s NPI table")}, '
-                 f'{link(n["preseason_url"], "preseason rankings")} with returning production, and {link(n["sims_url"], "season simulations")} with tournament odds and the median simulated record. '
+                 f'{link(n["preseason_url"], "preseason rankings")} with Returning Scoring, and {link(n["sims_url"], "season simulations")} with tournament chances and the median simulated record. '
                  f'The NPI stays on last season\'s final numbers until this season\'s games count.</p>')
     return intro + f'<div class="tablewrap"><table class="ratings"><thead>{head}</thead><tbody>{"".join(rows)}</tbody></table></div>'
 
@@ -542,7 +542,7 @@ def poll_section(sport):
         f'<tr class="{"miaa" if r["team"] in member_names else ""}"><td class="lead">{r["rank"]}</td><td>{esc(r["team"])}{" (" + str(r["first_place"]) + ")" if r.get("first_place") else ""}</td><td>{esc(r["record"])}</td><td>{esc(r["points"])}</td><td>{esc(r.get("prev") or "")}</td></tr>'
         for r in p.get("top25", []))
     others = ", ".join(f'{esc(k)} {v}' for k, v in rv.items())
-    return (f'<p class="small">{esc(p["label"])}. Source: {link(p["url"], "d3hoops.com")}. Teams in bold are MIAA members. First-place votes in parentheses.</p>{miaa}'
+    return (f'<p class="small">{esc(p["label"])}. Source: {link(p["url"], "D3hoops.com")}. Teams in bold are MIAA members. First-place votes in parentheses.</p>{miaa}'
             f'<details class="poll"><summary>Full Top 25</summary><div class="tablewrap"><table class="poll"><thead><tr><th>#</th><th>Team</th><th>Record</th><th>Points</th><th>Prev</th></tr></thead><tbody>{rows}</tbody></table></div>'
             f'{"<p class=small>Others receiving votes: " + others + "</p>" if others else ""}</details>')
 

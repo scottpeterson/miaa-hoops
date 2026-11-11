@@ -485,9 +485,9 @@ def presto_roster_people(url):
     return by_number, by_name
 
 
-YEARS = {"fr": "Freshman", "so": "Sophomore", "jr": "Junior", "sr": "Senior", "gr": "Graduate", "gs": "Graduate", "5th": "Fifth Year",
-         "r-fr": "Redshirt Freshman", "r-so": "Redshirt Sophomore", "r-jr": "Redshirt Junior", "r-sr": "Redshirt Senior",
-         "freshman": "Freshman", "sophomore": "Sophomore", "junior": "Junior", "senior": "Senior", "graduate": "Graduate"}
+YEARS = {"fr": "First-year", "so": "Sophomore", "jr": "Junior", "sr": "Senior", "gr": "Graduate", "gs": "Graduate", "5th": "Fifth Year",
+         "r-fr": "Redshirt First-year", "r-so": "Redshirt Sophomore", "r-jr": "Redshirt Junior", "r-sr": "Redshirt Senior",
+         "freshman": "First-year", "sophomore": "Sophomore", "junior": "Junior", "senior": "Senior", "graduate": "Graduate"}
 
 
 def class_year(label):
