@@ -2,6 +2,7 @@
 """Render docs/index.html from schools.json and data/season.json."""
 import html
 import json
+import math
 import re
 from collections import Counter
 from datetime import datetime, time as clock_time, timedelta, timezone
@@ -439,7 +440,7 @@ def npi_badges(sport, slug):
         if t.get("preseason_rank"):
             out.append(link(n.get("preseason_url", "https://thed3statlab.com/preseason_rankings.html"), f'<b>#{t["preseason_rank"]}</b> Preseason <span class="src">The D3 Stat Lab</span>', "badge"))
         if t.get("tourney_pct"):
-            out.append(link(n.get("sims_url", "https://thed3statlab.com/season_simulations.html"), f'<b>{esc(t["tourney_pct"].replace(".00%", "%"))}</b> tournament chance <span class="src">The D3 Stat Lab</span>', "badge"))
+            out.append(link(n.get("sims_url", "https://thed3statlab.com/season_simulations.html"), f'<b>{esc(pct_text(t["tourney_pct"], chance=True))}</b> tournament chance <span class="src">The D3 Stat Lab</span>', "badge"))
     return "".join(out)
 
 
@@ -538,7 +539,7 @@ def numbers_section(sport):
             d = t.get(s["slug"])
             if not d:
                 continue
-            rows.append(f'<tr data-teams="{s["slug"]}" data-keep="1"><td class="lead"><img src="{esc(s["logo"])}" alt=""> {esc(s["name"])}</td><td>{"#" + str(d["rank"]) if d.get("rank") else "–"}</td><td>{esc(d.get("npi", "–"))}</td><td>{esc(d.get("record", "–"))}</td><td>{esc(d.get("bid", "–"))}</td><td>{esc(d.get("at_large_rank", "–"))}</td><td>{"#" + str(d["eff_rank"]) if d.get("eff_rank") else "–"}</td><td>{esc(d.get("adj_em", "–"))}</td></tr>')
+            rows.append(f'<tr data-teams="{s["slug"]}" data-keep="1"><td class="lead"><img src="{esc(s["logo"])}" alt=""> {esc(s["name"])}</td><td>{"#" + str(d["rank"]) if d.get("rank") else "–"}</td><td>{esc(npi_text(d.get("npi")) or "–")}</td><td>{esc(d.get("record", "–"))}</td><td>{esc(d.get("bid", "–"))}</td><td>{"#" + str(d["at_large_rank"]) if str(d.get("at_large_rank") or "").isdigit() else esc(d.get("at_large_rank", "–"))}</td><td>{"#" + str(d["eff_rank"]) if d.get("eff_rank") else "–"}</td><td>{esc(d.get("adj_em", "–"))}</td></tr>')
         intro = (f'<p class="small">From {link("https://d3datacast.com/", "D3 Datacast")}: the {link(n["url"], "men\'s NPI table")}, updated {esc(when_updated(n.get("updated", "")))}. The '
                  f'{link(n["eff_url"], "efficiency ratings")}, updated {esc(when_updated(n.get("eff_updated", "")))}. The NPI stays on last season\'s final numbers until this season\'s games count. '
                  f'The {link("https://d3datacast.com/conference-ratings/miaa/", "MIAA conference page")} has every MIAA team\'s ratings.</p>')
@@ -548,7 +549,7 @@ def numbers_section(sport):
             d = t.get(s["slug"])
             if not d:
                 continue
-            rows.append(f'<tr data-teams="{s["slug"]}" data-keep="1"><td class="lead"><img src="{esc(s["logo"])}" alt=""> {esc(s["name"])}</td><td>#{d["rank"]}</td><td>{esc(d["npi"])}</td><td>{esc(d["record"])}</td><td>{esc(d["bid"])}</td><td>{"#" + str(d["preseason_rank"]) if d.get("preseason_rank") else "–"}</td><td>{esc(d.get("returning", "–"))}</td><td>{esc(d.get("tourney_pct", "–"))}</td><td>{esc(d.get("aq_pct", "–"))}</td><td>{esc(d.get("median_record", "–"))}</td></tr>')
+            rows.append(f'<tr data-teams="{s["slug"]}" data-keep="1"><td class="lead"><img src="{esc(s["logo"])}" alt=""> {esc(s["name"])}</td><td>{"#" + str(d["rank"]) if d.get("rank") else "–"}</td><td>{esc(npi_text(d["npi"]) or "–")}</td><td>{esc(d["record"])}</td><td>{esc(d["bid"])}</td><td>{"#" + str(d["preseason_rank"]) if d.get("preseason_rank") else "–"}</td><td>{esc(pct_text(d.get("returning", "–")))}</td><td>{esc(pct_text(d.get("tourney_pct", "–"), chance=True))}</td><td>{esc(pct_text(d.get("aq_pct", "–"), chance=True))}</td><td>{esc(d.get("median_record", "–"))}</td></tr>')
         intro = (f'<p class="small">From {link("https://thed3statlab.com/", "The D3 Stat Lab")}: the {link(n["url"], "women\'s NPI table")}, '
                  f'{link(n["preseason_url"], "preseason rankings")} with Returning Scoring, and {link(n["sims_url"], "season simulations")} with tournament chances and the median simulated record. '
                  f'The NPI stays on last season\'s final numbers until this season\'s games count.</p>')
@@ -588,6 +589,30 @@ def when_updated(raw):
     year = int(m.group(3)) + (2000 if len(m.group(3)) == 2 else 0)
     day = datetime(year, int(m.group(1)), int(m.group(2)))
     return f"{day:%B} {day.day}, {year}" + (f", {m.group(4)}" if m.group(4) else "")
+
+
+def pct_text(raw, chance=False):
+    """'41.33%' -> '41%'. Percentages show as whole numbers (TERMINOLOGY.md formats).
+    With chance=True the value is a simulation chance: one that rounds to 0 or 100 shows as <1% or >99%,
+    because a simulated 0.0% does not mean the team is eliminated. Text that is not a percentage passes through."""
+    m = re.fullmatch(r"\s*(-?\d+(?:\.\d+)?)\s*%\s*", str(raw or ""))
+    if not m:
+        return raw
+    v = float(m.group(1))
+    if chance and v < 0.5:
+        return "<1%"
+    if chance and v >= 99.5:
+        return ">99%"
+    # Round half up (70.5% -> 71%); Python's round() would send 70.5 to the even 70.
+    return f"{math.floor(v + 0.5)}%"
+
+
+def npi_text(raw):
+    """NPI shows three decimals (55.556, 60.000). Blank or non-numeric values pass through."""
+    try:
+        return f"{float(raw):.3f}"
+    except (TypeError, ValueError):
+        return raw
 
 
 def players_section(sport):
@@ -821,7 +846,7 @@ def tournament_section():
 <h3>Format, from the 2025-26 tournaments</h3>
 <ul>
 <li>Six teams qualify. The top two seeds skip the first round. The higher seed hosts each first-round game.</li>
-<li>The No. 1 seed hosts the semifinals and the final, and keeps hosting the final after a semifinal loss. In 2026 Olivet, the men's No. 1 seed, lost its semifinal to Trine. Hope beat Trine in the final at Olivet the next night.</li>
+<li>The #1 seed hosts the semifinals and the final, and keeps hosting the final after a semifinal loss. In 2026 Olivet, the men's #1 seed, lost its semifinal to Trine. Hope beat Trine in the final at Olivet the next night.</li>
 <li>Men: first round on Tuesday, semifinals on Friday, final on Saturday. Women: first round on Wednesday, semifinals on Friday, final on Saturday.</li>
 <li>The regular-season champion is the team with the best MIAA won-loss record. The tournament champion gets the conference's automatic bid to the NCAA Division III Championship.</li>
 </ul>
@@ -849,7 +874,7 @@ def tournament_section():
 <p>This order is an inference from the three ties below and the fan posts. The MIAA does not publish it. Each step says how much evidence backs it.</p>
 <ol>
 <li><b>Head-to-head record among the tied teams.</b> Every source lists this first. In all three verified ties the teams split, so it decided nothing.</li>
-<li><b>Record against the other teams, one at a time, from the top of the standings down.</b> Confirmed by the 2024 men's race. Trine and Calvin split, Trine went 2-0 against third-place Hope, and Calvin went 1-1. Trine got the No. 1 seed even though Calvin had the better second-half record, 6-1 to 5-2. So this step comes before the second-half step.</li>
+<li><b>Record against the other teams, one at a time, from the top of the standings down.</b> Confirmed by the 2024 men's race. Trine and Calvin split, Trine went 2-0 against third-place Hope, and Calvin went 1-1. Trine got the #1 seed even though Calvin had the better second-half record, 6-1 to 5-2. So this step comes before the second-half step.</li>
 <li><b>Road record in conference games.</b> Fan-posted only. In all three verified ties the road records were equal, so no case confirms this step or its place in the order.</li>
 <li><b>Record in the second half of the double round robin.</b> Confirmed by the 2023 and 2024 women's races. Both school releases name it. In both cases the teams split head to head, had identical records against every other team, and had identical road records. That fits a step that sits after the first three.</li>
 <li><b>Coin flip.</b> One fan post names it. No case confirms it.</li>
@@ -859,9 +884,9 @@ def tournament_section():
 <div class="tablewrap"><table>
 <thead><tr><th>Tie</th><th>Head to head</th><th>Vs. the next team down</th><th>Road</th><th>Second half</th><th>Result</th></tr></thead>
 <tbody>
-<tr><td class="lead">Women 2022-23, Hope and Trine, 14-2</td><td>1-1</td><td>Both 1-1 vs. Albion, both 2-0 vs. everyone else</td><td>7-1 each</td><td>Hope 8-0, Trine 6-2</td><td>Hope No. 1 seed</td></tr>
-<tr><td class="lead">Women 2023-24, Calvin and Trine, 12-4</td><td>1-1</td><td>Both 0-2 vs. Hope, both 1-1 vs. Albion, both 2-0 vs. everyone else</td><td>6-2 each</td><td>Calvin 6-2, Trine 5-3</td><td>Calvin No. 2 seed</td></tr>
-<tr><td class="lead">Men 2023-24, Trine and Calvin, 12-2</td><td>1-1</td><td>Trine 2-0 vs. Hope, Calvin 1-1 vs. Hope</td><td>6-1 each</td><td>Trine 5-2, Calvin 6-1</td><td>Trine No. 1 seed</td></tr>
+<tr><td class="lead">Women 2022-23, Hope and Trine, 14-2</td><td>1-1</td><td>Both 1-1 vs. Albion, both 2-0 vs. everyone else</td><td>7-1 each</td><td>Hope 8-0, Trine 6-2</td><td>Hope #1 seed</td></tr>
+<tr><td class="lead">Women 2023-24, Calvin and Trine, 12-4</td><td>1-1</td><td>Both 0-2 vs. Hope, both 1-1 vs. Albion, both 2-0 vs. everyone else</td><td>6-2 each</td><td>Calvin 6-2, Trine 5-3</td><td>Calvin #2 seed</td></tr>
+<tr><td class="lead">Men 2023-24, Trine and Calvin, 12-2</td><td>1-1</td><td>Trine 2-0 vs. Hope, Calvin 1-1 vs. Hope</td><td>6-1 each</td><td>Trine 5-2, Calvin 6-1</td><td>Trine #1 seed</td></tr>
 </tbody></table></div>
 <p class="small">The records come from the schools' schedule pages for those seasons. Second half means each team's last eight (women) or seven (men) conference games, which were the second meetings with each opponent in each case.</p>
 </details>
@@ -870,9 +895,9 @@ def tournament_section():
 <article class="rule">
 <h3>Tiebreakers in school releases</h3>
 <ul>
-<li>Men, 2024: Trine took the No. 1 seed over co-champion Calvin. Trine swept third-place Hope and Calvin split with Hope. That is head-to-head results against the next team down the standings. Source: {calvin24m}.</li>
-<li>Women, 2024: Calvin took the No. 2 seed over Trine "on a tiebreaker edge based on a superior second half record." Source: {calvin24w}.</li>
-<li>Women, 2023: Hope took the No. 1 seed over co-champion Trine "after winning a second-half league record tiebreaker." Source: {hope23}.</li>
+<li>Men, 2024: Trine took the #1 seed over co-champion Calvin. Trine swept third-place Hope and Calvin split with Hope. That is head-to-head results against the next team down the standings. Source: {calvin24m}.</li>
+<li>Women, 2024: Calvin took the #2 seed over Trine "on a tiebreaker edge based on a superior second half record." Source: {calvin24w}.</li>
+<li>Women, 2023: Hope took the #1 seed over co-champion Trine "after winning a second-half league record tiebreaker." Source: {hope23}.</li>
 </ul>
 </article>
 <article class="rule">
@@ -1272,8 +1297,9 @@ document.querySelectorAll('table').forEach(t=>{
 
 
 def main():
-    built = datetime.now(EASTERN).strftime("%Y-%m-%d %-I:%M %p")
-    fetched = datetime.fromisoformat(SEASON["fetched_at"]).astimezone(EASTERN).strftime("%Y-%m-%d %-I:%M %p")
+    # Update line in the approved format "Updated November 12, 2026, 7:14 AM ET", from the time the school data
+    # was fetched: that is the age of what the reader sees. Live scores carry their own "checked" time.
+    fetched = datetime.fromisoformat(SEASON["fetched_at"]).astimezone(EASTERN).strftime("%B %-d, %Y, %-I:%M %p")
     css = CSS.replace("__LIGHT__", color_vars(light_variant)).replace("__DARK__", color_vars(dark_variant))
     page = f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -1307,7 +1333,7 @@ def main():
 <p>Schedules, results, rosters, statistics, and live stats: each school's athletics site.</p>
 <p>Official conference standings: {link("https://miaa.org/", "miaa.org")}.</p>
 </section>
-<footer>Built {esc(built)} Eastern. School data fetched {esc(fetched)} Eastern. This page is not affiliated with the MIAA, its member schools, D3hoops.com, D3 Datacast, or the NCAA. Logos belong to their schools.</footer>
+<footer>Updated {esc(fetched)} ET. This page is not affiliated with the MIAA, its member schools, D3hoops.com, D3 Datacast, or the NCAA. Logos belong to their schools.</footer>
 </main>
 <script>{JS}</script>
 </body></html>
