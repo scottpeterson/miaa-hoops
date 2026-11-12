@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-11T20:39:13-06:00",
+ "fetched_at": "2026-11-12T00:45:15-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -887,7 +887,7 @@
      "pa": 264,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T20:39:13-06:00"
+     "fetched": "2026-11-12T00:45:15-06:00"
     },
     "albion": {
      "games": [
@@ -1671,7 +1671,7 @@
      "pa": 178,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T20:39:13-06:00"
+     "fetched": "2026-11-12T00:45:15-06:00"
     },
     "alma": {
      "games": [
@@ -2546,7 +2546,7 @@
      "pa": 72,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T20:39:13-06:00"
+     "fetched": "2026-11-12T00:45:15-06:00"
     },
     "calvin": {
      "games": [
@@ -3347,7 +3347,7 @@
      "pa": 150,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T20:39:13-06:00"
+     "fetched": "2026-11-12T00:45:15-06:00"
     },
     "hope": {
      "games": [
@@ -4190,7 +4190,7 @@
      "pa": 122,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T20:39:13-06:00"
+     "fetched": "2026-11-12T00:45:15-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5025,7 +5025,7 @@
      "pa": 78,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T20:39:13-06:00"
+     "fetched": "2026-11-12T00:45:15-06:00"
     },
     "olivet": {
      "games": [
@@ -5845,7 +5845,7 @@
      "pa": 70,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T20:39:13-06:00"
+     "fetched": "2026-11-12T00:45:15-06:00"
     },
     "trine": {
      "games": [
@@ -6688,7 +6688,7 @@
      "pa": 132,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T20:39:13-06:00"
+     "fetched": "2026-11-12T00:45:15-06:00"
     }
    },
    "poll": {
@@ -7518,7 +7518,8 @@
        "pa": 70,
        "status": "",
        "links": {
-        "boxscore": "https://adrianbulldogs.com/sports/womens-basketball/stats/2026-27/oberlin-college/boxscore/24110"
+        "boxscore": "https://adrianbulldogs.com/sports/womens-basketball/stats/2026-27/oberlin-college/boxscore/24110",
+        "recap": "https://adrianbulldogs.com/news/2026/11/11/womens-basketball-womens-basketball-earns-first-win-with-73-70-victory-over-oberlin.aspx"
        },
        "live_feed": null
       },
@@ -8309,7 +8310,7 @@
      "pa": 152,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T20:39:13-06:00"
+     "fetched": "2026-11-12T00:45:15-06:00"
     },
     "albion": {
      "games": [
@@ -9078,7 +9079,7 @@
      "pa": 48,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T20:39:13-06:00"
+     "fetched": "2026-11-12T00:45:15-06:00"
     },
     "alma": {
      "games": [
@@ -9916,7 +9917,7 @@
      "pa": 153,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T20:39:13-06:00"
+     "fetched": "2026-11-12T00:45:15-06:00"
     },
     "calvin": {
      "games": [
@@ -10696,7 +10697,7 @@
      "pa": 113,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T20:39:13-06:00"
+     "fetched": "2026-11-12T00:45:15-06:00"
     },
     "hope": {
      "games": [
@@ -11529,7 +11530,7 @@
      "pa": 130,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T20:39:13-06:00"
+     "fetched": "2026-11-12T00:45:15-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12364,7 +12365,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T20:39:13-06:00"
+     "fetched": "2026-11-12T00:45:15-06:00"
     },
     "olivet": {
      "games": [
@@ -13169,7 +13170,7 @@
      "pa": 51,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T20:39:13-06:00"
+     "fetched": "2026-11-12T00:45:15-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14012,7 +14013,7 @@
      "pa": 76,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T20:39:13-06:00"
+     "fetched": "2026-11-12T00:45:15-06:00"
     },
     "trine": {
      "games": [
@@ -14032,19 +14033,16 @@
        "conference": false,
        "location": "Berea, OH",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "W",
+       "pf": 58,
+       "pa": 48,
        "status": "",
        "links": {
-        "live_stats": "https://bwyellowjackets.com/sidearmstats/wbball/summary",
-        "tickets": "https://bwyellowjackets.com/sports/2024/8/15/ticketing.aspx"
+        "boxscore": "https://trinethunder.com/sports/womens-basketball/stats/2026-27/baldwin-wallace/boxscore/8670",
+        "recap": "https://trinethunder.com/news/2026/11/11/womens-basketball-9-thunder-sting-14-yellow-jackets-in-opener.aspx"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/baldwinwallace/wbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "trine-wbb-8671",
@@ -14787,102 +14785,83 @@
      "players": [
       {
        "label": "Points",
-       "name": "Ally Capouch",
-       "jersey": "24",
-       "gp": "28",
-       "total": "297",
-       "avg": "10.6",
-       "line": "10.6 per game, 297 total",
+       "name": "Annika Southworth",
+       "jersey": "2",
+       "gp": "1",
+       "total": "12",
+       "avg": "12.0",
+       "line": "12.0 per game, 12 total",
        "position": "G",
-       "year": "Junior",
-       "headshot": "https://trinethunder.com/images/2025/11/11/Capouch__Ally.jpg?width=200&quality=90"
+       "year": "Sophomore"
       },
       {
        "label": "Points",
-       "name": "Madison Wagner",
-       "jersey": "5",
-       "gp": "29",
-       "total": "289",
-       "avg": "10.0",
-       "line": "10.0 per game, 289 total",
+       "name": "Callie Nichols",
+       "jersey": "3",
+       "gp": "1",
+       "total": "8",
+       "avg": "8.0",
+       "line": "8.0 per game, 8 total",
        "position": "G",
-       "year": "Sophomore",
-       "headshot": "https://trinethunder.com/images/2025/11/11/Wagner__Madison.jpg?width=200&quality=90"
+       "year": "Sophomore"
       },
       {
        "label": "Rebounds",
-       "name": "Olivia Marks",
-       "jersey": "10",
-       "gp": "29",
-       "total": "209",
-       "avg": "7.2",
-       "line": "7.2 per game, 209 total",
-       "position": "G/F",
-       "year": "Junior",
-       "headshot": "https://trinethunder.com/images/2025/11/11/Marks__Oliva.jpg?width=200&quality=90"
+       "name": "Callie Nichols",
+       "jersey": "3",
+       "gp": "1",
+       "total": "6",
+       "avg": "6.0",
+       "line": "6.0 per game, 6 total",
+       "position": "G",
+       "year": "Sophomore"
       },
       {
        "label": "Assists",
-       "name": "Callie Nichols",
-       "jersey": "3",
-       "gp": "29",
-       "total": "76",
-       "avg": "2.6",
-       "line": "2.6 per game, 76 total",
+       "name": "Sophie Gesell",
+       "jersey": "4",
+       "gp": "1",
+       "total": "1",
+       "avg": "1.0",
+       "line": "1.0 per game, 1 total",
        "position": "G",
-       "year": "First-year",
-       "headshot": "https://trinethunder.com/images/2025/11/11/Nichols__Callie.jpg?width=200&quality=90"
+       "year": "Sophomore"
       },
       {
        "label": "Steals",
        "name": "Madison Wagner",
        "jersey": "5",
-       "gp": "29",
-       "total": "38",
-       "avg": "1.3",
-       "line": "1.3 per game, 38 total",
+       "gp": "1",
+       "total": "2",
+       "avg": "2.0",
+       "line": "2.0 per game, 2 total",
        "position": "G",
-       "year": "Sophomore",
-       "headshot": "https://trinethunder.com/images/2025/11/11/Wagner__Madison.jpg?width=200&quality=90"
+       "year": "Junior"
       },
       {
        "label": "Blocks",
-       "name": "Sophie Gesell",
-       "jersey": "4",
-       "gp": "26",
-       "total": "15",
-       "avg": "0.6",
-       "line": "0.6 per game, 15 total",
-       "position": "G",
-       "year": "First-year",
-       "headshot": "https://trinethunder.com/images/2025/11/11/Gesell__Sophie.jpg?width=200&quality=90"
-      }
-     ],
-     "departed": [
-      {
-       "name": "Ellianna Foley",
-       "reason": "not on the 2026-27 roster",
-       "line": "1.2 points per game",
+       "name": "Sienna Gills",
+       "jersey": "21",
+       "gp": "1",
+       "total": "2",
+       "avg": "2.0",
+       "line": "2.0 per game, 2 total",
+       "position": "F",
        "year": "First-year"
-      },
-      {
-       "name": "Lily Johnson",
-       "reason": "not on the 2026-27 roster",
-       "line": "0.9 points per game",
-       "year": "Sophomore"
       }
      ],
-     "stats_season": "2025-26",
-     "played": 0,
-     "wins": 0,
+     "departed": [],
+     "stats_season": "2026-27",
+     "played": 1,
+     "wins": 1,
      "losses": 0,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 0,
-     "pa": 0,
-     "record": "0-0",
+     "pf": 58,
+     "pa": 48,
+     "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T20:39:13-06:00"
+     "fetched": "2026-11-12T00:45:15-06:00"
     }
    },
    "poll": {
@@ -15678,7 +15657,7 @@
   "d3hoops wbb: poll table not found"
  ],
  "stale": {
-  "olivet-mbb-schedule": "2026-11-11T18:31:26-06:00",
-  "olivet-wbb-schedule": "2026-11-11T18:31:26-06:00"
+  "olivet-mbb-schedule": "2026-11-11T20:39:13-06:00",
+  "olivet-wbb-schedule": "2026-11-11T20:39:13-06:00"
  }
 }
