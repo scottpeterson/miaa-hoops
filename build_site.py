@@ -21,6 +21,38 @@ SPORT_LABEL = {"mbb": "men's", "wbb": "women's"}
 SITE_NAME = "MIAA Hoops Dashboard"
 
 
+# Canonical team names. The D3 Stat Lab, tonightind3wbb.com, School Report Cards,
+# and the team PDFs all show the Display name from the master school mapping
+# (d3-bball-npi "D3 Schools Name Mapping.csv"), published as the d3-schools
+# package. Schedule pages and D3hoops.com use their own spellings ("Wis.-La
+# Crosse", "Washington U."), so every non-member name a reader sees goes through
+# display_name(). Matching keeps the source spellings: only the text changes.
+# A name the package does not know (NAIA and junior colleges) shows as written.
+try:
+    from d3_schools import SchoolRegistry
+
+    _REGISTRY = SchoolRegistry()
+except ImportError:  # building without the package keeps the source names
+    _REGISTRY = None
+
+
+def display_name(name):
+    if not name or _REGISTRY is None:
+        return name
+    parts = re.split(r"(\s+(?:or|vs\.?)\s+)", name)
+    out = []
+    for part in parts:
+        if re.fullmatch(r"\s+(?:or|vs\.?)\s+", part):
+            out.append(part)
+            continue
+        try:
+            school = _REGISTRY.find(part)
+        except Exception:  # an ambiguous name ("Wheaton") keeps the source spelling
+            school = None
+        out.append(school.display_name if school else part)
+    return "".join(out)
+
+
 def esc(value):
     return html.escape("" if value is None else str(value), quote=True)
 
@@ -158,7 +190,8 @@ def opp_name(game, sport):
     slug = game["opponent"].get("slug")
     if slug and slug in BY_SLUG:
         return BY_SLUG[slug]["name"]
-    return game["opponent"]["short"]
+    resolved = display_name(game["opponent"]["name"])
+    return resolved if resolved != game["opponent"]["name"] else game["opponent"]["short"]
 
 
 def opponent_label(game, sport):
@@ -324,7 +357,7 @@ def game_card(sport, school, g, twin, kind="pre"):
             opener += '<span class="chip">Not counted in the record</span>' 
     note = f'<dt>Note</dt><dd>{esc(g["note"])}</dd>' if g.get("note") else ""
     return f'''<article class="game {status_class}" data-game="{esc(g["id"])}"{twin_attr} data-teams="{esc(team_slugs)}" data-date="{esc(g["date"])}"{' data-tbd="1"' if g.get("time_tbd") else ""} data-home="{1 if g["home"] else 0}" data-us="{esc(school["name"] + " " + school.get("full_name", ""))}" data-them="{esc(opp["name"] + " " + (opp.get("short") or ""))}"{feed_attrs}{progress_attr} style="--team:var(--c-{school["slug"]})">
-<header><img src="{esc(school["logo"])}" alt=""><div><div class="who">{my_rk}{esc(school["name"])} <span class="muted">{esc(mascot(school, sport))}</span></div><div class="what">{"vs" if g["home"] or g.get("neutral") else "at"} {rk}{esc(opp["name"] if not opp.get("slug") else BY_SLUG[opp["slug"]]["name"] + " " + mascot(BY_SLUG[opp["slug"]], sport))}</div></div>{opp_img}</header>
+<header><img src="{esc(school["logo"])}" alt=""><div><div class="who">{my_rk}{esc(school["name"])} <span class="muted">{esc(mascot(school, sport))}</span></div><div class="what">{"vs" if g["home"] or g.get("neutral") else "at"} {rk}{esc(display_name(opp["name"]) if not opp.get("slug") else BY_SLUG[opp["slug"]]["name"] + " " + mascot(BY_SLUG[opp["slug"]], sport))}</div></div>{opp_img}</header>
 <div class="body">
 <div class="scoreline"><span class="score">{score}</span><span class="status">{status}</span></div>
 <div class="situation{" on" if situation else ""}">{situation}</div>
@@ -539,9 +572,9 @@ def poll_section(sport):
     miaa = f'<div class="badges">{"".join(mentions)}</div>' if mentions else '<p class="small">No MIAA team is ranked or receiving votes in this poll.</p>'
     member_names = {s.get("d3hoops_name") or s["name"] for s in members(sport)}
     rows = "".join(
-        f'<tr class="{"miaa" if r["team"] in member_names else ""}"><td class="lead">{r["rank"]}</td><td>{esc(r["team"])}{" (" + str(r["first_place"]) + ")" if r.get("first_place") else ""}</td><td>{esc(r["record"])}</td><td>{esc(r["points"])}</td><td>{esc(r.get("prev") or "")}</td></tr>'
+        f'<tr class="{"miaa" if r["team"] in member_names else ""}"><td class="lead">{r["rank"]}</td><td>{esc(display_name(r["team"]))}{" (" + str(r["first_place"]) + ")" if r.get("first_place") else ""}</td><td>{esc(r["record"])}</td><td>{esc(r["points"])}</td><td>{esc(r.get("prev") or "")}</td></tr>'
         for r in p.get("top25", []))
-    others = ", ".join(f'{esc(k)} {v}' for k, v in rv.items())
+    others = ", ".join(f'{esc(display_name(k))} {v}' for k, v in rv.items())
     return (f'<p class="small">{esc(p["label"])}. Source: {link(p["url"], "D3hoops.com")}. Teams in bold are MIAA members. First-place votes in parentheses.</p>{miaa}'
             f'<details class="poll"><summary>Full Top 25</summary><div class="tablewrap"><table class="poll"><thead><tr><th>#</th><th>Team</th><th>Record</th><th>Points</th><th>Prev</th></tr></thead><tbody>{rows}</tbody></table></div>'
             f'{"<p class=small>Others receiving votes: " + others + "</p>" if others else ""}</details>')

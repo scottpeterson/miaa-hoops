@@ -23,6 +23,11 @@ jobs:
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: "3.12"
+      # d3-schools turns source spellings into the canonical team names the
+      # other D3 sites use. PyPI 0.3.4 predates the master Display column, so
+      # install the commit that has it.
+      - name: Install d3-schools
+        run: pip install "d3-schools @ git+https://github.com/scottpeterson/d3-schools-utilities.git@31e1275a253d886052aa72d8ed1fc6943d6b053b"
       - name: Fetch data and build the page
         run: |
           python fetch_data.py || echo "fetch reported errors; building with what it got"
