@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-11T18:31:26-06:00",
+ "fetched_at": "2026-11-11T20:39:13-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -887,7 +887,7 @@
      "pa": 264,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T18:31:26-06:00"
+     "fetched": "2026-11-11T20:39:13-06:00"
     },
     "albion": {
      "games": [
@@ -1671,7 +1671,7 @@
      "pa": 178,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T18:31:26-06:00"
+     "fetched": "2026-11-11T20:39:13-06:00"
     },
     "alma": {
      "games": [
@@ -2546,7 +2546,7 @@
      "pa": 72,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T18:31:26-06:00"
+     "fetched": "2026-11-11T20:39:13-06:00"
     },
     "calvin": {
      "games": [
@@ -3347,7 +3347,7 @@
      "pa": 150,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T18:31:26-06:00"
+     "fetched": "2026-11-11T20:39:13-06:00"
     },
     "hope": {
      "games": [
@@ -4190,7 +4190,7 @@
      "pa": 122,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T18:31:26-06:00"
+     "fetched": "2026-11-11T20:39:13-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5025,7 +5025,7 @@
      "pa": 78,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T18:31:26-06:00"
+     "fetched": "2026-11-11T20:39:13-06:00"
     },
     "olivet": {
      "games": [
@@ -5845,7 +5845,7 @@
      "pa": 70,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T18:31:26-06:00"
+     "fetched": "2026-11-11T20:39:13-06:00"
     },
     "trine": {
      "games": [
@@ -6688,7 +6688,7 @@
      "pa": 132,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T18:31:26-06:00"
+     "fetched": "2026-11-11T20:39:13-06:00"
     }
    },
    "poll": {
@@ -6938,8 +6938,8 @@
     "source": "D3 Datacast",
     "url": "https://d3datacast.com/npi/mbb/",
     "eff_url": "https://d3datacast.com/efficiency-ratings/",
-    "updated": "11/11/26 6:47 PM",
-    "eff_updated": "11/11/2026 6:47 PM",
+    "updated": "11/11/26 9:04 PM",
+    "eff_updated": "11/11/2026 9:04 PM",
     "count": 329,
     "teams": {
      "adrian": {
@@ -6951,7 +6951,7 @@
       "seed": "-",
       "eff_rank": 342,
       "adj_em": "-10.6",
-      "eff_updated": "11/11/2026 6:47 PM"
+      "eff_updated": "11/11/2026 9:04 PM"
      },
      "albion": {
       "rank": 65,
@@ -6962,7 +6962,7 @@
       "seed": "-",
       "eff_rank": 213,
       "adj_em": "-0.1",
-      "eff_updated": "11/11/2026 6:47 PM"
+      "eff_updated": "11/11/2026 9:04 PM"
      },
      "alma": {
       "rank": 212,
@@ -6973,7 +6973,7 @@
       "seed": "-",
       "eff_rank": 353,
       "adj_em": "-11.6",
-      "eff_updated": "11/11/2026 6:47 PM"
+      "eff_updated": "11/11/2026 9:04 PM"
      },
      "calvin": {
       "rank": 197,
@@ -6984,7 +6984,7 @@
       "seed": "-",
       "eff_rank": 79,
       "adj_em": "+8.2",
-      "eff_updated": "11/11/2026 6:47 PM"
+      "eff_updated": "11/11/2026 9:04 PM"
      },
      "hope": {
       "rank": 112,
@@ -6995,7 +6995,7 @@
       "seed": "-",
       "eff_rank": 36,
       "adj_em": "+13.3",
-      "eff_updated": "11/11/2026 6:47 PM"
+      "eff_updated": "11/11/2026 9:04 PM"
      },
      "kalamazoo": {
       "rank": 208,
@@ -7006,7 +7006,7 @@
       "seed": "-",
       "eff_rank": 365,
       "adj_em": "-12.8",
-      "eff_updated": "11/11/2026 6:47 PM"
+      "eff_updated": "11/11/2026 9:04 PM"
      },
      "olivet": {
       "rank": 87,
@@ -7017,7 +7017,7 @@
       "seed": "-",
       "eff_rank": 101,
       "adj_em": "+6.8",
-      "eff_updated": "11/11/2026 6:47 PM"
+      "eff_updated": "11/11/2026 9:04 PM"
      },
      "trine": {
       "rank": 172,
@@ -7028,7 +7028,7 @@
       "seed": "-",
       "eff_rank": 43,
       "adj_em": "+12.9",
-      "eff_updated": "11/11/2026 6:47 PM"
+      "eff_updated": "11/11/2026 9:04 PM"
      }
     },
     "d3_teams": [
@@ -7512,20 +7512,15 @@
        "conference": false,
        "location": "Adrian, Mich., Merillat Sport and Fitness Center",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "W",
+       "pf": 73,
+       "pa": 70,
        "status": "",
        "links": {
-        "video": "https://www.youtube.com/@AdrianCollegeTV",
-        "live_stats": "https://adrianbulldogs.com/sidearmstats/wbball/summary",
-        "tickets": "https://adrianbulldogs.com/sports/2022/8/8/ticketing?&openTarget=system"
+        "boxscore": "https://adrianbulldogs.com/sports/womens-basketball/stats/2026-27/oberlin-college/boxscore/24110"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/adrian/wbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "adrian-wbb-24111",
@@ -8234,46 +8229,46 @@
        "label": "Points",
        "name": "Hannah Lisch",
        "jersey": "1",
-       "gp": "1",
-       "total": "11",
-       "avg": "11.0",
-       "line": "11.0 per game, 11 total",
+       "gp": "2",
+       "total": "34",
+       "avg": "17.0",
+       "line": "17.0 per game, 34 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://adrianbulldogs.com/images/2026/10/7/Cropped_Hannah_Lisch.png?width=200&quality=90"
       },
       {
        "label": "Points",
+       "name": "Ashlyn Moorehead",
+       "jersey": "23",
+       "gp": "2",
+       "total": "17",
+       "avg": "8.5",
+       "line": "8.5 per game, 17 total",
+       "position": "G",
+       "year": "Sophomore",
+       "headshot": "https://adrianbulldogs.com/images/2026/10/7/Cropped_Ashlyn_Moorehead.png?width=200&quality=90"
+      },
+      {
+       "label": "Rebounds",
        "name": "Caitlin Griffin",
        "jersey": "14",
-       "gp": "1",
+       "gp": "2",
        "total": "9",
-       "avg": "9.0",
-       "line": "9.0 per game, 9 total",
+       "avg": "4.5",
+       "line": "4.5 per game, 9 total",
        "position": "F",
        "year": "Sophomore",
        "headshot": "https://adrianbulldogs.com/images/2026/10/7/Cropped_Caitlin_Griffin.png?width=200&quality=90"
       },
       {
-       "label": "Rebounds",
-       "name": "Hannah Lisch",
-       "jersey": "1",
-       "gp": "1",
-       "total": "4",
-       "avg": "4.0",
-       "line": "4.0 per game, 4 total",
-       "position": "G",
-       "year": "Junior",
-       "headshot": "https://adrianbulldogs.com/images/2026/10/7/Cropped_Hannah_Lisch.png?width=200&quality=90"
-      },
-      {
        "label": "Assists",
        "name": "Ashlyn Moorehead",
        "jersey": "23",
-       "gp": "1",
-       "total": "3",
-       "avg": "3.0",
-       "line": "3.0 per game, 3 total",
+       "gp": "2",
+       "total": "9",
+       "avg": "4.5",
+       "line": "4.5 per game, 9 total",
        "position": "G",
        "year": "Sophomore",
        "headshot": "https://adrianbulldogs.com/images/2026/10/7/Cropped_Ashlyn_Moorehead.png?width=200&quality=90"
@@ -8282,27 +8277,39 @@
        "label": "Steals",
        "name": "Caitlin Griffin",
        "jersey": "14",
-       "gp": "1",
-       "total": "2",
+       "gp": "2",
+       "total": "4",
        "avg": "2.0",
-       "line": "2.0 per game, 2 total",
+       "line": "2.0 per game, 4 total",
        "position": "F",
        "year": "Sophomore",
        "headshot": "https://adrianbulldogs.com/images/2026/10/7/Cropped_Caitlin_Griffin.png?width=200&quality=90"
+      },
+      {
+       "label": "Blocks",
+       "name": "Gabriella Yancura",
+       "jersey": "20",
+       "gp": "2",
+       "total": "1",
+       "avg": "0.5",
+       "line": "0.5 per game, 1 total",
+       "position": "G",
+       "year": "First-year",
+       "headshot": "https://adrianbulldogs.com/images/2026/10/7/Cropped_Gabriella_Yancura.png?width=200&quality=90"
       }
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 1,
-     "wins": 0,
+     "played": 2,
+     "wins": 1,
      "losses": 1,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 56,
-     "pa": 82,
-     "record": "0-1",
+     "pf": 129,
+     "pa": 152,
+     "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T18:31:26-06:00"
+     "fetched": "2026-11-11T20:39:13-06:00"
     },
     "albion": {
      "games": [
@@ -9071,7 +9078,7 @@
      "pa": 48,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T18:31:26-06:00"
+     "fetched": "2026-11-11T20:39:13-06:00"
     },
     "alma": {
      "games": [
@@ -9909,7 +9916,7 @@
      "pa": 153,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T18:31:26-06:00"
+     "fetched": "2026-11-11T20:39:13-06:00"
     },
     "calvin": {
      "games": [
@@ -10689,7 +10696,7 @@
      "pa": 113,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T18:31:26-06:00"
+     "fetched": "2026-11-11T20:39:13-06:00"
     },
     "hope": {
      "games": [
@@ -11522,7 +11529,7 @@
      "pa": 130,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T18:31:26-06:00"
+     "fetched": "2026-11-11T20:39:13-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12357,7 +12364,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T18:31:26-06:00"
+     "fetched": "2026-11-11T20:39:13-06:00"
     },
     "olivet": {
      "games": [
@@ -13162,7 +13169,7 @@
      "pa": 51,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T18:31:26-06:00"
+     "fetched": "2026-11-11T20:39:13-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14005,7 +14012,7 @@
      "pa": 76,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T18:31:26-06:00"
+     "fetched": "2026-11-11T20:39:13-06:00"
     },
     "trine": {
      "games": [
@@ -14875,7 +14882,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T18:31:26-06:00"
+     "fetched": "2026-11-11T20:39:13-06:00"
     }
    },
    "poll": {
@@ -15138,11 +15145,11 @@
     "count": 411,
     "teams": {
      "adrian": {
-      "rank": 183,
-      "npi": 44.444,
-      "rank_change": null,
+      "rank": 167,
+      "npi": 48.942,
+      "rank_change": 17,
       "bid": "AL-140",
-      "record": "0-1 qualifying",
+      "record": "1-1 qualifying",
       "preseason_rank": 237,
       "returning": "41.33%",
       "tourney_pct": "0.0%",
@@ -15150,7 +15157,7 @@
       "median_record": "6-19"
      },
      "albion": {
-      "rank": 35,
+      "rank": 54,
       "npi": 55.556,
       "rank_change": null,
       "bid": "AL-119",
@@ -15162,7 +15169,7 @@
       "median_record": "14-11"
      },
      "alma": {
-      "rank": 183,
+      "rank": 214,
       "npi": 44.444,
       "rank_change": null,
       "bid": "AL-140",
@@ -15174,8 +15181,8 @@
       "median_record": "10-15"
      },
      "calvin": {
-      "rank": 176,
-      "npi": 45.918,
+      "rank": 266,
+      "npi": 44.437,
       "rank_change": null,
       "bid": "AL-81",
       "record": "1-1 qualifying",
@@ -15186,7 +15193,7 @@
       "median_record": "15-10"
      },
      "hope": {
-      "rank": 114,
+      "rank": 118,
       "npi": 53.333,
       "rank_change": null,
       "bid": "AL-03",
@@ -15210,7 +15217,7 @@
       "median_record": "10-15"
      },
      "olivet": {
-      "rank": 183,
+      "rank": 214,
       "npi": 44.444,
       "rank_change": null,
       "bid": "AL-140",
@@ -15222,7 +15229,7 @@
       "median_record": "2-23"
      },
      "saintmarys": {
-      "rank": 35,
+      "rank": 54,
       "npi": 55.556,
       "rank_change": null,
       "bid": "AL-140",
@@ -15234,11 +15241,11 @@
       "median_record": "12-13"
      },
      "trine": {
-      "rank": null,
-      "npi": "",
+      "rank": 13,
+      "npi": 60,
       "rank_change": null,
       "bid": "AQ",
-      "record": "0-0 qualifying",
+      "record": "1-0 qualifying",
       "preseason_rank": 8,
       "returning": "84.47%",
       "tourney_pct": "99.4%",
@@ -15671,7 +15678,7 @@
   "d3hoops wbb: poll table not found"
  ],
  "stale": {
-  "olivet-mbb-schedule": "2026-11-11T08:04:13-06:00",
-  "olivet-wbb-schedule": "2026-11-11T08:04:13-06:00"
+  "olivet-mbb-schedule": "2026-11-11T18:31:26-06:00",
+  "olivet-wbb-schedule": "2026-11-11T18:31:26-06:00"
  }
 }
