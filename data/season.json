@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-11T08:04:13-06:00",
+ "fetched_at": "2026-11-11T18:31:26-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -887,7 +887,7 @@
      "pa": 264,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T08:04:13-06:00"
+     "fetched": "2026-11-11T18:31:26-06:00"
     },
     "albion": {
      "games": [
@@ -940,7 +940,8 @@
        "pa": 75,
        "status": "",
        "links": {
-        "boxscore": "https://gobrits.com/sports/mens-basketball/stats/2026-27/manchester/boxscore/7885"
+        "boxscore": "https://gobrits.com/sports/mens-basketball/stats/2026-27/manchester/boxscore/7885",
+        "recap": "https://gobrits.com/news/2026/11/11/mens-basketball-brits-pick-up-85-75-over-spartans.aspx"
        },
        "live_feed": null
       },
@@ -1670,7 +1671,7 @@
      "pa": 178,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T08:04:13-06:00"
+     "fetched": "2026-11-11T18:31:26-06:00"
     },
     "alma": {
      "games": [
@@ -1731,7 +1732,7 @@
       {
        "id": "alma-mbb-14636",
        "exhibition": false,
-       "date": "2026-11-14T01:00:00Z",
+       "date": "2026-11-14T00:00:00Z",
        "time_tbd": false,
        "home": false,
        "neutral": false,
@@ -2470,7 +2471,7 @@
        "avg": "41.0",
        "line": "41.0 per game, 41 total",
        "position": "Guard",
-       "year": "Freshman",
+       "year": "First-year",
        "headshot": "https://almascots.com/images/2026/10/27/Dugenar_Adam.jpg?width=200&quality=90"
       },
       {
@@ -2494,7 +2495,7 @@
        "avg": "5.0",
        "line": "5.0 per game, 5 total",
        "position": "Guard",
-       "year": "Freshman",
+       "year": "First-year",
        "headshot": "https://almascots.com/images/2026/10/27/Dugenar_Adam.jpg?width=200&quality=90"
       },
       {
@@ -2545,7 +2546,7 @@
      "pa": 72,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T08:04:13-06:00"
+     "fetched": "2026-11-11T18:31:26-06:00"
     },
     "calvin": {
      "games": [
@@ -3346,7 +3347,7 @@
      "pa": 150,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T08:04:13-06:00"
+     "fetched": "2026-11-11T18:31:26-06:00"
     },
     "hope": {
      "games": [
@@ -4174,7 +4175,7 @@
        "avg": "1.5",
        "line": "1.5 per game, 3 total",
        "position": "Forward/Center",
-       "year": "Freshman",
+       "year": "First-year",
        "headshot": "https://athletics.hope.edu/images/2026/11/3/Mehendale_Ben.jpg?width=200&quality=90"
       }
      ],
@@ -4189,7 +4190,7 @@
      "pa": 122,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T08:04:13-06:00"
+     "fetched": "2026-11-11T18:31:26-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -4949,7 +4950,7 @@
        "avg": "23.0",
        "line": "23.0 per game, 23 total",
        "position": "G",
-       "year": "Freshman",
+       "year": "First-year",
        "headshot": "https://hornets.kzoo.edu/images/2026/10/19/Harrison__Jordan_CMoss261012-4B3A7429.png?width=200&quality=90"
       },
       {
@@ -4961,7 +4962,7 @@
        "avg": "12.0",
        "line": "12.0 per game, 12 total",
        "position": "G",
-       "year": "Freshman",
+       "year": "First-year",
        "headshot": "https://hornets.kzoo.edu/images/2026/10/19/Moore__Marvin_CMoss261012-4B3A7415.png?width=200&quality=90"
       },
       {
@@ -4985,7 +4986,7 @@
        "avg": "6.0",
        "line": "6.0 per game, 6 total",
        "position": "G",
-       "year": "Freshman",
+       "year": "First-year",
        "headshot": "https://hornets.kzoo.edu/images/2026/10/19/Harrison__Jordan_CMoss261012-4B3A7429.png?width=200&quality=90"
       },
       {
@@ -5009,7 +5010,7 @@
        "avg": "1.0",
        "line": "1.0 per game, 1 total",
        "position": "G",
-       "year": "Freshman",
+       "year": "First-year",
        "headshot": "https://hornets.kzoo.edu/images/2026/10/19/Moore__Marvin_CMoss261012-4B3A7415.png?width=200&quality=90"
       }
      ],
@@ -5024,7 +5025,7 @@
      "pa": 78,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T08:04:13-06:00"
+     "fetched": "2026-11-11T18:31:26-06:00"
     },
     "olivet": {
      "games": [
@@ -5844,7 +5845,7 @@
      "pa": 70,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T08:04:13-06:00"
+     "fetched": "2026-11-11T18:31:26-06:00"
     },
     "trine": {
      "games": [
@@ -6651,7 +6652,7 @@
        "avg": "2.5",
        "line": "2.5 per game, 5 total",
        "position": "G",
-       "year": "Freshman"
+       "year": "First-year"
       },
       {
        "label": "Steals",
@@ -6662,7 +6663,7 @@
        "avg": "2.0",
        "line": "2.0 per game, 4 total",
        "position": "G",
-       "year": "Freshman"
+       "year": "First-year"
       },
       {
        "label": "Blocks",
@@ -6673,7 +6674,7 @@
        "avg": "0.5",
        "line": "0.5 per game, 1 total",
        "position": "G",
-       "year": "Freshman"
+       "year": "First-year"
       }
      ],
      "departed": [],
@@ -6687,7 +6688,7 @@
      "pa": 132,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T08:04:13-06:00"
+     "fetched": "2026-11-11T18:31:26-06:00"
     }
    },
    "poll": {
@@ -6937,20 +6938,20 @@
     "source": "D3 Datacast",
     "url": "https://d3datacast.com/npi/mbb/",
     "eff_url": "https://d3datacast.com/efficiency-ratings/",
-    "updated": "11/11/26 7:46 AM",
-    "eff_updated": "11/11/2026 7:47 AM",
-    "count": 328,
+    "updated": "11/11/26 6:47 PM",
+    "eff_updated": "11/11/2026 6:47 PM",
+    "count": 329,
     "teams": {
      "adrian": {
-      "rank": 305,
+      "rank": 309,
       "record": "0-2",
       "npi": "36.589",
       "bid": "At-Lg",
-      "at_large_rank": "305",
+      "at_large_rank": "309",
       "seed": "-",
       "eff_rank": 342,
       "adj_em": "-10.6",
-      "eff_updated": "11/11/2026 7:47 AM"
+      "eff_updated": "11/11/2026 6:47 PM"
      },
      "albion": {
       "rank": 65,
@@ -6959,20 +6960,20 @@
       "bid": "At-Lg",
       "at_large_rank": "65",
       "seed": "-",
-      "eff_rank": 214,
+      "eff_rank": 213,
       "adj_em": "-0.1",
-      "eff_updated": "11/11/2026 7:47 AM"
+      "eff_updated": "11/11/2026 6:47 PM"
      },
      "alma": {
-      "rank": 231,
+      "rank": 212,
       "record": "0-1",
       "npi": "42.857",
       "bid": "At-Lg",
-      "at_large_rank": "231",
+      "at_large_rank": "212",
       "seed": "-",
       "eff_rank": 353,
       "adj_em": "-11.6",
-      "eff_updated": "11/11/2026 7:47 AM"
+      "eff_updated": "11/11/2026 6:47 PM"
      },
      "calvin": {
       "rank": 197,
@@ -6983,51 +6984,51 @@
       "seed": "-",
       "eff_rank": 79,
       "adj_em": "+8.2",
-      "eff_updated": "11/11/2026 7:47 AM"
+      "eff_updated": "11/11/2026 6:47 PM"
      },
      "hope": {
-      "rank": 109,
+      "rank": 112,
       "record": "2-0",
       "npi": "57.143",
       "bid": "At-Lg",
-      "at_large_rank": "109",
+      "at_large_rank": "112",
       "seed": "-",
       "eff_rank": 36,
       "adj_em": "+13.3",
-      "eff_updated": "11/11/2026 7:47 AM"
+      "eff_updated": "11/11/2026 6:47 PM"
      },
      "kalamazoo": {
-      "rank": 270,
+      "rank": 208,
       "record": "0-1",
       "npi": "42.857",
       "bid": "At-Lg",
-      "at_large_rank": "270",
+      "at_large_rank": "208",
       "seed": "-",
       "eff_rank": 365,
       "adj_em": "-12.8",
-      "eff_updated": "11/11/2026 7:47 AM"
+      "eff_updated": "11/11/2026 6:47 PM"
      },
      "olivet": {
-      "rank": 86,
+      "rank": 87,
       "record": "2-0",
       "npi": "57.143",
       "bid": "At-Lg",
-      "at_large_rank": "86",
+      "at_large_rank": "87",
       "seed": "-",
       "eff_rank": 101,
       "adj_em": "+6.8",
-      "eff_updated": "11/11/2026 7:47 AM"
+      "eff_updated": "11/11/2026 6:47 PM"
      },
      "trine": {
-      "rank": 171,
+      "rank": 172,
       "record": "1-1",
       "npi": "48.663",
       "bid": "At-Lg",
-      "at_large_rank": "171",
+      "at_large_rank": "172",
       "seed": "-",
       "eff_rank": 43,
       "adj_em": "+12.9",
-      "eff_updated": "11/11/2026 7:47 AM"
+      "eff_updated": "11/11/2026 6:47 PM"
      }
     },
     "d3_teams": [
@@ -8301,7 +8302,7 @@
      "pa": 82,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T08:04:13-06:00"
+     "fetched": "2026-11-11T18:31:26-06:00"
     },
     "albion": {
      "games": [
@@ -9007,7 +9008,7 @@
        "avg": "10.0",
        "line": "10.0 per game, 10 total",
        "position": "G",
-       "year": "Freshman",
+       "year": "First-year",
        "headshot": "https://gobrits.com/images/2026/9/15/Jenkins_Ameera.jpg?width=200&quality=90"
       },
       {
@@ -9070,7 +9071,7 @@
      "pa": 48,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T08:04:13-06:00"
+     "fetched": "2026-11-11T18:31:26-06:00"
     },
     "alma": {
      "games": [
@@ -9908,7 +9909,7 @@
      "pa": 153,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T08:04:13-06:00"
+     "fetched": "2026-11-11T18:31:26-06:00"
     },
     "calvin": {
      "games": [
@@ -10625,7 +10626,7 @@
        "avg": "7.0",
        "line": "7.0 per game, 14 total",
        "position": "G",
-       "year": "Freshman",
+       "year": "First-year",
        "headshot": "https://calvinknights.com/images/2026/10/27/Wotlinski__Izzy.png?width=200&quality=90"
       },
       {
@@ -10649,7 +10650,7 @@
        "avg": "2.0",
        "line": "2.0 per game, 2 total",
        "position": "G",
-       "year": "Freshman",
+       "year": "First-year",
        "headshot": "https://calvinknights.com/images/2026/10/27/Mateer__Jordan.png?width=200&quality=90"
       },
       {
@@ -10661,7 +10662,7 @@
        "avg": "4.5",
        "line": "4.5 per game, 9 total",
        "position": "G",
-       "year": "Freshman",
+       "year": "First-year",
        "headshot": "https://calvinknights.com/images/2026/10/27/Wyman__Leigh.png?width=200&quality=90"
       },
       {
@@ -10688,7 +10689,7 @@
      "pa": 113,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T08:04:13-06:00"
+     "fetched": "2026-11-11T18:31:26-06:00"
     },
     "hope": {
      "games": [
@@ -11521,7 +11522,7 @@
      "pa": 130,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T08:04:13-06:00"
+     "fetched": "2026-11-11T18:31:26-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12268,7 +12269,7 @@
        "avg": "7.8",
        "line": "7.8 per game, 194 total",
        "position": "G",
-       "year": "Freshman",
+       "year": "First-year",
        "headshot": "https://hornets.kzoo.edu/images/2025/10/21/300x400_Robertson__Semaj__CMoss20251007-4B3A0844200206.png?width=200&quality=90"
       },
       {
@@ -12331,7 +12332,7 @@
        "name": "Makayla Allen",
        "reason": "not on the 2026-27 roster",
        "line": "1.5 points per game",
-       "year": "Freshman"
+       "year": "First-year"
       },
       {
        "name": "Lauren Vos",
@@ -12343,7 +12344,7 @@
        "name": "Adeline Gill",
        "reason": "not on the 2026-27 roster",
        "line": "0.5 points per game",
-       "year": "Freshman"
+       "year": "First-year"
       }
      ],
      "stats_season": "2025-26",
@@ -12356,7 +12357,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T08:04:13-06:00"
+     "fetched": "2026-11-11T18:31:26-06:00"
     },
     "olivet": {
      "games": [
@@ -13161,7 +13162,7 @@
      "pa": 51,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T08:04:13-06:00"
+     "fetched": "2026-11-11T18:31:26-06:00"
     },
     "saintmarys": {
      "games": [
@@ -13953,7 +13954,7 @@
        "avg": "7.0",
        "line": "7.0 per game, 7 total",
        "position": "Forward",
-       "year": "Freshman",
+       "year": "First-year",
        "headshot": "https://belles.saintmarys.edu/images/2026/10/26/Duthie_2000.png?width=200&quality=90"
       },
       {
@@ -13977,7 +13978,7 @@
        "avg": "3.0",
        "line": "3.0 per game, 3 total",
        "position": "Forward",
-       "year": "Freshman",
+       "year": "First-year",
        "headshot": "https://belles.saintmarys.edu/images/2026/10/26/Duthie_2000.png?width=200&quality=90"
       },
       {
@@ -14004,7 +14005,7 @@
      "pa": 76,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T08:04:13-06:00"
+     "fetched": "2026-11-11T18:31:26-06:00"
     },
     "trine": {
      "games": [
@@ -14822,7 +14823,7 @@
        "avg": "2.6",
        "line": "2.6 per game, 76 total",
        "position": "G",
-       "year": "Freshman",
+       "year": "First-year",
        "headshot": "https://trinethunder.com/images/2025/11/11/Nichols__Callie.jpg?width=200&quality=90"
       },
       {
@@ -14846,7 +14847,7 @@
        "avg": "0.6",
        "line": "0.6 per game, 15 total",
        "position": "G",
-       "year": "Freshman",
+       "year": "First-year",
        "headshot": "https://trinethunder.com/images/2025/11/11/Gesell__Sophie.jpg?width=200&quality=90"
       }
      ],
@@ -14855,7 +14856,7 @@
        "name": "Ellianna Foley",
        "reason": "not on the 2026-27 roster",
        "line": "1.2 points per game",
-       "year": "Freshman"
+       "year": "First-year"
       },
       {
        "name": "Lily Johnson",
@@ -14874,7 +14875,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-11T08:04:13-06:00"
+     "fetched": "2026-11-11T18:31:26-06:00"
     }
    },
    "poll": {
@@ -15670,7 +15671,7 @@
   "d3hoops wbb: poll table not found"
  ],
  "stale": {
-  "olivet-mbb-schedule": "2026-11-10T23:58:16-06:00",
-  "olivet-wbb-schedule": "2026-11-10T23:58:16-06:00"
+  "olivet-mbb-schedule": "2026-11-11T08:04:13-06:00",
+  "olivet-wbb-schedule": "2026-11-11T08:04:13-06:00"
  }
 }
