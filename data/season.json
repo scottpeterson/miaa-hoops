@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-12T09:02:10-06:00",
+ "fetched_at": "2026-11-12T17:31:02-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -887,7 +887,7 @@
      "pa": 264,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-12T09:02:10-06:00"
+     "fetched": "2026-11-12T17:31:02-06:00"
     },
     "albion": {
      "games": [
@@ -941,7 +941,7 @@
        "status": "",
        "links": {
         "boxscore": "https://gobrits.com/sports/mens-basketball/stats/2026-27/manchester/boxscore/7885",
-        "recap": "https://gobrits.com/news/2026/11/11/mens-basketball-brits-pick-up-85-75-over-spartans.aspx"
+        "recap": "https://gobrits.com/news/2026/11/12/general-wytse-molenaar-named-miaa-coach-of-the-year.aspx"
        },
        "live_feed": null
       },
@@ -1671,7 +1671,7 @@
      "pa": 178,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-12T09:02:10-06:00"
+     "fetched": "2026-11-12T17:31:02-06:00"
     },
     "alma": {
      "games": [
@@ -1972,7 +1972,7 @@
       {
        "id": "alma-mbb-14644",
        "exhibition": false,
-       "date": "2026-12-16T19:00:00Z",
+       "date": "2026-12-16T17:00:00Z",
        "time_tbd": false,
        "home": false,
        "neutral": false,
@@ -2546,7 +2546,7 @@
      "pa": 72,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-12T09:02:10-06:00"
+     "fetched": "2026-11-12T17:31:02-06:00"
     },
     "calvin": {
      "games": [
@@ -3347,7 +3347,7 @@
      "pa": 150,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-12T09:02:10-06:00"
+     "fetched": "2026-11-12T17:31:02-06:00"
     },
     "hope": {
      "games": [
@@ -4190,7 +4190,7 @@
      "pa": 122,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-12T09:02:10-06:00"
+     "fetched": "2026-11-12T17:31:02-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5025,7 +5025,7 @@
      "pa": 78,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-12T09:02:10-06:00"
+     "fetched": "2026-11-12T17:31:02-06:00"
     },
     "olivet": {
      "games": [
@@ -5845,7 +5845,7 @@
      "pa": 70,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-12T09:02:10-06:00"
+     "fetched": "2026-11-12T17:31:02-06:00"
     },
     "trine": {
      "games": [
@@ -6619,7 +6619,8 @@
        "avg": "15.5",
        "line": "15.5 per game, 31 total",
        "position": "G",
-       "year": "Junior"
+       "year": "Junior",
+       "headshot": "https://trinethunder.com/images/2026/11/12/Brenner__Cade.jpg?width=200&quality=90"
       },
       {
        "label": "Points",
@@ -6630,7 +6631,8 @@
        "avg": "11.0",
        "line": "11.0 per game, 22 total",
        "position": "G",
-       "year": "Junior"
+       "year": "Junior",
+       "headshot": "https://trinethunder.com/images/2026/11/12/Roller__Jess.jpg?width=200&quality=90"
       },
       {
        "label": "Rebounds",
@@ -6641,7 +6643,8 @@
        "avg": "5.0",
        "line": "5.0 per game, 10 total",
        "position": "G",
-       "year": "Junior"
+       "year": "Junior",
+       "headshot": "https://trinethunder.com/images/2026/11/12/Roller__Jess.jpg?width=200&quality=90"
       },
       {
        "label": "Assists",
@@ -6652,7 +6655,8 @@
        "avg": "2.5",
        "line": "2.5 per game, 5 total",
        "position": "G",
-       "year": "First-year"
+       "year": "First-year",
+       "headshot": "https://trinethunder.com/images/2026/11/12/Ahrens__Drake.jpg?width=200&quality=90"
       },
       {
        "label": "Steals",
@@ -6663,7 +6667,8 @@
        "avg": "2.0",
        "line": "2.0 per game, 4 total",
        "position": "G",
-       "year": "First-year"
+       "year": "First-year",
+       "headshot": "https://trinethunder.com/images/2026/11/12/Ahrens__Drake.jpg?width=200&quality=90"
       },
       {
        "label": "Blocks",
@@ -6674,7 +6679,8 @@
        "avg": "0.5",
        "line": "0.5 per game, 1 total",
        "position": "G",
-       "year": "First-year"
+       "year": "First-year",
+       "headshot": "https://trinethunder.com/images/2026/11/12/Ahrens__Drake.jpg?width=200&quality=90"
       }
      ],
      "departed": [],
@@ -6688,7 +6694,7 @@
      "pa": 132,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-12T09:02:10-06:00"
+     "fetched": "2026-11-12T17:31:02-06:00"
     }
    },
    "poll": {
@@ -8310,7 +8316,7 @@
      "pa": 152,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-12T09:02:10-06:00"
+     "fetched": "2026-11-12T17:31:02-06:00"
     },
     "albion": {
      "games": [
@@ -9079,7 +9085,7 @@
      "pa": 48,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-12T09:02:10-06:00"
+     "fetched": "2026-11-12T17:31:02-06:00"
     },
     "alma": {
      "games": [
@@ -9917,7 +9923,7 @@
      "pa": 153,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-12T09:02:10-06:00"
+     "fetched": "2026-11-12T17:31:02-06:00"
     },
     "calvin": {
      "games": [
@@ -9996,8 +10002,14 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
-       "live_feed": null
+       "links": {
+        "video": "https://www.youtube.com/hopeathletics",
+        "live_stats": "https://athletics.hope.edu/sidearmstats/wbball/summary"
+       },
+       "live_feed": {
+        "type": "sidearm",
+        "url": "https://sidearmstats.com/hopecollege/wbball/game.json"
+       }
       },
       {
        "id": "calvin-wbb-9237",
@@ -10020,8 +10032,14 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
-       "live_feed": null
+       "links": {
+        "video": "https://www.youtube.com/hopeathletics",
+        "live_stats": "https://athletics.hope.edu/sidearmstats/wbball/summary"
+       },
+       "live_feed": {
+        "type": "sidearm",
+        "url": "https://sidearmstats.com/hopecollege/wbball/game.json"
+       }
       },
       {
        "id": "calvin-wbb-9238",
@@ -10697,7 +10715,7 @@
      "pa": 113,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-12T09:02:10-06:00"
+     "fetched": "2026-11-12T17:31:02-06:00"
     },
     "hope": {
      "games": [
@@ -11530,7 +11548,7 @@
      "pa": 130,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-12T09:02:10-06:00"
+     "fetched": "2026-11-12T17:31:02-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12365,7 +12383,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-12T09:02:10-06:00"
+     "fetched": "2026-11-12T17:31:02-06:00"
     },
     "olivet": {
      "games": [
@@ -13170,7 +13188,7 @@
      "pa": 51,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-12T09:02:10-06:00"
+     "fetched": "2026-11-12T17:31:02-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14013,7 +14031,7 @@
      "pa": 76,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-12T09:02:10-06:00"
+     "fetched": "2026-11-12T17:31:02-06:00"
     },
     "trine": {
      "games": [
@@ -14792,7 +14810,8 @@
        "avg": "12.0",
        "line": "12.0 per game, 12 total",
        "position": "G",
-       "year": "Sophomore"
+       "year": "Sophomore",
+       "headshot": "https://trinethunder.com/images/2026/11/12/Southworth__Annika.jpg?width=200&quality=90"
       },
       {
        "label": "Points",
@@ -14803,7 +14822,8 @@
        "avg": "8.0",
        "line": "8.0 per game, 8 total",
        "position": "G",
-       "year": "Sophomore"
+       "year": "Sophomore",
+       "headshot": "https://trinethunder.com/images/2026/11/12/Nichols__Callie.jpg?width=200&quality=90"
       },
       {
        "label": "Rebounds",
@@ -14814,7 +14834,8 @@
        "avg": "6.0",
        "line": "6.0 per game, 6 total",
        "position": "G",
-       "year": "Sophomore"
+       "year": "Sophomore",
+       "headshot": "https://trinethunder.com/images/2026/11/12/Nichols__Callie.jpg?width=200&quality=90"
       },
       {
        "label": "Assists",
@@ -14825,7 +14846,8 @@
        "avg": "1.0",
        "line": "1.0 per game, 1 total",
        "position": "G",
-       "year": "Sophomore"
+       "year": "Sophomore",
+       "headshot": "https://trinethunder.com/images/2026/11/12/Gesell__Sophie.jpg?width=200&quality=90"
       },
       {
        "label": "Steals",
@@ -14836,7 +14858,8 @@
        "avg": "2.0",
        "line": "2.0 per game, 2 total",
        "position": "G",
-       "year": "Junior"
+       "year": "Junior",
+       "headshot": "https://trinethunder.com/images/2026/11/12/Wagner__Madison.jpg?width=200&quality=90"
       },
       {
        "label": "Blocks",
@@ -14847,7 +14870,8 @@
        "avg": "2.0",
        "line": "2.0 per game, 2 total",
        "position": "F",
-       "year": "First-year"
+       "year": "First-year",
+       "headshot": "https://trinethunder.com/images/2026/11/12/Gills__Sienna.jpg?width=200&quality=90"
       }
      ],
      "departed": [],
@@ -14861,7 +14885,7 @@
      "pa": 48,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-12T09:02:10-06:00"
+     "fetched": "2026-11-12T17:31:02-06:00"
     }
    },
    "poll": {
@@ -15657,7 +15681,7 @@
   "d3hoops wbb: poll table not found"
  ],
  "stale": {
-  "olivet-mbb-schedule": "2026-11-12T08:18:17-06:00",
-  "olivet-wbb-schedule": "2026-11-12T08:18:17-06:00"
+  "olivet-mbb-schedule": "2026-11-12T09:02:10-06:00",
+  "olivet-wbb-schedule": "2026-11-12T09:02:10-06:00"
  }
 }
