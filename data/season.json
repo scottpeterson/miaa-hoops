@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-12T17:31:02-06:00",
+ "fetched_at": "2026-11-12T20:19:37-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -887,7 +887,7 @@
      "pa": 264,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-12T17:31:02-06:00"
+     "fetched": "2026-11-12T20:19:37-06:00"
     },
     "albion": {
      "games": [
@@ -1671,7 +1671,7 @@
      "pa": 178,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-12T17:31:02-06:00"
+     "fetched": "2026-11-12T20:19:37-06:00"
     },
     "alma": {
      "games": [
@@ -2546,7 +2546,7 @@
      "pa": 72,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-12T17:31:02-06:00"
+     "fetched": "2026-11-12T20:19:37-06:00"
     },
     "calvin": {
      "games": [
@@ -3347,7 +3347,7 @@
      "pa": 150,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-12T17:31:02-06:00"
+     "fetched": "2026-11-12T20:19:37-06:00"
     },
     "hope": {
      "games": [
@@ -4190,7 +4190,7 @@
      "pa": 122,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-12T17:31:02-06:00"
+     "fetched": "2026-11-12T20:19:37-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5025,7 +5025,7 @@
      "pa": 78,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-12T17:31:02-06:00"
+     "fetched": "2026-11-12T20:19:37-06:00"
     },
     "olivet": {
      "games": [
@@ -5845,7 +5845,7 @@
      "pa": 70,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-12T17:31:02-06:00"
+     "fetched": "2026-11-12T20:19:37-06:00"
     },
     "trine": {
      "games": [
@@ -6694,7 +6694,7 @@
      "pa": 132,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-12T17:31:02-06:00"
+     "fetched": "2026-11-12T20:19:37-06:00"
     }
    },
    "poll": {
@@ -6944,8 +6944,8 @@
     "source": "D3 Datacast",
     "url": "https://d3datacast.com/npi/mbb/",
     "eff_url": "https://d3datacast.com/efficiency-ratings/",
-    "updated": "11/12/26 7:42 AM",
-    "eff_updated": "11/12/2026 7:42 AM",
+    "updated": "11/12/26 9:15 PM",
+    "eff_updated": "11/12/2026 9:15 PM",
     "count": 361,
     "teams": {
      "adrian": {
@@ -6957,7 +6957,7 @@
       "seed": "-",
       "eff_rank": 343,
       "adj_em": "-10.7",
-      "eff_updated": "11/12/2026 7:42 AM"
+      "eff_updated": "11/12/2026 9:15 PM"
      },
      "albion": {
       "rank": 83,
@@ -6968,7 +6968,7 @@
       "seed": "-",
       "eff_rank": 210,
       "adj_em": "-0.1",
-      "eff_updated": "11/12/2026 7:42 AM"
+      "eff_updated": "11/12/2026 9:15 PM"
      },
      "alma": {
       "rank": 269,
@@ -6979,7 +6979,7 @@
       "seed": "-",
       "eff_rank": 353,
       "adj_em": "-11.6",
-      "eff_updated": "11/12/2026 7:42 AM"
+      "eff_updated": "11/12/2026 9:15 PM"
      },
      "calvin": {
       "rank": 155,
@@ -6990,7 +6990,7 @@
       "seed": "-",
       "eff_rank": 78,
       "adj_em": "+8.8",
-      "eff_updated": "11/12/2026 7:42 AM"
+      "eff_updated": "11/12/2026 9:15 PM"
      },
      "hope": {
       "rank": 118,
@@ -7001,7 +7001,7 @@
       "seed": "-",
       "eff_rank": 38,
       "adj_em": "+13.3",
-      "eff_updated": "11/12/2026 7:42 AM"
+      "eff_updated": "11/12/2026 9:15 PM"
      },
      "kalamazoo": {
       "rank": 293,
@@ -7012,7 +7012,7 @@
       "seed": "-",
       "eff_rank": 366,
       "adj_em": "-12.6",
-      "eff_updated": "11/12/2026 7:42 AM"
+      "eff_updated": "11/12/2026 9:15 PM"
      },
      "olivet": {
       "rank": 119,
@@ -7023,7 +7023,7 @@
       "seed": "-",
       "eff_rank": 99,
       "adj_em": "+6.7",
-      "eff_updated": "11/12/2026 7:42 AM"
+      "eff_updated": "11/12/2026 9:15 PM"
      },
      "trine": {
       "rank": 176,
@@ -7034,7 +7034,7 @@
       "seed": "-",
       "eff_rank": 47,
       "adj_em": "+12.4",
-      "eff_updated": "11/12/2026 7:42 AM"
+      "eff_updated": "11/12/2026 9:15 PM"
      }
     },
     "d3_teams": [
@@ -8316,7 +8316,7 @@
      "pa": 152,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-12T17:31:02-06:00"
+     "fetched": "2026-11-12T20:19:37-06:00"
     },
     "albion": {
      "games": [
@@ -9085,7 +9085,7 @@
      "pa": 48,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-12T17:31:02-06:00"
+     "fetched": "2026-11-12T20:19:37-06:00"
     },
     "alma": {
      "games": [
@@ -9923,7 +9923,7 @@
      "pa": 153,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-12T17:31:02-06:00"
+     "fetched": "2026-11-12T20:19:37-06:00"
     },
     "calvin": {
      "games": [
@@ -10715,7 +10715,7 @@
      "pa": 113,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-12T17:31:02-06:00"
+     "fetched": "2026-11-12T20:19:37-06:00"
     },
     "hope": {
      "games": [
@@ -11548,7 +11548,7 @@
      "pa": 130,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-12T17:31:02-06:00"
+     "fetched": "2026-11-12T20:19:37-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12383,7 +12383,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-12T17:31:02-06:00"
+     "fetched": "2026-11-12T20:19:37-06:00"
     },
     "olivet": {
      "games": [
@@ -13188,7 +13188,7 @@
      "pa": 51,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-12T17:31:02-06:00"
+     "fetched": "2026-11-12T20:19:37-06:00"
     },
     "saintmarys": {
      "games": [
@@ -13289,19 +13289,15 @@
        "conference": false,
        "location": "Angela Athletic & Wellness Complex",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "W",
+       "pf": 59,
+       "pa": 51,
        "status": "",
        "links": {
-        "video": "https://www.miaasportsnetwork.com/smcbelles/",
-        "live_stats": "https://belles.saintmarys.edu/sidearmstats/wbball/summary"
+        "boxscore": "https://belles.saintmarys.edu/sports/womens-basketball/stats/2026-27/north-park/boxscore/2443"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/smcind/wbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "saintmarys-wbb-2444",
@@ -13951,10 +13947,10 @@
        "label": "Points",
        "name": "Ella Andree",
        "jersey": "21",
-       "gp": "1",
-       "total": "17",
-       "avg": "17.0",
-       "line": "17.0 per game, 17 total",
+       "gp": "2",
+       "total": "30",
+       "avg": "15.0",
+       "line": "15.0 per game, 30 total",
        "position": "Guard",
        "year": "Junior",
        "headshot": "https://belles.saintmarys.edu/images/2026/10/26/Andree_1866.png?width=200&quality=90"
@@ -13963,10 +13959,10 @@
        "label": "Points",
        "name": "Ella Notaro",
        "jersey": "11",
-       "gp": "1",
-       "total": "11",
-       "avg": "11.0",
-       "line": "11.0 per game, 11 total",
+       "gp": "2",
+       "total": "20",
+       "avg": "10.0",
+       "line": "10.0 per game, 20 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://belles.saintmarys.edu/images/2026/10/26/Notaro_1895.png?width=200&quality=90"
@@ -13975,10 +13971,10 @@
        "label": "Rebounds",
        "name": "MacKenzi Duthie",
        "jersey": "32",
-       "gp": "1",
-       "total": "7",
-       "avg": "7.0",
-       "line": "7.0 per game, 7 total",
+       "gp": "2",
+       "total": "17",
+       "avg": "8.5",
+       "line": "8.5 per game, 17 total",
        "position": "Forward",
        "year": "First-year",
        "headshot": "https://belles.saintmarys.edu/images/2026/10/26/Duthie_2000.png?width=200&quality=90"
@@ -13987,51 +13983,51 @@
        "label": "Assists",
        "name": "Liv Fry",
        "jersey": "4",
-       "gp": "1",
-       "total": "6",
+       "gp": "2",
+       "total": "12",
        "avg": "6.0",
-       "line": "6.0 per game, 6 total",
+       "line": "6.0 per game, 12 total",
        "position": "Guard",
        "year": "Sophomore",
        "headshot": "https://belles.saintmarys.edu/images/2026/10/26/Fry_1904.png?width=200&quality=90"
       },
       {
        "label": "Steals",
-       "name": "MacKenzi Duthie",
-       "jersey": "32",
-       "gp": "1",
-       "total": "3",
-       "avg": "3.0",
-       "line": "3.0 per game, 3 total",
-       "position": "Forward",
-       "year": "First-year",
-       "headshot": "https://belles.saintmarys.edu/images/2026/10/26/Duthie_2000.png?width=200&quality=90"
+       "name": "Ella Andree",
+       "jersey": "21",
+       "gp": "2",
+       "total": "5",
+       "avg": "2.5",
+       "line": "2.5 per game, 5 total",
+       "position": "Guard",
+       "year": "Junior",
+       "headshot": "https://belles.saintmarys.edu/images/2026/10/26/Andree_1866.png?width=200&quality=90"
       },
       {
        "label": "Blocks",
-       "name": "Kate Passinault",
-       "jersey": "5",
-       "gp": "1",
+       "name": "Kate Gilroy",
+       "jersey": "40",
+       "gp": "2",
        "total": "1",
-       "avg": "1.0",
-       "line": "1.0 per game, 1 total",
-       "position": "G",
+       "avg": "0.5",
+       "line": "0.5 per game, 1 total",
+       "position": "Forward",
        "year": "Junior",
-       "headshot": "https://belles.saintmarys.edu/images/2026/10/26/Passinault_1886.png?width=200&quality=90"
+       "headshot": "https://belles.saintmarys.edu/images/2026/10/26/Gilroy_1933.png?width=200&quality=90"
       }
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 1,
-     "wins": 1,
+     "played": 2,
+     "wins": 2,
      "losses": 0,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 85,
-     "pa": 76,
-     "record": "1-0",
+     "pf": 144,
+     "pa": 127,
+     "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-12T17:31:02-06:00"
+     "fetched": "2026-11-12T20:19:37-06:00"
     },
     "trine": {
      "games": [
@@ -14885,7 +14881,7 @@
      "pa": 48,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-12T17:31:02-06:00"
+     "fetched": "2026-11-12T20:19:37-06:00"
     }
    },
    "poll": {
@@ -15681,7 +15677,7 @@
   "d3hoops wbb: poll table not found"
  ],
  "stale": {
-  "olivet-mbb-schedule": "2026-11-12T09:02:10-06:00",
-  "olivet-wbb-schedule": "2026-11-12T09:02:10-06:00"
+  "olivet-mbb-schedule": "2026-11-12T17:31:02-06:00",
+  "olivet-wbb-schedule": "2026-11-12T17:31:02-06:00"
  }
 }
