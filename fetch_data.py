@@ -20,7 +20,7 @@ import sys
 import urllib.error
 import urllib.parse
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -366,6 +366,58 @@ def live_feed(url):
         feed = None
     _feed_cache[url] = feed
     return feed
+
+
+# ---------------------------------------------------------------- Sidearm hub
+HUB = "https://aggregation-service.sidearmsports.com/services/games.ashx"
+HUB_SPORT = {"mbb": "mbball", "wbb": "wbball"}
+GENERIC_WORDS = {"university", "college", "the", "of", "at", "vs", "and", "st", "saint", "u"}
+
+
+def name_words(name):
+    """The distinctive words of a team name: "St. Francis (PA)" -> {"francis", "pa"}."""
+    return {w for w in re.sub(r"[^a-z0-9 ]+", " ", (name or "").lower().replace("&", " and ")).split() if w not in GENERIC_WORDS}
+
+
+def hub_games():
+    """Every game a Sidearm school lists with a live stats link, yesterday through tomorrow, from the feed behind
+    sidearmstats.com/hub. It answers only for about that window. Canceled games (status C) are left out."""
+    start = (now().astimezone(timezone.utc) - timedelta(days=1)).replace(hour=5, minute=0, second=0, microsecond=0)
+    stamp = lambda d: d.isoformat().replace("+00:00", "Z")
+    query = urllib.parse.urlencode({"start_date": stamp(start), "end_date": stamp(start + timedelta(days=3)), "livestats": 1})
+    return [g for g in get(f"{HUB}?{query}", as_json=True).get("data") or [] if g.get("status") != "C"]
+
+
+def hub_feeds(teams, sport, hub):
+    """Live stats links from the hub for games whose schedule row has none: a tournament host runs the crew and the
+    member's page links nothing (Albion vs St. Francis (PA) at Heidelberg, 2026-11-13). A listing fits a game when
+    the sport and tipoff agree (the local date for a TBA game), one side names the member, and the other names share
+    a word with the opponent. Returns the number of games that got a feed."""
+    by_slug = {s["slug"]: s for s in SCHOOLS}
+    found = 0
+    for slug, team in teams.items():
+        us = name_words(by_slug[slug]["name"])
+        for g in team["games"]:
+            if g["state"] == "post" or g["live_feed"]:
+                continue
+            them = name_words(g["opponent"]["name"])
+            local_day = datetime.fromisoformat(g["date"].replace("Z", "+00:00")).astimezone(EASTERN).strftime("%Y-%m-%d")
+            for h in hub:
+                info, link = h.get("date_info") or {}, (h.get("media") or {}).get("livestats")
+                if (h.get("sport") or {}).get("shortname") != HUB_SPORT[sport] or not link:
+                    continue
+                if (info.get("date") or "")[:10] != local_day if g["time_tbd"] else info.get("datetime_utc") != g["date"]:
+                    continue
+                sides = [name_words((h.get(k) or {}).get("name")) for k in ("home_team", "away_team")]
+                if not any(us <= side for side in sides) or not them & ((sides[0] | sides[1]) - us):
+                    continue
+                feed = live_feed(link)
+                if feed:
+                    g["links"].setdefault("live_stats", link)
+                    g["live_feed"] = feed
+                    found += 1
+                    break
+    return found
 
 
 def attach_feeds(games, previous_games):
@@ -826,6 +878,7 @@ def main():
         except ValueError:
             previous = {}
     out = {"fetched_at": now().isoformat(timespec="seconds"), "season": SEASON, "sports": {}, "errors": [], "stale": {}}
+    hub = None
     for sport in SPORTS:
         prev_sport = previous.get("sports", {}).get(sport, {})
         block = {"teams": {}, "poll": {}, "npi": {}}
@@ -868,6 +921,12 @@ def main():
             team["fetched"] = out["fetched_at"]
             block["teams"][slug] = team
         cross_fill(block["teams"], sport)
+        try:
+            if hub is None:
+                hub = hub_games()
+            hub_feeds(block["teams"], sport, hub)
+        except (urllib.error.URLError, TimeoutError, ValueError) as exc:
+            out["errors"].append(f"Sidearm hub: {exc}")
         try:
             block["poll"] = d3hoops_poll(sport, out["fetched_at"])
         except (urllib.error.URLError, TimeoutError, ValueError) as exc:
