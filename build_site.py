@@ -1205,22 +1205,48 @@ function orient(el,f,hName,vName){
   if(weAreFeedHome!==(el.dataset.home==='1'))[f.home,f.away]=[f.away,f.home];
   return f;
 }
+// A Sidearm host runs one feed per court (wbball, wbball2, wbball3). A schedule page links the first court even
+// when the game is on the second (Calvin vs DePauw at Hope, 2026-11-13: the wbball feed still showed Hope's game
+// from Nov 7 while wbball2 carried Calvin). After tipoff, a feed that does not show the game sends the page to the
+// host's other courts, once every PROBE_MS; the court that shows the game becomes the card's feed.
+const SIBLING_COURTS=2,PROBE_MS=10*60000;
+function siblingFeeds(url){
+  const m=/^(https:\/\/sidearmstats\.com\/[^/]+\/)([a-z]+?)(\d*)\/game\.json$/.exec(url||'');
+  if(!m)return [];
+  const folders=[m[2]];for(let n=2;n<=SIBLING_COURTS+1;n++)folders.push(m[2]+n);
+  return folders.filter(x=>x!==m[2]+m[3]).map(x=>m[1]+x+'/game.json');
+}
+// One read of a Sidearm feed, oriented to the card, or null when the feed has not started, shows another day, or
+// names neither team.
+async function sidearmState(el,url,day){
+  const r=await fetch(url,{cache:'no-store'});if(!r.ok)return null;
+  const g=(await r.json()).Game;
+  if(!g||!g.HasStarted||g.Date!==day)return null;
+  const rules=g.Rules||{};const regulation=(+rules.PeriodMinutes||20)>=20?2:4;
+  const H={id:g.HomeTeam.Id,name:g.HomeTeam.Name},V={id:g.VisitingTeam.Id,name:g.VisitingTeam.Name};
+  const period=+g.Period||0,clockSec=+g.ClockSeconds||0;
+  const last=(g.LastPlays||[])[0];
+  let arrow=null;
+  if(isHalftime(period,clockSec,'',regulation)){const a=await sidearmArrow(url,regulation);arrow=a==='H'?H.name:a==='V'?V.name:null;}
+  return orient(el,{complete:!!g.IsComplete,home:+g.HomeTeam.Score||0,away:+g.VisitingTeam.Score||0,status:statusText(period,clockSec,'',regulation),progress:progressOf(period,clockSec,regulation),
+    arrow,bonus:bonusText(g.Context,H,V),last:last?fixNames(last.Narrative):''},H.name,V.name);
+}
 async function feedState(el){
   const url=el.dataset.feed,type=el.dataset.feedType;if(!url)return null;
-  const r=await fetch(url,{cache:'no-store'});if(!r.ok)return null;
   const day=mdy(el.dataset.date);
   if(type==='sidearm'){
-    const g=(await r.json()).Game;
-    if(!g||!g.HasStarted||g.Date!==day)return null;
-    const rules=g.Rules||{};const regulation=(+rules.PeriodMinutes||20)>=20?2:4;
-    const H={id:g.HomeTeam.Id,name:g.HomeTeam.Name},V={id:g.VisitingTeam.Id,name:g.VisitingTeam.Name};
-    const period=+g.Period||0,clockSec=+g.ClockSeconds||0;
-    const last=(g.LastPlays||[])[0];
-    let arrow=null;
-    if(isHalftime(period,clockSec,'',regulation)){const a=await sidearmArrow(url,regulation);arrow=a==='H'?H.name:a==='V'?V.name:null;}
-    return orient(el,{complete:!!g.IsComplete,home:+g.HomeTeam.Score||0,away:+g.VisitingTeam.Score||0,status:statusText(period,clockSec,'',regulation),progress:progressOf(period,clockSec,regulation),
-      arrow,bonus:bonusText(g.Context,H,V),last:last?fixNames(last.Narrative):''},H.name,V.name);
+    const f=await sidearmState(el,url,day);
+    if(f)return f;
+    const now=Date.now();
+    if(now<new Date(el.dataset.date).getTime()||(el.dataset.probed&&now-el.dataset.probed<PROBE_MS))return null;
+    el.dataset.probed=now;
+    for(const alt of siblingFeeds(url)){
+      let t=null;try{t=await sidearmState(el,alt,day);}catch(e){}
+      if(t){el.dataset.feed=alt;return t;}
+    }
+    return null;
   }
+  const r=await fetch(url,{cache:'no-store'});if(!r.ok)return null;
   if(type==='presto'){
     const x=new DOMParser().parseFromString(await r.text(),'application/xml');
     const venue=x.querySelector('venue'),st=x.querySelector('status'),rules=x.querySelector('rules');

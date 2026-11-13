@@ -169,6 +169,10 @@ def game_record(school, sport, index, month_day, time_parts, home, neutral, oppo
     if month_day is None:
         return None
     opponent = strip_poll_marks(opponent)
+    # A tournament host lists the games it does not play ("La Roche vs Oshkosh" on Trine's 2026-11-13 schedule).
+    # Two names in the opponent cell mean the row is not this school's game.
+    if re.search(r"\S\s+vs\.?\s+\S", opponent, re.I):
+        return None
     month, day = month_day
     if time_parts:
         hour, minute, zone = time_parts

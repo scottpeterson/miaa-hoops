@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-13T13:34:27-06:00",
+ "fetched_at": "2026-11-13T17:12:10-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -887,7 +887,7 @@
      "pa": 264,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T13:34:27-06:00"
+     "fetched": "2026-11-13T17:12:10-06:00"
     },
     "albion": {
      "games": [
@@ -1670,7 +1670,7 @@
      "pa": 178,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T13:34:27-06:00"
+     "fetched": "2026-11-13T17:12:10-06:00"
     },
     "alma": {
      "games": [
@@ -2545,7 +2545,7 @@
      "pa": 72,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T13:34:27-06:00"
+     "fetched": "2026-11-13T17:12:10-06:00"
     },
     "calvin": {
      "games": [
@@ -3346,7 +3346,7 @@
      "pa": 150,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T13:34:27-06:00"
+     "fetched": "2026-11-13T17:12:10-06:00"
     },
     "hope": {
      "games": [
@@ -4189,7 +4189,7 @@
      "pa": 122,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T13:34:27-06:00"
+     "fetched": "2026-11-13T17:12:10-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5024,7 +5024,7 @@
      "pa": 78,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T13:34:27-06:00"
+     "fetched": "2026-11-13T17:12:10-06:00"
     },
     "olivet": {
      "games": [
@@ -5053,6 +5053,34 @@
         "live_stats": "https://prestolivestats.com/ya5s58navki9037d/5wrruy5j86se5zlx",
         "boxscore": "https://www.olivetcomets.com/sports/mbkb/2026-27/boxscores/20261106_5wrr.xml",
         "recap": "https://www.olivetcomets.com/sports/mbkb/2026-27/releases/20261106yhdyx1"
+       },
+       "live_feed": null
+      },
+      {
+       "id": "olivet-mbb-46g07n8uvckq6lpw",
+       "exhibition": false,
+       "date": "2026-11-07T17:00:00Z",
+       "time_tbd": true,
+       "home": true,
+       "neutral": false,
+       "opponent": {
+        "name": "Anderson (Ind.)",
+        "short": "Anderson (Ind.)",
+        "logo": "https://cdn.prestosports.com/action/cdn/logos/id/ljjenmd2z1edoco8.png",
+        "slug": null
+       },
+       "conference": false,
+       "location": "Olivet, Mich., Cutler Event Center",
+       "note": "",
+       "state": "post",
+       "result": "W",
+       "pf": 87,
+       "pa": 75,
+       "status": "",
+       "links": {
+        "live_stats": "https://prestolivestats.com/ya5s58navki9037d/46g07n8uvckq6lpw",
+        "boxscore": "https://www.olivetcomets.com/sports/mbkb/2026-27/boxscores/20261107_46g0.xml",
+        "recap": "https://www.olivetcomets.com/sports/mbkb/2026-27/releases/20261107p1qn8w"
        },
        "live_feed": null
       },
@@ -5359,6 +5387,7 @@
        "pa": null,
        "status": "",
        "links": {
+        "live_stats": "https://www.olivetcomets.com/links/o3awrx",
         "video": "https://www.olivetcomets.com/links/6s0hgy"
        },
        "live_feed": {
@@ -5509,7 +5538,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "live_stats": "https://www.olivetcomets.com/links/yv47u5",
+        "video": "https://www.olivetcomets.com/links/iamyk9"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/trine/mbball/game.json"
@@ -5755,79 +5787,79 @@
      ],
      "roster": {
       "url": "https://www.olivetcomets.com/sports/mbkb/2026-27/roster",
-      "season": null,
-      "players": 0,
-      "current": false
+      "season": "2026-27",
+      "players": 17,
+      "current": true
      },
      "players": [
       {
        "label": "Points",
-       "name": "Sam Howard",
-       "jersey": "3",
-       "gp": "1",
-       "total": "16",
-       "avg": "16.0",
-       "line": "16.0 per game, 16 total",
-       "position": "G",
-       "year": "Junior",
-       "headshot": "https://www.olivetcomets.com/sports/mbkb/2026-27/photos/0001/hs_Sam_Howard.jpg?max_height=576&max_width=576&crop=1"
-      },
-      {
-       "label": "Points",
        "name": "Porter Kretschman",
        "jersey": "12",
-       "gp": "1",
-       "total": "13",
-       "avg": "13.0",
-       "line": "13.0 per game, 13 total",
+       "gp": "2",
+       "total": "29",
+       "avg": "14.5",
+       "line": "14.5 per game, 29 total",
        "position": "F",
        "year": "Junior",
        "headshot": "https://www.olivetcomets.com/sports/mbkb/2026-27/photos/0001/hs_Porter_Kretschman.jpg?max_height=576&max_width=576&crop=1"
       },
       {
+       "label": "Points",
+       "name": "Sam Howard",
+       "jersey": "3",
+       "gp": "2",
+       "total": "23",
+       "avg": "11.5",
+       "line": "11.5 per game, 23 total",
+       "position": "G",
+       "year": "Junior",
+       "headshot": "https://www.olivetcomets.com/sports/mbkb/2026-27/photos/0001/hs_Sam_Howard.jpg?max_height=576&max_width=576&crop=1"
+      },
+      {
        "label": "Rebounds",
        "name": "Porter Kretschman",
        "jersey": "12",
-       "gp": "1",
-       "total": "10",
-       "avg": "10.0",
-       "line": "10.0 per game, 10 total",
+       "gp": "2",
+       "total": "23",
+       "avg": "11.5",
+       "line": "11.5 per game, 23 total",
        "position": "F",
        "year": "Junior",
        "headshot": "https://www.olivetcomets.com/sports/mbkb/2026-27/photos/0001/hs_Porter_Kretschman.jpg?max_height=576&max_width=576&crop=1"
       },
       {
        "label": "Assists",
-       "name": "Mike Okello",
-       "jersey": "13",
-       "gp": "1",
+       "name": "Sean Shenker",
+       "jersey": "11",
+       "gp": "2",
        "total": "5",
-       "avg": "5.0",
-       "line": "5.0 per game, 5 total",
-       "position": "C",
-       "year": "Junior",
-       "headshot": "https://www.olivetcomets.com/sports/mbkb/2026-27/photos/0001/hs_Mike_Okello.jpg?max_height=576&max_width=576&crop=1"
+       "avg": "2.5",
+       "line": "2.5 per game, 5 total",
+       "position": "G",
+       "year": "Sophomore",
+       "headshot": "https://www.olivetcomets.com/sports/mbkb/2026-27/photos/0001/hs_Sean_Shenker.jpg?max_height=576&max_width=576&crop=1"
       },
       {
        "label": "Steals",
-       "name": "Sam Howard",
-       "jersey": "3",
-       "gp": "1",
-       "total": "1",
+       "name": "Porter Kretschman",
+       "jersey": "12",
+       "gp": "2",
+       "total": "2",
        "avg": "1.0",
-       "line": "1.0 per game, 1 total",
-       "position": "G",
+       "line": "1.0 per game, 2 total",
+       "position": "F",
        "year": "Junior",
-       "headshot": "https://www.olivetcomets.com/sports/mbkb/2026-27/photos/0001/hs_Sam_Howard.jpg?max_height=576&max_width=576&crop=1"
+       "headshot": "https://www.olivetcomets.com/sports/mbkb/2026-27/photos/0001/hs_Porter_Kretschman.jpg?max_height=576&max_width=576&crop=1"
       },
       {
        "label": "Blocks",
        "name": "Sam Howard",
        "jersey": "3",
-       "gp": "1",
+       "gp": "2",
        "total": "2",
-       "avg": "2.0",
-       "line": "2.0 per game, 2 total",
+       "avg": "1.0",
+       "line": "1.0 per game, 2 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://www.olivetcomets.com/sports/mbkb/2026-27/photos/0001/hs_Sam_Howard.jpg?max_height=576&max_width=576&crop=1"
@@ -5835,16 +5867,16 @@
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 1,
-     "wins": 1,
+     "played": 2,
+     "wins": 2,
      "losses": 0,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 85,
-     "pa": 70,
-     "record": "1-0",
+     "pf": 172,
+     "pa": 145,
+     "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T13:34:27-06:00"
+     "fetched": "2026-11-13T17:12:10-06:00"
     },
     "trine": {
      "games": [
@@ -5903,36 +5935,6 @@
        "live_feed": null
       },
       {
-       "id": "trine-mbb-8534",
-       "exhibition": false,
-       "date": "2026-11-13T22:30:00Z",
-       "time_tbd": false,
-       "home": false,
-       "neutral": true,
-       "opponent": {
-        "name": "La Roche vs Oshkosh",
-        "short": "La Roche vs Oshkosh",
-        "logo": null,
-        "slug": null
-       },
-       "conference": false,
-       "location": "Angola, IN",
-       "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
-       "status": "",
-       "links": {
-        "video": "https://www.miaasportsnetwork.com/tuthunder/",
-        "live_stats": "https://trinethunder.com/sidearmstats/mbball/"
-       },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/trine/mbball/game.json"
-       }
-      },
-      {
        "id": "trine-mbb-8530",
        "exhibition": false,
        "date": "2026-11-14T01:00:00Z",
@@ -5943,36 +5945,6 @@
         "name": "Wisconsin-Eau Claire",
         "short": "Wisconsin-Eau Claire",
         "logo": "https://trinethunder.com/images/logos/UWEClogo.png?width=80&height=80&mode=max",
-        "slug": null
-       },
-       "conference": false,
-       "location": "Angola, IN",
-       "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
-       "status": "",
-       "links": {
-        "video": "https://www.miaasportsnetwork.com/tuthunder/",
-        "live_stats": "https://trinethunder.com/sidearmstats/mbball/"
-       },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/trine/mbball/game.json"
-       }
-      },
-      {
-       "id": "trine-mbb-8535",
-       "exhibition": false,
-       "date": "2026-11-14T18:30:00Z",
-       "time_tbd": false,
-       "home": false,
-       "neutral": true,
-       "opponent": {
-        "name": "La Roche vs Eau Claire",
-        "short": "La Roche vs Eau Claire",
-        "logo": null,
         "slug": null
        },
        "conference": false,
@@ -6693,7 +6665,7 @@
      "pa": 132,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T13:34:27-06:00"
+     "fetched": "2026-11-13T17:12:10-06:00"
     }
    },
    "poll": {
@@ -8315,7 +8287,7 @@
      "pa": 152,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T13:34:27-06:00"
+     "fetched": "2026-11-13T17:12:10-06:00"
     },
     "albion": {
      "games": [
@@ -9084,7 +9056,7 @@
      "pa": 48,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T13:34:27-06:00"
+     "fetched": "2026-11-13T17:12:10-06:00"
     },
     "alma": {
      "games": [
@@ -9922,7 +9894,7 @@
      "pa": 153,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T13:34:27-06:00"
+     "fetched": "2026-11-13T17:12:10-06:00"
     },
     "calvin": {
      "games": [
@@ -10003,11 +9975,11 @@
        "status": "",
        "links": {
         "video": "https://www.youtube.com/hopeathletics",
-        "live_stats": "https://athletics.hope.edu/sidearmstats/wbball/summary"
+        "live_stats": "https://athletics.hope.edu/sidearmstats/wbball2/media"
        },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/hopecollege/wbball/game.json"
+        "url": "https://sidearmstats.com/hopecollege/wbball2/game.json"
        }
       },
       {
@@ -10033,11 +10005,11 @@
        "status": "",
        "links": {
         "video": "https://www.youtube.com/hopeathletics",
-        "live_stats": "https://athletics.hope.edu/sidearmstats/wbball/summary"
+        "live_stats": "https://athletics.hope.edu/sidearmstats/wbball2/media"
        },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/hopecollege/wbball/game.json"
+        "url": "https://sidearmstats.com/hopecollege/wbball2/game.json"
        }
       },
       {
@@ -10714,7 +10686,7 @@
      "pa": 113,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T13:34:27-06:00"
+     "fetched": "2026-11-13T17:12:10-06:00"
     },
     "hope": {
      "games": [
@@ -11547,7 +11519,7 @@
      "pa": 130,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T13:34:27-06:00"
+     "fetched": "2026-11-13T17:12:10-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12382,7 +12354,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T13:34:27-06:00"
+     "fetched": "2026-11-13T17:12:10-06:00"
     },
     "olivet": {
      "games": [
@@ -12415,30 +12387,6 @@
        "live_feed": null
       },
       {
-       "id": "olivet-wbb-jvbttpg4onabk52l",
-       "exhibition": false,
-       "date": "2026-11-14T01:00:00Z",
-       "time_tbd": false,
-       "home": false,
-       "neutral": false,
-       "opponent": {
-        "name": "Wheaton (Ill.)",
-        "short": "Wheaton (Ill.)",
-        "logo": "https://cdn.prestosports.com/action/cdn/logos/id/7mxctiwez9hku5gi.png",
-        "slug": null
-       },
-       "conference": false,
-       "location": "",
-       "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
-       "status": "",
-       "links": {},
-       "live_feed": null
-      },
-      {
        "id": "olivet-wbb-7ro9gfpwshm785lu",
        "exhibition": false,
        "date": "2026-11-14T21:00:00Z",
@@ -12459,7 +12407,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "live_stats": "https://www.olivetcomets.com/links/yvtjn5",
+        "video": "https://www.olivetcomets.com/links/ndh9ig"
+       },
        "live_feed": null
       },
       {
@@ -12537,7 +12488,9 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.olivetcomets.com/links/os8twj"
+       },
        "live_feed": null
       },
       {
@@ -12561,7 +12514,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "live_stats": "https://www.olivetcomets.com/links/g73ko5",
+        "video": "https://www.olivetcomets.com/links/7aomsg"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/adri/wbball/game.json"
@@ -12970,7 +12926,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "live_stats": "https://www.olivetcomets.com/links/nx9mx5",
+        "video": "https://www.olivetcomets.com/links/6s0hgy"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/albi/wbball/game.json"
@@ -13098,9 +13057,9 @@
      ],
      "roster": {
       "url": "https://www.olivetcomets.com/sports/wbkb/2026-27/roster",
-      "season": null,
-      "players": 0,
-      "current": false
+      "season": "2026-27",
+      "players": 20,
+      "current": true
      },
      "players": [
       {
@@ -13124,7 +13083,7 @@
        "avg": "15.0",
        "line": "15.0 per game, 15 total",
        "position": "C/F",
-       "year": "Freshman",
+       "year": "First-year",
        "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Addilyn_Moore.jpg?max_height=576&max_width=576&crop=1"
       },
       {
@@ -13172,7 +13131,7 @@
        "avg": "1.0",
        "line": "1.0 per game, 1 total",
        "position": "G",
-       "year": "Freshman",
+       "year": "First-year",
        "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Hannah_Hill.jpg?max_height=576&max_width=576&crop=1"
       }
      ],
@@ -13187,7 +13146,7 @@
      "pa": 51,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T13:34:27-06:00"
+     "fetched": "2026-11-13T17:12:10-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14027,7 +13986,7 @@
      "pa": 127,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T13:34:27-06:00"
+     "fetched": "2026-11-13T17:12:10-06:00"
     },
     "trine": {
      "games": [
@@ -14223,36 +14182,6 @@
        }
       },
       {
-       "id": "trine-wbb-8677",
-       "exhibition": false,
-       "date": "2026-12-18T22:30:00Z",
-       "time_tbd": false,
-       "home": true,
-       "neutral": false,
-       "opponent": {
-        "name": "Hanover vs Millikin",
-        "short": "Hanover vs Millikin",
-        "logo": null,
-        "slug": null
-       },
-       "conference": false,
-       "location": "Angola, IN, MTI Center",
-       "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
-       "status": "",
-       "links": {
-        "video": "https://www.miaasportsnetwork.com/tuthunder/",
-        "live_stats": "https://trinethunder.com/sidearmstats/wbball/"
-       },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/trine/wbball/game.json"
-       }
-      },
-      {
        "id": "trine-wbb-8678",
        "exhibition": false,
        "date": "2026-12-19T00:45:00Z",
@@ -14263,36 +14192,6 @@
         "name": "Ohio Wesleyan",
         "short": "Ohio Wesleyan",
         "logo": "https://trinethunder.com/images/logos/Ohio_Wesleyan.png?width=80&height=80&mode=max",
-        "slug": null
-       },
-       "conference": false,
-       "location": "Angola, IN, MTI Center",
-       "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
-       "status": "",
-       "links": {
-        "video": "https://www.miaasportsnetwork.com/tuthunder/",
-        "live_stats": "https://trinethunder.com/sidearmstats/wbball/"
-       },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/trine/wbball/game.json"
-       }
-      },
-      {
-       "id": "trine-wbb-8679",
-       "exhibition": false,
-       "date": "2026-12-19T18:00:00Z",
-       "time_tbd": false,
-       "home": true,
-       "neutral": false,
-       "opponent": {
-        "name": "Ohio Wesleyan vs Hanover",
-        "short": "Ohio Wesleyan vs Hanover",
-        "logo": null,
         "slug": null
        },
        "conference": false,
@@ -14881,7 +14780,7 @@
      "pa": 48,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T13:34:27-06:00"
+     "fetched": "2026-11-13T17:12:10-06:00"
     }
    },
    "poll": {
@@ -15669,15 +15568,8 @@
   }
  },
  "errors": [
-  "Olivet mbb schedule: HTTP Error 405: Not Allowed",
-  "Olivet mbb leaders: HTTP Error 405: Not Allowed",
   "d3hoops mbb: poll table not found",
-  "Olivet wbb schedule: HTTP Error 405: Not Allowed",
-  "Olivet wbb leaders: HTTP Error 405: Not Allowed",
   "d3hoops wbb: poll table not found"
  ],
- "stale": {
-  "olivet-mbb-schedule": "2026-11-13T00:28:17-06:00",
-  "olivet-wbb-schedule": "2026-11-13T00:28:17-06:00"
- }
+ "stale": {}
 }

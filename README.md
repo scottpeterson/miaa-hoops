@@ -36,7 +36,7 @@ python3 -m http.server 8000 --directory docs
 
 No national API covers these games. The page polls each school's live stats feed once a minute while a game is in its window. The window runs from 30 minutes before tipoff until 4 hours after.
 
-- Sidearm schools (every member except Olivet): `https://sidearmstats.com/<client>/{mbball|wbball}/game.json`. The fetcher finds the client name on the school's live stats page. The game date in the feed must match the card's date.
+- Sidearm schools (every member except Olivet): `https://sidearmstats.com/<client>/{mbball|wbball}/game.json`. The fetcher finds the client name on the school's live stats page. The game date in the feed must match the card's date and one side of the feed must name the team. A host runs one feed per court (`wbball`, `wbball2`), and a schedule page can link the first court for a game on the second, so after tipoff the page tries the host's other courts once every 10 minutes until one shows the game (Calvin vs DePauw at Hope, 2026-11-13). A tournament host also lists the games it does not play ("La Roche vs Oshkosh" on Trine's schedule); the fetcher drops a row whose opponent cell names two teams.
 - Olivet (PrestoSports): `https://data.prestolivestats.com/xml/<site>/events/<event>.xml`, from the StatView link on the schedule.
 
 For a conference game the page uses the home team's feed, so every home game of a member has one. Away games at non-members have a feed only when the schedule page links live stats on a Sidearm or Presto host.
