@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-14T15:52:06-06:00",
+ "fetched_at": "2026-11-14T16:44:11-06:00",
  "teams": {
   "olivet-mbb": {
    "games": [
@@ -849,8 +849,8 @@
     {
      "id": "olivet-wbb-7ro9gfpwshm785lu",
      "exhibition": false,
-     "date": "2026-11-14T21:00:00Z",
-     "time_tbd": false,
+     "date": "2026-11-14T17:00:00Z",
+     "time_tbd": true,
      "home": true,
      "neutral": true,
      "opponent": {
@@ -862,15 +862,14 @@
      "conference": false,
      "location": "",
      "note": "",
-     "state": "pre",
-     "result": null,
-     "pf": null,
-     "pa": null,
+     "state": "post",
+     "result": "L",
+     "pf": 70,
+     "pa": 46,
      "status": "",
      "links": {
-      "live_stats": "https://athletics.wheaton.edu/sidearmstats/wbball/summary",
-      "video": "https://www.olivetcomets.com/links/ndh9ig",
-      "live_stats_short": "https://www.olivetcomets.com/links/yvtjn5"
+      "boxscore": "https://www.olivetcomets.com/sports/wbkb/2026-27/boxscores/20261114_7ro9.xml",
+      "recap": "https://www.olivetcomets.com/sports/wbkb/2026-27/releases/20261114po11wz"
      },
      "live_feed": null
     },
@@ -1488,15 +1487,15 @@
      },
      {
       "label": "Points",
-      "name": "Addilyn Moore",
-      "jersey": "15",
-      "gp": "2",
-      "total": "18",
-      "avg": "9.0",
-      "line": "9.0 per game, 18 total",
-      "position": "C/F",
-      "year": "First-year",
-      "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Addilyn_Moore.jpg?max_height=576&max_width=576&crop=1"
+      "name": "Reese Gohsman",
+      "jersey": "21",
+      "gp": "3",
+      "total": "26",
+      "avg": "8.7",
+      "line": "8.7 per game, 26 total",
+      "position": "G",
+      "year": "Sophomore",
+      "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Reese_Gohsman.jpg?max_height=576&max_width=576&crop=1"
      },
      {
       "label": "Rebounds",
@@ -1538,10 +1537,10 @@
       "label": "Blocks",
       "name": "Alex Mitchell",
       "jersey": "34",
-      "gp": "2",
-      "total": "2",
+      "gp": "3",
+      "total": "3",
       "avg": "1.0",
-      "line": "1.0 per game, 2 total",
+      "line": "1.0 per game, 3 total",
       "position": "C",
       "year": "Sophomore",
       "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Alex_Mitchell.jpg?max_height=576&max_width=576&crop=1"
