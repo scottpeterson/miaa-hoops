@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-14T14:49:59-06:00",
+ "fetched_at": "2026-11-14T15:21:59-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -887,7 +887,7 @@
      "pa": 264,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T14:49:59-06:00"
+     "fetched": "2026-11-14T15:21:59-06:00"
     },
     "albion": {
      "games": [
@@ -1677,7 +1677,7 @@
      "pa": 260,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T14:49:59-06:00"
+     "fetched": "2026-11-14T15:21:59-06:00"
     },
     "alma": {
      "games": [
@@ -2549,7 +2549,7 @@
      "pa": 130,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T14:49:59-06:00"
+     "fetched": "2026-11-14T15:21:59-06:00"
     },
     "calvin": {
      "games": [
@@ -2629,7 +2629,8 @@
        "pa": 80,
        "status": "",
        "links": {
-        "boxscore": "https://calvinknights.com/sports/mens-basketball/stats/2026-27/edgewood-college/boxscore/9261"
+        "boxscore": "https://calvinknights.com/sports/mens-basketball/stats/2026-27/edgewood-college/boxscore/9261",
+        "recap": "https://calvinknights.com/news/2026/11/14/mens-basketball-calvin-mens-basketball-tops-edgewood-in-overtime-in-home-opener.aspx"
        },
        "live_feed": null
       },
@@ -3346,7 +3347,7 @@
      "pa": 230,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T14:49:59-06:00"
+     "fetched": "2026-11-14T15:21:59-06:00"
     },
     "hope": {
      "games": [
@@ -4189,7 +4190,7 @@
      "pa": 122,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T14:49:59-06:00"
+     "fetched": "2026-11-14T15:21:59-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5020,7 +5021,7 @@
      "pa": 149,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T14:49:59-06:00"
+     "fetched": "2026-11-14T15:21:59-06:00"
     },
     "olivet": {
      "games": [
@@ -5876,7 +5877,7 @@
      "pa": 145,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T14:49:59-06:00"
+     "fetched": "2026-11-14T15:21:59-06:00"
     },
     "trine": {
      "games": [
@@ -6662,7 +6663,7 @@
      "pa": 197,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T14:49:59-06:00"
+     "fetched": "2026-11-14T15:21:59-06:00"
     }
    },
    "poll": {
@@ -8284,7 +8285,7 @@
      "pa": 152,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T14:49:59-06:00"
+     "fetched": "2026-11-14T15:21:59-06:00"
     },
     "albion": {
      "games": [
@@ -9061,7 +9062,7 @@
      "pa": 96,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T14:49:59-06:00"
+     "fetched": "2026-11-14T15:21:59-06:00"
     },
     "alma": {
      "games": [
@@ -9896,7 +9897,7 @@
      "pa": 214,
      "record": "1-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T14:49:59-06:00"
+     "fetched": "2026-11-14T15:21:59-06:00"
     },
     "calvin": {
      "games": [
@@ -10681,7 +10682,7 @@
      "pa": 210,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T14:49:59-06:00"
+     "fetched": "2026-11-14T15:21:59-06:00"
     },
     "hope": {
      "games": [
@@ -11510,7 +11511,7 @@
      "pa": 194,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T14:49:59-06:00"
+     "fetched": "2026-11-14T15:21:59-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -11530,19 +11531,16 @@
        "conference": false,
        "location": "Oberlin, OH",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "L",
+       "pf": 48,
+       "pa": 52,
        "status": "",
        "links": {
-        "video": "https://oberlinsportsnetwork.com/",
-        "live_stats": "https://goyeo.com/sidearmstats/wbball/summary"
+        "boxscore": "https://hornets.kzoo.edu/sports/womens-basketball/stats/2026-27/oberlin/boxscore/6940",
+        "recap": "https://hornets.kzoo.edu/news/2026/11/14/womens-basketball-comes-up-short-in-opener-at-oberlin.aspx"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/oberlin/wbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "kalamazoo-wbb-6941",
@@ -12238,114 +12236,89 @@
      "players": [
       {
        "label": "Points",
-       "name": "Ruby Hogan",
-       "jersey": "20",
-       "gp": "24",
-       "total": "325",
-       "avg": "13.5",
-       "line": "13.5 per game, 325 total",
-       "position": "G",
+       "name": "Elisabeth Wilks",
+       "jersey": "4",
+       "gp": "1",
+       "total": "11",
+       "avg": "11.0",
+       "line": "11.0 per game, 11 total",
+       "position": "G/F",
        "year": "Junior",
-       "headshot": "https://hornets.kzoo.edu/images/2025/10/17/300x400_Hogan__Ruby_CMoss20251007-4B3A0769194632_607eO.png?width=200&quality=90"
+       "headshot": "https://hornets.kzoo.edu/images/2026/10/19/Wilks__Elisabeth_CMoss261012-4B3A8202.png?width=200&quality=90"
       },
       {
        "label": "Points",
-       "name": "Semaj' Robertson",
-       "jersey": "10",
-       "gp": "25",
-       "total": "194",
-       "avg": "7.8",
-       "line": "7.8 per game, 194 total",
-       "position": "G",
-       "year": "First-year",
-       "headshot": "https://hornets.kzoo.edu/images/2025/10/21/300x400_Robertson__Semaj__CMoss20251007-4B3A0844200206.png?width=200&quality=90"
+       "name": "Sophia Moir",
+       "jersey": "2",
+       "gp": "1",
+       "total": "2",
+       "avg": "2.0",
+       "line": "2.0 per game, 2 total",
+       "position": "G/F",
+       "year": "Junior",
+       "headshot": "https://hornets.kzoo.edu/images/2026/10/19/Moir__Sophia_CMoss261012-4B3A8193.png?width=200&quality=90"
       },
       {
        "label": "Rebounds",
-       "name": "Ruby Hogan",
-       "jersey": "20",
-       "gp": "24",
-       "total": "174",
-       "avg": "7.3",
-       "line": "7.3 per game, 174 total",
-       "position": "G",
+       "name": "Elisabeth Wilks",
+       "jersey": "4",
+       "gp": "1",
+       "total": "14",
+       "avg": "14.0",
+       "line": "14.0 per game, 14 total",
+       "position": "G/F",
        "year": "Junior",
-       "headshot": "https://hornets.kzoo.edu/images/2025/10/17/300x400_Hogan__Ruby_CMoss20251007-4B3A0769194632_607eO.png?width=200&quality=90"
+       "headshot": "https://hornets.kzoo.edu/images/2026/10/19/Wilks__Elisabeth_CMoss261012-4B3A8202.png?width=200&quality=90"
       },
       {
        "label": "Assists",
-       "name": "Ruby Hogan",
-       "jersey": "20",
-       "gp": "24",
-       "total": "109",
-       "avg": "4.5",
-       "line": "4.5 per game, 109 total",
-       "position": "G",
+       "name": "Sophia Moir",
+       "jersey": "2",
+       "gp": "1",
+       "total": "2",
+       "avg": "2.0",
+       "line": "2.0 per game, 2 total",
+       "position": "G/F",
        "year": "Junior",
-       "headshot": "https://hornets.kzoo.edu/images/2025/10/17/300x400_Hogan__Ruby_CMoss20251007-4B3A0769194632_607eO.png?width=200&quality=90"
+       "headshot": "https://hornets.kzoo.edu/images/2026/10/19/Moir__Sophia_CMoss261012-4B3A8193.png?width=200&quality=90"
       },
       {
        "label": "Steals",
-       "name": "Ruby Hogan",
-       "jersey": "20",
-       "gp": "24",
-       "total": "41",
-       "avg": "1.7",
-       "line": "1.7 per game, 41 total",
-       "position": "G",
+       "name": "Sophia Moir",
+       "jersey": "2",
+       "gp": "1",
+       "total": "1",
+       "avg": "1.0",
+       "line": "1.0 per game, 1 total",
+       "position": "G/F",
        "year": "Junior",
-       "headshot": "https://hornets.kzoo.edu/images/2025/10/17/300x400_Hogan__Ruby_CMoss20251007-4B3A0769194632_607eO.png?width=200&quality=90"
+       "headshot": "https://hornets.kzoo.edu/images/2026/10/19/Moir__Sophia_CMoss261012-4B3A8193.png?width=200&quality=90"
       },
       {
        "label": "Blocks",
-       "name": "Ruby Hogan",
-       "jersey": "20",
-       "gp": "24",
-       "total": "13",
-       "avg": "0.5",
-       "line": "0.5 per game, 13 total",
-       "position": "G",
+       "name": "Elisabeth Wilks",
+       "jersey": "4",
+       "gp": "1",
+       "total": "1",
+       "avg": "1.0",
+       "line": "1.0 per game, 1 total",
+       "position": "G/F",
        "year": "Junior",
-       "headshot": "https://hornets.kzoo.edu/images/2025/10/17/300x400_Hogan__Ruby_CMoss20251007-4B3A0769194632_607eO.png?width=200&quality=90"
+       "headshot": "https://hornets.kzoo.edu/images/2026/10/19/Wilks__Elisabeth_CMoss261012-4B3A8202.png?width=200&quality=90"
       }
      ],
-     "departed": [
-      {
-       "name": "Alyse Baughman",
-       "reason": "not on the 2026-27 roster",
-       "line": "3.8 points per game",
-       "year": "Sophomore"
-      },
-      {
-       "name": "Makayla Allen",
-       "reason": "not on the 2026-27 roster",
-       "line": "1.5 points per game",
-       "year": "First-year"
-      },
-      {
-       "name": "Lauren Vos",
-       "reason": "not on the 2026-27 roster",
-       "line": "1.2 points per game",
-       "year": "Junior"
-      },
-      {
-       "name": "Adeline Gill",
-       "reason": "not on the 2026-27 roster",
-       "line": "0.5 points per game",
-       "year": "First-year"
-      }
-     ],
-     "stats_season": "2025-26",
-     "played": 0,
+     "departed": [],
+     "stats_season": "2026-27",
+     "played": 1,
      "wins": 0,
-     "losses": 0,
+     "losses": 1,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 0,
-     "pa": 0,
-     "record": "0-0",
+     "pf": 48,
+     "pa": 52,
+     "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T14:49:59-06:00"
+     "fetched": "2026-11-14T15:21:59-06:00"
     },
     "olivet": {
      "games": [
@@ -13168,7 +13141,7 @@
      "pa": 89,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T14:49:59-06:00"
+     "fetched": "2026-11-14T15:21:59-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14008,7 +13981,7 @@
      "pa": 127,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T14:49:59-06:00"
+     "fetched": "2026-11-14T15:21:59-06:00"
     },
     "trine": {
      "games": [
@@ -14802,7 +14775,7 @@
      "pa": 48,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T14:49:59-06:00"
+     "fetched": "2026-11-14T15:21:59-06:00"
     }
    },
    "poll": {
