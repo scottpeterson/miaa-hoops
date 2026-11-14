@@ -1,0 +1,1555 @@
+{
+ "fetched_at": "2026-11-13T20:02:03-06:00",
+ "teams": {
+  "olivet-mbb": {
+   "games": [
+    {
+     "id": "olivet-mbb-5wrruy5j86se5zlx",
+     "exhibition": false,
+     "date": "2026-11-06T17:00:00Z",
+     "time_tbd": true,
+     "home": true,
+     "neutral": false,
+     "opponent": {
+      "name": "Franklin (Ind.)",
+      "short": "Franklin (Ind.)",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/r80k2vq4rxuzswng.png",
+      "slug": null
+     },
+     "conference": false,
+     "location": "",
+     "note": "",
+     "state": "post",
+     "result": "W",
+     "pf": 85,
+     "pa": 70,
+     "status": "",
+     "links": {
+      "live_stats": "https://prestolivestats.com/ya5s58navki9037d/5wrruy5j86se5zlx",
+      "boxscore": "https://www.olivetcomets.com/sports/mbkb/2026-27/boxscores/20261106_5wrr.xml",
+      "recap": "https://www.olivetcomets.com/sports/mbkb/2026-27/releases/20261106yhdyx1"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-mbb-46g07n8uvckq6lpw",
+     "exhibition": false,
+     "date": "2026-11-07T17:00:00Z",
+     "time_tbd": true,
+     "home": true,
+     "neutral": false,
+     "opponent": {
+      "name": "Anderson (Ind.)",
+      "short": "Anderson (Ind.)",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/ljjenmd2z1edoco8.png",
+      "slug": null
+     },
+     "conference": false,
+     "location": "",
+     "note": "",
+     "state": "post",
+     "result": "W",
+     "pf": 87,
+     "pa": 75,
+     "status": "",
+     "links": {
+      "live_stats": "https://prestolivestats.com/ya5s58navki9037d/46g07n8uvckq6lpw",
+      "boxscore": "https://www.olivetcomets.com/sports/mbkb/2026-27/boxscores/20261107_46g0.xml",
+      "recap": "https://www.olivetcomets.com/sports/mbkb/2026-27/releases/20261107p1qn8w"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-mbb-8m1gjtpgdjjury2k",
+     "exhibition": false,
+     "date": "2026-11-15T19:00:00Z",
+     "time_tbd": false,
+     "home": false,
+     "neutral": false,
+     "opponent": {
+      "name": "Transylvania (Ky.)",
+      "short": "Transylvania (Ky.)",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/35n367on5okcuev8.png",
+      "slug": null
+     },
+     "conference": false,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://transysports.com/sidearmstats/mbball/summary",
+      "video": "https://www.olivetcomets.com/links/08g70a",
+      "live_stats_short": "https://www.olivetcomets.com/links/vrkw5b"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-mbb-c8gqb58admsuhjc0",
+     "exhibition": false,
+     "date": "2026-11-20T16:00:00Z",
+     "time_tbd": false,
+     "home": false,
+     "neutral": false,
+     "opponent": {
+      "name": "Saginaw Valley",
+      "short": "Saginaw Valley",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/nwghsy0l4413x9mh.png",
+      "slug": null
+     },
+     "conference": false,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {},
+     "live_feed": null
+    },
+    {
+     "id": "olivet-mbb-dmn52nay9ytt5avl",
+     "exhibition": false,
+     "date": "2026-11-28T20:00:00Z",
+     "time_tbd": false,
+     "home": true,
+     "neutral": false,
+     "opponent": {
+      "name": "Hardin-Simmons (Texas)",
+      "short": "Hardin-Simmons (Texas)",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/eoarsel5gfebgxr7.png",
+      "slug": null
+     },
+     "conference": false,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://prestolivestats.com/ya5s58navki9037d/dmn52nay9ytt5avl",
+      "video": "https://www.olivetcomets.com/links/v1ickm",
+      "tickets": "https://www.olivetcomets.com/tickets"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-mbb-buxneofxoe7f7moe",
+     "exhibition": false,
+     "date": "2026-12-01T00:00:00Z",
+     "time_tbd": false,
+     "home": true,
+     "neutral": false,
+     "opponent": {
+      "name": "Howard Payne (Texas)",
+      "short": "Howard Payne (Texas)",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/92hq3jec5ief65l6.png",
+      "slug": null
+     },
+     "conference": false,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://prestolivestats.com/ya5s58navki9037d/buxneofxoe7f7moe",
+      "video": "https://www.olivetcomets.com/links/v1ickm",
+      "tickets": "https://www.olivetcomets.com/tickets"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-mbb-zy1rq35h5gntgphj",
+     "exhibition": false,
+     "date": "2026-12-05T01:00:00Z",
+     "time_tbd": false,
+     "home": false,
+     "neutral": false,
+     "opponent": {
+      "name": "Wis.-Platteville",
+      "short": "Wis.-Platteville",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/bmkmwphksyg4it3h.png",
+      "slug": null
+     },
+     "conference": false,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://www.olivetcomets.com/links/ef8rzt",
+      "video": "https://www.olivetcomets.com/links/nacn0q"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-mbb-xxiq59m9iqwvn8j1",
+     "exhibition": false,
+     "date": "2026-12-05T21:00:00Z",
+     "time_tbd": false,
+     "home": false,
+     "neutral": false,
+     "opponent": {
+      "name": "Wis.-Whitewater",
+      "short": "Wis.-Whitewater",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/w3v2vkxbg2xc5ccz.png",
+      "slug": null
+     },
+     "conference": false,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://www.olivetcomets.com/links/bdqvuj",
+      "video": "https://www.olivetcomets.com/links/87rj8y"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-mbb-6712gh8zysysm7ao",
+     "exhibition": false,
+     "date": "2026-12-12T19:00:00Z",
+     "time_tbd": false,
+     "home": true,
+     "neutral": false,
+     "opponent": {
+      "name": "Loras (Iowa)",
+      "short": "Loras (Iowa)",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/aapgldoc178y6vdo.png",
+      "slug": null
+     },
+     "conference": false,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://prestolivestats.com/ya5s58navki9037d/6712gh8zysysm7ao",
+      "video": "https://www.olivetcomets.com/links/v1ickm",
+      "tickets": "https://www.olivetcomets.com/tickets"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-mbb-kkdywqpo772chsqp",
+     "exhibition": false,
+     "date": "2026-12-19T16:00:00Z",
+     "time_tbd": false,
+     "home": true,
+     "neutral": true,
+     "opponent": {
+      "name": "Buffalo State (N.Y.)",
+      "short": "Buffalo State (N.Y.)",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/d4rrgw6hmapmwxsp.png",
+      "slug": null
+     },
+     "conference": false,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://prestolivestats.com/ya5s58navki9037d/kkdywqpo772chsqp"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-mbb-x67mvty2dalhdo4l",
+     "exhibition": false,
+     "date": "2026-12-20T18:00:00Z",
+     "time_tbd": false,
+     "home": true,
+     "neutral": true,
+     "opponent": {
+      "name": "Saint John's (Minn.)",
+      "short": "Saint John's (Minn.)",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/exgzll9q9dtmmvlm.png",
+      "slug": null
+     },
+     "conference": false,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {},
+     "live_feed": null
+    },
+    {
+     "id": "olivet-mbb-9j6sbi53qsr4ioaq",
+     "exhibition": false,
+     "date": "2026-12-30T22:00:00Z",
+     "time_tbd": false,
+     "home": true,
+     "neutral": true,
+     "opponent": {
+      "name": "North Park (Ill.)",
+      "short": "North Park (Ill.)",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/gl4iy4efx3bljm8g.png",
+      "slug": null
+     },
+     "conference": false,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://www.olivetcomets.com/links/3myewu",
+      "video": "https://www.olivetcomets.com/links/aprizp"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-mbb-j0zf738oicglxviq",
+     "exhibition": false,
+     "date": "2027-01-07T00:00:00Z",
+     "time_tbd": false,
+     "home": false,
+     "neutral": false,
+     "opponent": {
+      "name": "Albion",
+      "short": "Albion",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/xw6otphyyc7di05v.png",
+      "slug": "albion"
+     },
+     "conference": true,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://www.olivetcomets.com/links/o3awrx",
+      "video": "https://www.olivetcomets.com/links/6s0hgy"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-mbb-d4813whkk9sjdehh",
+     "exhibition": false,
+     "date": "2027-01-09T20:00:00Z",
+     "time_tbd": false,
+     "home": false,
+     "neutral": false,
+     "opponent": {
+      "name": "Hope",
+      "short": "Hope",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/rnh9nqfr9yye7dxf.png",
+      "slug": "hope"
+     },
+     "conference": true,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://www.olivetcomets.com/links/3myewu",
+      "video": "https://www.olivetcomets.com/links/aprizp"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-mbb-ix6n5ejkmq1b68xg",
+     "exhibition": false,
+     "date": "2027-01-14T00:00:00Z",
+     "time_tbd": false,
+     "home": true,
+     "neutral": false,
+     "opponent": {
+      "name": "Alma",
+      "short": "Alma",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/jd3vdb0mhr9xdxw8.png",
+      "slug": "alma"
+     },
+     "conference": true,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://prestolivestats.com/ya5s58navki9037d/ix6n5ejkmq1b68xg",
+      "video": "https://www.olivetcomets.com/links/v1ickm",
+      "tickets": "https://www.olivetcomets.com/tickets"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-mbb-azw9eln41bfqypc2",
+     "exhibition": false,
+     "date": "2027-01-16T18:00:00Z",
+     "time_tbd": false,
+     "home": false,
+     "neutral": false,
+     "opponent": {
+      "name": "Kalamazoo",
+      "short": "Kalamazoo",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/ssdxdcctmyopt781.png",
+      "slug": "kalamazoo"
+     },
+     "conference": true,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://www.olivetcomets.com/links/p2fc7d",
+      "video": "https://www.olivetcomets.com/links/fpfcc6"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-mbb-qnb38wadfy98fyt0",
+     "exhibition": false,
+     "date": "2027-01-21T00:00:00Z",
+     "time_tbd": false,
+     "home": true,
+     "neutral": false,
+     "opponent": {
+      "name": "Adrian",
+      "short": "Adrian",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/wbi439uyp8123gmt.png",
+      "slug": "adrian"
+     },
+     "conference": true,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://prestolivestats.com/ya5s58navki9037d/qnb38wadfy98fyt0",
+      "video": "https://www.olivetcomets.com/links/v1ickm",
+      "tickets": "https://www.olivetcomets.com/tickets"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-mbb-m0dxs24yae5mfbon",
+     "exhibition": false,
+     "date": "2027-01-23T20:00:00Z",
+     "time_tbd": false,
+     "home": false,
+     "neutral": false,
+     "opponent": {
+      "name": "Trine (Ind.)",
+      "short": "Trine (Ind.)",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/7t7tzhxtmnjcolc5.png",
+      "slug": "trine"
+     },
+     "conference": true,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://www.olivetcomets.com/links/yv47u5",
+      "video": "https://www.olivetcomets.com/links/iamyk9"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-mbb-39r0rujysf5ln7lk",
+     "exhibition": false,
+     "date": "2027-01-28T00:00:00Z",
+     "time_tbd": false,
+     "home": true,
+     "neutral": false,
+     "opponent": {
+      "name": "Calvin",
+      "short": "Calvin",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/xi1lmskyq1krd4j0.png",
+      "slug": "calvin"
+     },
+     "conference": true,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://prestolivestats.com/ya5s58navki9037d/39r0rujysf5ln7lk",
+      "video": "https://www.olivetcomets.com/links/v1ickm",
+      "tickets": "https://www.olivetcomets.com/tickets"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-mbb-0cemwsglygvmoiiy",
+     "exhibition": false,
+     "date": "2027-01-30T18:00:00Z",
+     "time_tbd": false,
+     "home": true,
+     "neutral": false,
+     "opponent": {
+      "name": "Kalamazoo",
+      "short": "Kalamazoo",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/ssdxdcctmyopt781.png",
+      "slug": "kalamazoo"
+     },
+     "conference": true,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://prestolivestats.com/ya5s58navki9037d/0cemwsglygvmoiiy",
+      "video": "https://www.olivetcomets.com/links/v1ickm",
+      "tickets": "https://www.olivetcomets.com/tickets"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-mbb-l2fehzvuu8hb1rfj",
+     "exhibition": false,
+     "date": "2027-02-04T00:00:00Z",
+     "time_tbd": false,
+     "home": false,
+     "neutral": false,
+     "opponent": {
+      "name": "Alma",
+      "short": "Alma",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/jd3vdb0mhr9xdxw8.png",
+      "slug": "alma"
+     },
+     "conference": true,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {},
+     "live_feed": null
+    },
+    {
+     "id": "olivet-mbb-rprvun7mjkl3zmls",
+     "exhibition": false,
+     "date": "2027-02-06T20:00:00Z",
+     "time_tbd": false,
+     "home": true,
+     "neutral": false,
+     "opponent": {
+      "name": "Albion",
+      "short": "Albion",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/xw6otphyyc7di05v.png",
+      "slug": "albion"
+     },
+     "conference": true,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://prestolivestats.com/ya5s58navki9037d/rprvun7mjkl3zmls",
+      "video": "https://www.olivetcomets.com/links/v1ickm",
+      "tickets": "https://www.olivetcomets.com/tickets"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-mbb-rjum3kgyksvz0lvs",
+     "exhibition": false,
+     "date": "2027-02-11T00:00:00Z",
+     "time_tbd": false,
+     "home": false,
+     "neutral": false,
+     "opponent": {
+      "name": "Calvin",
+      "short": "Calvin",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/xi1lmskyq1krd4j0.png",
+      "slug": "calvin"
+     },
+     "conference": true,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://www.olivetcomets.com/links/4yedix",
+      "video": "https://www.olivetcomets.com/links/xbzgdm"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-mbb-u4muwm7x13ynd19u",
+     "exhibition": false,
+     "date": "2027-02-13T20:00:00Z",
+     "time_tbd": false,
+     "home": true,
+     "neutral": false,
+     "opponent": {
+      "name": "Hope",
+      "short": "Hope",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/rnh9nqfr9yye7dxf.png",
+      "slug": "hope"
+     },
+     "conference": true,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://prestolivestats.com/ya5s58navki9037d/u4muwm7x13ynd19u",
+      "video": "https://www.olivetcomets.com/links/v1ickm",
+      "tickets": "https://www.olivetcomets.com/tickets"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-mbb-ac9rh32wv145n5am",
+     "exhibition": false,
+     "date": "2027-02-18T00:00:00Z",
+     "time_tbd": false,
+     "home": false,
+     "neutral": false,
+     "opponent": {
+      "name": "Adrian",
+      "short": "Adrian",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/wbi439uyp8123gmt.png",
+      "slug": "adrian"
+     },
+     "conference": true,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "video": "https://www.olivetcomets.com/links/ybq8j1"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-mbb-q7zjyqnnb9pxpp8i",
+     "exhibition": false,
+     "date": "2027-02-20T20:00:00Z",
+     "time_tbd": false,
+     "home": true,
+     "neutral": false,
+     "opponent": {
+      "name": "Trine (Ind.)",
+      "short": "Trine (Ind.)",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/7t7tzhxtmnjcolc5.png",
+      "slug": "trine"
+     },
+     "conference": true,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {},
+     "live_feed": null
+    }
+   ],
+   "roster": {
+    "url": "https://www.olivetcomets.com/sports/mbkb/2026-27/roster",
+    "season": "2026-27",
+    "players": 17,
+    "current": true
+   },
+   "leaders": [
+    "2026-27",
+    [
+     {
+      "label": "Points",
+      "name": "Porter Kretschman",
+      "jersey": "12",
+      "gp": "2",
+      "total": "29",
+      "avg": "14.5",
+      "line": "14.5 per game, 29 total",
+      "position": "F",
+      "year": "Junior",
+      "headshot": "https://www.olivetcomets.com/sports/mbkb/2026-27/photos/0001/hs_Porter_Kretschman.jpg?max_height=576&max_width=576&crop=1"
+     },
+     {
+      "label": "Points",
+      "name": "Sam Howard",
+      "jersey": "3",
+      "gp": "2",
+      "total": "23",
+      "avg": "11.5",
+      "line": "11.5 per game, 23 total",
+      "position": "G",
+      "year": "Junior",
+      "headshot": "https://www.olivetcomets.com/sports/mbkb/2026-27/photos/0001/hs_Sam_Howard.jpg?max_height=576&max_width=576&crop=1"
+     },
+     {
+      "label": "Rebounds",
+      "name": "Porter Kretschman",
+      "jersey": "12",
+      "gp": "2",
+      "total": "23",
+      "avg": "11.5",
+      "line": "11.5 per game, 23 total",
+      "position": "F",
+      "year": "Junior",
+      "headshot": "https://www.olivetcomets.com/sports/mbkb/2026-27/photos/0001/hs_Porter_Kretschman.jpg?max_height=576&max_width=576&crop=1"
+     },
+     {
+      "label": "Assists",
+      "name": "Sean Shenker",
+      "jersey": "11",
+      "gp": "2",
+      "total": "5",
+      "avg": "2.5",
+      "line": "2.5 per game, 5 total",
+      "position": "G",
+      "year": "Sophomore",
+      "headshot": "https://www.olivetcomets.com/sports/mbkb/2026-27/photos/0001/hs_Sean_Shenker.jpg?max_height=576&max_width=576&crop=1"
+     },
+     {
+      "label": "Steals",
+      "name": "Porter Kretschman",
+      "jersey": "12",
+      "gp": "2",
+      "total": "2",
+      "avg": "1.0",
+      "line": "1.0 per game, 2 total",
+      "position": "F",
+      "year": "Junior",
+      "headshot": "https://www.olivetcomets.com/sports/mbkb/2026-27/photos/0001/hs_Porter_Kretschman.jpg?max_height=576&max_width=576&crop=1"
+     },
+     {
+      "label": "Blocks",
+      "name": "Sam Howard",
+      "jersey": "3",
+      "gp": "2",
+      "total": "2",
+      "avg": "1.0",
+      "line": "1.0 per game, 2 total",
+      "position": "G",
+      "year": "Junior",
+      "headshot": "https://www.olivetcomets.com/sports/mbkb/2026-27/photos/0001/hs_Sam_Howard.jpg?max_height=576&max_width=576&crop=1"
+     }
+    ],
+    []
+   ]
+  },
+  "olivet-wbb": {
+   "games": [
+    {
+     "id": "olivet-wbb-qkvmc8wkq7e2xa5n",
+     "exhibition": false,
+     "date": "2026-11-06T17:00:00Z",
+     "time_tbd": true,
+     "home": true,
+     "neutral": false,
+     "opponent": {
+      "name": "Bluffton (Ohio)",
+      "short": "Bluffton (Ohio)",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/y3t3lh9gmcf8laq8.png",
+      "slug": null
+     },
+     "conference": false,
+     "location": "",
+     "note": "",
+     "state": "post",
+     "result": "L",
+     "pf": 64,
+     "pa": 51,
+     "status": "",
+     "links": {
+      "live_stats": "https://prestolivestats.com/9qop6oeabjj3n7bn/qkvmc8wkq7e2xa5n",
+      "boxscore": "https://www.olivetcomets.com/sports/wbkb/2026-27/boxscores/20261106_qkvm.xml",
+      "recap": "https://www.olivetcomets.com/sports/wbkb/2026-27/releases/20261106xxonr1"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-wbb-jvbttpg4onabk52l",
+     "exhibition": false,
+     "date": "2026-11-14T01:00:00Z",
+     "time_tbd": false,
+     "home": false,
+     "neutral": false,
+     "opponent": {
+      "name": "Wheaton (Ill.)",
+      "short": "Wheaton (Ill.)",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/7mxctiwez9hku5gi.png",
+      "slug": null
+     },
+     "conference": false,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://athletics.wheaton.edu/sidearmstats/wbball/summary",
+      "video": "https://www.olivetcomets.com/links/ndh9ig",
+      "live_stats_short": "https://www.olivetcomets.com/links/yvtjn5"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-wbb-7ro9gfpwshm785lu",
+     "exhibition": false,
+     "date": "2026-11-14T21:00:00Z",
+     "time_tbd": false,
+     "home": true,
+     "neutral": true,
+     "opponent": {
+      "name": "Elmhurst (Ill.)",
+      "short": "Elmhurst (Ill.)",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/nsgax5dpdh53kbbj.png",
+      "slug": null
+     },
+     "conference": false,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://athletics.wheaton.edu/sidearmstats/wbball/summary",
+      "video": "https://www.olivetcomets.com/links/ndh9ig",
+      "live_stats_short": "https://www.olivetcomets.com/links/yvtjn5"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-wbb-b22h4evx0pgekvfo",
+     "exhibition": false,
+     "date": "2026-11-21T19:00:00Z",
+     "time_tbd": false,
+     "home": false,
+     "neutral": false,
+     "opponent": {
+      "name": "Benedictine (Ill.)",
+      "short": "Benedictine (Ill.)",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/9tolbgvmfjrjcnbe.png",
+      "slug": null
+     },
+     "conference": false,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://www.olivetcomets.com/links/8y3nxc",
+      "video": "https://www.olivetcomets.com/links/ujdz1x"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-wbb-i0g5uurhhjuxou9c",
+     "exhibition": false,
+     "date": "2026-11-28T23:00:00Z",
+     "time_tbd": false,
+     "home": false,
+     "neutral": false,
+     "opponent": {
+      "name": "Wis.-La Crosse",
+      "short": "Wis.-La Crosse",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/4m9kzqs0oe7b7kti.png",
+      "slug": null
+     },
+     "conference": false,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://www.olivetcomets.com/links/8jzwtj",
+      "video": "https://www.olivetcomets.com/links/xq44ax"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-wbb-dvfb1i2s6cjuec94",
+     "exhibition": false,
+     "date": "2026-11-29T19:00:00Z",
+     "time_tbd": false,
+     "home": true,
+     "neutral": true,
+     "opponent": {
+      "name": "Simpson (Iowa)",
+      "short": "Simpson (Iowa)",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/7wsnglndm9segpcr.png",
+      "slug": null
+     },
+     "conference": false,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "video": "https://www.olivetcomets.com/links/os8twj"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-wbb-xm2z1uuaa3dito6o",
+     "exhibition": false,
+     "date": "2026-12-03T00:30:00Z",
+     "time_tbd": false,
+     "home": false,
+     "neutral": false,
+     "opponent": {
+      "name": "Adrian",
+      "short": "Adrian",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/vbr1i45xi2t0u2h1.png",
+      "slug": "adrian"
+     },
+     "conference": true,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://www.olivetcomets.com/links/g73ko5",
+      "video": "https://www.olivetcomets.com/links/7aomsg"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-wbb-2abo7qzmutz7dk8r",
+     "exhibition": false,
+     "date": "2026-12-05T18:00:00Z",
+     "time_tbd": false,
+     "home": true,
+     "neutral": false,
+     "opponent": {
+      "name": "Albion",
+      "short": "Albion",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/sof75b5rgc54wy1y.png",
+      "slug": "albion"
+     },
+     "conference": true,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://prestolivestats.com/9qop6oeabjj3n7bn/2abo7qzmutz7dk8r",
+      "video": "https://www.olivetcomets.com/links/v1ickm",
+      "tickets": "https://www.olivetcomets.com/tickets"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-wbb-jwt5ryhsa2hgo9oo",
+     "exhibition": false,
+     "date": "2026-12-12T18:00:00Z",
+     "time_tbd": false,
+     "home": false,
+     "neutral": false,
+     "opponent": {
+      "name": "Trine (Ind.)",
+      "short": "Trine (Ind.)",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/onsov566moot77im.png",
+      "slug": "trine"
+     },
+     "conference": true,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://www.olivetcomets.com/links/j7zu6c",
+      "video": "https://www.olivetcomets.com/links/iamyk9"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-wbb-c044v882higey4fb",
+     "exhibition": false,
+     "date": "2026-12-16T20:00:00Z",
+     "time_tbd": false,
+     "home": true,
+     "neutral": false,
+     "opponent": {
+      "name": "Heidelberg (Ohio)",
+      "short": "Heidelberg (Ohio)",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/6a20jqtku5372ku1.png",
+      "slug": null
+     },
+     "conference": false,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://prestolivestats.com/9qop6oeabjj3n7bn/c044v882higey4fb",
+      "video": "https://www.olivetcomets.com/links/v1ickm",
+      "tickets": "https://www.olivetcomets.com/tickets"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-wbb-dc3pv8hpmdm4lelp",
+     "exhibition": false,
+     "date": "2026-12-29T20:00:00Z",
+     "time_tbd": false,
+     "home": false,
+     "neutral": false,
+     "opponent": {
+      "name": "McMurry (Texas)",
+      "short": "McMurry (Texas)",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/b6oyd470t8jbqci5.png",
+      "slug": null
+     },
+     "conference": false,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://www.olivetcomets.com/links/se58kv"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-wbb-tcw6bkq0gxc711h4",
+     "exhibition": false,
+     "date": "2026-12-30T20:00:00Z",
+     "time_tbd": false,
+     "home": false,
+     "neutral": false,
+     "opponent": {
+      "name": "Hardin-Simmons (Texas)",
+      "short": "Hardin-Simmons (Texas)",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/m3irz6s6b515l3ia.png",
+      "slug": null
+     },
+     "conference": false,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://www.olivetcomets.com/links/bbnmjy"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-wbb-v97m5oi7cx0zxbnv",
+     "exhibition": false,
+     "date": "2027-01-02T18:00:00Z",
+     "time_tbd": false,
+     "home": false,
+     "neutral": false,
+     "opponent": {
+      "name": "Alma",
+      "short": "Alma",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/zhveas2hh7olqhik.png",
+      "slug": "alma"
+     },
+     "conference": true,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {},
+     "live_feed": null
+    },
+    {
+     "id": "olivet-wbb-zpe27xexpewrim27",
+     "exhibition": false,
+     "date": "2027-01-07T00:00:00Z",
+     "time_tbd": false,
+     "home": true,
+     "neutral": false,
+     "opponent": {
+      "name": "Saint Mary's (Ind.)",
+      "short": "Saint Mary's (Ind.)",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/gnwujcshcb9i8it2.png",
+      "slug": "saintmarys"
+     },
+     "conference": true,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://prestolivestats.com/9qop6oeabjj3n7bn/zpe27xexpewrim27",
+      "video": "https://www.olivetcomets.com/links/v1ickm",
+      "tickets": "https://www.olivetcomets.com/tickets"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-wbb-eoz1lj6xzlw0f4mv",
+     "exhibition": false,
+     "date": "2027-01-09T18:00:00Z",
+     "time_tbd": false,
+     "home": true,
+     "neutral": false,
+     "opponent": {
+      "name": "Hope",
+      "short": "Hope",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/6ntsamcm2lfg386i.png",
+      "slug": "hope"
+     },
+     "conference": true,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://prestolivestats.com/9qop6oeabjj3n7bn/eoz1lj6xzlw0f4mv",
+      "video": "https://www.olivetcomets.com/links/v1ickm",
+      "tickets": "https://www.olivetcomets.com/tickets"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-wbb-d1anj7lquihf1pz8",
+     "exhibition": false,
+     "date": "2027-01-16T18:00:00Z",
+     "time_tbd": false,
+     "home": true,
+     "neutral": false,
+     "opponent": {
+      "name": "Kalamazoo",
+      "short": "Kalamazoo",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/iz15giklg3sw9p21.png",
+      "slug": "kalamazoo"
+     },
+     "conference": true,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://prestolivestats.com/9qop6oeabjj3n7bn/d1anj7lquihf1pz8",
+      "video": "https://www.olivetcomets.com/links/v1ickm",
+      "tickets": "https://www.olivetcomets.com/tickets"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-wbb-6skhfkmnczyd8w9y",
+     "exhibition": false,
+     "date": "2027-01-23T18:00:00Z",
+     "time_tbd": false,
+     "home": true,
+     "neutral": false,
+     "opponent": {
+      "name": "Trine (Ind.)",
+      "short": "Trine (Ind.)",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/onsov566moot77im.png",
+      "slug": "trine"
+     },
+     "conference": true,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://prestolivestats.com/9qop6oeabjj3n7bn/6skhfkmnczyd8w9y",
+      "video": "https://www.olivetcomets.com/links/v1ickm",
+      "tickets": "https://www.olivetcomets.com/tickets"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-wbb-kg2vme0y6nf0re20",
+     "exhibition": false,
+     "date": "2027-01-28T00:30:00Z",
+     "time_tbd": false,
+     "home": false,
+     "neutral": false,
+     "opponent": {
+      "name": "Calvin",
+      "short": "Calvin",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/ms4gl8xvwxfrpzr7.png",
+      "slug": "calvin"
+     },
+     "conference": true,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {},
+     "live_feed": null
+    },
+    {
+     "id": "olivet-wbb-fx47mljq19s6srms",
+     "exhibition": false,
+     "date": "2027-01-30T18:00:00Z",
+     "time_tbd": false,
+     "home": false,
+     "neutral": false,
+     "opponent": {
+      "name": "Kalamazoo",
+      "short": "Kalamazoo",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/iz15giklg3sw9p21.png",
+      "slug": "kalamazoo"
+     },
+     "conference": true,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://www.olivetcomets.com/links/m0wc3d",
+      "video": "https://www.olivetcomets.com/links/fpfcc6"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-wbb-lg2uca9mcj8jupht",
+     "exhibition": false,
+     "date": "2027-02-04T00:00:00Z",
+     "time_tbd": false,
+     "home": true,
+     "neutral": false,
+     "opponent": {
+      "name": "Alma",
+      "short": "Alma",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/zhveas2hh7olqhik.png",
+      "slug": "alma"
+     },
+     "conference": true,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://prestolivestats.com/9qop6oeabjj3n7bn/lg2uca9mcj8jupht",
+      "video": "https://www.olivetcomets.com/links/v1ickm"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-wbb-a129tevapj9h770s",
+     "exhibition": false,
+     "date": "2027-02-06T20:00:00Z",
+     "time_tbd": false,
+     "home": false,
+     "neutral": false,
+     "opponent": {
+      "name": "Albion",
+      "short": "Albion",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/sof75b5rgc54wy1y.png",
+      "slug": "albion"
+     },
+     "conference": true,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://www.olivetcomets.com/links/nx9mx5",
+      "video": "https://www.olivetcomets.com/links/6s0hgy"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-wbb-8e88q83sfwrd8nji",
+     "exhibition": false,
+     "date": "2027-02-11T00:00:00Z",
+     "time_tbd": false,
+     "home": true,
+     "neutral": false,
+     "opponent": {
+      "name": "Calvin",
+      "short": "Calvin",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/ms4gl8xvwxfrpzr7.png",
+      "slug": "calvin"
+     },
+     "conference": true,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://prestolivestats.com/9qop6oeabjj3n7bn/8e88q83sfwrd8nji",
+      "video": "https://www.olivetcomets.com/links/v1ickm",
+      "tickets": "https://www.olivetcomets.com/tickets"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-wbb-hun7c2ouw52a25xh",
+     "exhibition": false,
+     "date": "2027-02-13T20:00:00Z",
+     "time_tbd": false,
+     "home": false,
+     "neutral": false,
+     "opponent": {
+      "name": "Hope",
+      "short": "Hope",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/6ntsamcm2lfg386i.png",
+      "slug": "hope"
+     },
+     "conference": true,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://www.olivetcomets.com/links/8zy9vz",
+      "video": "https://www.olivetcomets.com/links/yk14gx"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-wbb-a3oq4vt7mfq6yeni",
+     "exhibition": false,
+     "date": "2027-02-18T00:30:00Z",
+     "time_tbd": false,
+     "home": true,
+     "neutral": false,
+     "opponent": {
+      "name": "Adrian",
+      "short": "Adrian",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/vbr1i45xi2t0u2h1.png",
+      "slug": "adrian"
+     },
+     "conference": true,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {
+      "live_stats": "https://prestolivestats.com/9qop6oeabjj3n7bn/a3oq4vt7mfq6yeni",
+      "video": "https://www.olivetcomets.com/links/v1ickm",
+      "tickets": "https://www.olivetcomets.com/tickets"
+     },
+     "live_feed": null
+    },
+    {
+     "id": "olivet-wbb-hzx9ylgp54okmzoc",
+     "exhibition": false,
+     "date": "2027-02-20T18:00:00Z",
+     "time_tbd": false,
+     "home": false,
+     "neutral": false,
+     "opponent": {
+      "name": "Saint Mary's (Ind.)",
+      "short": "Saint Mary's (Ind.)",
+      "logo": "https://cdn.prestosports.com/action/cdn/logos/id/gnwujcshcb9i8it2.png",
+      "slug": "saintmarys"
+     },
+     "conference": true,
+     "location": "",
+     "note": "",
+     "state": "pre",
+     "result": null,
+     "pf": null,
+     "pa": null,
+     "status": "",
+     "links": {},
+     "live_feed": null
+    }
+   ],
+   "roster": {
+    "url": "https://www.olivetcomets.com/sports/wbkb/2026-27/roster",
+    "season": "2026-27",
+    "players": 20,
+    "current": true
+   },
+   "leaders": [
+    "2026-27",
+    [
+     {
+      "label": "Points",
+      "name": "Madelyn Burdis",
+      "jersey": "11",
+      "gp": "1",
+      "total": "15",
+      "avg": "15.0",
+      "line": "15.0 per game, 15 total",
+      "position": "G",
+      "year": "Sophomore",
+      "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Madelyn_Burdis.jpg?max_height=576&max_width=576&crop=1"
+     },
+     {
+      "label": "Points",
+      "name": "Addilyn Moore",
+      "jersey": "15",
+      "gp": "1",
+      "total": "15",
+      "avg": "15.0",
+      "line": "15.0 per game, 15 total",
+      "position": "C/F",
+      "year": "First-year",
+      "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Addilyn_Moore.jpg?max_height=576&max_width=576&crop=1"
+     },
+     {
+      "label": "Rebounds",
+      "name": "Madelyn Burdis",
+      "jersey": "11",
+      "gp": "1",
+      "total": "5",
+      "avg": "5.0",
+      "line": "5.0 per game, 5 total",
+      "position": "G",
+      "year": "Sophomore",
+      "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Madelyn_Burdis.jpg?max_height=576&max_width=576&crop=1"
+     },
+     {
+      "label": "Assists",
+      "name": "Alexis Woodbeck",
+      "jersey": "22",
+      "gp": "1",
+      "total": "4",
+      "avg": "4.0",
+      "line": "4.0 per game, 4 total",
+      "position": "G",
+      "year": "Sophomore",
+      "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Alexis_Woodbeck.jpg?max_height=576&max_width=576&crop=1"
+     },
+     {
+      "label": "Steals",
+      "name": "Madelyn Burdis",
+      "jersey": "11",
+      "gp": "1",
+      "total": "2",
+      "avg": "2.0",
+      "line": "2.0 per game, 2 total",
+      "position": "G",
+      "year": "Sophomore",
+      "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Madelyn_Burdis.jpg?max_height=576&max_width=576&crop=1"
+     },
+     {
+      "label": "Blocks",
+      "name": "Hannah Hill",
+      "jersey": "10",
+      "gp": "1",
+      "total": "1",
+      "avg": "1.0",
+      "line": "1.0 per game, 1 total",
+      "position": "G",
+      "year": "First-year",
+      "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Hannah_Hill.jpg?max_height=576&max_width=576&crop=1"
+     }
+    ],
+    []
+   ]
+  }
+ }
+}

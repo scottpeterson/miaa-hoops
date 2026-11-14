@@ -17,6 +17,7 @@ import io
 import json
 import re
 import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -50,7 +51,16 @@ D3DATACAST = {
     "mbb": {"npi_gid": "1357390615", "eff_gid": "201951160", "npi_url": "https://d3datacast.com/npi/mbb/", "eff_url": "https://d3datacast.com/efficiency-ratings/"},
 }
 STATLAB = "https://thed3statlab.com"
-MEMBERS = {sport: {s["slug"] for s in SCHOOLS if sport in s["sports"]} for sport in SPORTS}
+# Presto's CloudFront answers 405 to every GitHub runner (Olivet's schedule, roster, and statistics pages,
+# 2026-11-13) and answers the Mac, so the Mac reads those pages before each run it starts (`fetch_data.py
+# --presto`, from tools/dispatch_update.sh) and pushes the parsed results here for the runner to use instead.
+PRESTO_CACHE = DATA / "presto_cache.json"
+PRESTO_CACHE_MAX_AGE = timedelta(hours=3)  # older than this, the Mac's copy counts as carried forward
+PRESTO_HOSTS = re.compile(r"olivetcomets\.com|prestosports\.com", re.I)
+PRESTO_PACE = 10  # seconds between Presto requests: about six a minute from one address trip the WAF challenge
+WAF_CHALLENGE = re.compile(r"awswaf|challenge\.js|gokuProps", re.I)
+_presto_last = 0.0
+MEMBERS ={sport: {s["slug"] for s in SCHOOLS if sport in s["sports"]} for sport in SPORTS}
 MEMBER_NAMES = {s["slug"]: {s["name"].lower(), s["full_name"].lower(), s["name"].lower().replace("saint", "st.")} for s in SCHOOLS}
 
 
@@ -58,12 +68,33 @@ def now():
     return datetime.now(CENTRAL)
 
 
+def pace(url):
+    """Hold a Presto request until PRESTO_PACE seconds have passed since the last one."""
+    global _presto_last
+    if PRESTO_HOSTS.search(url):
+        wait = _presto_last + PRESTO_PACE - time.monotonic()
+        if wait > 0:
+            time.sleep(wait)
+        _presto_last = time.monotonic()
+
+
+def waf_challenged(resp, body):
+    """True when AWS WAF answered with its JavaScript challenge instead of the page (Presto's CloudFront, after
+    about six requests a minute from one address): status 202, an x-amzn-waf-action header, or a short page that
+    loads the challenge script."""
+    return resp.status == 202 or bool(resp.headers.get("x-amzn-waf-action")) or (len(body) < 5000 and bool(WAF_CHALLENGE.search(body.decode("utf-8", "replace"))))
+
+
 def get(url, as_json=False, timeout=40):
+    """GET a URL with a browser-like user agent. Raises on HTTP and network errors, and on a WAF challenge page."""
     req = urllib.request.Request(url, headers=UA)
     for attempt in (1, 2):
         try:
+            pace(url)
             with urllib.request.urlopen(req, timeout=timeout) as resp:
                 body = resp.read()
+                if waf_challenged(resp, body):
+                    raise urllib.error.URLError(f"WAF challenge page from {urllib.parse.urlsplit(url).netloc}")
             break
         except (TimeoutError, urllib.error.URLError) as exc:
             if attempt == 2 or not isinstance(getattr(exc, "reason", exc), TimeoutError) and "timed out" not in str(exc):
@@ -88,7 +119,16 @@ def season_date(month, day, hour=12, minute=0, zone=EASTERN):
 MONTHS = {m: i for i, m in enumerate(["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"], 1)}
 
 
+RELATIVE_DAYS = {"today": 0, "tomorrow": 1, "yesterday": -1}
+
+
 def parse_month_day(label):
+    """'Nov 13', 'Saturday, November 14' -> (month, day). Presto labels the current day's game 'Today' and the
+    days beside it 'Tomorrow' and 'Yesterday' (Olivet at Wheaton (Ill.), 2026-11-13), read against the Eastern date."""
+    word = (label or "").strip().lower()
+    if word in RELATIVE_DAYS:
+        day = datetime.now(EASTERN).date() + timedelta(days=RELATIVE_DAYS[word])
+        return day.month, day.day
     m = re.search(r"([A-Za-z]{3})[a-z]*\.?\s+(\d{1,2})", label or "")
     if not m or m.group(1).lower() not in MONTHS:
         return None
@@ -293,6 +333,33 @@ def sidearm_schedule(school, sport, cfg):
 
 # ---------------------------------------------------------------- PrestoSports schedule (Olivet)
 
+SHORT_LINK = re.compile(r"^https?://[^/]+/links/[A-Za-z0-9]+/?$")
+SHORT_LINK_DAYS = 3
+_short_targets = {}  # short link -> where it redirected, so a link read once costs no second request
+
+
+class _NoRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        return None
+
+
+def short_target(url):
+    """Where a Presto short link (olivetcomets.com/links/yvtjn5) redirects: its Location header, made absolute.
+    None when the link answers a page itself or refuses the read. The target is often another school's Sidearm
+    live stats page, which live_feed() can turn into a feed (Olivet at Wheaton (Ill.), 2026-11-13)."""
+    opener = urllib.request.build_opener(_NoRedirect)
+    try:
+        pace(url)
+        with opener.open(urllib.request.Request(url, headers=UA), timeout=30):
+            return None
+    except urllib.error.HTTPError as exc:
+        if 300 <= exc.code < 400 and exc.headers.get("Location"):
+            return absolute(exc.headers["Location"], url)
+        return None
+    except (urllib.error.URLError, TimeoutError):
+        return None
+
+
 def presto_schedule(school, sport, cfg):
     page = get(cfg["schedule_url"])
     base = cfg["schedule_url"]
@@ -331,6 +398,16 @@ def presto_schedule(school, sport, cfg):
             games.append(g)
     if not games:
         raise ValueError("no games parsed")
+    # Each short link costs a paced Presto request, so only the next few days' games resolve theirs, and a
+    # target read before (cached under the short link) is reused.
+    soon = (datetime.now(timezone.utc) + timedelta(days=SHORT_LINK_DAYS)).isoformat()
+    for g in games:
+        live = g["links"].get("live_stats")
+        if live and SHORT_LINK.match(live) and g["state"] != "post" and g["date"] <= soon:
+            target = _short_targets.get(live) or short_target(live)
+            if target:
+                _short_targets[live] = target
+                g["links"]["live_stats"], g["links"]["live_stats_short"] = target, live
     return sorted(games, key=lambda g: g["date"])
 
 
@@ -869,6 +946,84 @@ def statlab_npi():
 
 # ---------------------------------------------------------------- main
 
+_presto_cache = None
+
+
+def presto_cache():
+    """The Mac's parsed copy of the Presto pages: {'fetched_at', 'teams': {'<slug>-<sport>': {'games', 'roster', 'leaders'}}}."""
+    global _presto_cache
+    if _presto_cache is None:
+        try:
+            _presto_cache = json.loads(PRESTO_CACHE.read_text())
+        except (OSError, ValueError):
+            _presto_cache = {}
+    return _presto_cache
+
+
+def presto_cached(slug, sport, part):
+    """One cached part for a team, with the time the Mac read it, or (None, None) when the cache lacks it."""
+    cache = presto_cache()
+    entry = cache.get("teams", {}).get(f"{slug}-{sport}", {})
+    return (entry[part], cache.get("fetched_at")) if part in entry else (None, None)
+
+
+def cache_old(read_at):
+    """True when the Mac's copy is older than PRESTO_CACHE_MAX_AGE, so the page should say the data is carried forward."""
+    try:
+        return now() - datetime.fromisoformat(read_at) > PRESTO_CACHE_MAX_AGE
+    except (TypeError, ValueError):
+        return True
+
+
+def presto_snapshot():
+    """The Mac's run: read every Presto school's schedule, roster, and statistics pages, parse them, and write
+    data/presto_cache.json for the next run on GitHub. The pages are large (0.5 MB each) and the parsed
+    results are small, so the cache holds the results."""
+    DATA.mkdir(exist_ok=True)
+    out = {"fetched_at": now().isoformat(timespec="seconds"), "teams": {}}
+    errors = []
+    for entry in presto_cache().get("teams", {}).values():
+        for g in entry.get("games", []):
+            if g["links"].get("live_stats_short"):
+                _short_targets.setdefault(g["links"]["live_stats_short"], g["links"]["live_stats"])
+    for sport in SPORTS:
+        for school in SCHOOLS:
+            cfg = school["sports"].get(sport)
+            if not cfg or school["vendor"] != "presto":
+                continue
+            # Presto's WAF challenges a reader now and then, and a challenge page parses as no games, no roster,
+            # and no leaders; the last good read of each part stands until a read succeeds.
+            key = f"{school['slug']}-{sport}"
+            entry = {}
+            try:
+                entry["games"] = presto_schedule(school, sport, cfg)
+            except (urllib.error.URLError, TimeoutError, ValueError, AttributeError) as exc:
+                errors.append(f"{school['name']} {sport} schedule: {exc}")
+                old, _ = presto_cached(school["slug"], sport, "games")
+                if old:
+                    entry["games"] = old
+            entry["roster"] = roster_info(school, cfg)
+            if not entry["roster"]["players"]:
+                old, _ = presto_cached(school["slug"], sport, "roster")
+                if old and old.get("players"):
+                    entry["roster"] = old
+            try:
+                entry["leaders"] = list(leaders(school, cfg, entry["roster"], sport))
+            except (urllib.error.URLError, TimeoutError, ValueError, IndexError) as exc:
+                errors.append(f"{school['name']} {sport} leaders: {exc}")
+            old, _ = presto_cached(school["slug"], sport, "leaders")
+            if old and old[1] and not (entry.get("leaders") or [None, []])[1]:
+                entry["leaders"] = old
+            out["teams"][key] = entry
+    PRESTO_CACHE.write_text(json.dumps(out, indent=1))
+    summary = ", ".join(f"{k} {len(v.get('games', []))}g ({len((v.get('leaders') or [None, []])[1])} leaders)" for k, v in out["teams"].items())
+    print(f"[{now():%Y-%m-%d %H:%M}] wrote {PRESTO_CACHE.name}: {summary}")
+    if errors:
+        print("errors:", *errors, sep="\n  ", file=sys.stderr)
+        return 1
+    return 0
+
+
 def main():
     DATA.mkdir(exist_ok=True)
     previous = {}
@@ -896,10 +1051,17 @@ def main():
                 if games and all(g["time_tbd"] for g in games):
                     out["errors"].append(f"{school['name']} {sport} schedule: every tipoff time parsed as TBA; check the page markup")
             except (urllib.error.URLError, TimeoutError, ValueError, AttributeError) as exc:
-                out["errors"].append(f"{school['name']} {sport} schedule: {exc}")
-                team["games"] = prev_team.get("games", [])
-                if team["games"]:
-                    out["stale"][f"{slug}-{sport}-schedule"] = prev_team.get("fetched") or previous.get("fetched_at")
+                cached, read_at = presto_cached(slug, sport, "games") if school["vendor"] == "presto" else (None, None)
+                if cached:
+                    attach_feeds(cached, prev_team.get("games"))
+                    team["games"] = cached
+                    if cache_old(read_at):
+                        out["stale"][f"{slug}-{sport}-schedule"] = read_at
+                else:
+                    out["errors"].append(f"{school['name']} {sport} schedule: {exc}")
+                    team["games"] = prev_team.get("games", [])
+                    if team["games"]:
+                        out["stale"][f"{slug}-{sport}-schedule"] = prev_team.get("fetched") or previous.get("fetched_at")
             played = [g for g in team["games"] if g["result"] and not g["exhibition"]]
             conf = [g for g in played if g["conference"]]
             team.update({
@@ -911,13 +1073,24 @@ def main():
             team["record"] = f'{team["wins"]}-{team["losses"]}'
             team["conf_record"] = f'{team["conf_wins"]}-{team["conf_losses"]}'
             team["roster"] = roster_info(school, cfg)
+            if school["vendor"] == "presto" and not team["roster"]["players"]:
+                # roster_info reads a refused page as an empty roster; the Mac's copy says what is posted.
+                cached, read_at = presto_cached(slug, sport, "roster")
+                if cached and cached.get("players"):
+                    team["roster"] = cached
             try:
                 team["stats_season"], team["players"], team["departed"] = leaders(school, cfg, team["roster"], sport)
             except (urllib.error.URLError, TimeoutError, ValueError, IndexError) as exc:
-                out["errors"].append(f"{school['name']} {sport} leaders: {exc}")
-                team["players"] = prev_team.get("players", [])
-                team["departed"] = prev_team.get("departed", [])
-                team["stats_season"] = prev_team.get("stats_season")
+                cached, read_at = presto_cached(slug, sport, "leaders") if school["vendor"] == "presto" else (None, None)
+                if cached and cached[1]:
+                    team["stats_season"], team["players"], team["departed"] = cached
+                    if cache_old(read_at):
+                        out["stale"][f"{slug}-{sport}-leaders"] = read_at
+                else:
+                    out["errors"].append(f"{school['name']} {sport} leaders: {exc}")
+                    team["players"] = prev_team.get("players", [])
+                    team["departed"] = prev_team.get("departed", [])
+                    team["stats_season"] = prev_team.get("stats_season")
             team["fetched"] = out["fetched_at"]
             block["teams"][slug] = team
         cross_fill(block["teams"], sport)
@@ -960,4 +1133,4 @@ def main():
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    sys.exit(presto_snapshot() if "--presto" in sys.argv[1:] else main())
