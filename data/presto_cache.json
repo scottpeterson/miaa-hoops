@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-13T20:35:19-06:00",
+ "fetched_at": "2026-11-13T21:07:15-06:00",
  "teams": {
   "olivet-mbb": {
    "games": [
@@ -822,8 +822,8 @@
     {
      "id": "olivet-wbb-jvbttpg4onabk52l",
      "exhibition": false,
-     "date": "2026-11-14T01:00:00Z",
-     "time_tbd": false,
+     "date": "2026-11-13T17:00:00Z",
+     "time_tbd": true,
      "home": false,
      "neutral": false,
      "opponent": {
@@ -835,15 +835,14 @@
      "conference": false,
      "location": "",
      "note": "",
-     "state": "pre",
-     "result": null,
-     "pf": null,
-     "pa": null,
+     "state": "post",
+     "result": "L",
+     "pf": 74,
+     "pa": 38,
      "status": "",
      "links": {
-      "live_stats": "https://athletics.wheaton.edu/sidearmstats/wbball/summary",
-      "video": "https://www.olivetcomets.com/links/ndh9ig",
-      "live_stats_short": "https://www.olivetcomets.com/links/yvtjn5"
+      "boxscore": "https://www.olivetcomets.com/sports/wbkb/2026-27/boxscores/20261113_jvbt.xml",
+      "recap": "https://www.olivetcomets.com/sports/wbkb/2026-27/releases/20261113wwq3bg"
      },
      "live_feed": null
     },
@@ -1491,10 +1490,10 @@
       "label": "Points",
       "name": "Addilyn Moore",
       "jersey": "15",
-      "gp": "1",
-      "total": "15",
-      "avg": "15.0",
-      "line": "15.0 per game, 15 total",
+      "gp": "2",
+      "total": "18",
+      "avg": "9.0",
+      "line": "9.0 per game, 18 total",
       "position": "C/F",
       "year": "First-year",
       "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Addilyn_Moore.jpg?max_height=576&max_width=576&crop=1"
@@ -1513,15 +1512,15 @@
      },
      {
       "label": "Assists",
-      "name": "Alexis Woodbeck",
-      "jersey": "22",
+      "name": "Hannah Ralko",
+      "jersey": "3",
       "gp": "1",
       "total": "4",
       "avg": "4.0",
       "line": "4.0 per game, 4 total",
       "position": "G",
-      "year": "Sophomore",
-      "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Alexis_Woodbeck.jpg?max_height=576&max_width=576&crop=1"
+      "year": "First-year",
+      "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Hannah_Ralko.jpg?max_height=576&max_width=576&crop=1"
      },
      {
       "label": "Steals",
@@ -1537,15 +1536,15 @@
      },
      {
       "label": "Blocks",
-      "name": "Hannah Hill",
-      "jersey": "10",
-      "gp": "1",
-      "total": "1",
+      "name": "Alex Mitchell",
+      "jersey": "34",
+      "gp": "2",
+      "total": "2",
       "avg": "1.0",
-      "line": "1.0 per game, 1 total",
-      "position": "G",
-      "year": "First-year",
-      "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Hannah_Hill.jpg?max_height=576&max_width=576&crop=1"
+      "line": "1.0 per game, 2 total",
+      "position": "C",
+      "year": "Sophomore",
+      "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Alex_Mitchell.jpg?max_height=576&max_width=576&crop=1"
      }
     ],
     []
