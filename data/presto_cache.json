@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-13T22:10:59-06:00",
+ "fetched_at": "2026-11-13T22:42:40-06:00",
  "teams": {
   "olivet-mbb": {
    "games": [
@@ -1481,7 +1481,10 @@
       "gp": "1",
       "total": "15",
       "avg": "15.0",
-      "line": "15.0 per game, 15 total"
+      "line": "15.0 per game, 15 total",
+      "position": "G",
+      "year": "Sophomore",
+      "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Madelyn_Burdis.jpg?max_height=576&max_width=576&crop=1"
      },
      {
       "label": "Points",
@@ -1490,7 +1493,10 @@
       "gp": "2",
       "total": "18",
       "avg": "9.0",
-      "line": "9.0 per game, 18 total"
+      "line": "9.0 per game, 18 total",
+      "position": "C/F",
+      "year": "First-year",
+      "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Addilyn_Moore.jpg?max_height=576&max_width=576&crop=1"
      },
      {
       "label": "Rebounds",
@@ -1499,7 +1505,10 @@
       "gp": "1",
       "total": "5",
       "avg": "5.0",
-      "line": "5.0 per game, 5 total"
+      "line": "5.0 per game, 5 total",
+      "position": "G",
+      "year": "Sophomore",
+      "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Madelyn_Burdis.jpg?max_height=576&max_width=576&crop=1"
      },
      {
       "label": "Assists",
@@ -1508,7 +1517,10 @@
       "gp": "1",
       "total": "4",
       "avg": "4.0",
-      "line": "4.0 per game, 4 total"
+      "line": "4.0 per game, 4 total",
+      "position": "G",
+      "year": "First-year",
+      "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Hannah_Ralko.jpg?max_height=576&max_width=576&crop=1"
      },
      {
       "label": "Steals",
@@ -1517,7 +1529,10 @@
       "gp": "1",
       "total": "2",
       "avg": "2.0",
-      "line": "2.0 per game, 2 total"
+      "line": "2.0 per game, 2 total",
+      "position": "G",
+      "year": "Sophomore",
+      "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Madelyn_Burdis.jpg?max_height=576&max_width=576&crop=1"
      },
      {
       "label": "Blocks",
@@ -1526,7 +1541,10 @@
       "gp": "2",
       "total": "2",
       "avg": "1.0",
-      "line": "1.0 per game, 2 total"
+      "line": "1.0 per game, 2 total",
+      "position": "C",
+      "year": "Sophomore",
+      "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Alex_Mitchell.jpg?max_height=576&max_width=576&crop=1"
      }
     ],
     []
