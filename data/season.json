@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-14T17:17:37-06:00",
+ "fetched_at": "2026-11-14T17:49:33-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -887,7 +887,7 @@
      "pa": 264,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T17:17:37-06:00"
+     "fetched": "2026-11-14T17:49:33-06:00"
     },
     "albion": {
      "games": [
@@ -1677,7 +1677,7 @@
      "pa": 260,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T17:17:37-06:00"
+     "fetched": "2026-11-14T17:49:33-06:00"
     },
     "alma": {
      "games": [
@@ -2549,7 +2549,7 @@
      "pa": 130,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T17:17:37-06:00"
+     "fetched": "2026-11-14T17:49:33-06:00"
     },
     "calvin": {
      "games": [
@@ -3347,7 +3347,7 @@
      "pa": 230,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T17:17:37-06:00"
+     "fetched": "2026-11-14T17:49:33-06:00"
     },
     "hope": {
      "games": [
@@ -4190,7 +4190,7 @@
      "pa": 122,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T17:17:37-06:00"
+     "fetched": "2026-11-14T17:49:33-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5021,7 +5021,7 @@
      "pa": 149,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T17:17:37-06:00"
+     "fetched": "2026-11-14T17:49:33-06:00"
     },
     "olivet": {
      "games": [
@@ -5877,7 +5877,7 @@
      "pa": 145,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T17:17:37-06:00"
+     "fetched": "2026-11-14T17:49:33-06:00"
     },
     "trine": {
      "games": [
@@ -5978,19 +5978,15 @@
        "conference": false,
        "location": "Angola, IN",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "L",
+       "pf": 80,
+       "pa": 88,
        "status": "",
        "links": {
-        "video": "https://www.miaasportsnetwork.com/tuthunder/",
-        "live_stats": "https://trinethunder.com/sidearmstats/mbball/"
+        "boxscore": "https://trinethunder.com/sports/mens-basketball/stats/2026-27/wisconsin-oshkosh/boxscore/8531"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/trine/mbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "trine-mbb-8532",
@@ -6583,34 +6579,34 @@
        "label": "Points",
        "name": "Cade Brenner",
        "jersey": "3",
-       "gp": "3",
-       "total": "50",
-       "avg": "16.7",
-       "line": "16.7 per game, 50 total",
+       "gp": "4",
+       "total": "62",
+       "avg": "15.5",
+       "line": "15.5 per game, 62 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://trinethunder.com/images/2026/11/12/Brenner__Cade.jpg?width=200&quality=90"
       },
       {
        "label": "Points",
-       "name": "Elisha Jones",
-       "jersey": "2",
-       "gp": "3",
-       "total": "39",
-       "avg": "13.0",
-       "line": "13.0 per game, 39 total",
-       "position": "PG",
-       "year": "Junior",
-       "headshot": "https://trinethunder.com/images/2026/11/12/Jones__Elisha.jpg?width=200&quality=90"
+       "name": "Elias Lewis",
+       "jersey": "4",
+       "gp": "4",
+       "total": "47",
+       "avg": "11.8",
+       "line": "11.8 per game, 47 total",
+       "position": "F",
+       "year": "Sophomore",
+       "headshot": "https://trinethunder.com/images/2026/11/12/Lewis__Elias.jpg?width=200&quality=90"
       },
       {
        "label": "Rebounds",
        "name": "Cade Brenner",
        "jersey": "3",
-       "gp": "3",
-       "total": "14",
-       "avg": "4.7",
-       "line": "4.7 per game, 14 total",
+       "gp": "4",
+       "total": "17",
+       "avg": "4.3",
+       "line": "4.3 per game, 17 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://trinethunder.com/images/2026/11/12/Brenner__Cade.jpg?width=200&quality=90"
@@ -6619,10 +6615,10 @@
        "label": "Assists",
        "name": "Drake Ahrens",
        "jersey": "14",
-       "gp": "3",
+       "gp": "4",
        "total": "7",
-       "avg": "2.3",
-       "line": "2.3 per game, 7 total",
+       "avg": "1.8",
+       "line": "1.8 per game, 7 total",
        "position": "G",
        "year": "First-year",
        "headshot": "https://trinethunder.com/images/2026/11/12/Ahrens__Drake.jpg?width=200&quality=90"
@@ -6631,10 +6627,10 @@
        "label": "Steals",
        "name": "Drake Ahrens",
        "jersey": "14",
-       "gp": "3",
-       "total": "5",
-       "avg": "1.7",
-       "line": "1.7 per game, 5 total",
+       "gp": "4",
+       "total": "6",
+       "avg": "1.5",
+       "line": "1.5 per game, 6 total",
        "position": "G",
        "year": "First-year",
        "headshot": "https://trinethunder.com/images/2026/11/12/Ahrens__Drake.jpg?width=200&quality=90"
@@ -6643,10 +6639,10 @@
        "label": "Blocks",
        "name": "Elisha Jones",
        "jersey": "2",
-       "gp": "3",
+       "gp": "4",
        "total": "3",
-       "avg": "1.0",
-       "line": "1.0 per game, 3 total",
+       "avg": "0.8",
+       "line": "0.8 per game, 3 total",
        "position": "PG",
        "year": "Junior",
        "headshot": "https://trinethunder.com/images/2026/11/12/Jones__Elisha.jpg?width=200&quality=90"
@@ -6654,16 +6650,16 @@
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 3,
+     "played": 4,
      "wins": 2,
-     "losses": 1,
+     "losses": 2,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 241,
-     "pa": 197,
-     "record": "2-1",
+     "pf": 321,
+     "pa": 285,
+     "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T17:17:37-06:00"
+     "fetched": "2026-11-14T17:49:33-06:00"
     }
    },
    "poll": {
@@ -8285,7 +8281,7 @@
      "pa": 152,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T17:17:37-06:00"
+     "fetched": "2026-11-14T17:49:33-06:00"
     },
     "albion": {
      "games": [
@@ -9062,7 +9058,7 @@
      "pa": 96,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T17:17:37-06:00"
+     "fetched": "2026-11-14T17:49:33-06:00"
     },
     "alma": {
      "games": [
@@ -9893,7 +9889,7 @@
      "pa": 265,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T17:17:37-06:00"
+     "fetched": "2026-11-14T17:49:33-06:00"
     },
     "calvin": {
      "games": [
@@ -10678,7 +10674,7 @@
      "pa": 210,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T17:17:37-06:00"
+     "fetched": "2026-11-14T17:49:33-06:00"
     },
     "hope": {
      "games": [
@@ -11502,7 +11498,7 @@
      "pa": 249,
      "record": "4-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T17:17:37-06:00"
+     "fetched": "2026-11-14T17:49:33-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12309,7 +12305,7 @@
      "pa": 52,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T17:17:37-06:00"
+     "fetched": "2026-11-14T17:49:33-06:00"
     },
     "olivet": {
      "games": [
@@ -13128,7 +13124,7 @@
      "pa": 135,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T17:17:37-06:00"
+     "fetched": "2026-11-14T17:49:33-06:00"
     },
     "saintmarys": {
      "games": [
@@ -13968,7 +13964,7 @@
      "pa": 127,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T17:17:37-06:00"
+     "fetched": "2026-11-14T17:49:33-06:00"
     },
     "trine": {
      "games": [
@@ -14015,18 +14011,15 @@
        "conference": false,
        "location": "Ada, OH",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "W",
+       "pf": 60,
+       "pa": 48,
        "status": "",
        "links": {
-        "live_stats": "https://onusports.com/sports/wbkb/2026-27/boxscores/20261114_mr90.xml"
+        "boxscore": "https://trinethunder.com/sports/womens-basketball/stats/2026-27/ohio-northern/boxscore/8671"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/trine/wbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "trine-wbb-8672",
@@ -14682,61 +14675,61 @@
        "label": "Points",
        "name": "Annika Southworth",
        "jersey": "2",
-       "gp": "1",
-       "total": "12",
-       "avg": "12.0",
-       "line": "12.0 per game, 12 total",
+       "gp": "2",
+       "total": "33",
+       "avg": "16.5",
+       "line": "16.5 per game, 33 total",
        "position": "G",
        "year": "Sophomore",
        "headshot": "https://trinethunder.com/images/2026/11/12/Southworth__Annika.jpg?width=200&quality=90"
       },
       {
        "label": "Points",
-       "name": "Callie Nichols",
-       "jersey": "3",
-       "gp": "1",
-       "total": "8",
-       "avg": "8.0",
-       "line": "8.0 per game, 8 total",
+       "name": "Aubri Korfhagen",
+       "jersey": "20",
+       "gp": "2",
+       "total": "21",
+       "avg": "10.5",
+       "line": "10.5 per game, 21 total",
        "position": "G",
-       "year": "Sophomore",
-       "headshot": "https://trinethunder.com/images/2026/11/12/Nichols__Callie.jpg?width=200&quality=90"
+       "year": "First-year",
+       "headshot": "https://trinethunder.com/images/2026/11/12/Korfhagen__Aubri.jpg?width=200&quality=90"
       },
       {
        "label": "Rebounds",
-       "name": "Callie Nichols",
-       "jersey": "3",
-       "gp": "1",
-       "total": "6",
-       "avg": "6.0",
-       "line": "6.0 per game, 6 total",
-       "position": "G",
-       "year": "Sophomore",
-       "headshot": "https://trinethunder.com/images/2026/11/12/Nichols__Callie.jpg?width=200&quality=90"
+       "name": "Alivia Farnham",
+       "jersey": "11",
+       "gp": "2",
+       "total": "8",
+       "avg": "4.0",
+       "line": "4.0 per game, 8 total",
+       "position": "G/F",
+       "year": "First-year",
+       "headshot": "https://trinethunder.com/images/2026/11/12/Farnham__Alivia.jpg?width=200&quality=90"
       },
       {
        "label": "Assists",
        "name": "Sophie Gesell",
        "jersey": "4",
-       "gp": "1",
-       "total": "1",
-       "avg": "1.0",
-       "line": "1.0 per game, 1 total",
+       "gp": "2",
+       "total": "4",
+       "avg": "2.0",
+       "line": "2.0 per game, 4 total",
        "position": "G",
        "year": "Sophomore",
        "headshot": "https://trinethunder.com/images/2026/11/12/Gesell__Sophie.jpg?width=200&quality=90"
       },
       {
        "label": "Steals",
-       "name": "Madison Wagner",
-       "jersey": "5",
-       "gp": "1",
+       "name": "Alivia Farnham",
+       "jersey": "11",
+       "gp": "2",
        "total": "2",
-       "avg": "2.0",
-       "line": "2.0 per game, 2 total",
-       "position": "G",
-       "year": "Junior",
-       "headshot": "https://trinethunder.com/images/2026/11/12/Wagner__Madison.jpg?width=200&quality=90"
+       "avg": "1.0",
+       "line": "1.0 per game, 2 total",
+       "position": "G/F",
+       "year": "First-year",
+       "headshot": "https://trinethunder.com/images/2026/11/12/Farnham__Alivia.jpg?width=200&quality=90"
       },
       {
        "label": "Blocks",
@@ -14753,16 +14746,16 @@
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 1,
-     "wins": 1,
+     "played": 2,
+     "wins": 2,
      "losses": 0,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 58,
-     "pa": 48,
-     "record": "1-0",
+     "pf": 118,
+     "pa": 96,
+     "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T17:17:37-06:00"
+     "fetched": "2026-11-14T17:49:33-06:00"
     }
    },
    "poll": {
