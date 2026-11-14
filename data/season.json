@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-13T21:09:16-06:00",
+ "fetched_at": "2026-11-13T21:41:10-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -887,7 +887,7 @@
      "pa": 264,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T21:09:16-06:00"
+     "fetched": "2026-11-13T21:41:10-06:00"
     },
     "albion": {
      "games": [
@@ -1675,7 +1675,7 @@
      "pa": 260,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T21:09:16-06:00"
+     "fetched": "2026-11-13T21:41:10-06:00"
     },
     "alma": {
      "games": [
@@ -2547,7 +2547,7 @@
      "pa": 130,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T21:09:16-06:00"
+     "fetched": "2026-11-13T21:41:10-06:00"
     },
     "calvin": {
      "games": [
@@ -3348,7 +3348,7 @@
      "pa": 150,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T21:09:16-06:00"
+     "fetched": "2026-11-13T21:41:10-06:00"
     },
     "hope": {
      "games": [
@@ -4191,7 +4191,7 @@
      "pa": 122,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T21:09:16-06:00"
+     "fetched": "2026-11-13T21:41:10-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5026,7 +5026,7 @@
      "pa": 78,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T21:09:16-06:00"
+     "fetched": "2026-11-13T21:41:10-06:00"
     },
     "olivet": {
      "games": [
@@ -5882,7 +5882,7 @@
      "pa": 145,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T21:09:16-06:00"
+     "fetched": "2026-11-13T21:41:10-06:00"
     },
     "trine": {
      "games": [
@@ -5962,7 +5962,8 @@
        "pa": 65,
        "status": "",
        "links": {
-        "boxscore": "https://trinethunder.com/sports/mens-basketball/stats/2026-27/wisconsin-eau-claire/boxscore/8530"
+        "boxscore": "https://trinethunder.com/sports/mens-basketball/stats/2026-27/wisconsin-eau-claire/boxscore/8530",
+        "recap": "https://trinethunder.com/news/2026/11/13/mens-basketball-jones-career-high-propels-trine-to-86-65-win-over-uw-eau-claire.aspx"
        },
        "live_feed": null
       },
@@ -6667,7 +6668,7 @@
      "pa": 197,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T21:09:16-06:00"
+     "fetched": "2026-11-13T21:41:10-06:00"
     }
    },
    "poll": {
@@ -8289,7 +8290,7 @@
      "pa": 152,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T21:09:16-06:00"
+     "fetched": "2026-11-13T21:41:10-06:00"
     },
     "albion": {
      "games": [
@@ -9066,7 +9067,7 @@
      "pa": 96,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T21:09:16-06:00"
+     "fetched": "2026-11-13T21:41:10-06:00"
     },
     "alma": {
      "games": [
@@ -9900,7 +9901,7 @@
      "pa": 214,
      "record": "1-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T21:09:16-06:00"
+     "fetched": "2026-11-13T21:41:10-06:00"
     },
     "calvin": {
      "games": [
@@ -10689,7 +10690,7 @@
      "pa": 168,
      "record": "1-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T21:09:16-06:00"
+     "fetched": "2026-11-13T21:41:10-06:00"
     },
     "hope": {
      "games": [
@@ -11517,7 +11518,7 @@
      "pa": 194,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T21:09:16-06:00"
+     "fetched": "2026-11-13T21:41:10-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12352,7 +12353,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T21:09:16-06:00"
+     "fetched": "2026-11-13T21:41:10-06:00"
     },
     "olivet": {
      "games": [
@@ -13175,7 +13176,7 @@
      "pa": 89,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T21:09:16-06:00"
+     "fetched": "2026-11-13T21:41:10-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14015,7 +14016,7 @@
      "pa": 127,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T21:09:16-06:00"
+     "fetched": "2026-11-13T21:41:10-06:00"
     },
     "trine": {
      "games": [
@@ -14809,7 +14810,7 @@
      "pa": 48,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T21:09:16-06:00"
+     "fetched": "2026-11-13T21:41:10-06:00"
     }
    },
    "poll": {
@@ -15072,10 +15073,10 @@
     "count": 411,
     "teams": {
      "adrian": {
-      "rank": 147,
-      "npi": 50,
+      "rank": 150,
+      "npi": 50.297,
       "rank_change": null,
-      "bid": "AL-140",
+      "bid": "AL-133",
       "record": "1-1 qualifying",
       "preseason_rank": 237,
       "returning": "41.33%",
@@ -15084,11 +15085,11 @@
       "median_record": "6-19"
      },
      "albion": {
-      "rank": 56,
-      "npi": 55.556,
-      "rank_change": 1,
-      "bid": "AL-119",
-      "record": "1-0 qualifying",
+      "rank": 42,
+      "npi": 58.201,
+      "rank_change": 14,
+      "bid": "AL-117",
+      "record": "2-0 qualifying",
       "preseason_rank": 155,
       "returning": "63.30%",
       "tourney_pct": "0.4%",
@@ -15096,11 +15097,11 @@
       "median_record": "14-11"
      },
      "alma": {
-      "rank": 223,
-      "npi": 44.444,
-      "rank_change": null,
-      "bid": "AL-140",
-      "record": "0-2 qualifying",
+      "rank": 151,
+      "npi": 50.156,
+      "rank_change": 72,
+      "bid": "AL-133",
+      "record": "1-2 qualifying",
       "preseason_rank": 139,
       "returning": "78.38%",
       "tourney_pct": "0.1%",
@@ -15108,11 +15109,11 @@
       "median_record": "10-15"
      },
      "calvin": {
-      "rank": 262,
-      "npi": 44.437,
-      "rank_change": 1,
-      "bid": "AL-81",
-      "record": "1-1 qualifying",
+      "rank": 195,
+      "npi": 47.897,
+      "rank_change": 67,
+      "bid": "AL-71",
+      "record": "1-2 qualifying",
       "preseason_rank": 37,
       "returning": "67.56%",
       "tourney_pct": "4.8%",
@@ -15120,11 +15121,11 @@
       "median_record": "15-10"
      },
      "hope": {
-      "rank": 111,
-      "npi": 53.333,
-      "rank_change": 1,
-      "bid": "AL-03",
-      "record": "2-0 qualifying",
+      "rank": 95,
+      "npi": 54.305,
+      "rank_change": 16,
+      "bid": "AL-04",
+      "record": "3-0 qualifying",
       "preseason_rank": 5,
       "returning": "79.93%",
       "tourney_pct": "90.6%",
@@ -15135,7 +15136,7 @@
       "rank": null,
       "npi": "",
       "rank_change": null,
-      "bid": "AL-140",
+      "bid": "AL-133",
       "record": "0-0 qualifying",
       "preseason_rank": 257,
       "returning": "68.11%",
@@ -15144,10 +15145,10 @@
       "median_record": "9-16"
      },
      "olivet": {
-      "rank": 223,
-      "npi": 44.444,
+      "rank": 277,
+      "npi": 43.034,
       "rank_change": null,
-      "bid": "AL-140",
+      "bid": "AL-133",
       "record": "0-1 qualifying",
       "preseason_rank": 333,
       "returning": "48.20%",
@@ -15156,10 +15157,10 @@
       "median_record": "2-23"
      },
      "saintmarys": {
-      "rank": 33,
-      "npi": 58.813,
-      "rank_change": 24,
-      "bid": "AL-140",
+      "rank": 35,
+      "npi": 58.815,
+      "rank_change": null,
+      "bid": "AL-133",
       "record": "2-0 qualifying",
       "preseason_rank": 274,
       "returning": "78.08%",
@@ -15168,7 +15169,7 @@
       "median_record": "12-13"
      },
      "trine": {
-      "rank": 18,
+      "rank": 22,
       "npi": 60,
       "rank_change": null,
       "bid": "AQ",
