@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-14T06:00:13-06:00",
+ "fetched_at": "2026-11-14T07:24:47-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -887,7 +887,7 @@
      "pa": 264,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T06:00:13-06:00"
+     "fetched": "2026-11-14T07:24:47-06:00"
     },
     "albion": {
      "games": [
@@ -1675,7 +1675,7 @@
      "pa": 260,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T06:00:13-06:00"
+     "fetched": "2026-11-14T07:24:47-06:00"
     },
     "alma": {
      "games": [
@@ -2547,7 +2547,7 @@
      "pa": 130,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T06:00:13-06:00"
+     "fetched": "2026-11-14T07:24:47-06:00"
     },
     "calvin": {
      "games": [
@@ -3348,7 +3348,7 @@
      "pa": 150,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T06:00:13-06:00"
+     "fetched": "2026-11-14T07:24:47-06:00"
     },
     "hope": {
      "games": [
@@ -4191,7 +4191,7 @@
      "pa": 122,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T06:00:13-06:00"
+     "fetched": "2026-11-14T07:24:47-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5026,7 +5026,7 @@
      "pa": 78,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T06:00:13-06:00"
+     "fetched": "2026-11-14T07:24:47-06:00"
     },
     "olivet": {
      "games": [
@@ -5882,7 +5882,7 @@
      "pa": 145,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T06:00:13-06:00"
+     "fetched": "2026-11-14T07:24:47-06:00"
     },
     "trine": {
      "games": [
@@ -6668,7 +6668,7 @@
      "pa": 197,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T06:00:13-06:00"
+     "fetched": "2026-11-14T07:24:47-06:00"
     }
    },
    "poll": {
@@ -6918,97 +6918,97 @@
     "source": "D3 Datacast",
     "url": "https://d3datacast.com/npi/mbb/",
     "eff_url": "https://d3datacast.com/efficiency-ratings/",
-    "updated": "11/13/26 7:08 AM",
-    "eff_updated": "11/13/2026 7:08 AM",
-    "count": 362,
+    "updated": "11/14/26 7:44 AM",
+    "eff_updated": "11/14/2026 7:45 AM",
+    "count": 377,
     "teams": {
      "adrian": {
-      "rank": 302,
+      "rank": 334,
       "record": "0-2",
-      "npi": "38.432",
+      "npi": "36.554",
       "bid": "At-Lg",
-      "at_large_rank": "302",
+      "at_large_rank": "334",
       "seed": "-",
-      "eff_rank": 342,
-      "adj_em": "-10.7",
-      "eff_updated": "11/13/2026 7:08 AM"
+      "eff_rank": 343,
+      "adj_em": "-10.6",
+      "eff_updated": "11/14/2026 7:45 AM"
      },
      "albion": {
-      "rank": 90,
+      "rank": 74,
       "record": "1-0",
       "npi": "57.143",
       "bid": "At-Lg",
-      "at_large_rank": "90",
+      "at_large_rank": "74",
       "seed": "-",
-      "eff_rank": 210,
-      "adj_em": "-0.1",
-      "eff_updated": "11/13/2026 7:08 AM"
+      "eff_rank": 189,
+      "adj_em": "+1.0",
+      "eff_updated": "11/14/2026 7:45 AM"
      },
      "alma": {
-      "rank": 255,
-      "record": "0-1",
-      "npi": "42.857",
+      "rank": 87,
+      "record": "1-1",
+      "npi": "56.546",
       "bid": "At-Lg",
-      "at_large_rank": "255",
+      "at_large_rank": "87",
       "seed": "-",
-      "eff_rank": 353,
-      "adj_em": "-11.6",
-      "eff_updated": "11/13/2026 7:08 AM"
+      "eff_rank": 296,
+      "adj_em": "-6.7",
+      "eff_updated": "11/14/2026 7:45 AM"
      },
      "calvin": {
-      "rank": 151,
+      "rank": 180,
       "record": "1-1",
-      "npi": "50.773",
+      "npi": "48.865",
       "bid": "At-Lg",
-      "at_large_rank": "151",
+      "at_large_rank": "180",
       "seed": "-",
-      "eff_rank": 78,
-      "adj_em": "+8.8",
-      "eff_updated": "11/13/2026 7:08 AM"
+      "eff_rank": 86,
+      "adj_em": "+8.4",
+      "eff_updated": "11/14/2026 7:45 AM"
      },
      "hope": {
-      "rank": 114,
+      "rank": 113,
       "record": "2-0",
-      "npi": "54.348",
+      "npi": "54.135",
       "bid": "At-Lg",
-      "at_large_rank": "114",
+      "at_large_rank": "113",
       "seed": "-",
-      "eff_rank": 38,
+      "eff_rank": 39,
       "adj_em": "+13.3",
-      "eff_updated": "11/13/2026 7:08 AM"
+      "eff_updated": "11/14/2026 7:45 AM"
      },
      "kalamazoo": {
-      "rank": 290,
+      "rank": 286,
       "record": "0-1",
-      "npi": "40.354",
+      "npi": "40.935",
       "bid": "At-Lg",
-      "at_large_rank": "290",
+      "at_large_rank": "286",
       "seed": "-",
       "eff_rank": 365,
-      "adj_em": "-12.6",
-      "eff_updated": "11/13/2026 7:08 AM"
+      "adj_em": "-12.5",
+      "eff_updated": "11/14/2026 7:45 AM"
      },
      "olivet": {
-      "rank": 115,
+      "rank": 112,
       "record": "2-0",
-      "npi": "54.348",
+      "npi": "54.135",
       "bid": "At-Lg",
-      "at_large_rank": "115",
+      "at_large_rank": "112",
       "seed": "-",
-      "eff_rank": 102,
+      "eff_rank": 103,
       "adj_em": "+6.7",
-      "eff_updated": "11/13/2026 7:08 AM"
+      "eff_updated": "11/14/2026 7:45 AM"
      },
      "trine": {
-      "rank": 175,
-      "record": "1-1",
-      "npi": "49.480",
+      "rank": 132,
+      "record": "2-1",
+      "npi": "52.677",
       "bid": "At-Lg",
-      "at_large_rank": "175",
+      "at_large_rank": "132",
       "seed": "-",
-      "eff_rank": 45,
-      "adj_em": "+12.4",
-      "eff_updated": "11/13/2026 7:08 AM"
+      "eff_rank": 30,
+      "adj_em": "+15.1",
+      "eff_updated": "11/14/2026 7:45 AM"
      }
     },
     "d3_teams": [
@@ -8290,7 +8290,7 @@
      "pa": 152,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T06:00:13-06:00"
+     "fetched": "2026-11-14T07:24:47-06:00"
     },
     "albion": {
      "games": [
@@ -9067,7 +9067,7 @@
      "pa": 96,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T06:00:13-06:00"
+     "fetched": "2026-11-14T07:24:47-06:00"
     },
     "alma": {
      "games": [
@@ -9902,7 +9902,7 @@
      "pa": 214,
      "record": "1-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T06:00:13-06:00"
+     "fetched": "2026-11-14T07:24:47-06:00"
     },
     "calvin": {
      "games": [
@@ -10691,7 +10691,7 @@
      "pa": 168,
      "record": "1-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T06:00:13-06:00"
+     "fetched": "2026-11-14T07:24:47-06:00"
     },
     "hope": {
      "games": [
@@ -11520,7 +11520,7 @@
      "pa": 194,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T06:00:13-06:00"
+     "fetched": "2026-11-14T07:24:47-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12355,7 +12355,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T06:00:13-06:00"
+     "fetched": "2026-11-14T07:24:47-06:00"
     },
     "olivet": {
      "games": [
@@ -13178,7 +13178,7 @@
      "pa": 89,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T06:00:13-06:00"
+     "fetched": "2026-11-14T07:24:47-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14018,7 +14018,7 @@
      "pa": 127,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T06:00:13-06:00"
+     "fetched": "2026-11-14T07:24:47-06:00"
     },
     "trine": {
      "games": [
@@ -14812,7 +14812,7 @@
      "pa": 48,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T06:00:13-06:00"
+     "fetched": "2026-11-14T07:24:47-06:00"
     }
    },
    "poll": {
