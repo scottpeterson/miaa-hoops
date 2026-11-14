@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-13T20:09:06-06:00",
+ "fetched_at": "2026-11-13T20:37:12-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -887,7 +887,7 @@
      "pa": 264,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T20:09:06-06:00"
+     "fetched": "2026-11-13T20:37:12-06:00"
     },
     "albion": {
      "games": [
@@ -960,16 +960,15 @@
        "conference": false,
        "location": "Tiffin, OH, Seiberling Gymnasium",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "W",
+       "pf": 89,
+       "pa": 82,
        "status": "",
-       "links": {},
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/heidelbergu/mbball/game.json"
-       }
+       "links": {
+        "boxscore": "https://gobrits.com/sports/mens-basketball/stats/2026-27/st-francis-pa-/boxscore/7886"
+       },
+       "live_feed": null
       },
       {
        "id": "albion-mbb-7887",
@@ -1596,46 +1595,46 @@
        "label": "Points",
        "name": "Mason Brodi",
        "jersey": "0",
-       "gp": "2",
-       "total": "44",
-       "avg": "22.0",
-       "line": "22.0 per game, 44 total",
+       "gp": "3",
+       "total": "58",
+       "avg": "19.3",
+       "line": "19.3 per game, 58 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://gobrits.com/images/2026/9/15/Brodi_Mason.jpg?width=200&quality=90"
       },
       {
        "label": "Points",
-       "name": "Miles Pritchett",
-       "jersey": "32",
-       "gp": "2",
-       "total": "14",
-       "avg": "7.0",
-       "line": "7.0 per game, 14 total",
-       "position": "C",
-       "year": "Junior",
-       "headshot": "https://gobrits.com/images/2026/9/15/Pritchett_Miles.jpg?width=200&quality=90"
-      },
-      {
-       "label": "Rebounds",
        "name": "Bowen Moore",
        "jersey": "12",
-       "gp": "2",
-       "total": "15",
-       "avg": "7.5",
-       "line": "7.5 per game, 15 total",
+       "gp": "3",
+       "total": "22",
+       "avg": "7.3",
+       "line": "7.3 per game, 22 total",
        "position": "F",
        "year": "Sophomore",
        "headshot": "https://gobrits.com/images/2026/9/15/Moore_Bowen.jpg?width=200&quality=90"
       },
       {
+       "label": "Rebounds",
+       "name": "Brady Slone",
+       "jersey": "14",
+       "gp": "3",
+       "total": "20",
+       "avg": "6.7",
+       "line": "6.7 per game, 20 total",
+       "position": "F",
+       "year": "First-year",
+       "headshot": "https://gobrits.com/images/2026/9/29/MBB_Slone_Brady.jpeg?width=200&quality=90"
+      },
+      {
        "label": "Assists",
        "name": "Mason Brodi",
        "jersey": "0",
-       "gp": "2",
-       "total": "4",
-       "avg": "2.0",
-       "line": "2.0 per game, 4 total",
+       "gp": "3",
+       "total": "9",
+       "avg": "3.0",
+       "line": "3.0 per game, 9 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://gobrits.com/images/2026/9/15/Brodi_Mason.jpg?width=200&quality=90"
@@ -1644,10 +1643,10 @@
        "label": "Steals",
        "name": "Mason Brodi",
        "jersey": "0",
-       "gp": "2",
-       "total": "4",
-       "avg": "2.0",
-       "line": "2.0 per game, 4 total",
+       "gp": "3",
+       "total": "7",
+       "avg": "2.3",
+       "line": "2.3 per game, 7 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://gobrits.com/images/2026/9/15/Brodi_Mason.jpg?width=200&quality=90"
@@ -1656,10 +1655,10 @@
        "label": "Blocks",
        "name": "Bowen Moore",
        "jersey": "12",
-       "gp": "2",
+       "gp": "3",
        "total": "4",
-       "avg": "2.0",
-       "line": "2.0 per game, 4 total",
+       "avg": "1.3",
+       "line": "1.3 per game, 4 total",
        "position": "F",
        "year": "Sophomore",
        "headshot": "https://gobrits.com/images/2026/9/15/Moore_Bowen.jpg?width=200&quality=90"
@@ -1667,16 +1666,16 @@
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 2,
-     "wins": 1,
+     "played": 3,
+     "wins": 2,
      "losses": 1,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 150,
-     "pa": 178,
-     "record": "1-1",
+     "pf": 239,
+     "pa": 260,
+     "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T20:09:06-06:00"
+     "fetched": "2026-11-13T20:37:12-06:00"
     },
     "alma": {
      "games": [
@@ -1756,7 +1755,8 @@
        "pa": 58,
        "status": "",
        "links": {
-        "boxscore": "https://almascots.com/sports/mens-basketball/stats/2026-27/dominican-illinois-/boxscore/14636"
+        "boxscore": "https://almascots.com/sports/mens-basketball/stats/2026-27/dominican-illinois-/boxscore/14636",
+        "recap": "https://almascots.com/news/2026/11/13/mens-basketball-hot-start-guerrazzis-double-double-propels-mens-basketball-to-first-win.aspx"
        },
        "live_feed": null
       },
@@ -2547,7 +2547,7 @@
      "pa": 130,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T20:09:06-06:00"
+     "fetched": "2026-11-13T20:37:12-06:00"
     },
     "calvin": {
      "games": [
@@ -3348,7 +3348,7 @@
      "pa": 150,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T20:09:06-06:00"
+     "fetched": "2026-11-13T20:37:12-06:00"
     },
     "hope": {
      "games": [
@@ -4191,7 +4191,7 @@
      "pa": 122,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T20:09:06-06:00"
+     "fetched": "2026-11-13T20:37:12-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5026,7 +5026,7 @@
      "pa": 78,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T20:09:06-06:00"
+     "fetched": "2026-11-13T20:37:12-06:00"
     },
     "olivet": {
      "games": [
@@ -5882,7 +5882,7 @@
      "pa": 145,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T20:09:06-06:00"
+     "fetched": "2026-11-13T20:37:12-06:00"
     },
     "trine": {
      "games": [
@@ -6671,7 +6671,7 @@
      "pa": 132,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T20:09:06-06:00"
+     "fetched": "2026-11-13T20:37:12-06:00"
     }
    },
    "poll": {
@@ -8293,7 +8293,7 @@
      "pa": 152,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T20:09:06-06:00"
+     "fetched": "2026-11-13T20:37:12-06:00"
     },
     "albion": {
      "games": [
@@ -8340,19 +8340,15 @@
        "conference": false,
        "location": "Albion, MI, Kresge Gymnasium",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "W",
+       "pf": 59,
+       "pa": 48,
        "status": "",
        "links": {
-        "video": "https://www.miaasportsnetwork.com/acbrits/",
-        "live_stats": "https://gobrits.com/sidearmstats/wbball/summary"
+        "boxscore": "https://gobrits.com/sports/womens-basketball/stats/2026-27/hiram/boxscore/7944"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/albion/wbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "albion-wbb-7945",
@@ -8362,9 +8358,9 @@
        "home": true,
        "neutral": false,
        "opponent": {
-        "name": "vs John Carroll or Franklin",
-        "short": "vs John Carroll or Franklin",
-        "logo": "https://gobrits.com/images/logos/Albion_Britons.png?width=80&height=80&mode=max",
+        "name": "John Carroll University",
+        "short": "John Carroll",
+        "logo": "https://gobrits.com/images/logos/John-Carroll.png?width=80&height=80&mode=max",
         "slug": null
        },
        "conference": false,
@@ -8992,36 +8988,36 @@
      "players": [
       {
        "label": "Points",
-       "name": "Ameera Jenkins",
-       "jersey": "4",
-       "gp": "1",
-       "total": "10",
-       "avg": "10.0",
-       "line": "10.0 per game, 10 total",
-       "position": "G",
-       "year": "First-year",
-       "headshot": "https://gobrits.com/images/2026/9/15/Jenkins_Ameera.jpg?width=200&quality=90"
-      },
-      {
-       "label": "Points",
        "name": "DJ Pannell",
        "jersey": "23",
-       "gp": "1",
-       "total": "6",
-       "avg": "6.0",
-       "line": "6.0 per game, 6 total",
+       "gp": "2",
+       "total": "14",
+       "avg": "7.0",
+       "line": "7.0 per game, 14 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://gobrits.com/images/2026/9/15/Pannell_DJ.jpg?width=200&quality=90"
       },
       {
+       "label": "Points",
+       "name": "Ameera Jenkins",
+       "jersey": "4",
+       "gp": "2",
+       "total": "10",
+       "avg": "5.0",
+       "line": "5.0 per game, 10 total",
+       "position": "G",
+       "year": "First-year",
+       "headshot": "https://gobrits.com/images/2026/9/15/Jenkins_Ameera.jpg?width=200&quality=90"
+      },
+      {
        "label": "Rebounds",
        "name": "Khaleeya Cook",
        "jersey": "3",
-       "gp": "1",
-       "total": "10",
-       "avg": "10.0",
-       "line": "10.0 per game, 10 total",
+       "gp": "2",
+       "total": "13",
+       "avg": "6.5",
+       "line": "6.5 per game, 13 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://gobrits.com/images/2026/9/15/Cook_Khaleeya.jpg?width=200&quality=90"
@@ -9030,39 +9026,51 @@
        "label": "Assists",
        "name": "Khaleeya Cook",
        "jersey": "3",
-       "gp": "1",
-       "total": "5",
-       "avg": "5.0",
-       "line": "5.0 per game, 5 total",
+       "gp": "2",
+       "total": "9",
+       "avg": "4.5",
+       "line": "4.5 per game, 9 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://gobrits.com/images/2026/9/15/Cook_Khaleeya.jpg?width=200&quality=90"
       },
       {
        "label": "Steals",
-       "name": "Khaleeya Cook",
-       "jersey": "3",
+       "name": "Alex Botbyl",
+       "jersey": "34",
+       "gp": "2",
+       "total": "5",
+       "avg": "2.5",
+       "line": "2.5 per game, 5 total",
+       "position": "C",
+       "year": "First-year",
+       "headshot": "https://gobrits.com/images/2026/9/15/Botbyl_Alex.jpg?width=200&quality=90"
+      },
+      {
+       "label": "Blocks",
+       "name": "Jordyn St. John",
+       "jersey": "22",
        "gp": "1",
-       "total": "2",
-       "avg": "2.0",
-       "line": "2.0 per game, 2 total",
+       "total": "1",
+       "avg": "1.0",
+       "line": "1.0 per game, 1 total",
        "position": "G",
-       "year": "Junior",
-       "headshot": "https://gobrits.com/images/2026/9/15/Cook_Khaleeya.jpg?width=200&quality=90"
+       "year": "First-year",
+       "headshot": "https://gobrits.com/images/2026/9/15/John_Jordyn_St.jpg?width=200&quality=90"
       }
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 1,
-     "wins": 1,
+     "played": 2,
+     "wins": 2,
      "losses": 0,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 54,
-     "pa": 48,
-     "record": "1-0",
+     "pf": 113,
+     "pa": 96,
+     "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T20:09:06-06:00"
+     "fetched": "2026-11-13T20:37:12-06:00"
     },
     "alma": {
      "games": [
@@ -9136,19 +9144,15 @@
        "conference": false,
        "location": "Wooster, Ohio, Timken Gymnasium",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "W",
+       "pf": 78,
+       "pa": 61,
        "status": "",
        "links": {
-        "video": "https://northcoastnetwork.com/wooster/",
-        "live_stats": "https://woosterathletics.com/sidearmstats/wbball/"
+        "boxscore": "https://almascots.com/sports/womens-basketball/stats/2026-27/westminster-pennsylvania-/boxscore/14509"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/wooster/wbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "alma-wbb-14510",
@@ -9820,10 +9824,10 @@
        "label": "Points",
        "name": "Kate Starkey",
        "jersey": "0",
-       "gp": "2",
-       "total": "28",
-       "avg": "14.0",
-       "line": "14.0 per game, 28 total",
+       "gp": "3",
+       "total": "35",
+       "avg": "11.7",
+       "line": "11.7 per game, 35 total",
        "position": "Guard",
        "year": "Sophomore",
        "headshot": "https://almascots.com/images/2026/10/30/Starkey_Kate2026.jpg?width=200&quality=90"
@@ -9832,34 +9836,34 @@
        "label": "Points",
        "name": "Delaney Seaman",
        "jersey": "20",
-       "gp": "2",
-       "total": "16",
-       "avg": "8.0",
-       "line": "8.0 per game, 16 total",
+       "gp": "3",
+       "total": "23",
+       "avg": "7.7",
+       "line": "7.7 per game, 23 total",
        "position": "Guard",
        "year": "Junior",
        "headshot": "https://almascots.com/images/2026/10/30/Seaman_Delaney2026.jpg?width=200&quality=90"
       },
       {
        "label": "Rebounds",
-       "name": "Kendra Cooley",
-       "jersey": "15",
-       "gp": "2",
-       "total": "6",
-       "avg": "3.0",
-       "line": "3.0 per game, 6 total",
-       "position": "Guard",
-       "year": "Sophomore",
-       "headshot": "https://almascots.com/images/2026/10/30/Cooley_Kendra2026.jpg?width=200&quality=90"
+       "name": "Makayla Porter",
+       "jersey": "21",
+       "gp": "3",
+       "total": "15",
+       "avg": "5.0",
+       "line": "5.0 per game, 15 total",
+       "position": "Forward",
+       "year": "Redshirt Sophomore",
+       "headshot": "https://almascots.com/images/2026/10/30/Porter_Makayla2026.jpg?width=200&quality=90"
       },
       {
        "label": "Assists",
        "name": "Kate Starkey",
        "jersey": "0",
-       "gp": "2",
-       "total": "5",
-       "avg": "2.5",
-       "line": "2.5 per game, 5 total",
+       "gp": "3",
+       "total": "8",
+       "avg": "2.7",
+       "line": "2.7 per game, 8 total",
        "position": "Guard",
        "year": "Sophomore",
        "headshot": "https://almascots.com/images/2026/10/30/Starkey_Kate2026.jpg?width=200&quality=90"
@@ -9868,10 +9872,10 @@
        "label": "Steals",
        "name": "Makayla Porter",
        "jersey": "21",
-       "gp": "2",
-       "total": "2",
+       "gp": "3",
+       "total": "3",
        "avg": "1.0",
-       "line": "1.0 per game, 2 total",
+       "line": "1.0 per game, 3 total",
        "position": "Forward",
        "year": "Redshirt Sophomore",
        "headshot": "https://almascots.com/images/2026/10/30/Porter_Makayla2026.jpg?width=200&quality=90"
@@ -9880,10 +9884,10 @@
        "label": "Blocks",
        "name": "Reese Wisniewski",
        "jersey": "2",
-       "gp": "2",
+       "gp": "3",
        "total": "1",
-       "avg": "0.5",
-       "line": "0.5 per game, 1 total",
+       "avg": "0.3",
+       "line": "0.3 per game, 1 total",
        "position": "Guard",
        "year": "Junior",
        "headshot": "https://almascots.com/images/2026/10/30/Wisniewski_Reese2026.jpg?width=200&quality=90"
@@ -9891,16 +9895,16 @@
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 2,
-     "wins": 0,
+     "played": 3,
+     "wins": 1,
      "losses": 2,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 106,
-     "pa": 153,
-     "record": "0-2",
+     "pf": 184,
+     "pa": 214,
+     "record": "1-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T20:09:06-06:00"
+     "fetched": "2026-11-13T20:37:12-06:00"
     },
     "calvin": {
      "games": [
@@ -10689,7 +10693,7 @@
      "pa": 168,
      "record": "1-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T20:09:06-06:00"
+     "fetched": "2026-11-13T20:37:12-06:00"
     },
     "hope": {
      "games": [
@@ -11517,7 +11521,7 @@
      "pa": 194,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T20:09:06-06:00"
+     "fetched": "2026-11-13T20:37:12-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12352,7 +12356,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T20:09:06-06:00"
+     "fetched": "2026-11-13T20:37:12-06:00"
     },
     "olivet": {
      "games": [
@@ -13179,7 +13183,7 @@
      "pa": 51,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T20:09:06-06:00"
+     "fetched": "2026-11-13T20:37:12-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14019,7 +14023,7 @@
      "pa": 127,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T20:09:06-06:00"
+     "fetched": "2026-11-13T20:37:12-06:00"
     },
     "trine": {
      "games": [
@@ -14813,7 +14817,7 @@
      "pa": 48,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T20:09:06-06:00"
+     "fetched": "2026-11-13T20:37:12-06:00"
     }
    },
    "poll": {
