@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-13T17:33:51-06:00",
+ "fetched_at": "2026-11-13T19:53:58-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -887,7 +887,7 @@
      "pa": 264,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T17:33:51-06:00"
+     "fetched": "2026-11-13T19:53:58-06:00"
     },
     "albion": {
      "games": [
@@ -965,9 +965,7 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {
-        "live_stats": "https://www.bergathletics.com/sidearmstats/mbball/summary"
-       },
+       "links": {},
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/heidelbergu/mbball/game.json"
@@ -994,9 +992,7 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {
-        "live_stats": "https://www.bergathletics.com/sidearmstats/mbball/summary"
-       },
+       "links": {},
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/heidelbergu/mbball/game.json"
@@ -1680,7 +1676,7 @@
      "pa": 178,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T17:33:51-06:00"
+     "fetched": "2026-11-13T19:53:58-06:00"
     },
     "alma": {
      "games": [
@@ -1754,19 +1750,15 @@
        "conference": false,
        "location": "River Forest, Illinois, Igini Sports Forum",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "W",
+       "pf": 87,
+       "pa": 58,
        "status": "",
        "links": {
-        "video": "https://dustars.com/showcase?Live=729",
-        "live_stats": "https://dustars.com/sidearmstats/mbball/summary"
+        "boxscore": "https://almascots.com/sports/mens-basketball/stats/2026-27/dominican-illinois-/boxscore/14636"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/dom/mbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "alma-mbb-14637",
@@ -2475,10 +2467,10 @@
        "label": "Points",
        "name": "Adam Dugener",
        "jersey": "0",
-       "gp": "1",
-       "total": "41",
-       "avg": "41.0",
-       "line": "41.0 per game, 41 total",
+       "gp": "2",
+       "total": "51",
+       "avg": "25.5",
+       "line": "25.5 per game, 51 total",
        "position": "Guard",
        "year": "First-year",
        "headshot": "https://almascots.com/images/2026/10/27/Dugenar_Adam.jpg?width=200&quality=90"
@@ -2487,34 +2479,34 @@
        "label": "Points",
        "name": "Elijah Sykes",
        "jersey": "1",
-       "gp": "1",
-       "total": "9",
-       "avg": "9.0",
-       "line": "9.0 per game, 9 total",
+       "gp": "2",
+       "total": "21",
+       "avg": "10.5",
+       "line": "10.5 per game, 21 total",
        "position": "Guard",
        "year": "Sophomore",
        "headshot": "https://almascots.com/images/2026/10/27/Skyes_Elijah.jpg?width=200&quality=90"
       },
       {
        "label": "Rebounds",
-       "name": "Adam Dugener",
-       "jersey": "0",
-       "gp": "1",
-       "total": "5",
-       "avg": "5.0",
-       "line": "5.0 per game, 5 total",
+       "name": "Joss Bradley",
+       "jersey": "10",
+       "gp": "2",
+       "total": "8",
+       "avg": "4.0",
+       "line": "4.0 per game, 8 total",
        "position": "Guard",
-       "year": "First-year",
-       "headshot": "https://almascots.com/images/2026/10/27/Dugenar_Adam.jpg?width=200&quality=90"
+       "year": "Junior",
+       "headshot": "https://almascots.com/images/2026/10/27/Bradley_Joss.jpg?width=200&quality=90"
       },
       {
        "label": "Assists",
        "name": "Joss Bradley",
        "jersey": "10",
-       "gp": "1",
-       "total": "3",
-       "avg": "3.0",
-       "line": "3.0 per game, 3 total",
+       "gp": "2",
+       "total": "9",
+       "avg": "4.5",
+       "line": "4.5 per game, 9 total",
        "position": "Guard",
        "year": "Junior",
        "headshot": "https://almascots.com/images/2026/10/27/Bradley_Joss.jpg?width=200&quality=90"
@@ -2523,10 +2515,10 @@
        "label": "Steals",
        "name": "Joss Bradley",
        "jersey": "10",
-       "gp": "1",
-       "total": "1",
-       "avg": "1.0",
-       "line": "1.0 per game, 1 total",
+       "gp": "2",
+       "total": "5",
+       "avg": "2.5",
+       "line": "2.5 per game, 5 total",
        "position": "Guard",
        "year": "Junior",
        "headshot": "https://almascots.com/images/2026/10/27/Bradley_Joss.jpg?width=200&quality=90"
@@ -2535,10 +2527,10 @@
        "label": "Blocks",
        "name": "Preston Malpass",
        "jersey": "15",
-       "gp": "1",
+       "gp": "2",
        "total": "3",
-       "avg": "3.0",
-       "line": "3.0 per game, 3 total",
+       "avg": "1.5",
+       "line": "1.5 per game, 3 total",
        "position": "Forward",
        "year": "Junior",
        "headshot": "https://almascots.com/images/2026/10/27/Malpass_Preston.jpg?width=200&quality=90"
@@ -2546,16 +2538,16 @@
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 1,
-     "wins": 0,
+     "played": 2,
+     "wins": 1,
      "losses": 1,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 71,
-     "pa": 72,
-     "record": "0-1",
+     "pf": 158,
+     "pa": 130,
+     "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T17:33:51-06:00"
+     "fetched": "2026-11-13T19:53:58-06:00"
     },
     "calvin": {
      "games": [
@@ -3356,7 +3348,7 @@
      "pa": 150,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T17:33:51-06:00"
+     "fetched": "2026-11-13T19:53:58-06:00"
     },
     "hope": {
      "games": [
@@ -4199,7 +4191,7 @@
      "pa": 122,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T17:33:51-06:00"
+     "fetched": "2026-11-13T19:53:58-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5034,7 +5026,7 @@
      "pa": 78,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T17:33:51-06:00"
+     "fetched": "2026-11-13T19:53:58-06:00"
     },
     "olivet": {
      "games": [
@@ -5119,7 +5111,10 @@
         "live_stats": "https://www.olivetcomets.com/links/vrkw5b",
         "video": "https://www.olivetcomets.com/links/08g70a"
        },
-       "live_feed": null
+       "live_feed": {
+        "type": "sidearm",
+        "url": "https://sidearmstats.com/transy/mbball/game.json"
+       }
       },
       {
        "id": "olivet-mbb-c8gqb58admsuhjc0",
@@ -5797,9 +5792,9 @@
      ],
      "roster": {
       "url": "https://www.olivetcomets.com/sports/mbkb/2026-27/roster",
-      "season": "2026-27",
-      "players": 17,
-      "current": true
+      "season": null,
+      "players": 0,
+      "current": false
      },
      "players": [
       {
@@ -5886,7 +5881,7 @@
      "pa": 145,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T17:33:51-06:00"
+     "fetched": "2026-11-13T19:53:58-06:00"
     },
     "trine": {
      "games": [
@@ -6675,7 +6670,7 @@
      "pa": 132,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T17:33:51-06:00"
+     "fetched": "2026-11-13T19:53:58-06:00"
     }
    },
    "poll": {
@@ -8297,7 +8292,7 @@
      "pa": 152,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T17:33:51-06:00"
+     "fetched": "2026-11-13T19:53:58-06:00"
     },
     "albion": {
      "games": [
@@ -9066,7 +9061,7 @@
      "pa": 48,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T17:33:51-06:00"
+     "fetched": "2026-11-13T19:53:58-06:00"
     },
     "alma": {
      "games": [
@@ -9904,7 +9899,7 @@
      "pa": 153,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T17:33:51-06:00"
+     "fetched": "2026-11-13T19:53:58-06:00"
     },
     "calvin": {
      "games": [
@@ -9984,7 +9979,8 @@
        "pa": 55,
        "status": "",
        "links": {
-        "boxscore": "https://calvinknights.com/sports/womens-basketball/stats/2026-27/depauw-university/boxscore/9236"
+        "boxscore": "https://calvinknights.com/sports/womens-basketball/stats/2026-27/depauw-university/boxscore/9236",
+        "recap": "https://calvinknights.com/news/2026/11/13/calvin-womens-basketball-falls-to-depauw-in-calvin-hope-classic.aspx"
        },
        "live_feed": null
       },
@@ -10692,7 +10688,7 @@
      "pa": 168,
      "record": "1-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T17:33:51-06:00"
+     "fetched": "2026-11-13T19:53:58-06:00"
     },
     "hope": {
      "games": [
@@ -11525,7 +11521,7 @@
      "pa": 130,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T17:33:51-06:00"
+     "fetched": "2026-11-13T19:53:58-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12360,7 +12356,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T17:33:51-06:00"
+     "fetched": "2026-11-13T19:53:58-06:00"
     },
     "olivet": {
      "games": [
@@ -13063,9 +13059,9 @@
      ],
      "roster": {
       "url": "https://www.olivetcomets.com/sports/wbkb/2026-27/roster",
-      "season": "2026-27",
-      "players": 20,
-      "current": true
+      "season": null,
+      "players": 0,
+      "current": false
      },
      "players": [
       {
@@ -13152,7 +13148,7 @@
      "pa": 51,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T17:33:51-06:00"
+     "fetched": "2026-11-13T19:53:58-06:00"
     },
     "saintmarys": {
      "games": [
@@ -13992,7 +13988,7 @@
      "pa": 127,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T17:33:51-06:00"
+     "fetched": "2026-11-13T19:53:58-06:00"
     },
     "trine": {
      "games": [
@@ -14786,7 +14782,7 @@
      "pa": 48,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T17:33:51-06:00"
+     "fetched": "2026-11-13T19:53:58-06:00"
     }
    },
    "poll": {
@@ -15574,8 +15570,15 @@
   }
  },
  "errors": [
+  "Olivet mbb schedule: HTTP Error 405: Not Allowed",
+  "Olivet mbb leaders: HTTP Error 405: Not Allowed",
   "d3hoops mbb: poll table not found",
+  "Olivet wbb schedule: HTTP Error 405: Not Allowed",
+  "Olivet wbb leaders: HTTP Error 405: Not Allowed",
   "d3hoops wbb: poll table not found"
  ],
- "stale": {}
+ "stale": {
+  "olivet-mbb-schedule": "2026-11-13T17:33:51-06:00",
+  "olivet-wbb-schedule": "2026-11-13T17:33:51-06:00"
+ }
 }
