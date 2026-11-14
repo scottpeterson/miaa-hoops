@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-14T16:46:03-06:00",
+ "fetched_at": "2026-11-14T17:17:37-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -887,7 +887,7 @@
      "pa": 264,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T16:46:03-06:00"
+     "fetched": "2026-11-14T17:17:37-06:00"
     },
     "albion": {
      "games": [
@@ -1677,7 +1677,7 @@
      "pa": 260,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T16:46:03-06:00"
+     "fetched": "2026-11-14T17:17:37-06:00"
     },
     "alma": {
      "games": [
@@ -2549,7 +2549,7 @@
      "pa": 130,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T16:46:03-06:00"
+     "fetched": "2026-11-14T17:17:37-06:00"
     },
     "calvin": {
      "games": [
@@ -3347,7 +3347,7 @@
      "pa": 230,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T16:46:03-06:00"
+     "fetched": "2026-11-14T17:17:37-06:00"
     },
     "hope": {
      "games": [
@@ -4190,7 +4190,7 @@
      "pa": 122,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T16:46:03-06:00"
+     "fetched": "2026-11-14T17:17:37-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5021,7 +5021,7 @@
      "pa": 149,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T16:46:03-06:00"
+     "fetched": "2026-11-14T17:17:37-06:00"
     },
     "olivet": {
      "games": [
@@ -5877,7 +5877,7 @@
      "pa": 145,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T16:46:03-06:00"
+     "fetched": "2026-11-14T17:17:37-06:00"
     },
     "trine": {
      "games": [
@@ -6663,7 +6663,7 @@
      "pa": 197,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T16:46:03-06:00"
+     "fetched": "2026-11-14T17:17:37-06:00"
     }
    },
    "poll": {
@@ -8285,7 +8285,7 @@
      "pa": 152,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T16:46:03-06:00"
+     "fetched": "2026-11-14T17:17:37-06:00"
     },
     "albion": {
      "games": [
@@ -9062,7 +9062,7 @@
      "pa": 96,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T16:46:03-06:00"
+     "fetched": "2026-11-14T17:17:37-06:00"
     },
     "alma": {
      "games": [
@@ -9163,19 +9163,15 @@
        "conference": false,
        "location": "Wooster, Ohio, Timken Gymnasium",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "W",
+       "pf": 77,
+       "pa": 51,
        "status": "",
        "links": {
-        "video": "https://northcoastnetwork.com/wooster/",
-        "live_stats": "https://woosterathletics.com/sidearmstats/wbball/"
+        "boxscore": "https://almascots.com/sports/womens-basketball/stats/2026-27/wooster/boxscore/14510"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/wooster/wbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "alma-wbb-14512",
@@ -9817,34 +9813,34 @@
        "label": "Points",
        "name": "Kate Starkey",
        "jersey": "0",
-       "gp": "3",
-       "total": "35",
-       "avg": "11.7",
-       "line": "11.7 per game, 35 total",
+       "gp": "4",
+       "total": "54",
+       "avg": "13.5",
+       "line": "13.5 per game, 54 total",
        "position": "Guard",
        "year": "Sophomore",
        "headshot": "https://almascots.com/images/2026/10/30/Starkey_Kate2026.jpg?width=200&quality=90"
       },
       {
        "label": "Points",
-       "name": "Delaney Seaman",
-       "jersey": "20",
-       "gp": "3",
-       "total": "23",
-       "avg": "7.7",
-       "line": "7.7 per game, 23 total",
-       "position": "Guard",
-       "year": "Junior",
-       "headshot": "https://almascots.com/images/2026/10/30/Seaman_Delaney2026.jpg?width=200&quality=90"
+       "name": "Makayla Porter",
+       "jersey": "21",
+       "gp": "4",
+       "total": "27",
+       "avg": "6.8",
+       "line": "6.8 per game, 27 total",
+       "position": "Forward",
+       "year": "Redshirt Sophomore",
+       "headshot": "https://almascots.com/images/2026/10/30/Porter_Makayla2026.jpg?width=200&quality=90"
       },
       {
        "label": "Rebounds",
        "name": "Makayla Porter",
        "jersey": "21",
-       "gp": "3",
-       "total": "15",
-       "avg": "5.0",
-       "line": "5.0 per game, 15 total",
+       "gp": "4",
+       "total": "18",
+       "avg": "4.5",
+       "line": "4.5 per game, 18 total",
        "position": "Forward",
        "year": "Redshirt Sophomore",
        "headshot": "https://almascots.com/images/2026/10/30/Porter_Makayla2026.jpg?width=200&quality=90"
@@ -9853,10 +9849,10 @@
        "label": "Assists",
        "name": "Kate Starkey",
        "jersey": "0",
-       "gp": "3",
-       "total": "8",
-       "avg": "2.7",
-       "line": "2.7 per game, 8 total",
+       "gp": "4",
+       "total": "9",
+       "avg": "2.3",
+       "line": "2.3 per game, 9 total",
        "position": "Guard",
        "year": "Sophomore",
        "headshot": "https://almascots.com/images/2026/10/30/Starkey_Kate2026.jpg?width=200&quality=90"
@@ -9865,39 +9861,39 @@
        "label": "Steals",
        "name": "Makayla Porter",
        "jersey": "21",
-       "gp": "3",
-       "total": "3",
-       "avg": "1.0",
-       "line": "1.0 per game, 3 total",
+       "gp": "4",
+       "total": "5",
+       "avg": "1.3",
+       "line": "1.3 per game, 5 total",
        "position": "Forward",
        "year": "Redshirt Sophomore",
        "headshot": "https://almascots.com/images/2026/10/30/Porter_Makayla2026.jpg?width=200&quality=90"
       },
       {
        "label": "Blocks",
-       "name": "Reese Wisniewski",
-       "jersey": "2",
-       "gp": "3",
+       "name": "Delaney Seaman",
+       "jersey": "20",
+       "gp": "4",
        "total": "1",
        "avg": "0.3",
        "line": "0.3 per game, 1 total",
        "position": "Guard",
        "year": "Junior",
-       "headshot": "https://almascots.com/images/2026/10/30/Wisniewski_Reese2026.jpg?width=200&quality=90"
+       "headshot": "https://almascots.com/images/2026/10/30/Seaman_Delaney2026.jpg?width=200&quality=90"
       }
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 3,
-     "wins": 1,
+     "played": 4,
+     "wins": 2,
      "losses": 2,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 184,
-     "pa": 214,
-     "record": "1-2",
+     "pf": 261,
+     "pa": 265,
+     "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T16:46:03-06:00"
+     "fetched": "2026-11-14T17:17:37-06:00"
     },
     "calvin": {
      "games": [
@@ -10682,7 +10678,7 @@
      "pa": 210,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T16:46:03-06:00"
+     "fetched": "2026-11-14T17:17:37-06:00"
     },
     "hope": {
      "games": [
@@ -11506,7 +11502,7 @@
      "pa": 249,
      "record": "4-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T16:46:03-06:00"
+     "fetched": "2026-11-14T17:17:37-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12313,7 +12309,7 @@
      "pa": 52,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T16:46:03-06:00"
+     "fetched": "2026-11-14T17:17:37-06:00"
     },
     "olivet": {
      "games": [
@@ -13132,7 +13128,7 @@
      "pa": 135,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T16:46:03-06:00"
+     "fetched": "2026-11-14T17:17:37-06:00"
     },
     "saintmarys": {
      "games": [
@@ -13972,7 +13968,7 @@
      "pa": 127,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T16:46:03-06:00"
+     "fetched": "2026-11-14T17:17:37-06:00"
     },
     "trine": {
      "games": [
@@ -14766,7 +14762,7 @@
      "pa": 48,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T16:46:03-06:00"
+     "fetched": "2026-11-14T17:17:37-06:00"
     }
    },
    "poll": {
