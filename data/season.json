@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-13T19:56:01-06:00",
+ "fetched_at": "2026-11-13T20:09:06-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -887,7 +887,7 @@
      "pa": 264,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T19:56:01-06:00"
+     "fetched": "2026-11-13T20:09:06-06:00"
     },
     "albion": {
      "games": [
@@ -1676,7 +1676,7 @@
      "pa": 178,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T19:56:01-06:00"
+     "fetched": "2026-11-13T20:09:06-06:00"
     },
     "alma": {
      "games": [
@@ -2547,7 +2547,7 @@
      "pa": 130,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T19:56:01-06:00"
+     "fetched": "2026-11-13T20:09:06-06:00"
     },
     "calvin": {
      "games": [
@@ -3348,7 +3348,7 @@
      "pa": 150,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T19:56:01-06:00"
+     "fetched": "2026-11-13T20:09:06-06:00"
     },
     "hope": {
      "games": [
@@ -4191,7 +4191,7 @@
      "pa": 122,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T19:56:01-06:00"
+     "fetched": "2026-11-13T20:09:06-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5026,7 +5026,7 @@
      "pa": 78,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T19:56:01-06:00"
+     "fetched": "2026-11-13T20:09:06-06:00"
     },
     "olivet": {
      "games": [
@@ -5108,8 +5108,9 @@
        "pa": null,
        "status": "",
        "links": {
-        "live_stats": "https://www.olivetcomets.com/links/vrkw5b",
-        "video": "https://www.olivetcomets.com/links/08g70a"
+        "live_stats": "https://transysports.com/sidearmstats/mbball/summary",
+        "video": "https://www.olivetcomets.com/links/08g70a",
+        "live_stats_short": "https://www.olivetcomets.com/links/vrkw5b"
        },
        "live_feed": {
         "type": "sidearm",
@@ -5792,9 +5793,9 @@
      ],
      "roster": {
       "url": "https://www.olivetcomets.com/sports/mbkb/2026-27/roster",
-      "season": null,
-      "players": 0,
-      "current": false
+      "season": "2026-27",
+      "players": 17,
+      "current": true
      },
      "players": [
       {
@@ -5881,7 +5882,7 @@
      "pa": 145,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T19:56:01-06:00"
+     "fetched": "2026-11-13T20:09:06-06:00"
     },
     "trine": {
      "games": [
@@ -6670,7 +6671,7 @@
      "pa": 132,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T19:56:01-06:00"
+     "fetched": "2026-11-13T20:09:06-06:00"
     }
    },
    "poll": {
@@ -8292,7 +8293,7 @@
      "pa": 152,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T19:56:01-06:00"
+     "fetched": "2026-11-13T20:09:06-06:00"
     },
     "albion": {
      "games": [
@@ -9061,7 +9062,7 @@
      "pa": 48,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T19:56:01-06:00"
+     "fetched": "2026-11-13T20:09:06-06:00"
     },
     "alma": {
      "games": [
@@ -9899,7 +9900,7 @@
      "pa": 153,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T19:56:01-06:00"
+     "fetched": "2026-11-13T20:09:06-06:00"
     },
     "calvin": {
      "games": [
@@ -10688,7 +10689,7 @@
      "pa": 168,
      "record": "1-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T19:56:01-06:00"
+     "fetched": "2026-11-13T20:09:06-06:00"
     },
     "hope": {
      "games": [
@@ -11516,7 +11517,7 @@
      "pa": 194,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T19:56:01-06:00"
+     "fetched": "2026-11-13T20:09:06-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12351,7 +12352,7 @@
      "pa": 0,
      "record": "0-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T19:56:01-06:00"
+     "fetched": "2026-11-13T20:09:06-06:00"
     },
     "olivet": {
      "games": [
@@ -12384,6 +12385,37 @@
        "live_feed": null
       },
       {
+       "id": "olivet-wbb-jvbttpg4onabk52l",
+       "exhibition": false,
+       "date": "2026-11-14T01:00:00Z",
+       "time_tbd": false,
+       "home": false,
+       "neutral": false,
+       "opponent": {
+        "name": "Wheaton (Ill.)",
+        "short": "Wheaton (Ill.)",
+        "logo": "https://cdn.prestosports.com/action/cdn/logos/id/7mxctiwez9hku5gi.png",
+        "slug": null
+       },
+       "conference": false,
+       "location": "",
+       "note": "",
+       "state": "pre",
+       "result": null,
+       "pf": null,
+       "pa": null,
+       "status": "",
+       "links": {
+        "live_stats": "https://athletics.wheaton.edu/sidearmstats/wbball/summary",
+        "video": "https://www.olivetcomets.com/links/ndh9ig",
+        "live_stats_short": "https://www.olivetcomets.com/links/yvtjn5"
+       },
+       "live_feed": {
+        "type": "sidearm",
+        "url": "https://sidearmstats.com/wheaton/wbball/game.json"
+       }
+      },
+      {
        "id": "olivet-wbb-7ro9gfpwshm785lu",
        "exhibition": false,
        "date": "2026-11-14T21:00:00Z",
@@ -12405,10 +12437,14 @@
        "pa": null,
        "status": "",
        "links": {
-        "live_stats": "https://www.olivetcomets.com/links/yvtjn5",
-        "video": "https://www.olivetcomets.com/links/ndh9ig"
+        "live_stats": "https://athletics.wheaton.edu/sidearmstats/wbball/summary",
+        "video": "https://www.olivetcomets.com/links/ndh9ig",
+        "live_stats_short": "https://www.olivetcomets.com/links/yvtjn5"
        },
-       "live_feed": null
+       "live_feed": {
+        "type": "sidearm",
+        "url": "https://sidearmstats.com/wheaton/wbball/game.json"
+       }
       },
       {
        "id": "olivet-wbb-b22h4evx0pgekvfo",
@@ -13054,9 +13090,9 @@
      ],
      "roster": {
       "url": "https://www.olivetcomets.com/sports/wbkb/2026-27/roster",
-      "season": null,
-      "players": 0,
-      "current": false
+      "season": "2026-27",
+      "players": 20,
+      "current": true
      },
      "players": [
       {
@@ -13143,7 +13179,7 @@
      "pa": 51,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T19:56:01-06:00"
+     "fetched": "2026-11-13T20:09:06-06:00"
     },
     "saintmarys": {
      "games": [
@@ -13983,7 +14019,7 @@
      "pa": 127,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T19:56:01-06:00"
+     "fetched": "2026-11-13T20:09:06-06:00"
     },
     "trine": {
      "games": [
@@ -14777,7 +14813,7 @@
      "pa": 48,
      "record": "1-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-13T19:56:01-06:00"
+     "fetched": "2026-11-13T20:09:06-06:00"
     }
    },
    "poll": {
@@ -15565,15 +15601,8 @@
   }
  },
  "errors": [
-  "Olivet mbb schedule: HTTP Error 405: Not Allowed",
-  "Olivet mbb leaders: HTTP Error 405: Not Allowed",
   "d3hoops mbb: poll table not found",
-  "Olivet wbb schedule: HTTP Error 405: Not Allowed",
-  "Olivet wbb leaders: HTTP Error 405: Not Allowed",
   "d3hoops wbb: poll table not found"
  ],
- "stale": {
-  "olivet-mbb-schedule": "2026-11-13T19:53:58-06:00",
-  "olivet-wbb-schedule": "2026-11-13T19:53:58-06:00"
- }
+ "stale": {}
 }
