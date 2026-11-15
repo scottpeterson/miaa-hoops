@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-14T19:28:37-06:00",
+ "fetched_at": "2026-11-14T20:05:24-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -887,7 +887,7 @@
      "pa": 340,
      "record": "0-4",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T19:28:37-06:00"
+     "fetched": "2026-11-14T20:05:24-06:00"
     },
     "albion": {
      "games": [
@@ -1674,7 +1674,7 @@
      "pa": 343,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T19:28:37-06:00"
+     "fetched": "2026-11-14T20:05:24-06:00"
     },
     "alma": {
      "games": [
@@ -2545,7 +2545,7 @@
      "pa": 221,
      "record": "1-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T19:28:37-06:00"
+     "fetched": "2026-11-14T20:05:24-06:00"
     },
     "calvin": {
      "games": [
@@ -3343,7 +3343,7 @@
      "pa": 230,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T19:28:37-06:00"
+     "fetched": "2026-11-14T20:05:24-06:00"
     },
     "hope": {
      "games": [
@@ -3423,6 +3423,7 @@
        "pa": 62,
        "status": "",
        "links": {
+        "recap": "https://athletics.hope.edu/news/2026/11/14/mens-basketball-knocks-off-no-13-elmhurst.aspx",
         "boxscore": "https://athletics.hope.edu/sports/mens-basketball/stats/2026-27/elmhurst-university/boxscore/18641"
        },
        "live_feed": null
@@ -4181,7 +4182,7 @@
      "pa": 184,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T19:28:37-06:00"
+     "fetched": "2026-11-14T20:05:24-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5012,7 +5013,7 @@
      "pa": 149,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T19:28:37-06:00"
+     "fetched": "2026-11-14T20:05:24-06:00"
     },
     "olivet": {
      "games": [
@@ -5868,7 +5869,7 @@
      "pa": 145,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T19:28:37-06:00"
+     "fetched": "2026-11-14T20:05:24-06:00"
     },
     "trine": {
      "games": [
@@ -6650,7 +6651,7 @@
      "pa": 285,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T19:28:37-06:00"
+     "fetched": "2026-11-14T20:05:24-06:00"
     }
    },
    "poll": {
@@ -8268,7 +8269,7 @@
      "pa": 216,
      "record": "1-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T19:28:37-06:00"
+     "fetched": "2026-11-14T20:05:24-06:00"
     },
     "albion": {
      "games": [
@@ -9041,7 +9042,7 @@
      "pa": 172,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T19:28:37-06:00"
+     "fetched": "2026-11-14T20:05:24-06:00"
     },
     "alma": {
      "games": [
@@ -9872,7 +9873,7 @@
      "pa": 265,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T19:28:37-06:00"
+     "fetched": "2026-11-14T20:05:24-06:00"
     },
     "calvin": {
      "games": [
@@ -9979,7 +9980,8 @@
        "pa": 42,
        "status": "",
        "links": {
-        "boxscore": "https://calvinknights.com/sports/womens-basketball/stats/2026-27/wittenberg-university/boxscore/9237"
+        "boxscore": "https://calvinknights.com/sports/womens-basketball/stats/2026-27/wittenberg-university/boxscore/9237",
+        "recap": "https://calvinknights.com/news/2026/11/14/calvin-womens-basketball-caps-off-calvin-hope-classic-with-win-over-wittenberg.aspx"
        },
        "live_feed": null
       },
@@ -10657,7 +10659,7 @@
      "pa": 210,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T19:28:37-06:00"
+     "fetched": "2026-11-14T20:05:24-06:00"
     },
     "hope": {
      "games": [
@@ -11481,7 +11483,7 @@
      "pa": 249,
      "record": "4-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T19:28:37-06:00"
+     "fetched": "2026-11-14T20:05:24-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12288,7 +12290,7 @@
      "pa": 52,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T19:28:37-06:00"
+     "fetched": "2026-11-14T20:05:24-06:00"
     },
     "olivet": {
      "games": [
@@ -13107,7 +13109,7 @@
      "pa": 135,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T19:28:37-06:00"
+     "fetched": "2026-11-14T20:05:24-06:00"
     },
     "saintmarys": {
      "games": [
@@ -13947,7 +13949,7 @@
      "pa": 127,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T19:28:37-06:00"
+     "fetched": "2026-11-14T20:05:24-06:00"
     },
     "trine": {
      "games": [
@@ -14738,7 +14740,7 @@
      "pa": 96,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T19:28:37-06:00"
+     "fetched": "2026-11-14T20:05:24-06:00"
     }
    },
    "poll": {
