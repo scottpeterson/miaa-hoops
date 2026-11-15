@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-14T19:03:20-06:00",
+ "fetched_at": "2026-11-14T19:28:37-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -887,7 +887,7 @@
      "pa": 340,
      "record": "0-4",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T19:03:20-06:00"
+     "fetched": "2026-11-14T19:28:37-06:00"
     },
     "albion": {
      "games": [
@@ -1674,7 +1674,7 @@
      "pa": 343,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T19:03:20-06:00"
+     "fetched": "2026-11-14T19:28:37-06:00"
     },
     "alma": {
      "games": [
@@ -1775,14 +1775,13 @@
        "conference": false,
        "location": "River Forest, Illinois, Geiseman Gymnasium",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "L",
+       "pf": 82,
+       "pa": 91,
        "status": "",
        "links": {
-        "video": "https://www.youtube.com/cucsports",
-        "live_stats": "https://www.statbroadcast.com/events/statbroadcast.php?gid=coil"
+        "boxscore": "https://almascots.com/sports/mens-basketball/stats/2026-27/concordia-chicago/boxscore/14637"
        },
        "live_feed": null
       },
@@ -2466,34 +2465,34 @@
        "label": "Points",
        "name": "Adam Dugener",
        "jersey": "0",
-       "gp": "2",
-       "total": "51",
-       "avg": "25.5",
-       "line": "25.5 per game, 51 total",
+       "gp": "3",
+       "total": "77",
+       "avg": "25.7",
+       "line": "25.7 per game, 77 total",
        "position": "Guard",
        "year": "First-year",
        "headshot": "https://almascots.com/images/2026/10/27/Dugenar_Adam.jpg?width=200&quality=90"
       },
       {
        "label": "Points",
-       "name": "Elijah Sykes",
-       "jersey": "1",
-       "gp": "2",
-       "total": "21",
-       "avg": "10.5",
-       "line": "10.5 per game, 21 total",
+       "name": "Joss Bradley",
+       "jersey": "10",
+       "gp": "3",
+       "total": "34",
+       "avg": "11.3",
+       "line": "11.3 per game, 34 total",
        "position": "Guard",
-       "year": "Sophomore",
-       "headshot": "https://almascots.com/images/2026/10/27/Skyes_Elijah.jpg?width=200&quality=90"
+       "year": "Junior",
+       "headshot": "https://almascots.com/images/2026/10/27/Bradley_Joss.jpg?width=200&quality=90"
       },
       {
        "label": "Rebounds",
        "name": "Joss Bradley",
        "jersey": "10",
-       "gp": "2",
-       "total": "8",
-       "avg": "4.0",
-       "line": "4.0 per game, 8 total",
+       "gp": "3",
+       "total": "15",
+       "avg": "5.0",
+       "line": "5.0 per game, 15 total",
        "position": "Guard",
        "year": "Junior",
        "headshot": "https://almascots.com/images/2026/10/27/Bradley_Joss.jpg?width=200&quality=90"
@@ -2502,10 +2501,10 @@
        "label": "Assists",
        "name": "Joss Bradley",
        "jersey": "10",
-       "gp": "2",
-       "total": "9",
-       "avg": "4.5",
-       "line": "4.5 per game, 9 total",
+       "gp": "3",
+       "total": "15",
+       "avg": "5.0",
+       "line": "5.0 per game, 15 total",
        "position": "Guard",
        "year": "Junior",
        "headshot": "https://almascots.com/images/2026/10/27/Bradley_Joss.jpg?width=200&quality=90"
@@ -2514,10 +2513,10 @@
        "label": "Steals",
        "name": "Joss Bradley",
        "jersey": "10",
-       "gp": "2",
-       "total": "5",
-       "avg": "2.5",
-       "line": "2.5 per game, 5 total",
+       "gp": "3",
+       "total": "7",
+       "avg": "2.3",
+       "line": "2.3 per game, 7 total",
        "position": "Guard",
        "year": "Junior",
        "headshot": "https://almascots.com/images/2026/10/27/Bradley_Joss.jpg?width=200&quality=90"
@@ -2526,10 +2525,10 @@
        "label": "Blocks",
        "name": "Preston Malpass",
        "jersey": "15",
-       "gp": "2",
+       "gp": "3",
        "total": "3",
-       "avg": "1.5",
-       "line": "1.5 per game, 3 total",
+       "avg": "1.0",
+       "line": "1.0 per game, 3 total",
        "position": "Forward",
        "year": "Junior",
        "headshot": "https://almascots.com/images/2026/10/27/Malpass_Preston.jpg?width=200&quality=90"
@@ -2537,16 +2536,16 @@
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 2,
+     "played": 3,
      "wins": 1,
-     "losses": 1,
+     "losses": 2,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 158,
-     "pa": 130,
-     "record": "1-1",
+     "pf": 240,
+     "pa": 221,
+     "record": "1-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T19:03:20-06:00"
+     "fetched": "2026-11-14T19:28:37-06:00"
     },
     "calvin": {
      "games": [
@@ -3344,7 +3343,7 @@
      "pa": 230,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T19:03:20-06:00"
+     "fetched": "2026-11-14T19:28:37-06:00"
     },
     "hope": {
      "games": [
@@ -4182,7 +4181,7 @@
      "pa": 184,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T19:03:20-06:00"
+     "fetched": "2026-11-14T19:28:37-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5013,7 +5012,7 @@
      "pa": 149,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T19:03:20-06:00"
+     "fetched": "2026-11-14T19:28:37-06:00"
     },
     "olivet": {
      "games": [
@@ -5869,7 +5868,7 @@
      "pa": 145,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T19:03:20-06:00"
+     "fetched": "2026-11-14T19:28:37-06:00"
     },
     "trine": {
      "games": [
@@ -6651,7 +6650,7 @@
      "pa": 285,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T19:03:20-06:00"
+     "fetched": "2026-11-14T19:28:37-06:00"
     }
    },
    "poll": {
@@ -8269,7 +8268,7 @@
      "pa": 216,
      "record": "1-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T19:03:20-06:00"
+     "fetched": "2026-11-14T19:28:37-06:00"
     },
     "albion": {
      "games": [
@@ -9042,7 +9041,7 @@
      "pa": 172,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T19:03:20-06:00"
+     "fetched": "2026-11-14T19:28:37-06:00"
     },
     "alma": {
      "games": [
@@ -9873,7 +9872,7 @@
      "pa": 265,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T19:03:20-06:00"
+     "fetched": "2026-11-14T19:28:37-06:00"
     },
     "calvin": {
      "games": [
@@ -10658,7 +10657,7 @@
      "pa": 210,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T19:03:20-06:00"
+     "fetched": "2026-11-14T19:28:37-06:00"
     },
     "hope": {
      "games": [
@@ -11482,7 +11481,7 @@
      "pa": 249,
      "record": "4-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T19:03:20-06:00"
+     "fetched": "2026-11-14T19:28:37-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12289,7 +12288,7 @@
      "pa": 52,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T19:03:20-06:00"
+     "fetched": "2026-11-14T19:28:37-06:00"
     },
     "olivet": {
      "games": [
@@ -13108,7 +13107,7 @@
      "pa": 135,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T19:03:20-06:00"
+     "fetched": "2026-11-14T19:28:37-06:00"
     },
     "saintmarys": {
      "games": [
@@ -13948,7 +13947,7 @@
      "pa": 127,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T19:03:20-06:00"
+     "fetched": "2026-11-14T19:28:37-06:00"
     },
     "trine": {
      "games": [
@@ -14739,7 +14738,7 @@
      "pa": 96,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T19:03:20-06:00"
+     "fetched": "2026-11-14T19:28:37-06:00"
     }
    },
    "poll": {
