@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-14T20:37:22-06:00",
+ "fetched_at": "2026-11-14T21:09:15-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -887,7 +887,7 @@
      "pa": 340,
      "record": "0-4",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T20:37:22-06:00"
+     "fetched": "2026-11-14T21:09:15-06:00"
     },
     "albion": {
      "games": [
@@ -1674,7 +1674,7 @@
      "pa": 343,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T20:37:22-06:00"
+     "fetched": "2026-11-14T21:09:15-06:00"
     },
     "alma": {
      "games": [
@@ -2545,7 +2545,7 @@
      "pa": 221,
      "record": "1-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T20:37:22-06:00"
+     "fetched": "2026-11-14T21:09:15-06:00"
     },
     "calvin": {
      "games": [
@@ -3343,7 +3343,7 @@
      "pa": 230,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T20:37:22-06:00"
+     "fetched": "2026-11-14T21:09:15-06:00"
     },
     "hope": {
      "games": [
@@ -4182,7 +4182,7 @@
      "pa": 184,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T20:37:22-06:00"
+     "fetched": "2026-11-14T21:09:15-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5013,7 +5013,7 @@
      "pa": 149,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T20:37:22-06:00"
+     "fetched": "2026-11-14T21:09:15-06:00"
     },
     "olivet": {
      "games": [
@@ -5869,7 +5869,7 @@
      "pa": 145,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T20:37:22-06:00"
+     "fetched": "2026-11-14T21:09:15-06:00"
     },
     "trine": {
      "games": [
@@ -5976,7 +5976,8 @@
        "pa": 88,
        "status": "",
        "links": {
-        "boxscore": "https://trinethunder.com/sports/mens-basketball/stats/2026-27/wisconsin-oshkosh/boxscore/8531"
+        "boxscore": "https://trinethunder.com/sports/mens-basketball/stats/2026-27/wisconsin-oshkosh/boxscore/8531",
+        "recap": "https://trinethunder.com/news/2026/11/14/mens-basketball-stumbles-against-wisconsin-oshkosh.aspx"
        },
        "live_feed": null
       },
@@ -6651,7 +6652,7 @@
      "pa": 285,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T20:37:22-06:00"
+     "fetched": "2026-11-14T21:09:15-06:00"
     }
    },
    "poll": {
@@ -8269,7 +8270,7 @@
      "pa": 216,
      "record": "1-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T20:37:22-06:00"
+     "fetched": "2026-11-14T21:09:15-06:00"
     },
     "albion": {
      "games": [
@@ -9042,7 +9043,7 @@
      "pa": 172,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T20:37:22-06:00"
+     "fetched": "2026-11-14T21:09:15-06:00"
     },
     "alma": {
      "games": [
@@ -9873,7 +9874,7 @@
      "pa": 265,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T20:37:22-06:00"
+     "fetched": "2026-11-14T21:09:15-06:00"
     },
     "calvin": {
      "games": [
@@ -10659,7 +10660,7 @@
      "pa": 210,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T20:37:22-06:00"
+     "fetched": "2026-11-14T21:09:15-06:00"
     },
     "hope": {
      "games": [
@@ -11483,7 +11484,7 @@
      "pa": 249,
      "record": "4-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T20:37:22-06:00"
+     "fetched": "2026-11-14T21:09:15-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12290,7 +12291,7 @@
      "pa": 52,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T20:37:22-06:00"
+     "fetched": "2026-11-14T21:09:15-06:00"
     },
     "olivet": {
      "games": [
@@ -13109,7 +13110,7 @@
      "pa": 135,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T20:37:22-06:00"
+     "fetched": "2026-11-14T21:09:15-06:00"
     },
     "saintmarys": {
      "games": [
@@ -13949,7 +13950,7 @@
      "pa": 127,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T20:37:22-06:00"
+     "fetched": "2026-11-14T21:09:15-06:00"
     },
     "trine": {
      "games": [
@@ -14740,7 +14741,7 @@
      "pa": 96,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T20:37:22-06:00"
+     "fetched": "2026-11-14T21:09:15-06:00"
     }
    },
    "poll": {
@@ -15003,10 +15004,10 @@
     "count": 411,
     "teams": {
      "adrian": {
-      "rank": 150,
-      "npi": 50.297,
+      "rank": 257,
+      "npi": 45.57,
       "rank_change": null,
-      "bid": "AL-133",
+      "bid": "AL-135",
       "record": "1-1 qualifying",
       "preseason_rank": 237,
       "returning": "41.33%",
@@ -15015,59 +15016,59 @@
       "median_record": "6-19"
      },
      "albion": {
-      "rank": 42,
-      "npi": 58.201,
-      "rank_change": 14,
-      "bid": "AL-117",
-      "record": "2-0 qualifying",
+      "rank": 80,
+      "npi": 54.685,
+      "rank_change": null,
+      "bid": "AL-122",
+      "record": "3-0 qualifying",
       "preseason_rank": 155,
       "returning": "63.30%",
-      "tourney_pct": "0.4%",
-      "aq_pct": "0.3%",
-      "median_record": "14-11"
+      "tourney_pct": "0.6%",
+      "aq_pct": "0.4%",
+      "median_record": "15-11"
      },
      "alma": {
-      "rank": 151,
-      "npi": 50.156,
-      "rank_change": 72,
-      "bid": "AL-133",
-      "record": "1-2 qualifying",
+      "rank": 132,
+      "npi": 51.436,
+      "rank_change": 20,
+      "bid": "AL-135",
+      "record": "2-2 qualifying",
       "preseason_rank": 139,
       "returning": "78.38%",
       "tourney_pct": "0.1%",
       "aq_pct": "0.1%",
-      "median_record": "10-15"
+      "median_record": "11-14"
      },
      "calvin": {
-      "rank": 195,
-      "npi": 47.897,
-      "rank_change": 67,
-      "bid": "AL-71",
-      "record": "1-2 qualifying",
+      "rank": 137,
+      "npi": 51.157,
+      "rank_change": 59,
+      "bid": "AL-101",
+      "record": "2-2 qualifying",
       "preseason_rank": 37,
       "returning": "67.56%",
-      "tourney_pct": "4.8%",
-      "aq_pct": "2.2%",
-      "median_record": "15-10"
+      "tourney_pct": "2.0%",
+      "aq_pct": "1.6%",
+      "median_record": "14-11"
      },
      "hope": {
-      "rank": 95,
-      "npi": 54.305,
-      "rank_change": 16,
+      "rank": 44,
+      "npi": 58.145,
+      "rank_change": 53,
       "bid": "AL-04",
-      "record": "3-0 qualifying",
+      "record": "4-0 qualifying",
       "preseason_rank": 5,
       "returning": "79.93%",
-      "tourney_pct": "90.6%",
-      "aq_pct": "35.2%",
-      "median_record": "21-2"
+      "tourney_pct": "82.0%",
+      "aq_pct": "27.9%",
+      "median_record": "20-3"
      },
      "kalamazoo": {
-      "rank": null,
-      "npi": "",
+      "rank": 402,
+      "npi": 30.454,
       "rank_change": null,
-      "bid": "AL-133",
-      "record": "0-0 qualifying",
+      "bid": "AL-135",
+      "record": "0-1 qualifying",
       "preseason_rank": 257,
       "returning": "68.11%",
       "tourney_pct": "0.0%",
@@ -15075,10 +15076,10 @@
       "median_record": "9-16"
      },
      "olivet": {
-      "rank": 277,
-      "npi": 43.034,
+      "rank": 350,
+      "npi": 38.582,
       "rank_change": null,
-      "bid": "AL-133",
+      "bid": "AL-135",
       "record": "0-1 qualifying",
       "preseason_rank": 333,
       "returning": "48.20%",
@@ -15087,10 +15088,10 @@
       "median_record": "2-23"
      },
      "saintmarys": {
-      "rank": 35,
-      "npi": 58.815,
-      "rank_change": null,
-      "bid": "AL-133",
+      "rank": 7,
+      "npi": 62.896,
+      "rank_change": 30,
+      "bid": "AL-135",
       "record": "2-0 qualifying",
       "preseason_rank": 274,
       "returning": "78.08%",
@@ -15099,15 +15100,15 @@
       "median_record": "12-13"
      },
      "trine": {
-      "rank": 22,
-      "npi": 60,
+      "rank": 92,
+      "npi": 53.93,
       "rank_change": null,
       "bid": "AQ",
-      "record": "1-0 qualifying",
+      "record": "2-0 qualifying",
       "preseason_rank": 8,
       "returning": "84.47%",
-      "tourney_pct": "98.6%",
-      "aq_pct": "62.2%",
+      "tourney_pct": "99.3%",
+      "aq_pct": "69.9%",
       "median_record": "22-2"
      }
     },
