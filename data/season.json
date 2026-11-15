@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-14T18:31:33-06:00",
+ "fetched_at": "2026-11-14T19:03:20-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -887,7 +887,7 @@
      "pa": 340,
      "record": "0-4",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T18:31:33-06:00"
+     "fetched": "2026-11-14T19:03:20-06:00"
     },
     "albion": {
      "games": [
@@ -986,18 +986,15 @@
        "conference": false,
        "location": "Tiffin, OH, Seiberling Gymnasium",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "W",
+       "pf": 92,
+       "pa": 83,
        "status": "",
        "links": {
-        "live_stats": "https://www.bergathletics.com/sidearmstats/mbball/summary"
+        "boxscore": "https://gobrits.com/sports/mens-basketball/stats/2026-27/washington-and-jefferson/boxscore/7887"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/heidelbergu/mbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "albion-mbb-7889",
@@ -1668,16 +1665,16 @@
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 3,
-     "wins": 2,
+     "played": 4,
+     "wins": 3,
      "losses": 1,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 239,
-     "pa": 260,
-     "record": "2-1",
+     "pf": 331,
+     "pa": 343,
+     "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T18:31:33-06:00"
+     "fetched": "2026-11-14T19:03:20-06:00"
     },
     "alma": {
      "games": [
@@ -2549,7 +2546,7 @@
      "pa": 130,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T18:31:33-06:00"
+     "fetched": "2026-11-14T19:03:20-06:00"
     },
     "calvin": {
      "games": [
@@ -3347,7 +3344,7 @@
      "pa": 230,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T18:31:33-06:00"
+     "fetched": "2026-11-14T19:03:20-06:00"
     },
     "hope": {
      "games": [
@@ -3421,20 +3418,15 @@
        "conference": false,
        "location": "Holland, MI, DeVos Fieldhouse DeVette-VanWieren Court",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "W",
+       "pf": 68,
+       "pa": 62,
        "status": "",
        "links": {
-        "video": "https://youtube.com/hopeathletics",
-        "live_stats": "https://athletics.hope.edu/sidearmstats/mbball/summary",
-        "tickets": "http://hopecollege.vbotickets.com/event/mens_basketball_vs_elmhurst/202645"
+        "boxscore": "https://athletics.hope.edu/sports/mens-basketball/stats/2026-27/elmhurst-university/boxscore/18641"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/hopecollege/mbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "hope-mbb-18664",
@@ -4110,10 +4102,10 @@
        "label": "Points",
        "name": "Brendan Cargill",
        "jersey": "2",
-       "gp": "2",
-       "total": "40",
-       "avg": "20.0",
-       "line": "20.0 per game, 40 total",
+       "gp": "3",
+       "total": "56",
+       "avg": "18.7",
+       "line": "18.7 per game, 56 total",
        "position": "Guard",
        "year": "Sophomore",
        "headshot": "https://athletics.hope.edu/images/2026/11/3/Cargill_Brendan.jpg?width=200&quality=90"
@@ -4122,75 +4114,75 @@
        "label": "Points",
        "name": "Orion Yant",
        "jersey": "13",
-       "gp": "2",
-       "total": "27",
-       "avg": "13.5",
-       "line": "13.5 per game, 27 total",
+       "gp": "3",
+       "total": "45",
+       "avg": "15.0",
+       "line": "15.0 per game, 45 total",
        "position": "Forward",
        "year": "Junior",
        "headshot": "https://athletics.hope.edu/images/2026/11/3/Yant_Orion.jpg?width=200&quality=90"
       },
       {
        "label": "Rebounds",
-       "name": "Kyle Blauch",
-       "jersey": "44",
-       "gp": "2",
-       "total": "19",
-       "avg": "9.5",
-       "line": "9.5 per game, 19 total",
+       "name": "Orion Yant",
+       "jersey": "13",
+       "gp": "3",
+       "total": "28",
+       "avg": "9.3",
+       "line": "9.3 per game, 28 total",
        "position": "Forward",
        "year": "Junior",
-       "headshot": "https://athletics.hope.edu/images/2026/11/3/Blauch_Kyle.jpg?width=200&quality=90"
+       "headshot": "https://athletics.hope.edu/images/2026/11/3/Yant_Orion.jpg?width=200&quality=90"
       },
       {
        "label": "Assists",
-       "name": "Brady Miller",
-       "jersey": "0",
-       "gp": "2",
-       "total": "4",
-       "avg": "2.0",
-       "line": "2.0 per game, 4 total",
-       "position": "Guard",
+       "name": "Orion Yant",
+       "jersey": "13",
+       "gp": "3",
+       "total": "7",
+       "avg": "2.3",
+       "line": "2.3 per game, 7 total",
+       "position": "Forward",
        "year": "Junior",
-       "headshot": "https://athletics.hope.edu/images/2026/11/3/Miller_Brady.jpg?width=200&quality=90"
+       "headshot": "https://athletics.hope.edu/images/2026/11/3/Yant_Orion.jpg?width=200&quality=90"
       },
       {
        "label": "Steals",
-       "name": "Jared Ryg",
-       "jersey": "12",
-       "gp": "2",
-       "total": "4",
-       "avg": "2.0",
-       "line": "2.0 per game, 4 total",
-       "position": "Guard",
+       "name": "Orion Yant",
+       "jersey": "13",
+       "gp": "3",
+       "total": "5",
+       "avg": "1.7",
+       "line": "1.7 per game, 5 total",
+       "position": "Forward",
        "year": "Junior",
-       "headshot": "https://athletics.hope.edu/images/2026/11/3/Ryg_Jared.jpg?width=200&quality=90"
+       "headshot": "https://athletics.hope.edu/images/2026/11/3/Yant_Orion.jpg?width=200&quality=90"
       },
       {
        "label": "Blocks",
-       "name": "Ben Mehendale",
-       "jersey": "25",
-       "gp": "2",
-       "total": "3",
-       "avg": "1.5",
-       "line": "1.5 per game, 3 total",
-       "position": "Forward/Center",
-       "year": "First-year",
-       "headshot": "https://athletics.hope.edu/images/2026/11/3/Mehendale_Ben.jpg?width=200&quality=90"
+       "name": "Orion Yant",
+       "jersey": "13",
+       "gp": "3",
+       "total": "5",
+       "avg": "1.7",
+       "line": "1.7 per game, 5 total",
+       "position": "Forward",
+       "year": "Junior",
+       "headshot": "https://athletics.hope.edu/images/2026/11/3/Yant_Orion.jpg?width=200&quality=90"
       }
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 2,
-     "wins": 2,
+     "played": 3,
+     "wins": 3,
      "losses": 0,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 169,
-     "pa": 122,
-     "record": "2-0",
+     "pf": 237,
+     "pa": 184,
+     "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T18:31:33-06:00"
+     "fetched": "2026-11-14T19:03:20-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5021,7 +5013,7 @@
      "pa": 149,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T18:31:33-06:00"
+     "fetched": "2026-11-14T19:03:20-06:00"
     },
     "olivet": {
      "games": [
@@ -5877,7 +5869,7 @@
      "pa": 145,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T18:31:33-06:00"
+     "fetched": "2026-11-14T19:03:20-06:00"
     },
     "trine": {
      "games": [
@@ -6659,7 +6651,7 @@
      "pa": 285,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T18:31:33-06:00"
+     "fetched": "2026-11-14T19:03:20-06:00"
     }
    },
    "poll": {
@@ -8277,7 +8269,7 @@
      "pa": 216,
      "record": "1-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T18:31:33-06:00"
+     "fetched": "2026-11-14T19:03:20-06:00"
     },
     "albion": {
      "games": [
@@ -8350,19 +8342,15 @@
        "conference": false,
        "location": "Albion, MI, Kresge Gymnasium",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
-       "status": "",
+       "state": "post",
+       "result": "W",
+       "pf": 84,
+       "pa": 76,
+       "status": "Final (OT)",
        "links": {
-        "video": "https://www.miaasportsnetwork.com/acbrits/",
-        "live_stats": "https://gobrits.com/sidearmstats/wbball/summary"
+        "boxscore": "https://gobrits.com/sports/womens-basketball/stats/2026-27/john-carroll-university/boxscore/7945"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/albion/wbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "albion-wbb-7947",
@@ -8972,36 +8960,36 @@
      "players": [
       {
        "label": "Points",
-       "name": "DJ Pannell",
-       "jersey": "23",
-       "gp": "2",
-       "total": "14",
-       "avg": "7.0",
-       "line": "7.0 per game, 14 total",
+       "name": "Khaleeya Cook",
+       "jersey": "3",
+       "gp": "3",
+       "total": "31",
+       "avg": "10.3",
+       "line": "10.3 per game, 31 total",
        "position": "G",
        "year": "Junior",
-       "headshot": "https://gobrits.com/images/2026/9/15/Pannell_DJ.jpg?width=200&quality=90"
+       "headshot": "https://gobrits.com/images/2026/9/15/Cook_Khaleeya.jpg?width=200&quality=90"
       },
       {
        "label": "Points",
-       "name": "Ameera Jenkins",
-       "jersey": "4",
-       "gp": "2",
-       "total": "10",
-       "avg": "5.0",
-       "line": "5.0 per game, 10 total",
-       "position": "G",
+       "name": "Alex Botbyl",
+       "jersey": "34",
+       "gp": "3",
+       "total": "21",
+       "avg": "7.0",
+       "line": "7.0 per game, 21 total",
+       "position": "C",
        "year": "First-year",
-       "headshot": "https://gobrits.com/images/2026/9/15/Jenkins_Ameera.jpg?width=200&quality=90"
+       "headshot": "https://gobrits.com/images/2026/9/15/Botbyl_Alex.jpg?width=200&quality=90"
       },
       {
        "label": "Rebounds",
        "name": "Khaleeya Cook",
        "jersey": "3",
-       "gp": "2",
-       "total": "13",
-       "avg": "6.5",
-       "line": "6.5 per game, 13 total",
+       "gp": "3",
+       "total": "23",
+       "avg": "7.7",
+       "line": "7.7 per game, 23 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://gobrits.com/images/2026/9/15/Cook_Khaleeya.jpg?width=200&quality=90"
@@ -9010,10 +8998,10 @@
        "label": "Assists",
        "name": "Khaleeya Cook",
        "jersey": "3",
-       "gp": "2",
-       "total": "9",
-       "avg": "4.5",
-       "line": "4.5 per game, 9 total",
+       "gp": "3",
+       "total": "12",
+       "avg": "4.0",
+       "line": "4.0 per game, 12 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://gobrits.com/images/2026/9/15/Cook_Khaleeya.jpg?width=200&quality=90"
@@ -9022,39 +9010,39 @@
        "label": "Steals",
        "name": "Alex Botbyl",
        "jersey": "34",
-       "gp": "2",
-       "total": "5",
-       "avg": "2.5",
-       "line": "2.5 per game, 5 total",
+       "gp": "3",
+       "total": "6",
+       "avg": "2.0",
+       "line": "2.0 per game, 6 total",
        "position": "C",
        "year": "First-year",
        "headshot": "https://gobrits.com/images/2026/9/15/Botbyl_Alex.jpg?width=200&quality=90"
       },
       {
        "label": "Blocks",
-       "name": "Jordyn St. John",
-       "jersey": "22",
-       "gp": "1",
-       "total": "1",
-       "avg": "1.0",
-       "line": "1.0 per game, 1 total",
+       "name": "Khaleeya Cook",
+       "jersey": "3",
+       "gp": "3",
+       "total": "2",
+       "avg": "0.7",
+       "line": "0.7 per game, 2 total",
        "position": "G",
-       "year": "First-year",
-       "headshot": "https://gobrits.com/images/2026/9/15/John_Jordyn_St.jpg?width=200&quality=90"
+       "year": "Junior",
+       "headshot": "https://gobrits.com/images/2026/9/15/Cook_Khaleeya.jpg?width=200&quality=90"
       }
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 2,
-     "wins": 2,
+     "played": 3,
+     "wins": 3,
      "losses": 0,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 113,
-     "pa": 96,
-     "record": "2-0",
+     "pf": 197,
+     "pa": 172,
+     "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T18:31:33-06:00"
+     "fetched": "2026-11-14T19:03:20-06:00"
     },
     "alma": {
      "games": [
@@ -9885,7 +9873,7 @@
      "pa": 265,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T18:31:33-06:00"
+     "fetched": "2026-11-14T19:03:20-06:00"
     },
     "calvin": {
      "games": [
@@ -10670,7 +10658,7 @@
      "pa": 210,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T18:31:33-06:00"
+     "fetched": "2026-11-14T19:03:20-06:00"
     },
     "hope": {
      "games": [
@@ -11494,7 +11482,7 @@
      "pa": 249,
      "record": "4-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T18:31:33-06:00"
+     "fetched": "2026-11-14T19:03:20-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12301,7 +12289,7 @@
      "pa": 52,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T18:31:33-06:00"
+     "fetched": "2026-11-14T19:03:20-06:00"
     },
     "olivet": {
      "games": [
@@ -13120,7 +13108,7 @@
      "pa": 135,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T18:31:33-06:00"
+     "fetched": "2026-11-14T19:03:20-06:00"
     },
     "saintmarys": {
      "games": [
@@ -13960,7 +13948,7 @@
      "pa": 127,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T18:31:33-06:00"
+     "fetched": "2026-11-14T19:03:20-06:00"
     },
     "trine": {
      "games": [
@@ -14751,7 +14739,7 @@
      "pa": 96,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T18:31:33-06:00"
+     "fetched": "2026-11-14T19:03:20-06:00"
     }
    },
    "poll": {
