@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T12:01:19-06:00",
+ "fetched_at": "2026-11-15T16:03:31-06:00",
  "teams": {
   "olivet-mbb": {
    "games": [
@@ -62,8 +62,8 @@
     {
      "id": "olivet-mbb-8m1gjtpgdjjury2k",
      "exhibition": false,
-     "date": "2026-11-15T19:00:00Z",
-     "time_tbd": false,
+     "date": "2026-11-15T17:00:00Z",
+     "time_tbd": true,
      "home": false,
      "neutral": false,
      "opponent": {
@@ -75,15 +75,14 @@
      "conference": false,
      "location": "",
      "note": "",
-     "state": "pre",
-     "result": null,
-     "pf": null,
-     "pa": null,
+     "state": "post",
+     "result": "L",
+     "pf": 71,
+     "pa": 62,
      "status": "",
      "links": {
-      "live_stats": "https://transysports.com/sidearmstats/mbball/summary",
-      "video": "https://www.olivetcomets.com/links/08g70a",
-      "live_stats_short": "https://www.olivetcomets.com/links/vrkw5b"
+      "boxscore": "https://www.olivetcomets.com/sports/mbkb/2026-27/boxscores/20261115_8m1g.xml",
+      "recap": "https://www.olivetcomets.com/sports/mbkb/2026-27/releases/20261115npj743"
      },
      "live_feed": null
     },
@@ -717,10 +716,10 @@
       "label": "Points",
       "name": "Porter Kretschman",
       "jersey": "12",
-      "gp": "2",
-      "total": "29",
-      "avg": "14.5",
-      "line": "14.5 per game, 29 total",
+      "gp": "3",
+      "total": "35",
+      "avg": "11.7",
+      "line": "11.7 per game, 35 total",
       "position": "F",
       "year": "Junior",
       "headshot": "https://www.olivetcomets.com/sports/mbkb/2026-27/photos/0001/hs_Porter_Kretschman.jpg?max_height=576&max_width=576&crop=1"
@@ -729,10 +728,10 @@
       "label": "Points",
       "name": "Sam Howard",
       "jersey": "3",
-      "gp": "2",
-      "total": "23",
-      "avg": "11.5",
-      "line": "11.5 per game, 23 total",
+      "gp": "3",
+      "total": "34",
+      "avg": "11.3",
+      "line": "11.3 per game, 34 total",
       "position": "G",
       "year": "Junior",
       "headshot": "https://www.olivetcomets.com/sports/mbkb/2026-27/photos/0001/hs_Sam_Howard.jpg?max_height=576&max_width=576&crop=1"
@@ -741,49 +740,49 @@
       "label": "Rebounds",
       "name": "Porter Kretschman",
       "jersey": "12",
-      "gp": "2",
-      "total": "23",
-      "avg": "11.5",
-      "line": "11.5 per game, 23 total",
+      "gp": "3",
+      "total": "29",
+      "avg": "9.7",
+      "line": "9.7 per game, 29 total",
       "position": "F",
       "year": "Junior",
       "headshot": "https://www.olivetcomets.com/sports/mbkb/2026-27/photos/0001/hs_Porter_Kretschman.jpg?max_height=576&max_width=576&crop=1"
      },
      {
       "label": "Assists",
-      "name": "Sean Shenker",
-      "jersey": "11",
-      "gp": "2",
-      "total": "5",
-      "avg": "2.5",
-      "line": "2.5 per game, 5 total",
-      "position": "G",
-      "year": "Sophomore",
-      "headshot": "https://www.olivetcomets.com/sports/mbkb/2026-27/photos/0001/hs_Sean_Shenker.jpg?max_height=576&max_width=576&crop=1"
+      "name": "Mike Okello",
+      "jersey": "13",
+      "gp": "3",
+      "total": "8",
+      "avg": "2.7",
+      "line": "2.7 per game, 8 total",
+      "position": "C",
+      "year": "Junior",
+      "headshot": "https://www.olivetcomets.com/sports/mbkb/2026-27/photos/0001/hs_Mike_Okello.jpg?max_height=576&max_width=576&crop=1"
      },
      {
       "label": "Steals",
       "name": "Porter Kretschman",
       "jersey": "12",
-      "gp": "2",
-      "total": "2",
-      "avg": "1.0",
-      "line": "1.0 per game, 2 total",
+      "gp": "3",
+      "total": "4",
+      "avg": "1.3",
+      "line": "1.3 per game, 4 total",
       "position": "F",
       "year": "Junior",
       "headshot": "https://www.olivetcomets.com/sports/mbkb/2026-27/photos/0001/hs_Porter_Kretschman.jpg?max_height=576&max_width=576&crop=1"
      },
      {
       "label": "Blocks",
-      "name": "Sam Howard",
-      "jersey": "3",
-      "gp": "2",
-      "total": "2",
+      "name": "Caleb Betz",
+      "jersey": "30",
+      "gp": "1",
+      "total": "1",
       "avg": "1.0",
-      "line": "1.0 per game, 2 total",
-      "position": "G",
+      "line": "1.0 per game, 1 total",
+      "position": "F",
       "year": "Junior",
-      "headshot": "https://www.olivetcomets.com/sports/mbkb/2026-27/photos/0001/hs_Sam_Howard.jpg?max_height=576&max_width=576&crop=1"
+      "headshot": "https://www.olivetcomets.com/sports/mbkb/2026-27/photos/0001/hs_Caleb_Betz.jpg?max_height=576&max_width=576&crop=1"
      }
     ],
     []
