@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-14T18:01:58-06:00",
+ "fetched_at": "2026-11-14T18:31:33-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -127,14 +127,14 @@
        "conference": false,
        "location": "Springfield, Ohio",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "L",
+       "pf": 65,
+       "pa": 76,
        "status": "",
        "links": {
-        "video": "https://tigersportsnetwork.com/",
-        "live_stats": "https://www.wittenbergtigers.com/sports/mbkb/2026-27/boxscores/20261114_dqrc.xml"
+        "boxscore": "https://adrianbulldogs.com/sports/mens-basketball/stats/2026-27/wittenberg-university/boxscore/24139",
+        "recap": "https://adrianbulldogs.com/news/2026/11/14/mens-basketball-drops-non-conference-mathcup-to-wittenberg.aspx"
        },
        "live_feed": null
       },
@@ -819,75 +819,75 @@
        "label": "Points",
        "name": "Carson Lutz",
        "jersey": "12",
-       "gp": "2",
-       "total": "21",
-       "avg": "10.5",
-       "line": "10.5 per game, 21 total",
+       "gp": "3",
+       "total": "29",
+       "avg": "9.7",
+       "line": "9.7 per game, 29 total",
        "position": "G",
        "year": "Sophomore",
        "headshot": "https://adrianbulldogs.com/images/2026/10/20/Carson_Lutz.jpg?width=200&quality=90"
       },
       {
        "label": "Points",
-       "name": "Noah Adams",
-       "jersey": "14",
-       "gp": "2",
-       "total": "13",
-       "avg": "6.5",
-       "line": "6.5 per game, 13 total",
+       "name": "Isaiah Foster",
+       "jersey": "4",
+       "gp": "3",
+       "total": "21",
+       "avg": "7.0",
+       "line": "7.0 per game, 21 total",
        "position": "W",
        "year": "Junior",
-       "headshot": "https://adrianbulldogs.com/images/2026/10/20/Noah_Adams.jpg?width=200&quality=90"
+       "headshot": "https://adrianbulldogs.com/images/2026/10/20/Isaiah_Foster.jpg?width=200&quality=90"
       },
       {
        "label": "Rebounds",
-       "name": "Noah Adams",
-       "jersey": "14",
-       "gp": "2",
-       "total": "7",
-       "avg": "3.5",
-       "line": "3.5 per game, 7 total",
-       "position": "W",
+       "name": "Austin Foster",
+       "jersey": "2",
+       "gp": "3",
+       "total": "10",
+       "avg": "3.3",
+       "line": "3.3 per game, 10 total",
+       "position": "G",
        "year": "Junior",
-       "headshot": "https://adrianbulldogs.com/images/2026/10/20/Noah_Adams.jpg?width=200&quality=90"
+       "headshot": "https://adrianbulldogs.com/images/2026/10/20/Austin_Foster.jpg?width=200&quality=90"
       },
       {
        "label": "Assists",
        "name": "Isaiah Foster",
        "jersey": "4",
-       "gp": "2",
-       "total": "5",
-       "avg": "2.5",
-       "line": "2.5 per game, 5 total",
+       "gp": "3",
+       "total": "7",
+       "avg": "2.3",
+       "line": "2.3 per game, 7 total",
        "position": "W",
        "year": "Junior",
        "headshot": "https://adrianbulldogs.com/images/2026/10/20/Isaiah_Foster.jpg?width=200&quality=90"
       },
       {
        "label": "Steals",
-       "name": "Carson Lutz",
-       "jersey": "12",
-       "gp": "2",
-       "total": "2",
+       "name": "Isaiah Foster",
+       "jersey": "4",
+       "gp": "3",
+       "total": "3",
        "avg": "1.0",
-       "line": "1.0 per game, 2 total",
-       "position": "G",
-       "year": "Sophomore",
-       "headshot": "https://adrianbulldogs.com/images/2026/10/20/Carson_Lutz.jpg?width=200&quality=90"
+       "line": "1.0 per game, 3 total",
+       "position": "W",
+       "year": "Junior",
+       "headshot": "https://adrianbulldogs.com/images/2026/10/20/Isaiah_Foster.jpg?width=200&quality=90"
       }
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 3,
+     "played": 4,
      "wins": 0,
-     "losses": 3,
+     "losses": 4,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 198,
-     "pa": 264,
-     "record": "0-3",
+     "pf": 263,
+     "pa": 340,
+     "record": "0-4",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T18:01:58-06:00"
+     "fetched": "2026-11-14T18:31:33-06:00"
     },
     "albion": {
      "games": [
@@ -1677,7 +1677,7 @@
      "pa": 260,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T18:01:58-06:00"
+     "fetched": "2026-11-14T18:31:33-06:00"
     },
     "alma": {
      "games": [
@@ -2549,7 +2549,7 @@
      "pa": 130,
      "record": "1-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T18:01:58-06:00"
+     "fetched": "2026-11-14T18:31:33-06:00"
     },
     "calvin": {
      "games": [
@@ -3347,7 +3347,7 @@
      "pa": 230,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T18:01:58-06:00"
+     "fetched": "2026-11-14T18:31:33-06:00"
     },
     "hope": {
      "games": [
@@ -4190,7 +4190,7 @@
      "pa": 122,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T18:01:58-06:00"
+     "fetched": "2026-11-14T18:31:33-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5021,7 +5021,7 @@
      "pa": 149,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T18:01:58-06:00"
+     "fetched": "2026-11-14T18:31:33-06:00"
     },
     "olivet": {
      "games": [
@@ -5877,7 +5877,7 @@
      "pa": 145,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T18:01:58-06:00"
+     "fetched": "2026-11-14T18:31:33-06:00"
     },
     "trine": {
      "games": [
@@ -6659,7 +6659,7 @@
      "pa": 285,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T18:01:58-06:00"
+     "fetched": "2026-11-14T18:31:33-06:00"
     }
    },
    "poll": {
@@ -7516,7 +7516,8 @@
        "pa": 64,
        "status": "",
        "links": {
-        "boxscore": "https://adrianbulldogs.com/sports/womens-basketball/stats/2026-27/case-western-reserve-university/boxscore/24111"
+        "boxscore": "https://adrianbulldogs.com/sports/womens-basketball/stats/2026-27/case-western-reserve-university/boxscore/24111",
+        "recap": "https://adrianbulldogs.com/news/2026/11/14/womens-basketball-womens-basketball-battles-strong-case-western-reserve-team-in-64-56-loss.aspx"
        },
        "live_feed": null
       },
@@ -8276,7 +8277,7 @@
      "pa": 216,
      "record": "1-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T18:01:58-06:00"
+     "fetched": "2026-11-14T18:31:33-06:00"
     },
     "albion": {
      "games": [
@@ -9053,7 +9054,7 @@
      "pa": 96,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T18:01:58-06:00"
+     "fetched": "2026-11-14T18:31:33-06:00"
     },
     "alma": {
      "games": [
@@ -9884,7 +9885,7 @@
      "pa": 265,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T18:01:58-06:00"
+     "fetched": "2026-11-14T18:31:33-06:00"
     },
     "calvin": {
      "games": [
@@ -10669,7 +10670,7 @@
      "pa": 210,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T18:01:58-06:00"
+     "fetched": "2026-11-14T18:31:33-06:00"
     },
     "hope": {
      "games": [
@@ -11493,7 +11494,7 @@
      "pa": 249,
      "record": "4-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T18:01:58-06:00"
+     "fetched": "2026-11-14T18:31:33-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12300,7 +12301,7 @@
      "pa": 52,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T18:01:58-06:00"
+     "fetched": "2026-11-14T18:31:33-06:00"
     },
     "olivet": {
      "games": [
@@ -13119,7 +13120,7 @@
      "pa": 135,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T18:01:58-06:00"
+     "fetched": "2026-11-14T18:31:33-06:00"
     },
     "saintmarys": {
      "games": [
@@ -13959,7 +13960,7 @@
      "pa": 127,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T18:01:58-06:00"
+     "fetched": "2026-11-14T18:31:33-06:00"
     },
     "trine": {
      "games": [
@@ -14750,7 +14751,7 @@
      "pa": 96,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-14T18:01:58-06:00"
+     "fetched": "2026-11-14T18:31:33-06:00"
     }
    },
    "poll": {
