@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-16T12:05:30-06:00",
+ "fetched_at": "2026-11-16T15:55:48-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -887,7 +887,7 @@
      "pa": 340,
      "record": "0-4",
      "conf_record": "0-0",
-     "fetched": "2026-11-16T12:05:30-06:00"
+     "fetched": "2026-11-16T15:55:48-06:00"
     },
     "albion": {
      "games": [
@@ -1021,11 +1021,13 @@
        "pa": null,
        "status": "",
        "links": {
-        "video": "https://www.miaasportsnetwork.com/acbrits/"
+        "video": "https://www.miaasportsnetwork.com/acbrits/",
+        "live_stats": "https://gobrits.com/sidearmstats/mbball/",
+        "tickets": "https://events.hometownticketing.com/boxoffice/acbritons/entity/schools/1"
        },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/albi/mbball/game.json"
+        "url": "https://sidearmstats.com/albion/mbball/game.json"
        }
       },
       {
@@ -1050,11 +1052,13 @@
        "pa": null,
        "status": "",
        "links": {
-        "video": "https://www.miaasportsnetwork.com/acbrits/"
+        "video": "https://www.miaasportsnetwork.com/acbrits/",
+        "live_stats": "https://gobrits.com/sidearmstats/mbball/summary",
+        "tickets": "https://events.hometownticketing.com/boxoffice/acbritons/entity/schools/1"
        },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/albi/mbball/game.json"
+        "url": "https://sidearmstats.com/albion/mbball/game.json"
        }
       },
       {
@@ -1677,7 +1681,7 @@
      "pa": 343,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-16T12:05:30-06:00"
+     "fetched": "2026-11-16T15:55:48-06:00"
     },
     "alma": {
      "games": [
@@ -2549,7 +2553,7 @@
      "pa": 221,
      "record": "1-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-16T12:05:30-06:00"
+     "fetched": "2026-11-16T15:55:48-06:00"
     },
     "calvin": {
      "games": [
@@ -3347,7 +3351,7 @@
      "pa": 230,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-16T12:05:30-06:00"
+     "fetched": "2026-11-16T15:55:48-06:00"
     },
     "hope": {
      "games": [
@@ -3454,6 +3458,7 @@
        "pa": null,
        "status": "",
        "links": {
+        "video": "https://www.cciwnetwork.com/northcentralcardinals/",
         "live_stats": "https://northcentralcardinals.com/sidearmstats/mbball/summary"
        },
        "live_feed": {
@@ -4186,7 +4191,7 @@
      "pa": 184,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-16T12:05:30-06:00"
+     "fetched": "2026-11-16T15:55:48-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5017,7 +5022,7 @@
      "pa": 149,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-16T12:05:30-06:00"
+     "fetched": "2026-11-16T15:55:48-06:00"
     },
     "olivet": {
      "games": [
@@ -5872,7 +5877,7 @@
      "pa": 207,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-16T12:05:30-06:00"
+     "fetched": "2026-11-16T15:55:48-06:00"
     },
     "trine": {
      "games": [
@@ -6657,7 +6662,7 @@
      "pa": 285,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-16T12:05:30-06:00"
+     "fetched": "2026-11-16T15:55:48-06:00"
     }
    },
    "poll": {
@@ -8275,7 +8280,7 @@
      "pa": 216,
      "record": "1-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-16T12:05:30-06:00"
+     "fetched": "2026-11-16T15:55:48-06:00"
     },
     "albion": {
      "games": [
@@ -9062,7 +9067,7 @@
      "pa": 172,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-16T12:05:30-06:00"
+     "fetched": "2026-11-16T15:55:48-06:00"
     },
     "alma": {
      "games": [
@@ -9894,7 +9899,7 @@
      "pa": 265,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-16T12:05:30-06:00"
+     "fetched": "2026-11-16T15:55:48-06:00"
     },
     "calvin": {
      "games": [
@@ -10680,7 +10685,7 @@
      "pa": 210,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-16T12:05:30-06:00"
+     "fetched": "2026-11-16T15:55:48-06:00"
     },
     "hope": {
      "games": [
@@ -11505,7 +11510,7 @@
      "pa": 249,
      "record": "4-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-16T12:05:30-06:00"
+     "fetched": "2026-11-16T15:55:48-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12315,7 +12320,7 @@
      "pa": 52,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-16T12:05:30-06:00"
+     "fetched": "2026-11-16T15:55:48-06:00"
     },
     "olivet": {
      "games": [
@@ -13134,7 +13139,7 @@
      "pa": 135,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-16T12:05:30-06:00"
+     "fetched": "2026-11-16T15:55:48-06:00"
     },
     "saintmarys": {
      "games": [
@@ -13974,7 +13979,7 @@
      "pa": 127,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-16T12:05:30-06:00"
+     "fetched": "2026-11-16T15:55:48-06:00"
     },
     "trine": {
      "games": [
@@ -14766,7 +14771,7 @@
      "pa": 96,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-16T12:05:30-06:00"
+     "fetched": "2026-11-16T15:55:48-06:00"
     }
    },
    "poll": {
@@ -15557,5 +15562,10 @@
   "d3hoops mbb: poll table not found",
   "d3hoops wbb: poll table not found"
  ],
- "stale": {}
+ "stale": {
+  "olivet-mbb-schedule": "2026-11-16T12:03:45-06:00",
+  "olivet-mbb-leaders": "2026-11-16T12:03:45-06:00",
+  "olivet-wbb-schedule": "2026-11-16T12:03:45-06:00",
+  "olivet-wbb-leaders": "2026-11-16T12:03:45-06:00"
+ }
 }
