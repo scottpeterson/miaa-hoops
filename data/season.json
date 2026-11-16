@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T17:40:19-06:00",
+ "fetched_at": "2026-11-15T18:11:59-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -887,7 +887,7 @@
      "pa": 340,
      "record": "0-4",
      "conf_record": "0-0",
-     "fetched": "2026-11-15T17:40:19-06:00"
+     "fetched": "2026-11-15T18:11:59-06:00"
     },
     "albion": {
      "games": [
@@ -1677,7 +1677,7 @@
      "pa": 343,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-15T17:40:19-06:00"
+     "fetched": "2026-11-15T18:11:59-06:00"
     },
     "alma": {
      "games": [
@@ -2549,7 +2549,7 @@
      "pa": 221,
      "record": "1-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-15T17:40:19-06:00"
+     "fetched": "2026-11-15T18:11:59-06:00"
     },
     "calvin": {
      "games": [
@@ -3347,7 +3347,7 @@
      "pa": 230,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-15T17:40:19-06:00"
+     "fetched": "2026-11-15T18:11:59-06:00"
     },
     "hope": {
      "games": [
@@ -4186,7 +4186,7 @@
      "pa": 184,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-15T17:40:19-06:00"
+     "fetched": "2026-11-15T18:11:59-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -5017,7 +5017,7 @@
      "pa": 149,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-15T17:40:19-06:00"
+     "fetched": "2026-11-15T18:11:59-06:00"
     },
     "olivet": {
      "games": [
@@ -5869,7 +5869,7 @@
      "pa": 207,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-15T17:40:19-06:00"
+     "fetched": "2026-11-15T18:11:59-06:00"
     },
     "trine": {
      "games": [
@@ -6652,7 +6652,7 @@
      "pa": 285,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-15T17:40:19-06:00"
+     "fetched": "2026-11-15T18:11:59-06:00"
     }
    },
    "poll": {
@@ -8270,7 +8270,7 @@
      "pa": 216,
      "record": "1-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-15T17:40:19-06:00"
+     "fetched": "2026-11-15T18:11:59-06:00"
     },
     "albion": {
      "games": [
@@ -9045,7 +9045,7 @@
      "pa": 172,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-15T17:40:19-06:00"
+     "fetched": "2026-11-15T18:11:59-06:00"
     },
     "alma": {
      "games": [
@@ -9877,7 +9877,7 @@
      "pa": 265,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-15T17:40:19-06:00"
+     "fetched": "2026-11-15T18:11:59-06:00"
     },
     "calvin": {
      "games": [
@@ -10663,7 +10663,7 @@
      "pa": 210,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-15T17:40:19-06:00"
+     "fetched": "2026-11-15T18:11:59-06:00"
     },
     "hope": {
      "games": [
@@ -11488,7 +11488,7 @@
      "pa": 249,
      "record": "4-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-15T17:40:19-06:00"
+     "fetched": "2026-11-15T18:11:59-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12295,7 +12295,7 @@
      "pa": 52,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-15T17:40:19-06:00"
+     "fetched": "2026-11-15T18:11:59-06:00"
     },
     "olivet": {
      "games": [
@@ -13114,7 +13114,7 @@
      "pa": 135,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-15T17:40:19-06:00"
+     "fetched": "2026-11-15T18:11:59-06:00"
     },
     "saintmarys": {
      "games": [
@@ -13954,7 +13954,7 @@
      "pa": 127,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-15T17:40:19-06:00"
+     "fetched": "2026-11-15T18:11:59-06:00"
     },
     "trine": {
      "games": [
@@ -14746,7 +14746,7 @@
      "pa": 96,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-15T17:40:19-06:00"
+     "fetched": "2026-11-15T18:11:59-06:00"
     }
    },
    "poll": {
@@ -15009,10 +15009,10 @@
     "count": 411,
     "teams": {
      "adrian": {
-      "rank": 257,
-      "npi": 45.57,
-      "rank_change": null,
-      "bid": "AL-135",
+      "rank": 256,
+      "npi": 45.024,
+      "rank_change": 1,
+      "bid": "AL-129",
       "record": "1-1 qualifying",
       "preseason_rank": 237,
       "returning": "41.33%",
@@ -15021,10 +15021,10 @@
       "median_record": "6-19"
      },
      "albion": {
-      "rank": 80,
-      "npi": 54.685,
-      "rank_change": null,
-      "bid": "AL-122",
+      "rank": 77,
+      "npi": 54.582,
+      "rank_change": 3,
+      "bid": "AL-114",
       "record": "3-0 qualifying",
       "preseason_rank": 155,
       "returning": "63.30%",
@@ -15033,10 +15033,10 @@
       "median_record": "15-11"
      },
      "alma": {
-      "rank": 132,
-      "npi": 51.436,
-      "rank_change": 20,
-      "bid": "AL-135",
+      "rank": 131,
+      "npi": 51.435,
+      "rank_change": 1,
+      "bid": "AL-129",
       "record": "2-2 qualifying",
       "preseason_rank": 139,
       "returning": "78.38%",
@@ -15045,10 +15045,10 @@
       "median_record": "11-14"
      },
      "calvin": {
-      "rank": 137,
-      "npi": 51.157,
-      "rank_change": 59,
-      "bid": "AL-101",
+      "rank": 134,
+      "npi": 51.149,
+      "rank_change": 3,
+      "bid": "AL-105",
       "record": "2-2 qualifying",
       "preseason_rank": 37,
       "returning": "67.56%",
@@ -15057,9 +15057,9 @@
       "median_record": "14-11"
      },
      "hope": {
-      "rank": 44,
-      "npi": 58.145,
-      "rank_change": 53,
+      "rank": 39,
+      "npi": 58.312,
+      "rank_change": 5,
       "bid": "AL-04",
       "record": "4-0 qualifying",
       "preseason_rank": 5,
@@ -15070,9 +15070,9 @@
      },
      "kalamazoo": {
       "rank": 402,
-      "npi": 30.454,
-      "rank_change": null,
-      "bid": "AL-135",
+      "npi": 30.29,
+      "rank_change": 0,
+      "bid": "AL-129",
       "record": "0-1 qualifying",
       "preseason_rank": 257,
       "returning": "68.11%",
@@ -15081,10 +15081,10 @@
       "median_record": "9-16"
      },
      "olivet": {
-      "rank": 350,
-      "npi": 38.582,
-      "rank_change": null,
-      "bid": "AL-135",
+      "rank": 349,
+      "npi": 38.843,
+      "rank_change": 1,
+      "bid": "AL-129",
       "record": "0-1 qualifying",
       "preseason_rank": 333,
       "returning": "48.20%",
@@ -15093,10 +15093,10 @@
       "median_record": "2-23"
      },
      "saintmarys": {
-      "rank": 7,
-      "npi": 62.896,
-      "rank_change": 30,
-      "bid": "AL-135",
+      "rank": 4,
+      "npi": 63.5,
+      "rank_change": 3,
+      "bid": "AL-129",
       "record": "2-0 qualifying",
       "preseason_rank": 274,
       "returning": "78.08%",
@@ -15105,9 +15105,9 @@
       "median_record": "12-13"
      },
      "trine": {
-      "rank": 92,
-      "npi": 53.93,
-      "rank_change": null,
+      "rank": 70,
+      "npi": 54.847,
+      "rank_change": 22,
       "bid": "AQ",
       "record": "2-0 qualifying",
       "preseason_rank": 8,
