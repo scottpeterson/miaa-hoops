@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-15T20:59:45-06:00",
+ "fetched_at": "2026-11-15T21:31:14-06:00",
  "teams": {
   "olivet-mbb": {
    "games": [
@@ -1464,10 +1464,10 @@
     }
    ],
    "roster": {
-    "url": "https://www.olivetcomets.com/sports/wbkb/2025-26/roster",
-    "season": "2025-26",
-    "players": 23,
-    "current": false
+    "url": "https://www.olivetcomets.com/sports/wbkb/2026-27/roster",
+    "season": "2026-27",
+    "players": 20,
+    "current": true
    },
    "leaders": [
     "2026-27",
