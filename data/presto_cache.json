@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-16T06:10:23-06:00",
+ "fetched_at": "2026-11-16T12:03:45-06:00",
  "teams": {
   "olivet-mbb": {
    "games": [
@@ -107,7 +107,10 @@
      "pf": null,
      "pa": null,
      "status": "",
-     "links": {},
+     "links": {
+      "live_stats": "https://www.olivetcomets.com/links/uu6d9y",
+      "tickets": "https://www.olivetcomets.com/links/wan56m"
+     },
      "live_feed": null
     },
     {
@@ -875,7 +878,7 @@
     {
      "id": "olivet-wbb-b22h4evx0pgekvfo",
      "exhibition": false,
-     "date": "2026-11-21T19:00:00Z",
+     "date": "2026-11-22T00:00:00Z",
      "time_tbd": false,
      "home": false,
      "neutral": false,
