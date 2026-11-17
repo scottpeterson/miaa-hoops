@@ -503,6 +503,20 @@ def team_card(sport, school):
 </div></article>'''
 
 
+def cells(values, tag="td", text_cols=(), lead_cols=1):
+    """Return the cells of one table row. The first `lead_cols` columns (rank, team) are
+    left-aligned (class lead), columns in `text_cols` hold text (left-aligned), and every
+    other column is numeric (class num, right-aligned, header included) so place values
+    line up. A value is an HTML string, or an (html, extra_class) pair."""
+    out = []
+    for i, v in enumerate(values):
+        html, extra = v if isinstance(v, tuple) else (v, "")
+        kind = "lead" if i < lead_cols else "txt" if i in text_cols else "num"
+        cls = " ".join(x for x in (kind, extra) if x)
+        out.append(f'<{tag} class="{cls}">{html}</{tag}>')
+    return "".join(out)
+
+
 def standings_table(sport):
     rows = []
     def pct(w, l):
@@ -512,6 +526,7 @@ def standings_table(sport):
         -pct(teams(sport)[s["slug"]]["wins"], teams(sport)[s["slug"]]["losses"]),
         rating_rank(sport, s["slug"]), s["name"]))
     n = npi(sport).get("teams", {})
+    text_cols = (7,)  # Next: opponent and tip time
     for s in members_sorted:
         t = teams(sport)[s["slug"]]
         r = poll(sport).get("ranks", {}).get(s["slug"])
@@ -522,9 +537,12 @@ def standings_table(sport):
         upcoming = [g for g in t["games"] if g["state"] != "post"]
         nxt = f'{opponent_label(upcoming[0], sport)}, {time_tag(upcoming[0])}' if upcoming else "Season over"
         margin = f'{t["pf"] - t["pa"]:+d}' if t["played"] else "–"
-        rows.append(f'<tr data-teams="{s["slug"]}" data-keep="1"><td class="lead"><img src="{esc(s["logo"])}" alt=""> {esc(s["name"])}</td><td>{esc(t["conf_record"])}</td><td>{esc(t["record"])}</td><td>{margin}</td><td>{poll_cell}</td><td>{npi_cell}</td><td>{"#" + str(rating) if rating else "–"}</td><td class="next">{nxt}</td></tr>')
+        rows.append(f'<tr data-teams="{s["slug"]}" data-keep="1">' + cells([
+            f'<img src="{esc(s["logo"])}" alt=""> {esc(s["name"])}', esc(t["conf_record"]), esc(t["record"]), margin, poll_cell, npi_cell,
+            "#" + str(rating) if rating else "–", (nxt, "next")], text_cols=text_cols) + "</tr>")
     rating_head = "Efficiency rank" if sport == "mbb" else "Preseason rank"
-    return f'<div class="tablewrap"><table class="standings"><thead><tr><th>Team</th><th>MIAA</th><th>Overall</th><th>Margin</th><th>D3hoops.com</th><th>NPI rank</th><th>{rating_head}</th><th>Next</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div>'
+    head = cells(["Team", "MIAA", "Overall", "Margin", "D3hoops.com", "NPI rank", rating_head, "Next"], "th", text_cols)
+    return f'<div class="tablewrap"><table class="standings"><thead><tr>{head}</tr></thead><tbody>{"".join(rows)}</tbody></table></div>'
 
 
 def numbers_section(sport):
@@ -533,23 +551,32 @@ def numbers_section(sport):
     if not t:
         return '<p class="muted">Ratings unavailable this run.</p>'
     rows = []
+    text_cols = (4,)  # Bid: AQ, At-Lg, or AL-n codes of uneven width
     if sport == "mbb":
-        head = "<tr><th>Team</th><th>NPI rank</th><th>NPI</th><th>Record in the NPI table</th><th>Bid</th><th>At-large rank</th><th>Efficiency rank</th><th>Adj. efficiency margin</th></tr>"
+        head = "<tr>" + cells(["Team", "NPI rank", "NPI", "Record in the NPI table", "Bid", "At-large rank", "Efficiency rank", "Adj. efficiency margin"], "th", text_cols) + "</tr>"
         for s in sorted(members(sport), key=lambda s: safe_int(t.get(s["slug"], {}).get("rank"))):
             d = t.get(s["slug"])
             if not d:
                 continue
-            rows.append(f'<tr data-teams="{s["slug"]}" data-keep="1"><td class="lead"><img src="{esc(s["logo"])}" alt=""> {esc(s["name"])}</td><td>{"#" + str(d["rank"]) if d.get("rank") else "–"}</td><td>{esc(npi_text(d.get("npi")) or "–")}</td><td>{esc(d.get("record", "–"))}</td><td>{esc(d.get("bid", "–"))}</td><td>{"#" + str(d["at_large_rank"]) if str(d.get("at_large_rank") or "").isdigit() else esc(d.get("at_large_rank", "–"))}</td><td>{"#" + str(d["eff_rank"]) if d.get("eff_rank") else "–"}</td><td>{esc(d.get("adj_em", "–"))}</td></tr>')
+            rows.append(f'<tr data-teams="{s["slug"]}" data-keep="1">' + cells([
+                f'<img src="{esc(s["logo"])}" alt=""> {esc(s["name"])}', "#" + str(d["rank"]) if d.get("rank") else "–", esc(npi_text(d.get("npi")) or "–"),
+                esc(d.get("record", "–")), esc(d.get("bid", "–")),
+                "#" + str(d["at_large_rank"]) if str(d.get("at_large_rank") or "").isdigit() else esc(d.get("at_large_rank", "–")),
+                "#" + str(d["eff_rank"]) if d.get("eff_rank") else "–", esc(d.get("adj_em", "–"))], text_cols=text_cols) + "</tr>")
         intro = (f'<p class="small">From {link("https://d3datacast.com/", "D3 Datacast")}: the {link(n["url"], "men\'s NPI table")}, updated {esc(when_updated(n.get("updated", "")))}. The '
                  f'{link(n["eff_url"], "efficiency ratings")}, updated {esc(when_updated(n.get("eff_updated", "")))}. The NPI stays on last season\'s final numbers until this season\'s games count. '
                  f'The {link("https://d3datacast.com/conference-ratings/miaa/", "MIAA conference page")} has every MIAA team\'s ratings.</p>')
     else:
-        head = "<tr><th>Team</th><th>NPI rank</th><th>NPI</th><th>Record in the NPI table</th><th>Bid</th><th>Preseason rank</th><th>Returning Scoring</th><th>Tournament %</th><th>Auto Bid %</th><th>Median record</th></tr>"
+        head = "<tr>" + cells(["Team", "NPI rank", "NPI", "Record in the NPI table", "Bid", "Preseason rank", "Returning Scoring", "Tournament %", "Auto Bid %", "Median record"], "th", text_cols) + "</tr>"
         for s in sorted(members(sport), key=lambda s: safe_int(t.get(s["slug"], {}).get("rank"))):
             d = t.get(s["slug"])
             if not d:
                 continue
-            rows.append(f'<tr data-teams="{s["slug"]}" data-keep="1"><td class="lead"><img src="{esc(s["logo"])}" alt=""> {esc(s["name"])}</td><td>{"#" + str(d["rank"]) if d.get("rank") else "–"}</td><td>{esc(npi_text(d["npi"]) or "–")}</td><td>{esc(d["record"])}</td><td>{esc(d["bid"])}</td><td>{"#" + str(d["preseason_rank"]) if d.get("preseason_rank") else "–"}</td><td>{esc(pct_text(d.get("returning", "–")))}</td><td>{esc(pct_text(d.get("tourney_pct", "–"), chance=True))}</td><td>{esc(pct_text(d.get("aq_pct", "–"), chance=True))}</td><td>{esc(d.get("median_record", "–"))}</td></tr>')
+            rows.append(f'<tr data-teams="{s["slug"]}" data-keep="1">' + cells([
+                f'<img src="{esc(s["logo"])}" alt=""> {esc(s["name"])}', "#" + str(d["rank"]) if d.get("rank") else "–", esc(npi_text(d["npi"]) or "–"),
+                esc(d["record"]), esc(d["bid"]), "#" + str(d["preseason_rank"]) if d.get("preseason_rank") else "–",
+                esc(pct_text(d.get("returning", "–"))), esc(pct_text(d.get("tourney_pct", "–"), chance=True)),
+                esc(pct_text(d.get("aq_pct", "–"), chance=True)), esc(d.get("median_record", "–"))], text_cols=text_cols) + "</tr>")
         intro = (f'<p class="small">From {link("https://thed3statlab.com/", "The D3 Stat Lab")}: the {link(n["url"], "women\'s NPI table")}, '
                  f'{link(n["preseason_url"], "preseason rankings")} with Returning Scoring, and {link(n["sims_url"], "season simulations")} with tournament chances and the median simulated record. '
                  f'The NPI stays on last season\'s final numbers until this season\'s games count.</p>')
@@ -573,11 +600,13 @@ def poll_section(sport):
     miaa = f'<div class="badges">{"".join(mentions)}</div>' if mentions else '<p class="small">No MIAA team is ranked or receiving votes in this poll.</p>'
     member_names = {s.get("d3hoops_name") or s["name"] for s in members(sport)}
     rows = "".join(
-        f'<tr class="{"miaa" if r["team"] in member_names else ""}"><td class="lead">{r["rank"]}</td><td>{esc(display_name(r["team"]))}{" (" + str(r["first_place"]) + ")" if r.get("first_place") else ""}</td><td>{esc(r["record"])}</td><td>{esc(r["points"])}</td><td>{esc(r.get("prev") or "")}</td></tr>'
+        f'<tr class="{"miaa" if r["team"] in member_names else ""}">' + cells([
+            r["rank"], f'{esc(display_name(r["team"]))}{" (" + str(r["first_place"]) + ")" if r.get("first_place") else ""}',
+            esc(r["record"]), esc(r["points"]), esc(r.get("prev") or "")], lead_cols=2) + "</tr>"
         for r in p.get("top25", []))
     others = ", ".join(f'{esc(display_name(k))} {v}' for k, v in rv.items())
     return (f'<p class="small">{esc(p["label"])}. Source: {link(p["url"], "D3hoops.com")}. Teams in bold are MIAA members. First-place votes in parentheses.</p>{miaa}'
-            f'<details class="poll"><summary>Full Top 25</summary><div class="tablewrap"><table class="poll"><thead><tr><th>#</th><th>Team</th><th>Record</th><th>Points</th><th>Prev</th></tr></thead><tbody>{rows}</tbody></table></div>'
+            f'<details class="poll"><summary>Full Top 25</summary><div class="tablewrap"><table class="poll"><thead><tr>{cells(["#", "Team", "Record", "Points", "Prev"], "th", lead_cols=2)}</tr></thead><tbody>{rows}</tbody></table></div>'
             f'{"<p class=small>Others receiving votes: " + others + "</p>" if others else ""}</details>')
 
 
@@ -917,7 +946,7 @@ def tournament_section():
 # ---------------------------------------------------------------- page
 
 CSS = r"""
-/* Design tokens. Spacing steps: 4, 8, 12, 16, 24, 32, 48. Radii: 6, 10, 14. Control heights: 36 (top controls, inputs), 32 (pills, tabs, Focus). */
+/* Design tokens. Spacing steps: 4, 8, 12, 16, 24, 32, 48. Radii: 6, 10, 14. Control heights: 36 (top controls, inputs), 32 (pills, tabs, Focus); 44 for all of them at 600px and under. */
 /* Brand layer: IBM Plex type, type scale, control size.
    Source: ~/.claude/skills/design/assets/brand.css (version 2026-11-08). Rules: references/brand.md. */
 :root{--font-sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;--font-mono:"IBM Plex Mono",ui-monospace,"SF Mono",Menlo,Consolas,monospace;
@@ -943,7 +972,7 @@ button,input,select,textarea{font:inherit}button{cursor:pointer}
 .disclaimer{margin:0 0 var(--s4);padding:var(--s2) var(--s3);border:1px solid var(--line);border-radius:var(--r2);font-size:var(--fs-md);color:var(--muted)}
 .controls{display:flex;gap:var(--s4);align-items:flex-start;flex-wrap:wrap}.ctl{display:flex;flex-direction:column;gap:var(--s1)}
 .seg{display:inline-flex;align-items:stretch;height:var(--ctl);border:1px solid var(--ctl-line);border-radius:999px;overflow:hidden;background:var(--surface)}
-.seglabel{font-size:var(--fs-caption);font-weight:500;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding-left:2px;line-height:1.4}
+.seglabel{font-size:var(--fs-caption);font-weight:500;color:var(--muted);padding-left:2px;line-height:1.4}
 .seg button{border:0;background:transparent;color:var(--muted);padding:0 var(--s4);font:inherit;font-size:var(--fs-body);cursor:pointer;min-width:44px}.seg button+button{border-left:1px solid var(--ctl-line)}.seg button.active{background:var(--accent);color:#fff;font-weight:600}.seg button.active::before{content:"\2713\00a0"}:root[data-theme="dark"] .seg button.active{color:#15181d}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .seg button.active{color:#15181d}}
 .sp.active{background:var(--ink)!important;color:var(--bg)!important}
 .livepill{display:none;align-items:center;gap:var(--s2);margin-top:var(--s3);font-size:var(--fs-sm);font-weight:600;color:var(--live)}.livepill i{width:8px;height:8px;border-radius:50%;background:var(--live);animation:pulse 1.4s infinite}body.has-live .livepill{display:inline-flex}
@@ -960,7 +989,7 @@ button,input,select,textarea{font:inherit}button{cursor:pointer}
 .game header{border-bottom:1px solid var(--line)}.game header img,.game header .nologo{width:40px;height:40px;object-fit:contain;flex:none}.game header div{flex:1;min-width:0}
 .who{font-weight:600;line-height:1.2}.what{font-size:var(--fs-small);color:var(--muted)}.team header .what{color:inherit}
 .team header img{width:48px;height:48px;object-fit:contain;flex:none;background:rgba(255,255,255,.92);border-radius:var(--r2);padding:var(--s1)}
-.focus{margin-left:auto;flex:none;height:var(--pill);min-width:32px;font-size:var(--fs-caption);font-weight:500;letter-spacing:.06em;text-transform:uppercase;border:1px solid currentColor;border-radius:999px;padding:0 var(--s3);background:transparent;color:inherit;white-space:nowrap}
+.focus{margin-left:auto;flex:none;height:var(--pill);min-width:32px;font-size:var(--fs-caption);font-weight:500;border:1px solid currentColor;border-radius:999px;padding:0 var(--s3);background:transparent;color:inherit;white-space:nowrap}
 .body{padding:var(--s3) var(--s4) var(--s4);display:flex;flex-direction:column;gap:var(--s2)}
 .scoreline{display:flex;align-items:baseline;justify-content:space-between;gap:var(--s3)}.game.pre .scoreline{display:none}.score{font-size:var(--fs-score);font-weight:600;line-height:1}.dash{color:var(--faint);padding:0 .1em}.status{font-weight:600;color:var(--muted)}
 .game.live .status{color:var(--live)}.game.live .scoreline .status::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--live);margin-right:6px;animation:pulse 1.4s infinite}
@@ -974,15 +1003,15 @@ dl{display:grid;grid-template-columns:max-content 1fr;gap:var(--s1) var(--s3);ma
 .rk{font-size:var(--fs-caption);color:var(--muted);font-weight:600}
 .links{font-size:var(--fs-md);margin:0;line-height:1.7}
 .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r2);background:var(--surface);box-shadow:var(--lift)}
-table{border-collapse:collapse;width:100%;font-size:var(--fs-body)}th,td{padding:var(--s2) var(--s3);border-bottom:1px solid var(--line);text-align:center;white-space:nowrap}th{background:var(--surface2);font-weight:600;font-size:var(--fs-caption);text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
-tbody tr:last-child td{border-bottom:0}td.lead,td:first-child,th:first-child{text-align:left}table.sched th,table.sched td{text-align:left}td img,dd img,.badge img{height:20px;width:20px;object-fit:contain;vertical-align:-4px;margin-right:var(--s1)}
+table{border-collapse:collapse;width:100%;font-size:var(--fs-body)}th,td{padding:var(--s2) var(--s3);border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}th{background:var(--surface2);font-weight:600;font-size:var(--fs-caption);color:var(--muted)}th.num,td.num{text-align:right}
+tbody tr:last-child td{border-bottom:0}td img,dd img,.badge img{height:20px;width:20px;object-fit:contain;vertical-align:-4px;margin-right:var(--s1)}
 tr.w td.res{color:var(--pos);font-weight:600}tr.l td.res{color:var(--neg);font-weight:600}tr.live td.res{color:var(--live);font-weight:600}td.loc{white-space:normal;min-width:160px;color:var(--muted);font-size:var(--fs-sm)}td.next{white-space:normal;min-width:220px}td.lk{font-size:var(--fs-sm)}
 td.npi{font-weight:600}td.npi.yes{color:var(--pos)}td.npi.no{color:var(--muted)}td.npi.tbd{color:var(--muted)}td.npi .why{display:block;font-weight:400;font-size:var(--fs-xs);color:var(--muted);white-space:normal;min-width:110px}
 .chip.npi.yes{color:var(--pos)}.chip.npi.no{color:var(--muted)}
 table.poll tr.miaa td{font-weight:600}
 .tabs{display:flex;flex-wrap:wrap;gap:var(--s2);margin-bottom:var(--s3)}.tab{height:var(--pill);border:1px solid var(--ctl-line);background:var(--surface);color:var(--ink);border-radius:999px;padding:0 var(--s4);font-size:var(--fs-base)}.tab.active{background:var(--team,var(--ink));color:var(--on-team);border-color:transparent;font-weight:600}
 .teamplayers{margin-bottom:var(--s5)}.teamplayers h3{margin-top:0}.players{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:var(--s3)}
-.player{display:flex;gap:var(--s3);align-items:center;min-width:0;background:var(--surface);border:1px solid var(--line);border-radius:var(--r2);box-shadow:var(--lift);padding:var(--s3)}.player .label{display:block;font-size:var(--fs-xs);text-transform:uppercase;letter-spacing:.06em;color:var(--team);font-weight:600}
+.player{display:flex;gap:var(--s3);align-items:center;min-width:0;background:var(--surface);border:1px solid var(--line);border-radius:var(--r2);box-shadow:var(--lift);padding:var(--s3)}.player .label{display:block;font-size:var(--fs-xs);color:var(--team);font-weight:600}
 .face{width:48px;height:48px;border-radius:50%;object-fit:cover;background:var(--surface2);flex:none}.initials{display:inline-flex;align-items:center;justify-content:center;font-weight:600;font-size:var(--fs-base)}
 .player>div{min-width:0}.pname{font-weight:600;line-height:1.2}.psub{font-size:var(--fs-sm);color:var(--muted)}.pline{font-size:var(--fs-md);margin-top:2px}
 .gone{margin:var(--s3) 0 0}
@@ -996,6 +1025,9 @@ details.poll{margin-top:var(--s3)}details.poll summary{cursor:pointer;color:var(
 footer{margin-top:var(--s6);font-size:var(--fs-sm);color:var(--muted);line-height:1.6}
 @media (max-width:640px){h1{font-size:var(--fs-h2)}:root{--fs-score:var(--fs-h2);--fs-big:var(--fs-h2)}main{padding-top:var(--s4)}.search input{min-width:0;width:100%}.search{width:100%}}
 thead th[aria-sort]{cursor:pointer;user-select:none}thead th[aria-sort]::after{content:"";display:inline-block;width:.9em;color:var(--faint,var(--muted))}thead th[aria-sort="ascending"]::after{content:"\25B4"}thead th[aria-sort="descending"]::after{content:"\25BE"}
+thead th.num[aria-sort]::before{content:"";display:inline-block;width:.9em;color:var(--faint,var(--muted))}thead th.num[aria-sort="ascending"]::before{content:"\25B4"}thead th.num[aria-sort="descending"]::before{content:"\25BE"}thead th.num[aria-sort]::after{content:none}
+@media (max-width:600px){:root{--control-h:44px;--pill:44px}.seg{height:auto}.seg button{min-height:44px}}
+@media (prefers-reduced-motion:reduce){.livepill i,.game.live .scoreline .status::before{animation:none}}
 """
 
 JS = r"""
