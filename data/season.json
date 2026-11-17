@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-17T07:47:09-06:00",
+ "fetched_at": "2026-11-17T13:40:29-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -887,7 +887,7 @@
      "pa": 340,
      "record": "0-4",
      "conf_record": "0-0",
-     "fetched": "2026-11-17T07:47:09-06:00"
+     "fetched": "2026-11-17T13:40:29-06:00"
     },
     "albion": {
      "games": [
@@ -1681,7 +1681,7 @@
      "pa": 343,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-17T07:47:09-06:00"
+     "fetched": "2026-11-17T13:40:29-06:00"
     },
     "alma": {
      "games": [
@@ -2553,7 +2553,7 @@
      "pa": 221,
      "record": "1-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-17T07:47:09-06:00"
+     "fetched": "2026-11-17T13:40:29-06:00"
     },
     "calvin": {
      "games": [
@@ -3351,7 +3351,7 @@
      "pa": 230,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-17T07:47:09-06:00"
+     "fetched": "2026-11-17T13:40:29-06:00"
     },
     "hope": {
      "games": [
@@ -4191,7 +4191,7 @@
      "pa": 184,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-17T07:47:09-06:00"
+     "fetched": "2026-11-17T13:40:29-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -4294,7 +4294,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://dustars.com/watch/?Live=732&type=Live",
+        "live_stats": "https://dustars.com/sidearmstats/mbball/summary"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/dom/mbball/game.json"
@@ -5025,7 +5028,7 @@
      "pa": 149,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-17T07:47:09-06:00"
+     "fetched": "2026-11-17T13:40:29-06:00"
     },
     "olivet": {
      "games": [
@@ -5134,10 +5137,14 @@
        "pa": null,
        "status": "",
        "links": {
-        "live_stats": "https://www.olivetcomets.com/links/uu6d9y",
-        "tickets": "https://www.olivetcomets.com/links/wan56m"
+        "live_stats": "https://svsucardinals.com/sidearmstats/mbball/summary",
+        "tickets": "https://www.olivetcomets.com/links/wan56m",
+        "live_stats_short": "https://www.olivetcomets.com/links/uu6d9y"
        },
-       "live_feed": null
+       "live_feed": {
+        "type": "sidearm",
+        "url": "https://sidearmstats.com/saginawvalleystate/mbball/game.json"
+       }
       },
       {
        "id": "olivet-mbb-dmn52nay9ytt5avl",
@@ -5880,7 +5887,7 @@
      "pa": 207,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-17T07:47:09-06:00"
+     "fetched": "2026-11-17T13:40:29-06:00"
     },
     "trine": {
      "games": [
@@ -6665,7 +6672,7 @@
      "pa": 285,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-17T07:47:09-06:00"
+     "fetched": "2026-11-17T13:40:29-06:00"
     }
    },
    "poll": {
@@ -8283,7 +8290,7 @@
      "pa": 216,
      "record": "1-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-17T07:47:09-06:00"
+     "fetched": "2026-11-17T13:40:29-06:00"
     },
     "albion": {
      "games": [
@@ -9070,7 +9077,7 @@
      "pa": 172,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-17T07:47:09-06:00"
+     "fetched": "2026-11-17T13:40:29-06:00"
     },
     "alma": {
      "games": [
@@ -9902,7 +9909,7 @@
      "pa": 265,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-17T07:47:09-06:00"
+     "fetched": "2026-11-17T13:40:29-06:00"
     },
     "calvin": {
      "games": [
@@ -10688,7 +10695,7 @@
      "pa": 210,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-17T07:47:09-06:00"
+     "fetched": "2026-11-17T13:40:29-06:00"
     },
     "hope": {
      "games": [
@@ -11513,7 +11520,7 @@
      "pa": 249,
      "record": "4-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-17T07:47:09-06:00"
+     "fetched": "2026-11-17T13:40:29-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12323,7 +12330,7 @@
      "pa": 52,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-17T07:47:09-06:00"
+     "fetched": "2026-11-17T13:40:29-06:00"
     },
     "olivet": {
      "games": [
@@ -13142,7 +13149,7 @@
      "pa": 135,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-17T07:47:09-06:00"
+     "fetched": "2026-11-17T13:40:29-06:00"
     },
     "saintmarys": {
      "games": [
@@ -13275,7 +13282,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.youtube.com/cucsports",
+        "live_stats": "https://www.statbroadcast.com/events/statbroadcast.php?gid=coil"
+       },
        "live_feed": null
       },
       {
@@ -13359,7 +13369,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.youtube.com/@CalvinKnights",
+        "live_stats": "https://calvinknights.com/sidearmstats/wbball/summary"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/calvinu/wbball/game.json"
@@ -13386,7 +13399,11 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://youtube.com/hopeathletics",
+        "live_stats": "https://athletics.hope.edu/sidearmstats/wbball/summary",
+        "tickets": "http://hopecollege.vbotickets.com/event/womens_basketball_vs_saint_marys/202411"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/hopecollege/wbball/game.json"
@@ -13443,8 +13460,14 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
-       "live_feed": null
+       "links": {
+        "video": "https://goearlham.com/sports/2022/4/20/live-video-homepage.aspx",
+        "live_stats": "https://goearlham.com/sidearmstats/wbball/summary"
+       },
+       "live_feed": {
+        "type": "sidearm",
+        "url": "https://sidearmstats.com/earlham/wbball/game.json"
+       }
       },
       {
        "id": "saintmarys-wbb-2465",
@@ -13545,10 +13568,14 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.olivetcomets.com/links/v1ickm",
+        "live_stats": "https://prestolivestats.com/9qop6oeabjj3n7bn/zpe27xexpewrim27",
+        "tickets": "https://www.olivetcomets.com/tickets"
+       },
        "live_feed": {
         "type": "presto",
-        "url": "https://data.prestolivestats.com/xml/9qop6oeabjj3n7bn/events/qkvmc8wkq7e2xa5n.xml"
+        "url": "https://data.prestolivestats.com/xml/9qop6oeabjj3n7bn/events/zpe27xexpewrim27.xml"
        }
       },
       {
@@ -13602,7 +13629,11 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.miaasportsnetwork.com/acscots/",
+        "live_stats": "https://almascots.com/sidearmstats/wbball/summary",
+        "tickets": "https://almascots.com/sports/2023/5/9/information-tickets.aspx"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/alma/wbball/game.json"
@@ -13659,10 +13690,14 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.youtube.com/@AdrianCollegeTV",
+        "live_stats": "https://adrianbulldogs.com/sidearmstats/wbball/summary",
+        "tickets": "https://adrianbulldogs.com/sports/2022/8/8/ticketing?&openTarget=system"
+       },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/adri/wbball/game.json"
+        "url": "https://sidearmstats.com/adrian/wbball/game.json"
        }
       },
       {
@@ -13686,7 +13721,9 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.miaasportsnetwork.com/acbrits/"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/albi/wbball/game.json"
@@ -13773,8 +13810,14 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
-       "live_feed": null
+       "links": {
+        "video": "https://athletics.alverno.edu/sports/2026/7/31/alverno-athletics-broadcasts-on-hudl-tv.aspx",
+        "live_stats": "https://athletics.alverno.edu/sidearmstats/wbball/summary"
+       },
+       "live_feed": {
+        "type": "sidearm",
+        "url": "https://sidearmstats.com/alverno/wbball/game.json"
+       }
       },
       {
        "id": "saintmarys-wbb-2461",
@@ -13797,7 +13840,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.miaasportsnetwork.com/tuthunder/",
+        "live_stats": "https://trinethunder.com/sidearmstats/wbball/"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/trine/wbball/game.json"
@@ -13854,7 +13900,11 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.youtube.com/khornets",
+        "live_stats": "https://hornets.kzoo.edu/sidearmstats/wbball/",
+        "tickets": "https://kzoo.universitytickets.com/"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/kalamazoo/wbball/game.json"
@@ -13982,7 +14032,7 @@
      "pa": 127,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-17T07:47:09-06:00"
+     "fetched": "2026-11-17T13:40:29-06:00"
     },
     "trine": {
      "games": [
@@ -14774,7 +14824,7 @@
      "pa": 96,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-17T07:47:09-06:00"
+     "fetched": "2026-11-17T13:40:29-06:00"
     }
    },
    "poll": {
