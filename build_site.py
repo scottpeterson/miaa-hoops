@@ -29,12 +29,17 @@ SITE_NAME = "MIAA Hoops Dashboard"
 # Crosse", "Washington U."), so every non-member name a reader sees goes through
 # display_name(). Matching keeps the source spellings: only the text changes.
 # A name the package does not know (NAIA and junior colleges) shows as written.
+# A build without the package used to fall back to source names silently, and a
+# local build pushed raw names to the live page on 2026-11-17. Stop instead.
 try:
     from d3_schools import SchoolRegistry
+except ImportError:
+    raise SystemExit(
+        "build_site.py needs the d3-schools package for canonical team names. Run it with\n"
+        '  uv run --with "d3-schools @ git+https://github.com/scottpeterson/d3-schools-utilities.git" python3 build_site.py'
+    )
 
-    _REGISTRY = SchoolRegistry()
-except ImportError:  # building without the package keeps the source names
-    _REGISTRY = None
+_REGISTRY = SchoolRegistry()
 
 
 def display_name(name):
