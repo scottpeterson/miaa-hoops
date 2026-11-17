@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-17T07:45:18-06:00",
+ "fetched_at": "2026-11-17T13:38:33-06:00",
  "teams": {
   "olivet-mbb": {
    "games": [
@@ -108,8 +108,9 @@
      "pa": null,
      "status": "",
      "links": {
-      "live_stats": "https://www.olivetcomets.com/links/uu6d9y",
-      "tickets": "https://www.olivetcomets.com/links/wan56m"
+      "live_stats": "https://svsucardinals.com/sidearmstats/mbball/summary",
+      "tickets": "https://www.olivetcomets.com/links/wan56m",
+      "live_stats_short": "https://www.olivetcomets.com/links/uu6d9y"
      },
      "live_feed": null
     },
