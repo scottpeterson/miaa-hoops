@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-18T17:40:11-06:00",
+ "fetched_at": "2026-11-18T18:12:09-06:00",
  "teams": {
   "olivet-mbb": {
    "games": [
@@ -898,8 +898,9 @@
      "pa": null,
      "status": "",
      "links": {
-      "live_stats": "https://www.olivetcomets.com/links/8y3nxc",
-      "video": "https://www.olivetcomets.com/links/ujdz1x"
+      "live_stats": "https://benueagles.com/sidearmstats/wbball/summary",
+      "video": "https://www.olivetcomets.com/links/ujdz1x",
+      "live_stats_short": "https://www.olivetcomets.com/links/8y3nxc"
      },
      "live_feed": null
     },
