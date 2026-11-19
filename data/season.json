@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-19T07:07:06-06:00",
+ "fetched_at": "2026-11-19T13:00:44-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -883,7 +883,7 @@
      "pa": 401,
      "record": "0-5",
      "conf_record": "0-0",
-     "fetched": "2026-11-19T07:07:06-06:00"
+     "fetched": "2026-11-19T13:00:44-06:00"
     },
     "albion": {
      "games": [
@@ -1677,7 +1677,7 @@
      "pa": 343,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-19T07:07:06-06:00"
+     "fetched": "2026-11-19T13:00:44-06:00"
     },
     "alma": {
      "games": [
@@ -1873,7 +1873,7 @@
        "links": {
         "video": "https://www.miaasportsnetwork.com/acscots/",
         "live_stats": "https://almascots.com/sidearmstats/mbball/summary",
-        "tickets": "https://almascots.com/sports/2023/5/9/information-tickets.aspx"
+        "tickets": "https://events.hometownticketing.com/boxoffice/alma/L2VtYmVkL2V2ZW50LzY0Nz9zaW5nbGU9MQ%3D%3D"
        },
        "live_feed": {
         "type": "sidearm",
@@ -1904,7 +1904,7 @@
        "links": {
         "video": "https://www.miaasportsnetwork.com/acscots/",
         "live_stats": "https://almascots.com/sidearmstats/mbball/summary",
-        "tickets": "https://almascots.com/sports/2023/5/9/information-tickets.aspx"
+        "tickets": "https://events.hometownticketing.com/boxoffice/alma/L2VtYmVkL2V2ZW50LzY0OD9zaW5nbGU9MQ%3D%3D"
        },
        "live_feed": {
         "type": "sidearm",
@@ -1934,7 +1934,8 @@
        "status": "",
        "links": {
         "video": "https://wiacnetwork.com/whitewater",
-        "live_stats": "http://www.sidearmstats.com/uww/mbball/"
+        "live_stats": "http://www.sidearmstats.com/uww/mbball/",
+        "tickets": "https://uwwsports.com/sports/2024/8/5/gameday-central-williams%20center.aspx"
        },
        "live_feed": {
         "type": "sidearm",
@@ -1964,7 +1965,8 @@
        "status": "",
        "links": {
         "video": "https://www.flocollege.com/signup?msclkid=aac209155c471546335563f581d29847&utm_campaign=flocollegebranded&utm_content=signup&utm_medium=ppc&utm_source=bing&utm_term=1139095818671026.c.flocollege+streaming",
-        "live_stats": "https://wilmingtonquakers.com/sidearmstats/mbball/summary"
+        "live_stats": "https://wilmingtonquakers.com/sidearmstats/mbball/summary",
+        "tickets": "https://events.hometownticketing.com/organization/8c1ac689-36fb-4e59-8531-efc7cca87b3f"
        },
        "live_feed": {
         "type": "sidearm",
@@ -1995,7 +1997,7 @@
        "links": {
         "video": "https://www.miaasportsnetwork.com/acscots/",
         "live_stats": "https://almascots.com/sidearmstats/mbball/summary",
-        "tickets": "https://almascots.com/sports/2023/5/9/information-tickets.aspx"
+        "tickets": "https://events.hometownticketing.com/boxoffice/alma/L2VtYmVkL2V2ZW50LzY0OT9zaW5nbGU9MQ%3D%3D"
        },
        "live_feed": {
         "type": "sidearm",
@@ -2026,7 +2028,7 @@
        "links": {
         "video": "https://www.miaasportsnetwork.com/acscots/",
         "live_stats": "https://almascots.com/sidearmstats/mbball/summary",
-        "tickets": "https://almascots.com/sports/2023/5/9/information-tickets.aspx"
+        "tickets": "https://events.hometownticketing.com/boxoffice/alma/L2VtYmVkL2V2ZW50LzY1MD9zaW5nbGU9MQ%3D%3D"
        },
        "live_feed": {
         "type": "sidearm",
@@ -2057,7 +2059,7 @@
        "links": {
         "video": "https://www.miaasportsnetwork.com/acscots/",
         "live_stats": "https://almascots.com/sidearmstats/mbball/summary",
-        "tickets": "https://almascots.com/sports/2023/5/9/information-tickets.aspx"
+        "tickets": "https://events.hometownticketing.com/boxoffice/alma/L2VtYmVkL2V2ZW50LzY1MT9zaW5nbGU9MQ%3D%3D"
        },
        "live_feed": {
         "type": "sidearm",
@@ -2087,7 +2089,8 @@
        "status": "",
        "links": {
         "video": "https://www.olivetcomets.com/links/v1ickm",
-        "live_stats": "https://prestolivestats.com/ya5s58navki9037d/ix6n5ejkmq1b68xg"
+        "live_stats": "https://prestolivestats.com/ya5s58navki9037d/ix6n5ejkmq1b68xg",
+        "tickets": "https://events.hometownticketing.com/boxoffice/olivet/L2VtYmVkL2V2ZW50LzU0NQ%3D%3D"
        },
        "live_feed": {
         "type": "presto",
@@ -2117,7 +2120,8 @@
        "status": "",
        "links": {
         "video": "https://youtube.com/hopeathletics",
-        "live_stats": "https://athletics.hope.edu/sidearmstats/mbball/summary"
+        "live_stats": "https://athletics.hope.edu/sidearmstats/mbball/summary",
+        "tickets": "https://hope.edu/offices/events-conferences/tickets/index.html?_gl=1*1m81kiq*_gcl_au*NjIxODE4My4xNzg5NTgwMjA4*_ga*MjAyNjQxODM1OC4xNzg5NTAyNjU0*_ga_RF3LGY13Y9*czE3OTUxMTA5MjkkbzI4JGcxJHQxNzk1MTExNTU4JGo0OCRsMCRoMA.."
        },
        "live_feed": {
         "type": "sidearm",
@@ -2148,7 +2152,7 @@
        "links": {
         "video": "https://www.miaasportsnetwork.com/acscots/",
         "live_stats": "https://almascots.com/sidearmstats/mbball/summary",
-        "tickets": "https://almascots.com/sports/2023/5/9/information-tickets.aspx"
+        "tickets": "https://events.hometownticketing.com/boxoffice/alma/L2VtYmVkL2V2ZW50LzY1Mj9zaW5nbGU9MQ%3D%3D"
        },
        "live_feed": {
         "type": "sidearm",
@@ -2179,7 +2183,7 @@
        "links": {
         "video": "https://www.miaasportsnetwork.com/acscots/",
         "live_stats": "https://almascots.com/sidearmstats/mbball/summary",
-        "tickets": "https://almascots.com/sports/2023/5/9/information-tickets.aspx"
+        "tickets": "https://events.hometownticketing.com/boxoffice/alma/L2VtYmVkL2V2ZW50LzY1Mz9zaW5nbGU9MQ%3D%3D"
        },
        "live_feed": {
         "type": "sidearm",
@@ -2207,10 +2211,14 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.youtube.com/channel/UC5R-AnML-8yPgzn3rwHqIbA",
+        "live_stats": "https://adrianbulldogs.com/sidearmstats/mbball/summary",
+        "tickets": "https://events.hometownticketing.com/boxoffice/adriancollege/L2VtYmVkL2V2ZW50LzkyMA%3D%3D"
+       },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/adri/mbball/game.json"
+        "url": "https://sidearmstats.com/adrian/mbball/game.json"
        }
       },
       {
@@ -2236,7 +2244,8 @@
        "status": "",
        "links": {
         "video": "https://www.miaasportsnetwork.com/tuthunder/",
-        "live_stats": "https://trinethunder.com/sidearmstats/mbball/"
+        "live_stats": "https://trinethunder.com/sidearmstats/mbball/",
+        "tickets": "https://trinethunder.com/sports/2024/5/30/information-ticket-info.aspx"
        },
        "live_feed": {
         "type": "sidearm",
@@ -2267,7 +2276,7 @@
        "links": {
         "video": "https://www.miaasportsnetwork.com/acscots/",
         "live_stats": "https://almascots.com/sidearmstats/mbball/summary",
-        "tickets": "https://almascots.com/sports/2023/5/9/information-tickets.aspx"
+        "tickets": "https://events.hometownticketing.com/boxoffice/alma/L2VtYmVkL2V2ZW50LzY1ND9zaW5nbGU9MQ%3D%3D"
        },
        "live_feed": {
         "type": "sidearm",
@@ -2298,7 +2307,7 @@
        "links": {
         "video": "https://www.miaasportsnetwork.com/acscots/",
         "live_stats": "https://almascots.com/sidearmstats/mbball/summary",
-        "tickets": "https://almascots.com/sports/2023/5/9/information-tickets.aspx"
+        "tickets": "https://events.hometownticketing.com/boxoffice/alma/L2VtYmVkL2V2ZW50LzY1NT9zaW5nbGU9MQ%3D%3D"
        },
        "live_feed": {
         "type": "sidearm",
@@ -2327,7 +2336,8 @@
        "pa": null,
        "status": "",
        "links": {
-        "video": "https://www.miaasportsnetwork.com/acbrits/"
+        "video": "https://www.miaasportsnetwork.com/acbrits/",
+        "tickets": "https://events.hometownticketing.com/boxoffice/acbritons/L2VtYmVkL2V2ZW50LzI2NQ%3D%3D"
        },
        "live_feed": {
         "type": "sidearm",
@@ -2358,7 +2368,7 @@
        "links": {
         "video": "https://www.miaasportsnetwork.com/acscots/",
         "live_stats": "https://almascots.com/sidearmstats/mbball/summary",
-        "tickets": "https://almascots.com/sports/2023/5/9/information-tickets.aspx"
+        "tickets": "https://events.hometownticketing.com/boxoffice/alma/L2VtYmVkL2V2ZW50LzY1Nj9zaW5nbGU9MQ%3D%3D"
        },
        "live_feed": {
         "type": "sidearm",
@@ -2388,7 +2398,8 @@
        "status": "",
        "links": {
         "video": "https://www.youtube.com/@CalvinKnights",
-        "live_stats": "https://calvinknights.com/sidearmstats/mbball/summary"
+        "live_stats": "https://calvinknights.com/sidearmstats/mbball/summary",
+        "tickets": "https://calvin.edu/event-services/box-office"
        },
        "live_feed": {
         "type": "sidearm",
@@ -2518,7 +2529,7 @@
      "pa": 291,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-19T07:07:06-06:00"
+     "fetched": "2026-11-19T13:00:44-06:00"
     },
     "calvin": {
      "games": [
@@ -3316,7 +3327,7 @@
      "pa": 230,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-19T07:07:06-06:00"
+     "fetched": "2026-11-19T13:00:44-06:00"
     },
     "hope": {
      "games": [
@@ -4153,7 +4164,7 @@
      "pa": 258,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-19T07:07:06-06:00"
+     "fetched": "2026-11-19T13:00:44-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -4987,7 +4998,7 @@
      "pa": 230,
      "record": "1-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-19T07:07:06-06:00"
+     "fetched": "2026-11-19T13:00:44-06:00"
     },
     "olivet": {
      "games": [
@@ -5846,7 +5857,7 @@
      "pa": 207,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-19T07:07:06-06:00"
+     "fetched": "2026-11-19T13:00:44-06:00"
     },
     "trine": {
      "games": [
@@ -6628,7 +6639,7 @@
      "pa": 380,
      "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-19T07:07:06-06:00"
+     "fetched": "2026-11-19T13:00:44-06:00"
     }
    },
    "poll": {
@@ -8242,7 +8253,7 @@
      "pa": 278,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-19T07:07:06-06:00"
+     "fetched": "2026-11-19T13:00:44-06:00"
     },
     "albion": {
      "games": [
@@ -9029,7 +9040,7 @@
      "pa": 172,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-19T07:07:06-06:00"
+     "fetched": "2026-11-19T13:00:44-06:00"
     },
     "alma": {
      "games": [
@@ -9165,7 +9176,7 @@
        "links": {
         "video": "https://www.miaasportsnetwork.com/acscots/",
         "live_stats": "https://almascots.com/sidearmstats/wbball/summary",
-        "tickets": "https://almascots.com/sports/2023/5/9/information-tickets.aspx"
+        "tickets": "https://events.hometownticketing.com/boxoffice/alma/L2VtYmVkL2V2ZW50LzY1Nz9zaW5nbGU9MQ%3D%3D"
        },
        "live_feed": {
         "type": "sidearm",
@@ -9196,7 +9207,7 @@
        "links": {
         "video": "https://www.miaasportsnetwork.com/acscots/",
         "live_stats": "https://almascots.com/sidearmstats/wbball/summary",
-        "tickets": "https://almascots.com/sports/2023/5/9/information-tickets.aspx"
+        "tickets": "https://events.hometownticketing.com/boxoffice/alma/L2VtYmVkL2V2ZW50LzY1OD9zaW5nbGU9MQ%3D%3D"
        },
        "live_feed": {
         "type": "sidearm",
@@ -9227,7 +9238,7 @@
        "links": {
         "video": "https://www.miaasportsnetwork.com/acscots/",
         "live_stats": "https://almascots.com/sidearmstats/wbball/summary",
-        "tickets": "https://almascots.com/sports/2023/5/9/information-tickets.aspx"
+        "tickets": "https://events.hometownticketing.com/boxoffice/alma/L2VtYmVkL2V2ZW50LzY1OT9zaW5nbGU9MQ%3D%3D"
        },
        "live_feed": {
         "type": "sidearm",
@@ -9255,10 +9266,14 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.youtube.com/@AdrianCollegeTV",
+        "live_stats": "https://adrianbulldogs.com/sidearmstats/wbball/summary",
+        "tickets": "https://adrianbulldogs.com/sports/2022/8/8/ticketing?&openTarget=system"
+       },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/adri/wbball/game.json"
+        "url": "https://sidearmstats.com/adrian/wbball/game.json"
        }
       },
       {
@@ -9285,7 +9300,7 @@
        "links": {
         "video": "https://www.miaasportsnetwork.com/acscots/",
         "live_stats": "https://almascots.com/sidearmstats/wbball/summary",
-        "tickets": "https://almascots.com/sports/2023/5/9/information-tickets.aspx"
+        "tickets": "https://events.hometownticketing.com/boxoffice/alma/L2VtYmVkL2V2ZW50LzY2MD9zaW5nbGU9MQ%3D%3D"
        },
        "live_feed": {
         "type": "sidearm",
@@ -9369,7 +9384,7 @@
        "links": {
         "video": "https://www.miaasportsnetwork.com/acscots/",
         "live_stats": "https://almascots.com/sidearmstats/wbball/summary",
-        "tickets": "https://almascots.com/sports/2023/5/9/information-tickets.aspx"
+        "tickets": "https://events.hometownticketing.com/boxoffice/alma/L2VtYmVkL2V2ZW50LzY2MT9zaW5nbGU9MQ%3D%3D"
        },
        "live_feed": {
         "type": "sidearm",
@@ -9399,7 +9414,8 @@
        "status": "",
        "links": {
         "video": "https://www.youtube.com/@CalvinKnights",
-        "live_stats": "https://calvinknights.com/sidearmstats/wbball/summary"
+        "live_stats": "https://calvinknights.com/sidearmstats/wbball/summary",
+        "tickets": "https://calvin.edu/event-services/box-office"
        },
        "live_feed": {
         "type": "sidearm",
@@ -9429,7 +9445,8 @@
        "status": "",
        "links": {
         "video": "https://www.miaasportsnetwork.com/tuthunder/",
-        "live_stats": "https://trinethunder.com/sidearmstats/wbball/"
+        "live_stats": "https://trinethunder.com/sidearmstats/wbball/",
+        "tickets": "https://trinethunder.com/sports/2024/5/30/information-ticket-info.aspx"
        },
        "live_feed": {
         "type": "sidearm",
@@ -9460,7 +9477,7 @@
        "links": {
         "video": "https://www.miaasportsnetwork.com/acscots/",
         "live_stats": "https://almascots.com/sidearmstats/wbball/summary",
-        "tickets": "https://almascots.com/sports/2023/5/9/information-tickets.aspx"
+        "tickets": "https://events.hometownticketing.com/boxoffice/alma/L2VtYmVkL2V2ZW50LzY2Mj9zaW5nbGU9MQ%3D%3D"
        },
        "live_feed": {
         "type": "sidearm",
@@ -9489,7 +9506,8 @@
        "pa": null,
        "status": "",
        "links": {
-        "video": "https://www.miaasportsnetwork.com/acbrits/"
+        "video": "https://www.miaasportsnetwork.com/acbrits/",
+        "tickets": "https://events.hometownticketing.com/boxoffice/acbritons/L2VtYmVkL2V2ZW50LzI3OA%3D%3D"
        },
        "live_feed": {
         "type": "sidearm",
@@ -9551,7 +9569,7 @@
        "links": {
         "video": "https://www.miaasportsnetwork.com/acscots/",
         "live_stats": "https://almascots.com/sidearmstats/wbball/summary",
-        "tickets": "https://almascots.com/sports/2023/5/9/information-tickets.aspx"
+        "tickets": "https://events.hometownticketing.com/boxoffice/alma/L2VtYmVkL2V2ZW50LzY2Mz9zaW5nbGU9MQ%3D%3D"
        },
        "live_feed": {
         "type": "sidearm",
@@ -9582,7 +9600,7 @@
        "links": {
         "video": "https://www.miaasportsnetwork.com/acscots/",
         "live_stats": "https://almascots.com/sidearmstats/wbball/summary",
-        "tickets": "https://almascots.com/sports/2023/5/9/information-tickets.aspx"
+        "tickets": "https://events.hometownticketing.com/boxoffice/alma/L2VtYmVkL2V2ZW50LzY2ND9zaW5nbGU9MQ%3D%3D"
        },
        "live_feed": {
         "type": "sidearm",
@@ -9612,7 +9630,8 @@
        "status": "",
        "links": {
         "video": "https://miaasportsnetwork.com/tuocomets/",
-        "live_stats": "https://prestolivestats.com/9qop6oeabjj3n7bn/lg2uca9mcj8jupht"
+        "live_stats": "https://prestolivestats.com/9qop6oeabjj3n7bn/lg2uca9mcj8jupht",
+        "tickets": "https://events.hometownticketing.com/boxoffice/olivet/L2VtYmVkL2V2ZW50LzUzOA%3D%3D"
        },
        "live_feed": {
         "type": "presto",
@@ -9642,7 +9661,8 @@
        "status": "",
        "links": {
         "video": "https://www.youtube.com/hopeathletics",
-        "live_stats": "https://athletics.hope.edu/sidearmstats/wbball/summary"
+        "live_stats": "https://athletics.hope.edu/sidearmstats/wbball/summary",
+        "tickets": "https://hope.edu/offices/events-conferences/tickets/index.html?_gl=1*bk978i*_gcl_au*NjIxODE4My4xNzg5NTgwMjA4*_ga*MjAyNjQxODM1OC4xNzg5NTAyNjU0*_ga_RF3LGY13Y9*czE3OTUxMTA5MjkkbzI4JGcxJHQxNzk1MTExNTQ3JGo1OSRsMCRoMA.."
        },
        "live_feed": {
         "type": "sidearm",
@@ -9673,7 +9693,7 @@
        "links": {
         "video": "https://www.miaasportsnetwork.com/acscots/",
         "live_stats": "https://almascots.com/sidearmstats/wbball/summary",
-        "tickets": "https://almascots.com/sports/2023/5/9/information-tickets.aspx"
+        "tickets": "https://events.hometownticketing.com/boxoffice/alma/L2VtYmVkL2V2ZW50LzY2NT9zaW5nbGU9MQ%3D%3D"
        },
        "live_feed": {
         "type": "sidearm",
@@ -9701,7 +9721,11 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.miaasportsnetwork.com/smcbelles/",
+        "live_stats": "https://belles.saintmarys.edu/sidearmstats/wbball/summary",
+        "tickets": "https://belles.saintmarys.edu/sports/2025/7/28/information-game-day-information.aspx"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/smcind/wbball/game.json"
@@ -9731,7 +9755,7 @@
        "links": {
         "video": "https://www.miaasportsnetwork.com/acscots/",
         "live_stats": "https://almascots.com/sidearmstats/wbball/summary",
-        "tickets": "https://almascots.com/sports/2023/5/9/information-tickets.aspx"
+        "tickets": "https://events.hometownticketing.com/boxoffice/alma/L2VtYmVkL2V2ZW50LzY2Nj9zaW5nbGU9MQ%3D%3D"
        },
        "live_feed": {
         "type": "sidearm",
@@ -9762,7 +9786,7 @@
        "links": {
         "video": "https://www.miaasportsnetwork.com/acscots/",
         "live_stats": "https://almascots.com/sidearmstats/wbball/summary",
-        "tickets": "https://almascots.com/sports/2023/5/9/information-tickets.aspx"
+        "tickets": "https://events.hometownticketing.com/boxoffice/alma/L2VtYmVkL2V2ZW50LzY2Nz9zaW5nbGU9MQ%3D%3D"
        },
        "live_feed": {
         "type": "sidearm",
@@ -9861,7 +9885,7 @@
      "pa": 265,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-19T07:07:06-06:00"
+     "fetched": "2026-11-19T13:00:44-06:00"
     },
     "calvin": {
      "games": [
@@ -9994,8 +10018,13 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
-       "live_feed": null
+       "links": {
+        "live_stats": "https://letsgopioneers.com/sidearmstats/wbball/summary"
+       },
+       "live_feed": {
+        "type": "sidearm",
+        "url": "https://sidearmstats.com/uwplatteville/wbball/game.json"
+       }
       },
       {
        "id": "calvin-wbb-9239",
@@ -10647,7 +10676,7 @@
      "pa": 210,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-19T07:07:06-06:00"
+     "fetched": "2026-11-19T13:00:44-06:00"
     },
     "hope": {
      "games": [
@@ -10780,10 +10809,12 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "live_stats": "https://athletics.mountunion.edu/sidearmstats/wbball/summary"
+       },
        "live_feed": {
         "type": "sidearm",
-        "url": "https://sidearmstats.com/hopecollege/wbball/game.json"
+        "url": "https://sidearmstats.com/mountunion/wbball/game.json"
        }
       },
       {
@@ -10807,8 +10838,13 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
-       "live_feed": null
+       "links": {
+        "live_stats": "https://athletics.mountunion.edu/sidearmstats/wbball/summary"
+       },
+       "live_feed": {
+        "type": "sidearm",
+        "url": "https://sidearmstats.com/mountunion/wbball/game.json"
+       }
       },
       {
        "id": "hope-wbb-18671",
@@ -11472,7 +11508,7 @@
      "pa": 249,
      "record": "4-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-19T07:07:06-06:00"
+     "fetched": "2026-11-19T13:00:44-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12278,7 +12314,7 @@
      "pa": 115,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-19T07:07:06-06:00"
+     "fetched": "2026-11-19T13:00:44-06:00"
     },
     "olivet": {
      "games": [
@@ -13101,7 +13137,7 @@
      "pa": 135,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-19T07:07:06-06:00"
+     "fetched": "2026-11-19T13:00:44-06:00"
     },
     "saintmarys": {
      "games": [
@@ -13984,7 +14020,7 @@
      "pa": 175,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-19T07:07:06-06:00"
+     "fetched": "2026-11-19T13:00:44-06:00"
     },
     "trine": {
      "games": [
@@ -14776,7 +14812,7 @@
      "pa": 96,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-19T07:07:06-06:00"
+     "fetched": "2026-11-19T13:00:44-06:00"
     }
    },
    "poll": {
@@ -15039,10 +15075,10 @@
     "count": 411,
     "teams": {
      "adrian": {
-      "rank": 236,
-      "npi": 45.958,
-      "rank_change": 21,
-      "bid": "AL-129",
+      "rank": 238,
+      "npi": 45.954,
+      "rank_change": 19,
+      "bid": "AL-121",
       "record": "2-1 qualifying",
       "preseason_rank": 248,
       "returning": "41.33%",
@@ -15051,70 +15087,70 @@
       "median_record": "6-19"
      },
      "albion": {
-      "rank": 38,
-      "npi": 57.47,
-      "rank_change": 33,
-      "bid": "AL-114",
+      "rank": 39,
+      "npi": 57.465,
+      "rank_change": 32,
+      "bid": "AL-97",
       "record": "3-0 qualifying",
       "preseason_rank": 155,
       "returning": "63.30%",
-      "tourney_pct": "0.6%",
+      "tourney_pct": "0.5%",
       "aq_pct": "0.4%",
-      "median_record": "15-11"
+      "median_record": "15-12"
      },
      "alma": {
-      "rank": 133,
-      "npi": 50.769,
+      "rank": 135,
+      "npi": 50.765,
       "rank_change": null,
-      "bid": "AL-129",
+      "bid": "AL-121",
       "record": "2-2 qualifying",
       "preseason_rank": 139,
       "returning": "78.38%",
-      "tourney_pct": "0.1%",
-      "aq_pct": "0.1%",
-      "median_record": "11-14"
+      "tourney_pct": "0.3%",
+      "aq_pct": "0.3%",
+      "median_record": "14-13"
      },
      "calvin": {
-      "rank": 112,
-      "npi": 51.79,
-      "rank_change": 3,
-      "bid": "AL-105",
+      "rank": 115,
+      "npi": 51.769,
+      "rank_change": 0,
+      "bid": "AL-83",
       "record": "2-2 qualifying",
       "preseason_rank": 36,
       "returning": "67.56%",
-      "tourney_pct": "2.0%",
-      "aq_pct": "1.6%",
-      "median_record": "14-11"
+      "tourney_pct": "2.3%",
+      "aq_pct": "1.8%",
+      "median_record": "15-12"
      },
      "hope": {
       "rank": 22,
-      "npi": 59.726,
+      "npi": 59.713,
       "rank_change": null,
-      "bid": "AL-04",
+      "bid": "AL-05",
       "record": "4-0 qualifying",
       "preseason_rank": 5,
       "returning": "79.93%",
-      "tourney_pct": "82.0%",
-      "aq_pct": "27.9%",
-      "median_record": "20-3"
+      "tourney_pct": "92.1%",
+      "aq_pct": "34.1%",
+      "median_record": "23-4"
      },
      "kalamazoo": {
-      "rank": 402,
-      "npi": 30.922,
-      "rank_change": 0,
-      "bid": "AL-129",
+      "rank": 401,
+      "npi": 30.92,
+      "rank_change": 1,
+      "bid": "AL-121",
       "record": "0-1 qualifying",
       "preseason_rank": 253,
       "returning": "68.11%",
       "tourney_pct": "0.0%",
       "aq_pct": "0.0%",
-      "median_record": "9-16"
+      "median_record": "8-17"
      },
      "olivet": {
       "rank": 352,
-      "npi": 38.56,
+      "npi": 38.563,
       "rank_change": null,
-      "bid": "AL-129",
+      "bid": "AL-121",
       "record": "0-1 qualifying",
       "preseason_rank": 332,
       "returning": "48.20%",
@@ -15123,28 +15159,28 @@
       "median_record": "2-23"
      },
      "saintmarys": {
-      "rank": 4,
-      "npi": 63.886,
-      "rank_change": 0,
-      "bid": "AL-129",
+      "rank": 3,
+      "npi": 64.289,
+      "rank_change": 1,
+      "bid": "AL-104",
       "record": "3-0 qualifying",
       "preseason_rank": 271,
       "returning": "78.08%",
-      "tourney_pct": "0.0%",
-      "aq_pct": "0.0%",
-      "median_record": "12-13"
+      "tourney_pct": "0.2%",
+      "aq_pct": "0.1%",
+      "median_record": "15-12"
      },
      "trine": {
-      "rank": 30,
-      "npi": 58.574,
-      "rank_change": 39,
+      "rank": 29,
+      "npi": 58.572,
+      "rank_change": 40,
       "bid": "AQ",
       "record": "2-0 qualifying",
       "preseason_rank": 6,
       "returning": "84.47%",
-      "tourney_pct": "99.3%",
-      "aq_pct": "69.9%",
-      "median_record": "22-2"
+      "tourney_pct": "99.4%",
+      "aq_pct": "63.4%",
+      "median_record": "25-2"
      }
     },
     "d3_teams": [
