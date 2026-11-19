@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-18T18:46:08-06:00",
+ "fetched_at": "2026-11-18T19:18:04-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -887,7 +887,7 @@
      "pa": 340,
      "record": "0-4",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T18:46:08-06:00"
+     "fetched": "2026-11-18T19:18:04-06:00"
     },
     "albion": {
      "games": [
@@ -1681,7 +1681,7 @@
      "pa": 343,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T18:46:08-06:00"
+     "fetched": "2026-11-18T19:18:04-06:00"
     },
     "alma": {
      "games": [
@@ -2526,7 +2526,7 @@
      "pa": 221,
      "record": "1-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T18:46:08-06:00"
+     "fetched": "2026-11-18T19:18:04-06:00"
     },
     "calvin": {
      "games": [
@@ -3324,7 +3324,7 @@
      "pa": 230,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T18:46:08-06:00"
+     "fetched": "2026-11-18T19:18:04-06:00"
     },
     "hope": {
      "games": [
@@ -4161,7 +4161,7 @@
      "pa": 258,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T18:46:08-06:00"
+     "fetched": "2026-11-18T19:18:04-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -4998,7 +4998,7 @@
      "pa": 149,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T18:46:08-06:00"
+     "fetched": "2026-11-18T19:18:04-06:00"
     },
     "olivet": {
      "games": [
@@ -5857,7 +5857,7 @@
      "pa": 207,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T18:46:08-06:00"
+     "fetched": "2026-11-18T19:18:04-06:00"
     },
     "trine": {
      "games": [
@@ -6642,7 +6642,7 @@
      "pa": 285,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T18:46:08-06:00"
+     "fetched": "2026-11-18T19:18:04-06:00"
     }
    },
    "poll": {
@@ -7520,20 +7520,16 @@
        "conference": false,
        "location": "Bexley, Ohio",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "W",
+       "pf": 70,
+       "pa": 62,
        "status": "",
        "links": {
-        "video": "https://www.flocollege.com/signup?redirect=%2Flive%2F284304&utm_campaign=867314adrianvscapital&utm_medium=partner&utm_source=multiple&utm_content=signup&contract_id=0063m00000n3zlaaam&coverage_id=16249877&sp=conf-partner-k7p2",
-        "live_stats": "https://athletics.capital.edu/sidearmstats/wbball/summary",
-        "tickets": "https://athletics.capital.edu/sports/2021/8/12/capital-online-ticketing"
+        "boxscore": "https://adrianbulldogs.com/sports/womens-basketball/stats/2026-27/capital-university/boxscore/24112",
+        "recap": "https://adrianbulldogs.com/news/2026/11/18/womens-basketball-bulldogs-quick-start-fuels-70-62-win-at-capital.aspx"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/capitalu/wbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "adrian-wbb-24113",
@@ -8190,24 +8186,24 @@
       },
       {
        "label": "Points",
-       "name": "Caitlin Griffin",
-       "jersey": "14",
-       "gp": "3",
-       "total": "28",
-       "avg": "9.3",
-       "line": "9.3 per game, 28 total",
-       "position": "F",
+       "name": "Ashlyn Moorehead",
+       "jersey": "23",
+       "gp": "4",
+       "total": "39",
+       "avg": "9.8",
+       "line": "9.8 per game, 39 total",
+       "position": "G",
        "year": "Sophomore",
-       "headshot": "https://adrianbulldogs.com/images/2026/10/7/Cropped_Caitlin_Griffin.png?width=200&quality=90"
+       "headshot": "https://adrianbulldogs.com/images/2026/10/7/Cropped_Ashlyn_Moorehead.png?width=200&quality=90"
       },
       {
        "label": "Rebounds",
        "name": "Caitlin Griffin",
        "jersey": "14",
-       "gp": "3",
-       "total": "18",
-       "avg": "6.0",
-       "line": "6.0 per game, 18 total",
+       "gp": "4",
+       "total": "26",
+       "avg": "6.5",
+       "line": "6.5 per game, 26 total",
        "position": "F",
        "year": "Sophomore",
        "headshot": "https://adrianbulldogs.com/images/2026/10/7/Cropped_Caitlin_Griffin.png?width=200&quality=90"
@@ -8216,10 +8212,10 @@
        "label": "Assists",
        "name": "Ashlyn Moorehead",
        "jersey": "23",
-       "gp": "3",
-       "total": "12",
-       "avg": "4.0",
-       "line": "4.0 per game, 12 total",
+       "gp": "4",
+       "total": "14",
+       "avg": "3.5",
+       "line": "3.5 per game, 14 total",
        "position": "G",
        "year": "Sophomore",
        "headshot": "https://adrianbulldogs.com/images/2026/10/7/Cropped_Ashlyn_Moorehead.png?width=200&quality=90"
@@ -8228,10 +8224,10 @@
        "label": "Steals",
        "name": "Caitlin Griffin",
        "jersey": "14",
-       "gp": "3",
-       "total": "7",
+       "gp": "4",
+       "total": "9",
        "avg": "2.3",
-       "line": "2.3 per game, 7 total",
+       "line": "2.3 per game, 9 total",
        "position": "F",
        "year": "Sophomore",
        "headshot": "https://adrianbulldogs.com/images/2026/10/7/Cropped_Caitlin_Griffin.png?width=200&quality=90"
@@ -8240,10 +8236,10 @@
        "label": "Blocks",
        "name": "Caitlin Griffin",
        "jersey": "14",
-       "gp": "3",
-       "total": "1",
-       "avg": "0.3",
-       "line": "0.3 per game, 1 total",
+       "gp": "4",
+       "total": "2",
+       "avg": "0.5",
+       "line": "0.5 per game, 2 total",
        "position": "F",
        "year": "Sophomore",
        "headshot": "https://adrianbulldogs.com/images/2026/10/7/Cropped_Caitlin_Griffin.png?width=200&quality=90"
@@ -8251,16 +8247,16 @@
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 3,
-     "wins": 1,
+     "played": 4,
+     "wins": 2,
      "losses": 2,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 185,
-     "pa": 216,
-     "record": "1-2",
+     "pf": 255,
+     "pa": 278,
+     "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T18:46:08-06:00"
+     "fetched": "2026-11-18T19:18:04-06:00"
     },
     "albion": {
      "games": [
@@ -9047,7 +9043,7 @@
      "pa": 172,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T18:46:08-06:00"
+     "fetched": "2026-11-18T19:18:04-06:00"
     },
     "alma": {
      "games": [
@@ -9879,7 +9875,7 @@
      "pa": 265,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T18:46:08-06:00"
+     "fetched": "2026-11-18T19:18:04-06:00"
     },
     "calvin": {
      "games": [
@@ -10665,7 +10661,7 @@
      "pa": 210,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T18:46:08-06:00"
+     "fetched": "2026-11-18T19:18:04-06:00"
     },
     "hope": {
      "games": [
@@ -11490,7 +11486,7 @@
      "pa": 249,
      "record": "4-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T18:46:08-06:00"
+     "fetched": "2026-11-18T19:18:04-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12300,7 +12296,7 @@
      "pa": 52,
      "record": "0-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T18:46:08-06:00"
+     "fetched": "2026-11-18T19:18:04-06:00"
     },
     "olivet": {
      "games": [
@@ -13123,7 +13119,7 @@
      "pa": 135,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T18:46:08-06:00"
+     "fetched": "2026-11-18T19:18:04-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14006,7 +14002,7 @@
      "pa": 127,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T18:46:08-06:00"
+     "fetched": "2026-11-18T19:18:04-06:00"
     },
     "trine": {
      "games": [
@@ -14798,7 +14794,7 @@
      "pa": 96,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T18:46:08-06:00"
+     "fetched": "2026-11-18T19:18:04-06:00"
     }
    },
    "poll": {
