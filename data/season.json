@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-18T22:30:22-06:00",
+ "fetched_at": "2026-11-18T23:02:18-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -883,7 +883,7 @@
      "pa": 401,
      "record": "0-5",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T22:30:22-06:00"
+     "fetched": "2026-11-18T23:02:18-06:00"
     },
     "albion": {
      "games": [
@@ -1677,7 +1677,7 @@
      "pa": 343,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T22:30:22-06:00"
+     "fetched": "2026-11-18T23:02:18-06:00"
     },
     "alma": {
      "games": [
@@ -2518,7 +2518,7 @@
      "pa": 291,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T22:30:22-06:00"
+     "fetched": "2026-11-18T23:02:18-06:00"
     },
     "calvin": {
      "games": [
@@ -3316,7 +3316,7 @@
      "pa": 230,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T22:30:22-06:00"
+     "fetched": "2026-11-18T23:02:18-06:00"
     },
     "hope": {
      "games": [
@@ -4153,7 +4153,7 @@
      "pa": 258,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T22:30:22-06:00"
+     "fetched": "2026-11-18T23:02:18-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -4987,7 +4987,7 @@
      "pa": 230,
      "record": "1-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T22:30:22-06:00"
+     "fetched": "2026-11-18T23:02:18-06:00"
     },
     "olivet": {
      "games": [
@@ -5846,7 +5846,7 @@
      "pa": 207,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T22:30:22-06:00"
+     "fetched": "2026-11-18T23:02:18-06:00"
     },
     "trine": {
      "games": [
@@ -5980,7 +5980,8 @@
        "pa": 95,
        "status": "",
        "links": {
-        "boxscore": "https://trinethunder.com/sports/mens-basketball/stats/2026-27/anderson-ind-/boxscore/8532"
+        "boxscore": "https://trinethunder.com/sports/mens-basketball/stats/2026-27/anderson-ind-/boxscore/8532",
+        "recap": "https://trinethunder.com/news/2026/11/18/jones-scores-30-mens-basketball-outshoots-ravens.aspx"
        },
        "live_feed": null
       },
@@ -6627,7 +6628,7 @@
      "pa": 380,
      "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T22:30:22-06:00"
+     "fetched": "2026-11-18T23:02:18-06:00"
     }
    },
    "poll": {
@@ -8241,7 +8242,7 @@
      "pa": 278,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T22:30:22-06:00"
+     "fetched": "2026-11-18T23:02:18-06:00"
     },
     "albion": {
      "games": [
@@ -9028,7 +9029,7 @@
      "pa": 172,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T22:30:22-06:00"
+     "fetched": "2026-11-18T23:02:18-06:00"
     },
     "alma": {
      "games": [
@@ -9860,7 +9861,7 @@
      "pa": 265,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T22:30:22-06:00"
+     "fetched": "2026-11-18T23:02:18-06:00"
     },
     "calvin": {
      "games": [
@@ -10646,7 +10647,7 @@
      "pa": 210,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T22:30:22-06:00"
+     "fetched": "2026-11-18T23:02:18-06:00"
     },
     "hope": {
      "games": [
@@ -11471,7 +11472,7 @@
      "pa": 249,
      "record": "4-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T22:30:22-06:00"
+     "fetched": "2026-11-18T23:02:18-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12277,7 +12278,7 @@
      "pa": 115,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T22:30:22-06:00"
+     "fetched": "2026-11-18T23:02:18-06:00"
     },
     "olivet": {
      "games": [
@@ -13100,7 +13101,7 @@
      "pa": 135,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T22:30:22-06:00"
+     "fetched": "2026-11-18T23:02:18-06:00"
     },
     "saintmarys": {
      "games": [
@@ -13983,7 +13984,7 @@
      "pa": 175,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T22:30:22-06:00"
+     "fetched": "2026-11-18T23:02:18-06:00"
     },
     "trine": {
      "games": [
@@ -14775,7 +14776,7 @@
      "pa": 96,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T22:30:22-06:00"
+     "fetched": "2026-11-18T23:02:18-06:00"
     }
    },
    "poll": {
