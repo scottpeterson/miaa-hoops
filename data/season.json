@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-18T20:54:04-06:00",
+ "fetched_at": "2026-11-18T21:26:27-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -882,7 +882,7 @@
      "pa": 401,
      "record": "0-5",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T20:54:04-06:00"
+     "fetched": "2026-11-18T21:26:27-06:00"
     },
     "albion": {
      "games": [
@@ -1676,7 +1676,7 @@
      "pa": 343,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T20:54:04-06:00"
+     "fetched": "2026-11-18T21:26:27-06:00"
     },
     "alma": {
      "games": [
@@ -2516,7 +2516,7 @@
      "pa": 291,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T20:54:04-06:00"
+     "fetched": "2026-11-18T21:26:27-06:00"
     },
     "calvin": {
      "games": [
@@ -3314,7 +3314,7 @@
      "pa": 230,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T20:54:04-06:00"
+     "fetched": "2026-11-18T21:26:27-06:00"
     },
     "hope": {
      "games": [
@@ -4151,7 +4151,7 @@
      "pa": 258,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T20:54:04-06:00"
+     "fetched": "2026-11-18T21:26:27-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -4249,19 +4249,16 @@
        "conference": false,
        "location": "River Forest, IL",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "W",
+       "pf": 96,
+       "pa": 81,
        "status": "",
        "links": {
-        "video": "https://dustars.com/watch/?Live=732&type=Live",
-        "live_stats": "https://dustars.com/sidearmstats/mbball/summary"
+        "boxscore": "https://hornets.kzoo.edu/sports/mens-basketball/stats/2026-27/dominican/boxscore/7116",
+        "recap": "https://hornets.kzoo.edu/news/2026/11/18/mens-basketball-wins-at-dominican-wednesday.aspx"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/dom/mbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "kalamazoo-mbb-7117",
@@ -4908,70 +4905,70 @@
        "label": "Points",
        "name": "Jordan Harrison",
        "jersey": "1",
-       "gp": "2",
-       "total": "42",
-       "avg": "21.0",
-       "line": "21.0 per game, 42 total",
+       "gp": "3",
+       "total": "68",
+       "avg": "22.7",
+       "line": "22.7 per game, 68 total",
        "position": "G",
        "year": "First-year",
        "headshot": "https://hornets.kzoo.edu/images/2026/10/19/Harrison__Jordan_CMoss261012-4B3A7429.png?width=200&quality=90"
       },
       {
        "label": "Points",
-       "name": "Ben VanSumeren",
-       "jersey": "30",
-       "gp": "2",
-       "total": "14",
-       "avg": "7.0",
-       "line": "7.0 per game, 14 total",
-       "position": "F",
-       "year": "Sophomore",
-       "headshot": "https://hornets.kzoo.edu/images/2026/10/19/VanSumeren__Ben_CMoss261012-4B3A7387.png?width=200&quality=90"
-      },
-      {
-       "label": "Rebounds",
-       "name": "Nelson Sompa",
-       "jersey": "3",
-       "gp": "2",
-       "total": "7",
-       "avg": "3.5",
-       "line": "3.5 per game, 7 total",
-       "position": "G",
-       "year": "Junior",
-       "headshot": "https://hornets.kzoo.edu/images/2026/10/19/Sompa__Nelson_CMoss261012-4B3A7426.png?width=200&quality=90"
-      },
-      {
-       "label": "Assists",
-       "name": "Jordan Harrison",
-       "jersey": "1",
-       "gp": "2",
-       "total": "6",
-       "avg": "3.0",
-       "line": "3.0 per game, 6 total",
-       "position": "G",
-       "year": "First-year",
-       "headshot": "https://hornets.kzoo.edu/images/2026/10/19/Harrison__Jordan_CMoss261012-4B3A7429.png?width=200&quality=90"
-      },
-      {
-       "label": "Steals",
        "name": "Dylan Gross",
        "jersey": "2",
-       "gp": "1",
-       "total": "4",
-       "avg": "4.0",
-       "line": "4.0 per game, 4 total",
+       "gp": "2",
+       "total": "23",
+       "avg": "11.5",
+       "line": "11.5 per game, 23 total",
        "position": "G",
        "year": "First-year",
        "headshot": "https://hornets.kzoo.edu/images/2026/10/19/Gross__Dylan_CMoss261012-4B3A7413.png?width=200&quality=90"
       },
       {
+       "label": "Rebounds",
+       "name": "Ben VanSumeren",
+       "jersey": "30",
+       "gp": "3",
+       "total": "14",
+       "avg": "4.7",
+       "line": "4.7 per game, 14 total",
+       "position": "F",
+       "year": "Sophomore",
+       "headshot": "https://hornets.kzoo.edu/images/2026/10/19/VanSumeren__Ben_CMoss261012-4B3A7387.png?width=200&quality=90"
+      },
+      {
+       "label": "Assists",
+       "name": "Nelson Sompa",
+       "jersey": "3",
+       "gp": "3",
+       "total": "9",
+       "avg": "3.0",
+       "line": "3.0 per game, 9 total",
+       "position": "G",
+       "year": "Junior",
+       "headshot": "https://hornets.kzoo.edu/images/2026/10/19/Sompa__Nelson_CMoss261012-4B3A7426.png?width=200&quality=90"
+      },
+      {
+       "label": "Steals",
+       "name": "Nelson Sompa",
+       "jersey": "3",
+       "gp": "3",
+       "total": "6",
+       "avg": "2.0",
+       "line": "2.0 per game, 6 total",
+       "position": "G",
+       "year": "Junior",
+       "headshot": "https://hornets.kzoo.edu/images/2026/10/19/Sompa__Nelson_CMoss261012-4B3A7426.png?width=200&quality=90"
+      },
+      {
        "label": "Blocks",
        "name": "Marvin Moore",
        "jersey": "0",
-       "gp": "2",
+       "gp": "3",
        "total": "1",
-       "avg": "0.5",
-       "line": "0.5 per game, 1 total",
+       "avg": "0.3",
+       "line": "0.3 per game, 1 total",
        "position": "G",
        "year": "First-year",
        "headshot": "https://hornets.kzoo.edu/images/2026/10/19/Moore__Marvin_CMoss261012-4B3A7415.png?width=200&quality=90"
@@ -4979,16 +4976,16 @@
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 2,
-     "wins": 0,
+     "played": 3,
+     "wins": 1,
      "losses": 2,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 128,
-     "pa": 149,
-     "record": "0-2",
+     "pf": 224,
+     "pa": 230,
+     "record": "1-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T20:54:04-06:00"
+     "fetched": "2026-11-18T21:26:27-06:00"
     },
     "olivet": {
      "games": [
@@ -5847,7 +5844,7 @@
      "pa": 207,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T20:54:04-06:00"
+     "fetched": "2026-11-18T21:26:27-06:00"
     },
     "trine": {
      "games": [
@@ -6628,7 +6625,7 @@
      "pa": 380,
      "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T20:54:04-06:00"
+     "fetched": "2026-11-18T21:26:27-06:00"
     }
    },
    "poll": {
@@ -8242,7 +8239,7 @@
      "pa": 278,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T20:54:04-06:00"
+     "fetched": "2026-11-18T21:26:27-06:00"
     },
     "albion": {
      "games": [
@@ -9029,7 +9026,7 @@
      "pa": 172,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T20:54:04-06:00"
+     "fetched": "2026-11-18T21:26:27-06:00"
     },
     "alma": {
      "games": [
@@ -9861,7 +9858,7 @@
      "pa": 265,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T20:54:04-06:00"
+     "fetched": "2026-11-18T21:26:27-06:00"
     },
     "calvin": {
      "games": [
@@ -10647,7 +10644,7 @@
      "pa": 210,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T20:54:04-06:00"
+     "fetched": "2026-11-18T21:26:27-06:00"
     },
     "hope": {
      "games": [
@@ -11472,7 +11469,7 @@
      "pa": 249,
      "record": "4-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T20:54:04-06:00"
+     "fetched": "2026-11-18T21:26:27-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12278,7 +12275,7 @@
      "pa": 115,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T20:54:04-06:00"
+     "fetched": "2026-11-18T21:26:27-06:00"
     },
     "olivet": {
      "games": [
@@ -13101,7 +13098,7 @@
      "pa": 135,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T20:54:04-06:00"
+     "fetched": "2026-11-18T21:26:27-06:00"
     },
     "saintmarys": {
      "games": [
@@ -13984,7 +13981,7 @@
      "pa": 175,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T20:54:04-06:00"
+     "fetched": "2026-11-18T21:26:27-06:00"
     },
     "trine": {
      "games": [
@@ -14776,7 +14773,7 @@
      "pa": 96,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T20:54:04-06:00"
+     "fetched": "2026-11-18T21:26:27-06:00"
     }
    },
    "poll": {
@@ -15039,9 +15036,9 @@
     "count": 411,
     "teams": {
      "adrian": {
-      "rank": 239,
-      "npi": 45.981,
-      "rank_change": 18,
+      "rank": 236,
+      "npi": 45.958,
+      "rank_change": 21,
       "bid": "AL-129",
       "record": "2-1 qualifying",
       "preseason_rank": 248,
@@ -15052,7 +15049,7 @@
      },
      "albion": {
       "rank": 38,
-      "npi": 57.49,
+      "npi": 57.47,
       "rank_change": 33,
       "bid": "AL-114",
       "record": "3-0 qualifying",
@@ -15064,7 +15061,7 @@
      },
      "alma": {
       "rank": 133,
-      "npi": 50.773,
+      "npi": 50.769,
       "rank_change": null,
       "bid": "AL-129",
       "record": "2-2 qualifying",
@@ -15075,9 +15072,9 @@
       "median_record": "11-14"
      },
      "calvin": {
-      "rank": 114,
-      "npi": 51.796,
-      "rank_change": 1,
+      "rank": 112,
+      "npi": 51.79,
+      "rank_change": 3,
       "bid": "AL-105",
       "record": "2-2 qualifying",
       "preseason_rank": 36,
@@ -15088,7 +15085,7 @@
      },
      "hope": {
       "rank": 22,
-      "npi": 59.715,
+      "npi": 59.726,
       "rank_change": null,
       "bid": "AL-04",
       "record": "4-0 qualifying",
@@ -15099,9 +15096,9 @@
       "median_record": "20-3"
      },
      "kalamazoo": {
-      "rank": 401,
-      "npi": 30.929,
-      "rank_change": 1,
+      "rank": 402,
+      "npi": 30.922,
+      "rank_change": 0,
       "bid": "AL-129",
       "record": "0-1 qualifying",
       "preseason_rank": 253,
@@ -15111,8 +15108,8 @@
       "median_record": "9-16"
      },
      "olivet": {
-      "rank": 350,
-      "npi": 38.528,
+      "rank": 352,
+      "npi": 38.56,
       "rank_change": null,
       "bid": "AL-129",
       "record": "0-1 qualifying",
@@ -15124,7 +15121,7 @@
      },
      "saintmarys": {
       "rank": 4,
-      "npi": 63.383,
+      "npi": 63.886,
       "rank_change": 0,
       "bid": "AL-129",
       "record": "3-0 qualifying",
@@ -15136,7 +15133,7 @@
      },
      "trine": {
       "rank": 30,
-      "npi": 58.571,
+      "npi": 58.574,
       "rank_change": 39,
       "bid": "AQ",
       "record": "2-0 qualifying",
