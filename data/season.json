@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-19T13:00:44-06:00",
+ "fetched_at": "2026-11-19T14:27:35-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -883,7 +883,7 @@
      "pa": 401,
      "record": "0-5",
      "conf_record": "0-0",
-     "fetched": "2026-11-19T13:00:44-06:00"
+     "fetched": "2026-11-19T14:27:35-06:00"
     },
     "albion": {
      "games": [
@@ -1677,7 +1677,7 @@
      "pa": 343,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-19T13:00:44-06:00"
+     "fetched": "2026-11-19T14:27:35-06:00"
     },
     "alma": {
      "games": [
@@ -2529,7 +2529,7 @@
      "pa": 291,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-19T13:00:44-06:00"
+     "fetched": "2026-11-19T14:27:35-06:00"
     },
     "calvin": {
      "games": [
@@ -3327,7 +3327,7 @@
      "pa": 230,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-19T13:00:44-06:00"
+     "fetched": "2026-11-19T14:27:35-06:00"
     },
     "hope": {
      "games": [
@@ -4164,7 +4164,7 @@
      "pa": 258,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-19T13:00:44-06:00"
+     "fetched": "2026-11-19T14:27:35-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -4356,8 +4356,14 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
-       "live_feed": null
+       "links": {
+        "video": "https://goearlham.com/sports/2022/4/20/live-video-homepage.aspx",
+        "live_stats": "https://goearlham.com/sidearmstats/mbball/summary"
+       },
+       "live_feed": {
+        "type": "sidearm",
+        "url": "https://sidearmstats.com/earlham/mbball/game.json"
+       }
       },
       {
        "id": "kalamazoo-mbb-7120",
@@ -4435,7 +4441,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.youtube.com/@BlufftonUniversityAthletics",
+        "live_stats": "https://blufftonbeavers.com/sports/mbkb/2026-27/boxscores/20261219_93cp.xml"
+       },
        "live_feed": null
       },
       {
@@ -4998,7 +5007,7 @@
      "pa": 230,
      "record": "1-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-19T13:00:44-06:00"
+     "fetched": "2026-11-19T14:27:35-06:00"
     },
     "olivet": {
      "games": [
@@ -5857,7 +5866,7 @@
      "pa": 207,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-19T13:00:44-06:00"
+     "fetched": "2026-11-19T14:27:35-06:00"
     },
     "trine": {
      "games": [
@@ -6639,7 +6648,7 @@
      "pa": 380,
      "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-19T13:00:44-06:00"
+     "fetched": "2026-11-19T14:27:35-06:00"
     }
    },
    "poll": {
@@ -7581,9 +7590,13 @@
        "pa": null,
        "status": "",
        "links": {
-        "video": "https://go.flocollege.com/partner/oac?utm_medium=partner&utm_source=multiple&utm_content=landingpage&utm_term=otterbein-university&contract_id=0063m00000n3zlaaam"
+        "video": "https://go.flocollege.com/partner/oac?utm_medium=partner&utm_source=multiple&utm_content=landingpage&utm_term=otterbein-university&contract_id=0063m00000n3zlaaam",
+        "live_stats": "https://otterbeincardinals.com/sidearmstats/wbball/summary"
        },
-       "live_feed": null
+       "live_feed": {
+        "type": "sidearm",
+        "url": "https://sidearmstats.com/otterbein/wbball/game.json"
+       }
       },
       {
        "id": "adrian-wbb-24115",
@@ -8253,7 +8266,7 @@
      "pa": 278,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-19T13:00:44-06:00"
+     "fetched": "2026-11-19T14:27:35-06:00"
     },
     "albion": {
      "games": [
@@ -9040,7 +9053,7 @@
      "pa": 172,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-19T13:00:44-06:00"
+     "fetched": "2026-11-19T14:27:35-06:00"
     },
     "alma": {
      "games": [
@@ -9885,7 +9898,7 @@
      "pa": 265,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-19T13:00:44-06:00"
+     "fetched": "2026-11-19T14:27:35-06:00"
     },
     "calvin": {
      "games": [
@@ -10018,9 +10031,7 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {
-        "live_stats": "https://letsgopioneers.com/sidearmstats/wbball/summary"
-       },
+       "links": {},
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/uwplatteville/wbball/game.json"
@@ -10676,7 +10687,7 @@
      "pa": 210,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-19T13:00:44-06:00"
+     "fetched": "2026-11-19T14:27:35-06:00"
     },
     "hope": {
      "games": [
@@ -11508,7 +11519,7 @@
      "pa": 249,
      "record": "4-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-19T13:00:44-06:00"
+     "fetched": "2026-11-19T14:27:35-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -11676,7 +11687,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.youtube.com/hopeathletics",
+        "live_stats": "https://athletics.hope.edu/sidearmstats/wbball/summary"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/hopecollege/wbball/game.json"
@@ -11734,7 +11748,9 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "live_stats": "https://www.fightingmuskies.com/sports/wbkb/2026-27/schedule?eid=f0peadc76naewqwq"
+       },
        "live_feed": null
       },
       {
@@ -11758,8 +11774,13 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
-       "live_feed": null
+       "links": {
+        "live_stats": "https://athletics.capital.edu/sidearmstats/wbball/summary"
+       },
+       "live_feed": {
+        "type": "sidearm",
+        "url": "https://sidearmstats.com/capitalu/wbball/game.json"
+       }
       },
       {
        "id": "kalamazoo-wbb-6949",
@@ -11844,8 +11865,14 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
-       "live_feed": null
+       "links": {
+        "video": "https://www.indianasrn.org/Games_RHIT.php",
+        "live_stats": "https://athletics.rose-hulman.edu/sidearmstats/wbball/summary"
+       },
+       "live_feed": {
+        "type": "sidearm",
+        "url": "https://sidearmstats.com/rosehulmanit/wbball/game.json"
+       }
       },
       {
        "id": "kalamazoo-wbb-6952",
@@ -12314,7 +12341,7 @@
      "pa": 115,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-19T13:00:44-06:00"
+     "fetched": "2026-11-19T14:27:35-06:00"
     },
     "olivet": {
      "games": [
@@ -13137,7 +13164,7 @@
      "pa": 135,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-19T13:00:44-06:00"
+     "fetched": "2026-11-19T14:27:35-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14020,7 +14047,7 @@
      "pa": 175,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-19T13:00:44-06:00"
+     "fetched": "2026-11-19T14:27:35-06:00"
     },
     "trine": {
      "games": [
@@ -14812,7 +14839,7 @@
      "pa": 96,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-19T13:00:44-06:00"
+     "fetched": "2026-11-19T14:27:35-06:00"
     }
    },
    "poll": {
