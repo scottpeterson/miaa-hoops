@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-18T19:50:01-06:00",
+ "fetched_at": "2026-11-18T20:22:02-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -819,10 +819,10 @@
        "label": "Points",
        "name": "Carson Lutz",
        "jersey": "12",
-       "gp": "3",
-       "total": "29",
-       "avg": "9.7",
-       "line": "9.7 per game, 29 total",
+       "gp": "4",
+       "total": "34",
+       "avg": "8.5",
+       "line": "8.5 per game, 34 total",
        "position": "G",
        "year": "Sophomore",
        "headshot": "https://adrianbulldogs.com/images/2026/10/20/Carson_Lutz.jpg?width=200&quality=90"
@@ -831,10 +831,10 @@
        "label": "Points",
        "name": "Isaiah Foster",
        "jersey": "4",
-       "gp": "3",
-       "total": "21",
-       "avg": "7.0",
-       "line": "7.0 per game, 21 total",
+       "gp": "4",
+       "total": "32",
+       "avg": "8.0",
+       "line": "8.0 per game, 32 total",
        "position": "W",
        "year": "Junior",
        "headshot": "https://adrianbulldogs.com/images/2026/10/20/Isaiah_Foster.jpg?width=200&quality=90"
@@ -843,10 +843,10 @@
        "label": "Rebounds",
        "name": "Austin Foster",
        "jersey": "2",
-       "gp": "3",
-       "total": "10",
-       "avg": "3.3",
-       "line": "3.3 per game, 10 total",
+       "gp": "4",
+       "total": "12",
+       "avg": "3.0",
+       "line": "3.0 per game, 12 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://adrianbulldogs.com/images/2026/10/20/Austin_Foster.jpg?width=200&quality=90"
@@ -855,25 +855,25 @@
        "label": "Assists",
        "name": "Isaiah Foster",
        "jersey": "4",
-       "gp": "3",
-       "total": "7",
-       "avg": "2.3",
-       "line": "2.3 per game, 7 total",
+       "gp": "4",
+       "total": "12",
+       "avg": "3.0",
+       "line": "3.0 per game, 12 total",
        "position": "W",
        "year": "Junior",
        "headshot": "https://adrianbulldogs.com/images/2026/10/20/Isaiah_Foster.jpg?width=200&quality=90"
       },
       {
        "label": "Steals",
-       "name": "Isaiah Foster",
-       "jersey": "4",
-       "gp": "3",
-       "total": "3",
+       "name": "Carson Lutz",
+       "jersey": "12",
+       "gp": "4",
+       "total": "4",
        "avg": "1.0",
-       "line": "1.0 per game, 3 total",
-       "position": "W",
-       "year": "Junior",
-       "headshot": "https://adrianbulldogs.com/images/2026/10/20/Isaiah_Foster.jpg?width=200&quality=90"
+       "line": "1.0 per game, 4 total",
+       "position": "G",
+       "year": "Sophomore",
+       "headshot": "https://adrianbulldogs.com/images/2026/10/20/Carson_Lutz.jpg?width=200&quality=90"
       }
      ],
      "departed": [],
@@ -887,7 +887,7 @@
      "pa": 340,
      "record": "0-4",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T19:50:01-06:00"
+     "fetched": "2026-11-18T20:22:02-06:00"
     },
     "albion": {
      "games": [
@@ -1681,7 +1681,7 @@
      "pa": 343,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T19:50:01-06:00"
+     "fetched": "2026-11-18T20:22:02-06:00"
     },
     "alma": {
      "games": [
@@ -2526,7 +2526,7 @@
      "pa": 221,
      "record": "1-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T19:50:01-06:00"
+     "fetched": "2026-11-18T20:22:02-06:00"
     },
     "calvin": {
      "games": [
@@ -3324,7 +3324,7 @@
      "pa": 230,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T19:50:01-06:00"
+     "fetched": "2026-11-18T20:22:02-06:00"
     },
     "hope": {
      "games": [
@@ -4161,7 +4161,7 @@
      "pa": 258,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T19:50:01-06:00"
+     "fetched": "2026-11-18T20:22:02-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -4998,7 +4998,7 @@
      "pa": 149,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T19:50:01-06:00"
+     "fetched": "2026-11-18T20:22:02-06:00"
     },
     "olivet": {
      "games": [
@@ -5857,7 +5857,7 @@
      "pa": 207,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T19:50:01-06:00"
+     "fetched": "2026-11-18T20:22:02-06:00"
     },
     "trine": {
      "games": [
@@ -5985,19 +5985,15 @@
        "conference": false,
        "location": "Angola, IN",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "W",
+       "pf": 103,
+       "pa": 95,
        "status": "",
        "links": {
-        "video": "https://www.miaasportsnetwork.com/tuthunder/",
-        "live_stats": "https://trinethunder.com/sidearmstats/mbball/"
+        "boxscore": "https://trinethunder.com/sports/mens-basketball/stats/2026-27/anderson-ind-/boxscore/8532"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/trine/mbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "trine-mbb-8533",
@@ -6562,46 +6558,46 @@
        "label": "Points",
        "name": "Cade Brenner",
        "jersey": "3",
-       "gp": "4",
-       "total": "62",
-       "avg": "15.5",
-       "line": "15.5 per game, 62 total",
+       "gp": "5",
+       "total": "76",
+       "avg": "15.2",
+       "line": "15.2 per game, 76 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://trinethunder.com/images/2026/11/12/Brenner__Cade.jpg?width=200&quality=90"
       },
       {
        "label": "Points",
-       "name": "Elias Lewis",
-       "jersey": "4",
-       "gp": "4",
-       "total": "47",
-       "avg": "11.8",
-       "line": "11.8 per game, 47 total",
-       "position": "F",
-       "year": "Sophomore",
-       "headshot": "https://trinethunder.com/images/2026/11/12/Lewis__Elias.jpg?width=200&quality=90"
+       "name": "Elisha Jones",
+       "jersey": "2",
+       "gp": "5",
+       "total": "74",
+       "avg": "14.8",
+       "line": "14.8 per game, 74 total",
+       "position": "PG",
+       "year": "Junior",
+       "headshot": "https://trinethunder.com/images/2026/11/12/Jones__Elisha.jpg?width=200&quality=90"
       },
       {
        "label": "Rebounds",
-       "name": "Cade Brenner",
-       "jersey": "3",
-       "gp": "4",
-       "total": "17",
-       "avg": "4.3",
-       "line": "4.3 per game, 17 total",
+       "name": "Jess Roller",
+       "jersey": "24",
+       "gp": "5",
+       "total": "26",
+       "avg": "5.2",
+       "line": "5.2 per game, 26 total",
        "position": "G",
        "year": "Junior",
-       "headshot": "https://trinethunder.com/images/2026/11/12/Brenner__Cade.jpg?width=200&quality=90"
+       "headshot": "https://trinethunder.com/images/2026/11/12/Roller__Jess.jpg?width=200&quality=90"
       },
       {
        "label": "Assists",
        "name": "Drake Ahrens",
        "jersey": "14",
-       "gp": "4",
-       "total": "7",
-       "avg": "1.8",
-       "line": "1.8 per game, 7 total",
+       "gp": "5",
+       "total": "11",
+       "avg": "2.2",
+       "line": "2.2 per game, 11 total",
        "position": "G",
        "year": "First-year",
        "headshot": "https://trinethunder.com/images/2026/11/12/Ahrens__Drake.jpg?width=200&quality=90"
@@ -6610,10 +6606,10 @@
        "label": "Steals",
        "name": "Drake Ahrens",
        "jersey": "14",
-       "gp": "4",
-       "total": "6",
-       "avg": "1.5",
-       "line": "1.5 per game, 6 total",
+       "gp": "5",
+       "total": "8",
+       "avg": "1.6",
+       "line": "1.6 per game, 8 total",
        "position": "G",
        "year": "First-year",
        "headshot": "https://trinethunder.com/images/2026/11/12/Ahrens__Drake.jpg?width=200&quality=90"
@@ -6622,10 +6618,10 @@
        "label": "Blocks",
        "name": "Elisha Jones",
        "jersey": "2",
-       "gp": "4",
+       "gp": "5",
        "total": "3",
-       "avg": "0.8",
-       "line": "0.8 per game, 3 total",
+       "avg": "0.6",
+       "line": "0.6 per game, 3 total",
        "position": "PG",
        "year": "Junior",
        "headshot": "https://trinethunder.com/images/2026/11/12/Jones__Elisha.jpg?width=200&quality=90"
@@ -6633,16 +6629,16 @@
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 4,
-     "wins": 2,
+     "played": 5,
+     "wins": 3,
      "losses": 2,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 321,
-     "pa": 285,
-     "record": "2-2",
+     "pf": 424,
+     "pa": 380,
+     "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T19:50:01-06:00"
+     "fetched": "2026-11-18T20:22:02-06:00"
     }
    },
    "poll": {
@@ -8256,7 +8252,7 @@
      "pa": 278,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T19:50:01-06:00"
+     "fetched": "2026-11-18T20:22:02-06:00"
     },
     "albion": {
      "games": [
@@ -9043,7 +9039,7 @@
      "pa": 172,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T19:50:01-06:00"
+     "fetched": "2026-11-18T20:22:02-06:00"
     },
     "alma": {
      "games": [
@@ -9875,7 +9871,7 @@
      "pa": 265,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T19:50:01-06:00"
+     "fetched": "2026-11-18T20:22:02-06:00"
     },
     "calvin": {
      "games": [
@@ -10661,7 +10657,7 @@
      "pa": 210,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T19:50:01-06:00"
+     "fetched": "2026-11-18T20:22:02-06:00"
     },
     "hope": {
      "games": [
@@ -11486,7 +11482,7 @@
      "pa": 249,
      "record": "4-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T19:50:01-06:00"
+     "fetched": "2026-11-18T20:22:02-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12289,7 +12285,7 @@
      "pa": 115,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T19:50:01-06:00"
+     "fetched": "2026-11-18T20:22:02-06:00"
     },
     "olivet": {
      "games": [
@@ -13112,7 +13108,7 @@
      "pa": 135,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T19:50:01-06:00"
+     "fetched": "2026-11-18T20:22:02-06:00"
     },
     "saintmarys": {
      "games": [
@@ -13240,14 +13236,14 @@
        "conference": false,
        "location": "River Forest, IL",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "W",
+       "pf": 57,
+       "pa": 48,
        "status": "",
        "links": {
-        "video": "https://www.youtube.com/cucsports",
-        "live_stats": "https://www.statbroadcast.com/events/statbroadcast.php?gid=coil"
+        "boxscore": "https://belles.saintmarys.edu/sports/womens-basketball/stats/2026-27/concordia-chicago/boxscore/2444",
+        "recap": "https://belles.saintmarys.edu/news/2026/11/18/basketball-belles-stay-strong-down-the-stretch-for-3-0-start.aspx"
        },
        "live_feed": null
       },
@@ -13915,10 +13911,10 @@
        "label": "Points",
        "name": "Ella Andree",
        "jersey": "21",
-       "gp": "2",
-       "total": "30",
-       "avg": "15.0",
-       "line": "15.0 per game, 30 total",
+       "gp": "3",
+       "total": "41",
+       "avg": "13.7",
+       "line": "13.7 per game, 41 total",
        "position": "Guard",
        "year": "Junior",
        "headshot": "https://belles.saintmarys.edu/images/2026/10/26/Andree_1866.png?width=200&quality=90"
@@ -13927,75 +13923,75 @@
        "label": "Points",
        "name": "Ella Notaro",
        "jersey": "11",
-       "gp": "2",
-       "total": "20",
-       "avg": "10.0",
-       "line": "10.0 per game, 20 total",
+       "gp": "3",
+       "total": "41",
+       "avg": "13.7",
+       "line": "13.7 per game, 41 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://belles.saintmarys.edu/images/2026/10/26/Notaro_1895.png?width=200&quality=90"
       },
       {
        "label": "Rebounds",
-       "name": "MacKenzi Duthie",
-       "jersey": "32",
-       "gp": "2",
-       "total": "17",
-       "avg": "8.5",
-       "line": "8.5 per game, 17 total",
-       "position": "Forward",
-       "year": "First-year",
-       "headshot": "https://belles.saintmarys.edu/images/2026/10/26/Duthie_2000.png?width=200&quality=90"
+       "name": "Ella Notaro",
+       "jersey": "11",
+       "gp": "3",
+       "total": "21",
+       "avg": "7.0",
+       "line": "7.0 per game, 21 total",
+       "position": "G",
+       "year": "Junior",
+       "headshot": "https://belles.saintmarys.edu/images/2026/10/26/Notaro_1895.png?width=200&quality=90"
       },
       {
        "label": "Assists",
        "name": "Liv Fry",
        "jersey": "4",
-       "gp": "2",
+       "gp": "3",
        "total": "12",
-       "avg": "6.0",
-       "line": "6.0 per game, 12 total",
+       "avg": "4.0",
+       "line": "4.0 per game, 12 total",
        "position": "Guard",
        "year": "Sophomore",
        "headshot": "https://belles.saintmarys.edu/images/2026/10/26/Fry_1904.png?width=200&quality=90"
       },
       {
        "label": "Steals",
-       "name": "Ella Andree",
-       "jersey": "21",
-       "gp": "2",
-       "total": "5",
-       "avg": "2.5",
-       "line": "2.5 per game, 5 total",
-       "position": "Guard",
+       "name": "Kate Passinault",
+       "jersey": "5",
+       "gp": "3",
+       "total": "8",
+       "avg": "2.7",
+       "line": "2.7 per game, 8 total",
+       "position": "G",
        "year": "Junior",
-       "headshot": "https://belles.saintmarys.edu/images/2026/10/26/Andree_1866.png?width=200&quality=90"
+       "headshot": "https://belles.saintmarys.edu/images/2026/10/26/Passinault_1886.png?width=200&quality=90"
       },
       {
        "label": "Blocks",
-       "name": "Kate Gilroy",
-       "jersey": "40",
-       "gp": "2",
-       "total": "1",
-       "avg": "0.5",
-       "line": "0.5 per game, 1 total",
-       "position": "Forward",
+       "name": "Kate Passinault",
+       "jersey": "5",
+       "gp": "3",
+       "total": "4",
+       "avg": "1.3",
+       "line": "1.3 per game, 4 total",
+       "position": "G",
        "year": "Junior",
-       "headshot": "https://belles.saintmarys.edu/images/2026/10/26/Gilroy_1933.png?width=200&quality=90"
+       "headshot": "https://belles.saintmarys.edu/images/2026/10/26/Passinault_1886.png?width=200&quality=90"
       }
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 2,
-     "wins": 2,
+     "played": 3,
+     "wins": 3,
      "losses": 0,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 144,
-     "pa": 127,
-     "record": "2-0",
+     "pf": 201,
+     "pa": 175,
+     "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T19:50:01-06:00"
+     "fetched": "2026-11-18T20:22:02-06:00"
     },
     "trine": {
      "games": [
@@ -14787,7 +14783,7 @@
      "pa": 96,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T19:50:01-06:00"
+     "fetched": "2026-11-18T20:22:02-06:00"
     }
    },
    "poll": {
