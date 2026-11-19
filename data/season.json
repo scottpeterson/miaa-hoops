@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-18T20:22:02-06:00",
+ "fetched_at": "2026-11-18T20:54:04-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -154,20 +154,15 @@
        "conference": false,
        "location": "Adrian, Mich., Merillat Sport and Fitness Center",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "L",
+       "pf": 57,
+       "pa": 61,
        "status": "",
        "links": {
-        "video": "https://www.youtube.com/channel/UC5R-AnML-8yPgzn3rwHqIbA",
-        "live_stats": "https://adrianbulldogs.com/sidearmstats/mbball/summary",
-        "tickets": "https://events.hometownticketing.com/boxoffice/adriancollege/L2VtYmVkL2V2ZW50LzkxMg%3D%3D"
+        "boxscore": "https://adrianbulldogs.com/sports/mens-basketball/stats/2026-27/oberlin-college/boxscore/24140"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/adrian/mbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "adrian-mbb-24141",
@@ -878,16 +873,16 @@
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 4,
+     "played": 5,
      "wins": 0,
-     "losses": 4,
+     "losses": 5,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 263,
-     "pa": 340,
-     "record": "0-4",
+     "pf": 320,
+     "pa": 401,
+     "record": "0-5",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T20:22:02-06:00"
+     "fetched": "2026-11-18T20:54:04-06:00"
     },
     "albion": {
      "games": [
@@ -1681,7 +1676,7 @@
      "pa": 343,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T20:22:02-06:00"
+     "fetched": "2026-11-18T20:54:04-06:00"
     },
     "alma": {
      "games": [
@@ -1782,20 +1777,15 @@
        "conference": false,
        "location": "Alma, Michigan, Art Smith Arena",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "W",
+       "pf": 82,
+       "pa": 70,
        "status": "",
        "links": {
-        "video": "https://www.miaasportsnetwork.com/acscots/",
-        "live_stats": "https://almascots.com/sidearmstats/mbball/summary",
-        "tickets": "https://almascots.com/sports/2023/5/9/information-tickets.aspx"
+        "boxscore": "https://almascots.com/sports/mens-basketball/stats/2026-27/manchester/boxscore/14638"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/alma/mbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "alma-mbb-14639",
@@ -2446,10 +2436,10 @@
        "label": "Points",
        "name": "Adam Dugener",
        "jersey": "0",
-       "gp": "3",
-       "total": "77",
-       "avg": "25.7",
-       "line": "25.7 per game, 77 total",
+       "gp": "4",
+       "total": "102",
+       "avg": "25.5",
+       "line": "25.5 per game, 102 total",
        "position": "Guard",
        "year": "First-year",
        "headshot": "https://almascots.com/images/2026/10/27/Dugenar_Adam.jpg?width=200&quality=90"
@@ -2458,10 +2448,10 @@
        "label": "Points",
        "name": "Joss Bradley",
        "jersey": "10",
-       "gp": "3",
-       "total": "34",
-       "avg": "11.3",
-       "line": "11.3 per game, 34 total",
+       "gp": "4",
+       "total": "43",
+       "avg": "10.8",
+       "line": "10.8 per game, 43 total",
        "position": "Guard",
        "year": "Junior",
        "headshot": "https://almascots.com/images/2026/10/27/Bradley_Joss.jpg?width=200&quality=90"
@@ -2470,10 +2460,10 @@
        "label": "Rebounds",
        "name": "Joss Bradley",
        "jersey": "10",
-       "gp": "3",
-       "total": "15",
-       "avg": "5.0",
-       "line": "5.0 per game, 15 total",
+       "gp": "4",
+       "total": "24",
+       "avg": "6.0",
+       "line": "6.0 per game, 24 total",
        "position": "Guard",
        "year": "Junior",
        "headshot": "https://almascots.com/images/2026/10/27/Bradley_Joss.jpg?width=200&quality=90"
@@ -2482,10 +2472,10 @@
        "label": "Assists",
        "name": "Joss Bradley",
        "jersey": "10",
-       "gp": "3",
-       "total": "15",
-       "avg": "5.0",
-       "line": "5.0 per game, 15 total",
+       "gp": "4",
+       "total": "18",
+       "avg": "4.5",
+       "line": "4.5 per game, 18 total",
        "position": "Guard",
        "year": "Junior",
        "headshot": "https://almascots.com/images/2026/10/27/Bradley_Joss.jpg?width=200&quality=90"
@@ -2494,39 +2484,39 @@
        "label": "Steals",
        "name": "Joss Bradley",
        "jersey": "10",
-       "gp": "3",
-       "total": "7",
-       "avg": "2.3",
-       "line": "2.3 per game, 7 total",
+       "gp": "4",
+       "total": "8",
+       "avg": "2.0",
+       "line": "2.0 per game, 8 total",
        "position": "Guard",
        "year": "Junior",
        "headshot": "https://almascots.com/images/2026/10/27/Bradley_Joss.jpg?width=200&quality=90"
       },
       {
        "label": "Blocks",
-       "name": "Preston Malpass",
-       "jersey": "15",
-       "gp": "3",
+       "name": "Dalton Dudas",
+       "jersey": "40",
+       "gp": "4",
        "total": "3",
-       "avg": "1.0",
-       "line": "1.0 per game, 3 total",
-       "position": "Forward",
-       "year": "Junior",
-       "headshot": "https://almascots.com/images/2026/10/27/Malpass_Preston.jpg?width=200&quality=90"
+       "avg": "0.8",
+       "line": "0.8 per game, 3 total",
+       "position": "Center",
+       "year": "First-year",
+       "headshot": "https://almascots.com/images/2026/10/27/Dudas_Dalton.jpg?width=200&quality=90"
       }
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 3,
-     "wins": 1,
+     "played": 4,
+     "wins": 2,
      "losses": 2,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 240,
-     "pa": 221,
-     "record": "1-2",
+     "pf": 322,
+     "pa": 291,
+     "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T20:22:02-06:00"
+     "fetched": "2026-11-18T20:54:04-06:00"
     },
     "calvin": {
      "games": [
@@ -3324,7 +3314,7 @@
      "pa": 230,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T20:22:02-06:00"
+     "fetched": "2026-11-18T20:54:04-06:00"
     },
     "hope": {
      "games": [
@@ -4161,7 +4151,7 @@
      "pa": 258,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T20:22:02-06:00"
+     "fetched": "2026-11-18T20:54:04-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -4998,7 +4988,7 @@
      "pa": 149,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T20:22:02-06:00"
+     "fetched": "2026-11-18T20:54:04-06:00"
     },
     "olivet": {
      "games": [
@@ -5857,7 +5847,7 @@
      "pa": 207,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T20:22:02-06:00"
+     "fetched": "2026-11-18T20:54:04-06:00"
     },
     "trine": {
      "games": [
@@ -6638,7 +6628,7 @@
      "pa": 380,
      "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T20:22:02-06:00"
+     "fetched": "2026-11-18T20:54:04-06:00"
     }
    },
    "poll": {
@@ -8252,7 +8242,7 @@
      "pa": 278,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T20:22:02-06:00"
+     "fetched": "2026-11-18T20:54:04-06:00"
     },
     "albion": {
      "games": [
@@ -9039,7 +9029,7 @@
      "pa": 172,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T20:22:02-06:00"
+     "fetched": "2026-11-18T20:54:04-06:00"
     },
     "alma": {
      "games": [
@@ -9871,7 +9861,7 @@
      "pa": 265,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T20:22:02-06:00"
+     "fetched": "2026-11-18T20:54:04-06:00"
     },
     "calvin": {
      "games": [
@@ -10657,7 +10647,7 @@
      "pa": 210,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T20:22:02-06:00"
+     "fetched": "2026-11-18T20:54:04-06:00"
     },
     "hope": {
      "games": [
@@ -11482,7 +11472,7 @@
      "pa": 249,
      "record": "4-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T20:22:02-06:00"
+     "fetched": "2026-11-18T20:54:04-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -11534,7 +11524,10 @@
        "pf": 54,
        "pa": 63,
        "status": "",
-       "links": {},
+       "links": {
+        "boxscore": "https://hornets.kzoo.edu/sports/womens-basketball/stats/2026-27/elmhurst/boxscore/6941",
+        "recap": "https://hornets.kzoo.edu/news/2026/11/18/womens-basketball-drops-home-opener-to-elmhurst.aspx"
+       },
        "live_feed": null
       },
       {
@@ -12285,7 +12278,7 @@
      "pa": 115,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T20:22:02-06:00"
+     "fetched": "2026-11-18T20:54:04-06:00"
     },
     "olivet": {
      "games": [
@@ -13108,7 +13101,7 @@
      "pa": 135,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T20:22:02-06:00"
+     "fetched": "2026-11-18T20:54:04-06:00"
     },
     "saintmarys": {
      "games": [
@@ -13991,7 +13984,7 @@
      "pa": 175,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T20:22:02-06:00"
+     "fetched": "2026-11-18T20:54:04-06:00"
     },
     "trine": {
      "games": [
@@ -14783,7 +14776,7 @@
      "pa": 96,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-18T20:22:02-06:00"
+     "fetched": "2026-11-18T20:54:04-06:00"
     }
    },
    "poll": {
@@ -15046,11 +15039,11 @@
     "count": 411,
     "teams": {
      "adrian": {
-      "rank": 258,
-      "npi": 44.964,
-      "rank_change": null,
+      "rank": 239,
+      "npi": 45.981,
+      "rank_change": 18,
       "bid": "AL-129",
-      "record": "1-1 qualifying",
+      "record": "2-1 qualifying",
       "preseason_rank": 248,
       "returning": "41.33%",
       "tourney_pct": "0.0%",
@@ -15058,9 +15051,9 @@
       "median_record": "6-19"
      },
      "albion": {
-      "rank": 71,
-      "npi": 54.862,
-      "rank_change": 6,
+      "rank": 38,
+      "npi": 57.49,
+      "rank_change": 33,
       "bid": "AL-114",
       "record": "3-0 qualifying",
       "preseason_rank": 155,
@@ -15070,9 +15063,9 @@
       "median_record": "15-11"
      },
      "alma": {
-      "rank": 110,
-      "npi": 52.254,
-      "rank_change": 16,
+      "rank": 133,
+      "npi": 50.773,
+      "rank_change": null,
       "bid": "AL-129",
       "record": "2-2 qualifying",
       "preseason_rank": 139,
@@ -15082,9 +15075,9 @@
       "median_record": "11-14"
      },
      "calvin": {
-      "rank": 117,
-      "npi": 51.82,
-      "rank_change": 13,
+      "rank": 114,
+      "npi": 51.796,
+      "rank_change": 1,
       "bid": "AL-105",
       "record": "2-2 qualifying",
       "preseason_rank": 36,
@@ -15094,9 +15087,9 @@
       "median_record": "14-11"
      },
      "hope": {
-      "rank": 17,
-      "npi": 60.541,
-      "rank_change": 0,
+      "rank": 22,
+      "npi": 59.715,
+      "rank_change": null,
       "bid": "AL-04",
       "record": "4-0 qualifying",
       "preseason_rank": 5,
@@ -15106,8 +15099,8 @@
       "median_record": "20-3"
      },
      "kalamazoo": {
-      "rank": 402,
-      "npi": 30.382,
+      "rank": 401,
+      "npi": 30.929,
       "rank_change": 1,
       "bid": "AL-129",
       "record": "0-1 qualifying",
@@ -15118,9 +15111,9 @@
       "median_record": "9-16"
      },
      "olivet": {
-      "rank": 344,
-      "npi": 39.727,
-      "rank_change": 5,
+      "rank": 350,
+      "npi": 38.528,
+      "rank_change": null,
       "bid": "AL-129",
       "record": "0-1 qualifying",
       "preseason_rank": 332,
@@ -15131,10 +15124,10 @@
      },
      "saintmarys": {
       "rank": 4,
-      "npi": 63.431,
+      "npi": 63.383,
       "rank_change": 0,
       "bid": "AL-129",
-      "record": "2-0 qualifying",
+      "record": "3-0 qualifying",
       "preseason_rank": 271,
       "returning": "78.08%",
       "tourney_pct": "0.0%",
@@ -15142,9 +15135,9 @@
       "median_record": "12-13"
      },
      "trine": {
-      "rank": 70,
-      "npi": 54.885,
-      "rank_change": 1,
+      "rank": 30,
+      "npi": 58.571,
+      "rank_change": 39,
       "bid": "AQ",
       "record": "2-0 qualifying",
       "preseason_rank": 6,
