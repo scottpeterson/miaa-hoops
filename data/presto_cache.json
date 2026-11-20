@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T07:00:37-06:00",
+ "fetched_at": "2026-11-20T12:54:16-06:00",
  "teams": {
   "olivet-mbb": {
    "games": [
@@ -1471,7 +1471,7 @@
    "roster": {
     "url": "https://www.olivetcomets.com/sports/wbkb/2026-27/roster",
     "season": "2026-27",
-    "players": 20,
+    "players": 19,
     "current": true
    },
    "leaders": [
@@ -1550,7 +1550,14 @@
       "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Alex_Mitchell.jpg?max_height=576&max_width=576&crop=1"
      }
     ],
-    []
+    [
+     {
+      "name": "Hadijah Namyalo",
+      "reason": "not on the 2026-27 roster",
+      "line": "0.0 points per game",
+      "year": null
+     }
+    ]
    ]
   }
  }
