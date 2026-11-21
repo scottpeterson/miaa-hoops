@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T19:51:43-06:00",
+ "fetched_at": "2026-11-20T20:23:26-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -883,7 +883,7 @@
      "pa": 401,
      "record": "0-5",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T19:51:43-06:00"
+     "fetched": "2026-11-20T20:23:26-06:00"
     },
     "albion": {
      "games": [
@@ -1677,7 +1677,7 @@
      "pa": 343,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T19:51:43-06:00"
+     "fetched": "2026-11-20T20:23:26-06:00"
     },
     "alma": {
      "games": [
@@ -2529,7 +2529,7 @@
      "pa": 291,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T19:51:43-06:00"
+     "fetched": "2026-11-20T20:23:26-06:00"
     },
     "calvin": {
      "games": [
@@ -3327,7 +3327,7 @@
      "pa": 230,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T19:51:43-06:00"
+     "fetched": "2026-11-20T20:23:26-06:00"
     },
     "hope": {
      "games": [
@@ -4164,7 +4164,7 @@
      "pa": 258,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T19:51:43-06:00"
+     "fetched": "2026-11-20T20:23:26-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -4289,20 +4289,16 @@
        "conference": false,
        "location": "Kalamazoo, MI, Anderson Athletic Center",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "W",
+       "pf": 96,
+       "pa": 77,
        "status": "",
        "links": {
-        "video": "https://www.youtube.com/khornets",
-        "live_stats": "https://hornets.kzoo.edu/sidearmstats/mbball/",
-        "tickets": "https://kzoo.universitytickets.com/"
+        "boxscore": "https://hornets.kzoo.edu/sports/mens-basketball/stats/2026-27/messiah/boxscore/7117",
+        "recap": "https://hornets.kzoo.edu/news/2026/11/20/mens-basketball-rides-hot-shooting-to-win-over-messiah.aspx"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/kalamazoo/mbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "kalamazoo-mbb-7118",
@@ -4927,70 +4923,70 @@
        "label": "Points",
        "name": "Jordan Harrison",
        "jersey": "1",
-       "gp": "3",
-       "total": "68",
-       "avg": "22.7",
-       "line": "22.7 per game, 68 total",
+       "gp": "4",
+       "total": "85",
+       "avg": "21.3",
+       "line": "21.3 per game, 85 total",
        "position": "G",
        "year": "First-year",
        "headshot": "https://hornets.kzoo.edu/images/2026/10/19/Harrison__Jordan_CMoss261012-4B3A7429.png?width=200&quality=90"
       },
       {
        "label": "Points",
-       "name": "Dylan Gross",
-       "jersey": "2",
-       "gp": "2",
-       "total": "23",
-       "avg": "11.5",
-       "line": "11.5 per game, 23 total",
+       "name": "Marvin Moore",
+       "jersey": "0",
+       "gp": "4",
+       "total": "36",
+       "avg": "9.0",
+       "line": "9.0 per game, 36 total",
        "position": "G",
        "year": "First-year",
-       "headshot": "https://hornets.kzoo.edu/images/2026/10/19/Gross__Dylan_CMoss261012-4B3A7413.png?width=200&quality=90"
+       "headshot": "https://hornets.kzoo.edu/images/2026/10/19/Moore__Marvin_CMoss261012-4B3A7415.png?width=200&quality=90"
       },
       {
        "label": "Rebounds",
-       "name": "Ben VanSumeren",
-       "jersey": "30",
-       "gp": "3",
-       "total": "14",
-       "avg": "4.7",
-       "line": "4.7 per game, 14 total",
-       "position": "F",
-       "year": "Sophomore",
-       "headshot": "https://hornets.kzoo.edu/images/2026/10/19/VanSumeren__Ben_CMoss261012-4B3A7387.png?width=200&quality=90"
+       "name": "Jordan Harrison",
+       "jersey": "1",
+       "gp": "4",
+       "total": "19",
+       "avg": "4.8",
+       "line": "4.8 per game, 19 total",
+       "position": "G",
+       "year": "First-year",
+       "headshot": "https://hornets.kzoo.edu/images/2026/10/19/Harrison__Jordan_CMoss261012-4B3A7429.png?width=200&quality=90"
       },
       {
        "label": "Assists",
        "name": "Nelson Sompa",
        "jersey": "3",
-       "gp": "3",
-       "total": "9",
-       "avg": "3.0",
-       "line": "3.0 per game, 9 total",
+       "gp": "4",
+       "total": "15",
+       "avg": "3.8",
+       "line": "3.8 per game, 15 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://hornets.kzoo.edu/images/2026/10/19/Sompa__Nelson_CMoss261012-4B3A7426.png?width=200&quality=90"
       },
       {
        "label": "Steals",
-       "name": "Nelson Sompa",
-       "jersey": "3",
-       "gp": "3",
-       "total": "6",
+       "name": "Jordan Harrison",
+       "jersey": "1",
+       "gp": "4",
+       "total": "8",
        "avg": "2.0",
-       "line": "2.0 per game, 6 total",
+       "line": "2.0 per game, 8 total",
        "position": "G",
-       "year": "Junior",
-       "headshot": "https://hornets.kzoo.edu/images/2026/10/19/Sompa__Nelson_CMoss261012-4B3A7426.png?width=200&quality=90"
+       "year": "First-year",
+       "headshot": "https://hornets.kzoo.edu/images/2026/10/19/Harrison__Jordan_CMoss261012-4B3A7429.png?width=200&quality=90"
       },
       {
        "label": "Blocks",
        "name": "Marvin Moore",
        "jersey": "0",
-       "gp": "3",
-       "total": "1",
-       "avg": "0.3",
-       "line": "0.3 per game, 1 total",
+       "gp": "4",
+       "total": "2",
+       "avg": "0.5",
+       "line": "0.5 per game, 2 total",
        "position": "G",
        "year": "First-year",
        "headshot": "https://hornets.kzoo.edu/images/2026/10/19/Moore__Marvin_CMoss261012-4B3A7415.png?width=200&quality=90"
@@ -4998,16 +4994,16 @@
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 3,
-     "wins": 1,
+     "played": 4,
+     "wins": 2,
      "losses": 2,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 224,
-     "pa": 230,
-     "record": "1-2",
+     "pf": 320,
+     "pa": 307,
+     "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T19:51:43-06:00"
+     "fetched": "2026-11-20T20:23:26-06:00"
     },
     "olivet": {
      "games": [
@@ -5866,7 +5862,7 @@
      "pa": 207,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T19:51:43-06:00"
+     "fetched": "2026-11-20T20:23:26-06:00"
     },
     "trine": {
      "games": [
@@ -6648,7 +6644,7 @@
      "pa": 380,
      "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T19:51:43-06:00"
+     "fetched": "2026-11-20T20:23:26-06:00"
     }
    },
    "poll": {
@@ -8266,7 +8262,7 @@
      "pa": 278,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T19:51:43-06:00"
+     "fetched": "2026-11-20T20:23:26-06:00"
     },
     "albion": {
      "games": [
@@ -9053,7 +9049,7 @@
      "pa": 172,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T19:51:43-06:00"
+     "fetched": "2026-11-20T20:23:26-06:00"
     },
     "alma": {
      "games": [
@@ -9898,7 +9894,7 @@
      "pa": 265,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T19:51:43-06:00"
+     "fetched": "2026-11-20T20:23:26-06:00"
     },
     "calvin": {
      "games": [
@@ -10693,7 +10689,7 @@
      "pa": 210,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T19:51:43-06:00"
+     "fetched": "2026-11-20T20:23:26-06:00"
     },
     "hope": {
      "games": [
@@ -11525,7 +11521,7 @@
      "pa": 249,
      "record": "4-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T19:51:43-06:00"
+     "fetched": "2026-11-20T20:23:26-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12347,7 +12343,7 @@
      "pa": 115,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T19:51:43-06:00"
+     "fetched": "2026-11-20T20:23:26-06:00"
     },
     "olivet": {
      "games": [
@@ -13177,7 +13173,7 @@
      "pa": 135,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T19:51:43-06:00"
+     "fetched": "2026-11-20T20:23:26-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14060,7 +14056,7 @@
      "pa": 175,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T19:51:43-06:00"
+     "fetched": "2026-11-20T20:23:26-06:00"
     },
     "trine": {
      "games": [
@@ -14852,7 +14848,7 @@
      "pa": 96,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T19:51:43-06:00"
+     "fetched": "2026-11-20T20:23:26-06:00"
     }
    },
    "poll": {
