@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T20:55:04-06:00",
+ "fetched_at": "2026-11-20T21:26:37-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -883,7 +883,7 @@
      "pa": 401,
      "record": "0-5",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T20:55:04-06:00"
+     "fetched": "2026-11-20T21:26:37-06:00"
     },
     "albion": {
      "games": [
@@ -1672,7 +1672,7 @@
      "pa": 406,
      "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T20:55:04-06:00"
+     "fetched": "2026-11-20T21:26:37-06:00"
     },
     "alma": {
      "games": [
@@ -2524,7 +2524,7 @@
      "pa": 291,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T20:55:04-06:00"
+     "fetched": "2026-11-20T21:26:37-06:00"
     },
     "calvin": {
      "games": [
@@ -3322,7 +3322,7 @@
      "pa": 230,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T20:55:04-06:00"
+     "fetched": "2026-11-20T21:26:37-06:00"
     },
     "hope": {
      "games": [
@@ -4159,7 +4159,7 @@
      "pa": 258,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T20:55:04-06:00"
+     "fetched": "2026-11-20T21:26:37-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -4997,7 +4997,7 @@
      "pa": 307,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T20:55:04-06:00"
+     "fetched": "2026-11-20T21:26:37-06:00"
     },
     "olivet": {
      "games": [
@@ -5087,8 +5087,8 @@
       {
        "id": "olivet-mbb-c8gqb58admsuhjc0",
        "exhibition": false,
-       "date": "2026-11-20T16:00:00Z",
-       "time_tbd": false,
+       "date": "2026-11-20T17:00:00Z",
+       "time_tbd": true,
        "home": false,
        "neutral": false,
        "opponent": {
@@ -5100,20 +5100,13 @@
        "conference": false,
        "location": "",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "L",
+       "pf": 78,
+       "pa": 69,
        "status": "",
-       "links": {
-        "live_stats": "https://svsucardinals.com/sidearmstats/mbball/summary",
-        "tickets": "https://www.olivetcomets.com/links/wan56m",
-        "live_stats_short": "https://www.olivetcomets.com/links/uu6d9y"
-       },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/saginawvalleystate/mbball/game.json"
-       }
+       "links": {},
+       "live_feed": null
       },
       {
        "id": "olivet-mbb-dmn52nay9ytt5avl",
@@ -5847,16 +5840,16 @@
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 3,
+     "played": 4,
      "wins": 2,
-     "losses": 1,
+     "losses": 2,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 243,
-     "pa": 207,
-     "record": "2-1",
+     "pf": 321,
+     "pa": 276,
+     "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T20:55:04-06:00"
+     "fetched": "2026-11-20T21:26:37-06:00"
     },
     "trine": {
      "games": [
@@ -6638,7 +6631,7 @@
      "pa": 380,
      "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T20:55:04-06:00"
+     "fetched": "2026-11-20T21:26:37-06:00"
     }
    },
    "poll": {
@@ -8256,7 +8249,7 @@
      "pa": 278,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T20:55:04-06:00"
+     "fetched": "2026-11-20T21:26:37-06:00"
     },
     "albion": {
      "games": [
@@ -9043,7 +9036,7 @@
      "pa": 172,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T20:55:04-06:00"
+     "fetched": "2026-11-20T21:26:37-06:00"
     },
     "alma": {
      "games": [
@@ -9888,7 +9881,7 @@
      "pa": 265,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T20:55:04-06:00"
+     "fetched": "2026-11-20T21:26:37-06:00"
     },
     "calvin": {
      "games": [
@@ -10006,9 +9999,9 @@
        "date": "2026-11-21T01:30:00Z",
        "time_tbd": false,
        "home": false,
-       "neutral": true,
+       "neutral": false,
        "opponent": {
-        "name": "UW-Platteville",
+        "name": "University of Wisconsin-Platteville",
         "short": "UW-Platteville",
         "logo": "https://calvinknights.com/images/logos/UWPlatteville.png?width=80&height=80&mode=max",
         "slug": null
@@ -10016,19 +10009,15 @@
        "conference": false,
        "location": "Platteville, Wis.",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "W",
+       "pf": 59,
+       "pa": 41,
        "status": "",
        "links": {
-        "video": "https://www.wiacnetwork.com/uwplatteville/?B=4594625",
-        "live_stats": "https://letsgopioneers.com/sidearmstats/wbball/summary"
+        "boxscore": "https://calvinknights.com/sports/womens-basketball/stats/2026-27/university-of-wisconsin-platteville/boxscore/9238"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/uwplatteville/wbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "calvin-wbb-9239",
@@ -10051,7 +10040,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://www.wiacnetwork.com/uwplatteville/?B=4875678",
+        "live_stats": "https://letsgopioneers.com/sidearmstats/wbball/summary"
+       },
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/uwplatteville/wbball/game.json"
@@ -10603,10 +10595,10 @@
        "label": "Points",
        "name": "Izzy Wotlinski",
        "jersey": "22",
-       "gp": "4",
-       "total": "21",
-       "avg": "5.3",
-       "line": "5.3 per game, 21 total",
+       "gp": "5",
+       "total": "33",
+       "avg": "6.6",
+       "line": "6.6 per game, 33 total",
        "position": "G",
        "year": "First-year",
        "headshot": "https://calvinknights.com/images/2026/10/27/Wotlinski__Izzy.png?width=200&quality=90"
@@ -10615,10 +10607,10 @@
        "label": "Points",
        "name": "Lily Nitz",
        "jersey": "10",
-       "gp": "4",
+       "gp": "5",
        "total": "20",
-       "avg": "5.0",
-       "line": "5.0 per game, 20 total",
+       "avg": "4.0",
+       "line": "4.0 per game, 20 total",
        "position": "W",
        "year": "Sophomore",
        "headshot": "https://calvinknights.com/images/2026/10/27/Nitz__Lily.png?width=200&quality=90"
@@ -10627,10 +10619,10 @@
        "label": "Rebounds",
        "name": "Lily Nitz",
        "jersey": "10",
-       "gp": "4",
-       "total": "24",
-       "avg": "6.0",
-       "line": "6.0 per game, 24 total",
+       "gp": "5",
+       "total": "28",
+       "avg": "5.6",
+       "line": "5.6 per game, 28 total",
        "position": "W",
        "year": "Sophomore",
        "headshot": "https://calvinknights.com/images/2026/10/27/Nitz__Lily.png?width=200&quality=90"
@@ -10639,10 +10631,10 @@
        "label": "Assists",
        "name": "Izzy Wotlinski",
        "jersey": "22",
-       "gp": "4",
-       "total": "3",
+       "gp": "5",
+       "total": "4",
        "avg": "0.8",
-       "line": "0.8 per game, 3 total",
+       "line": "0.8 per game, 4 total",
        "position": "G",
        "year": "First-year",
        "headshot": "https://calvinknights.com/images/2026/10/27/Wotlinski__Izzy.png?width=200&quality=90"
@@ -10651,39 +10643,39 @@
        "label": "Steals",
        "name": "Leigh Wyman",
        "jersey": "3",
-       "gp": "4",
+       "gp": "5",
        "total": "15",
-       "avg": "3.8",
-       "line": "3.8 per game, 15 total",
+       "avg": "3.0",
+       "line": "3.0 per game, 15 total",
        "position": "G",
        "year": "First-year",
        "headshot": "https://calvinknights.com/images/2026/10/27/Wyman__Leigh.png?width=200&quality=90"
       },
       {
        "label": "Blocks",
-       "name": "Lily Nitz",
-       "jersey": "10",
-       "gp": "4",
+       "name": "Jamie Custer",
+       "jersey": "21",
+       "gp": "5",
        "total": "1",
-       "avg": "0.3",
-       "line": "0.3 per game, 1 total",
-       "position": "W",
-       "year": "Sophomore",
-       "headshot": "https://calvinknights.com/images/2026/10/27/Nitz__Lily.png?width=200&quality=90"
+       "avg": "0.2",
+       "line": "0.2 per game, 1 total",
+       "position": "G",
+       "year": "Junior",
+       "headshot": "https://calvinknights.com/images/2026/10/27/Custer__Jamie.png?width=200&quality=90"
       }
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 4,
-     "wins": 2,
+     "played": 5,
+     "wins": 3,
      "losses": 2,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 207,
-     "pa": 210,
-     "record": "2-2",
+     "pf": 266,
+     "pa": 251,
+     "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T20:55:04-06:00"
+     "fetched": "2026-11-20T21:26:37-06:00"
     },
     "hope": {
      "games": [
@@ -10817,6 +10809,7 @@
        "pa": 47,
        "status": "",
        "links": {
+        "recap": "https://athletics.hope.edu/news/2026/11/20/womens-basketball-powers-past-mount-union.aspx",
         "boxscore": "https://athletics.hope.edu/sports/womens-basketball/stats/2026-27/university-of-mount-union/boxscore/18669"
        },
        "live_feed": null
@@ -11512,7 +11505,7 @@
      "pa": 296,
      "record": "5-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T20:55:04-06:00"
+     "fetched": "2026-11-20T21:26:37-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12334,7 +12327,7 @@
      "pa": 115,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T20:55:04-06:00"
+     "fetched": "2026-11-20T21:26:37-06:00"
     },
     "olivet": {
      "games": [
@@ -13080,10 +13073,7 @@
        "gp": "1",
        "total": "15",
        "avg": "15.0",
-       "line": "15.0 per game, 15 total",
-       "position": "G",
-       "year": "Sophomore",
-       "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Madelyn_Burdis.jpg?max_height=576&max_width=576&crop=1"
+       "line": "15.0 per game, 15 total"
       },
       {
        "label": "Points",
@@ -13092,10 +13082,7 @@
        "gp": "3",
        "total": "26",
        "avg": "8.7",
-       "line": "8.7 per game, 26 total",
-       "position": "G",
-       "year": "Sophomore",
-       "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Reese_Gohsman.jpg?max_height=576&max_width=576&crop=1"
+       "line": "8.7 per game, 26 total"
       },
       {
        "label": "Rebounds",
@@ -13104,10 +13091,7 @@
        "gp": "1",
        "total": "5",
        "avg": "5.0",
-       "line": "5.0 per game, 5 total",
-       "position": "G",
-       "year": "Sophomore",
-       "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Madelyn_Burdis.jpg?max_height=576&max_width=576&crop=1"
+       "line": "5.0 per game, 5 total"
       },
       {
        "label": "Assists",
@@ -13116,10 +13100,7 @@
        "gp": "1",
        "total": "4",
        "avg": "4.0",
-       "line": "4.0 per game, 4 total",
-       "position": "G",
-       "year": "First-year",
-       "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Hannah_Ralko.jpg?max_height=576&max_width=576&crop=1"
+       "line": "4.0 per game, 4 total"
       },
       {
        "label": "Steals",
@@ -13128,10 +13109,7 @@
        "gp": "1",
        "total": "2",
        "avg": "2.0",
-       "line": "2.0 per game, 2 total",
-       "position": "G",
-       "year": "Sophomore",
-       "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Madelyn_Burdis.jpg?max_height=576&max_width=576&crop=1"
+       "line": "2.0 per game, 2 total"
       },
       {
        "label": "Blocks",
@@ -13140,10 +13118,7 @@
        "gp": "3",
        "total": "3",
        "avg": "1.0",
-       "line": "1.0 per game, 3 total",
-       "position": "C",
-       "year": "Sophomore",
-       "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Alex_Mitchell.jpg?max_height=576&max_width=576&crop=1"
+       "line": "1.0 per game, 3 total"
       }
      ],
      "departed": [
@@ -13164,7 +13139,7 @@
      "pa": 135,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T20:55:04-06:00"
+     "fetched": "2026-11-20T21:26:37-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14047,7 +14022,7 @@
      "pa": 175,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T20:55:04-06:00"
+     "fetched": "2026-11-20T21:26:37-06:00"
     },
     "trine": {
      "games": [
@@ -14839,7 +14814,7 @@
      "pa": 96,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T20:55:04-06:00"
+     "fetched": "2026-11-20T21:26:37-06:00"
     }
    },
    "poll": {
