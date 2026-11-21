@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T22:30:29-06:00",
+ "fetched_at": "2026-11-20T23:02:30-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -883,7 +883,7 @@
      "pa": 401,
      "record": "0-5",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T22:30:29-06:00"
+     "fetched": "2026-11-20T23:02:30-06:00"
     },
     "albion": {
      "games": [
@@ -1017,7 +1017,8 @@
        "pa": 63,
        "status": "",
        "links": {
-        "boxscore": "https://gobrits.com/sports/mens-basketball/stats/2026-27/concordia-wi-/boxscore/7889"
+        "boxscore": "https://gobrits.com/sports/mens-basketball/stats/2026-27/concordia-wi-/boxscore/7889",
+        "recap": "https://gobrits.com/news/2026/11/20/mens-basketball-brits-drop-game-1-of-turner-classic.aspx"
        },
        "live_feed": null
       },
@@ -1672,7 +1673,7 @@
      "pa": 406,
      "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T22:30:29-06:00"
+     "fetched": "2026-11-20T23:02:30-06:00"
     },
     "alma": {
      "games": [
@@ -2524,7 +2525,7 @@
      "pa": 291,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T22:30:29-06:00"
+     "fetched": "2026-11-20T23:02:30-06:00"
     },
     "calvin": {
      "games": [
@@ -3322,7 +3323,7 @@
      "pa": 230,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T22:30:29-06:00"
+     "fetched": "2026-11-20T23:02:30-06:00"
     },
     "hope": {
      "games": [
@@ -4159,7 +4160,7 @@
      "pa": 258,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T22:30:29-06:00"
+     "fetched": "2026-11-20T23:02:30-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -4997,7 +4998,7 @@
      "pa": 307,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T22:30:29-06:00"
+     "fetched": "2026-11-20T23:02:30-06:00"
     },
     "olivet": {
      "games": [
@@ -5849,7 +5850,7 @@
      "pa": 276,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T22:30:29-06:00"
+     "fetched": "2026-11-20T23:02:30-06:00"
     },
     "trine": {
      "games": [
@@ -6631,7 +6632,7 @@
      "pa": 380,
      "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T22:30:29-06:00"
+     "fetched": "2026-11-20T23:02:30-06:00"
     }
    },
    "poll": {
@@ -8249,7 +8250,7 @@
      "pa": 278,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T22:30:29-06:00"
+     "fetched": "2026-11-20T23:02:30-06:00"
     },
     "albion": {
      "games": [
@@ -8350,20 +8351,15 @@
        "conference": false,
        "location": "Cincinnati, OH, Harrington Center",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "L",
+       "pf": 44,
+       "pa": 56,
        "status": "",
        "links": {
-        "video": "https://www.youtube.com/@mountstjosephsportsnetwork/streams",
-        "live_stats": "https://msjlions.com/sidearmstats/wbball/summary",
-        "tickets": "https://msjlions.com/sports/2024/11/5/lhtc-tickets.aspx"
+        "boxscore": "https://gobrits.com/sports/womens-basketball/stats/2026-27/ohio-wesleyan/boxscore/7947"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/mountstjoseph/wbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "albion-wbb-7948",
@@ -8956,10 +8952,10 @@
        "label": "Points",
        "name": "Khaleeya Cook",
        "jersey": "3",
-       "gp": "3",
-       "total": "31",
-       "avg": "10.3",
-       "line": "10.3 per game, 31 total",
+       "gp": "4",
+       "total": "36",
+       "avg": "9.0",
+       "line": "9.0 per game, 36 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://gobrits.com/images/2026/9/15/Cook_Khaleeya.jpg?width=200&quality=90"
@@ -8968,10 +8964,10 @@
        "label": "Points",
        "name": "Alex Botbyl",
        "jersey": "34",
-       "gp": "3",
-       "total": "21",
-       "avg": "7.0",
-       "line": "7.0 per game, 21 total",
+       "gp": "4",
+       "total": "29",
+       "avg": "7.3",
+       "line": "7.3 per game, 29 total",
        "position": "C",
        "year": "First-year",
        "headshot": "https://gobrits.com/images/2026/9/15/Botbyl_Alex.jpg?width=200&quality=90"
@@ -8980,10 +8976,10 @@
        "label": "Rebounds",
        "name": "Khaleeya Cook",
        "jersey": "3",
-       "gp": "3",
-       "total": "23",
-       "avg": "7.7",
-       "line": "7.7 per game, 23 total",
+       "gp": "4",
+       "total": "28",
+       "avg": "7.0",
+       "line": "7.0 per game, 28 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://gobrits.com/images/2026/9/15/Cook_Khaleeya.jpg?width=200&quality=90"
@@ -8992,10 +8988,10 @@
        "label": "Assists",
        "name": "Khaleeya Cook",
        "jersey": "3",
-       "gp": "3",
-       "total": "12",
-       "avg": "4.0",
-       "line": "4.0 per game, 12 total",
+       "gp": "4",
+       "total": "13",
+       "avg": "3.3",
+       "line": "3.3 per game, 13 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://gobrits.com/images/2026/9/15/Cook_Khaleeya.jpg?width=200&quality=90"
@@ -9004,10 +9000,10 @@
        "label": "Steals",
        "name": "Alex Botbyl",
        "jersey": "34",
-       "gp": "3",
-       "total": "6",
+       "gp": "4",
+       "total": "8",
        "avg": "2.0",
-       "line": "2.0 per game, 6 total",
+       "line": "2.0 per game, 8 total",
        "position": "C",
        "year": "First-year",
        "headshot": "https://gobrits.com/images/2026/9/15/Botbyl_Alex.jpg?width=200&quality=90"
@@ -9016,10 +9012,10 @@
        "label": "Blocks",
        "name": "Khaleeya Cook",
        "jersey": "3",
-       "gp": "3",
-       "total": "2",
-       "avg": "0.7",
-       "line": "0.7 per game, 2 total",
+       "gp": "4",
+       "total": "3",
+       "avg": "0.8",
+       "line": "0.8 per game, 3 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://gobrits.com/images/2026/9/15/Cook_Khaleeya.jpg?width=200&quality=90"
@@ -9027,16 +9023,16 @@
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 3,
+     "played": 4,
      "wins": 3,
-     "losses": 0,
+     "losses": 1,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 197,
-     "pa": 172,
-     "record": "3-0",
+     "pf": 241,
+     "pa": 228,
+     "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T22:30:29-06:00"
+     "fetched": "2026-11-20T23:02:30-06:00"
     },
     "alma": {
      "games": [
@@ -9881,7 +9877,7 @@
      "pa": 265,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T22:30:29-06:00"
+     "fetched": "2026-11-20T23:02:30-06:00"
     },
     "calvin": {
      "games": [
@@ -10676,7 +10672,7 @@
      "pa": 251,
      "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T22:30:29-06:00"
+     "fetched": "2026-11-20T23:02:30-06:00"
     },
     "hope": {
      "games": [
@@ -11506,7 +11502,7 @@
      "pa": 296,
      "record": "5-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T22:30:29-06:00"
+     "fetched": "2026-11-20T23:02:30-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12328,7 +12324,7 @@
      "pa": 115,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T22:30:29-06:00"
+     "fetched": "2026-11-20T23:02:30-06:00"
     },
     "olivet": {
      "games": [
@@ -13158,7 +13154,7 @@
      "pa": 135,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T22:30:29-06:00"
+     "fetched": "2026-11-20T23:02:30-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14041,7 +14037,7 @@
      "pa": 175,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T22:30:29-06:00"
+     "fetched": "2026-11-20T23:02:30-06:00"
     },
     "trine": {
      "games": [
@@ -14833,7 +14829,7 @@
      "pa": 96,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T22:30:29-06:00"
+     "fetched": "2026-11-20T23:02:30-06:00"
     }
    },
    "poll": {
