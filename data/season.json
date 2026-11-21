@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T15:57:23-06:00",
+ "fetched_at": "2026-11-21T16:29:02-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -883,7 +883,7 @@
      "pa": 401,
      "record": "0-5",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T15:57:23-06:00"
+     "fetched": "2026-11-21T16:29:02-06:00"
     },
     "albion": {
      "games": [
@@ -1668,7 +1668,7 @@
      "pa": 483,
      "record": "4-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T15:57:23-06:00"
+     "fetched": "2026-11-21T16:29:02-06:00"
     },
     "alma": {
      "games": [
@@ -2520,7 +2520,7 @@
      "pa": 291,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T15:57:23-06:00"
+     "fetched": "2026-11-21T16:29:02-06:00"
     },
     "calvin": {
      "games": [
@@ -3315,7 +3315,7 @@
      "pa": 281,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T15:57:23-06:00"
+     "fetched": "2026-11-21T16:29:02-06:00"
     },
     "hope": {
      "games": [
@@ -4152,7 +4152,7 @@
      "pa": 258,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T15:57:23-06:00"
+     "fetched": "2026-11-21T16:29:02-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -4990,7 +4990,7 @@
      "pa": 307,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T15:57:23-06:00"
+     "fetched": "2026-11-21T16:29:02-06:00"
     },
     "olivet": {
      "games": [
@@ -5842,7 +5842,7 @@
      "pa": 276,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T15:57:23-06:00"
+     "fetched": "2026-11-21T16:29:02-06:00"
     },
     "trine": {
      "games": [
@@ -5997,13 +5997,13 @@
        "conference": false,
        "location": "Ada, OH",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "L",
+       "pf": 67,
+       "pa": 69,
        "status": "",
        "links": {
-        "live_stats": "https://onusports.com/sports/mbkb/2026-27/boxscores/20261121_r0ot.xml"
+        "boxscore": "https://trinethunder.com/sports/mens-basketball/stats/2026-27/ohio-northern/boxscore/8533"
        },
        "live_feed": null
       },
@@ -6544,10 +6544,10 @@
        "label": "Points",
        "name": "Cade Brenner",
        "jersey": "3",
-       "gp": "5",
-       "total": "76",
-       "avg": "15.2",
-       "line": "15.2 per game, 76 total",
+       "gp": "6",
+       "total": "95",
+       "avg": "15.8",
+       "line": "15.8 per game, 95 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://trinethunder.com/images/2026/11/12/Brenner__Cade.jpg?width=200&quality=90"
@@ -6556,10 +6556,10 @@
        "label": "Points",
        "name": "Elisha Jones",
        "jersey": "2",
-       "gp": "5",
-       "total": "74",
-       "avg": "14.8",
-       "line": "14.8 per game, 74 total",
+       "gp": "6",
+       "total": "76",
+       "avg": "12.7",
+       "line": "12.7 per game, 76 total",
        "position": "PG",
        "year": "Junior",
        "headshot": "https://trinethunder.com/images/2026/11/12/Jones__Elisha.jpg?width=200&quality=90"
@@ -6568,10 +6568,10 @@
        "label": "Rebounds",
        "name": "Jess Roller",
        "jersey": "24",
-       "gp": "5",
-       "total": "26",
-       "avg": "5.2",
-       "line": "5.2 per game, 26 total",
+       "gp": "6",
+       "total": "32",
+       "avg": "5.3",
+       "line": "5.3 per game, 32 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://trinethunder.com/images/2026/11/12/Roller__Jess.jpg?width=200&quality=90"
@@ -6580,10 +6580,10 @@
        "label": "Assists",
        "name": "Drake Ahrens",
        "jersey": "14",
-       "gp": "5",
-       "total": "11",
+       "gp": "6",
+       "total": "13",
        "avg": "2.2",
-       "line": "2.2 per game, 11 total",
+       "line": "2.2 per game, 13 total",
        "position": "G",
        "year": "First-year",
        "headshot": "https://trinethunder.com/images/2026/11/12/Ahrens__Drake.jpg?width=200&quality=90"
@@ -6592,10 +6592,10 @@
        "label": "Steals",
        "name": "Drake Ahrens",
        "jersey": "14",
-       "gp": "5",
-       "total": "8",
-       "avg": "1.6",
-       "line": "1.6 per game, 8 total",
+       "gp": "6",
+       "total": "12",
+       "avg": "2.0",
+       "line": "2.0 per game, 12 total",
        "position": "G",
        "year": "First-year",
        "headshot": "https://trinethunder.com/images/2026/11/12/Ahrens__Drake.jpg?width=200&quality=90"
@@ -6604,10 +6604,10 @@
        "label": "Blocks",
        "name": "Elisha Jones",
        "jersey": "2",
-       "gp": "5",
+       "gp": "6",
        "total": "3",
-       "avg": "0.6",
-       "line": "0.6 per game, 3 total",
+       "avg": "0.5",
+       "line": "0.5 per game, 3 total",
        "position": "PG",
        "year": "Junior",
        "headshot": "https://trinethunder.com/images/2026/11/12/Jones__Elisha.jpg?width=200&quality=90"
@@ -6615,16 +6615,16 @@
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 5,
+     "played": 6,
      "wins": 3,
-     "losses": 2,
+     "losses": 3,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 424,
-     "pa": 380,
-     "record": "3-2",
+     "pf": 491,
+     "pa": 449,
+     "record": "3-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T15:57:23-06:00"
+     "fetched": "2026-11-21T16:29:02-06:00"
     }
    },
    "poll": {
@@ -8242,7 +8242,7 @@
      "pa": 278,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T15:57:23-06:00"
+     "fetched": "2026-11-21T16:29:02-06:00"
     },
     "albion": {
      "games": [
@@ -9020,7 +9020,7 @@
      "pa": 281,
      "record": "4-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T15:57:23-06:00"
+     "fetched": "2026-11-21T16:29:02-06:00"
     },
     "alma": {
      "games": [
@@ -9860,7 +9860,7 @@
      "pa": 329,
      "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T15:57:23-06:00"
+     "fetched": "2026-11-21T16:29:02-06:00"
     },
     "calvin": {
      "games": [
@@ -10015,19 +10015,15 @@
        "conference": false,
        "location": "Platteville, Wis.",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "L",
+       "pf": 58,
+       "pa": 67,
        "status": "",
        "links": {
-        "video": "https://www.wiacnetwork.com/uwplatteville/?B=4875678",
-        "live_stats": "https://letsgopioneers.com/sidearmstats/wbball/summary"
+        "boxscore": "https://calvinknights.com/sports/womens-basketball/stats/2026-27/uw-oshkosh/boxscore/9239"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/uwplatteville/wbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "calvin-wbb-9240",
@@ -10575,10 +10571,10 @@
        "label": "Points",
        "name": "Izzy Wotlinski",
        "jersey": "22",
-       "gp": "5",
-       "total": "33",
-       "avg": "6.6",
-       "line": "6.6 per game, 33 total",
+       "gp": "6",
+       "total": "50",
+       "avg": "8.3",
+       "line": "8.3 per game, 50 total",
        "position": "G",
        "year": "First-year",
        "headshot": "https://calvinknights.com/images/2026/10/27/Wotlinski__Izzy.png?width=200&quality=90"
@@ -10587,10 +10583,10 @@
        "label": "Points",
        "name": "Lily Nitz",
        "jersey": "10",
-       "gp": "5",
-       "total": "20",
-       "avg": "4.0",
-       "line": "4.0 per game, 20 total",
+       "gp": "6",
+       "total": "22",
+       "avg": "3.7",
+       "line": "3.7 per game, 22 total",
        "position": "W",
        "year": "Sophomore",
        "headshot": "https://calvinknights.com/images/2026/10/27/Nitz__Lily.png?width=200&quality=90"
@@ -10599,34 +10595,34 @@
        "label": "Rebounds",
        "name": "Lily Nitz",
        "jersey": "10",
-       "gp": "5",
-       "total": "28",
-       "avg": "5.6",
-       "line": "5.6 per game, 28 total",
+       "gp": "6",
+       "total": "34",
+       "avg": "5.7",
+       "line": "5.7 per game, 34 total",
        "position": "W",
        "year": "Sophomore",
        "headshot": "https://calvinknights.com/images/2026/10/27/Nitz__Lily.png?width=200&quality=90"
       },
       {
        "label": "Assists",
-       "name": "Izzy Wotlinski",
-       "jersey": "22",
-       "gp": "5",
+       "name": "Gabby Halliwill",
+       "jersey": "11",
+       "gp": "6",
        "total": "4",
-       "avg": "0.8",
-       "line": "0.8 per game, 4 total",
+       "avg": "0.7",
+       "line": "0.7 per game, 4 total",
        "position": "G",
-       "year": "First-year",
-       "headshot": "https://calvinknights.com/images/2026/10/27/Wotlinski__Izzy.png?width=200&quality=90"
+       "year": "Junior",
+       "headshot": "https://calvinknights.com/images/2026/10/27/Halliwill__Gabby.png?width=200&quality=90"
       },
       {
        "label": "Steals",
        "name": "Leigh Wyman",
        "jersey": "3",
-       "gp": "5",
+       "gp": "6",
        "total": "15",
-       "avg": "3.0",
-       "line": "3.0 per game, 15 total",
+       "avg": "2.5",
+       "line": "2.5 per game, 15 total",
        "position": "G",
        "year": "First-year",
        "headshot": "https://calvinknights.com/images/2026/10/27/Wyman__Leigh.png?width=200&quality=90"
@@ -10635,7 +10631,7 @@
        "label": "Blocks",
        "name": "Jamie Custer",
        "jersey": "21",
-       "gp": "5",
+       "gp": "6",
        "total": "1",
        "avg": "0.2",
        "line": "0.2 per game, 1 total",
@@ -10646,16 +10642,16 @@
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 5,
+     "played": 6,
      "wins": 3,
-     "losses": 2,
+     "losses": 3,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 266,
-     "pa": 251,
-     "record": "3-2",
+     "pf": 324,
+     "pa": 318,
+     "record": "3-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T15:57:23-06:00"
+     "fetched": "2026-11-21T16:29:02-06:00"
     },
     "hope": {
      "games": [
@@ -11482,7 +11478,7 @@
      "pa": 374,
      "record": "6-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T15:57:23-06:00"
+     "fetched": "2026-11-21T16:29:02-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12304,7 +12300,7 @@
      "pa": 207,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T15:57:23-06:00"
+     "fetched": "2026-11-21T16:29:02-06:00"
     },
     "olivet": {
      "games": [
@@ -13134,7 +13130,7 @@
      "pa": 135,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T15:57:23-06:00"
+     "fetched": "2026-11-21T16:29:02-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14014,7 +14010,7 @@
      "pa": 247,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T15:57:23-06:00"
+     "fetched": "2026-11-21T16:29:02-06:00"
     },
     "trine": {
      "games": [
@@ -14088,19 +14084,15 @@
        "conference": false,
        "location": "Milwaukee, WI",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "W",
+       "pf": 73,
+       "pa": 37,
        "status": "",
        "links": {
-        "video": "https://wlcsports.com/sports/2022/9/27/archived-broadcasts.aspx",
-        "live_stats": "https://wlcsports.com/sidearmstats/wbball/summary"
+        "boxscore": "https://trinethunder.com/sports/womens-basketball/stats/2026-27/wisconsin-lutheran/boxscore/8672"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/wisconsinlutheran/wbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "trine-wbb-8673",
@@ -14726,10 +14718,10 @@
        "label": "Points",
        "name": "Annika Southworth",
        "jersey": "2",
-       "gp": "2",
-       "total": "33",
-       "avg": "16.5",
-       "line": "16.5 per game, 33 total",
+       "gp": "3",
+       "total": "41",
+       "avg": "13.7",
+       "line": "13.7 per game, 41 total",
        "position": "G",
        "year": "Sophomore",
        "headshot": "https://trinethunder.com/images/2026/11/12/Southworth__Annika.jpg?width=200&quality=90"
@@ -14738,58 +14730,58 @@
        "label": "Points",
        "name": "Aubri Korfhagen",
        "jersey": "20",
-       "gp": "2",
-       "total": "21",
-       "avg": "10.5",
-       "line": "10.5 per game, 21 total",
+       "gp": "3",
+       "total": "28",
+       "avg": "9.3",
+       "line": "9.3 per game, 28 total",
        "position": "G",
        "year": "First-year",
        "headshot": "https://trinethunder.com/images/2026/11/12/Korfhagen__Aubri.jpg?width=200&quality=90"
       },
       {
        "label": "Rebounds",
-       "name": "Alivia Farnham",
-       "jersey": "11",
-       "gp": "2",
-       "total": "8",
-       "avg": "4.0",
-       "line": "4.0 per game, 8 total",
-       "position": "G/F",
-       "year": "First-year",
-       "headshot": "https://trinethunder.com/images/2026/11/12/Farnham__Alivia.jpg?width=200&quality=90"
+       "name": "Annika Southworth",
+       "jersey": "2",
+       "gp": "3",
+       "total": "13",
+       "avg": "4.3",
+       "line": "4.3 per game, 13 total",
+       "position": "G",
+       "year": "Sophomore",
+       "headshot": "https://trinethunder.com/images/2026/11/12/Southworth__Annika.jpg?width=200&quality=90"
       },
       {
        "label": "Assists",
-       "name": "Sophie Gesell",
-       "jersey": "4",
-       "gp": "2",
-       "total": "4",
-       "avg": "2.0",
-       "line": "2.0 per game, 4 total",
+       "name": "Callie Nichols",
+       "jersey": "3",
+       "gp": "3",
+       "total": "7",
+       "avg": "2.3",
+       "line": "2.3 per game, 7 total",
        "position": "G",
        "year": "Sophomore",
-       "headshot": "https://trinethunder.com/images/2026/11/12/Gesell__Sophie.jpg?width=200&quality=90"
+       "headshot": "https://trinethunder.com/images/2026/11/12/Nichols__Callie.jpg?width=200&quality=90"
       },
       {
        "label": "Steals",
-       "name": "Alivia Farnham",
-       "jersey": "11",
+       "name": "Hailey Cole",
+       "jersey": "44",
        "gp": "2",
-       "total": "2",
-       "avg": "1.0",
-       "line": "1.0 per game, 2 total",
-       "position": "G/F",
-       "year": "First-year",
-       "headshot": "https://trinethunder.com/images/2026/11/12/Farnham__Alivia.jpg?width=200&quality=90"
+       "total": "3",
+       "avg": "1.5",
+       "line": "1.5 per game, 3 total",
+       "position": "F",
+       "year": "Junior",
+       "headshot": "https://trinethunder.com/images/2026/11/12/Cole__Hailey.jpg?width=200&quality=90"
       },
       {
        "label": "Blocks",
        "name": "Sienna Gills",
        "jersey": "21",
-       "gp": "1",
+       "gp": "2",
        "total": "2",
-       "avg": "2.0",
-       "line": "2.0 per game, 2 total",
+       "avg": "1.0",
+       "line": "1.0 per game, 2 total",
        "position": "F",
        "year": "First-year",
        "headshot": "https://trinethunder.com/images/2026/11/12/Gills__Sienna.jpg?width=200&quality=90"
@@ -14797,16 +14789,16 @@
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 2,
-     "wins": 2,
+     "played": 3,
+     "wins": 3,
      "losses": 0,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 118,
-     "pa": 96,
-     "record": "2-0",
+     "pf": 191,
+     "pa": 133,
+     "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T15:57:23-06:00"
+     "fetched": "2026-11-21T16:29:02-06:00"
     }
    },
    "poll": {
