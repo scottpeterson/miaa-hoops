@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T14:44:13-06:00",
+ "fetched_at": "2026-11-21T15:15:51-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -883,7 +883,7 @@
      "pa": 401,
      "record": "0-5",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T14:44:13-06:00"
+     "fetched": "2026-11-21T15:15:51-06:00"
     },
     "albion": {
      "games": [
@@ -1668,7 +1668,7 @@
      "pa": 483,
      "record": "4-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T14:44:13-06:00"
+     "fetched": "2026-11-21T15:15:51-06:00"
     },
     "alma": {
      "games": [
@@ -2520,7 +2520,7 @@
      "pa": 291,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T14:44:13-06:00"
+     "fetched": "2026-11-21T15:15:51-06:00"
     },
     "calvin": {
      "games": [
@@ -3315,7 +3315,7 @@
      "pa": 281,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T14:44:13-06:00"
+     "fetched": "2026-11-21T15:15:51-06:00"
     },
     "hope": {
      "games": [
@@ -4152,7 +4152,7 @@
      "pa": 258,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T14:44:13-06:00"
+     "fetched": "2026-11-21T15:15:51-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -4990,7 +4990,7 @@
      "pa": 307,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T14:44:13-06:00"
+     "fetched": "2026-11-21T15:15:51-06:00"
     },
     "olivet": {
      "games": [
@@ -5842,7 +5842,7 @@
      "pa": 276,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T14:44:13-06:00"
+     "fetched": "2026-11-21T15:15:51-06:00"
     },
     "trine": {
      "games": [
@@ -6624,7 +6624,7 @@
      "pa": 380,
      "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T14:44:13-06:00"
+     "fetched": "2026-11-21T15:15:51-06:00"
     }
    },
    "poll": {
@@ -8242,7 +8242,7 @@
      "pa": 278,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T14:44:13-06:00"
+     "fetched": "2026-11-21T15:15:51-06:00"
     },
     "albion": {
      "games": [
@@ -9020,7 +9020,7 @@
      "pa": 281,
      "record": "4-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T14:44:13-06:00"
+     "fetched": "2026-11-21T15:15:51-06:00"
     },
     "alma": {
      "games": [
@@ -9865,7 +9865,7 @@
      "pa": 265,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T14:44:13-06:00"
+     "fetched": "2026-11-21T15:15:51-06:00"
     },
     "calvin": {
      "games": [
@@ -10660,7 +10660,7 @@
      "pa": 251,
      "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T14:44:13-06:00"
+     "fetched": "2026-11-21T15:15:51-06:00"
     },
     "hope": {
      "games": [
@@ -11487,7 +11487,7 @@
      "pa": 374,
      "record": "6-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T14:44:13-06:00"
+     "fetched": "2026-11-21T15:15:51-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -11561,14 +11561,14 @@
        "conference": false,
        "location": "Bluffton, OH",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "L",
+       "pf": 82,
+       "pa": 92,
        "status": "",
        "links": {
-        "video": "https://www.youtube.com/@BlufftonUniversityAthletics",
-        "live_stats": "https://blufftonbeavers.com/sports/wbkb/2026-27/boxscores/20261121_f4md.xml"
+        "boxscore": "https://hornets.kzoo.edu/sports/womens-basketball/stats/2026-27/bluffton/boxscore/6942",
+        "recap": "https://hornets.kzoo.edu/news/2026/11/21/womens-basketball-drops-nailbiter-in-overtime-at-bluffton.aspx"
        },
        "live_feed": null
       },
@@ -12227,36 +12227,36 @@
      "players": [
       {
        "label": "Points",
-       "name": "Elisabeth Wilks",
-       "jersey": "4",
-       "gp": "2",
-       "total": "15",
-       "avg": "7.5",
-       "line": "7.5 per game, 15 total",
-       "position": "G/F",
-       "year": "Junior",
-       "headshot": "https://hornets.kzoo.edu/images/2026/10/19/Wilks__Elisabeth_CMoss261012-4B3A8202.png?width=200&quality=90"
-      },
-      {
-       "label": "Points",
        "name": "Sophia Moir",
        "jersey": "2",
-       "gp": "2",
-       "total": "14",
-       "avg": "7.0",
-       "line": "7.0 per game, 14 total",
+       "gp": "3",
+       "total": "27",
+       "avg": "9.0",
+       "line": "9.0 per game, 27 total",
        "position": "G/F",
        "year": "Junior",
        "headshot": "https://hornets.kzoo.edu/images/2026/10/19/Moir__Sophia_CMoss261012-4B3A8193.png?width=200&quality=90"
       },
       {
+       "label": "Points",
+       "name": "Scarlett Hosner",
+       "jersey": "10",
+       "gp": "2",
+       "total": "20",
+       "avg": "10.0",
+       "line": "10.0 per game, 20 total",
+       "position": "G/F",
+       "year": "Sophomore",
+       "headshot": "https://hornets.kzoo.edu/images/2026/10/20/Hosner__Scarlett_CMoss261012-4B3A8245.png?width=200&quality=90"
+      },
+      {
        "label": "Rebounds",
        "name": "Elisabeth Wilks",
        "jersey": "4",
-       "gp": "2",
-       "total": "17",
-       "avg": "8.5",
-       "line": "8.5 per game, 17 total",
+       "gp": "3",
+       "total": "21",
+       "avg": "7.0",
+       "line": "7.0 per game, 21 total",
        "position": "G/F",
        "year": "Junior",
        "headshot": "https://hornets.kzoo.edu/images/2026/10/19/Wilks__Elisabeth_CMoss261012-4B3A8202.png?width=200&quality=90"
@@ -12265,10 +12265,10 @@
        "label": "Assists",
        "name": "Elisabeth Wilks",
        "jersey": "4",
-       "gp": "2",
-       "total": "7",
-       "avg": "3.5",
-       "line": "3.5 per game, 7 total",
+       "gp": "3",
+       "total": "15",
+       "avg": "5.0",
+       "line": "5.0 per game, 15 total",
        "position": "G/F",
        "year": "Junior",
        "headshot": "https://hornets.kzoo.edu/images/2026/10/19/Wilks__Elisabeth_CMoss261012-4B3A8202.png?width=200&quality=90"
@@ -12277,39 +12277,39 @@
        "label": "Steals",
        "name": "Sophia Moir",
        "jersey": "2",
-       "gp": "2",
-       "total": "4",
-       "avg": "2.0",
-       "line": "2.0 per game, 4 total",
+       "gp": "3",
+       "total": "7",
+       "avg": "2.3",
+       "line": "2.3 per game, 7 total",
        "position": "G/F",
        "year": "Junior",
        "headshot": "https://hornets.kzoo.edu/images/2026/10/19/Moir__Sophia_CMoss261012-4B3A8193.png?width=200&quality=90"
       },
       {
        "label": "Blocks",
-       "name": "Elisabeth Wilks",
-       "jersey": "4",
-       "gp": "2",
-       "total": "1",
-       "avg": "0.5",
-       "line": "0.5 per game, 1 total",
+       "name": "Sophia Moir",
+       "jersey": "2",
+       "gp": "3",
+       "total": "2",
+       "avg": "0.7",
+       "line": "0.7 per game, 2 total",
        "position": "G/F",
        "year": "Junior",
-       "headshot": "https://hornets.kzoo.edu/images/2026/10/19/Wilks__Elisabeth_CMoss261012-4B3A8202.png?width=200&quality=90"
+       "headshot": "https://hornets.kzoo.edu/images/2026/10/19/Moir__Sophia_CMoss261012-4B3A8193.png?width=200&quality=90"
       }
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 2,
+     "played": 3,
      "wins": 0,
-     "losses": 2,
+     "losses": 3,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 102,
-     "pa": 115,
-     "record": "0-2",
+     "pf": 184,
+     "pa": 207,
+     "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T14:44:13-06:00"
+     "fetched": "2026-11-21T15:15:51-06:00"
     },
     "olivet": {
      "games": [
@@ -13139,7 +13139,7 @@
      "pa": 135,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T14:44:13-06:00"
+     "fetched": "2026-11-21T15:15:51-06:00"
     },
     "saintmarys": {
      "games": [
@@ -13300,7 +13300,8 @@
        "pa": 72,
        "status": "",
        "links": {
-        "boxscore": "https://belles.saintmarys.edu/sports/womens-basketball/stats/2026-27/webster/boxscore/2445"
+        "boxscore": "https://belles.saintmarys.edu/sports/womens-basketball/stats/2026-27/webster/boxscore/2445",
+        "recap": "https://belles.saintmarys.edu/news/2026/11/21/basketball-belles-fall-for-first-time-this-season.aspx"
        },
        "live_feed": null
       },
@@ -14018,7 +14019,7 @@
      "pa": 247,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T14:44:13-06:00"
+     "fetched": "2026-11-21T15:15:51-06:00"
     },
     "trine": {
      "games": [
@@ -14810,7 +14811,7 @@
      "pa": 96,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T14:44:13-06:00"
+     "fetched": "2026-11-21T15:15:51-06:00"
     }
    },
    "poll": {
