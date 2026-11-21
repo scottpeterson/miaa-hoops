@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T21:26:37-06:00",
+ "fetched_at": "2026-11-20T21:58:33-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -883,7 +883,7 @@
      "pa": 401,
      "record": "0-5",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T21:26:37-06:00"
+     "fetched": "2026-11-20T21:58:33-06:00"
     },
     "albion": {
      "games": [
@@ -1672,7 +1672,7 @@
      "pa": 406,
      "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T21:26:37-06:00"
+     "fetched": "2026-11-20T21:58:33-06:00"
     },
     "alma": {
      "games": [
@@ -2524,7 +2524,7 @@
      "pa": 291,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T21:26:37-06:00"
+     "fetched": "2026-11-20T21:58:33-06:00"
     },
     "calvin": {
      "games": [
@@ -3322,7 +3322,7 @@
      "pa": 230,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T21:26:37-06:00"
+     "fetched": "2026-11-20T21:58:33-06:00"
     },
     "hope": {
      "games": [
@@ -4159,7 +4159,7 @@
      "pa": 258,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T21:26:37-06:00"
+     "fetched": "2026-11-20T21:58:33-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -4997,7 +4997,7 @@
      "pa": 307,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T21:26:37-06:00"
+     "fetched": "2026-11-20T21:58:33-06:00"
     },
     "olivet": {
      "games": [
@@ -5849,7 +5849,7 @@
      "pa": 276,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T21:26:37-06:00"
+     "fetched": "2026-11-20T21:58:33-06:00"
     },
     "trine": {
      "games": [
@@ -6631,7 +6631,7 @@
      "pa": 380,
      "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T21:26:37-06:00"
+     "fetched": "2026-11-20T21:58:33-06:00"
     }
    },
    "poll": {
@@ -8249,7 +8249,7 @@
      "pa": 278,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T21:26:37-06:00"
+     "fetched": "2026-11-20T21:58:33-06:00"
     },
     "albion": {
      "games": [
@@ -9036,7 +9036,7 @@
      "pa": 172,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T21:26:37-06:00"
+     "fetched": "2026-11-20T21:58:33-06:00"
     },
     "alma": {
      "games": [
@@ -9881,7 +9881,7 @@
      "pa": 265,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T21:26:37-06:00"
+     "fetched": "2026-11-20T21:58:33-06:00"
     },
     "calvin": {
      "games": [
@@ -10675,7 +10675,7 @@
      "pa": 251,
      "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T21:26:37-06:00"
+     "fetched": "2026-11-20T21:58:33-06:00"
     },
     "hope": {
      "games": [
@@ -11505,7 +11505,7 @@
      "pa": 296,
      "record": "5-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T21:26:37-06:00"
+     "fetched": "2026-11-20T21:58:33-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12327,7 +12327,7 @@
      "pa": 115,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T21:26:37-06:00"
+     "fetched": "2026-11-20T21:58:33-06:00"
     },
     "olivet": {
      "games": [
@@ -13073,7 +13073,10 @@
        "gp": "1",
        "total": "15",
        "avg": "15.0",
-       "line": "15.0 per game, 15 total"
+       "line": "15.0 per game, 15 total",
+       "position": "G",
+       "year": "Sophomore",
+       "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Madelyn_Burdis.jpg?max_height=576&max_width=576&crop=1"
       },
       {
        "label": "Points",
@@ -13082,7 +13085,10 @@
        "gp": "3",
        "total": "26",
        "avg": "8.7",
-       "line": "8.7 per game, 26 total"
+       "line": "8.7 per game, 26 total",
+       "position": "G",
+       "year": "Sophomore",
+       "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Reese_Gohsman.jpg?max_height=576&max_width=576&crop=1"
       },
       {
        "label": "Rebounds",
@@ -13091,7 +13097,10 @@
        "gp": "1",
        "total": "5",
        "avg": "5.0",
-       "line": "5.0 per game, 5 total"
+       "line": "5.0 per game, 5 total",
+       "position": "G",
+       "year": "Sophomore",
+       "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Madelyn_Burdis.jpg?max_height=576&max_width=576&crop=1"
       },
       {
        "label": "Assists",
@@ -13100,7 +13109,10 @@
        "gp": "1",
        "total": "4",
        "avg": "4.0",
-       "line": "4.0 per game, 4 total"
+       "line": "4.0 per game, 4 total",
+       "position": "G",
+       "year": "First-year",
+       "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Hannah_Ralko.jpg?max_height=576&max_width=576&crop=1"
       },
       {
        "label": "Steals",
@@ -13109,7 +13121,10 @@
        "gp": "1",
        "total": "2",
        "avg": "2.0",
-       "line": "2.0 per game, 2 total"
+       "line": "2.0 per game, 2 total",
+       "position": "G",
+       "year": "Sophomore",
+       "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Madelyn_Burdis.jpg?max_height=576&max_width=576&crop=1"
       },
       {
        "label": "Blocks",
@@ -13118,7 +13133,10 @@
        "gp": "3",
        "total": "3",
        "avg": "1.0",
-       "line": "1.0 per game, 3 total"
+       "line": "1.0 per game, 3 total",
+       "position": "C",
+       "year": "Sophomore",
+       "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Alex_Mitchell.jpg?max_height=576&max_width=576&crop=1"
       }
      ],
      "departed": [
@@ -13139,7 +13157,7 @@
      "pa": 135,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T21:26:37-06:00"
+     "fetched": "2026-11-20T21:58:33-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14022,7 +14040,7 @@
      "pa": 175,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T21:26:37-06:00"
+     "fetched": "2026-11-20T21:58:33-06:00"
     },
     "trine": {
      "games": [
@@ -14814,7 +14832,7 @@
      "pa": 96,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T21:26:37-06:00"
+     "fetched": "2026-11-20T21:58:33-06:00"
     }
    },
    "poll": {
