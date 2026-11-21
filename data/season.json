@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T20:23:26-06:00",
+ "fetched_at": "2026-11-20T20:55:04-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -883,7 +883,7 @@
      "pa": 401,
      "record": "0-5",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T20:23:26-06:00"
+     "fetched": "2026-11-20T20:55:04-06:00"
     },
     "albion": {
      "games": [
@@ -1011,32 +1011,27 @@
        "conference": false,
        "location": "Albion, MI, Kresge Gymnasium",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "L",
+       "pf": 60,
+       "pa": 63,
        "status": "",
        "links": {
-        "video": "https://www.miaasportsnetwork.com/acbrits/",
-        "live_stats": "https://gobrits.com/sidearmstats/mbball/",
-        "tickets": "https://events.hometownticketing.com/boxoffice/acbritons/entity/schools/1"
+        "boxscore": "https://gobrits.com/sports/mens-basketball/stats/2026-27/concordia-wi-/boxscore/7889"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/albion/mbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "albion-mbb-7891",
        "exhibition": false,
-       "date": "2026-11-21T20:00:00Z",
+       "date": "2026-11-21T18:00:00Z",
        "time_tbd": false,
        "home": true,
        "neutral": false,
        "opponent": {
-        "name": "John Carroll or Wilmington",
-        "short": "John Carroll or Wilmington",
-        "logo": "https://gobrits.com/images/logos/Albion_Britons.png?width=80&height=80&mode=max",
+        "name": "Wilmington College",
+        "short": "Wilmington",
+        "logo": "https://gobrits.com/images/logos/Wilmington_Quakers.png?width=80&height=80&mode=max",
         "slug": null
        },
        "conference": false,
@@ -1597,10 +1592,10 @@
        "label": "Points",
        "name": "Mason Brodi",
        "jersey": "0",
-       "gp": "4",
-       "total": "72",
-       "avg": "18.0",
-       "line": "18.0 per game, 72 total",
+       "gp": "5",
+       "total": "89",
+       "avg": "17.8",
+       "line": "17.8 per game, 89 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://gobrits.com/images/2026/9/15/Brodi_Mason.jpg?width=200&quality=90"
@@ -1609,10 +1604,10 @@
        "label": "Points",
        "name": "Miles Pritchett",
        "jersey": "32",
-       "gp": "4",
-       "total": "37",
-       "avg": "9.3",
-       "line": "9.3 per game, 37 total",
+       "gp": "5",
+       "total": "39",
+       "avg": "7.8",
+       "line": "7.8 per game, 39 total",
        "position": "C",
        "year": "Junior",
        "headshot": "https://gobrits.com/images/2026/9/15/Pritchett_Miles.jpg?width=200&quality=90"
@@ -1621,10 +1616,10 @@
        "label": "Rebounds",
        "name": "Bowen Moore",
        "jersey": "12",
-       "gp": "4",
-       "total": "27",
-       "avg": "6.8",
-       "line": "6.8 per game, 27 total",
+       "gp": "5",
+       "total": "32",
+       "avg": "6.4",
+       "line": "6.4 per game, 32 total",
        "position": "F",
        "year": "Sophomore",
        "headshot": "https://gobrits.com/images/2026/9/15/Moore_Bowen.jpg?width=200&quality=90"
@@ -1633,10 +1628,10 @@
        "label": "Assists",
        "name": "Mason Brodi",
        "jersey": "0",
-       "gp": "4",
-       "total": "10",
-       "avg": "2.5",
-       "line": "2.5 per game, 10 total",
+       "gp": "5",
+       "total": "13",
+       "avg": "2.6",
+       "line": "2.6 per game, 13 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://gobrits.com/images/2026/9/15/Brodi_Mason.jpg?width=200&quality=90"
@@ -1645,10 +1640,10 @@
        "label": "Steals",
        "name": "Mason Brodi",
        "jersey": "0",
-       "gp": "4",
-       "total": "10",
-       "avg": "2.5",
-       "line": "2.5 per game, 10 total",
+       "gp": "5",
+       "total": "12",
+       "avg": "2.4",
+       "line": "2.4 per game, 12 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://gobrits.com/images/2026/9/15/Brodi_Mason.jpg?width=200&quality=90"
@@ -1657,10 +1652,10 @@
        "label": "Blocks",
        "name": "Bowen Moore",
        "jersey": "12",
-       "gp": "4",
-       "total": "4",
+       "gp": "5",
+       "total": "5",
        "avg": "1.0",
-       "line": "1.0 per game, 4 total",
+       "line": "1.0 per game, 5 total",
        "position": "F",
        "year": "Sophomore",
        "headshot": "https://gobrits.com/images/2026/9/15/Moore_Bowen.jpg?width=200&quality=90"
@@ -1668,16 +1663,16 @@
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 4,
+     "played": 5,
      "wins": 3,
-     "losses": 1,
+     "losses": 2,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 331,
-     "pa": 343,
-     "record": "3-1",
+     "pf": 391,
+     "pa": 406,
+     "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T20:23:26-06:00"
+     "fetched": "2026-11-20T20:55:04-06:00"
     },
     "alma": {
      "games": [
@@ -2529,7 +2524,7 @@
      "pa": 291,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T20:23:26-06:00"
+     "fetched": "2026-11-20T20:55:04-06:00"
     },
     "calvin": {
      "games": [
@@ -3327,7 +3322,7 @@
      "pa": 230,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T20:23:26-06:00"
+     "fetched": "2026-11-20T20:55:04-06:00"
     },
     "hope": {
      "games": [
@@ -4164,7 +4159,7 @@
      "pa": 258,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T20:23:26-06:00"
+     "fetched": "2026-11-20T20:55:04-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -4321,11 +4316,7 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {
-        "video": "https://www.youtube.com/khornets",
-        "live_stats": "https://hornets.kzoo.edu/sidearmstats/mbball/",
-        "tickets": "https://kzoo.universitytickets.com/"
-       },
+       "links": {},
        "live_feed": {
         "type": "sidearm",
         "url": "https://sidearmstats.com/kalamazoo/mbball/game.json"
@@ -4413,7 +4404,10 @@
        "pf": null,
        "pa": null,
        "status": "",
-       "links": {},
+       "links": {
+        "video": "https://sports.wabash.edu/sports/2021/10/28/wabash-college-video-network.aspx",
+        "live_stats": "https://www.statbroadcast.com/events/statbroadcast.php?gid=waba"
+       },
        "live_feed": null
       },
       {
@@ -5003,7 +4997,7 @@
      "pa": 307,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T20:23:26-06:00"
+     "fetched": "2026-11-20T20:55:04-06:00"
     },
     "olivet": {
      "games": [
@@ -5862,7 +5856,7 @@
      "pa": 207,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T20:23:26-06:00"
+     "fetched": "2026-11-20T20:55:04-06:00"
     },
     "trine": {
      "games": [
@@ -6644,7 +6638,7 @@
      "pa": 380,
      "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T20:23:26-06:00"
+     "fetched": "2026-11-20T20:55:04-06:00"
     }
    },
    "poll": {
@@ -8262,7 +8256,7 @@
      "pa": 278,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T20:23:26-06:00"
+     "fetched": "2026-11-20T20:55:04-06:00"
     },
     "albion": {
      "games": [
@@ -9049,7 +9043,7 @@
      "pa": 172,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T20:23:26-06:00"
+     "fetched": "2026-11-20T20:55:04-06:00"
     },
     "alma": {
      "games": [
@@ -9894,7 +9888,7 @@
      "pa": 265,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T20:23:26-06:00"
+     "fetched": "2026-11-20T20:55:04-06:00"
     },
     "calvin": {
      "games": [
@@ -10689,7 +10683,7 @@
      "pa": 210,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T20:23:26-06:00"
+     "fetched": "2026-11-20T20:55:04-06:00"
     },
     "hope": {
      "games": [
@@ -10817,30 +10811,27 @@
        "conference": false,
        "location": "Alliance, OH",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "W",
+       "pf": 62,
+       "pa": 47,
        "status": "",
        "links": {
-        "live_stats": "https://athletics.mountunion.edu/sidearmstats/wbball/summary"
+        "boxscore": "https://athletics.hope.edu/sports/womens-basketball/stats/2026-27/university-of-mount-union/boxscore/18669"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/mountunion/wbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "hope-wbb-18670",
        "exhibition": false,
-       "date": "2026-11-21T17:00:00Z",
-       "time_tbd": true,
+       "date": "2026-11-21T18:00:00Z",
+       "time_tbd": false,
        "home": false,
-       "neutral": false,
+       "neutral": true,
        "opponent": {
-        "name": "Case Western Reserve or Oberlin",
-        "short": "Case Western Reserve or Oberlin",
-        "logo": "https://athletics.hope.edu/images/logos/NCAALogoUpdated.png?width=80&height=80&mode=max",
+        "name": "Case Western Reserve University",
+        "short": "Case Western Reserve",
+        "logo": "https://athletics.hope.edu/images/logos/Spartans Head_No Text_CMYK Blue _ Gray_CWRU Athletics Logo.png?width=80&height=80&mode=max",
         "slug": null
        },
        "conference": false,
@@ -11441,10 +11432,10 @@
        "label": "Points",
        "name": "Josie DeSmit",
        "jersey": "11",
-       "gp": "4",
-       "total": "58",
-       "avg": "14.5",
-       "line": "14.5 per game, 58 total",
+       "gp": "5",
+       "total": "67",
+       "avg": "13.4",
+       "line": "13.4 per game, 67 total",
        "position": "Guard",
        "year": "Sophomore",
        "headshot": "https://athletics.hope.edu/images/2026/11/3/DeSmit_Josie.jpg?width=200&quality=90"
@@ -11453,10 +11444,10 @@
        "label": "Points",
        "name": "Leah Richards",
        "jersey": "20",
-       "gp": "4",
-       "total": "58",
-       "avg": "14.5",
-       "line": "14.5 per game, 58 total",
+       "gp": "5",
+       "total": "67",
+       "avg": "13.4",
+       "line": "13.4 per game, 67 total",
        "position": "Forward/Center",
        "year": "Junior",
        "headshot": "https://athletics.hope.edu/images/2026/11/3/Richards_Leah.jpg?width=200&quality=90"
@@ -11465,10 +11456,10 @@
        "label": "Rebounds",
        "name": "Leah Richards",
        "jersey": "20",
-       "gp": "4",
-       "total": "33",
-       "avg": "8.3",
-       "line": "8.3 per game, 33 total",
+       "gp": "5",
+       "total": "42",
+       "avg": "8.4",
+       "line": "8.4 per game, 42 total",
        "position": "Forward/Center",
        "year": "Junior",
        "headshot": "https://athletics.hope.edu/images/2026/11/3/Richards_Leah.jpg?width=200&quality=90"
@@ -11477,10 +11468,10 @@
        "label": "Assists",
        "name": "Anna Richards",
        "jersey": "10",
-       "gp": "4",
-       "total": "10",
-       "avg": "2.5",
-       "line": "2.5 per game, 10 total",
+       "gp": "5",
+       "total": "12",
+       "avg": "2.4",
+       "line": "2.4 per game, 12 total",
        "position": "Guard",
        "year": "Junior",
        "headshot": "https://athletics.hope.edu/images/2026/11/3/Richards_Anna.jpg?width=200&quality=90"
@@ -11489,10 +11480,10 @@
        "label": "Steals",
        "name": "Leah Richards",
        "jersey": "20",
-       "gp": "4",
+       "gp": "5",
        "total": "10",
-       "avg": "2.5",
-       "line": "2.5 per game, 10 total",
+       "avg": "2.0",
+       "line": "2.0 per game, 10 total",
        "position": "Forward/Center",
        "year": "Junior",
        "headshot": "https://athletics.hope.edu/images/2026/11/3/Richards_Leah.jpg?width=200&quality=90"
@@ -11501,10 +11492,10 @@
        "label": "Blocks",
        "name": "Leah Richards",
        "jersey": "20",
-       "gp": "4",
-       "total": "3",
+       "gp": "5",
+       "total": "4",
        "avg": "0.8",
-       "line": "0.8 per game, 3 total",
+       "line": "0.8 per game, 4 total",
        "position": "Forward/Center",
        "year": "Junior",
        "headshot": "https://athletics.hope.edu/images/2026/11/3/Richards_Leah.jpg?width=200&quality=90"
@@ -11512,16 +11503,16 @@
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 4,
-     "wins": 4,
+     "played": 5,
+     "wins": 5,
      "losses": 0,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 296,
-     "pa": 249,
-     "record": "4-0",
+     "pf": 358,
+     "pa": 296,
+     "record": "5-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T20:23:26-06:00"
+     "fetched": "2026-11-20T20:55:04-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12343,7 +12334,7 @@
      "pa": 115,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T20:23:26-06:00"
+     "fetched": "2026-11-20T20:55:04-06:00"
     },
     "olivet": {
      "games": [
@@ -13173,7 +13164,7 @@
      "pa": 135,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T20:23:26-06:00"
+     "fetched": "2026-11-20T20:55:04-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14056,7 +14047,7 @@
      "pa": 175,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T20:23:26-06:00"
+     "fetched": "2026-11-20T20:55:04-06:00"
     },
     "trine": {
      "games": [
@@ -14848,7 +14839,7 @@
      "pa": 96,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T20:23:26-06:00"
+     "fetched": "2026-11-20T20:55:04-06:00"
     }
    },
    "poll": {
@@ -15111,8 +15102,8 @@
     "count": 411,
     "teams": {
      "adrian": {
-      "rank": 241,
-      "npi": 45.961,
+      "rank": 245,
+      "npi": 45.952,
       "rank_change": null,
       "bid": "AL-124",
       "record": "2-1 qualifying",
@@ -15123,11 +15114,11 @@
       "median_record": "6-19"
      },
      "albion": {
-      "rank": 37,
-      "npi": 57.471,
-      "rank_change": 2,
+      "rank": 87,
+      "npi": 53.179,
+      "rank_change": null,
       "bid": "AL-98",
-      "record": "3-0 qualifying",
+      "record": "3-1 qualifying",
       "preseason_rank": 155,
       "returning": "63.30%",
       "tourney_pct": "0.5%",
@@ -15135,9 +15126,9 @@
       "median_record": "15-12"
      },
      "alma": {
-      "rank": 137,
-      "npi": 50.803,
-      "rank_change": null,
+      "rank": 132,
+      "npi": 50.899,
+      "rank_change": 5,
       "bid": "AL-105",
       "record": "2-2 qualifying",
       "preseason_rank": 139,
@@ -15147,8 +15138,8 @@
       "median_record": "14-13"
      },
      "calvin": {
-      "rank": 117,
-      "npi": 51.786,
+      "rank": 128,
+      "npi": 51.105,
       "rank_change": null,
       "bid": "AL-88",
       "record": "2-2 qualifying",
@@ -15159,11 +15150,11 @@
       "median_record": "15-12"
      },
      "hope": {
-      "rank": 21,
-      "npi": 59.73,
-      "rank_change": 1,
+      "rank": 6,
+      "npi": 62.145,
+      "rank_change": 15,
       "bid": "AL-06",
-      "record": "4-0 qualifying",
+      "record": "5-0 qualifying",
       "preseason_rank": 5,
       "returning": "79.93%",
       "tourney_pct": "91.1%",
@@ -15171,8 +15162,8 @@
       "median_record": "23-4"
      },
      "kalamazoo": {
-      "rank": 404,
-      "npi": 30.932,
+      "rank": 405,
+      "npi": 30.86,
       "rank_change": null,
       "bid": "AL-124",
       "record": "0-1 qualifying",
@@ -15183,9 +15174,9 @@
       "median_record": "8-17"
      },
      "olivet": {
-      "rank": 351,
-      "npi": 38.738,
-      "rank_change": 1,
+      "rank": 347,
+      "npi": 39.168,
+      "rank_change": 4,
       "bid": "AL-124",
       "record": "0-1 qualifying",
       "preseason_rank": 332,
@@ -15195,9 +15186,9 @@
       "median_record": "2-23"
      },
      "saintmarys": {
-      "rank": 2,
-      "npi": 64.48,
-      "rank_change": 1,
+      "rank": 5,
+      "npi": 62.78,
+      "rank_change": null,
       "bid": "AL-105",
       "record": "3-0 qualifying",
       "preseason_rank": 271,
@@ -15207,9 +15198,9 @@
       "median_record": "15-12"
      },
      "trine": {
-      "rank": 28,
-      "npi": 58.748,
-      "rank_change": 1,
+      "rank": 22,
+      "npi": 58.806,
+      "rank_change": 6,
       "bid": "AQ",
       "record": "2-0 qualifying",
       "preseason_rank": 6,
