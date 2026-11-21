@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T21:58:33-06:00",
+ "fetched_at": "2026-11-20T22:30:29-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -883,7 +883,7 @@
      "pa": 401,
      "record": "0-5",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T21:58:33-06:00"
+     "fetched": "2026-11-20T22:30:29-06:00"
     },
     "albion": {
      "games": [
@@ -1672,7 +1672,7 @@
      "pa": 406,
      "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T21:58:33-06:00"
+     "fetched": "2026-11-20T22:30:29-06:00"
     },
     "alma": {
      "games": [
@@ -2524,7 +2524,7 @@
      "pa": 291,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T21:58:33-06:00"
+     "fetched": "2026-11-20T22:30:29-06:00"
     },
     "calvin": {
      "games": [
@@ -3322,7 +3322,7 @@
      "pa": 230,
      "record": "2-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T21:58:33-06:00"
+     "fetched": "2026-11-20T22:30:29-06:00"
     },
     "hope": {
      "games": [
@@ -4159,7 +4159,7 @@
      "pa": 258,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T21:58:33-06:00"
+     "fetched": "2026-11-20T22:30:29-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -4997,7 +4997,7 @@
      "pa": 307,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T21:58:33-06:00"
+     "fetched": "2026-11-20T22:30:29-06:00"
     },
     "olivet": {
      "games": [
@@ -5849,7 +5849,7 @@
      "pa": 276,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T21:58:33-06:00"
+     "fetched": "2026-11-20T22:30:29-06:00"
     },
     "trine": {
      "games": [
@@ -6631,7 +6631,7 @@
      "pa": 380,
      "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T21:58:33-06:00"
+     "fetched": "2026-11-20T22:30:29-06:00"
     }
    },
    "poll": {
@@ -8249,7 +8249,7 @@
      "pa": 278,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T21:58:33-06:00"
+     "fetched": "2026-11-20T22:30:29-06:00"
     },
     "albion": {
      "games": [
@@ -9036,7 +9036,7 @@
      "pa": 172,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T21:58:33-06:00"
+     "fetched": "2026-11-20T22:30:29-06:00"
     },
     "alma": {
      "games": [
@@ -9881,7 +9881,7 @@
      "pa": 265,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T21:58:33-06:00"
+     "fetched": "2026-11-20T22:30:29-06:00"
     },
     "calvin": {
      "games": [
@@ -10015,7 +10015,8 @@
        "pa": 41,
        "status": "",
        "links": {
-        "boxscore": "https://calvinknights.com/sports/womens-basketball/stats/2026-27/university-of-wisconsin-platteville/boxscore/9238"
+        "boxscore": "https://calvinknights.com/sports/womens-basketball/stats/2026-27/university-of-wisconsin-platteville/boxscore/9238",
+        "recap": "https://calvinknights.com/news/2026/11/20/explosive-second-half-leads-to-calvin-womens-basketball-victory-over-uw-platteville.aspx"
        },
        "live_feed": null
       },
@@ -10675,7 +10676,7 @@
      "pa": 251,
      "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T21:58:33-06:00"
+     "fetched": "2026-11-20T22:30:29-06:00"
     },
     "hope": {
      "games": [
@@ -11505,7 +11506,7 @@
      "pa": 296,
      "record": "5-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T21:58:33-06:00"
+     "fetched": "2026-11-20T22:30:29-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12327,7 +12328,7 @@
      "pa": 115,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T21:58:33-06:00"
+     "fetched": "2026-11-20T22:30:29-06:00"
     },
     "olivet": {
      "games": [
@@ -13157,7 +13158,7 @@
      "pa": 135,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T21:58:33-06:00"
+     "fetched": "2026-11-20T22:30:29-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14040,7 +14041,7 @@
      "pa": 175,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T21:58:33-06:00"
+     "fetched": "2026-11-20T22:30:29-06:00"
     },
     "trine": {
      "games": [
@@ -14832,7 +14833,7 @@
      "pa": 96,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-20T21:58:33-06:00"
+     "fetched": "2026-11-20T22:30:29-06:00"
     }
    },
    "poll": {
