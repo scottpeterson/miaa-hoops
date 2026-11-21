@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T13:40:49-06:00",
+ "fetched_at": "2026-11-21T14:12:31-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -883,7 +883,7 @@
      "pa": 401,
      "record": "0-5",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T13:40:49-06:00"
+     "fetched": "2026-11-21T14:12:31-06:00"
     },
     "albion": {
      "games": [
@@ -1673,7 +1673,7 @@
      "pa": 406,
      "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T13:40:49-06:00"
+     "fetched": "2026-11-21T14:12:31-06:00"
     },
     "alma": {
      "games": [
@@ -2525,7 +2525,7 @@
      "pa": 291,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T13:40:49-06:00"
+     "fetched": "2026-11-21T14:12:31-06:00"
     },
     "calvin": {
      "games": [
@@ -3319,7 +3319,7 @@
      "pa": 281,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T13:40:49-06:00"
+     "fetched": "2026-11-21T14:12:31-06:00"
     },
     "hope": {
      "games": [
@@ -4156,7 +4156,7 @@
      "pa": 258,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T13:40:49-06:00"
+     "fetched": "2026-11-21T14:12:31-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -4994,7 +4994,7 @@
      "pa": 307,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T13:40:49-06:00"
+     "fetched": "2026-11-21T14:12:31-06:00"
     },
     "olivet": {
      "games": [
@@ -5846,7 +5846,7 @@
      "pa": 276,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T13:40:49-06:00"
+     "fetched": "2026-11-21T14:12:31-06:00"
     },
     "trine": {
      "games": [
@@ -6628,7 +6628,7 @@
      "pa": 380,
      "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T13:40:49-06:00"
+     "fetched": "2026-11-21T14:12:31-06:00"
     }
    },
    "poll": {
@@ -8246,7 +8246,7 @@
      "pa": 278,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T13:40:49-06:00"
+     "fetched": "2026-11-21T14:12:31-06:00"
     },
     "albion": {
      "games": [
@@ -9029,7 +9029,7 @@
      "pa": 228,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T13:40:49-06:00"
+     "fetched": "2026-11-21T14:12:31-06:00"
     },
     "alma": {
      "games": [
@@ -9874,7 +9874,7 @@
      "pa": 265,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T13:40:49-06:00"
+     "fetched": "2026-11-21T14:12:31-06:00"
     },
     "calvin": {
      "games": [
@@ -10669,7 +10669,7 @@
      "pa": 251,
      "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T13:40:49-06:00"
+     "fetched": "2026-11-21T14:12:31-06:00"
     },
     "hope": {
      "games": [
@@ -11496,7 +11496,7 @@
      "pa": 374,
      "record": "6-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T13:40:49-06:00"
+     "fetched": "2026-11-21T14:12:31-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12318,7 +12318,7 @@
      "pa": 115,
      "record": "0-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T13:40:49-06:00"
+     "fetched": "2026-11-21T14:12:31-06:00"
     },
     "olivet": {
      "games": [
@@ -13148,7 +13148,7 @@
      "pa": 135,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T13:40:49-06:00"
+     "fetched": "2026-11-21T14:12:31-06:00"
     },
     "saintmarys": {
      "games": [
@@ -13303,19 +13303,15 @@
        "conference": false,
        "location": "Angela Athletic & Wellness Complex",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "L",
+       "pf": 55,
+       "pa": 72,
        "status": "",
        "links": {
-        "video": "https://www.miaasportsnetwork.com/smcbelles/",
-        "live_stats": "https://belles.saintmarys.edu/sidearmstats/wbball/summary"
+        "boxscore": "https://belles.saintmarys.edu/sports/womens-basketball/stats/2026-27/webster/boxscore/2445"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/smcind/wbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "saintmarys-wbb-2446",
@@ -13951,10 +13947,10 @@
        "label": "Points",
        "name": "Ella Andree",
        "jersey": "21",
-       "gp": "3",
-       "total": "41",
-       "avg": "13.7",
-       "line": "13.7 per game, 41 total",
+       "gp": "4",
+       "total": "61",
+       "avg": "15.3",
+       "line": "15.3 per game, 61 total",
        "position": "Guard",
        "year": "Junior",
        "headshot": "https://belles.saintmarys.edu/images/2026/10/26/Andree_1866.png?width=200&quality=90"
@@ -13963,10 +13959,10 @@
        "label": "Points",
        "name": "Ella Notaro",
        "jersey": "11",
-       "gp": "3",
-       "total": "41",
-       "avg": "13.7",
-       "line": "13.7 per game, 41 total",
+       "gp": "4",
+       "total": "46",
+       "avg": "11.5",
+       "line": "11.5 per game, 46 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://belles.saintmarys.edu/images/2026/10/26/Notaro_1895.png?width=200&quality=90"
@@ -13975,10 +13971,10 @@
        "label": "Rebounds",
        "name": "Ella Notaro",
        "jersey": "11",
-       "gp": "3",
-       "total": "21",
-       "avg": "7.0",
-       "line": "7.0 per game, 21 total",
+       "gp": "4",
+       "total": "27",
+       "avg": "6.8",
+       "line": "6.8 per game, 27 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://belles.saintmarys.edu/images/2026/10/26/Notaro_1895.png?width=200&quality=90"
@@ -13987,10 +13983,10 @@
        "label": "Assists",
        "name": "Liv Fry",
        "jersey": "4",
-       "gp": "3",
-       "total": "12",
-       "avg": "4.0",
-       "line": "4.0 per game, 12 total",
+       "gp": "4",
+       "total": "14",
+       "avg": "3.5",
+       "line": "3.5 per game, 14 total",
        "position": "Guard",
        "year": "Sophomore",
        "headshot": "https://belles.saintmarys.edu/images/2026/10/26/Fry_1904.png?width=200&quality=90"
@@ -13999,10 +13995,10 @@
        "label": "Steals",
        "name": "Kate Passinault",
        "jersey": "5",
-       "gp": "3",
-       "total": "8",
-       "avg": "2.7",
-       "line": "2.7 per game, 8 total",
+       "gp": "4",
+       "total": "9",
+       "avg": "2.3",
+       "line": "2.3 per game, 9 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://belles.saintmarys.edu/images/2026/10/26/Passinault_1886.png?width=200&quality=90"
@@ -14011,10 +14007,10 @@
        "label": "Blocks",
        "name": "Kate Passinault",
        "jersey": "5",
-       "gp": "3",
-       "total": "4",
+       "gp": "4",
+       "total": "5",
        "avg": "1.3",
-       "line": "1.3 per game, 4 total",
+       "line": "1.3 per game, 5 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://belles.saintmarys.edu/images/2026/10/26/Passinault_1886.png?width=200&quality=90"
@@ -14022,16 +14018,16 @@
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 3,
+     "played": 4,
      "wins": 3,
-     "losses": 0,
+     "losses": 1,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 201,
-     "pa": 175,
-     "record": "3-0",
+     "pf": 256,
+     "pa": 247,
+     "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T13:40:49-06:00"
+     "fetched": "2026-11-21T14:12:31-06:00"
     },
     "trine": {
      "games": [
@@ -14823,7 +14819,7 @@
      "pa": 96,
      "record": "2-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T13:40:49-06:00"
+     "fetched": "2026-11-21T14:12:31-06:00"
     }
    },
    "poll": {
