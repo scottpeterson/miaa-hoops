@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21T19:51:53-06:00",
+ "fetched_at": "2026-11-21T20:19:15-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -883,7 +883,7 @@
      "pa": 401,
      "record": "0-5",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T19:51:53-06:00"
+     "fetched": "2026-11-21T20:19:15-06:00"
     },
     "albion": {
      "games": [
@@ -1668,7 +1668,7 @@
      "pa": 483,
      "record": "4-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T19:51:53-06:00"
+     "fetched": "2026-11-21T20:19:15-06:00"
     },
     "alma": {
      "games": [
@@ -2516,7 +2516,7 @@
      "pa": 373,
      "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T19:51:53-06:00"
+     "fetched": "2026-11-21T20:19:15-06:00"
     },
     "calvin": {
      "games": [
@@ -3311,7 +3311,7 @@
      "pa": 281,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T19:51:53-06:00"
+     "fetched": "2026-11-21T20:19:15-06:00"
     },
     "hope": {
      "games": [
@@ -4148,7 +4148,7 @@
      "pa": 258,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T19:51:53-06:00"
+     "fetched": "2026-11-21T20:19:15-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -4986,7 +4986,7 @@
      "pa": 307,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T19:51:53-06:00"
+     "fetched": "2026-11-21T20:19:15-06:00"
     },
     "olivet": {
      "games": [
@@ -5838,7 +5838,7 @@
      "pa": 276,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T19:51:53-06:00"
+     "fetched": "2026-11-21T20:19:15-06:00"
     },
     "trine": {
      "games": [
@@ -6621,7 +6621,7 @@
      "pa": 449,
      "record": "3-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T19:51:53-06:00"
+     "fetched": "2026-11-21T20:19:15-06:00"
     }
    },
    "poll": {
@@ -8235,7 +8235,7 @@
      "pa": 339,
      "record": "2-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T19:51:53-06:00"
+     "fetched": "2026-11-21T20:19:15-06:00"
     },
     "albion": {
      "games": [
@@ -9013,7 +9013,7 @@
      "pa": 281,
      "record": "4-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T19:51:53-06:00"
+     "fetched": "2026-11-21T20:19:15-06:00"
     },
     "alma": {
      "games": [
@@ -9853,7 +9853,7 @@
      "pa": 329,
      "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T19:51:53-06:00"
+     "fetched": "2026-11-21T20:19:15-06:00"
     },
     "calvin": {
      "games": [
@@ -10645,7 +10645,7 @@
      "pa": 318,
      "record": "3-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T19:51:53-06:00"
+     "fetched": "2026-11-21T20:19:15-06:00"
     },
     "hope": {
      "games": [
@@ -11472,7 +11472,7 @@
      "pa": 374,
      "record": "6-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T19:51:53-06:00"
+     "fetched": "2026-11-21T20:19:15-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12294,7 +12294,7 @@
      "pa": 207,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T19:51:53-06:00"
+     "fetched": "2026-11-21T20:19:15-06:00"
     },
     "olivet": {
      "games": [
@@ -12401,13 +12401,16 @@
        "pf": 77,
        "pa": 49,
        "status": "",
-       "links": {},
+       "links": {
+        "boxscore": "https://www.olivetcomets.com/sports/wbkb/2026-27/boxscores/20261121_b22h.xml",
+        "recap": "https://www.olivetcomets.com/sports/wbkb/2026-27/releases/20261121vvky6i"
+       },
        "live_feed": null
       },
       {
        "id": "olivet-wbb-i0g5uurhhjuxou9c",
        "exhibition": false,
-       "date": "2026-11-28T23:00:00Z",
+       "date": "2026-11-28T21:00:00Z",
        "time_tbd": false,
        "home": false,
        "neutral": false,
@@ -13040,15 +13043,15 @@
       },
       {
        "label": "Points",
-       "name": "Reese Gohsman",
-       "jersey": "21",
-       "gp": "3",
-       "total": "26",
-       "avg": "8.7",
-       "line": "8.7 per game, 26 total",
-       "position": "G",
-       "year": "Sophomore",
-       "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Reese_Gohsman.jpg?max_height=576&max_width=576&crop=1"
+       "name": "Addilyn Moore",
+       "jersey": "15",
+       "gp": "4",
+       "total": "37",
+       "avg": "9.3",
+       "line": "9.3 per game, 37 total",
+       "position": "C/F",
+       "year": "First-year",
+       "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Addilyn_Moore.jpg?max_height=576&max_width=576&crop=1"
       },
       {
        "label": "Rebounds",
@@ -13088,15 +13091,15 @@
       },
       {
        "label": "Blocks",
-       "name": "Alex Mitchell",
-       "jersey": "34",
-       "gp": "3",
-       "total": "3",
+       "name": "Hannah Ralko",
+       "jersey": "3",
+       "gp": "1",
+       "total": "1",
        "avg": "1.0",
-       "line": "1.0 per game, 3 total",
-       "position": "C",
-       "year": "Sophomore",
-       "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Alex_Mitchell.jpg?max_height=576&max_width=576&crop=1"
+       "line": "1.0 per game, 1 total",
+       "position": "G",
+       "year": "First-year",
+       "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Hannah_Ralko.jpg?max_height=576&max_width=576&crop=1"
       }
      ],
      "departed": [
@@ -13117,7 +13120,7 @@
      "pa": 184,
      "record": "0-4",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T19:51:53-06:00"
+     "fetched": "2026-11-21T20:19:15-06:00"
     },
     "saintmarys": {
      "games": [
@@ -13997,7 +14000,7 @@
      "pa": 247,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T19:51:53-06:00"
+     "fetched": "2026-11-21T20:19:15-06:00"
     },
     "trine": {
      "games": [
@@ -14786,7 +14789,7 @@
      "pa": 133,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-21T19:51:53-06:00"
+     "fetched": "2026-11-21T20:19:15-06:00"
     }
    },
    "poll": {
