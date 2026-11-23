@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23T13:07:18-06:00",
+ "fetched_at": "2026-11-23T16:09:48-06:00",
  "teams": {
   "olivet-mbb": {
    "games": [
@@ -948,6 +948,7 @@
      "pa": null,
      "status": "",
      "links": {
+      "live_stats": "https://www.olivetcomets.com/links/8jzwtj",
       "video": "https://www.olivetcomets.com/links/os8twj"
      },
      "live_feed": null
