@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-22T21:15:01-06:00",
+ "fetched_at": "2026-11-22T21:46:45-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -883,7 +883,7 @@
      "pa": 401,
      "record": "0-5",
      "conf_record": "0-0",
-     "fetched": "2026-11-22T21:15:01-06:00"
+     "fetched": "2026-11-22T21:46:45-06:00"
     },
     "albion": {
      "games": [
@@ -1669,7 +1669,7 @@
      "pa": 483,
      "record": "4-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-22T21:15:01-06:00"
+     "fetched": "2026-11-22T21:46:45-06:00"
     },
     "alma": {
      "games": [
@@ -1830,7 +1830,8 @@
        "pa": 68,
        "status": "",
        "links": {
-        "boxscore": "https://almascots.com/sports/mens-basketball/stats/2026-27/earlham/boxscore/14640"
+        "boxscore": "https://almascots.com/sports/mens-basketball/stats/2026-27/earlham/boxscore/14640",
+        "recap": "https://almascots.com/news/2026/11/22/mens-basketball-collins-putback-in-final-seconds-lifts-scots-over-quakers.aspx"
        },
        "live_feed": null
       },
@@ -2514,7 +2515,7 @@
      "pa": 441,
      "record": "4-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-22T21:15:01-06:00"
+     "fetched": "2026-11-22T21:46:45-06:00"
     },
     "calvin": {
      "games": [
@@ -3309,7 +3310,7 @@
      "pa": 281,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-22T21:15:01-06:00"
+     "fetched": "2026-11-22T21:46:45-06:00"
     },
     "hope": {
      "games": [
@@ -4146,7 +4147,7 @@
      "pa": 258,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-22T21:15:01-06:00"
+     "fetched": "2026-11-22T21:46:45-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -4984,7 +4985,7 @@
      "pa": 307,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-22T21:15:01-06:00"
+     "fetched": "2026-11-22T21:46:45-06:00"
     },
     "olivet": {
      "games": [
@@ -5836,7 +5837,7 @@
      "pa": 276,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-22T21:15:01-06:00"
+     "fetched": "2026-11-22T21:46:45-06:00"
     },
     "trine": {
      "games": [
@@ -6619,7 +6620,7 @@
      "pa": 449,
      "record": "3-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-22T21:15:01-06:00"
+     "fetched": "2026-11-22T21:46:45-06:00"
     }
    },
    "poll": {
@@ -8233,7 +8234,7 @@
      "pa": 339,
      "record": "2-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-22T21:15:01-06:00"
+     "fetched": "2026-11-22T21:46:45-06:00"
     },
     "albion": {
      "games": [
@@ -9012,7 +9013,7 @@
      "pa": 281,
      "record": "4-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-22T21:15:01-06:00"
+     "fetched": "2026-11-22T21:46:45-06:00"
     },
     "alma": {
      "games": [
@@ -9853,7 +9854,7 @@
      "pa": 329,
      "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-22T21:15:01-06:00"
+     "fetched": "2026-11-22T21:46:45-06:00"
     },
     "calvin": {
      "games": [
@@ -10645,7 +10646,7 @@
      "pa": 318,
      "record": "3-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-22T21:15:01-06:00"
+     "fetched": "2026-11-22T21:46:45-06:00"
     },
     "hope": {
      "games": [
@@ -11473,7 +11474,7 @@
      "pa": 374,
      "record": "6-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-22T21:15:01-06:00"
+     "fetched": "2026-11-22T21:46:45-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12295,7 +12296,7 @@
      "pa": 207,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-22T21:15:01-06:00"
+     "fetched": "2026-11-22T21:46:45-06:00"
     },
     "olivet": {
      "games": [
@@ -13024,10 +13025,10 @@
       }
      ],
      "roster": {
-      "url": "https://www.olivetcomets.com/sports/wbkb/2026-27/roster",
-      "season": "2026-27",
-      "players": 19,
-      "current": true
+      "url": "https://www.olivetcomets.com/sports/wbkb/2025-26/roster",
+      "season": "2025-26",
+      "players": 23,
+      "current": false
      },
      "players": [
       {
@@ -13103,14 +13104,7 @@
        "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Hannah_Ralko.jpg?max_height=576&max_width=576&crop=1"
       }
      ],
-     "departed": [
-      {
-       "name": "Hadijah Namyalo",
-       "reason": "not on the 2026-27 roster",
-       "line": "0.0 points per game",
-       "year": null
-      }
-     ],
+     "departed": [],
      "stats_season": "2026-27",
      "played": 4,
      "wins": 0,
@@ -13121,7 +13115,7 @@
      "pa": 184,
      "record": "0-4",
      "conf_record": "0-0",
-     "fetched": "2026-11-22T21:15:01-06:00"
+     "fetched": "2026-11-22T21:46:45-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14001,7 +13995,7 @@
      "pa": 247,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-22T21:15:01-06:00"
+     "fetched": "2026-11-22T21:46:45-06:00"
     },
     "trine": {
      "games": [
@@ -14790,7 +14784,7 @@
      "pa": 133,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-22T21:15:01-06:00"
+     "fetched": "2026-11-22T21:46:45-06:00"
     }
    },
    "poll": {
