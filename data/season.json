@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T10:51:57-06:00",
+ "fetched_at": "2026-11-24T10:56:06-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -883,7 +883,7 @@
      "pa": 401,
      "record": "0-5",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T10:51:57-06:00"
+     "fetched": "2026-11-24T10:56:06-06:00"
     },
     "albion": {
      "games": [
@@ -1669,7 +1669,7 @@
      "pa": 483,
      "record": "4-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T10:51:57-06:00"
+     "fetched": "2026-11-24T10:56:06-06:00"
     },
     "alma": {
      "games": [
@@ -2515,7 +2515,7 @@
      "pa": 441,
      "record": "4-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T10:51:57-06:00"
+     "fetched": "2026-11-24T10:56:06-06:00"
     },
     "calvin": {
      "games": [
@@ -3316,7 +3316,7 @@
      "pa": 281,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T10:51:57-06:00"
+     "fetched": "2026-11-24T10:56:06-06:00"
     },
     "hope": {
      "games": [
@@ -4153,7 +4153,7 @@
      "pa": 258,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T10:51:57-06:00"
+     "fetched": "2026-11-24T10:56:06-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -4991,7 +4991,7 @@
      "pa": 307,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T10:51:57-06:00"
+     "fetched": "2026-11-24T10:56:06-06:00"
     },
     "olivet": {
      "games": [
@@ -5069,8 +5069,8 @@
        "note": "",
        "state": "post",
        "result": "L",
-       "pf": 71,
-       "pa": 62,
+       "pf": 62,
+       "pa": 71,
        "status": "",
        "links": {
         "boxscore": "https://www.olivetcomets.com/sports/mbkb/2026-27/boxscores/20261115_8m1g.xml",
@@ -5096,8 +5096,8 @@
        "note": "",
        "state": "post",
        "result": "L",
-       "pf": 78,
-       "pa": 69,
+       "pf": 69,
+       "pa": 78,
        "status": "",
        "links": {},
        "live_feed": null
@@ -5839,11 +5839,11 @@
      "losses": 2,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 321,
-     "pa": 276,
+     "pf": 303,
+     "pa": 294,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T10:51:57-06:00"
+     "fetched": "2026-11-24T10:56:06-06:00"
     },
     "trine": {
      "games": [
@@ -6626,7 +6626,7 @@
      "pa": 449,
      "record": "3-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T10:51:57-06:00"
+     "fetched": "2026-11-24T10:56:06-06:00"
     }
    },
    "poll": {
@@ -8238,7 +8238,7 @@
      "pa": 339,
      "record": "2-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T10:51:57-06:00"
+     "fetched": "2026-11-24T10:56:06-06:00"
     },
     "albion": {
      "games": [
@@ -9017,7 +9017,7 @@
      "pa": 281,
      "record": "4-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T10:51:57-06:00"
+     "fetched": "2026-11-24T10:56:06-06:00"
     },
     "alma": {
      "games": [
@@ -9858,7 +9858,7 @@
      "pa": 329,
      "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T10:51:57-06:00"
+     "fetched": "2026-11-24T10:56:06-06:00"
     },
     "calvin": {
      "games": [
@@ -10650,7 +10650,7 @@
      "pa": 318,
      "record": "3-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T10:51:57-06:00"
+     "fetched": "2026-11-24T10:56:06-06:00"
     },
     "hope": {
      "games": [
@@ -11478,7 +11478,7 @@
      "pa": 374,
      "record": "6-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T10:51:57-06:00"
+     "fetched": "2026-11-24T10:56:06-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12300,7 +12300,7 @@
      "pa": 207,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T10:51:57-06:00"
+     "fetched": "2026-11-24T10:56:06-06:00"
     },
     "olivet": {
      "games": [
@@ -12322,8 +12322,8 @@
        "note": "",
        "state": "post",
        "result": "L",
-       "pf": 64,
-       "pa": 51,
+       "pf": 51,
+       "pa": 64,
        "status": "",
        "links": {
         "live_stats": "https://prestolivestats.com/9qop6oeabjj3n7bn/qkvmc8wkq7e2xa5n",
@@ -12350,8 +12350,8 @@
        "note": "",
        "state": "post",
        "result": "L",
-       "pf": 74,
-       "pa": 38,
+       "pf": 38,
+       "pa": 74,
        "status": "",
        "links": {
         "boxscore": "https://www.olivetcomets.com/sports/wbkb/2026-27/boxscores/20261113_jvbt.xml",
@@ -12377,8 +12377,8 @@
        "note": "",
        "state": "post",
        "result": "L",
-       "pf": 70,
-       "pa": 46,
+       "pf": 46,
+       "pa": 70,
        "status": "",
        "links": {
         "boxscore": "https://www.olivetcomets.com/sports/wbkb/2026-27/boxscores/20261114_7ro9.xml",
@@ -12404,8 +12404,8 @@
        "note": "",
        "state": "post",
        "result": "L",
-       "pf": 77,
-       "pa": 49,
+       "pf": 49,
+       "pa": 77,
        "status": "",
        "links": {
         "boxscore": "https://www.olivetcomets.com/sports/wbkb/2026-27/boxscores/20261121_b22h.xml",
@@ -13129,11 +13129,11 @@
      "losses": 4,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 285,
-     "pa": 184,
+     "pf": 184,
+     "pa": 285,
      "record": "0-4",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T10:51:57-06:00"
+     "fetched": "2026-11-24T10:56:06-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14013,7 +14013,7 @@
      "pa": 247,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T10:51:57-06:00"
+     "fetched": "2026-11-24T10:56:06-06:00"
     },
     "trine": {
      "games": [
@@ -14814,7 +14814,7 @@
      "pa": 133,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T10:51:57-06:00"
+     "fetched": "2026-11-24T10:56:06-06:00"
     }
    },
    "poll": {
