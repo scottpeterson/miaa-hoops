@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T09:41:31-06:00",
+ "fetched_at": "2026-11-24T10:51:57-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -883,7 +883,7 @@
      "pa": 401,
      "record": "0-5",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T09:41:31-06:00"
+     "fetched": "2026-11-24T10:51:57-06:00"
     },
     "albion": {
      "games": [
@@ -1669,7 +1669,7 @@
      "pa": 483,
      "record": "4-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T09:41:31-06:00"
+     "fetched": "2026-11-24T10:51:57-06:00"
     },
     "alma": {
      "games": [
@@ -2515,7 +2515,7 @@
      "pa": 441,
      "record": "4-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T09:41:31-06:00"
+     "fetched": "2026-11-24T10:51:57-06:00"
     },
     "calvin": {
      "games": [
@@ -3316,7 +3316,7 @@
      "pa": 281,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T09:41:31-06:00"
+     "fetched": "2026-11-24T10:51:57-06:00"
     },
     "hope": {
      "games": [
@@ -4153,7 +4153,7 @@
      "pa": 258,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T09:41:31-06:00"
+     "fetched": "2026-11-24T10:51:57-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -4991,7 +4991,7 @@
      "pa": 307,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T09:41:31-06:00"
+     "fetched": "2026-11-24T10:51:57-06:00"
     },
     "olivet": {
      "games": [
@@ -5843,7 +5843,7 @@
      "pa": 276,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T09:41:31-06:00"
+     "fetched": "2026-11-24T10:51:57-06:00"
     },
     "trine": {
      "games": [
@@ -6626,251 +6626,246 @@
      "pa": 449,
      "record": "3-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T09:41:31-06:00"
+     "fetched": "2026-11-24T10:51:57-06:00"
     }
    },
    "poll": {
-    "label": "D3hoops.com men's Top 25, 2026-27 preseason",
+    "label": "D3hoops.com men's Top 25, 2026-27 Week 1",
     "season": "2026-27",
-    "week": "preseason",
-    "url": "https://www.d3hoops.com/top25/men/2026-27/preseason",
+    "week": "week1",
+    "url": "https://www.d3hoops.com/top25/men/2026-27/week1",
     "top25": [
      {
       "rank": 1,
-      "team": "Mary Washington",
-      "record": "30-3",
-      "points": "607",
-      "first_place": 21,
-      "prev": null
+      "team": "Hood",
+      "record": "6-0",
+      "points": "613",
+      "first_place": 15,
+      "prev": "3"
      },
      {
       "rank": 2,
-      "team": "Christopher Newport",
-      "record": "25-6",
-      "points": "569",
-      "first_place": 2,
-      "prev": null
+      "team": "Tufts",
+      "record": "6-0",
+      "points": "525",
+      "first_place": 5,
+      "prev": "14"
      },
      {
       "rank": 3,
-      "team": "Hood",
-      "record": "26-4",
-      "points": "484",
-      "first_place": 0,
-      "prev": null
+      "team": "Mary Washington",
+      "record": "4-1",
+      "points": "517",
+      "first_place": 1,
+      "prev": "1"
      },
      {
       "rank": 4,
-      "team": "Emory",
-      "record": "27-4",
-      "points": "472",
-      "first_place": 1,
-      "prev": null
+      "team": "Trinity (Conn.)",
+      "record": "5-0",
+      "points": "512",
+      "first_place": 2,
+      "prev": "11"
      },
      {
       "rank": 5,
-      "team": "Gustavus Adolphus",
-      "record": "27-3",
-      "points": "438",
-      "first_place": 0,
-      "prev": null
+      "team": "Washington U.",
+      "record": "5-0",
+      "points": "459",
+      "first_place": 1,
+      "prev": "10"
      },
      {
       "rank": 6,
-      "team": "Illinois Wesleyan",
-      "record": "26-5",
-      "points": "430",
-      "first_place": 0,
-      "prev": null
+      "team": "UW-Stevens Point",
+      "record": "3-0",
+      "points": "458",
+      "first_place": 1,
+      "prev": "8"
      },
      {
       "rank": 7,
-      "team": "Randolph-Macon",
-      "record": "27-4",
-      "points": "383",
+      "team": "Claremont-Mudd-Scripps",
+      "record": "4-0",
+      "points": "454",
       "first_place": 0,
-      "prev": null
+      "prev": "16"
      },
      {
       "rank": 8,
-      "team": "UW-Stevens Point",
-      "record": "19-8",
-      "points": "376",
-      "first_place": 1,
-      "prev": null
+      "team": "Roanoke",
+      "record": "5-0",
+      "points": "423",
+      "first_place": 0,
+      "prev": "15"
      },
      {
       "rank": 9,
-      "team": "Wesleyan",
-      "record": "23-7",
-      "points": "331",
+      "team": "Gustavus Adolphus",
+      "record": "3-1",
+      "points": "390",
       "first_place": 0,
-      "prev": null
+      "prev": "5"
      },
      {
       "rank": 10,
-      "team": "Washington U.",
-      "record": "20-8",
-      "points": "328",
+      "team": "Wesleyan",
+      "record": "4-0",
+      "points": "388",
       "first_place": 0,
-      "prev": null
+      "prev": "9"
      },
      {
       "rank": 11,
-      "team": "Trinity (Conn.)",
-      "record": "29-3",
-      "points": "313",
+      "team": "Emory",
+      "record": "3-1",
+      "points": "335",
       "first_place": 0,
-      "prev": null
+      "prev": "4"
      },
      {
       "rank": 12,
-      "team": "Trinity (Texas)",
-      "record": "22-7",
-      "points": "307",
+      "team": "Endicott",
+      "record": "6-0",
+      "points": "295",
       "first_place": 0,
-      "prev": null
+      "prev": "20"
      },
      {
       "rank": 13,
-      "team": "Elmhurst",
-      "record": "19-9",
-      "points": "300",
+      "team": "New York University",
+      "record": "4-0",
+      "points": "290",
       "first_place": 0,
-      "prev": null
+      "prev": "23"
      },
      {
       "rank": 14,
-      "team": "Tufts",
-      "record": "23-6",
-      "points": "289",
+      "team": "Randolph-Macon",
+      "record": "3-2",
+      "points": "276",
       "first_place": 0,
-      "prev": null
+      "prev": "7"
      },
      {
       "rank": 15,
-      "team": "Roanoke",
-      "record": "23-7",
-      "points": "286",
+      "team": "Christopher Newport",
+      "record": "4-2",
+      "points": "235",
       "first_place": 0,
-      "prev": null
+      "prev": "2"
      },
      {
       "rank": 16,
-      "team": "Claremont-Mudd-Scripps",
-      "record": "23-5",
-      "points": "260",
+      "team": "Elmhurst",
+      "record": "4-1",
+      "points": "205",
       "first_place": 0,
-      "prev": null
+      "prev": "13"
      },
      {
       "rank": 17,
-      "team": "St. Thomas (Texas)",
-      "record": "29-2",
-      "points": "243",
+      "team": "Babson",
+      "record": "4-1",
+      "points": "188",
       "first_place": 0,
-      "prev": null
+      "prev": "19"
      },
      {
       "rank": 18,
-      "team": "UW-La Crosse",
-      "record": "24-7",
-      "points": "206",
+      "team": "Chicago",
+      "record": "3-0",
+      "points": "171",
       "first_place": 0,
-      "prev": null
+      "prev": "24"
      },
      {
       "rank": 19,
-      "team": "Babson",
-      "record": "22-7",
-      "points": "203",
+      "team": "Western New England",
+      "record": "6-0",
+      "points": "163",
       "first_place": 0,
-      "prev": null
+      "prev": "--"
      },
      {
       "rank": 20,
-      "team": "Endicott",
-      "record": "28-2",
-      "points": "197",
+      "team": "St. Thomas (Texas)",
+      "record": "2-1",
+      "points": "146",
       "first_place": 0,
-      "prev": null
+      "prev": "17"
      },
      {
       "rank": 21,
-      "team": "Amherst",
-      "record": "19-8",
-      "points": "168",
+      "team": "Hardin-Simmons",
+      "record": "6-0",
+      "points": "137",
       "first_place": 0,
-      "prev": null
+      "prev": "--"
      },
      {
       "rank": 22,
-      "team": "Johns Hopkins",
-      "record": "20-8",
-      "points": "107",
+      "team": "Rhodes",
+      "record": "5-0",
+      "points": "128",
       "first_place": 0,
-      "prev": null
+      "prev": "--"
      },
      {
       "rank": 23,
-      "team": "New York University",
-      "record": "18-9",
-      "points": "94",
+      "team": "Amherst",
+      "record": "4-1",
+      "points": "117",
       "first_place": 0,
-      "prev": null
+      "prev": "21"
      },
      {
       "rank": 24,
-      "team": "Chicago",
-      "record": "24-5",
-      "points": "80",
+      "team": "Trinity (Texas)",
+      "record": "4-2",
+      "points": "113",
       "first_place": 0,
-      "prev": null
+      "prev": "12"
      },
      {
       "rank": 25,
-      "team": "Willamette",
-      "record": "16-12",
-      "points": "74",
+      "team": "Redlands",
+      "record": "5-0",
+      "points": "111",
       "first_place": 0,
-      "prev": null
+      "prev": "--"
      }
     ],
     "ranks": {},
     "receiving_votes": {
-     "Maine-Farmington": 73,
-     "Montclair State": 57,
-     "John Carroll": 53,
-     "Olivet": 53,
-     "UW-Whitewater": 45,
-     "Washington & Jefferson": 40,
-     "St. Joseph's (Maine)": 37,
-     "Otterbein": 25,
-     "Cortland": 20,
-     "Rhodes": 18,
-     "UW-Platteville": 17,
-     "St. John's": 16,
-     "Redlands": 16,
-     "Mount Union": 13,
-     "Grinnell": 11,
-     "Denison": 10,
-     "UW-Oshkosh": 10,
+     "St. John's": 99,
+     "Oswego": 40,
+     "Wheaton (Ill.)": 40,
+     "St. Joseph's (Maine)": 39,
+     "Montclair State": 37,
+     "UW-La Crosse": 27,
+     "UW-Oshkosh": 26,
+     "Illinois Wesleyan": 25,
+     "Johns Hopkins": 20,
+     "Carthage": 19,
+     "John Carroll": 18,
+     "Mary Hardin-Baylor": 17,
+     "Otterbein": 12,
+     "Hope": 12,
+     "Grinnell": 9,
      "WPI": 9,
-     "Catholic": 7,
-     "Mary Hardin-Baylor": 6,
-     "Stevens": 6,
-     "Vassar": 6,
-     "Hampden-Sydney": 5,
-     "RPI": 5,
-     "Union": 5,
-     "Bates": 4,
-     "Trine": 4,
-     "Yeshiva": 4,
-     "TCNJ": 3,
-     "Wheaton (Ill.)": 3,
-     "Wheaton (Mass.)": 2
+     "Maryville": 7,
+     "UW-Whitewater": 6,
+     "Swarthmore": 4,
+     "Catholic": 2,
+     "Nebraska Wesleyan": 2,
+     "Transylvania": 2,
+     "Arcadia": 1,
+     "Concordia (Texas)": 1,
+     "Marymount": 1,
+     "Rowan": 1
     },
-    "read_at": "2026-11-06T09:25:00-06:00"
+    "read_at": "2026-11-24T10:48:00-06:00"
    },
    "npi": {
     "source": "D3 Datacast",
@@ -8243,7 +8238,7 @@
      "pa": 339,
      "record": "2-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T09:41:31-06:00"
+     "fetched": "2026-11-24T10:51:57-06:00"
     },
     "albion": {
      "games": [
@@ -9022,7 +9017,7 @@
      "pa": 281,
      "record": "4-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T09:41:31-06:00"
+     "fetched": "2026-11-24T10:51:57-06:00"
     },
     "alma": {
      "games": [
@@ -9863,7 +9858,7 @@
      "pa": 329,
      "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T09:41:31-06:00"
+     "fetched": "2026-11-24T10:51:57-06:00"
     },
     "calvin": {
      "games": [
@@ -10655,7 +10650,7 @@
      "pa": 318,
      "record": "3-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T09:41:31-06:00"
+     "fetched": "2026-11-24T10:51:57-06:00"
     },
     "hope": {
      "games": [
@@ -11483,7 +11478,7 @@
      "pa": 374,
      "record": "6-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T09:41:31-06:00"
+     "fetched": "2026-11-24T10:51:57-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12305,7 +12300,7 @@
      "pa": 207,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T09:41:31-06:00"
+     "fetched": "2026-11-24T10:51:57-06:00"
     },
     "olivet": {
      "games": [
@@ -13138,7 +13133,7 @@
      "pa": 184,
      "record": "0-4",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T09:41:31-06:00"
+     "fetched": "2026-11-24T10:51:57-06:00"
     },
     "saintmarys": {
      "games": [
@@ -14018,7 +14013,7 @@
      "pa": 247,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T09:41:31-06:00"
+     "fetched": "2026-11-24T10:51:57-06:00"
     },
     "trine": {
      "games": [
@@ -14819,260 +14814,257 @@
      "pa": 133,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T09:41:31-06:00"
+     "fetched": "2026-11-24T10:51:57-06:00"
     }
    },
    "poll": {
-    "label": "D3hoops.com women's Top 25, 2026-27 preseason",
+    "label": "D3hoops.com women's Top 25, 2026-27 Week 1",
     "season": "2026-27",
-    "week": "preseason",
-    "url": "https://www.d3hoops.com/top25/women/2026-27/preseason",
+    "week": "week1",
+    "url": "https://www.d3hoops.com/top25/women/2026-27/week1",
     "top25": [
      {
       "rank": 1,
       "team": "Denison",
-      "record": "30-2",
+      "record": "4-0",
       "points": "624",
       "first_place": 24,
-      "prev": null
+      "prev": "1"
      },
      {
       "rank": 2,
       "team": "New York University",
-      "record": "29-1",
-      "points": "592",
+      "record": "3-0",
+      "points": "597",
       "first_place": 1,
-      "prev": null
+      "prev": "2"
      },
      {
       "rank": 3,
       "team": "Scranton",
-      "record": "32-1",
-      "points": "535",
+      "record": "5-0",
+      "points": "548",
       "first_place": 0,
-      "prev": null
+      "prev": "3"
      },
      {
       "rank": 4,
       "team": "Hope",
-      "record": "26-4",
-      "points": "520",
+      "record": "6-0",
+      "points": "544",
       "first_place": 0,
-      "prev": null
+      "prev": "4"
      },
      {
       "rank": 5,
-      "team": "Smith",
-      "record": "28-2",
-      "points": "514",
+      "team": "Bowdoin",
+      "record": "5-0",
+      "points": "492",
       "first_place": 0,
-      "prev": null
+      "prev": "11"
      },
      {
       "rank": 6,
-      "team": "UW-Oshkosh",
-      "record": "28-4",
-      "points": "499",
+      "team": "Wartburg",
+      "record": "5-0",
+      "points": "469",
       "first_place": 0,
-      "prev": null
+      "prev": "18"
      },
      {
       "rank": 7,
-      "team": "Washington U.",
-      "record": "21-7",
-      "points": "467",
+      "team": "Trine",
+      "record": "3-0",
+      "points": "447",
       "first_place": 0,
-      "prev": null
+      "prev": "9"
      },
      {
       "rank": 8,
-      "team": "Johns Hopkins",
-      "record": "27-2",
-      "points": "356",
+      "team": "Chicago",
+      "record": "5-0",
+      "points": "445",
       "first_place": 0,
-      "prev": null
+      "prev": "10"
      },
      {
       "rank": 9,
-      "team": "Trine",
-      "record": "23-6",
-      "points": "345",
+      "team": "UW-Oshkosh",
+      "record": "5-1",
+      "points": "407",
       "first_place": 0,
-      "prev": null
+      "prev": "6"
      },
      {
       "rank": 10,
-      "team": "Chicago",
-      "record": "20-8",
-      "points": "337",
+      "team": "Smith",
+      "record": "3-1",
+      "points": "349",
       "first_place": 0,
-      "prev": null
+      "prev": "5"
      },
      {
       "rank": 11,
-      "team": "Bowdoin",
-      "record": "25-3",
-      "points": "332",
+      "team": "Gettysburg",
+      "record": "6-0",
+      "points": "339",
       "first_place": 0,
-      "prev": null
+      "prev": "17"
      },
      {
       "rank": 12,
       "team": "Christopher Newport",
-      "record": "23-5",
-      "points": "262",
+      "record": "6-0",
+      "points": "318",
       "first_place": 0,
-      "prev": null
+      "prev": "12"
      },
      {
       "rank": 13,
-      "team": "Concordia-Moorhead",
-      "record": "26-5",
-      "points": "246",
+      "team": "Washington U.",
+      "record": "3-1",
+      "points": "295",
       "first_place": 0,
-      "prev": null
+      "prev": "7"
      },
      {
       "rank": 14,
-      "team": "UW-La Crosse",
-      "record": "21-10",
-      "points": "243",
+      "team": "Randolph-Macon",
+      "record": "5-0",
+      "points": "248",
       "first_place": 0,
-      "prev": null
+      "prev": "--"
      },
      {
       "rank": 15,
-      "team": "Otterbein",
-      "record": "23-6",
-      "points": "227",
+      "team": "UW-Whitewater",
+      "record": "5-1",
+      "points": "228",
       "first_place": 0,
-      "prev": null
+      "prev": "--"
      },
      {
       "rank": 16,
-      "team": "Ripon",
-      "record": "26-3",
-      "points": "195",
+      "team": "Johns Hopkins",
+      "record": "5-1",
+      "points": "215",
       "first_place": 0,
-      "prev": null
+      "prev": "8"
      },
      {
       "rank": 17,
-      "team": "Gettysburg",
-      "record": "21-7",
-      "points": "170",
+      "team": "Hardin-Simmons",
+      "record": "6-0",
+      "points": "207",
       "first_place": 0,
-      "prev": null
+      "prev": "19"
      },
      {
       "rank": 18,
-      "team": "Wartburg",
-      "record": "20-7",
-      "points": "160",
+      "team": "Otterbein",
+      "record": "3-1",
+      "points": "203",
       "first_place": 0,
-      "prev": null
+      "prev": "15"
      },
      {
       "rank": 19,
-      "team": "Hardin-Simmons",
-      "record": "24-6",
-      "points": "158",
+      "team": "Bates",
+      "record": "5-0",
+      "points": "191",
       "first_place": 0,
-      "prev": null
+      "prev": "20"
      },
      {
       "rank": 20,
-      "team": "Bates",
-      "record": "26-4",
-      "points": "156",
+      "team": "Ripon",
+      "record": "3-0",
+      "points": "178",
       "first_place": 0,
-      "prev": null
+      "prev": "16"
      },
      {
       "rank": 21,
-      "team": "Baldwin Wallace",
-      "record": "25-4",
-      "points": "155",
+      "team": "UW-La Crosse",
+      "record": "3-1",
+      "points": "156",
       "first_place": 0,
-      "prev": null
+      "prev": "14"
      },
      {
       "rank": 22,
-      "team": "John Carroll",
-      "record": "26-5",
-      "points": "109",
+      "team": "St. Mary's (Minn.)",
+      "record": "4-0",
+      "points": "144",
       "first_place": 0,
-      "prev": null
+      "prev": "--"
      },
      {
       "rank": 23,
-      "team": "Washington and Lee",
-      "record": "31-1",
-      "points": "106",
+      "team": "Amherst",
+      "record": "5-0",
+      "points": "88",
       "first_place": 0,
-      "prev": null
+      "prev": "--"
      },
      {
       "rank": 24,
-      "team": "Ohio Wesleyan",
-      "record": "21-6",
-      "points": "104",
+      "team": "Concordia-Moorhead",
+      "record": "4-1",
+      "points": "79",
       "first_place": 0,
-      "prev": null
+      "prev": "13"
      },
      {
       "rank": 25,
-      "team": "Carnegie Mellon",
-      "record": "15-10",
-      "points": "97",
+      "team": "Washington and Lee",
+      "record": "5-1",
+      "points": "62",
       "first_place": 0,
-      "prev": null
+      "prev": "23"
      }
     ],
     "ranks": {
      "hope": {
       "rank": 4,
       "team": "Hope",
-      "record": "26-4",
-      "points": "520",
+      "record": "6-0",
+      "points": "544",
       "first_place": 0,
-      "prev": null
+      "prev": "4"
      },
      "trine": {
-      "rank": 9,
+      "rank": 7,
       "team": "Trine",
-      "record": "23-6",
-      "points": "345",
+      "record": "3-0",
+      "points": "447",
       "first_place": 0,
-      "prev": null
+      "prev": "9"
      }
     },
     "receiving_votes": {
-     "Wisconsin Lutheran": 90,
-     "Illinois Wesleyan": 87,
-     "UW-Whitewater": 71,
-     "Emory": 66,
-     "Bethel": 42,
-     "Gustavus Adolphus": 38,
-     "St. Mary's (Minn.)": 37,
-     "Cortland": 31,
-     "Calvin": 29,
-     "Southern Maine": 24,
-     "Carroll": 21,
-     "Coe": 17,
-     "Messiah": 12,
-     "Johnson and Wales": 11,
-     "Merchant Marine": 9,
-     "UW-Eau Claire": 9,
-     "William Paterson": 9,
-     "DePauw": 7,
-     "UW-River Falls": 3,
-     "Washington and Jefferson": 2,
+     "Bethel": 51,
+     "Emory": 51,
+     "Carnegie Mellon": 44,
+     "Babson": 15,
+     "Messiah": 14,
+     "Ohio Wesleyan": 14,
+     "UW-Stout": 13,
+     "Catholic": 10,
+     "East Texas Baptist": 8,
+     "Illinois Wesleyan": 8,
+     "John Carroll": 5,
+     "Johnson and Wales": 4,
+     "Williams": 4,
+     "Coe": 3,
+     "Transylvania": 2,
+     "UW-Stevens Point": 2,
      "Emmanuel": 1,
-     "Millsaps": 1,
-     "Randolph-Macon": 1
+     "UW-Eau Claire": 1,
+     "Washington and Jefferson": 1,
+     "Wisconsin Lutheran": 1
     },
-    "read_at": "2026-11-06T09:25:00-06:00"
+    "read_at": "2026-11-24T10:48:00-06:00"
    },
    "npi": {
     "source": "The D3 Stat Lab",
@@ -15082,10 +15074,10 @@
     "count": 411,
     "teams": {
      "adrian": {
-      "rank": 282,
-      "npi": 43.807,
-      "rank_change": 3,
-      "bid": "AL-113",
+      "rank": 281,
+      "npi": 43.851,
+      "rank_change": 1,
+      "bid": "AL-108",
       "record": "2-2 qualifying",
       "preseason_rank": 248,
       "returning": "41.33%",
@@ -15095,9 +15087,9 @@
      },
      "albion": {
       "rank": 85,
-      "npi": 53.271,
+      "npi": 53.338,
       "rank_change": 0,
-      "bid": "AL-113",
+      "bid": "AL-108",
       "record": "4-1 qualifying",
       "preseason_rank": 155,
       "returning": "63.30%",
@@ -15106,10 +15098,10 @@
       "median_record": "14-12"
      },
      "alma": {
-      "rank": 87,
-      "npi": 53.155,
-      "rank_change": 2,
-      "bid": "AL-113",
+      "rank": 90,
+      "npi": 53.166,
+      "rank_change": null,
+      "bid": "AL-108",
       "record": "3-2 qualifying",
       "preseason_rank": 139,
       "returning": "78.38%",
@@ -15118,10 +15110,10 @@
       "median_record": "15-12"
      },
      "calvin": {
-      "rank": 144,
-      "npi": 50.356,
+      "rank": 146,
+      "npi": 50.306,
       "rank_change": null,
-      "bid": "AL-77",
+      "bid": "AL-75",
       "record": "3-3 qualifying",
       "preseason_rank": 36,
       "returning": "67.56%",
@@ -15130,9 +15122,9 @@
       "median_record": "16-11"
      },
      "hope": {
-      "rank": 14,
-      "npi": 59.923,
-      "rank_change": 0,
+      "rank": 10,
+      "npi": 60.037,
+      "rank_change": 4,
       "bid": "AL-07",
       "record": "6-0 qualifying",
       "preseason_rank": 5,
@@ -15142,10 +15134,10 @@
       "median_record": "23-4"
      },
      "kalamazoo": {
-      "rank": 408,
-      "npi": 30.173,
-      "rank_change": 0,
-      "bid": "AL-113",
+      "rank": 407,
+      "npi": 30.206,
+      "rank_change": 1,
+      "bid": "AL-108",
       "record": "0-1 qualifying",
       "preseason_rank": 253,
       "returning": "68.11%",
@@ -15155,9 +15147,9 @@
      },
      "olivet": {
       "rank": 357,
-      "npi": 38.607,
+      "npi": 38.669,
       "rank_change": 0,
-      "bid": "AL-113",
+      "bid": "AL-108",
       "record": "0-1 qualifying",
       "preseason_rank": 332,
       "returning": "48.20%",
@@ -15166,10 +15158,10 @@
       "median_record": "2-23"
      },
      "saintmarys": {
-      "rank": 39,
-      "npi": 56.015,
-      "rank_change": 0,
-      "bid": "AL-113",
+      "rank": 37,
+      "npi": 56.078,
+      "rank_change": 2,
+      "bid": "AL-108",
       "record": "3-1 qualifying",
       "preseason_rank": 271,
       "returning": "78.08%",
@@ -15179,8 +15171,8 @@
      },
      "trine": {
       "rank": 13,
-      "npi": 59.93,
-      "rank_change": null,
+      "npi": 59.877,
+      "rank_change": 0,
       "bid": "AQ",
       "record": "3-0 qualifying",
       "preseason_rank": 6,
