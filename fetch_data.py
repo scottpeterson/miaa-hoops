@@ -226,7 +226,12 @@ def game_record(school, sport, index, month_day, time_parts, home, neutral, oppo
     status = ""
     m = re.search(r"\b([WLT])\b\s*,?\s*(\d{1,3})\s*-\s*(\d{1,3})", result_text or "")
     if m:
-        result, pf, pa = m.group(1), int(m.group(2)), int(m.group(3))
+        result, first, second = m.group(1), int(m.group(2)), int(m.group(3))
+        # Schedule pages disagree on score order. Sidearm prints this school's score first ("L, 51-64");
+        # Olivet's Presto page prints the winner's score first ("L, 64-51"), which turned Olivet's
+        # 0-4 women's start into a +101 margin on 2026-11-24. The result letter settles it.
+        hi, lo = max(first, second), min(first, second)
+        pf, pa = (hi, lo) if result == "W" else (lo, hi) if result == "L" else (first, second)
         state = "post"
         if re.search(r"\bOT\b|\(\d*OT\)", result_text):
             status = "Final (OT)"
