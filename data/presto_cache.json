@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T09:39:40-06:00",
+ "fetched_at": "2026-11-24T10:54:11-06:00",
  "teams": {
   "olivet-mbb": {
    "games": [
@@ -77,8 +77,8 @@
      "note": "",
      "state": "post",
      "result": "L",
-     "pf": 71,
-     "pa": 62,
+     "pf": 62,
+     "pa": 71,
      "status": "",
      "links": {
       "boxscore": "https://www.olivetcomets.com/sports/mbkb/2026-27/boxscores/20261115_8m1g.xml",
@@ -104,8 +104,8 @@
      "note": "",
      "state": "post",
      "result": "L",
-     "pf": 78,
-     "pa": 69,
+     "pf": 69,
+     "pa": 78,
      "status": "",
      "links": {},
      "live_feed": null
@@ -808,8 +808,8 @@
      "note": "",
      "state": "post",
      "result": "L",
-     "pf": 64,
-     "pa": 51,
+     "pf": 51,
+     "pa": 64,
      "status": "",
      "links": {
       "live_stats": "https://prestolivestats.com/9qop6oeabjj3n7bn/qkvmc8wkq7e2xa5n",
@@ -836,8 +836,8 @@
      "note": "",
      "state": "post",
      "result": "L",
-     "pf": 74,
-     "pa": 38,
+     "pf": 38,
+     "pa": 74,
      "status": "",
      "links": {
       "boxscore": "https://www.olivetcomets.com/sports/wbkb/2026-27/boxscores/20261113_jvbt.xml",
@@ -863,8 +863,8 @@
      "note": "",
      "state": "post",
      "result": "L",
-     "pf": 70,
-     "pa": 46,
+     "pf": 46,
+     "pa": 70,
      "status": "",
      "links": {
       "boxscore": "https://www.olivetcomets.com/sports/wbkb/2026-27/boxscores/20261114_7ro9.xml",
@@ -890,8 +890,8 @@
      "note": "",
      "state": "post",
      "result": "L",
-     "pf": 77,
-     "pa": 49,
+     "pf": 49,
+     "pa": 77,
      "status": "",
      "links": {
       "boxscore": "https://www.olivetcomets.com/sports/wbkb/2026-27/boxscores/20261121_b22h.xml",
