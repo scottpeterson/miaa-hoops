@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T18:53:21-06:00",
+ "fetched_at": "2026-11-24T19:25:00-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -883,7 +883,7 @@
      "pa": 401,
      "record": "0-5",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T18:53:21-06:00"
+     "fetched": "2026-11-24T19:25:00-06:00"
     },
     "albion": {
      "games": [
@@ -1669,7 +1669,7 @@
      "pa": 483,
      "record": "4-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T18:53:21-06:00"
+     "fetched": "2026-11-24T19:25:00-06:00"
     },
     "alma": {
      "games": [
@@ -2510,7 +2510,7 @@
      "pa": 516,
      "record": "4-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T18:53:21-06:00"
+     "fetched": "2026-11-24T19:25:00-06:00"
     },
     "calvin": {
      "games": [
@@ -3311,7 +3311,7 @@
      "pa": 281,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T18:53:21-06:00"
+     "fetched": "2026-11-24T19:25:00-06:00"
     },
     "hope": {
      "games": [
@@ -4148,7 +4148,7 @@
      "pa": 258,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T18:53:21-06:00"
+     "fetched": "2026-11-24T19:25:00-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -4986,7 +4986,7 @@
      "pa": 307,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T18:53:21-06:00"
+     "fetched": "2026-11-24T19:25:00-06:00"
     },
     "olivet": {
      "games": [
@@ -5838,7 +5838,7 @@
      "pa": 294,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T18:53:21-06:00"
+     "fetched": "2026-11-24T19:25:00-06:00"
     },
     "trine": {
      "games": [
@@ -6621,7 +6621,7 @@
      "pa": 449,
      "record": "3-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T18:53:21-06:00"
+     "fetched": "2026-11-24T19:25:00-06:00"
     }
    },
    "poll": {
@@ -7548,19 +7548,16 @@
        "conference": false,
        "location": "Westerville, Ohio",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "L",
+       "pf": 46,
+       "pa": 74,
        "status": "",
        "links": {
-        "video": "https://go.flocollege.com/partner/oac?utm_medium=partner&utm_source=multiple&utm_content=landingpage&utm_term=otterbein-university&contract_id=0063m00000n3zlaaam",
-        "live_stats": "https://otterbeincardinals.com/sidearmstats/wbball/summary"
+        "boxscore": "https://adrianbulldogs.com/sports/womens-basketball/stats/2026-27/otterbein-university/boxscore/24114",
+        "recap": "https://adrianbulldogs.com/news/2026/11/24/womens-basketball-womens-basketball-falls-to-tough-otterbein-team-on-the-road.aspx"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/otterbein/wbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "adrian-wbb-24115",
@@ -8153,10 +8150,10 @@
        "label": "Points",
        "name": "Hannah Lisch",
        "jersey": "1",
-       "gp": "4",
-       "total": "74",
-       "avg": "18.5",
-       "line": "18.5 per game, 74 total",
+       "gp": "5",
+       "total": "83",
+       "avg": "16.6",
+       "line": "16.6 per game, 83 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://adrianbulldogs.com/images/2026/10/7/Cropped_Hannah_Lisch.png?width=200&quality=90"
@@ -8165,10 +8162,10 @@
        "label": "Points",
        "name": "Caitlin Griffin",
        "jersey": "14",
-       "gp": "5",
-       "total": "47",
-       "avg": "9.4",
-       "line": "9.4 per game, 47 total",
+       "gp": "6",
+       "total": "55",
+       "avg": "9.2",
+       "line": "9.2 per game, 55 total",
        "position": "F",
        "year": "Sophomore",
        "headshot": "https://adrianbulldogs.com/images/2026/10/7/Cropped_Caitlin_Griffin.png?width=200&quality=90"
@@ -8177,10 +8174,10 @@
        "label": "Rebounds",
        "name": "Caitlin Griffin",
        "jersey": "14",
-       "gp": "5",
-       "total": "29",
-       "avg": "5.8",
-       "line": "5.8 per game, 29 total",
+       "gp": "6",
+       "total": "38",
+       "avg": "6.3",
+       "line": "6.3 per game, 38 total",
        "position": "F",
        "year": "Sophomore",
        "headshot": "https://adrianbulldogs.com/images/2026/10/7/Cropped_Caitlin_Griffin.png?width=200&quality=90"
@@ -8189,10 +8186,10 @@
        "label": "Assists",
        "name": "Ashlyn Moorehead",
        "jersey": "23",
-       "gp": "5",
-       "total": "16",
-       "avg": "3.2",
-       "line": "3.2 per game, 16 total",
+       "gp": "6",
+       "total": "17",
+       "avg": "2.8",
+       "line": "2.8 per game, 17 total",
        "position": "G",
        "year": "Sophomore",
        "headshot": "https://adrianbulldogs.com/images/2026/10/7/Cropped_Ashlyn_Moorehead.png?width=200&quality=90"
@@ -8201,10 +8198,10 @@
        "label": "Steals",
        "name": "Caitlin Griffin",
        "jersey": "14",
-       "gp": "5",
+       "gp": "6",
        "total": "10",
-       "avg": "2.0",
-       "line": "2.0 per game, 10 total",
+       "avg": "1.7",
+       "line": "1.7 per game, 10 total",
        "position": "F",
        "year": "Sophomore",
        "headshot": "https://adrianbulldogs.com/images/2026/10/7/Cropped_Caitlin_Griffin.png?width=200&quality=90"
@@ -8213,10 +8210,10 @@
        "label": "Blocks",
        "name": "Caitlin Griffin",
        "jersey": "14",
-       "gp": "5",
-       "total": "3",
-       "avg": "0.6",
-       "line": "0.6 per game, 3 total",
+       "gp": "6",
+       "total": "5",
+       "avg": "0.8",
+       "line": "0.8 per game, 5 total",
        "position": "F",
        "year": "Sophomore",
        "headshot": "https://adrianbulldogs.com/images/2026/10/7/Cropped_Caitlin_Griffin.png?width=200&quality=90"
@@ -8224,16 +8221,16 @@
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 5,
+     "played": 6,
      "wins": 2,
-     "losses": 3,
+     "losses": 4,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 312,
-     "pa": 339,
-     "record": "2-3",
+     "pf": 358,
+     "pa": 413,
+     "record": "2-4",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T18:53:21-06:00"
+     "fetched": "2026-11-24T19:25:00-06:00"
     },
     "albion": {
      "games": [
@@ -9012,7 +9009,7 @@
      "pa": 281,
      "record": "4-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T18:53:21-06:00"
+     "fetched": "2026-11-24T19:25:00-06:00"
     },
     "alma": {
      "games": [
@@ -9853,7 +9850,7 @@
      "pa": 329,
      "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T18:53:21-06:00"
+     "fetched": "2026-11-24T19:25:00-06:00"
     },
     "calvin": {
      "games": [
@@ -10041,7 +10038,8 @@
        "pa": 43,
        "status": "",
        "links": {
-        "boxscore": "https://calvinknights.com/sports/womens-basketball/stats/2026-27/concordia-university-wis-/boxscore/9240"
+        "boxscore": "https://calvinknights.com/sports/womens-basketball/stats/2026-27/concordia-university-wis-/boxscore/9240",
+        "recap": "https://calvinknights.com/news/2026/11/24/calvin-womens-basketball-takes-down-concordia-in-home-opener.aspx"
        },
        "live_feed": null
       },
@@ -10641,7 +10639,7 @@
      "pa": 361,
      "record": "4-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T18:53:21-06:00"
+     "fetched": "2026-11-24T19:25:00-06:00"
     },
     "hope": {
      "games": [
@@ -10829,6 +10827,7 @@
        "pa": 59,
        "status": "",
        "links": {
+        "recap": "https://athletics.hope.edu/news/2026/11/24/balanced-attack-powers-no-4-womens-basketball-past-carthage.aspx",
         "boxscore": "https://athletics.hope.edu/sports/womens-basketball/stats/2026-27/carthage-college/boxscore/18671"
        },
        "live_feed": null
@@ -11465,7 +11464,7 @@
      "pa": 433,
      "record": "7-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T18:53:21-06:00"
+     "fetched": "2026-11-24T19:25:00-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12287,7 +12286,7 @@
      "pa": 207,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T18:53:21-06:00"
+     "fetched": "2026-11-24T19:25:00-06:00"
     },
     "olivet": {
      "games": [
@@ -13036,10 +13035,7 @@
        "gp": "1",
        "total": "15",
        "avg": "15.0",
-       "line": "15.0 per game, 15 total",
-       "position": "G",
-       "year": "Sophomore",
-       "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Madelyn_Burdis.jpg?max_height=576&max_width=576&crop=1"
+       "line": "15.0 per game, 15 total"
       },
       {
        "label": "Points",
@@ -13048,10 +13044,7 @@
        "gp": "4",
        "total": "37",
        "avg": "9.3",
-       "line": "9.3 per game, 37 total",
-       "position": "C/F",
-       "year": "First-year",
-       "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Addilyn_Moore.jpg?max_height=576&max_width=576&crop=1"
+       "line": "9.3 per game, 37 total"
       },
       {
        "label": "Rebounds",
@@ -13060,10 +13053,7 @@
        "gp": "1",
        "total": "5",
        "avg": "5.0",
-       "line": "5.0 per game, 5 total",
-       "position": "G",
-       "year": "Sophomore",
-       "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Madelyn_Burdis.jpg?max_height=576&max_width=576&crop=1"
+       "line": "5.0 per game, 5 total"
       },
       {
        "label": "Assists",
@@ -13072,10 +13062,7 @@
        "gp": "1",
        "total": "4",
        "avg": "4.0",
-       "line": "4.0 per game, 4 total",
-       "position": "G",
-       "year": "First-year",
-       "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Hannah_Ralko.jpg?max_height=576&max_width=576&crop=1"
+       "line": "4.0 per game, 4 total"
       },
       {
        "label": "Steals",
@@ -13084,10 +13071,7 @@
        "gp": "1",
        "total": "2",
        "avg": "2.0",
-       "line": "2.0 per game, 2 total",
-       "position": "G",
-       "year": "Sophomore",
-       "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Madelyn_Burdis.jpg?max_height=576&max_width=576&crop=1"
+       "line": "2.0 per game, 2 total"
       },
       {
        "label": "Blocks",
@@ -13096,20 +13080,10 @@
        "gp": "1",
        "total": "1",
        "avg": "1.0",
-       "line": "1.0 per game, 1 total",
-       "position": "G",
-       "year": "First-year",
-       "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Hannah_Ralko.jpg?max_height=576&max_width=576&crop=1"
+       "line": "1.0 per game, 1 total"
       }
      ],
-     "departed": [
-      {
-       "name": "Hadijah Namyalo",
-       "reason": "not on the 2026-27 roster",
-       "line": "0.0 points per game",
-       "year": null
-      }
-     ],
+     "departed": [],
      "stats_season": "2026-27",
      "played": 4,
      "wins": 0,
@@ -13120,7 +13094,7 @@
      "pa": 285,
      "record": "0-4",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T18:53:21-06:00"
+     "fetched": "2026-11-24T19:25:00-06:00"
     },
     "saintmarys": {
      "games": [
@@ -13302,19 +13276,15 @@
        "conference": false,
        "location": "Angela Athletic & Wellness Complex",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "W",
+       "pf": 62,
+       "pa": 51,
        "status": "",
        "links": {
-        "video": "https://www.miaasportsnetwork.com/smcbelles/",
-        "live_stats": "https://belles.saintmarys.edu/sidearmstats/wbball/summary"
+        "boxscore": "https://belles.saintmarys.edu/sports/womens-basketball/stats/2026-27/anderson/boxscore/2446"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/smcind/wbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "saintmarys-wbb-2447",
@@ -13920,10 +13890,10 @@
        "label": "Points",
        "name": "Ella Andree",
        "jersey": "21",
-       "gp": "4",
-       "total": "61",
-       "avg": "15.3",
-       "line": "15.3 per game, 61 total",
+       "gp": "5",
+       "total": "68",
+       "avg": "13.6",
+       "line": "13.6 per game, 68 total",
        "position": "Guard",
        "year": "Junior",
        "headshot": "https://belles.saintmarys.edu/images/2026/10/26/Andree_1866.png?width=200&quality=90"
@@ -13932,10 +13902,10 @@
        "label": "Points",
        "name": "Ella Notaro",
        "jersey": "11",
-       "gp": "4",
-       "total": "46",
-       "avg": "11.5",
-       "line": "11.5 per game, 46 total",
+       "gp": "5",
+       "total": "58",
+       "avg": "11.6",
+       "line": "11.6 per game, 58 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://belles.saintmarys.edu/images/2026/10/26/Notaro_1895.png?width=200&quality=90"
@@ -13944,10 +13914,10 @@
        "label": "Rebounds",
        "name": "Ella Notaro",
        "jersey": "11",
-       "gp": "4",
-       "total": "27",
-       "avg": "6.8",
-       "line": "6.8 per game, 27 total",
+       "gp": "5",
+       "total": "33",
+       "avg": "6.6",
+       "line": "6.6 per game, 33 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://belles.saintmarys.edu/images/2026/10/26/Notaro_1895.png?width=200&quality=90"
@@ -13956,10 +13926,10 @@
        "label": "Assists",
        "name": "Liv Fry",
        "jersey": "4",
-       "gp": "4",
-       "total": "14",
-       "avg": "3.5",
-       "line": "3.5 per game, 14 total",
+       "gp": "5",
+       "total": "17",
+       "avg": "3.4",
+       "line": "3.4 per game, 17 total",
        "position": "Guard",
        "year": "Sophomore",
        "headshot": "https://belles.saintmarys.edu/images/2026/10/26/Fry_1904.png?width=200&quality=90"
@@ -13968,10 +13938,10 @@
        "label": "Steals",
        "name": "Kate Passinault",
        "jersey": "5",
-       "gp": "4",
-       "total": "9",
-       "avg": "2.3",
-       "line": "2.3 per game, 9 total",
+       "gp": "5",
+       "total": "10",
+       "avg": "2.0",
+       "line": "2.0 per game, 10 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://belles.saintmarys.edu/images/2026/10/26/Passinault_1886.png?width=200&quality=90"
@@ -13980,10 +13950,10 @@
        "label": "Blocks",
        "name": "Kate Passinault",
        "jersey": "5",
-       "gp": "4",
-       "total": "5",
-       "avg": "1.3",
-       "line": "1.3 per game, 5 total",
+       "gp": "5",
+       "total": "6",
+       "avg": "1.2",
+       "line": "1.2 per game, 6 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://belles.saintmarys.edu/images/2026/10/26/Passinault_1886.png?width=200&quality=90"
@@ -13991,16 +13961,16 @@
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 4,
-     "wins": 3,
+     "played": 5,
+     "wins": 4,
      "losses": 1,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 256,
-     "pa": 247,
-     "record": "3-1",
+     "pf": 318,
+     "pa": 298,
+     "record": "4-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T18:53:21-06:00"
+     "fetched": "2026-11-24T19:25:00-06:00"
     },
     "trine": {
      "games": [
@@ -14801,7 +14771,7 @@
      "pa": 133,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T18:53:21-06:00"
+     "fetched": "2026-11-24T19:25:00-06:00"
     }
    },
    "poll": {
@@ -15061,9 +15031,9 @@
     "count": 411,
     "teams": {
      "adrian": {
-      "rank": 281,
-      "npi": 43.851,
-      "rank_change": 1,
+      "rank": 289,
+      "npi": 43.652,
+      "rank_change": null,
       "bid": "AL-108",
       "record": "2-2 qualifying",
       "preseason_rank": 248,
@@ -15073,9 +15043,9 @@
       "median_record": "6-19"
      },
      "albion": {
-      "rank": 85,
-      "npi": 53.338,
-      "rank_change": 0,
+      "rank": 93,
+      "npi": 53.047,
+      "rank_change": null,
       "bid": "AL-108",
       "record": "4-1 qualifying",
       "preseason_rank": 155,
@@ -15085,9 +15055,9 @@
       "median_record": "14-12"
      },
      "alma": {
-      "rank": 90,
-      "npi": 53.166,
-      "rank_change": null,
+      "rank": 82,
+      "npi": 53.469,
+      "rank_change": 8,
       "bid": "AL-108",
       "record": "3-2 qualifying",
       "preseason_rank": 139,
@@ -15097,11 +15067,11 @@
       "median_record": "15-12"
      },
      "calvin": {
-      "rank": 146,
-      "npi": 50.306,
-      "rank_change": null,
+      "rank": 143,
+      "npi": 50.254,
+      "rank_change": 3,
       "bid": "AL-75",
-      "record": "3-3 qualifying",
+      "record": "4-3 qualifying",
       "preseason_rank": 36,
       "returning": "67.56%",
       "tourney_pct": "2.3%",
@@ -15109,11 +15079,11 @@
       "median_record": "16-11"
      },
      "hope": {
-      "rank": 10,
-      "npi": 60.037,
-      "rank_change": 4,
+      "rank": 13,
+      "npi": 60.124,
+      "rank_change": null,
       "bid": "AL-07",
-      "record": "6-0 qualifying",
+      "record": "7-0 qualifying",
       "preseason_rank": 5,
       "returning": "79.93%",
       "tourney_pct": "89.5%",
@@ -15121,9 +15091,9 @@
       "median_record": "23-4"
      },
      "kalamazoo": {
-      "rank": 407,
-      "npi": 30.206,
-      "rank_change": 1,
+      "rank": 409,
+      "npi": 29.68,
+      "rank_change": null,
       "bid": "AL-108",
       "record": "0-1 qualifying",
       "preseason_rank": 253,
@@ -15133,9 +15103,9 @@
       "median_record": "7-18"
      },
      "olivet": {
-      "rank": 357,
-      "npi": 38.669,
-      "rank_change": 0,
+      "rank": 356,
+      "npi": 38.625,
+      "rank_change": 1,
       "bid": "AL-108",
       "record": "0-1 qualifying",
       "preseason_rank": 332,
@@ -15145,9 +15115,9 @@
       "median_record": "2-23"
      },
      "saintmarys": {
-      "rank": 37,
-      "npi": 56.078,
-      "rank_change": 2,
+      "rank": 39,
+      "npi": 56.118,
+      "rank_change": null,
       "bid": "AL-108",
       "record": "3-1 qualifying",
       "preseason_rank": 271,
@@ -15157,9 +15127,9 @@
       "median_record": "14-13"
      },
      "trine": {
-      "rank": 13,
-      "npi": 59.877,
-      "rank_change": 0,
+      "rank": 14,
+      "npi": 60.008,
+      "rank_change": null,
       "bid": "AQ",
       "record": "3-0 qualifying",
       "preseason_rank": 6,
