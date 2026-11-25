@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-25T02:18:20-06:00",
+ "fetched_at": "2026-11-25T08:11:31-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -879,7 +879,7 @@
      "pa": 474,
      "record": "1-5",
      "conf_record": "0-0",
-     "fetched": "2026-11-25T02:18:20-06:00"
+     "fetched": "2026-11-25T08:11:31-06:00"
     },
     "albion": {
      "games": [
@@ -1665,7 +1665,7 @@
      "pa": 483,
      "record": "4-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-25T02:18:20-06:00"
+     "fetched": "2026-11-25T08:11:31-06:00"
     },
     "alma": {
      "games": [
@@ -2507,7 +2507,7 @@
      "pa": 516,
      "record": "4-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-25T02:18:20-06:00"
+     "fetched": "2026-11-25T08:11:31-06:00"
     },
     "calvin": {
      "games": [
@@ -3305,7 +3305,7 @@
      "pa": 346,
      "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-25T02:18:20-06:00"
+     "fetched": "2026-11-25T08:11:31-06:00"
     },
     "hope": {
      "games": [
@@ -4139,7 +4139,7 @@
      "pa": 327,
      "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-25T02:18:20-06:00"
+     "fetched": "2026-11-25T08:11:31-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -4977,7 +4977,7 @@
      "pa": 307,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-25T02:18:20-06:00"
+     "fetched": "2026-11-25T08:11:31-06:00"
     },
     "olivet": {
      "games": [
@@ -5829,7 +5829,7 @@
      "pa": 294,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-25T02:18:20-06:00"
+     "fetched": "2026-11-25T08:11:31-06:00"
     },
     "trine": {
      "games": [
@@ -6612,7 +6612,7 @@
      "pa": 449,
      "record": "3-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-25T02:18:20-06:00"
+     "fetched": "2026-11-25T08:11:31-06:00"
     }
    },
    "poll": {
@@ -6857,97 +6857,97 @@
     "source": "D3 Datacast",
     "url": "https://d3datacast.com/npi/mbb/",
     "eff_url": "https://d3datacast.com/efficiency-ratings/",
-    "updated": "11/24/26 6:55 AM",
-    "eff_updated": "11/24/2026 6:56 AM",
-    "count": 401,
+    "updated": "11/25/26 8:49 AM",
+    "eff_updated": "11/25/2026 8:49 AM",
+    "count": 402,
     "teams": {
      "adrian": {
-      "rank": 393,
-      "record": "0-4",
-      "npi": "28.739",
+      "rank": 351,
+      "record": "1-4",
+      "npi": "39.202",
       "bid": "At-Lg",
-      "at_large_rank": "365",
+      "at_large_rank": "323",
       "seed": "-",
-      "eff_rank": 350,
-      "adj_em": "-12.5",
-      "eff_updated": "11/24/2026 6:56 AM"
+      "eff_rank": 328,
+      "adj_em": "-10.3",
+      "eff_updated": "11/25/2026 8:49 AM"
      },
      "albion": {
-      "rank": 162,
+      "rank": 175,
       "record": "3-1",
-      "npi": "51.185",
+      "npi": "50.584",
       "bid": "At-Lg",
-      "at_large_rank": "134",
+      "at_large_rank": "147",
       "seed": "-",
-      "eff_rank": 157,
-      "adj_em": "+3.0",
-      "eff_updated": "11/24/2026 6:56 AM"
+      "eff_rank": 173,
+      "adj_em": "+1.6",
+      "eff_updated": "11/25/2026 8:49 AM"
      },
      "alma": {
+      "rank": 226,
+      "record": "4-3",
+      "npi": "47.453",
+      "bid": "At-Lg",
+      "at_large_rank": "198",
+      "seed": "-",
+      "eff_rank": 237,
+      "adj_em": "-2.4",
+      "eff_updated": "11/25/2026 8:49 AM"
+     },
+     "calvin": {
+      "rank": 79,
+      "record": "3-2",
+      "npi": "55.971",
+      "bid": "AQ",
+      "at_large_rank": "-",
+      "seed": "45",
+      "eff_rank": 113,
+      "adj_em": "+7.4",
+      "eff_updated": "11/25/2026 8:49 AM"
+     },
+     "hope": {
+      "rank": 115,
+      "record": "3-2",
+      "npi": "53.710",
+      "bid": "At-Lg",
+      "at_large_rank": "89",
+      "seed": "-",
+      "eff_rank": 34,
+      "adj_em": "+15.9",
+      "eff_updated": "11/25/2026 8:49 AM"
+     },
+     "kalamazoo": {
       "rank": 189,
-      "record": "4-2",
-      "npi": "49.806",
+      "record": "2-2",
+      "npi": "49.714",
       "bid": "At-Lg",
       "at_large_rank": "161",
       "seed": "-",
-      "eff_rank": 195,
-      "adj_em": "+0.0",
-      "eff_updated": "11/24/2026 6:56 AM"
-     },
-     "calvin": {
-      "rank": 44,
-      "record": "3-1",
-      "npi": "58.709",
-      "bid": "AQ",
-      "at_large_rank": "-",
-      "seed": "39",
-      "eff_rank": 98,
-      "adj_em": "+9.1",
-      "eff_updated": "11/24/2026 6:56 AM"
-     },
-     "hope": {
-      "rank": 75,
-      "record": "3-1",
-      "npi": "56.397",
-      "bid": "At-Lg",
-      "at_large_rank": "52",
-      "seed": "-",
-      "eff_rank": 33,
-      "adj_em": "+16.0",
-      "eff_updated": "11/24/2026 6:56 AM"
-     },
-     "kalamazoo": {
-      "rank": 169,
-      "record": "2-2",
-      "npi": "50.823",
-      "bid": "At-Lg",
-      "at_large_rank": "141",
-      "seed": "-",
-      "eff_rank": 253,
-      "adj_em": "-3.9",
-      "eff_updated": "11/24/2026 6:56 AM"
+      "eff_rank": 259,
+      "adj_em": "-4.4",
+      "eff_updated": "11/25/2026 8:49 AM"
      },
      "olivet": {
-      "rank": 174,
+      "rank": 170,
       "record": "2-1",
-      "npi": "50.467",
+      "npi": "50.726",
       "bid": "At-Lg",
-      "at_large_rank": "146",
+      "at_large_rank": "142",
       "seed": "-",
-      "eff_rank": 123,
-      "adj_em": "+6.4",
-      "eff_updated": "11/24/2026 6:56 AM"
+      "eff_rank": 127,
+      "adj_em": "+5.9",
+      "eff_updated": "11/25/2026 8:49 AM"
      },
      "trine": {
-      "rank": 188,
+      "rank": 199,
       "record": "3-3",
-      "npi": "49.812",
+      "npi": "49.322",
       "bid": "At-Lg",
-      "at_large_rank": "160",
+      "at_large_rank": "171",
       "seed": "-",
-      "eff_rank": 64,
-      "adj_em": "+11.7",
-      "eff_updated": "11/24/2026 6:56 AM"
+      "eff_rank": 70,
+      "adj_em": "+11.2",
+      "eff_updated": "11/25/2026 8:49 AM"
      }
     },
     "d3_teams": [
@@ -8221,7 +8221,7 @@
      "pa": 413,
      "record": "2-4",
      "conf_record": "0-0",
-     "fetched": "2026-11-25T02:18:20-06:00"
+     "fetched": "2026-11-25T08:11:31-06:00"
     },
     "albion": {
      "games": [
@@ -9000,7 +9000,7 @@
      "pa": 281,
      "record": "4-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-25T02:18:20-06:00"
+     "fetched": "2026-11-25T08:11:31-06:00"
     },
     "alma": {
      "games": [
@@ -9837,7 +9837,7 @@
      "pa": 371,
      "record": "4-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-25T02:18:20-06:00"
+     "fetched": "2026-11-25T08:11:31-06:00"
     },
     "calvin": {
      "games": [
@@ -10626,7 +10626,7 @@
      "pa": 361,
      "record": "4-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-25T02:18:20-06:00"
+     "fetched": "2026-11-25T08:11:31-06:00"
     },
     "hope": {
      "games": [
@@ -11451,7 +11451,7 @@
      "pa": 433,
      "record": "7-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-25T02:18:20-06:00"
+     "fetched": "2026-11-25T08:11:31-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12273,7 +12273,7 @@
      "pa": 207,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-25T02:18:20-06:00"
+     "fetched": "2026-11-25T08:11:31-06:00"
     },
     "olivet": {
      "games": [
@@ -13022,7 +13022,10 @@
        "gp": "1",
        "total": "15",
        "avg": "15.0",
-       "line": "15.0 per game, 15 total"
+       "line": "15.0 per game, 15 total",
+       "position": "G",
+       "year": "Sophomore",
+       "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Madelyn_Burdis.jpg?max_height=576&max_width=576&crop=1"
       },
       {
        "label": "Points",
@@ -13031,7 +13034,10 @@
        "gp": "4",
        "total": "37",
        "avg": "9.3",
-       "line": "9.3 per game, 37 total"
+       "line": "9.3 per game, 37 total",
+       "position": "C/F",
+       "year": "First-year",
+       "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Addilyn_Moore.jpg?max_height=576&max_width=576&crop=1"
       },
       {
        "label": "Rebounds",
@@ -13040,7 +13046,10 @@
        "gp": "1",
        "total": "5",
        "avg": "5.0",
-       "line": "5.0 per game, 5 total"
+       "line": "5.0 per game, 5 total",
+       "position": "G",
+       "year": "Sophomore",
+       "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Madelyn_Burdis.jpg?max_height=576&max_width=576&crop=1"
       },
       {
        "label": "Assists",
@@ -13049,7 +13058,10 @@
        "gp": "1",
        "total": "4",
        "avg": "4.0",
-       "line": "4.0 per game, 4 total"
+       "line": "4.0 per game, 4 total",
+       "position": "G",
+       "year": "First-year",
+       "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Hannah_Ralko.jpg?max_height=576&max_width=576&crop=1"
       },
       {
        "label": "Steals",
@@ -13058,7 +13070,10 @@
        "gp": "1",
        "total": "2",
        "avg": "2.0",
-       "line": "2.0 per game, 2 total"
+       "line": "2.0 per game, 2 total",
+       "position": "G",
+       "year": "Sophomore",
+       "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Madelyn_Burdis.jpg?max_height=576&max_width=576&crop=1"
       },
       {
        "label": "Blocks",
@@ -13067,7 +13082,10 @@
        "gp": "1",
        "total": "1",
        "avg": "1.0",
-       "line": "1.0 per game, 1 total"
+       "line": "1.0 per game, 1 total",
+       "position": "G",
+       "year": "First-year",
+       "headshot": "https://www.olivetcomets.com/sports/wbkb/2026-27/photos/0001/hs_Hannah_Ralko.jpg?max_height=576&max_width=576&crop=1"
       }
      ],
      "departed": [
@@ -13088,7 +13106,7 @@
      "pa": 285,
      "record": "0-4",
      "conf_record": "0-0",
-     "fetched": "2026-11-25T02:18:20-06:00"
+     "fetched": "2026-11-25T08:11:31-06:00"
     },
     "saintmarys": {
      "games": [
@@ -13965,7 +13983,7 @@
      "pa": 298,
      "record": "4-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-25T02:18:20-06:00"
+     "fetched": "2026-11-25T08:11:31-06:00"
     },
     "trine": {
      "games": [
@@ -14766,7 +14784,7 @@
      "pa": 133,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-25T02:18:20-06:00"
+     "fetched": "2026-11-25T08:11:31-06:00"
     }
    },
    "poll": {
