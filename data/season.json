@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T21:00:05-06:00",
+ "fetched_at": "2026-11-24T21:31:46-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -879,7 +879,7 @@
      "pa": 474,
      "record": "1-5",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T21:00:05-06:00"
+     "fetched": "2026-11-24T21:31:46-06:00"
     },
     "albion": {
      "games": [
@@ -1665,7 +1665,7 @@
      "pa": 483,
      "record": "4-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T21:00:05-06:00"
+     "fetched": "2026-11-24T21:31:46-06:00"
     },
     "alma": {
      "games": [
@@ -2506,7 +2506,7 @@
      "pa": 516,
      "record": "4-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T21:00:05-06:00"
+     "fetched": "2026-11-24T21:31:46-06:00"
     },
     "calvin": {
      "games": [
@@ -3304,7 +3304,7 @@
      "pa": 346,
      "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T21:00:05-06:00"
+     "fetched": "2026-11-24T21:31:46-06:00"
     },
     "hope": {
      "games": [
@@ -4137,7 +4137,7 @@
      "pa": 327,
      "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T21:00:05-06:00"
+     "fetched": "2026-11-24T21:31:46-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -4975,7 +4975,7 @@
      "pa": 307,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T21:00:05-06:00"
+     "fetched": "2026-11-24T21:31:46-06:00"
     },
     "olivet": {
      "games": [
@@ -5827,7 +5827,7 @@
      "pa": 294,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T21:00:05-06:00"
+     "fetched": "2026-11-24T21:31:46-06:00"
     },
     "trine": {
      "games": [
@@ -6610,7 +6610,7 @@
      "pa": 449,
      "record": "3-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T21:00:05-06:00"
+     "fetched": "2026-11-24T21:31:46-06:00"
     }
    },
    "poll": {
@@ -8219,7 +8219,7 @@
      "pa": 413,
      "record": "2-4",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T21:00:05-06:00"
+     "fetched": "2026-11-24T21:31:46-06:00"
     },
     "albion": {
      "games": [
@@ -8998,7 +8998,7 @@
      "pa": 281,
      "record": "4-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T21:00:05-06:00"
+     "fetched": "2026-11-24T21:31:46-06:00"
     },
     "alma": {
      "games": [
@@ -9834,7 +9834,7 @@
      "pa": 371,
      "record": "4-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T21:00:05-06:00"
+     "fetched": "2026-11-24T21:31:46-06:00"
     },
     "calvin": {
      "games": [
@@ -10623,7 +10623,7 @@
      "pa": 361,
      "record": "4-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T21:00:05-06:00"
+     "fetched": "2026-11-24T21:31:46-06:00"
     },
     "hope": {
      "games": [
@@ -11448,7 +11448,7 @@
      "pa": 433,
      "record": "7-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T21:00:05-06:00"
+     "fetched": "2026-11-24T21:31:46-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12270,7 +12270,7 @@
      "pa": 207,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T21:00:05-06:00"
+     "fetched": "2026-11-24T21:31:46-06:00"
     },
     "olivet": {
      "games": [
@@ -13103,7 +13103,7 @@
      "pa": 285,
      "record": "0-4",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T21:00:05-06:00"
+     "fetched": "2026-11-24T21:31:46-06:00"
     },
     "saintmarys": {
      "games": [
@@ -13980,7 +13980,7 @@
      "pa": 298,
      "record": "4-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T21:00:05-06:00"
+     "fetched": "2026-11-24T21:31:46-06:00"
     },
     "trine": {
      "games": [
@@ -14781,7 +14781,7 @@
      "pa": 133,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T21:00:05-06:00"
+     "fetched": "2026-11-24T21:31:46-06:00"
     }
    },
    "poll": {
@@ -15041,8 +15041,8 @@
     "count": 411,
     "teams": {
      "adrian": {
-      "rank": 290,
-      "npi": 43.708,
+      "rank": 284,
+      "npi": 44.066,
       "rank_change": null,
       "bid": "AL-108",
       "record": "2-2 qualifying",
@@ -15054,7 +15054,7 @@
      },
      "albion": {
       "rank": 95,
-      "npi": 52.833,
+      "npi": 52.87,
       "rank_change": null,
       "bid": "AL-108",
       "record": "4-1 qualifying",
@@ -15065,11 +15065,11 @@
       "median_record": "14-12"
      },
      "alma": {
-      "rank": 82,
-      "npi": 53.536,
-      "rank_change": 8,
+      "rank": 93,
+      "npi": 52.901,
+      "rank_change": null,
       "bid": "AL-108",
-      "record": "3-2 qualifying",
+      "record": "4-2 qualifying",
       "preseason_rank": 139,
       "returning": "78.38%",
       "tourney_pct": "0.4%",
@@ -15078,7 +15078,7 @@
      },
      "calvin": {
       "rank": 146,
-      "npi": 50.236,
+      "npi": 50.159,
       "rank_change": 0,
       "bid": "AL-75",
       "record": "4-3 qualifying",
@@ -15089,9 +15089,9 @@
       "median_record": "16-11"
      },
      "hope": {
-      "rank": 10,
-      "npi": 60.052,
-      "rank_change": 0,
+      "rank": 11,
+      "npi": 60.163,
+      "rank_change": null,
       "bid": "AL-07",
       "record": "7-0 qualifying",
       "preseason_rank": 5,
@@ -15101,9 +15101,9 @@
       "median_record": "23-4"
      },
      "kalamazoo": {
-      "rank": 407,
-      "npi": 29.809,
-      "rank_change": 0,
+      "rank": 406,
+      "npi": 29.923,
+      "rank_change": 1,
       "bid": "AL-108",
       "record": "0-1 qualifying",
       "preseason_rank": 253,
@@ -15113,9 +15113,9 @@
       "median_record": "7-18"
      },
      "olivet": {
-      "rank": 358,
-      "npi": 38.334,
-      "rank_change": null,
+      "rank": 357,
+      "npi": 38.333,
+      "rank_change": 0,
       "bid": "AL-108",
       "record": "0-1 qualifying",
       "preseason_rank": 332,
@@ -15125,8 +15125,8 @@
       "median_record": "2-23"
      },
      "saintmarys": {
-      "rank": 53,
-      "npi": 54.964,
+      "rank": 55,
+      "npi": 54.896,
       "rank_change": null,
       "bid": "AL-108",
       "record": "4-1 qualifying",
@@ -15137,9 +15137,9 @@
       "median_record": "14-13"
      },
      "trine": {
-      "rank": 12,
-      "npi": 59.974,
-      "rank_change": 1,
+      "rank": 13,
+      "npi": 59.957,
+      "rank_change": 0,
       "bid": "AQ",
       "record": "3-0 qualifying",
       "preseason_rank": 6,
