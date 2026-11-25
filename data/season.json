@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T19:56:49-06:00",
+ "fetched_at": "2026-11-24T20:28:39-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -181,20 +181,15 @@
        "conference": false,
        "location": "Adrian, Mich., Merillat Sport and Fitness Center",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "W",
+       "pf": 85,
+       "pa": 73,
        "status": "",
        "links": {
-        "video": "https://www.youtube.com/channel/UC5R-AnML-8yPgzn3rwHqIbA",
-        "live_stats": "https://adrianbulldogs.com/sidearmstats/mbball/summary",
-        "tickets": "https://events.hometownticketing.com/boxoffice/adriancollege/L2VtYmVkL2V2ZW50LzkxMw%3D%3D"
+        "boxscore": "https://adrianbulldogs.com/sports/mens-basketball/stats/2026-27/the-college-of-wooster/boxscore/24141"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/adrian/mbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "adrian-mbb-24142",
@@ -813,36 +808,36 @@
      "players": [
       {
        "label": "Points",
-       "name": "Carson Lutz",
-       "jersey": "12",
-       "gp": "4",
-       "total": "34",
-       "avg": "8.5",
-       "line": "8.5 per game, 34 total",
-       "position": "G",
-       "year": "Sophomore",
-       "headshot": "https://adrianbulldogs.com/images/2026/10/20/Carson_Lutz.jpg?width=200&quality=90"
-      },
-      {
-       "label": "Points",
        "name": "Isaiah Foster",
        "jersey": "4",
-       "gp": "4",
-       "total": "32",
-       "avg": "8.0",
-       "line": "8.0 per game, 32 total",
+       "gp": "5",
+       "total": "54",
+       "avg": "10.8",
+       "line": "10.8 per game, 54 total",
        "position": "W",
        "year": "Junior",
        "headshot": "https://adrianbulldogs.com/images/2026/10/20/Isaiah_Foster.jpg?width=200&quality=90"
       },
       {
+       "label": "Points",
+       "name": "Carson Lutz",
+       "jersey": "12",
+       "gp": "5",
+       "total": "37",
+       "avg": "7.4",
+       "line": "7.4 per game, 37 total",
+       "position": "G",
+       "year": "Sophomore",
+       "headshot": "https://adrianbulldogs.com/images/2026/10/20/Carson_Lutz.jpg?width=200&quality=90"
+      },
+      {
        "label": "Rebounds",
        "name": "Austin Foster",
        "jersey": "2",
-       "gp": "4",
-       "total": "12",
+       "gp": "5",
+       "total": "15",
        "avg": "3.0",
-       "line": "3.0 per game, 12 total",
+       "line": "3.0 per game, 15 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://adrianbulldogs.com/images/2026/10/20/Austin_Foster.jpg?width=200&quality=90"
@@ -851,39 +846,39 @@
        "label": "Assists",
        "name": "Isaiah Foster",
        "jersey": "4",
-       "gp": "4",
-       "total": "12",
-       "avg": "3.0",
-       "line": "3.0 per game, 12 total",
+       "gp": "5",
+       "total": "16",
+       "avg": "3.2",
+       "line": "3.2 per game, 16 total",
        "position": "W",
        "year": "Junior",
        "headshot": "https://adrianbulldogs.com/images/2026/10/20/Isaiah_Foster.jpg?width=200&quality=90"
       },
       {
        "label": "Steals",
-       "name": "Carson Lutz",
-       "jersey": "12",
-       "gp": "4",
-       "total": "4",
+       "name": "Isaiah Foster",
+       "jersey": "4",
+       "gp": "5",
+       "total": "5",
        "avg": "1.0",
-       "line": "1.0 per game, 4 total",
-       "position": "G",
-       "year": "Sophomore",
-       "headshot": "https://adrianbulldogs.com/images/2026/10/20/Carson_Lutz.jpg?width=200&quality=90"
+       "line": "1.0 per game, 5 total",
+       "position": "W",
+       "year": "Junior",
+       "headshot": "https://adrianbulldogs.com/images/2026/10/20/Isaiah_Foster.jpg?width=200&quality=90"
       }
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 5,
-     "wins": 0,
+     "played": 6,
+     "wins": 1,
      "losses": 5,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 320,
-     "pa": 401,
-     "record": "0-5",
+     "pf": 405,
+     "pa": 474,
+     "record": "1-5",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T19:56:49-06:00"
+     "fetched": "2026-11-24T20:28:39-06:00"
     },
     "albion": {
      "games": [
@@ -1669,7 +1664,7 @@
      "pa": 483,
      "record": "4-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T19:56:49-06:00"
+     "fetched": "2026-11-24T20:28:39-06:00"
     },
     "alma": {
      "games": [
@@ -2510,7 +2505,7 @@
      "pa": 516,
      "record": "4-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T19:56:49-06:00"
+     "fetched": "2026-11-24T20:28:39-06:00"
     },
     "calvin": {
      "games": [
@@ -3311,7 +3306,7 @@
      "pa": 281,
      "record": "3-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T19:56:49-06:00"
+     "fetched": "2026-11-24T20:28:39-06:00"
     },
     "hope": {
      "games": [
@@ -3439,19 +3434,15 @@
        "conference": false,
        "location": "Whitewater, WI",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "L",
+       "pf": 68,
+       "pa": 69,
        "status": "",
        "links": {
-        "video": "https://wiacnetwork.com/whitewater/",
-        "live_stats": "https://uwwsports.com/sidearmstats/mbball/summary"
+        "boxscore": "https://athletics.hope.edu/sports/mens-basketball/stats/2026-27/university-of-wisconsin-whitewater/boxscore/18643"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/uww/mbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "hope-mbb-18644",
@@ -4068,10 +4059,10 @@
        "label": "Points",
        "name": "Brendan Cargill",
        "jersey": "2",
-       "gp": "4",
-       "total": "69",
-       "avg": "17.3",
-       "line": "17.3 per game, 69 total",
+       "gp": "5",
+       "total": "93",
+       "avg": "18.6",
+       "line": "18.6 per game, 93 total",
        "position": "Guard",
        "year": "Sophomore",
        "headshot": "https://athletics.hope.edu/images/2026/11/3/Cargill_Brendan.jpg?width=200&quality=90"
@@ -4080,10 +4071,10 @@
        "label": "Points",
        "name": "Orion Yant",
        "jersey": "13",
-       "gp": "4",
-       "total": "53",
-       "avg": "13.3",
-       "line": "13.3 per game, 53 total",
+       "gp": "5",
+       "total": "59",
+       "avg": "11.8",
+       "line": "11.8 per game, 59 total",
        "position": "Forward",
        "year": "Junior",
        "headshot": "https://athletics.hope.edu/images/2026/11/3/Yant_Orion.jpg?width=200&quality=90"
@@ -4092,10 +4083,10 @@
        "label": "Rebounds",
        "name": "Orion Yant",
        "jersey": "13",
-       "gp": "4",
-       "total": "35",
+       "gp": "5",
+       "total": "44",
        "avg": "8.8",
-       "line": "8.8 per game, 35 total",
+       "line": "8.8 per game, 44 total",
        "position": "Forward",
        "year": "Junior",
        "headshot": "https://athletics.hope.edu/images/2026/11/3/Yant_Orion.jpg?width=200&quality=90"
@@ -4104,10 +4095,10 @@
        "label": "Assists",
        "name": "Orion Yant",
        "jersey": "13",
-       "gp": "4",
-       "total": "13",
-       "avg": "3.3",
-       "line": "3.3 per game, 13 total",
+       "gp": "5",
+       "total": "15",
+       "avg": "3.0",
+       "line": "3.0 per game, 15 total",
        "position": "Forward",
        "year": "Junior",
        "headshot": "https://athletics.hope.edu/images/2026/11/3/Yant_Orion.jpg?width=200&quality=90"
@@ -4116,10 +4107,10 @@
        "label": "Steals",
        "name": "Orion Yant",
        "jersey": "13",
-       "gp": "4",
+       "gp": "5",
        "total": "7",
-       "avg": "1.8",
-       "line": "1.8 per game, 7 total",
+       "avg": "1.4",
+       "line": "1.4 per game, 7 total",
        "position": "Forward",
        "year": "Junior",
        "headshot": "https://athletics.hope.edu/images/2026/11/3/Yant_Orion.jpg?width=200&quality=90"
@@ -4128,10 +4119,10 @@
        "label": "Blocks",
        "name": "Orion Yant",
        "jersey": "13",
-       "gp": "4",
-       "total": "5",
-       "avg": "1.3",
-       "line": "1.3 per game, 5 total",
+       "gp": "5",
+       "total": "9",
+       "avg": "1.8",
+       "line": "1.8 per game, 9 total",
        "position": "Forward",
        "year": "Junior",
        "headshot": "https://athletics.hope.edu/images/2026/11/3/Yant_Orion.jpg?width=200&quality=90"
@@ -4139,16 +4130,16 @@
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 4,
+     "played": 5,
      "wins": 3,
-     "losses": 1,
+     "losses": 2,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 306,
-     "pa": 258,
-     "record": "3-1",
+     "pf": 374,
+     "pa": 327,
+     "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T19:56:49-06:00"
+     "fetched": "2026-11-24T20:28:39-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -4986,7 +4977,7 @@
      "pa": 307,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T19:56:49-06:00"
+     "fetched": "2026-11-24T20:28:39-06:00"
     },
     "olivet": {
      "games": [
@@ -5838,7 +5829,7 @@
      "pa": 294,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T19:56:49-06:00"
+     "fetched": "2026-11-24T20:28:39-06:00"
     },
     "trine": {
      "games": [
@@ -6621,7 +6612,7 @@
      "pa": 449,
      "record": "3-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T19:56:49-06:00"
+     "fetched": "2026-11-24T20:28:39-06:00"
     }
    },
    "poll": {
@@ -8230,7 +8221,7 @@
      "pa": 413,
      "record": "2-4",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T19:56:49-06:00"
+     "fetched": "2026-11-24T20:28:39-06:00"
     },
     "albion": {
      "games": [
@@ -9009,7 +9000,7 @@
      "pa": 281,
      "record": "4-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T19:56:49-06:00"
+     "fetched": "2026-11-24T20:28:39-06:00"
     },
     "alma": {
      "games": [
@@ -9850,7 +9841,7 @@
      "pa": 329,
      "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T19:56:49-06:00"
+     "fetched": "2026-11-24T20:28:39-06:00"
     },
     "calvin": {
      "games": [
@@ -10639,7 +10630,7 @@
      "pa": 361,
      "record": "4-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T19:56:49-06:00"
+     "fetched": "2026-11-24T20:28:39-06:00"
     },
     "hope": {
      "games": [
@@ -11464,7 +11455,7 @@
      "pa": 433,
      "record": "7-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T19:56:49-06:00"
+     "fetched": "2026-11-24T20:28:39-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12286,7 +12277,7 @@
      "pa": 207,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T19:56:49-06:00"
+     "fetched": "2026-11-24T20:28:39-06:00"
     },
     "olivet": {
      "games": [
@@ -13119,7 +13110,7 @@
      "pa": 285,
      "record": "0-4",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T19:56:49-06:00"
+     "fetched": "2026-11-24T20:28:39-06:00"
     },
     "saintmarys": {
      "games": [
@@ -13307,7 +13298,8 @@
        "pa": 51,
        "status": "",
        "links": {
-        "boxscore": "https://belles.saintmarys.edu/sports/womens-basketball/stats/2026-27/anderson/boxscore/2446"
+        "boxscore": "https://belles.saintmarys.edu/sports/womens-basketball/stats/2026-27/anderson/boxscore/2446",
+        "recap": "https://belles.saintmarys.edu/news/2026/11/24/basketball-belles-head-into-break-with-win.aspx"
        },
        "live_feed": null
       },
@@ -13995,7 +13987,7 @@
      "pa": 298,
      "record": "4-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T19:56:49-06:00"
+     "fetched": "2026-11-24T20:28:39-06:00"
     },
     "trine": {
      "games": [
@@ -14796,7 +14788,7 @@
      "pa": 133,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T19:56:49-06:00"
+     "fetched": "2026-11-24T20:28:39-06:00"
     }
    },
    "poll": {
