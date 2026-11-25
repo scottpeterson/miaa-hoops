@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T20:28:39-06:00",
+ "fetched_at": "2026-11-24T21:00:05-06:00",
  "season": "2026-27",
  "sports": {
   "mbb": {
@@ -187,7 +187,8 @@
        "pa": 73,
        "status": "",
        "links": {
-        "boxscore": "https://adrianbulldogs.com/sports/mens-basketball/stats/2026-27/the-college-of-wooster/boxscore/24141"
+        "boxscore": "https://adrianbulldogs.com/sports/mens-basketball/stats/2026-27/the-college-of-wooster/boxscore/24141",
+        "recap": "https://adrianbulldogs.com/news/2026/11/24/mens-basketball-tallies-first-win-behind-fosters-22-point-performance.aspx"
        },
        "live_feed": null
       },
@@ -878,7 +879,7 @@
      "pa": 474,
      "record": "1-5",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T20:28:39-06:00"
+     "fetched": "2026-11-24T21:00:05-06:00"
     },
     "albion": {
      "games": [
@@ -1664,7 +1665,7 @@
      "pa": 483,
      "record": "4-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T20:28:39-06:00"
+     "fetched": "2026-11-24T21:00:05-06:00"
     },
     "alma": {
      "games": [
@@ -2505,7 +2506,7 @@
      "pa": 516,
      "record": "4-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T20:28:39-06:00"
+     "fetched": "2026-11-24T21:00:05-06:00"
     },
     "calvin": {
      "games": [
@@ -2633,19 +2634,16 @@
        "conference": false,
        "location": "Kenosha, Wis.",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "L",
+       "pf": 53,
+       "pa": 65,
        "status": "",
        "links": {
-        "video": "https://cciwnetwork.com/carthage/?B=4111940",
-        "live_stats": "https://athletics.carthage.edu/sidearmstats/mbball/summary"
+        "boxscore": "https://calvinknights.com/sports/mens-basketball/stats/2026-27/carthage-college/boxscore/9263",
+        "recap": "https://calvinknights.com/news/2026/11/24/mens-basketball-calvin-mens-basketball-falls-to-firebirds-65-53.aspx"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/carthage/mbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "calvin-mbb-9264",
@@ -3226,10 +3224,10 @@
        "label": "Points",
        "name": "Jordan Scott",
        "jersey": "12",
-       "gp": "4",
-       "total": "66",
-       "avg": "16.5",
-       "line": "16.5 per game, 66 total",
+       "gp": "5",
+       "total": "85",
+       "avg": "17.0",
+       "line": "17.0 per game, 85 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://calvinknights.com/images/2026/10/27/Scott__Jordan.jpg?width=200&quality=90"
@@ -3238,10 +3236,10 @@
        "label": "Points",
        "name": "Justin McIllwain",
        "jersey": "0",
-       "gp": "4",
-       "total": "39",
-       "avg": "9.8",
-       "line": "9.8 per game, 39 total",
+       "gp": "5",
+       "total": "41",
+       "avg": "8.2",
+       "line": "8.2 per game, 41 total",
        "position": "F",
        "year": "Junior",
        "headshot": "https://calvinknights.com/images/2026/10/27/McIllwain__Justin.jpg?width=200&quality=90"
@@ -3250,10 +3248,10 @@
        "label": "Rebounds",
        "name": "Jordan Scott",
        "jersey": "12",
-       "gp": "4",
-       "total": "22",
-       "avg": "5.5",
-       "line": "5.5 per game, 22 total",
+       "gp": "5",
+       "total": "25",
+       "avg": "5.0",
+       "line": "5.0 per game, 25 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://calvinknights.com/images/2026/10/27/Scott__Jordan.jpg?width=200&quality=90"
@@ -3262,10 +3260,10 @@
        "label": "Assists",
        "name": "Jordan Scott",
        "jersey": "12",
-       "gp": "4",
-       "total": "17",
-       "avg": "4.3",
-       "line": "4.3 per game, 17 total",
+       "gp": "5",
+       "total": "19",
+       "avg": "3.8",
+       "line": "3.8 per game, 19 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://calvinknights.com/images/2026/10/27/Scott__Jordan.jpg?width=200&quality=90"
@@ -3274,10 +3272,10 @@
        "label": "Steals",
        "name": "Malachi Hooser II",
        "jersey": "1",
-       "gp": "4",
+       "gp": "5",
        "total": "9",
-       "avg": "2.3",
-       "line": "2.3 per game, 9 total",
+       "avg": "1.8",
+       "line": "1.8 per game, 9 total",
        "position": "G",
        "year": "Junior",
        "headshot": "https://calvinknights.com/images/2026/10/27/Hooser__Malachi.jpg?width=200&quality=90"
@@ -3286,10 +3284,10 @@
        "label": "Blocks",
        "name": "Justin McIllwain",
        "jersey": "0",
-       "gp": "4",
+       "gp": "5",
        "total": "3",
-       "avg": "0.8",
-       "line": "0.8 per game, 3 total",
+       "avg": "0.6",
+       "line": "0.6 per game, 3 total",
        "position": "F",
        "year": "Junior",
        "headshot": "https://calvinknights.com/images/2026/10/27/McIllwain__Justin.jpg?width=200&quality=90"
@@ -3297,16 +3295,16 @@
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 4,
+     "played": 5,
      "wins": 3,
-     "losses": 1,
+     "losses": 2,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 300,
-     "pa": 281,
-     "record": "3-1",
+     "pf": 353,
+     "pa": 346,
+     "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T20:28:39-06:00"
+     "fetched": "2026-11-24T21:00:05-06:00"
     },
     "hope": {
      "games": [
@@ -3438,7 +3436,7 @@
        "result": "L",
        "pf": 68,
        "pa": 69,
-       "status": "",
+       "status": "Final (OT)",
        "links": {
         "boxscore": "https://athletics.hope.edu/sports/mens-basketball/stats/2026-27/university-of-wisconsin-whitewater/boxscore/18643"
        },
@@ -4139,7 +4137,7 @@
      "pa": 327,
      "record": "3-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T20:28:39-06:00"
+     "fetched": "2026-11-24T21:00:05-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -4977,7 +4975,7 @@
      "pa": 307,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T20:28:39-06:00"
+     "fetched": "2026-11-24T21:00:05-06:00"
     },
     "olivet": {
      "games": [
@@ -5829,7 +5827,7 @@
      "pa": 294,
      "record": "2-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T20:28:39-06:00"
+     "fetched": "2026-11-24T21:00:05-06:00"
     },
     "trine": {
      "games": [
@@ -6612,7 +6610,7 @@
      "pa": 449,
      "record": "3-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T20:28:39-06:00"
+     "fetched": "2026-11-24T21:00:05-06:00"
     }
    },
    "poll": {
@@ -8221,7 +8219,7 @@
      "pa": 413,
      "record": "2-4",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T20:28:39-06:00"
+     "fetched": "2026-11-24T21:00:05-06:00"
     },
     "albion": {
      "games": [
@@ -9000,7 +8998,7 @@
      "pa": 281,
      "record": "4-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T20:28:39-06:00"
+     "fetched": "2026-11-24T21:00:05-06:00"
     },
     "alma": {
      "games": [
@@ -9155,20 +9153,15 @@
        "conference": false,
        "location": "Alma, Michigan, Art Smith Arena",
        "note": "",
-       "state": "pre",
-       "result": null,
-       "pf": null,
-       "pa": null,
+       "state": "post",
+       "result": "W",
+       "pf": 76,
+       "pa": 42,
        "status": "",
        "links": {
-        "video": "https://www.miaasportsnetwork.com/acscots/",
-        "live_stats": "https://almascots.com/sidearmstats/wbball/summary",
-        "tickets": "https://events.hometownticketing.com/boxoffice/alma/L2VtYmVkL2V2ZW50LzY1OD9zaW5nbGU9MQ%3D%3D"
+        "boxscore": "https://almascots.com/sports/womens-basketball/stats/2026-27/oberlin/boxscore/14513"
        },
-       "live_feed": {
-        "type": "sidearm",
-        "url": "https://sidearmstats.com/alma/wbball/game.json"
-       }
+       "live_feed": null
       },
       {
        "id": "alma-wbb-14511",
@@ -9761,10 +9754,10 @@
        "label": "Points",
        "name": "Kate Starkey",
        "jersey": "0",
-       "gp": "5",
-       "total": "78",
-       "avg": "15.6",
-       "line": "15.6 per game, 78 total",
+       "gp": "6",
+       "total": "95",
+       "avg": "15.8",
+       "line": "15.8 per game, 95 total",
        "position": "Guard",
        "year": "Sophomore",
        "headshot": "https://almascots.com/images/2026/10/30/Starkey_Kate2026.jpg?width=200&quality=90"
@@ -9773,10 +9766,10 @@
        "label": "Points",
        "name": "Makayla Porter",
        "jersey": "21",
-       "gp": "5",
-       "total": "41",
-       "avg": "8.2",
-       "line": "8.2 per game, 41 total",
+       "gp": "6",
+       "total": "52",
+       "avg": "8.7",
+       "line": "8.7 per game, 52 total",
        "position": "Forward",
        "year": "Redshirt Sophomore",
        "headshot": "https://almascots.com/images/2026/10/30/Porter_Makayla2026.jpg?width=200&quality=90"
@@ -9785,10 +9778,10 @@
        "label": "Rebounds",
        "name": "Makayla Porter",
        "jersey": "21",
-       "gp": "5",
-       "total": "19",
-       "avg": "3.8",
-       "line": "3.8 per game, 19 total",
+       "gp": "6",
+       "total": "24",
+       "avg": "4.0",
+       "line": "4.0 per game, 24 total",
        "position": "Forward",
        "year": "Redshirt Sophomore",
        "headshot": "https://almascots.com/images/2026/10/30/Porter_Makayla2026.jpg?width=200&quality=90"
@@ -9797,10 +9790,10 @@
        "label": "Assists",
        "name": "Kate Starkey",
        "jersey": "0",
-       "gp": "5",
-       "total": "13",
-       "avg": "2.6",
-       "line": "2.6 per game, 13 total",
+       "gp": "6",
+       "total": "15",
+       "avg": "2.5",
+       "line": "2.5 per game, 15 total",
        "position": "Guard",
        "year": "Sophomore",
        "headshot": "https://almascots.com/images/2026/10/30/Starkey_Kate2026.jpg?width=200&quality=90"
@@ -9809,10 +9802,10 @@
        "label": "Steals",
        "name": "Makayla Porter",
        "jersey": "21",
-       "gp": "5",
-       "total": "6",
-       "avg": "1.2",
-       "line": "1.2 per game, 6 total",
+       "gp": "6",
+       "total": "10",
+       "avg": "1.7",
+       "line": "1.7 per game, 10 total",
        "position": "Forward",
        "year": "Redshirt Sophomore",
        "headshot": "https://almascots.com/images/2026/10/30/Porter_Makayla2026.jpg?width=200&quality=90"
@@ -9821,7 +9814,7 @@
        "label": "Blocks",
        "name": "Delaney Seaman",
        "jersey": "20",
-       "gp": "5",
+       "gp": "6",
        "total": "1",
        "avg": "0.2",
        "line": "0.2 per game, 1 total",
@@ -9832,16 +9825,16 @@
      ],
      "departed": [],
      "stats_season": "2026-27",
-     "played": 5,
-     "wins": 3,
+     "played": 6,
+     "wins": 4,
      "losses": 2,
      "conf_wins": 0,
      "conf_losses": 0,
-     "pf": 334,
-     "pa": 329,
-     "record": "3-2",
+     "pf": 410,
+     "pa": 371,
+     "record": "4-2",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T20:28:39-06:00"
+     "fetched": "2026-11-24T21:00:05-06:00"
     },
     "calvin": {
      "games": [
@@ -10630,7 +10623,7 @@
      "pa": 361,
      "record": "4-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T20:28:39-06:00"
+     "fetched": "2026-11-24T21:00:05-06:00"
     },
     "hope": {
      "games": [
@@ -11455,7 +11448,7 @@
      "pa": 433,
      "record": "7-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T20:28:39-06:00"
+     "fetched": "2026-11-24T21:00:05-06:00"
     },
     "kalamazoo": {
      "games": [
@@ -12277,7 +12270,7 @@
      "pa": 207,
      "record": "0-3",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T20:28:39-06:00"
+     "fetched": "2026-11-24T21:00:05-06:00"
     },
     "olivet": {
      "games": [
@@ -13110,7 +13103,7 @@
      "pa": 285,
      "record": "0-4",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T20:28:39-06:00"
+     "fetched": "2026-11-24T21:00:05-06:00"
     },
     "saintmarys": {
      "games": [
@@ -13987,7 +13980,7 @@
      "pa": 298,
      "record": "4-1",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T20:28:39-06:00"
+     "fetched": "2026-11-24T21:00:05-06:00"
     },
     "trine": {
      "games": [
@@ -14788,7 +14781,7 @@
      "pa": 133,
      "record": "3-0",
      "conf_record": "0-0",
-     "fetched": "2026-11-24T20:28:39-06:00"
+     "fetched": "2026-11-24T21:00:05-06:00"
     }
    },
    "poll": {
