@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-25T14:02:44-06:00",
+ "fetched_at": "2026-11-25T16:04:36-06:00",
  "teams": {
   "olivet-mbb": {
    "games": [
@@ -921,8 +921,9 @@
      "pa": null,
      "status": "",
      "links": {
-      "live_stats": "https://www.olivetcomets.com/links/8jzwtj",
-      "video": "https://www.olivetcomets.com/links/xq44ax"
+      "live_stats": "https://uwlathletics.com/sidearmstats/wbball/summary",
+      "video": "https://www.olivetcomets.com/links/xq44ax",
+      "live_stats_short": "https://www.olivetcomets.com/links/8jzwtj"
      },
      "live_feed": null
     },
